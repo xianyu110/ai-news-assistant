@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "快讯详情",
+  "backgroundColor": "#f5f7fa",
+  "usingComponents": {
+    "uni-icons": "@dcloudio/uni-ui/lib/uni-icons/uni-icons"
+  }
+} 

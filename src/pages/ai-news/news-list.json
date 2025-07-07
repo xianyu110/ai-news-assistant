@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "AI快讯",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50,
+  "backgroundColor": "#f5f7fa",
+  "usingComponents": {
+    "uni-icons": "@dcloudio/uni-ui/lib/uni-icons/uni-icons"
+  }
+} 

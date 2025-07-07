@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "搜索快讯",
+  "navigationStyle": "custom",
+  "backgroundColor": "#f5f7fa",
+  "usingComponents": {
+    "uni-icons": "@dcloudio/uni-ui/lib/uni-icons/uni-icons"
+  }
+} 

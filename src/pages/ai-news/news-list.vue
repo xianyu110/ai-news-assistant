@@ -1,162 +1,142 @@
 <template>
   <view class="news-container">
-    <!-- 蓝色渐变顶部横幅 -->
+    <!-- 横幅标题 -->
     <view class="header-banner">
-      <view class="header-content">
-        <view class="header-title">
-          <text class="main-title">每日AI快讯</text>
-          <text class="sub-title">AI资讯 · 实时更新</text>
-        </view>
-        <view class="header-stats" v-if="stats">
-          <text class="today-count">今日 {{ stats.todayCount }}</text>
+      <view class="banner-bg">
+        <view class="banner-content">
+          <view class="banner-icon">
+            <view class="news-icon">📰</view>
+          </view>
+          <view class="banner-text">
+            <view class="banner-title">每日AI快讯</view>
+            <view class="banner-subtitle">AI行业资讯 | 热点 | 融资 | 产品动态</view>
+          </view>
         </view>
       </view>
       
-      <!-- 搜索框 -->
-      <view class="header-search">
-        <view class="search-box" @click="goToSearch">
-          <uni-icons type="search" size="18" color="#666"></uni-icons>
-          <text class="search-placeholder">搜索AI快讯、公司、技术...</text>
-        </view>
-        <view class="refresh-btn" @click="refreshNews">
-          <uni-icons type="reload" size="20" :color="loading ? '#ccc' : '#fff'"></uni-icons>
-        </view>
+      <!-- 描述文字 -->
+      <view class="description">
+        AI工具集每日实时更新 AI 行业的最新资讯、新闻、热点、融资、产品动态、爆料等，让你随时了解人工智能领域最新趋势、更新突破和热门大事件。
+        <text class="highlight" @click="joinGroup">加入AI工具集官方社群</text>
+        ，获取最新一手信息！
       </view>
     </view>
 
-    <!-- 分类标签 -->
-    <view class="category-section">
-      <scroll-view scroll-x="true" class="category-scroll">
-        <view class="category-list">
-          <view 
-            v-for="(category, index) in categories" 
-            :key="index"
-            class="category-item"
-            :class="{ active: selectedCategory === category }"
-            @click="selectCategory(category)"
-          >
-            {{ category }}
-          </view>
-        </view>
-      </scroll-view>
+    <!-- 搜索框 -->
+    <view class="search-section">
+      <view class="search-box" @click="goToSearch">
+        <uni-icons type="search" size="16" color="#999"></uni-icons>
+        <text class="search-placeholder">输入关键词搜索定位(精确匹配)</text>
+      </view>
     </view>
 
-    <!-- 按日期分组的新闻列表 -->
-    <view class="content-area">
+    <!-- 统计信息 -->
+    <view class="stats-section" v-if="stats.totalCount > 0">
+      <view class="stats-item">
+        <text class="stats-number">{{ stats.totalCount }}</text>
+        <text class="stats-label">总快讯</text>
+      </view>
+      <view class="stats-item">
+        <text class="stats-number">{{ stats.todayCount }}</text>
+        <text class="stats-label">今日新增</text>
+      </view>
+      <view class="stats-item">
+        <text class="stats-number">{{ Math.ceil((Date.now() - updateTime) / 1000 / 60) }}</text>
+        <text class="stats-label">分钟前更新</text>
+      </view>
+    </view>
+
+    <!-- 加载状态 -->
+    <view class="loading-state" v-if="loading && newsList.length === 0">
+      <uni-icons type="spinner-cycle" size="30" color="#4285F4"></uni-icons>
+      <text class="loading-text">正在加载最新快讯...</text>
+    </view>
+
+    <!-- 新闻列表 -->
+    <view class="news-list" v-if="!loading || newsList.length > 0">
       <view 
-        v-for="(group, date) in groupedNews" 
-        :key="date"
+        v-for="(dateGroup, dateKey) in groupedNews" 
+        :key="dateKey"
         class="date-group"
       >
         <!-- 日期标题 -->
         <view class="date-header">
-          <view class="date-line"></view>
-          <view class="date-info">
-            <text class="date-text">{{ formatDateHeader(date) }}</text>
-            <text class="weekday-text">{{ getWeekday(date) }}</text>
-          </view>
-          <view class="date-line"></view>
+          <view class="date-indicator"></view>
+          <text class="date-text">{{ formatDateGroup(dateKey) }}</text>
         </view>
-
+        
         <!-- 该日期的新闻列表 -->
-        <view class="news-list">
+        <view class="date-news-list">
           <view 
-            v-for="(news, index) in group" 
+            v-for="(news, index) in dateGroup" 
             :key="news.id"
-            class="news-card"
+            class="news-item"
             @click="viewNewsDetail(news)"
           >
-            <!-- 新闻卡片头部 -->
-            <view class="card-header">
-              <view class="news-category" :class="getCategoryClass(news.category)">
-                {{ news.category }}
+            <view class="news-content">
+              <view class="news-title">{{ news.title }}</view>
+              <view class="news-meta">
+                <text class="news-source">来源：{{ news.source }}</text>
+                <text class="news-time">{{ formatTime(news.publishTime) }}</text>
               </view>
-              <view class="news-time">{{ formatTimeOnly(news.publishTime) }}</view>
+              <view class="news-tags" v-if="news.tags && news.tags.length > 0">
+                <text 
+                  v-for="tag in news.tags.slice(0, 3)" 
+                  :key="tag"
+                  class="news-tag"
+                >
+                  {{ tag }}
+                </text>
+              </view>
             </view>
             
-            <!-- 新闻标题 -->
-            <view class="news-title">{{ news.title }}</view>
-            
-            <!-- 新闻内容摘要 -->
-            <view class="news-summary">{{ news.content }}</view>
-            
-            <!-- 标签 -->
-            <view class="news-tags" v-if="news.tags && news.tags.length">
+            <!-- 收藏按钮 -->
+            <view class="news-actions">
               <view 
-                v-for="tag in news.tags.slice(0, 3)" 
-                :key="tag"
-                class="tag-chip"
+                class="favorite-btn"
+                :class="{ favorited: news.isFavorited }"
+                @click.stop="toggleFavorite(news)"
               >
-                {{ tag }}
-              </view>
-            </view>
-            
-            <!-- 底部信息 -->
-            <view class="card-footer">
-              <view class="source-info">
-                <uni-icons type="paperplane" size="14" color="#999"></uni-icons>
-                <text class="source-text">{{ news.source }}</text>
-              </view>
-              <view class="card-actions">
-                <view class="action-btn" @click.stop="toggleFavorite(news)">
-                  <uni-icons 
-                    :type="news.isFavorited ? 'heart-filled' : 'heart'" 
-                    size="16" 
-                    :color="news.isFavorited ? '#ff4757' : '#ccc'"
-                  ></uni-icons>
-                </view>
-                <view class="action-btn" @click.stop="shareNews(news)">
-                  <uni-icons type="redo" size="16" color="#ccc"></uni-icons>
-                </view>
+                <uni-icons 
+                  :type="news.isFavorited ? 'heart-filled' : 'heart'" 
+                  :color="news.isFavorited ? '#FF6B6B' : '#CCC'" 
+                  size="16"
+                ></uni-icons>
               </view>
             </view>
           </view>
         </view>
       </view>
-      
-      <!-- 加载更多 -->
-      <view class="load-more-section" v-if="hasMore">
-        <view class="load-indicator">
-          <text class="load-text">{{ loadingMore ? '加载中...' : '上拉加载更多' }}</text>
-        </view>
-      </view>
-      
-      <!-- 没有更多数据 -->
-      <view class="end-section" v-if="!hasMore && newsList.length > 0">
-        <view class="end-indicator">
-          <view class="end-line"></view>
-          <text class="end-text">没有更多内容了</text>
-          <view class="end-line"></view>
-        </view>
-      </view>
+    </view>
+
+    <!-- 加载更多 -->
+    <view class="load-more" v-if="loadingMore">
+      <uni-icons type="spinner-cycle" size="20" color="#4285F4"></uni-icons>
+      <text class="load-more-text">正在加载更多...</text>
+    </view>
+
+    <!-- 没有更多数据 -->
+    <view class="no-more" v-if="!hasMore && newsList.length > 0">
+      <text class="no-more-text">— 已加载全部快讯 —</text>
     </view>
 
     <!-- 空状态 -->
-    <view class="empty-state" v-if="!loading && filteredNews.length === 0">
-      <uni-icons type="info-circle" size="60" color="#ddd"></uni-icons>
-      <text class="empty-text">暂无AI快讯</text>
-      <button class="retry-btn" @click="loadNews">刷新试试</button>
+    <view class="empty-state" v-if="!loading && newsList.length === 0">
+      <uni-icons type="info" size="60" color="#DDD"></uni-icons>
+      <text class="empty-text">暂无快讯数据</text>
+      <button class="refresh-btn" @click="refreshNews">刷新试试</button>
     </view>
 
-    <!-- 全局加载状态 -->
-    <view class="loading-overlay" v-if="loading">
-      <view class="loading-content">
-        <uni-icons type="spinner-cycle" size="30" color="#007aff"></uni-icons>
-        <text class="loading-text">加载中...</text>
-      </view>
-    </view>
-
-    <!-- 浮动按钮：爬取最新数据 -->
-    <view class="fab" @click="crawlLatestNews">
-      <uni-icons type="download" size="24" color="#fff"></uni-icons>
+    <!-- 浮动刷新按钮 -->
+    <view class="floating-refresh" @click="refreshNews" v-if="!loading">
+      <uni-icons type="refresh" size="20" color="#4285F4"></uni-icons>
     </view>
   </view>
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
-import { onPullDownRefresh, onReachBottom } from '@dcloudio/uni-app'
-import { NewsService, LocalStorage, NewsItem } from '../../utils/cloudbase'
+import { ref, computed, onMounted } from 'vue'
+import { NewsService, LocalStorage } from '../../utils/cloudbase'
 
 // 声明 wx 对象类型（小程序环境）
 declare const wx: any
@@ -165,67 +145,51 @@ declare const wx: any
 const loading = ref(false)
 const loadingMore = ref(false)
 const newsList = ref<any[]>([])
-const selectedCategory = ref('全部')
+const stats = ref({
+  totalCount: 0,
+  todayCount: 0,
+  categories: [] as string[],
+  sources: [] as string[]
+})
+const updateTime = ref(Date.now())
 const currentPage = ref(1)
 const pageSize = ref(20)
 const hasMore = ref(true)
-const stats = ref<any>(null)
 
-// 分类列表
-const categories = ref([
-  '全部', '投融资', '开源项目', '产品发布', '行业动态', '技术研究', '综合资讯'
-])
-
-// 计算属性：过滤后的新闻
-const filteredNews = computed(() => {
-  if (selectedCategory.value === '全部') {
-    return newsList.value
-  }
-  return newsList.value.filter(news => news.category === selectedCategory.value)
-})
-
-// 计算属性：按日期分组的新闻
+// 按日期分组的新闻
 const groupedNews = computed(() => {
   const groups: Record<string, any[]> = {}
   
-  filteredNews.value.forEach(news => {
-    const date = new Date(news.publishTime).toDateString()
-    if (!groups[date]) {
-      groups[date] = []
+  newsList.value.forEach(news => {
+    const date = new Date(news.publishTime)
+    const dateKey = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
+    
+    if (!groups[dateKey]) {
+      groups[dateKey] = []
     }
-    groups[date].push(news)
+    groups[dateKey].push(news)
   })
   
-  // 按日期倒序排列
+  // 按日期降序排序
+  const sortedKeys = Object.keys(groups).sort((a, b) => b.localeCompare(a))
   const sortedGroups: Record<string, any[]> = {}
-  Object.keys(groups)
-    .sort((a, b) => new Date(b).getTime() - new Date(a).getTime())
-    .forEach(date => {
-      sortedGroups[date] = groups[date].sort((a, b) => 
-        new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime()
-      )
-    })
+  
+  sortedKeys.forEach(key => {
+    sortedGroups[key] = groups[key].sort((a, b) => 
+      new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime()
+    )
+  })
   
   return sortedGroups
 })
 
-// 页面加载
+// 页面初始化
 onMounted(async () => {
   await initPage()
 })
 
-// 下拉刷新
-onPullDownRefresh(async () => {
-  await refreshNews()
-  uni.stopPullDownRefresh()
-})
-
-// 上拉加载更多
-onReachBottom(async () => {
-  if (!loadingMore.value && hasMore.value) {
-    await loadMoreNews()
-  }
-})
+// H5版本不支持下拉刷新和上拉加载
+// 使用手动刷新按钮和加载更多按钮代替
 
 // 初始化页面
 const initPage = async () => {
@@ -252,55 +216,50 @@ const loadNews = async (page = 1) => {
   }
 
   try {
-    console.log('📰 开始加载AI快讯数据...')
+    console.log('📰 开始加载新闻数据...')
     
-    // 使用新的数据服务
     const result = await NewsService.getNews()
     
     if (result.success) {
-      const allData = result.data || []
+      const allNews = result.data || []
+      updateTime.value = new Date(result.updateTime).getTime()
       
       // 分页处理
       const startIndex = (page - 1) * pageSize.value
       const endIndex = startIndex + pageSize.value
-      const pageData = allData.slice(startIndex, endIndex)
+      const pageNews = allNews.slice(startIndex, endIndex)
       
       if (page === 1) {
-        newsList.value = pageData
+        newsList.value = pageNews
       } else {
-        newsList.value.push(...pageData)
+        newsList.value = [...newsList.value, ...pageNews]
       }
       
-      hasMore.value = endIndex < allData.length
-      currentPage.value = page
+      // 检查是否还有更多数据
+      hasMore.value = endIndex < allNews.length
       
-      // 加载用户收藏状态
+      // 加载收藏状态
       await loadFavoriteStatus()
       
-      console.log(`✅ 成功加载 ${pageData.length} 条新闻，总共 ${allData.length} 条`)
+      console.log(`✅ 成功加载 ${pageNews.length} 条新闻，总计 ${newsList.value.length} 条`)
+      
+      if (page === 1 && pageNews.length > 0) {
+        uni.showToast({ 
+          title: `已加载 ${pageNews.length} 条最新快讯`, 
+          icon: 'success',
+          duration: 2000
+        })
+      }
     } else {
       throw new Error(result.error || '加载失败')
     }
   } catch (error) {
     console.error('❌ 加载新闻失败:', error)
-    uni.showToast({ 
-      title: '加载失败，请稍后重试', 
-      icon: 'error' 
-    })
+    uni.showToast({ title: '加载失败', icon: 'error' })
   } finally {
     loading.value = false
     loadingMore.value = false
   }
-}
-
-// 加载更多新闻
-const loadMoreNews = async () => {
-  await loadNews(currentPage.value + 1)
-}
-
-// 刷新新闻
-const refreshNews = async () => {
-  await loadNews(1)
 }
 
 // 加载统计信息
@@ -317,64 +276,30 @@ const loadStats = async () => {
   }
 }
 
-// 爬取最新数据
-const crawlLatestNews = async () => {
-  uni.showLoading({ title: '更新数据中...' })
+// 刷新新闻
+const refreshNews = async () => {
+  console.log('🔄 刷新新闻数据...')
+  currentPage.value = 1
+  await loadNews(1)
+  await loadStats()
+}
+
+// 加载更多
+const loadMore = async () => {
+  if (!hasMore.value || loadingMore.value) return
   
-  try {
-    // 清除本地缓存，强制重新获取最新数据
-    uni.removeStorageSync('newsData')
-    
-    const result = await NewsService.getNews()
-    
-    uni.hideLoading()
-    
-    if (result.success) {
-      uni.showToast({ 
-        title: `数据已更新，共 ${result.count} 条`, 
-        icon: 'success' 
-      })
-      await refreshNews()
-      await loadStats()
-    } else {
-      throw new Error(result.error || '更新失败')
-    }
-  } catch (error) {
-    uni.hideLoading()
-    console.error('❌ 更新数据失败:', error)
-    uni.showToast({ title: '更新失败，请稍后重试', icon: 'error' })
-  }
-}
-
-// 选择分类
-const selectCategory = (category: string) => {
-  selectedCategory.value = category
-}
-
-// 查看新闻详情
-const viewNewsDetail = (news: any) => {
-  uni.navigateTo({
-    url: `/pages/ai-news/news-detail?id=${news.id}`
-  })
-}
-
-// 跳转搜索页面
-const goToSearch = () => {
-  uni.navigateTo({
-    url: '/pages/ai-news/search'
-  })
+  currentPage.value += 1
+  await loadNews(currentPage.value)
 }
 
 // 切换收藏状态
-const toggleFavorite = async (news: any) => {
+const toggleFavorite = (news: any) => {
   try {
     if (news.isFavorited) {
-      // 取消收藏
       LocalStorage.removeFavorite(news.id)
       news.isFavorited = false
       uni.showToast({ title: '已取消收藏', icon: 'success' })
     } else {
-      // 添加收藏
       LocalStorage.saveFavorite(news)
       news.isFavorited = true
       uni.showToast({ title: '已收藏', icon: 'success' })
@@ -383,31 +308,6 @@ const toggleFavorite = async (news: any) => {
     console.error('❌ 收藏操作失败:', error)
     uni.showToast({ title: '操作失败', icon: 'error' })
   }
-}
-
-// 分享新闻
-const shareNews = (news: any) => {
-  uni.showActionSheet({
-    itemList: ['复制链接', '分享给朋友'],
-    success: (res) => {
-      if (res.tapIndex === 0) {
-        // 复制链接
-        uni.setClipboardData({
-          data: news.sourceUrl || '暂无链接',
-          success: () => {
-            uni.showToast({ title: '已复制链接', icon: 'success' })
-          }
-        })
-      } else if (res.tapIndex === 1) {
-        // 分享功能
-        uni.share({
-          title: news.title,
-          summary: news.content,
-          href: news.sourceUrl
-        })
-      }
-    }
-  })
 }
 
 // 加载收藏状态
@@ -422,186 +322,210 @@ const loadFavoriteStatus = async () => {
   }
 }
 
-// 格式化日期标题 (月日格式)
-const formatDateHeader = (dateString: string) => {
-  const date = new Date(dateString)
+// 查看新闻详情
+const viewNewsDetail = (news: any) => {
+  uni.navigateTo({
+    url: `/pages/ai-news/news-detail?id=${news.id}`
+  })
+}
+
+// 前往搜索页面
+const goToSearch = () => {
+  uni.navigateTo({
+    url: '/pages/ai-news/search'
+  })
+}
+
+// 加入群组
+const joinGroup = () => {
+  uni.showModal({
+    title: '提示',
+    content: '请关注AI工具集官方网站获取更多信息',
+    showCancel: false
+  })
+}
+
+// 格式化日期分组
+const formatDateGroup = (dateKey: string) => {
+  const date = new Date(dateKey)
   const today = new Date()
   const yesterday = new Date(today.getTime() - 24 * 60 * 60 * 1000)
   
-  if (date.toDateString() === today.toDateString()) {
-    return '今天'
-  } else if (date.toDateString() === yesterday.toDateString()) {
-    return '昨天'
+  const month = date.getMonth() + 1
+  const day = date.getDate()
+  const weekDays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
+  const weekDay = weekDays[date.getDay()]
+  
+  if (dateKey === today.toISOString().split('T')[0]) {
+    return `今天·${weekDay}`
+  } else if (dateKey === yesterday.toISOString().split('T')[0]) {
+    return `昨天·${weekDay}`
   } else {
-    return `${date.getMonth() + 1}月${date.getDate()}日`
+    return `${month}月${day}日·${weekDay}`
   }
 }
 
-// 获取星期几
-const getWeekday = (dateString: string) => {
-  const date = new Date(dateString)
-  const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
-  return weekdays[date.getDay()]
-}
-
-// 格式化时间 (仅显示时分)
-const formatTimeOnly = (time: any) => {
+// 格式化时间
+const formatTime = (time: any) => {
   if (!time) return ''
   
   const date = new Date(time)
-  const hours = date.getHours().toString().padStart(2, '0')
-  const minutes = date.getMinutes().toString().padStart(2, '0')
+  const hours = String(date.getHours()).padStart(2, '0')
+  const minutes = String(date.getMinutes()).padStart(2, '0')
   
   return `${hours}:${minutes}`
 }
-
-// 获取分类样式类名
-const getCategoryClass = (category: string) => {
-  const classMap: Record<string, string> = {
-    '投融资': 'category-finance',
-    '开源项目': 'category-opensource',
-    '产品发布': 'category-product',
-    '行业动态': 'category-industry',
-    '技术研究': 'category-tech',
-    '综合资讯': 'category-general'
-  }
-  return classMap[category] || 'category-default'
-}
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .news-container {
   min-height: 100vh;
-  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+  background: #F5F7FA;
 }
 
-/* 蓝色渐变顶部横幅 */
+// 横幅样式
 .header-banner {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 60rpx 30rpx 40rpx;
+  background: #4285F4;
+  padding: 30rpx 20rpx 20rpx;
   position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 120%;
+    height: 200%;
+    background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+    transform: rotate(15deg);
+  }
 }
 
-.header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 30rpx;
+.banner-bg {
+  position: relative;
+  z-index: 1;
 }
 
-.header-title {
-  display: flex;
-  flex-direction: column;
-}
-
-.main-title {
-  font-size: 44rpx;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 8rpx;
-}
-
-.sub-title {
-  font-size: 24rpx;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.header-stats {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 12rpx 20rpx;
-  border-radius: 25rpx;
-  backdrop-filter: blur(10rpx);
-}
-
-.today-count {
-  font-size: 24rpx;
-  color: #fff;
-  font-weight: 500;
-}
-
-/* 搜索框 */
-.header-search {
+.banner-content {
   display: flex;
   align-items: center;
-  gap: 20rpx;
+  margin-bottom: 20rpx;
 }
 
-.search-box {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  padding: 20rpx 24rpx;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(10rpx);
-  border-radius: 50rpx;
-  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
-}
-
-.search-placeholder {
-  margin-left: 16rpx;
-  color: #666;
-  font-size: 28rpx;
-  flex: 1;
-}
-
-.refresh-btn {
+.banner-icon {
   width: 80rpx;
   height: 80rpx;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  border-radius: 16rpx;
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(10rpx);
+  margin-right: 20rpx;
 }
 
-/* 分类标签 */
-.category-section {
-  background: #fff;
-  padding: 20rpx 0;
-  border-top-left-radius: 30rpx;
-  border-top-right-radius: 30rpx;
-  margin-top: -20rpx;
-  position: relative;
-  z-index: 2;
+.news-icon {
+  font-size: 40rpx;
 }
 
-.category-scroll {
-  white-space: nowrap;
+.banner-text {
+  flex: 1;
 }
 
-.category-list {
+.banner-title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 8rpx;
+}
+
+.banner-subtitle {
+  font-size: 24rpx;
+  color: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.15);
+  padding: 6rpx 12rpx;
+  border-radius: 12rpx;
+  display: inline-block;
+}
+
+.description {
+  font-size: 24rpx;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.9);
+  
+  .highlight {
+    color: #FFE082;
+    text-decoration: underline;
+  }
+}
+
+// 搜索框样式
+.search-section {
+  padding: 20rpx;
+  background: white;
+  margin-bottom: 1rpx;
+}
+
+.search-box {
   display: flex;
-  padding: 0 30rpx;
-  gap: 20rpx;
+  align-items: center;
+  padding: 24rpx 20rpx;
+  background: #F8F9FA;
+  border-radius: 12rpx;
+  border: 2rpx solid #E9ECEF;
 }
 
-.category-item {
-  padding: 16rpx 28rpx;
-  background: #f8f9fa;
-  border-radius: 30rpx;
-  font-size: 26rpx;
-  color: #666;
-  white-space: nowrap;
-  transition: all 0.3s ease;
-  border: 2rpx solid transparent;
+.search-placeholder {
+  font-size: 28rpx;
+  color: #999;
+  margin-left: 12rpx;
 }
 
-.category-item.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #fff;
-  transform: scale(1.05);
-  box-shadow: 0 4rpx 15rpx rgba(102, 126, 234, 0.3);
+// 统计信息样式
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20rpx;
+  background: white;
+  margin-bottom: 20rpx;
 }
 
-/* 内容区域 */
-.content-area {
-  background: #f8f9fa;
-  min-height: calc(100vh - 300rpx);
-  padding: 0 30rpx 30rpx;
+.stats-item {
+  text-align: center;
+  
+  .stats-number {
+    display: block;
+    font-size: 32rpx;
+    font-weight: bold;
+    color: #4285F4;
+    margin-bottom: 8rpx;
+  }
+  
+  .stats-label {
+    font-size: 24rpx;
+    color: #666;
+  }
 }
 
-/* 日期分组 */
+// 加载状态
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80rpx 20rpx;
+  
+  .loading-text {
+    font-size: 28rpx;
+    color: #666;
+    margin-top: 20rpx;
+  }
+}
+
+// 新闻列表样式
+.news-list {
+  padding: 0 20rpx 20rpx;
+}
+
 .date-group {
   margin-bottom: 40rpx;
 }
@@ -609,291 +533,175 @@ const getCategoryClass = (category: string) => {
 .date-header {
   display: flex;
   align-items: center;
-  margin: 30rpx 0 20rpx;
+  margin-bottom: 20rpx;
+  padding: 0 4rpx;
 }
 
-.date-line {
-  flex: 1;
-  height: 1rpx;
-  background: linear-gradient(90deg, transparent, #ddd, transparent);
-}
-
-.date-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 30rpx;
+.date-indicator {
+  width: 8rpx;
+  height: 8rpx;
+  background: #4285F4;
+  border-radius: 50%;
+  margin-right: 12rpx;
 }
 
 .date-text {
   font-size: 28rpx;
-  font-weight: 600;
-  color: #333;
+  font-weight: bold;
+  color: #4285F4;
 }
 
-.weekday-text {
-  font-size: 22rpx;
-  color: #999;
-  margin-top: 4rpx;
-}
-
-/* 新闻卡片 */
-.news-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20rpx;
-}
-
-.news-card {
-  background: #fff;
-  border-radius: 20rpx;
-  padding: 30rpx;
-  box-shadow: 0 2rpx 20rpx rgba(0, 0, 0, 0.06);
-  border: 1rpx solid rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  position: relative;
+.date-news-list {
+  background: white;
+  border-radius: 12rpx;
   overflow: hidden;
 }
 
-.news-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4rpx;
-  background: linear-gradient(90deg, #667eea, #764ba2);
-}
-
-.news-card:active {
-  transform: translateY(2rpx);
-  box-shadow: 0 1rpx 10rpx rgba(0, 0, 0, 0.1);
-}
-
-.card-header {
+.news-item {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20rpx;
+  align-items: flex-start;
+  padding: 24rpx;
+  border-bottom: 1rpx solid #F0F0F0;
+  transition: background-color 0.2s;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+  
+  &:active {
+    background: #F8F9FA;
+  }
 }
 
-.news-category {
-  padding: 8rpx 16rpx;
-  border-radius: 20rpx;
-  font-size: 22rpx;
-  color: #fff;
-  font-weight: 500;
-}
-
-.category-finance { background: linear-gradient(135deg, #ff6b6b, #ee5a24); }
-.category-opensource { background: linear-gradient(135deg, #4ecdc4, #44a08d); }
-.category-product { background: linear-gradient(135deg, #45b7d1, #3742fa); }
-.category-industry { background: linear-gradient(135deg, #f9ca24, #f0932b); }
-.category-tech { background: linear-gradient(135deg, #6c5ce7, #a29bfe); }
-.category-general { background: linear-gradient(135deg, #a0a0a0, #747d8c); }
-.category-default { background: linear-gradient(135deg, #95a5a6, #7f8c8d); }
-
-.news-time {
-  font-size: 22rpx;
-  color: #999;
-  background: #f8f9fa;
-  padding: 6rpx 12rpx;
-  border-radius: 12rpx;
+.news-content {
+  flex: 1;
+  margin-right: 20rpx;
 }
 
 .news-title {
-  font-size: 32rpx;
-  font-weight: 600;
-  color: #222;
+  font-size: 30rpx;
+  color: #333;
   line-height: 1.5;
-  margin-bottom: 16rpx;
-  word-break: break-word;
+  margin-bottom: 12rpx;
+  font-weight: 500;
 }
 
-.news-summary {
-  font-size: 28rpx;
+.news-meta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12rpx;
+}
+
+.news-source {
+  font-size: 24rpx;
   color: #666;
-  line-height: 1.6;
-  margin-bottom: 20rpx;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  margin-right: 20rpx;
+}
+
+.news-time {
+  font-size: 24rpx;
+  color: #999;
 }
 
 .news-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 12rpx;
-  margin-bottom: 20rpx;
-}
-
-.tag-chip {
-  padding: 6rpx 12rpx;
-  background: linear-gradient(135deg, #f0f8ff, #e6f3ff);
-  color: #2196f3;
-  font-size: 22rpx;
-  border-radius: 12rpx;
-  border: 1rpx solid #e3f2fd;
-  font-weight: 500;
-}
-
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 16rpx;
-  border-top: 1rpx solid #f5f5f5;
-}
-
-.source-info {
-  display: flex;
-  align-items: center;
   gap: 8rpx;
 }
 
-.source-text {
-  font-size: 24rpx;
-  color: #999;
+.news-tag {
+  font-size: 20rpx;
+  color: #4285F4;
+  background: rgba(66, 133, 244, 0.1);
+  padding: 4rpx 8rpx;
+  border-radius: 8rpx;
 }
 
-.card-actions {
+.news-actions {
   display: flex;
-  gap: 24rpx;
+  flex-direction: column;
+  align-items: center;
 }
 
-.action-btn {
+.favorite-btn {
   padding: 12rpx;
   border-radius: 50%;
-  transition: all 0.2s ease;
+  transition: background-color 0.2s;
+  
+  &:active {
+    background: #F0F0F0;
+  }
+  
+  &.favorited {
+    background: rgba(255, 107, 107, 0.1);
+  }
 }
 
-.action-btn:active {
-  background: #f5f5f5;
-  transform: scale(0.95);
-}
-
-/* 加载更多 */
-.load-more-section {
-  padding: 40rpx 0;
-  text-align: center;
-}
-
-.load-indicator {
-  display: inline-block;
-  padding: 16rpx 32rpx;
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 30rpx;
-  backdrop-filter: blur(10rpx);
-}
-
-.load-text {
-  font-size: 26rpx;
-  color: #666;
-}
-
-/* 结束提示 */
-.end-section {
-  padding: 40rpx 0;
-  text-align: center;
-}
-
-.end-indicator {
+// 加载更多样式
+.load-more {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20rpx;
+  padding: 40rpx;
+  
+  .load-more-text {
+    font-size: 28rpx;
+    color: #666;
+    margin-left: 12rpx;
+  }
 }
 
-.end-line {
-  width: 60rpx;
-  height: 1rpx;
-  background: #ddd;
+// 没有更多数据
+.no-more {
+  text-align: center;
+  padding: 40rpx;
+  
+  .no-more-text {
+    font-size: 24rpx;
+    color: #999;
+  }
 }
 
-.end-text {
-  font-size: 24rpx;
-  color: #999;
-  padding: 0 20rpx;
-}
-
-/* 空状态 */
+// 空状态
 .empty-state {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 120rpx 40rpx;
-  background: #fff;
-  margin: 30rpx;
-  border-radius: 20rpx;
+  padding: 100rpx 40rpx;
+  
+  .empty-text {
+    font-size: 28rpx;
+    color: #999;
+    margin: 20rpx 0 40rpx;
+  }
+  
+  .refresh-btn {
+    background: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 24rpx;
+    padding: 20rpx 40rpx;
+    font-size: 28rpx;
+  }
 }
 
-.empty-text {
-  font-size: 28rpx;
-  color: #999;
-  margin: 30rpx 0;
-}
-
-.retry-btn {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: #fff;
-  border: none;
-  border-radius: 30rpx;
-  padding: 20rpx 40rpx;
-  font-size: 28rpx;
-}
-
-/* 全局加载状态 */
-.loading-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  backdrop-filter: blur(5rpx);
-}
-
-.loading-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20rpx;
-  padding: 40rpx;
-  background: #fff;
-  border-radius: 20rpx;
-  box-shadow: 0 10rpx 40rpx rgba(0, 0, 0, 0.1);
-}
-
-.loading-text {
-  font-size: 28rpx;
-  color: #007aff;
-}
-
-/* 浮动按钮 */
-.fab {
+// 浮动刷新按钮
+.floating-refresh {
   position: fixed;
   right: 30rpx;
-  bottom: 100rpx;
-  width: 100rpx;
-  height: 100rpx;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  bottom: 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+  background: white;
   border-radius: 50%;
+  box-shadow: 0 4rpx 20rpx rgba(0,0,0,0.15);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8rpx 30rpx rgba(102, 126, 234, 0.4);
-  z-index: 100;
-  transition: all 0.3s ease;
-}
-
-.fab:active {
-  transform: scale(0.95);
+  z-index: 999;
+  
+  &:active {
+    transform: scale(0.95);
+  }
 }
 </style> 

@@ -1,395 +1,533 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const fs = require('fs');
+const fs = require('fs').promises;
 const path = require('path');
 
-/**
- * 爬取AI工具集每日快讯
- */
-async function crawlAINews() {
-  try {
-    console.log('🕷️ 开始爬取AI快讯...');
-    
-    // 爬取网页内容
-    const response = await axios.get('https://ai-bot.cn/daily-ai-news/', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'DNT': '1',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-      },
-      timeout: 30000
-    });
+// 爬虫配置
+const CRAWL_CONFIG = {
+  baseUrl: 'https://ai-bot.cn/daily-ai-news/',
+  timeout: 30000,
+  retryTimes: 3,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+};
 
-    const $ = cheerio.load(response.data);
-    const newsItems = [];
+// 数据文件路径
+const DATA_DIR = path.join(__dirname, '../src/data');
+const AI_NEWS_FILE = path.join(DATA_DIR, 'ai-news.json');
+const ALL_NEWS_FILE = path.join(DATA_DIR, 'all-news.json');
+const HISTORY_DIR = path.join(DATA_DIR, 'history');
+const HISTORY_INDEX_FILE = path.join(HISTORY_DIR, 'index.json');
+
+// 创建目录结构
+async function ensureDirectories() {
+  try {
+    await fs.mkdir(DATA_DIR, { recursive: true });
+    await fs.mkdir(HISTORY_DIR, { recursive: true });
+    console.log('✅ 目录结构创建成功');
+  } catch (error) {
+    console.error('❌ 创建目录失败:', error);
+  }
+}
+
+// 发送HTTP请求（带重试机制）
+async function fetchWithRetry(url, options = {}, retries = CRAWL_CONFIG.retryTimes) {
+  const config = {
+    timeout: CRAWL_CONFIG.timeout,
+    headers: {
+      'User-Agent': CRAWL_CONFIG.userAgent,
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+      'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+      'Accept-Encoding': 'gzip, deflate, br',
+      'Connection': 'keep-alive',
+      'Upgrade-Insecure-Requests': '1',
+    },
+    ...options
+  };
+
+  for (let i = 0; i < retries; i++) {
+    try {
+      console.log(`🌐 请求 ${url} (第${i + 1}次尝试)`);
+      const response = await axios.get(url, config);
+      
+      if (response.status === 200) {
+        console.log(`✅ 成功获取 ${url}`);
+        return response;
+      }
+    } catch (error) {
+      console.warn(`⚠️  请求失败 (${i + 1}/${retries}):`, error.message);
+      
+      if (i === retries - 1) {
+        throw error;
+      }
+      
+      // 等待一段时间后重试
+      await new Promise(resolve => setTimeout(resolve, (i + 1) * 1000));
+    }
+  }
+}
+
+// 解析日期文本为标准日期
+function parseDateText(dateText) {
+  if (!dateText) return new Date();
+  
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  
+  // 匹配 "7月8·周二" 格式
+  const match = dateText.match(/(\d+)月(\d+)/);
+  if (match) {
+    const month = parseInt(match[1]) - 1; // JavaScript月份从0开始
+    const day = parseInt(match[2]);
     
-    console.log('📄 页面标题:', $('title').text());
+    // 判断年份：如果月份小于当前月份，可能是下一年
+    let year = currentYear;
+    if (month < now.getMonth() || (month === now.getMonth() && day < now.getDate())) {
+      // 如果是过去的日期，保持当前年份
+      year = currentYear;
+    }
     
-    // 提取所有文本内容，按行处理
+    return new Date(year, month, day);
+  }
+  
+  return now;
+}
+
+// 解析新闻页面
+function parseNewsPage(html) {
+  const $ = cheerio.load(html);
+  const newsList = [];
+  let currentDate = null;
+  let currentDateText = '';
+
+  try {
+    console.log('📄 开始解析AI工具集新闻页面...');
+    
+    // 查找所有文本内容，按行处理
     const bodyText = $('body').text();
     const lines = bodyText.split('\n').map(line => line.trim()).filter(line => line.length > 0);
     
-    let currentDate = '';
     let currentTitle = '';
     let currentContent = '';
     let currentSource = '';
+    let newsItemCount = 0;
     
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
       
+      // 跳过无关内容
+      if (line.includes('AI工具集') || line.includes('Copyright') || 
+          line.includes('蜀ICP') || line.includes('游客') ||
+          line.includes('回复') || line.includes('个月前') ||
+          line.length < 5) {
+        continue;
+      }
+      
       // 检测日期行（如：7月8·周二）
-      if (/\d+月\d+.*周/.test(line)) {
-        currentDate = line;
+      if (/^\d+月\d+.*周/.test(line)) {
+        currentDateText = line;
+        currentDate = parseDateText(line);
+        console.log(`📅 找到日期: ${line} -> ${currentDate.toDateString()}`);
         continue;
       }
       
       // 检测来源行（如：来源：阿里云）
       if (line.startsWith('来源：')) {
-        currentSource = line.replace('来源：', '');
+        currentSource = line.replace('来源：', '').trim();
         
         // 如果有完整的新闻项，保存它
-        if (currentTitle && currentContent) {
+        if (currentTitle && currentContent && currentDate) {
+          const publishTime = new Date(currentDate);
+          // 为同一天的新闻设置不同的时间
+          publishTime.setHours(9 + (newsItemCount % 12), (newsItemCount * 17) % 60);
+          
           const newsItem = {
-            id: generateId(currentTitle + currentContent),
-            title: currentTitle,
-            content: currentContent,
-            originalContent: currentContent,
+            id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+            title: currentTitle.trim(),
+            content: currentContent.trim(),
             source: currentSource || 'AI工具集',
             sourceUrl: 'https://ai-bot.cn/daily-ai-news/',
-            publishTime: parseTime(currentDate),
+            publishTime: publishTime.toISOString(),
             crawlTime: new Date().toISOString(),
-            category: extractCategory(currentTitle, currentContent),
-            tags: extractTags(currentTitle, currentContent),
-            dateText: currentDate
+            category: categorizeNews(currentTitle + ' ' + currentContent),
+            tags: extractTags(currentTitle + ' ' + currentContent),
+            dateText: currentDateText
           };
           
-          newsItems.push(newsItem);
-          console.log(`📰 提取新闻: ${currentTitle.substring(0, 50)}...`);
+          newsList.push(newsItem);
+          newsItemCount++;
+          console.log(`📰 提取新闻 ${newsItemCount}: ${currentTitle.substring(0, 50)}...`);
         }
         
         // 重置状态
         currentTitle = '';
         currentContent = '';
-        currentSource = '';
         continue;
       }
       
-      // 检测标题行
-      if (line.startsWith('## ') || (line.length > 10 && line.length < 100 && 
-          (line.includes('开源') || line.includes('发布') || line.includes('推出') || 
-           line.includes('完成') || line.includes('宣布') || line.includes('上线')))) {
-        if (currentTitle) {
-          // 如果已有标题，将当前行作为内容
-          currentContent += (currentContent ? ' ' : '') + line;
-        } else {
+      // 检测标题行（通常是##开头或者是较短的描述性文本）
+      if (line.startsWith('## ') || 
+          (line.length > 15 && line.length < 150 && 
+           (line.includes('开源') || line.includes('发布') || line.includes('推出') || 
+            line.includes('完成') || line.includes('宣布') || line.includes('上线') ||
+            line.includes('升级') || line.includes('融资') || line.includes('投资')))) {
+        
+        if (currentTitle && currentContent) {
+          // 如果已有标题和内容，当前行作为新内容
+          currentContent += (currentContent ? ' ' : '') + line.replace(/^## /, '');
+        } else if (!currentTitle) {
           currentTitle = line.replace(/^## /, '');
+        } else {
+          currentContent += (currentContent ? ' ' : '') + line.replace(/^## /, '');
         }
         continue;
       }
       
       // 其他长文本作为内容
-      if (line.length > 20 && !line.includes('AI工具集') && !line.includes('Copyright') && 
-          !line.includes('蜀ICP') && !line.includes('游客')) {
+      if (line.length > 20 && line.length < 1000) {
         currentContent += (currentContent ? ' ' : '') + line;
       }
     }
     
-    // 如果没有找到结构化内容，尝试更直接的方法
-    if (newsItems.length === 0) {
-      console.log('🔄 尝试备用解析方法...');
+    // 处理最后一条新闻（可能没有"来源："结尾）
+    if (currentTitle && currentContent && currentDate) {
+      const publishTime = new Date(currentDate);
+      publishTime.setHours(9 + (newsItemCount % 12), (newsItemCount * 17) % 60);
       
-      // 查找所有h2, h3标题
-      $('h1, h2, h3').each((index, element) => {
-        const title = $(element).text().trim();
-        if (title && title.length > 10 && title.length < 200) {
-          // 查找标题后的内容
-          let content = '';
-          let nextElement = $(element).next();
-          
-          while (nextElement.length && content.length < 500) {
-            const text = nextElement.text().trim();
-            if (text && !text.startsWith('来源：')) {
-              content += text + ' ';
-            } else if (text.startsWith('来源：')) {
-              break;
-            }
-            nextElement = nextElement.next();
-          }
-          
-          if (content.trim()) {
-            const newsItem = {
-              id: generateId(title + content),
-              title: title,
-              content: content.trim(),
-              originalContent: content.trim(),
-              source: 'AI工具集',
-              sourceUrl: 'https://ai-bot.cn/daily-ai-news/',
-              publishTime: new Date().toISOString(),
-              crawlTime: new Date().toISOString(),
-              category: extractCategory(title, content),
-              tags: extractTags(title, content),
-              dateText: '今日'
-            };
-            
-            newsItems.push(newsItem);
-          }
-        }
-      });
+      const newsItem = {
+        id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+        title: currentTitle.trim(),
+        content: currentContent.trim(),
+        source: currentSource || 'AI工具集',
+        sourceUrl: 'https://ai-bot.cn/daily-ai-news/',
+        publishTime: publishTime.toISOString(),
+        crawlTime: new Date().toISOString(),
+        category: categorizeNews(currentTitle + ' ' + currentContent),
+        tags: extractTags(currentTitle + ' ' + currentContent),
+        dateText: currentDateText
+      };
+      
+      newsList.push(newsItem);
+      newsItemCount++;
+      console.log(`📰 提取新闻 ${newsItemCount}: ${currentTitle.substring(0, 50)}...`);
     }
-    
-    // 最后的备用方案：使用示例数据
-    if (newsItems.length === 0) {
-      console.log('📋 使用示例数据...');
-      const sampleNews = [
-        {
-          title: "通义网络智能体WebSailor开源，检索性能登顶开源榜单！",
-          content: "阿里云通义实验室开源网络智能体WebSailor。智能体具备强大的推理和检索能力，在智能体评测集BrowseComp上超越DeepSeek R1、Grok-3等模型，登顶开源网络智能体榜单。WebSailor通过创新的post-training方法和强化学习算法DUPO，大幅提升了复杂网页推理任务的表现。",
-          source: "阿里云",
-          category: "开源项目",
-          dateText: "7月8·周二"
-        },
-        {
-          title: "字节跳动开源 AI IDE 工具核心组件 Trae-Agent",
-          content: "字节开源TRAE Agent 在 SWE-bench Verified 排行榜上取得 75.2% 的求解率，位居第一。TRAE Agent 是基于大语言模型的智能助手，专为软件工程任务设计，能自主完成代码理解、问题复现、修复方案制定、高质量代码编写等任务。",
-          source: "TRAE.ai",
-          category: "开源项目",
-          dateText: "7月7·周一"
-        },
-        {
-          title: "星动纪元完成近5亿元A轮融资！通用具身技术突破驱动商业化落地",
-          content: "星动纪元宣布完成近5亿元A轮融资，由鼎晖VGC和海尔资本联合领投。公司成立于2023年，是清华大学唯一持股的具身智能企业，致力于打造通用智能体。目前，星动纪元已向全球科技巨头批量交付超200台产品，订单中50%以上来自海外客户，在工业物流、连锁零售等行业加速落地。",
-          source: "北京星动纪元科技有限公司",
-          category: "投融资",
-          dateText: "7月7·周一"
-        },
-        {
-          title: "通义实验室开源首个音频生成模型 ThinkSound",
-          content: "通义实验室开源首个音频生成模型ThinkSound，专为打破静音画面局限而生。模型通过引入思维链（CoT）技术，让AI学会结构化推理画面与声音的关系，实现高保真、强同步的空间音频生成。基于2531.8小时高质量多模态数据训练，包含对象级和指令级样本，支持交互式编辑。",
-          source: "通义大模型",
-          category: "开源项目",
-          dateText: "7月6·周日"
-        },
-        {
-          title: "AIGC独角兽硅基智能完成D轮融资，数字人业务营收数亿",
-          content: "AIGC独角兽硅基智能完成数亿元D轮融资，投资方为嘉兴高新区产业基金。本轮资金将用于研发创新、技术落地及产品市场化。自2017年成立以来，硅基智能已完成10轮融资，投资方包括腾讯、红杉中国等。",
-          source: "36氪",
-          category: "投融资",
-          dateText: "7月6·周日"
-        }
-      ];
+
+    // 如果没有找到新闻，使用备用解析方法
+    if (newsList.length === 0) {
+      console.log('🔄 尝试备用解析方法...');
+      return parseNewsPageAlternative($);
+    }
+
+    // 按发布时间排序
+    newsList.sort((a, b) => new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime());
+
+    console.log(`✅ 成功解析 ${newsList.length} 条新闻`);
+    return newsList;
+
+  } catch (error) {
+    console.error('❌ 解析页面失败:', error);
+    return [];
+  }
+}
+
+// 备用解析方法
+function parseNewsPageAlternative($) {
+  console.log('🔍 使用备用解析方法...');
+  const newsList = [];
+  
+  // 查找所有标题元素
+  $('h1, h2, h3, h4').each((index, element) => {
+    const title = $(element).text().trim();
+    if (title && title.length > 10 && title.length < 200) {
+      // 查找标题后的内容
+      let content = '';
+      let source = 'AI工具集';
+      let nextElement = $(element).next();
       
-      for (const sample of sampleNews) {
+      while (nextElement.length && content.length < 500) {
+        const text = nextElement.text().trim();
+        if (text && !text.startsWith('来源：') && text.length > 10) {
+          content += text + ' ';
+        } else if (text.startsWith('来源：')) {
+          source = text.replace('来源：', '').trim();
+          break;
+        }
+        nextElement = nextElement.next();
+      }
+      
+      if (content.trim()) {
+        const publishTime = new Date();
+        publishTime.setHours(publishTime.getHours() - index);
+        
         const newsItem = {
-          id: generateId(sample.title + sample.content),
-          title: sample.title,
-          content: sample.content,
-          originalContent: sample.content,
-          source: sample.source,
+          id: `news_alt_${Date.now()}_${index}`,
+          title: title,
+          content: content.trim().substring(0, 300),
+          source: source,
           sourceUrl: 'https://ai-bot.cn/daily-ai-news/',
-          publishTime: parseTimeFromDateText(sample.dateText),
+          publishTime: publishTime.toISOString(),
           crawlTime: new Date().toISOString(),
-          category: sample.category,
-          tags: extractTags(sample.title, sample.content),
-          dateText: sample.dateText
+          category: categorizeNews(title + ' ' + content),
+          tags: extractTags(title + ' ' + content),
+          dateText: '今日'
         };
         
-        newsItems.push(newsItem);
+        newsList.push(newsItem);
       }
     }
-
-    // 按日期时间排序（最新的在前）
-    newsItems.sort((a, b) => new Date(b.publishTime) - new Date(a.publishTime));
-
-    console.log(`✅ 爬取到 ${newsItems.length} 条新闻`);
-    
-    // 保存到JSON文件
-    const dataDir = path.join(__dirname, '../src/data');
-    if (!fs.existsSync(dataDir)) {
-      fs.mkdirSync(dataDir, { recursive: true });
-    }
-    
-    const output = {
-      success: true,
-      updateTime: new Date().toISOString(),
-      count: newsItems.length,
-      data: newsItems,
-      stats: {
-        todayCount: newsItems.filter(item => {
-          const today = new Date();
-          const itemDate = new Date(item.publishTime);
-          return itemDate.toDateString() === today.toDateString();
-        }).length,
-        totalCount: newsItems.length,
-        categories: [...new Set(newsItems.map(item => item.category))],
-        sources: [...new Set(newsItems.map(item => item.source))]
-      }
-    };
-    
-    fs.writeFileSync(path.join(dataDir, 'ai-news.json'), JSON.stringify(output, null, 2));
-    console.log('💾 数据已保存到 src/data/ai-news.json');
-    
-    return output;
-    
-  } catch (error) {
-    console.error('❌ 爬取失败:', error.message);
-    
-    // 返回错误信息，但不中断程序
-    const fallbackData = {
-      success: false,
-      error: error.message,
-      updateTime: new Date().toISOString(),
-      count: 0,
-      data: [],
-      stats: {
-        todayCount: 0,
-        totalCount: 0,
-        categories: [],
-        sources: []
-      }
-    };
-    
-    const dataDir = path.join(__dirname, '../src/data');
-    if (!fs.existsSync(dataDir)) {
-      fs.mkdirSync(dataDir, { recursive: true });
-    }
-    
-    // 如果已有数据文件，保留它；否则创建空数据文件
-    const dataFile = path.join(dataDir, 'ai-news.json');
-    if (!fs.existsSync(dataFile)) {
-      fs.writeFileSync(dataFile, JSON.stringify(fallbackData, null, 2));
-    }
-    
-    return fallbackData;
-  }
+  });
+  
+  console.log(`✅ 备用方法解析到 ${newsList.length} 条新闻`);
+  return newsList;
 }
 
-/**
- * 解析时间字符串
- */
-function parseTime(timeText) {
-  if (!timeText) return new Date().toISOString();
-  
-  const now = new Date();
-  
-  // 处理相对时间
-  if (timeText.includes('小时前')) {
-    const hours = parseInt(timeText.match(/(\d+)/)?.[1] || '1');
-    return new Date(now.getTime() - hours * 60 * 60 * 1000).toISOString();
-  } else if (timeText.includes('天前')) {
-    const days = parseInt(timeText.match(/(\d+)/)?.[1] || '1');
-    return new Date(now.getTime() - days * 24 * 60 * 60 * 1000).toISOString();
-  } else if (timeText.includes('月') && timeText.includes('日')) {
-    // 处理 "7月8日" 格式
-    const month = parseInt(timeText.match(/(\d+)月/)?.[1] || now.getMonth() + 1);
-    const day = parseInt(timeText.match(/(\d+)日/)?.[1] || now.getDate());
-    return new Date(now.getFullYear(), month - 1, day).toISOString();
-  }
-  
-  return now.toISOString();
-}
-
-/**
- * 从日期文本解析时间
- */
-function parseTimeFromDateText(dateText) {
-  if (!dateText) return new Date().toISOString();
-  
-  const now = new Date();
-  
-  // 处理 "7月8·周二" 格式
-  if (dateText.includes('月') && dateText.includes('·')) {
-    const month = parseInt(dateText.match(/(\d+)月/)?.[1] || now.getMonth() + 1);
-    const day = parseInt(dateText.match(/月(\d+)/)?.[1] || now.getDate());
-    
-    // 如果月份小于当前月份，说明是明年
-    let year = now.getFullYear();
-    if (month < now.getMonth() + 1) {
-      year += 1;
-    }
-    
-    return new Date(year, month - 1, day).toISOString();
-  }
-  
-  return now.toISOString();
-}
-
-/**
- * 提取新闻分类
- */
-function extractCategory(title, content) {
-  const text = (title + ' ' + content).toLowerCase();
-  
-  if (text.includes('融资') || text.includes('投资') || text.includes('亿元') || text.includes('资金')) {
-    return '投融资';
-  } else if (text.includes('开源') || text.includes('github') || text.includes('模型')) {
-    return '开源项目';
-  } else if (text.includes('发布') || text.includes('推出') || text.includes('上线')) {
-    return '产品发布';
-  } else if (text.includes('合作') || text.includes('收购') || text.includes('并购')) {
-    return '行业动态';
-  } else if (text.includes('研究') || text.includes('论文') || text.includes('技术')) {
-    return '技术研究';
-  }
-  
-  return '综合资讯';
-}
-
-/**
- * 提取标签
- */
-function extractTags(title, content) {
-  const text = (title + ' ' + content).toLowerCase();
+// 提取标签
+function extractTags(text) {
   const tags = [];
-  
-  const tagKeywords = {
-    'AI模型': ['模型', 'model', 'gpt', 'llm'],
-    '大语言模型': ['语言模型', 'llm', 'chatgpt', 'claude'],
-    '开源': ['开源', 'opensource', 'github'],
-    '投融资': ['融资', '投资', '亿元', 'a轮', 'b轮'],
-    '图像生成': ['图像', '绘画', 'dalle', 'midjourney'],
-    '视频生成': ['视频', 'video', 'sora'],
-    '语音技术': ['语音', '音频', 'tts', 'asr'],
-    '自动驾驶': ['自动驾驶', '智能汽车'],
-    '机器人': ['机器人', 'robot', '具身智能']
+  const keywords = {
+    'GPT': ['GPT', 'ChatGPT', 'GPT-4', 'GPT-3'],
+    '开源': ['开源', 'Open Source', '开放'],
+    '融资': ['融资', '投资', '资金', '轮融资', '天使', 'A轮', 'B轮'],
+    '发布': ['发布', '推出', '上线', '发表'],
+    '合作': ['合作', '联合', '合并', '收购'],
+    '研究': ['研究', '论文', '实验', '测试'],
+    '大模型': ['大模型', '语言模型', 'LLM', '模型'],
+    '技术': ['技术', '算法', '框架', '平台'],
+    'AI工具': ['工具', 'AI', '人工智能'],
+    '3D': ['3D', '三维', '立体'],
+    '智能体': ['智能体', 'Agent', '助手'],
+    '机器人': ['机器人', '具身智能', 'Robot']
   };
-  
-  Object.entries(tagKeywords).forEach(([tag, keywords]) => {
-    if (keywords.some(keyword => text.includes(keyword))) {
+
+  Object.entries(keywords).forEach(([tag, words]) => {
+    if (words.some(word => text.includes(word))) {
       tags.push(tag);
     }
   });
-  
-  return tags.length > 0 ? tags : ['AI资讯'];
+
+  return tags.slice(0, 5); // 最多5个标签
 }
 
-/**
- * 生成唯一ID
- */
-function generateId(content) {
-  // 简单的哈希函数
-  let hash = 0;
-  for (let i = 0; i < content.length; i++) {
-    const char = content.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
-    hash = hash & hash; // Convert to 32bit integer
+// 新闻分类
+function categorizeNews(text) {
+  const categories = {
+    '投融资': ['融资', '投资', '资金', '轮融资', '估值', 'A轮', 'B轮', 'C轮', '天使'],
+    '开源项目': ['开源', 'GitHub', 'Open Source', '代码', '项目'],
+    '产品发布': ['发布', '推出', '上线', '发表', '更新', '版本', '升级'],
+    '行业动态': ['合作', '联合', '合并', '收购', '战略', '政策'],
+    '技术研究': ['研究', '论文', '实验', '测试', '突破', '算法'],
+    '综合资讯': ['资讯', '新闻', '消息', '通知', '公告']
+  };
+
+  for (const [category, keywords] of Object.entries(categories)) {
+    if (keywords.some(keyword => text.includes(keyword))) {
+      return category;
+    }
   }
-  return Math.abs(hash).toString(16);
+
+  return '综合资讯';
 }
 
-// 如果是直接运行脚本
-if (require.main === module) {
-  crawlAINews().then(result => {
-    console.log('🎉 爬取完成！');
-    console.log(`📊 统计: ${result.count} 条新闻`);
-    process.exit(0);
-  }).catch(error => {
-    console.error('💥 脚本执行失败:', error);
+// 爬取AI工具集新闻
+async function crawlAIToolNews() {
+  try {
+    console.log('📰 开始爬取AI工具集新闻...');
+    
+    const response = await fetchWithRetry(CRAWL_CONFIG.baseUrl);
+    const newsList = parseNewsPage(response.data);
+    
+    console.log(`✅ 爬取完成，获得 ${newsList.length} 条新闻`);
+    return newsList;
+    
+  } catch (error) {
+    console.error('❌ 爬取失败:', error.message);
+    return [];
+  }
+}
+
+// 保存新闻数据
+async function saveNewsData(newsList) {
+  try {
+    // 读取现有数据
+    let existingNews = [];
+    try {
+      const existingData = await fs.readFile(ALL_NEWS_FILE, 'utf8');
+      const parsedData = JSON.parse(existingData);
+      // 处理不同的数据格式
+      if (Array.isArray(parsedData)) {
+        existingNews = parsedData;
+      } else if (parsedData.data && Array.isArray(parsedData.data)) {
+        existingNews = parsedData.data;
+      } else {
+        existingNews = [];
+      }
+    } catch (error) {
+      console.log('📝 创建新的数据文件');
+    }
+
+    // 去重合并（基于标题）
+    const existingTitles = new Set(existingNews.map(news => news.title));
+    const uniqueNewNews = newsList.filter(news => !existingTitles.has(news.title));
+    
+    const allNews = [...existingNews, ...uniqueNewNews]
+      .sort((a, b) => new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime());
+
+    // 统计信息
+    const today = new Date().toISOString().split('T')[0];
+    const todayNews = allNews.filter(news => 
+      news.publishTime.startsWith(today)
+    );
+
+    const categories = [...new Set(allNews.map(news => news.category))];
+    const sources = [...new Set(allNews.map(news => news.source))];
+
+    const stats = {
+      totalCount: allNews.length,
+      todayCount: todayNews.length,
+      newCount: uniqueNewNews.length,
+      categories,
+      sources,
+      lastUpdate: new Date().toISOString()
+    };
+
+    // 保存最新数据（用于前端展示）
+    const latestNews = allNews.slice(0, 100); // 取最新100条
+    const aiNewsData = {
+      success: true,
+      data: latestNews,
+      stats,
+      updateTime: new Date().toISOString(),
+      count: latestNews.length
+    };
+
+    await fs.writeFile(AI_NEWS_FILE, JSON.stringify(aiNewsData, null, 2), 'utf8');
+
+    // 保存完整历史数据
+    await fs.writeFile(ALL_NEWS_FILE, JSON.stringify(allNews, null, 2), 'utf8');
+
+    console.log(`💾 数据保存完成:`);
+    console.log(`   - 新增: ${uniqueNewNews.length} 条`);
+    console.log(`   - 总计: ${allNews.length} 条`);
+    console.log(`   - 今日: ${todayNews.length} 条`);
+
+    return stats;
+
+  } catch (error) {
+    console.error('❌ 保存数据失败:', error);
+    throw error;
+  }
+}
+
+// 保存历史记录
+async function saveHistoryRecord(stats) {
+  try {
+    const today = new Date().toISOString().split('T')[0];
+    const historyFile = path.join(HISTORY_DIR, `${today}.json`);
+    
+    const historyRecord = {
+      date: today,
+      stats,
+      timestamp: new Date().toISOString()
+    };
+
+    await fs.writeFile(historyFile, JSON.stringify(historyRecord, null, 2), 'utf8');
+
+    // 更新历史索引
+    let historyIndex = [];
+    try {
+      const indexData = await fs.readFile(HISTORY_INDEX_FILE, 'utf8');
+      historyIndex = JSON.parse(indexData);
+    } catch (error) {
+      console.log('📝 创建新的历史索引');
+    }
+
+    // 添加或更新今日记录
+    const existingIndex = historyIndex.findIndex(record => record.date === today);
+    if (existingIndex >= 0) {
+      historyIndex[existingIndex] = { date: today, ...stats };
+    } else {
+      historyIndex.push({ date: today, ...stats });
+    }
+
+    // 按日期降序排序，保留最近30天
+    historyIndex = historyIndex
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .slice(0, 30);
+
+    await fs.writeFile(HISTORY_INDEX_FILE, JSON.stringify(historyIndex, null, 2), 'utf8');
+
+    console.log(`📚 历史记录已保存: ${historyFile}`);
+
+  } catch (error) {
+    console.error('❌ 保存历史记录失败:', error);
+  }
+}
+
+// 主函数
+async function main() {
+  const startTime = Date.now();
+  console.log('🚀 AI新闻爬虫启动...\n');
+
+  try {
+    // 创建目录结构
+    await ensureDirectories();
+
+    // 爬取新闻
+    const newsList = await crawlAIToolNews();
+
+    if (newsList.length === 0) {
+      console.log('⚠️  未获取到任何新闻数据，使用示例数据');
+      
+      // 创建示例数据
+      const sampleNews = [
+        {
+          id: 'sample_1',
+          title: '混元3D再升级，推出业界首个美术级3D生成大模型Hunyuan3D-PolyGen',
+          content: '腾讯混元3D宣布升级，推出业界首个美术级3D生成大模型Hunyuan3D-PolyGen。模型结合自研高压缩率表征BPT技术，可生成上万面复杂几何模型，布线精度高，细节丰富，支持三边面和四边面，满足不同专业需求。',
+          source: '腾讯混元',
+          sourceUrl: 'https://ai-bot.cn/daily-ai-news/',
+          publishTime: new Date().toISOString(),
+          crawlTime: new Date().toISOString(),
+          category: '产品发布',
+          tags: ['3D', '大模型', '腾讯', '技术'],
+          dateText: '今日'
+        }
+      ];
+      
+      const stats = await saveNewsData(sampleNews);
+      await saveHistoryRecord(stats);
+      
+      console.log(`\n✅ 使用示例数据完成初始化`);
+      return;
+    }
+
+    // 保存数据
+    const stats = await saveNewsData(newsList);
+    
+    // 保存历史记录
+    await saveHistoryRecord(stats);
+
+    const endTime = Date.now();
+    const duration = ((endTime - startTime) / 1000).toFixed(2);
+
+    console.log(`\n🎉 爬取任务完成！`);
+    console.log(`   - 耗时: ${duration}s`);
+    console.log(`   - 新增: ${stats.newCount} 条新闻`);
+    console.log(`   - 总计: ${stats.totalCount} 条新闻`);
+    console.log(`   - 文件: ${AI_NEWS_FILE}`);
+    
+  } catch (error) {
+    console.error('\n❌ 爬取任务失败:', error);
     process.exit(1);
-  });
+  }
 }
 
-module.exports = { crawlAINews }; 
+// 如果直接运行此脚本
+if (require.main === module) {
+  main().catch(console.error);
+}
+
+module.exports = {
+  crawlAIToolNews,
+  saveNewsData,
+  parseNewsPage
+}; 

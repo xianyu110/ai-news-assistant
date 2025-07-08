@@ -1,75 +1,38 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/ai-news/news-list",
 			"style": {
-				"navigationBarTitleText": "AI快讯",
+				"navigationBarTitleText": "每日AI快讯热闻",
+				"navigationBarBackgroundColor": "#4285F4",
+				"navigationBarTextStyle": "white",
 				"enablePullDownRefresh": true,
-				"onReachBottomDistance": 50
-			}
-		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "首页"
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F5F7FA"
 			}
 		},
 		{
 			"path": "pages/ai-news/news-detail",
 			"style": {
-				"navigationBarTitleText": "快讯详情"
+				"navigationBarTitleText": "快讯详情",
+				"navigationBarBackgroundColor": "#4285F4",
+				"navigationBarTextStyle": "white"
 			}
 		},
 		{
 			"path": "pages/ai-news/search",
 			"style": {
-				"navigationBarTitleText": "搜索快讯"
-			}
-		},
-		{
-			"path": "pages/demo/demo",
-			"style": {
-				"navigationBarTitleText": "云开发演示"
-			}
-		},
-		{
-			"path": "pages/debug/debug",
-			"style": {
-				"navigationBarTitleText": "云开发调试"
+				"navigationBarTitleText": "搜索快讯",
+				"navigationBarBackgroundColor": "#4285F4",
+				"navigationBarTextStyle": "white"
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "AI快讯助手",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"tabBar": {
-		"color": "#7A7E83",
-		"selectedColor": "#3CC51F",
-		"borderStyle": "black",
-		"backgroundColor": "#ffffff",
-		"list": [
-			{
-				"pagePath": "pages/ai-news/news-list",
-				"iconPath": "static/icons/news.png",
-				"selectedIconPath": "static/icons/news-active.png",
-				"text": "AI快讯"
-			},
-			{
-				"pagePath": "pages/index/index",
-				"iconPath": "static/icons/home.png",
-				"selectedIconPath": "static/icons/home-active.png",
-				"text": "首页"
-			},
-			{
-				"pagePath": "pages/demo/demo",
-				"iconPath": "static/icons/demo.png",
-				"selectedIconPath": "static/icons/demo-active.png",
-				"text": "演示"
-			}
-		]
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "每日AI快讯热闻",
+		"navigationBarBackgroundColor": "#4285F4",
+		"backgroundColor": "#F5F7FA"
 	},
 	"uniIdRouter": {}
 }

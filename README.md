@@ -1,239 +1,306 @@
-# 🤖 AI快讯助手
+# 🤖 AI快讯助手 - 无服务器架构版
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?style=flat-square&logo=github)](https://xianyu110.github.io/ai-news-assistant/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/xianyu110/ai-news-assistant/deploy.yml?branch=main&style=flat-square)](https://github.com/xianyu110/ai-news-assistant/actions)
-[![License](https://img.shields.io/github/license/xianyu110/ai-news-assistant?style=flat-square)](LICENSE)
-[![Vue](https://img.shields.io/badge/Vue-3.4-4FC08D?style=flat-square&logo=vue.js)](https://vuejs.org/)
-[![UniApp](https://img.shields.io/badge/UniApp-Latest-2B2B2B?style=flat-square)](https://uniapp.dcloud.io/)
-[![CloudBase](https://img.shields.io/badge/CloudBase-Powered-0066FF?style=flat-square)](https://cloudbase.net/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen?style=for-the-badge&logo=github)](https://xianyu110.github.io/ai-news-assistant/)
+[![Auto Update](https://img.shields.io/badge/Auto%20Update-Every%202H-blue?style=for-the-badge&logo=github-actions)](https://github.com/xianyu110/ai-news-assistant/actions)
+[![Vue 3](https://img.shields.io/badge/Vue-3.0-green?style=for-the-badge&logo=vue.js)](https://vuejs.org/)
+[![UniApp](https://img.shields.io/badge/UniApp-Cross%20Platform-orange?style=for-the-badge&logo=unity)](https://uniapp.dcloud.io/)
+[![No Server](https://img.shields.io/badge/No%20Server-Zero%20Cost-red?style=for-the-badge&logo=serverless)](https://pages.github.com/)
 
-基于 CloudBase + UniApp 开发的AI资讯聚合应用，实时获取和展示AI领域的最新动态。
+> 🚀 **重大更新**：已从云开发架构重构为完全无服务器架构，实现零成本永久运行！
 
-## 🌐 在线访问
+## ✨ 项目特色
 
-**✨ 立即体验：[https://xianyu110.github.io/ai-news-assistant/](https://xianyu110.github.io/ai-news-assistant/)**
+### 🏗️ 无服务器架构
+- **零服务器成本** - 完全基于GitHub Pages + GitHub Actions
+- **永久免费部署** - 无需任何云服务费用
+- **自动化运维** - GitHub Actions自动爬取和部署
+- **数据永久保存** - Git仓库作为数据历史存储
 
-> 📱 支持手机、平板、电脑全平台访问，无需下载安装！
+### 🤖 智能数据聚合
+- **实时爬取** - 每2小时自动爬取[AI工具集](https://ai-bot.cn/daily-ai-news/)最新资讯
+- **历史存档** - 按日期归档，支持历史数据查询
+- **智能去重** - 自动识别和合并重复内容
+- **时间排序** - 按发布时间智能排序
 
-## 🎯 项目特色
+### 🎯 功能特性
+- **📱 跨平台支持** - H5、微信小程序、App多端运行
+- **🔍 智能搜索** - 标题、内容、标签全文搜索
+- **❤️ 本地收藏** - 基于LocalStorage的收藏功能
+- **📊 实时统计** - 自动统计各类数据指标
+- **🏷️ 标签分类** - 智能分类和标签管理
+- **📖 相关推荐** - 基于内容的智能推荐
 
-- **📱 跨平台支持** - 一套代码支持H5、微信小程序、App
-- **🔍 智能搜索** - 支持标题、内容、标签多维度搜索
-- **📊 数据分类** - 按投融资、开源项目、产品发布等分类展示
-- **💾 云端存储** - 基于腾讯云开发，数据安全可靠
-- **⚡ 实时更新** - 支持一键爬取最新AI快讯
-- **❤️ 收藏功能** - 个人收藏夹，重要资讯不错过
+## 🔗 在线访问
 
-## 🏗️ 技术架构
+### 🌐 GitHub Pages（推荐）
+- **主站**: https://xianyu110.github.io/ai-news-assistant/
+- **特点**: 自动更新、永久稳定、访问速度快
 
+## 📊 数据架构
+
+### 🗂️ 数据存储结构
 ```
-前端应用 (UniApp + Vue3 + TypeScript)
-    ↓
-云开发服务 (腾讯CloudBase)
-    ├── 云数据库 (存储快讯和收藏)
-    ├── 云函数 (数据爬取和处理)
-    └── 静态托管 (H5应用部署)
+src/data/
+├── ai-news.json          # 最新数据（前端读取）
+├── all-news.json         # 全量历史数据
+└── history/
+    ├── 2025-01-08.json   # 按日期存档
+    ├── 2025-01-07.json
+    └── index.json        # 历史索引
 ```
+
+### 🔄 自动化流程
+1. **GitHub Actions** 每2小时触发
+2. **爬虫脚本** 获取最新AI资讯
+3. **数据处理** 去重、排序、分类
+4. **Git提交** 存储为历史版本
+5. **自动部署** 更新GitHub Pages
+
+## 🚀 快速开始
+
+### 📋 环境要求
+- Node.js 16+
+- npm 或 yarn
+- Git
+
+### 🔧 本地开发
+
+```bash
+# 克隆项目
+git clone https://github.com/xianyu110/ai-news-assistant.git
+cd ai-news-assistant
+
+# 安装依赖
+npm install
+
+# 爬取最新数据
+npm run update-history
+
+# 启动开发服务器
+npm run dev:h5          # H5版本
+npm run dev:mp-weixin   # 微信小程序
+
+# 构建生产版本
+npm run build:h5        # H5构建
+npm run build:mp-weixin # 小程序构建
+```
+
+### 📱 本地预览
+
+```bash
+# 构建并预览H5版本
+npm run build:h5
+cd dist/build/h5
+npx live-server
+```
+
+## 🤖 GitHub Actions
+
+### ⚙️ 自动化工作流
+
+#### 📊 数据更新流程
+- **触发方式**: 每2小时 + 手动触发
+- **执行步骤**:
+  1. 爬取AI工具集最新数据
+  2. 数据清洗和去重处理
+  3. 按日期归档历史数据
+  4. 更新全量数据文件
+  5. 提交到Git仓库
+
+#### 🚀 部署流程
+- **触发方式**: Push到main分支
+- **执行步骤**:
+  1. 检出代码
+  2. 安装依赖
+  3. 构建H5版本
+  4. 部署到GitHub Pages
+
+### 🔧 配置说明
+
+所有配置文件位于 `.github/workflows/`：
+- `update-news.yml` - 数据更新工作流
+- `deploy-pages.yml` - 页面部署工作流
 
 ## 📁 项目结构
 
 ```
-cloudbase-uniapp-template/
-├── src/                          # 前端源码
-│   ├── pages/                    # 页面文件
-│   │   ├── ai-news/             # AI快讯相关页面
-│   │   │   ├── news-list.vue    # 快讯列表页
-│   │   │   ├── news-detail.vue  # 快讯详情页
-│   │   │   └── search.vue       # 搜索页面
-│   │   └── index/               # 首页
-│   ├── utils/                   # 工具函数
-│   │   └── cloudbase.ts        # 云开发配置
-│   └── static/                  # 静态资源
-├── cloudfunctions/              # 云函数
-│   └── ai-news-crawler/         # AI快讯爬虫
-│       ├── index.js            # 爬虫主逻辑
-│       └── package.json        # 依赖配置
-└── cloudbaserc.json            # 云开发配置
+ai-news-assistant/
+├── src/
+│   ├── pages/              # 页面组件
+│   │   ├── index/         # 首页
+│   │   └── ai-news/       # AI资讯相关页面
+│   ├── utils/             # 工具函数
+│   │   └── cloudbase.ts   # 数据服务（已重构为静态服务）
+│   └── data/              # 数据文件
+│       ├── ai-news.json   # 最新数据
+│       ├── all-news.json  # 全量数据
+│       └── history/       # 历史归档
+├── scripts/               # 自动化脚本
+│   ├── crawl-news.js     # 爬虫脚本
+│   └── update-history.js # 历史管理
+├── .github/workflows/     # GitHub Actions
+└── dist/build/h5/        # H5构建产物
 ```
 
-## 🚀 快速开始
+## 🔍 API 接口
 
-### 1. 安装依赖
-
-```bash
-npm install
-```
-
-### 2. 配置云开发环境
-
-在 `src/utils/cloudbase.ts` 中配置你的云开发环境ID：
+### 📡 数据服务 API
 
 ```typescript
-const ENV_ID: string = 'your-env-id';
+// 获取最新新闻数据
+const result = await NewsService.getNews()
+
+// 返回数据结构
+interface NewsData {
+  success: boolean
+  updateTime: string
+  count: number
+  data: NewsItem[]
+  stats: {
+    todayCount: number
+    totalCount: number
+    categories: string[]
+    sources: string[]
+  }
+}
 ```
 
-### 3. 启动开发服务器
+### 💾 本地存储 API
 
-```bash
-# H5版本
-npm run dev:h5
+```typescript
+// 收藏管理
+LocalStorage.saveFavorite(newsItem)    // 保存收藏
+LocalStorage.removeFavorite(newsId)    // 移除收藏
+LocalStorage.getFavorites()            // 获取收藏列表
+LocalStorage.isFavorited(newsId)       // 检查收藏状态
 
-# 微信小程序版本
-npm run dev:mp-weixin
+// 搜索历史
+LocalStorage.saveSearchHistory(keyword)  // 保存搜索历史
+LocalStorage.getSearchHistory()          // 获取搜索历史
+LocalStorage.clearSearchHistory()        // 清空搜索历史
 ```
 
-### 4. 访问应用
+## 📈 数据统计
 
-- **H5版本**: http://localhost:5173
-- **小程序**: 在微信开发者工具中打开 `dist/dev/mp-weixin` 目录
+### 🔢 实时统计
+- **总数据量**: 自动统计全量新闻数据
+- **今日新增**: 统计当日新增的新闻数量
+- **分类分布**: 各个分类的数据分布
+- **数据源统计**: 不同来源的数据占比
 
-## 🔧 云开发配置
+### �� 历史趋势
+- **按日期归档**: 每日数据变化趋势
+- **增长曲线**: 数据累积增长情况
+- **热门标签**: 高频标签统计
 
-### 数据库集合
+## 🛠️ 技术栈
 
-应用使用以下数据库集合：
+### 🎨 前端技术
+- **Vue 3** - 渐进式JavaScript框架
+- **TypeScript** - 类型安全的JavaScript
+- **UniApp** - 跨平台开发框架
+- **Vite** - 现代前端构建工具
+- **SCSS** - CSS预处理器
 
-1. **ai_news** - AI快讯数据
-   ```javascript
-   {
-     _id: "文档ID",
-     title: "快讯标题",
-     content: "快讯内容",
-     category: "分类",
-     tags: ["标签1", "标签2"],
-     source: "来源",
-     sourceUrl: "原文链接",
-     publishTime: "发布时间",
-     createTime: "创建时间"
-   }
-   ```
+### 🔧 构建工具
+- **Node.js** - JavaScript运行环境
+- **GitHub Actions** - CI/CD自动化
+- **GitHub Pages** - 静态网站托管
+- **Cheerio** - 服务端jQuery实现
+- **Axios** - HTTP客户端
 
-2. **user_favorites** - 用户收藏
-   ```javascript
-   {
-     _id: "文档ID",
-     newsId: "快讯ID",
-     title: "快讯标题",
-     category: "分类",
-     createTime: "收藏时间"
-   }
-   ```
+### 📦 核心依赖
 
-### 云函数
-
-- **ai-news-crawler** - AI快讯爬虫（已部署 ✅）
-  - 支持爬取AI工具集等网站的最新快讯
-  - 自动分类和标签提取
-  - 数据去重和清洗
-  - 支持统计查询和数据管理
-  - 当前已爬取681条AI快讯数据
-
-## 📱 功能介绍
-
-### 1. 快讯列表页
-- **分类筛选**: 支持按投融资、开源项目、产品发布等分类查看
-- **下拉刷新**: 获取最新快讯数据
-- **上拉加载**: 无限滚动加载更多内容
-- **实时统计**: 显示今日新增和总计数量
-
-### 2. 快讯详情页
-- **完整内容**: 展示快讯的详细信息
-- **相关推荐**: 基于标签和分类的智能推荐
-- **操作功能**: 收藏、分享、查看原文
-
-### 3. 搜索功能
-- **多维搜索**: 支持标题、内容、标签搜索
-- **关键词高亮**: 搜索结果中关键词高亮显示
-- **搜索历史**: 保存最近10次搜索记录
-- **热门标签**: 快速搜索常用关键词
-
-## 🎨 界面特色
-
-- **现代化设计**: 简洁美观的Material Design风格
-- **响应式布局**: 完美适配各种屏幕尺寸
-- **流畅动画**: 丰富的交互动效
-- **暗色主题**: 护眼的夜间模式（计划中）
-
-## 📊 数据来源
-
-目前支持爬取以下网站的AI快讯：
-
-- [AI工具集](https://ai-bot.cn/daily-ai-news/) - 每日AI快讯
-- 更多数据源正在添加中...
-
-## 🔄 部署指南
-
-### 1. 部署云函数
-
-```bash
-# 使用CloudBase CLI部署
-tcb functions:deploy ai-news-crawler
+```json
+{
+  "@dcloudio/uni-app": "3.0.0-4020920240930001",
+  "vue": "^3.4.21",
+  "typescript": "^5.4.5",
+  "vite": "5.2.8",
+  "axios": "^1.6.0",
+  "cheerio": "^1.0.0-rc.12"
+}
 ```
 
-### 2. 部署静态网站
+## 🔄 数据更新机制
 
-```bash
-# 构建生产版本
-npm run build:h5
+### ⏰ 自动更新
+- **频率**: 每2小时执行一次
+- **时间**: 北京时间 02:00, 04:00, 06:00, ..., 00:00
+- **数据源**: [AI工具集每日快讯](https://ai-bot.cn/daily-ai-news/)
 
-# 部署到静态托管
-tcb hosting:deploy dist/build/h5 -e your-env-id
+### 🔍 数据处理
+1. **网页抓取**: 使用Cheerio解析HTML
+2. **内容提取**: 提取标题、内容、时间等信息
+3. **数据清洗**: 去除重复和无效数据
+4. **格式统一**: 标准化数据格式
+5. **历史归档**: 按日期存储历史版本
+
+### 📝 数据格式
+
+```typescript
+interface NewsItem {
+  id: string              // 唯一标识
+  title: string           // 新闻标题
+  content: string         // 新闻内容
+  originalContent: string // 原始内容
+  source: string          // 数据源
+  sourceUrl: string       // 原文链接
+  publishTime: string     // 发布时间
+  crawlTime: string       // 爬取时间
+  category: string        // 分类
+  tags: string[]          // 标签
+  dateText: string        // 日期文本
+}
 ```
-
-## 🛠️ 开发计划
-
-- [x] 基础架构搭建
-- [x] 前端页面开发
-- [x] 云数据库设计
-- [x] 爬虫功能开发
-- [x] 云函数部署优化
-- [x] 数据爬取和存储功能
-- [ ] 推送通知功能
-- [ ] 用户个性化推荐
-- [ ] 数据分析统计
-- [ ] 多语言支持
 
 ## 🤝 贡献指南
 
-欢迎提交Issue和Pull Request来帮助改进项目！
+### 🎯 如何贡献
+1. **Fork** 本仓库
+2. **创建** 功能分支: `git checkout -b feature/AmazingFeature`
+3. **提交** 更改: `git commit -m 'Add some AmazingFeature'`
+4. **推送** 分支: `git push origin feature/AmazingFeature`
+5. **创建** Pull Request
+
+### 🐛 问题反馈
+- [GitHub Issues](https://github.com/xianyu110/ai-news-assistant/issues)
+- 请详细描述问题和复现步骤
+
+### 💡 功能建议
+- 欢迎提交新功能建议
+- 请先搜索现有Issue避免重复
 
 ## 📄 开源协议
 
-本项目基于 MIT 协议开源。
+本项目基于 [MIT License](LICENSE) 开源协议。
 
-## 📞 联系方式
+## 🙏 致谢
 
-如有问题或建议，欢迎通过以下方式联系：
-
-- 提交 GitHub Issue
-- 发送邮件至开发者
+- [AI工具集](https://ai-bot.cn/) - 提供优质的AI资讯数据源
+- [UniApp](https://uniapp.dcloud.io/) - 优秀的跨平台开发框架
+- [GitHub](https://github.com/) - 免费的代码托管和CI/CD服务
+- [Vue.js](https://vuejs.org/) - 渐进式JavaScript框架
 
 ---
 
-## 🎯 关键配置信息
+<div align="center">
 
-### 云开发环境
-- **环境ID**: `test-9gfe9noc86c78276`
-- **环境类型**: 免费体验版
-- **数据库**: MongoDB兼容
+**🌟 如果这个项目对你有帮助，请给个 Star 支持一下！**
 
-### 技术栈版本
-- **Vue**: 3.x
-- **TypeScript**: 4.x
-- **UniApp**: 最新版
-- **CloudBase SDK**: 2.x
+[⭐ Star](https://github.com/xianyu110/ai-news-assistant) |
+[🍴 Fork](https://github.com/xianyu110/ai-news-assistant/fork) |
+[🐛 Issues](https://github.com/xianyu110/ai-news-assistant/issues) |
+[📖 Docs](https://xianyu110.github.io/ai-news-assistant/)
 
-### 构建信息
-- **开发服务器**: http://localhost:5173
-- **构建工具**: Vite + ESBuild
-- **样式框架**: 原生CSS + UnoCSS
+</div>
 
-## 🏆 项目亮点
+## 📞 联系方式
 
-1. **技术先进**: 采用最新的Vue3 + TypeScript技术栈
-2. **架构清晰**: 前后端分离，云原生架构
-3. **用户体验**: 流畅的交互和优雅的界面设计
-4. **扩展性强**: 模块化设计，易于功能扩展
-5. **性能优化**: 懒加载、虚拟滚动等性能优化措施
+- **GitHub**: [@xianyu110](https://github.com/xianyu110)
+- **项目地址**: https://github.com/xianyu110/ai-news-assistant
+- **在线演示**: https://xianyu110.github.io/ai-news-assistant/
 
-立即体验：[http://localhost:5173](http://localhost:5173) 🚀
+---
+
+*最后更新: 2025-01-08*

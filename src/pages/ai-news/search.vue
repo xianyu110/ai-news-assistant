@@ -84,7 +84,7 @@
       <view class="results-list">
         <view 
           v-for="(news, index) in filteredResults" 
-          :key="news._id"
+          :key="news.id"
           class="result-item"
           @click="viewNewsDetail(news)"
         >
@@ -186,7 +186,7 @@ const handleSearch = async () => {
       const allNews = result.data
       
       // 进行本地搜索
-      const searchResults = allNews.filter(news => {
+      const filteredNews = allNews.filter(news => {
         const titleMatch = news.title.toLowerCase().includes(keyword.toLowerCase())
         const contentMatch = news.content.toLowerCase().includes(keyword.toLowerCase())
         const tagsMatch = news.tags && news.tags.some((tag: string) => 
@@ -198,7 +198,7 @@ const handleSearch = async () => {
       })
       
       // 按时间排序
-      searchResults.value = searchResults.sort((a, b) => 
+      searchResults.value = filteredNews.sort((a, b) => 
         new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime()
       )
       

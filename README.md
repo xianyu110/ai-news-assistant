@@ -1,6 +1,19 @@
 # 🤖 AI快讯助手
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?style=flat-square&logo=github)](https://xianyu110.github.io/ai-news-assistant/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/xianyu110/ai-news-assistant/deploy.yml?branch=main&style=flat-square)](https://github.com/xianyu110/ai-news-assistant/actions)
+[![License](https://img.shields.io/github/license/xianyu110/ai-news-assistant?style=flat-square)](LICENSE)
+[![Vue](https://img.shields.io/badge/Vue-3.4-4FC08D?style=flat-square&logo=vue.js)](https://vuejs.org/)
+[![UniApp](https://img.shields.io/badge/UniApp-Latest-2B2B2B?style=flat-square)](https://uniapp.dcloud.io/)
+[![CloudBase](https://img.shields.io/badge/CloudBase-Powered-0066FF?style=flat-square)](https://cloudbase.net/)
+
 基于 CloudBase + UniApp 开发的AI资讯聚合应用，实时获取和展示AI领域的最新动态。
+
+## 🌐 在线访问
+
+**✨ 立即体验：[https://xianyu110.github.io/ai-news-assistant/](https://xianyu110.github.io/ai-news-assistant/)**
+
+> 📱 支持手机、平板、电脑全平台访问，无需下载安装！
 
 ## 🎯 项目特色
 

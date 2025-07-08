@@ -2,9 +2,11 @@
 node_modules/
 package-lock.json
 
-# Build outputs
-dist/
-build/
+# Build outputs (keep H5 build for GitHub Pages)
+dist/dev/
+dist/build/mp-*
+# Don't ignore H5 build for GitHub Pages
+# dist/build/h5/
 
 # Environment files
 .env

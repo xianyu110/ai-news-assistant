@@ -129,7 +129,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { app, ensureLogin } from '../../utils/cloudbase'
+import { NewsService, LocalStorage } from '../../utils/cloudbase'
 
 // 响应式数据
 const searchKeyword = ref('')
@@ -177,57 +177,41 @@ const handleSearch = async () => {
   hasSearched.value = true
   
   try {
-    await ensureLogin()
+    console.log(`🔍 搜索关键词: ${keyword}`)
     
-    const db = app.database()
-    const collection = db.collection('ai_news')
+    // 获取所有新闻数据
+    const result = await NewsService.getNews()
     
-    // 使用正则表达式进行模糊搜索
-    const titleQuery = collection.where({
-      title: db.RegExp({
-        regexp: keyword,
-        options: 'i'
+    if (result.success) {
+      const allNews = result.data
+      
+      // 进行本地搜索
+      const searchResults = allNews.filter(news => {
+        const titleMatch = news.title.toLowerCase().includes(keyword.toLowerCase())
+        const contentMatch = news.content.toLowerCase().includes(keyword.toLowerCase())
+        const tagsMatch = news.tags && news.tags.some((tag: string) => 
+          tag.toLowerCase().includes(keyword.toLowerCase())
+        )
+        const sourceMatch = news.source.toLowerCase().includes(keyword.toLowerCase())
+        
+        return titleMatch || contentMatch || tagsMatch || sourceMatch
       })
-    })
-    
-    const contentQuery = collection.where({
-      content: db.RegExp({
-        regexp: keyword,
-        options: 'i'
-      })
-    })
-    
-    const tagsQuery = collection.where({
-      tags: db.command.in([keyword])
-    })
-    
-    // 执行搜索
-    const [titleResults, contentResults, tagsResults] = await Promise.all([
-      titleQuery.orderBy('publishTime', 'desc').limit(20).get(),
-      contentQuery.orderBy('publishTime', 'desc').limit(20).get(),
-      tagsQuery.orderBy('publishTime', 'desc').limit(20).get()
-    ])
-    
-    // 合并去重结果
-    const allResults = [
-      ...titleResults.data,
-      ...contentResults.data,
-      ...tagsResults.data
-    ]
-    
-    const uniqueResults = allResults.filter((item, index, self) => 
-      index === self.findIndex(t => t._id === item._id)
-    )
-    
-    searchResults.value = uniqueResults.sort((a, b) => 
-      new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime()
-    )
-    
-    // 保存搜索历史
-    saveSearchHistory(keyword)
+      
+      // 按时间排序
+      searchResults.value = searchResults.sort((a, b) => 
+        new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime()
+      )
+      
+      console.log(`✅ 找到 ${searchResults.value.length} 条相关结果`)
+      
+      // 保存搜索历史
+      saveSearchHistory(keyword)
+    } else {
+      throw new Error(result.error || '搜索失败')
+    }
     
   } catch (error) {
-    console.error('搜索失败:', error)
+    console.error('❌ 搜索失败:', error)
     uni.showToast({ title: '搜索失败', icon: 'error' })
   } finally {
     loading.value = false
@@ -257,7 +241,7 @@ const highlightKeyword = (text: string) => {
 // 查看新闻详情
 const viewNewsDetail = (news: any) => {
   uni.navigateTo({
-    url: `/pages/ai-news/news-detail?id=${news._id}`
+    url: `/pages/ai-news/news-detail?id=${news.id}`
   })
 }
 

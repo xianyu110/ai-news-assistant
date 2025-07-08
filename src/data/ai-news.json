@@ -1,0 +1,830 @@
+{
+  "success": true,
+  "updateTime": "2025-07-08T11:21:46.733Z",
+  "count": 50,
+  "data": [
+    {
+      "id": "e72ccc8",
+      "title": "快手开源全球首个”多视角视频生成”工具，解锁无限视角！",
+      "content": "快手开源全球首个”多视角视频生成”工具SynCamMaster，能从任意视点生成开放世界视频，解决了多视点间动态一致性问题。SynCamMaster通过即插即用模块增强预训练的文生视频模型，实现多摄像机视频生成，确保不同视点的内容一致性。实现出色的视点间同步，可扩展到新视图合成任务中。来源：AI工具集",
+      "originalContent": "快手开源全球首个”多视角视频生成”工具SynCamMaster，能从任意视点生成开放世界视频，解决了多视点间动态一致性问题。SynCamMaster通过即插即用模块增强预训练的文生视频模型，实现多摄像机视频生成，确保不同视点的内容一致性。实现出色的视点间同步，可扩展到新视图合成任务中。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "开源",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "7d29d6d9",
+      "title": "巨人网络发布”千影”有声游戏大模型，加码”游戏+AI”赛道",
+      "content": "巨人网络在2024年度中国游戏产业年会上发布”千影 QianYing“有声游戏生成大模型，包括游戏视频生成大模型YingGame和视频配音大模型YingSound。YingGame支持开放世界游戏角色动作交互控制和物理仿真特性，YingSound能为视频添加逼真音效。巨人网络AI实验室将推进模型升级，推动游戏创作平权时代的到来。来源：AI工具集",
+      "originalContent": "巨人网络在2024年度中国游戏产业年会上发布”千影 QianYing“有声游戏生成大模型，包括游戏视频生成大模型YingGame和视频配音大模型YingSound。YingGame支持开放世界游戏角色动作交互控制和物理仿真特性，YingSound能为视频添加逼真音效。巨人网络AI实验室将推进模型升级，推动游戏创作平权时代的到来。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "62b7b336",
+      "title": "微软推出14B参数小语言模型 Phi-4：专攻数学等领域复杂推理",
+      "content": "微软近日推出14B参数的小型语言模型Phi-4，模型在传统语言处理能力之外，特别擅长数学等领域的复杂推理。Phi-4在数学竞赛问题上的表现超越了多个更大规模的模型（如70B的Llama 3.3和72B的Qwen 2.5）。已将Phi-4在Azure AI Foundry上开放使用。来源：AI工具集",
+      "originalContent": "微软近日推出14B参数的小型语言模型Phi-4，模型在传统语言处理能力之外，特别擅长数学等领域的复杂推理。Phi-4在数学竞赛问题上的表现超越了多个更大规模的模型（如70B的Llama 3.3和72B的Qwen 2.5）。已将Phi-4在Azure AI Foundry上开放使用。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "大语言模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "288a0800",
+      "title": "OpenAI 数据中心提供商Crusoe融资6亿美元，估值28亿美元",
+      "content": "OpenAI的数据中心提供商Crusoe在最新一轮融资中筹集了6亿美元，由Founders Fund主导，Nvidia、Fidelity等参与，公司估值达到28亿美元。Crusoe开发AI数据中心，出租Nvidia GPU的云服务。公司正在德克萨斯州阿比林建设大型数据中心园区，将为Oracle和OpenAI提供服务，已筹集34亿美元债务以资助配备Nvidia下一代旗舰芯片Blackwell的项目。来源：Z Potentials",
+      "originalContent": "OpenAI的数据中心提供商Crusoe在最新一轮融资中筹集了6亿美元，由Founders Fund主导，Nvidia、Fidelity等参与，公司估值达到28亿美元。Crusoe开发AI数据中心，出租Nvidia GPU的云服务。公司正在德克萨斯州阿比林建设大型数据中心园区，将为Oracle和OpenAI提供服务，已筹集34亿美元债务以资助配备Nvidia下一代旗舰芯片Blackwell的项目。来源：Z Potentials",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "投融资",
+      "tags": [
+        "投融资"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "5a9d6f87",
+      "title": "Google 发布了「虚拟现实」版 Android XR，想让你把熟悉的应用「戴在头上」",
+      "content": "Google发布了全新的Android XR操作系统，专为下一代计算构建，兼容各种XR设备，从VR头显到AI眼镜。系统以Android为底层，集成AI能力，提供沉浸式体验，如实时信息查询和多窗口功能。Google提供开发工具包，帮助开发者将2D Android应用快速适配到XR平台。首批搭载Android XR的设备包括三星的Project Moohan VR头显，与高通合作的AR眼镜。来源：极客公园",
+      "originalContent": "Google发布了全新的Android XR操作系统，专为下一代计算构建，兼容各种XR设备，从VR头显到AI眼镜。系统以Android为底层，集成AI能力，提供沉浸式体验，如实时信息查询和多窗口功能。Google提供开发工具包，帮助开发者将2D Android应用快速适配到XR平台。首批搭载Android XR的设备包括三星的Project Moohan VR头显，与高通合作的AR眼镜。来源：极客公园",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "7cfa62db",
+      "title": "千寻智能一年三轮融资数亿元，构建下一代智慧劳动力",
+      "content": "千寻智能由产业老兵和清华教授联合创立的具身智能初创企业，已完成三轮融资数亿元。公司采用”数据金字塔”模式，结合互联网视频数据、仿真数据、遥操数据和强化学习，构建能控制各类机器人执行任务的具身模型，目标是打造下一代智慧劳动力。来源：Z Potentials",
+      "originalContent": "千寻智能由产业老兵和清华教授联合创立的具身智能初创企业，已完成三轮融资数亿元。公司采用”数据金字塔”模式，结合互联网视频数据、仿真数据、遥操数据和强化学习，构建能控制各类机器人执行任务的具身模型，目标是打造下一代智慧劳动力。来源：Z Potentials",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "投融资",
+      "tags": [
+        "AI模型",
+        "投融资",
+        "视频生成",
+        "机器人"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "553fc3c8",
+      "title": "OpenAI版《Her》全量来袭：实时视频对话，你每个动作AI都看得见",
+      "content": "OpenAI直播第六天，推出”Santa Mode”（圣诞模式），实现《Her》式视频通话功能。可通过点击”雪花”与AI进行圣诞老人风格对话，开启摄像头让AI”看见”你。新功能包括实时视频通话、屏幕共享和图片上传，即日将在ChatGPT移动应用中推出。一周内，将向所有团队用户以及大多数Plus和Pro用户开放。来源：量子位",
+      "originalContent": "OpenAI直播第六天，推出”Santa Mode”（圣诞模式），实现《Her》式视频通话功能。可通过点击”雪花”与AI进行圣诞老人风格对话，开启摄像头让AI”看见”你。新功能包括实时视频通话、屏幕共享和图片上传，即日将在ChatGPT移动应用中推出。一周内，将向所有团队用户以及大多数Plus和Pro用户开放。来源：量子位",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "AI模型",
+        "大语言模型",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "7808d1ac",
+      "title": "谷歌深夜炸场：Gemini 2.0 正式发布，主打Agent+多模态",
+      "content": "谷歌发布新一代AI模型Gemini 2.0，性能是前代1.5 Pro的两倍，支持多模态输入输出，包括图像、视频、音频等，可以原生调用 Google Search、代码执行以及第三方用户定义的函数等工具。新模型集成了深度研究功能，能生成复杂主题的研究报告，目前仅对Gemini Advanced用户使用。Gemini 2.0 Flash实验版已开放网页端试用，移动版即将推出，将扩展到旗下更多产品中。来源：AI工具集",
+      "originalContent": "谷歌发布新一代AI模型Gemini 2.0，性能是前代1.5 Pro的两倍，支持多模态输入输出，包括图像、视频、音频等，可以原生调用 Google Search、代码执行以及第三方用户定义的函数等工具。新模型集成了深度研究功能，能生成复杂主题的研究报告，目前仅对Gemini Advanced用户使用。Gemini 2.0 Flash实验版已开放网页端试用，移动版即将推出，将扩展到旗下更多产品中。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "图像生成",
+        "视频生成",
+        "语音技术"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "36006c25",
+      "title": "造梦次元完成近亿元人民币融资，多家顶级风投和大厂共同投资",
+      "content": "造梦次元完成近亿元人民币A轮融资，由锦秋基金领投，高榕创投、明势创投、商汤科技等参投。公司专注于多模态AI驱动的内容平台，提供虚拟角色互动体验，日均活跃互动时间超100分钟。融资将加速技术研发和市场拓展，优化创作者工具，拓展海外市场，重视内容安全与合规。来源：Z Potentials",
+      "originalContent": "造梦次元完成近亿元人民币A轮融资，由锦秋基金领投，高榕创投、明势创投、商汤科技等参投。公司专注于多模态AI驱动的内容平台，提供虚拟角色互动体验，日均活跃互动时间超100分钟。融资将加速技术研发和市场拓展，优化创作者工具，拓展海外市场，重视内容安全与合规。来源：Z Potentials",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "投融资",
+      "tags": [
+        "投融资"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "5b6f881f",
+      "title": "百度文库AI再升级，「专业PPT生成」功能上线！打工人终于有救了",
+      "content": "百度文库推出「专业PPT生成」功能，通过AI技术帮助用户一键生成高质量PPT。只需输入关键词或主题，可快速获得内容明确、主题突出的专业演示文稿。新功能采用商务化PPT版式，提供清晰的结构和视觉冲击力，支持个性化编辑，包括字体、颜色和动画效果，助力职场汇报和晋升。来源：百度文库服务号",
+      "originalContent": "百度文库推出「专业PPT生成」功能，通过AI技术帮助用户一键生成高质量PPT。只需输入关键词或主题，可快速获得内容明确、主题突出的专业演示文稿。新功能采用商务化PPT版式，提供清晰的结构和视觉冲击力，支持个性化编辑，包括字体、颜色和动画效果，助力职场汇报和晋升。来源：百度文库服务号",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "43200cae",
+      "title": "OpenAI直播第五天，OpenAI正式成为苹果AI的”贤内助”",
+      "content": "OpenAI与苹果达成合作，将ChatGPT集成进iOS、iPadOS和macOS系统。此次整合包括Siri协同、写作工具增强和iPhone相机控制功能。用户可通过Siri启用ChatGPT处理复杂任务，撰写和总结文档，基于视觉智能分析拍摄对象。合作使OpenAI成为苹果AI的“贤内助”，直接触达数十亿苹果设备用户，可能改变科技行业格局。来源：腾讯科技",
+      "originalContent": "OpenAI与苹果达成合作，将ChatGPT集成进iOS、iPadOS和macOS系统。此次整合包括Siri协同、写作工具增强和iPhone相机控制功能。用户可通过Siri启用ChatGPT处理复杂任务，撰写和总结文档，基于视觉智能分析拍摄对象。合作使OpenAI成为苹果AI的“贤内助”，直接触达数十亿苹果设备用户，可能改变科技行业格局。来源：腾讯科技",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "行业动态",
+      "tags": [
+        "AI模型",
+        "大语言模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "60853bba",
+      "title": "谷歌发布智能体原型 Mariner，能帮用户操作表格、在线购物",
+      "content": "谷歌发布名为 Mariner 的智能体原型，基于Gemini 2.0 AI模型，能自主浏览网站执行电子表格、在线购物等操作。Mariner旨在与用户协作，如在购物时可将商品加入购物车，但购买需用户完成。目前仅对少数测试者开放，处于实验阶段。来源：AI工具集",
+      "originalContent": "谷歌发布名为 Mariner 的智能体原型，基于Gemini 2.0 AI模型，能自主浏览网站执行电子表格、在线购物等操作。Mariner旨在与用户协作，如在购物时可将商品加入购物车，但购买需用户完成。目前仅对少数测试者开放，处于实验阶段。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "265608dd",
+      "title": "全球首个”AI 程序员”Devin 全面开放：可独立开发/修复bug，月费500美元",
+      "content": "全球首个AI程序员Devin已全面开放，支持个人开发者和团队以每月500美元订阅服务，包括Slack集成、IDE扩展和技术支持。Devin能熟练使用多种编程语言，独立完成网站和应用构建、部署，能发现修复代码缺陷。Devin采用沙盒计算环境，内置代码编辑器和浏览器，能快速学习和适应新技术，理解复杂的编程上下文。来源：IT之家",
+      "originalContent": "全球首个AI程序员Devin已全面开放，支持个人开发者和团队以每月500美元订阅服务，包括Slack集成、IDE扩展和技术支持。Devin能熟练使用多种编程语言，独立完成网站和应用构建、部署，能发现修复代码缺陷。Devin采用沙盒计算环境，内置代码编辑器和浏览器，能快速学习和适应新技术，理解复杂的编程上下文。来源：IT之家",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "技术研究",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "53f1b9d4",
+      "title": "MidJourney 上线 Patchwork：用户化身“造物主”，AI 构造故事宇宙",
+      "content": "Midjourney推出 Patchwork 叙事工具，打造AI驱动的沉浸式故事世界。适用于小说作者、游戏开发者和艺术家等，用户在无限画布上构建角色、风格和背景故事。可以通过Midjourney账户登录，创建和保存包含所有图像链接的JSON文件，支持多达100名用户实时协作构建故事。来源：AI工具集",
+      "originalContent": "Midjourney推出 Patchwork 叙事工具，打造AI驱动的沉浸式故事世界。适用于小说作者、游戏开发者和艺术家等，用户在无限画布上构建角色、风格和背景故事。可以通过Midjourney账户登录，创建和保存包含所有图像链接的JSON文件，支持多达100名用户实时协作构建故事。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "图像生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "34382ad",
+      "title": "字节内部判断AI对话类产品天花板可能不高，提升剪映即梦优先级",
+      "content": "字节跳动反思AI对话产品如豆包的局限性，认为可能仅为AI产品的“中间态”。豆包用户活跃度不高，日均使用时长和频次增长有限，商业化前景不明。字节计划资源转移至多模态产品，提升即梦产品优先级，探索更视觉化、低门槛的AI产品，打造AI时代的“抖音”。剪映月活高达1.7亿，全球排名第二。来源：智能涌现",
+      "originalContent": "字节跳动反思AI对话产品如豆包的局限性，认为可能仅为AI产品的“中间态”。豆包用户活跃度不高，日均使用时长和频次增长有限，商业化前景不明。字节计划资源转移至多模态产品，提升即梦产品优先级，探索更视觉化、低门槛的AI产品，打造AI时代的“抖音”。剪映月活高达1.7亿，全球排名第二。来源：智能涌现",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "df64448",
+      "title": "面壁智能完成新一轮数亿元融资，CEO称大模型正进入“真刀真枪”阶段",
+      "content": "面壁智能完成数亿元新一轮融资，由龙芯创投等联合领投，北京市人工智能产业投资基金跟投。面壁智能将加速端侧AI大模型商业化，以高性能、低能耗技术服务行业。CEO李大海表示，大模型技术进入实战阶段，面壁智能在端侧智能领域保持竞争力，致力于将高效AI技术带入各行各业。来源：钛媒体AGI",
+      "originalContent": "面壁智能完成数亿元新一轮融资，由龙芯创投等联合领投，北京市人工智能产业投资基金跟投。面壁智能将加速端侧AI大模型商业化，以高性能、低能耗技术服务行业。CEO李大海表示，大模型技术进入实战阶段，面壁智能在端侧智能领域保持竞争力，致力于将高效AI技术带入各行各业。来源：钛媒体AGI",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "投融资",
+      "tags": [
+        "AI模型",
+        "投融资"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "592c1c79",
+      "title": "OpenAI直播第四弹：Canvas全量开放，人+AI协作模式启动",
+      "content": "OpenAI宣布ChatGPT的Canvas功能全量开放，从聊天工具升级为生产力工具。Canvas整合进ChatGPT，支持用户与AI共同完成写作和编码项目。在Canvas上直接运行Python代码和Customgpt调用能力。OpenAI展示了Canvas的文字编辑、审稿、编程和图片识别功能，这一变革使ChatGPT更像一个拥有超强智能的Google Docs。来源：机器之心",
+      "originalContent": "OpenAI宣布ChatGPT的Canvas功能全量开放，从聊天工具升级为生产力工具。Canvas整合进ChatGPT，支持用户与AI共同完成写作和编码项目。在Canvas上直接运行Python代码和Customgpt调用能力。OpenAI展示了Canvas的文字编辑、审稿、编程和图片识别功能，这一变革使ChatGPT更像一个拥有超强智能的Google Docs。来源：机器之心",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI模型",
+        "大语言模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "7153e1eb",
+      "title": "文小言电脑版正式发布，支持Windows和Mac免费下载，双端协同",
+      "content": "文小言电脑版正式发布，支持Windows和macOS系统免费下载，实现与APP的双端协同和消息互通。可以一键拖拽解析多种格式文件，针对原文提问，获得有据可依的回答。提升文本创作的效率，支持边搜索边编辑功能。来源：AI工具集",
+      "originalContent": "文小言电脑版正式发布，支持Windows和macOS系统免费下载，实现与APP的双端协同和消息互通。可以一键拖拽解析多种格式文件，针对原文提问，获得有据可依的回答。提升文本创作的效率，支持边搜索边编辑功能。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "7c5f819a",
+      "title": "DeepSeek V2 系列 AI 模型收官，推出 DeepSeek-V2.5-1210，联网搜索上线",
+      "content": "DeepSeek官方推出V2系列AI模型 DeepSeek-V2.5-1210 上线，支持联网搜索功能。模型在数学、代码、写作等方面取得进步，优化了文件上传。可在网页端体验搜索功能，API暂不支持。模型能分析网页信息，提供全面、准确答案。DeepSeek宣布V2系列模型收官，将告一段落，正在打造更强大的下一代基座模型 DeepSeek V3，敬请期待。来源：AI工具集",
+      "originalContent": "DeepSeek官方推出V2系列AI模型 DeepSeek-V2.5-1210 上线，支持联网搜索功能。模型在数学、代码、写作等方面取得进步，优化了文件上传。可在网页端体验搜索功能，API暂不支持。模型能分析网页信息，提供全面、准确答案。DeepSeek宣布V2系列模型收官，将告一段落，正在打造更强大的下一代基座模型 DeepSeek V3，敬请期待。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "6b25893e",
+      "title": "ChatGPT语音负责人创业AI语音，a16z首轮重注4000万美金",
+      "content": "前ChatGPT语音负责人Conneau，创立 WaveForms AI 专注于音频LLM的新公司，旨在2025年前推出与OpenAI和Google竞争的AI音频产品。已获得a16z领投的4000万美元种子资金，开发能“用耳朵感受AGI”的技术，强调人机互动应与人际互动互补，而非取代。来源：Z Potentials",
+      "originalContent": "前ChatGPT语音负责人Conneau，创立 WaveForms AI 专注于音频LLM的新公司，旨在2025年前推出与OpenAI和Google竞争的AI音频产品。已获得a16z领投的4000万美元种子资金，开发能“用耳朵感受AGI”的技术，强调人机互动应与人际互动互补，而非取代。来源：Z Potentials",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "投融资",
+      "tags": [
+        "AI模型",
+        "大语言模型",
+        "语音技术"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "20c6c445",
+      "title": "字节视频生成模型PixelDance上线豆包，每日免费生成10个视频",
+      "content": "字节跳动的PixelDance视频生成模型在豆包电脑版开启内测，用户每日可免费生成10个视频。模型于9月底首次发布。内测反馈，10秒视频切换3-5次镜头效果最佳，场景和角色保持一致性。豆包将持续优化，助力用户创作。来源：IT之家",
+      "originalContent": "字节跳动的PixelDance视频生成模型在豆包电脑版开启内测，用户每日可免费生成10个视频。模型于9月底首次发布。内测反馈，10秒视频切换3-5次镜头效果最佳，场景和角色保持一致性。豆包将持续优化，助力用户创作。来源：IT之家",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "74e602b0",
+      "title": "智源研究院开源3D生成模型See3D，看3.2亿帧视频学会3D生成",
+      "content": "智源研究院推出无标注视频学习的3D生成模型See3D，采用新型视觉条件技术，能从大规模互联网视频中生成几何一致的多视角图像。See3D支持零样本和开放世界的3D生成，无需昂贵的相机标注，具备高效的3D编辑和表面重建能力。模型、代码、Demo均已开源。来源：AI工具集",
+      "originalContent": "智源研究院推出无标注视频学习的3D生成模型See3D，采用新型视觉条件技术，能从大规模互联网视频中生成几何一致的多视角图像。See3D支持零样本和开放世界的3D生成，无需昂贵的相机标注，具备高效的3D编辑和表面重建能力。模型、代码、Demo均已开源。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "开源",
+        "图像生成",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "69fc9229",
+      "title": "OpenAI 正式推出视频生成王者 Sora ，网页挤爆了！",
+      "content": "OpenAI 正式发布视频生成大模型 Sora 及其新版本 Sora Turbo，提供1080p分辨率、最长20秒的视频生成能力，支持宽屏、竖屏和方形比例。Sora Turbo版本提升了生成速度。所有视频带有C2PA元数据以验证来源。ChatGPT Plus用户每月可免费生成50个480P视频，Pro用户（月费200美元）享有更高分辨率和更长时长。来源：机器之心",
+      "originalContent": "OpenAI 正式发布视频生成大模型 Sora 及其新版本 Sora Turbo，提供1080p分辨率、最长20秒的视频生成能力，支持宽屏、竖屏和方形比例。Sora Turbo版本提升了生成速度。所有视频带有C2PA元数据以验证来源。ChatGPT Plus用户每月可免费生成50个480P视频，Pro用户（月费200美元）享有更高分辨率和更长时长。来源：机器之心",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "大语言模型",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "7beb8331",
+      "title": "北京国资独家投资，小米投资首家工业大模型公司小雨智再造获亿元A轮融资",
+      "content": "北京小雨智造科技有限公司宣布完成亿元A轮融资，由北京信息产业发展投资基金独家投资。公司专注于工业领域大模型机器人技术，为机器人打造“通用大脑”。小雨智造已与松下等企业合作，推进智能焊接机器人市场，在航空航天、船舶制造等领域布局。来源：钛媒体AGI",
+      "originalContent": "北京小雨智造科技有限公司宣布完成亿元A轮融资，由北京信息产业发展投资基金独家投资。公司专注于工业领域大模型机器人技术，为机器人打造“通用大脑”。小雨智造已与松下等企业合作，推进智能焊接机器人市场，在航空航天、船舶制造等领域布局。来源：钛媒体AGI",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "投融资",
+      "tags": [
+        "AI模型",
+        "投融资",
+        "机器人"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "61ff009b",
+      "title": "谷歌发布最强量子芯片 Willow，5分钟颠覆138亿年计算极限",
+      "content": "谷歌宣布最新量子芯片Willow取得重大突破，在基准测试中5分钟内完成一项标准计算，而最快的超级计算机需超过10^25年。Willow芯片破解了近30年的量子纠错挑战，能在更多量子比特下成倍减少错误。来源：AI工具集",
+      "originalContent": "谷歌宣布最新量子芯片Willow取得重大突破，在基准测试中5分钟内完成一项标准计算，而最快的超级计算机需超过10^25年。Willow芯片破解了近30年的量子纠错挑战，能在更多量子比特下成倍减少错误。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "2d6716ce",
+      "title": "商汤办公小浣熊2.0，上新！AI原生一站式创作空间来了",
+      "content": "商汤科技推出升级版的办公小浣熊2.0，集成多项AI功能，包括信息检索、方案输出、文档创建和智能规划，用户通过“规划、分析、写作”三步法高效完成工作任务。升级版增强了数据分析和文档解析能力，可以通过对话生成文档，实时进行数据可视化和分析。来源：AI工具集",
+      "originalContent": "商汤科技推出升级版的办公小浣熊2.0，集成多项AI功能，包括信息检索、方案输出、文档创建和智能规划，用户通过“规划、分析、写作”三步法高效完成工作任务。升级版增强了数据分析和文档解析能力，可以通过对话生成文档，实时进行数据可视化和分析。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "3504031b",
+      "title": "马斯克新文生图模型Aurora闪现！网友抢时间疯狂实测：人物生成超逼真",
+      "content": "马斯克的xAI公司短暂上线新文生图模型Aurora，生成的人物图像逼真又高清。Aurora能理解简单的提示生成高质量的图像，能生成受版权保护角色和公众人物图像。模型上线数小时，网友已抢先进行实测，在人物写实生成方面表现出色。马斯克表示只是测试版，将很快改进。来源：AI工具集",
+      "originalContent": "马斯克的xAI公司短暂上线新文生图模型Aurora，生成的人物图像逼真又高清。Aurora能理解简单的提示生成高质量的图像，能生成受版权保护角色和公众人物图像。模型上线数小时，网友已抢先进行实测，在人物写实生成方面表现出色。马斯克表示只是测试版，将很快改进。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "图像生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "282f85b2",
+      "title": "英伟达发布大模型NVILA，专注于优化准确性和效率",
+      "content": "英伟达发布新型开放式视觉语言模型NVILA，专注于提高准确性和效率。与LLaVa OneVision模型相比，NVILA的训练成本降低了4.5倍，微调内存减少了3.4倍，预填充和解码延迟降低了近2倍。在视频基准测试中表现优于GPT 4o Mini。来源：AI工具集",
+      "originalContent": "英伟达发布新型开放式视觉语言模型NVILA，专注于提高准确性和效率。与LLaVa OneVision模型相比，NVILA的训练成本降低了4.5倍，微调内存减少了3.4倍，预填充和解码延迟降低了近2倍。在视频基准测试中表现优于GPT 4o Mini。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "大语言模型",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "40ce2a8b",
+      "title": "智谱AI再放大招！全新多模态模型 GLM-4V-Flash 免费开放！",
+      "content": "智谱AI推出首个免费多模态模型 GLM-4V-Flash ，该模型基于4V系列，提升图像处理精确度，降低开发门槛。模型支持26种语言，具备图像描述生成、分类等高级功能，适用于信息提取、内容创作等多个场景。来源：AI工具集",
+      "originalContent": "智谱AI推出首个免费多模态模型 GLM-4V-Flash ，该模型基于4V系列，提升图像处理精确度，降低开发门槛。模型支持26种语言，具备图像描述生成、分类等高级功能，适用于信息提取、内容创作等多个场景。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "图像生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "6a348462",
+      "title": "Meta今年压轴开源 AI 大模型Llama 3.3，700亿参数，性能比肩4050亿",
+      "content": "Meta发布AI大模型Llama 3.3，拥有700亿参数，性能媲美4050亿参数的Llama 3.1。模型效率更高、成本更低，支持8种语言，可在标准工作站上运行。采用优化的transformer架构，通过SFT和RLHF微调，确保与人类偏好一致。上下文长度为128K，支持与外部工具集成。来源：AI工具集",
+      "originalContent": "Meta发布AI大模型Llama 3.3，拥有700亿参数，性能媲美4050亿参数的Llama 3.1。模型效率更高、成本更低，支持8种语言，可在标准工作站上运行。采用优化的transformer架构，通过SFT和RLHF微调，确保与人类偏好一致。上下文长度为128K，支持与外部工具集成。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "开源"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "664f4625",
+      "title": "OpenAI强化微调登场：几十条数据o1-mini反超o1暴涨80%，奥特曼：今年最大惊喜",
+      "content": "OpenAI的第2天直播推出新功能“强化微调”，仅需几十个例子可创建特定领域的专家模型。CEO奥特曼称为2024年最大惊喜。微调后的o1-mini模型得分提高80%，超过o1正式版。OpenAI已开启研究计划，支持开发者申请强化微调API的alpha版本。来源：量子位",
+      "originalContent": "OpenAI的第2天直播推出新功能“强化微调”，仅需几十个例子可创建特定领域的专家模型。CEO奥特曼称为2024年最大惊喜。微调后的o1-mini模型得分提高80%，超过o1正式版。OpenAI已开启研究计划，支持开发者申请强化微调API的alpha版本。来源：量子位",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "460715b0",
+      "title": "马斯克 xAI 公司 Grok AI 聊天机器人向免费用户开放，不再是会员专属",
+      "content": "马斯克的AI聊天机器人Grok已向X的免费用户开放，每两小时可最多发送10条消息。Grok定位为幽默型AI助手，今年增加了文生图功能，用的是Flux模型。来源：钛媒体AGI",
+      "originalContent": "马斯克的AI聊天机器人Grok已向X的免费用户开放，每两小时可最多发送10条消息。Grok定位为幽默型AI助手，今年增加了文生图功能，用的是Flux模型。来源：钛媒体AGI",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "机器人"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "7f10100f",
+      "title": "LiblibAI x 星流：正式推出新一代自研图像大模型Star-3 Alpha",
+      "content": "LiblibAI今日宣布推出新一代自研图像大模型Star-3 Alpha。模型基于F.1基础算法架构，提升图像精准度、色彩表现力和美学捕捉能力，提供高级感和真实感。可通过星流官网、Lib官网在线生图功能及API开放平台体验。来源：AI工具集",
+      "originalContent": "LiblibAI今日宣布推出新一代自研图像大模型Star-3 Alpha。模型基于F.1基础算法架构，提升图像精准度、色彩表现力和美学捕捉能力，提供高级感和真实感。可通过星流官网、Lib官网在线生图功能及API开放平台体验。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "图像生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "24bea70",
+      "title": "通义实验室开源 ClearerVoice-Studio，高效去除背景噪声",
+      "content": "阿里通义实验室语音团队开源ClearerVoice-Studio技术框架，集成语音增强、分离和音视频说话人提取功能。通过复数域深度学习算法，有效消除背景噪声，保留语音清晰度，保持语音失真最小化。可在Github和HuggingFace Space上查看和试用。来源：AI工具集",
+      "originalContent": "阿里通义实验室语音团队开源ClearerVoice-Studio技术框架，集成语音增强、分离和音视频说话人提取功能。通过复数域深度学习算法，有效消除背景噪声，保留语音清晰度，保持语音失真最小化。可在Github和HuggingFace Space上查看和试用。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "视频生成",
+        "语音技术"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "6afad3bc",
+      "title": "谷歌DeepMind推出AI气象预测模型GenCast，8分钟预测15日天气",
+      "content": "DeepMind气象预测大模型GenCast在Nature发表，能在8分钟内完成15天的天气预报，准确度超过全球顶尖中期天气预报系统ENS。GenCast基于扩散模型和Transformer技术，分辨率为0.25度经度/纬度。在1320种实验条件下，GenCast在97.2%的任务中比ENS更准确，在36小时后的预测中表现突出。来源：AI工具集",
+      "originalContent": "DeepMind气象预测大模型GenCast在Nature发表，能在8分钟内完成15天的天气预报，准确度超过全球顶尖中期天气预报系统ENS。GenCast基于扩散模型和Transformer技术，分辨率为0.25度经度/纬度。在1320种实验条件下，GenCast在97.2%的任务中比ENS更准确，在36小时后的预测中表现突出。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "289a2549",
+      "title": "豆包大模型团队开源FullStack Bench代码全新基准，覆盖超11类真实编程场景",
+      "content": "字节跳动豆包大模型团队开源全栈编程代码评估数据集FullStack Bench。FullStack Bench覆盖超11类真实编程场景和16种编程语言，包含3374个问题，有效评估大模型代码开发能力。为AI在真实编程场景中的表现提供快速评估参考。来源：AI工具集",
+      "originalContent": "字节跳动豆包大模型团队开源全栈编程代码评估数据集FullStack Bench。FullStack Bench覆盖超11类真实编程场景和16种编程语言，包含3374个问题，有效评估大模型代码开发能力。为AI在真实编程场景中的表现提供快速评估参考。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "开源"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "3ec35b18",
+      "title": "OpenAI第一场直播就炸场！o1满血版上线，ChatGPT Pro订阅费：200美元/月",
+      "content": "OpenAI发布最强推理模型o1满血版及其Pro版本，ChatGPT Pro订阅计划定价为200美金/月，成为全球最贵的大模型订阅服务。满血版o1在数学、代码能力上显著提升，推理速度比预览版快60%，支持多模态输入。Pro版本为订阅用户提供o1满血版的不限量访问权限，展示在高难度科学问答上的卓越表现。来源：量子位",
+      "originalContent": "OpenAI发布最强推理模型o1满血版及其Pro版本，ChatGPT Pro订阅计划定价为200美金/月，成为全球最贵的大模型订阅服务。满血版o1在数学、代码能力上显著提升，推理速度比预览版快60%，支持多模态输入。Pro版本为订阅用户提供o1满血版的不限量访问权限，展示在高难度科学问答上的卓越表现。来源：量子位",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "大语言模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "1869f85c",
+      "title": "海螺AI推出图生视频模型I2V-01-Live，让静态二维图像动起来",
+      "content": "海螺AI推出图生视频模型I2V-01-Live，能将静态图像转成动态视频。模型基于深度学习，增强动作流畅度和真实性，支持多风格适配。上传2D插图，选择I2V-01-Live模型即可生成动态视频。来源：AI工具集",
+      "originalContent": "海螺AI推出图生视频模型I2V-01-Live，能将静态图像转成动态视频。模型基于深度学习，增强动作流畅度和真实性，支持多风格适配。上传2D插图，选择I2V-01-Live模型即可生成动态视频。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "图像生成",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "478b17a8",
+      "title": "DeepMind最强「基础世界模型」诞生！单图生1分钟游戏世界，解锁下一代智能体",
+      "content": "谷歌DeepMind发布第二代基础世界模型Genie 2，能从单图生成长达1分钟的3D游戏世界。支持键盘鼠标操作，模拟复杂交互和物理效果，为具身智能体提供无限训练数据。Genie 2的涌现能力包括物体交互、角色动画、物理效果等，为AI研究和游戏开发带来新可能。来源：新智元",
+      "originalContent": "谷歌DeepMind发布第二代基础世界模型Genie 2，能从单图生成长达1分钟的3D游戏世界。支持键盘鼠标操作，模拟复杂交互和物理效果，为具身智能体提供无限训练数据。Genie 2的涌现能力包括物体交互、角色动画、物理效果等，为AI研究和游戏开发带来新可能。来源：新智元",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "机器人"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "4ce647f5",
+      "title": "谷歌领跑AI视频生成赛道：抢先 OpenAI Sora推出Veo模型，可生成1080P高清视频",
+      "content": "谷歌宣布在Vertex AI平台上推出Veo模型的私测预览版，面向企业开放。Veo模型能根据文本或图像提示生成1080p高清视频，提供多种视觉风格。Veo生成的视频逼真度极高，如狗狗的毛皮和项圈在运动中保持一致，难以区分是否由AI生成。来源：IT之家",
+      "originalContent": "谷歌宣布在Vertex AI平台上推出Veo模型的私测预览版，面向企业开放。Veo模型能根据文本或图像提示生成1080p高清视频，提供多种视觉风格。Veo生成的视频逼真度极高，如狗狗的毛皮和项圈在运动中保持一致，难以区分是否由AI生成。来源：IT之家",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "图像生成",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "35da7c1d",
+      "title": "OpenAI官宣12天12场新品发布会",
+      "content": "OpenAI宣布将举行为期12天的系列活动，期间每天发布一个新产品或样品。活动将包括备受期待的文字转视频工具Sora和新的推理模型。OpenAI CEO透露，周活跃用户数已超3亿，目标是到2025年增至10亿。来源：财联社",
+      "originalContent": "OpenAI宣布将举行为期12天的系列活动，期间每天发布一个新产品或样品。活动将包括备受期待的文字转视频工具Sora和新的推理模型。OpenAI CEO透露，周活跃用户数已超3亿，目标是到2025年增至10亿。来源：财联社",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "5ab75862",
+      "title": "红杉美国最新洞察：2025 年将是 Agent 元年！AI 智能体进入“群体协作”时代",
+      "content": "红杉美国合伙人Konstantine Buhler预测，2025年AI智能体将进入“群体协作”时代，多个智能体网络将协作完成复杂任务。他强调，AI技术将在医疗和教育领域发挥重要作用，降低成本、提高效率，推动社会进步。来源：有新Newin",
+      "originalContent": "红杉美国合伙人Konstantine Buhler预测，2025年AI智能体将进入“群体协作”时代，多个智能体网络将协作完成复杂任务。他强调，AI技术将在医疗和教育领域发挥重要作用，降低成本、提高效率，推动社会进步。来源：有新Newin",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "技术研究",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "7a21dcdd",
+      "title": "文心一言上线“深度写作”专业版功能：会自己搜素材的AI写作",
+      "content": "百度AI推出文心一言“深度写作”专业版，能自动搜索素材并创作个性化文章。可通过上传资料或网盘素材，使内容更具体。适用于多种文档创作，模板将持续更新。来源：百度AI",
+      "originalContent": "百度AI推出文心一言“深度写作”专业版，能自动搜索素材并创作个性化文章。可通过上传资料或网盘素材，使内容更具体。适用于多种文档创作，模板将持续更新。来源：百度AI",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "21db5953",
+      "title": "刚刚！字节跳动豆包上线图片理解，大模型走向多模态",
+      "content": "字节跳动豆包APP和PC端新增图片理解功能，能识别图片内容并回答相关问题，如景点位置和动漫人物身份。标志着AI大模型向多模态发展，更加实用。豆包已成为中国日活用户最高的AI大模型产品，AI应用行业月活跃用户规模同比增长373%。来源：钛媒体",
+      "originalContent": "字节跳动豆包APP和PC端新增图片理解功能，能识别图片内容并回答相关问题，如景点位置和动漫人物身份。标志着AI大模型向多模态发展，更加实用。豆包已成为中国日活用户最高的AI大模型产品，AI应用行业月活跃用户规模同比增长373%。来源：钛媒体",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "62068582",
+      "title": "亚马逊年末甩王炸！6款大模型、3nm AI芯片、全球最大AI计算集群，苹果罕见站台",
+      "content": "亚马逊在AWS re:Invent大会上宣布将推出6款大模型和3nm第三代AI训练芯片Trainum3，以及最强AI服务器Trn2 UltraServer。Amazon Nova系列模型涵盖文本、图像和视频，Reel模型支持生成6秒视频。AWS与Anthropic合作构建全球最大AI计算集群，Bedrock服务更新包括自动推理检查、多Agent协作和模型蒸馏功能.来源：智东西",
+      "originalContent": "亚马逊在AWS re:Invent大会上宣布将推出6款大模型和3nm第三代AI训练芯片Trainum3，以及最强AI服务器Trn2 UltraServer。Amazon Nova系列模型涵盖文本、图像和视频，Reel模型支持生成6秒视频。AWS与Anthropic合作构建全球最大AI计算集群，Bedrock服务更新包括自动推理检查、多Agent协作和模型蒸馏功能.来源：智东西",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "图像生成",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "111bcca",
+      "title": "即梦2.1模型上线，一键生成图文融合设计图",
+      "content": "字节即梦AI发布全新绘图模型v2.1，10秒内一键生成中文海报。解决了中文嵌入问题，支持直接在图片上绘制中英文字体，具有高审美和泛化能力。可通过简单描述生成个性化海报，但需注意避免抄袭。来源：AI工具集",
+      "originalContent": "字节即梦AI发布全新绘图模型v2.1，10秒内一键生成中文海报。解决了中文嵌入问题，支持直接在图片上绘制中英文字体，具有高审美和泛化能力。可通过简单描述生成个性化海报，但需注意避免抄袭。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "1aae03c2",
+      "title": "The Browser Company计划推出新型AI网络浏览器Dia",
+      "content": "The Browser Company计划于2025年推出新款AI网络浏览器Dia。Dia具备人工智能功能，如从互联网获取事实、提供写作灵感、总结网页内容，能从打开的标签中复制信息，如亚马逊链接，插入电子邮件。来源：AI工具集",
+      "originalContent": "The Browser Company计划于2025年推出新款AI网络浏览器Dia。Dia具备人工智能功能，如从互联网获取事实、提供写作灵感、总结网页内容，能从打开的标签中复制信息，如亚马逊链接，插入电子邮件。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "784d93fc",
+      "title": "WPS Office推出 WPS AI 语音速记功能",
+      "content": "WPS Office推出了WPS AI语音速记功能，通过WPS AI技术得到增强，与WPS云文档深度整合。支持实时录音和音频导入转文字，实现中英等多种语言互译，确保录音文件的完整性。声纹识别和AI自动总结功能提高转写准确率和速度，提供无缝衔接，确保高安全性能。来源：AI工具集",
+      "originalContent": "WPS Office推出了WPS AI语音速记功能，通过WPS AI技术得到增强，与WPS云文档深度整合。支持实时录音和音频导入转文字，实现中英等多种语言互译，确保录音文件的完整性。声纹识别和AI自动总结功能提高转写准确率和速度，提供无缝衔接，确保高安全性能。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "产品发布",
+      "tags": [
+        "语音技术"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "138412b",
+      "title": "腾讯正式发布AI视频产品：腾讯混元文生视频，预计下月推出图生视频模型",
+      "content": "腾讯今日正式推出了“腾讯混元文生视频”AI视频生成工具，该模型在指令遵循、动态表现、画面稳定性等方面表现出色，尤其在科幻、魔幻风格上给人惊喜。用户可以在腾讯元宝免费体验，每天免费3次。同时，腾讯混元文生视频已在Hugging Face和Github上开源，提供130亿参数的模型、权重和推理代码，供开发者免费使用。来源：AI工具集",
+      "originalContent": "腾讯今日正式推出了“腾讯混元文生视频”AI视频生成工具，该模型在指令遵循、动态表现、画面稳定性等方面表现出色，尤其在科幻、魔幻风格上给人惊喜。用户可以在腾讯元宝免费体验，每天免费3次。同时，腾讯混元文生视频已在Hugging Face和Github上开源，提供130亿参数的模型、权重和推理代码，供开发者免费使用。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "开源项目",
+      "tags": [
+        "AI模型",
+        "开源",
+        "视频生成"
+      ],
+      "dateText": "今日"
+    },
+    {
+      "id": "1776b4ec",
+      "title": "全面对决Suno，国产AI音乐三巨头的突围之战",
+      "content": "国内AI音乐领域三巨头——字节跳动的海绵音乐、昆仑万维的天工SkyMusic和趣丸科技的天谱乐，正与全球顶级产品Suno展开激烈竞争。通过提供个性化音乐生成、多模态配乐等创新功能，降低音乐创作门槛。来源：钛媒体",
+      "originalContent": "国内AI音乐领域三巨头——字节跳动的海绵音乐、昆仑万维的天工SkyMusic和趣丸科技的天谱乐，正与全球顶级产品Suno展开激烈竞争。通过提供个性化音乐生成、多模态配乐等创新功能，降低音乐创作门槛。来源：钛媒体",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-08T11:21:46.720Z",
+      "crawlTime": "2025-07-08T11:21:46.720Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI资讯"
+      ],
+      "dateText": "今日"
+    }
+  ],
+  "stats": {
+    "todayCount": 823,
+    "totalCount": 823,
+    "categories": [
+      "开源项目",
+      "投融资",
+      "产品发布",
+      "行业动态",
+      "技术研究",
+      "综合资讯"
+    ],
+    "sources": [
+      "AI工具集"
+    ],
+    "categoryStats": {
+      "开源项目": 491,
+      "投融资": 100,
+      "产品发布": 169,
+      "行业动态": 11,
+      "技术研究": 12,
+      "综合资讯": 40
+    },
+    "dateRange": {
+      "earliest": "2025-07-08T11:21:46.707Z",
+      "latest": "2025-07-08T11:21:46.720Z"
+    }
+  }
+}

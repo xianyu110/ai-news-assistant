@@ -38,7 +38,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import { app, ensureLogin, checkEnvironment } from '../../utils/cloudbase'
+import { NewsService } from '../../utils/cloudbase'
 
 const envId = ref('codedemo-0gwailqxfd0e68b3')
 const sdkStatus = ref('未知')
@@ -82,7 +82,7 @@ const testInit = async () => {
 const testLogin = async () => {
   try {
     addLog('开始测试登录...')
-    const result = await ensureLogin()
+    const result = await NewsService.getNews()
     
     if (result && result.user) {
       loginStatus.value = '已登录'

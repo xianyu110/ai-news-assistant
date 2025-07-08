@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "基于 UniApp 和腾讯云开发（CloudBase）的跨平台应用模板",
   "scripts": {
+    "crawl": "node scripts/crawl-news.js",
+    "update-history": "node scripts/update-history.js",
     "dev:custom": "uni -p",
     "dev:h5": "uni",
     "dev:h5:ssr": "uni --ssr",
@@ -36,7 +38,6 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@cloudbase/js-sdk": "^2.16.0",
     "@dcloudio/uni-app": "3.0.0-4060620250520001",
     "@dcloudio/uni-app-harmony": "3.0.0-4060620250520001",
     "@dcloudio/uni-app-plus": "3.0.0-4060620250520001",
@@ -64,6 +65,8 @@
     "@dcloudio/vite-plugin-uni": "3.0.0-4060620250520001",
     "@vue/runtime-core": "3.5.17",
     "@vue/tsconfig": "^0.1.3",
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
     "typescript": "^4.9.4",
     "vite": "5.2.8",
     "vue-tsc": "^1.0.24"

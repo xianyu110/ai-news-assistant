@@ -1,27 +1,27 @@
 <template>
   <view class="container">
     <view class="header">
-      <text class="title">CloudBase UniApp 模板</text>
-      <text class="subtitle">基于云开发的跨平台应用模板</text>
+      <text class="title">AI快讯助手</text>
+      <text class="subtitle">每日AI资讯，实时更新 · 无服务器架构</text>
     </view>
 
     <view class="features">
       <view class="feature-card">
-        <text class="feature-icon">🚀</text>
-        <text class="feature-title">多端支持</text>
-        <text class="feature-desc">一套代码，多端运行</text>
+        <text class="feature-icon">🤖</text>
+        <text class="feature-title">AI快讯聚合</text>
+        <text class="feature-desc">每日更新AI领域最新资讯</text>
       </view>
 
       <view class="feature-card">
-        <text class="feature-icon">⚡</text>
-        <text class="feature-title">云开发集成</text>
-        <text class="feature-desc">内置云函数、数据库、存储</text>
+        <text class="feature-icon">📱</text>
+        <text class="feature-title">多端同步</text>
+        <text class="feature-desc">H5、小程序一码多端</text>
       </view>
 
       <view class="feature-card">
         <text class="feature-icon">🔧</text>
-        <text class="feature-title">开箱即用</text>
-        <text class="feature-desc">完整的开发工具链</text>
+        <text class="feature-title">纯前端架构</text>
+        <text class="feature-desc">无服务器，GitHub自动更新</text>
       </view>
     </view>
 

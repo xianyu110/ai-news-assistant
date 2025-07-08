@@ -6,54 +6,11 @@
 
 <script setup lang="ts">
 import { onLaunch, onShow, onHide } from "@dcloudio/uni-app";
-import { initCloudBase, checkEnvironment } from "./utils/cloudbase";
 
 onLaunch(() => {
-  console.log("App Launch");
-
-  // 异步初始化云开发，避免阻塞应用启动
-  setTimeout(async () => {
-    // 检查云开发环境配置
-    if (checkEnvironment()) {
-      try {
-        // 初始化云开发
-        const success = await initCloudBase();
-        if (success) {
-          console.log("云开发初始化成功");
-        } else {
-          console.warn("云开发初始化失败");
-        }
-      } catch (error) {
-        console.error("云开发初始化异常:", error);
-      }
-    } else {
-      console.warn("云开发环境ID未配置，请在 src/utils/cloudbase.ts 中配置");
-    }
-
-    // 小程序云开发初始化
-    // #ifdef MP-WEIXIN
-    if (typeof wx !== 'undefined' && wx.cloud) {
-      try {
-        wx.cloud.init({
-          env: 'test-9gfe9noc86c78276', // 环境ID
-          traceUser: true
-        })
-        console.log('小程序云开发初始化完成')
-        
-        // 在游客模式下，延迟一点再调用，确保初始化完成
-        setTimeout(() => {
-          console.log('云开发环境ready')
-        }, 1000)
-      } catch (error) {
-        console.error('小程序云开发初始化失败:', error)
-      }
-    } else {
-      console.warn('wx.cloud 不可用，可能不在小程序环境中')
-    }
-    // #endif
-  }).catch(error => {
-    console.error('应用初始化失败:', error)
-  })
+  console.log("🚀 AI快讯助手 - 应用启动");
+  console.log("📊 纯前端版本，数据来源：AI工具集");
+  console.log("🔗 GitHub: https://github.com/xianyu110/ai-news-assistant");
 });
 
 onShow(() => {

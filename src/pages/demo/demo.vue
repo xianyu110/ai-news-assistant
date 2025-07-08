@@ -92,14 +92,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import {
-  app,
-  initCloudBase,
-  ensureLogin,
-  logout,
-  checkEnvironment,
-  isValidEnvId
-} from '../../utils/cloudbase'
+import { NewsService } from '../../utils/cloudbase'
 
 // 响应式数据
 const loading = ref(false)
@@ -114,88 +107,43 @@ const uploadResult = ref('')
 
 // 检查环境配置
 const checkEnv = () => {
-  envValid.value = checkEnvironment()
-  envStatus.value = envValid.value ? '✅ 环境配置正常' : '❌ 环境ID未配置'
+  envValid.value = true
+  envStatus.value = '✅ 纯前端架构，无需云开发'
 }
 
 // 初始化
 onMounted(async () => {
   checkEnv()
-  if (envValid.value) {
-    await initializeCloudBase()
-  }
+  loginStatus.value = '纯前端模式'
 })
-
-// 初始化云开发
-const initializeCloudBase = async () => {
-  loading.value = true
-  try {
-    const success = await initCloudBase()
-    if (success) {
-      loginStatus.value = '已登录'
-    } else {
-      loginStatus.value = '登录失败'
-    }
-  } catch (error) {
-    console.error('初始化失败:', error)
-    loginStatus.value = '初始化失败'
-  } finally {
-    loading.value = false
-  }
-}
 
 // 处理登录
 const handleLogin = async () => {
-  if (!envValid.value) {
-    uni.showToast({ title: '请先配置环境ID', icon: 'none' })
-    return
-  }
-  
-  loading.value = true
-  try {
-    await ensureLogin()
-    loginStatus.value = '已登录'
-    uni.showToast({ title: '登录成功', icon: 'success' })
-  } catch (error) {
-    console.error('登录失败:', error)
-    loginStatus.value = '登录失败'
-    uni.showToast({ title: '登录失败', icon: 'error' })
-  } finally {
-    loading.value = false
-  }
+  uni.showToast({ title: '纯前端架构，无需登录', icon: 'none' })
 }
 
 // 处理退出登录
 const handleLogout = async () => {
-  loading.value = true
-  try {
-    await logout()
-    loginStatus.value = '已退出'
-    uni.showToast({ title: '已退出登录', icon: 'success' })
-  } catch (error) {
-    console.error('退出失败:', error)
-    uni.showToast({ title: '退出失败', icon: 'error' })
-  } finally {
-    loading.value = false
-  }
+  uni.showToast({ title: '纯前端架构，无需退出', icon: 'none' })
 }
 
-// 调用云函数
+// 调用云函数 
 const callCloudFunction = async () => {
-  if (loginStatus.value !== '已登录') {
-    uni.showToast({ title: '请先登录', icon: 'none' })
-    return
-  }
-
   loading.value = true
   try {
-    const result = await app.callFunction({ name: 'hello', data: { name: 'UniApp' } })
-    functionResult.value = JSON.stringify(result.result, null, 2)
-    uni.showToast({ title: '调用成功', icon: 'success' })
+    // 模拟云函数调用
+    const result = await NewsService.getNews()
+    functionResult.value = JSON.stringify({
+      success: result.success,
+      count: result.count,
+      updateTime: result.updateTime,
+      message: '这是纯前端架构，展示AI快讯数据服务'
+    }, null, 2)
+    uni.showToast({ title: '数据获取成功', icon: 'success' })
   } catch (error: any) {
-    console.error('云函数调用失败:', error)
-    functionResult.value = '调用失败: ' + error.message
-    uni.showToast({ title: '调用失败', icon: 'error' })
+    console.error('❌ 数据获取失败:', error)
+    functionResult.value = '获取失败: ' + error.message
+    uni.showToast({ title: '获取失败', icon: 'error' })
   } finally {
     loading.value = false
   }
@@ -203,11 +151,6 @@ const callCloudFunction = async () => {
 
 // 添加数据
 const addRecord = async () => {
-  if (loginStatus.value !== '已登录') {
-    uni.showToast({ title: '请先登录', icon: 'none' })
-    return
-  }
-
   if (!newRecord.value.trim()) {
     uni.showToast({ title: '请输入内容', icon: 'none' })
     return
@@ -215,16 +158,22 @@ const addRecord = async () => {
 
   loading.value = true
   try {
-    const db = app.database()
-    await db.collection('test').add({
+    // 使用本地存储模拟数据库
+    const existingRecords = uni.getStorageSync('demo_records') || []
+    const newRecordData = {
+      id: Date.now().toString(),
       content: newRecord.value,
       createTime: new Date().toLocaleString()
-    })
+    }
+    
+    existingRecords.unshift(newRecordData)
+    uni.setStorageSync('demo_records', existingRecords.slice(0, 10)) // 只保留最新10条
+    
     newRecord.value = ''
     uni.showToast({ title: '添加成功', icon: 'success' })
     await queryRecords() // 自动刷新列表
   } catch (error: any) {
-    console.error('添加数据失败:', error)
+    console.error('❌ 添加数据失败:', error)
     uni.showToast({ title: '添加失败', icon: 'error' })
   } finally {
     loading.value = false
@@ -233,32 +182,22 @@ const addRecord = async () => {
 
 // 查询数据
 const queryRecords = async () => {
-  if (loginStatus.value !== '已登录') {
-    uni.showToast({ title: '请先登录', icon: 'none' })
-    return
-  }
-
   loading.value = true
   try {
-    const db = app.database()
-    const result = await db.collection('test').orderBy('createTime', 'desc').limit(10).get()
-    records.value = result.data
+    // 从本地存储获取数据
+    const storedRecords = uni.getStorageSync('demo_records') || []
+    records.value = storedRecords
     uni.showToast({ title: '查询成功', icon: 'success' })
   } catch (error: any) {
-    console.error('查询数据失败:', error)
+    console.error('❌ 查询数据失败:', error)
     uni.showToast({ title: '查询失败', icon: 'error' })
   } finally {
     loading.value = false
   }
 }
 
-// 选择并上传文件
+// 选择并模拟上传文件
 const chooseAndUploadFile = async () => {
-  if (loginStatus.value !== '已登录') {
-    uni.showToast({ title: '请先登录', icon: 'none' })
-    return
-  }
-
   try {
     const chooseResult: any = await new Promise((resolve, reject) => {
       uni.chooseImage({
@@ -270,27 +209,32 @@ const chooseAndUploadFile = async () => {
 
     if (chooseResult.tempFilePaths && chooseResult.tempFilePaths.length > 0) {
       const filePath = chooseResult.tempFilePaths[0]
-      const cloudPath = `demo/${Date.now()}.jpg`
-
+      
       uploadProgress.value = 0
       loading.value = true
 
-      const result = await app.uploadFile({
-        cloudPath,
-        filePath,
-        onUploadProgress: (progressEvent: any) => {
-          const progress = Math.round((progressEvent.loaded * 100) / progressEvent.total)
-          uploadProgress.value = progress
-        }
-      })
+      // 模拟上传进度
+      const simulateUpload = () => {
+        return new Promise((resolve) => {
+          const interval = setInterval(() => {
+            uploadProgress.value += 10
+            if (uploadProgress.value >= 100) {
+              clearInterval(interval)
+              resolve(null)
+            }
+          }, 100)
+        })
+      }
+      
+      await simulateUpload()
 
-      uploadResult.value = `文件上传成功\nFileID: ${result.fileID}`
-      uni.showToast({ title: '上传成功', icon: 'success' })
+      uploadResult.value = `文件选择成功\n本地路径: ${filePath}\n注：纯前端架构，无云存储上传功能`
+      uni.showToast({ title: '文件选择成功', icon: 'success' })
     }
   } catch (error: any) {
-    console.error('文件上传失败:', error)
-    uploadResult.value = '上传失败: ' + error.message
-    uni.showToast({ title: '上传失败', icon: 'error' })
+    console.error('❌ 文件选择失败:', error)
+    uploadResult.value = '选择失败: ' + error.message
+    uni.showToast({ title: '选择失败', icon: 'error' })
   } finally {
     loading.value = false
     uploadProgress.value = 0

@@ -62,7 +62,7 @@
         <view class="news-list">
           <view 
             v-for="(news, index) in group" 
-            :key="news._id"
+            :key="news.id"
             class="news-card"
             @click="viewNewsDetail(news)"
           >
@@ -156,7 +156,7 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
 import { onPullDownRefresh, onReachBottom } from '@dcloudio/uni-app'
-import { app, ensureLogin } from '../../utils/cloudbase'
+import { NewsService, LocalStorage, NewsItem } from '../../utils/cloudbase'
 
 // 声明 wx 对象类型（小程序环境）
 declare const wx: any
@@ -230,7 +230,6 @@ onReachBottom(async () => {
 // 初始化页面
 const initPage = async () => {
   try {
-    await ensureLogin()
     await Promise.all([
       loadNews(),
       loadStats()
@@ -253,66 +252,41 @@ const loadNews = async (page = 1) => {
   }
 
   try {
-    // 根据平台使用不同的云函数调用方式
-    let result: any
+    console.log('📰 开始加载AI快讯数据...')
     
-    // #ifdef MP-WEIXIN
-    // 确保云开发已初始化
-    if (!wx.cloud) {
-      throw new Error('云开发未初始化')
-    }
+    // 使用新的数据服务
+    const result = await NewsService.getNews()
     
-    console.log('调用云函数 ai-news-crawler...')
-    result = await wx.cloud.callFunction({
-      name: 'ai-news-crawler',
-      data: {
-        action: 'query',
-        limit: pageSize.value,
-        offset: (page - 1) * pageSize.value
-      }
-    })
-    console.log('云函数调用结果:', result)
-    // #endif
-    
-    // #ifndef MP-WEIXIN
-    result = await app.callFunction({
-      name: 'ai-news-crawler',
-      data: {
-        action: 'query',
-        limit: pageSize.value,
-        offset: (page - 1) * pageSize.value
-      }
-    })
-    // #endif
-
-    if (result.result && result.result.success) {
-      const newData = result.result.data || []
+    if (result.success) {
+      const allData = result.data || []
+      
+      // 分页处理
+      const startIndex = (page - 1) * pageSize.value
+      const endIndex = startIndex + pageSize.value
+      const pageData = allData.slice(startIndex, endIndex)
       
       if (page === 1) {
-        newsList.value = newData
+        newsList.value = pageData
       } else {
-        newsList.value.push(...newData)
+        newsList.value.push(...pageData)
       }
       
-      hasMore.value = newData.length === pageSize.value
+      hasMore.value = endIndex < allData.length
       currentPage.value = page
       
       // 加载用户收藏状态
       await loadFavoriteStatus()
+      
+      console.log(`✅ 成功加载 ${pageData.length} 条新闻，总共 ${allData.length} 条`)
     } else {
-      throw new Error(result.result?.error || result.errMsg || '加载失败')
+      throw new Error(result.error || '加载失败')
     }
   } catch (error) {
-    console.error('加载新闻失败:', error)
-    let errorMsg = '加载失败'
-    
-    if (error.errMsg && error.errMsg.includes('operateWXData')) {
-      errorMsg = '游客模式下功能受限，请稍后重试'
-    } else if (error.errMsg && error.errMsg.includes('FUNCTION_NOT_FOUND')) {
-      errorMsg = '云函数未找到，请检查部署状态'
-    }
-    
-    uni.showToast({ title: errorMsg, icon: 'error' })
+    console.error('❌ 加载新闻失败:', error)
+    uni.showToast({ 
+      title: '加载失败，请稍后重试', 
+      icon: 'error' 
+    })
   } finally {
     loading.value = false
     loadingMore.value = false
@@ -332,67 +306,43 @@ const refreshNews = async () => {
 // 加载统计信息
 const loadStats = async () => {
   try {
-    let result: any
+    const result = await NewsService.getNews()
     
-    // #ifdef MP-WEIXIN
-    result = await wx.cloud.callFunction({
-      name: 'ai-news-crawler',
-      data: { action: 'stats' }
-    })
-    // #endif
-    
-    // #ifndef MP-WEIXIN
-    result = await app.callFunction({
-      name: 'ai-news-crawler',
-      data: { action: 'stats' }
-    })
-    // #endif
-
-    if (result.result.success) {
-      stats.value = result.result.stats
+    if (result.success) {
+      stats.value = result.stats
+      console.log('📊 统计信息加载成功:', result.stats)
     }
   } catch (error) {
-    console.error('加载统计失败:', error)
+    console.error('❌ 加载统计失败:', error)
   }
 }
 
 // 爬取最新数据
 const crawlLatestNews = async () => {
-  uni.showLoading({ title: '爬取中...' })
+  uni.showLoading({ title: '更新数据中...' })
   
   try {
-    let result: any
+    // 清除本地缓存，强制重新获取最新数据
+    uni.removeStorageSync('newsData')
     
-    // #ifdef MP-WEIXIN
-    result = await wx.cloud.callFunction({
-      name: 'ai-news-crawler',
-      data: { action: 'crawl' }
-    })
-    // #endif
+    const result = await NewsService.getNews()
     
-    // #ifndef MP-WEIXIN
-    result = await app.callFunction({
-      name: 'ai-news-crawler',
-      data: { action: 'crawl' }
-    })
-    // #endif
-
     uni.hideLoading()
     
-    if (result.result.success) {
+    if (result.success) {
       uni.showToast({ 
-        title: `成功爬取 ${result.result.count} 条快讯`, 
+        title: `数据已更新，共 ${result.count} 条`, 
         icon: 'success' 
       })
       await refreshNews()
       await loadStats()
     } else {
-      throw new Error(result.result.error || '爬取失败')
+      throw new Error(result.error || '更新失败')
     }
   } catch (error) {
     uni.hideLoading()
-    console.error('爬取失败:', error)
-    uni.showToast({ title: '爬取失败', icon: 'error' })
+    console.error('❌ 更新数据失败:', error)
+    uni.showToast({ title: '更新失败，请稍后重试', icon: 'error' })
   }
 }
 
@@ -404,7 +354,7 @@ const selectCategory = (category: string) => {
 // 查看新闻详情
 const viewNewsDetail = (news: any) => {
   uni.navigateTo({
-    url: `/pages/ai-news/news-detail?id=${news._id}`
+    url: `/pages/ai-news/news-detail?id=${news.id}`
   })
 }
 
@@ -418,38 +368,19 @@ const goToSearch = () => {
 // 切换收藏状态
 const toggleFavorite = async (news: any) => {
   try {
-    let db: any
-    
-    // #ifdef MP-WEIXIN
-    db = wx.cloud.database()
-    // #endif
-    
-    // #ifndef MP-WEIXIN
-    db = app.database()
-    // #endif
-    
-    const collection = db.collection('user_favorites')
-    
     if (news.isFavorited) {
       // 取消收藏
-      await collection.where({
-        newsId: news._id
-      }).remove()
+      LocalStorage.removeFavorite(news.id)
       news.isFavorited = false
       uni.showToast({ title: '已取消收藏', icon: 'success' })
     } else {
       // 添加收藏
-      await collection.add({
-        newsId: news._id,
-        title: news.title,
-        category: news.category,
-        createTime: new Date()
-      })
+      LocalStorage.saveFavorite(news)
       news.isFavorited = true
       uni.showToast({ title: '已收藏', icon: 'success' })
     }
   } catch (error) {
-    console.error('收藏操作失败:', error)
+    console.error('❌ 收藏操作失败:', error)
     uni.showToast({ title: '操作失败', icon: 'error' })
   }
 }
@@ -482,30 +413,12 @@ const shareNews = (news: any) => {
 // 加载收藏状态
 const loadFavoriteStatus = async () => {
   try {
-    let db: any
-    
-    // #ifdef MP-WEIXIN
-    db = wx.cloud.database()
-    // #endif
-    
-    // #ifndef MP-WEIXIN
-    db = app.database()
-    // #endif
-    
-    const collection = db.collection('user_favorites')
-    
-    const newsIds = newsList.value.map(news => news._id)
-    const favorites = await collection.where({
-      newsId: db.command.in(newsIds)
-    }).get()
-    
-    const favoriteIds = new Set(favorites.data.map((fav: any) => fav.newsId))
-    
     newsList.value.forEach(news => {
-      news.isFavorited = favoriteIds.has(news._id)
+      news.isFavorited = LocalStorage.isFavorited(news.id)
     })
+    console.log('✅ 收藏状态加载成功')
   } catch (error) {
-    console.error('加载收藏状态失败:', error)
+    console.error('❌ 加载收藏状态失败:', error)
   }
 }
 

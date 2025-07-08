@@ -1,0 +1,184 @@
+name: 🕷️ Update AI News Data
+
+on:
+  # 每2小时自动运行
+  schedule:
+    - cron: '0 */2 * * *'  # 每2小时运行一次
+  
+  # 手动触发
+  workflow_dispatch:
+    inputs:
+      cleanup_old_data:
+        description: '是否清理90天前的旧数据'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+        - 'true'
+        - 'false'
+  
+  # 推送到main分支时触发
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update-news.yml'
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # 获取完整历史，便于数据版本管理
+        
+    - name: 📦 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: 🔧 Install Dependencies
+      run: |
+        npm ci
+        # 安装爬虫依赖
+        npm install axios cheerio
+        
+    - name: 🕷️ Crawl and Update News Data
+      run: |
+        echo "🔄 开始更新AI快讯数据..."
+        node scripts/update-history.js
+        echo "✅ 数据更新完成"
+        
+    - name: 🧹 Cleanup Old Data (Optional)
+      if: ${{ github.event.inputs.cleanup_old_data == 'true' }}
+      run: |
+        echo "🗑️ 清理90天前的旧数据..."
+        node -e "
+          const { HistoryManager } = require('./scripts/update-history');
+          const manager = new HistoryManager();
+          manager.cleanupOldData(90);
+          console.log('🧹 清理完成');
+        "
+        
+    - name: 📊 Generate Update Report
+      run: |
+        echo "📊 生成更新报告..."
+        
+        # 获取数据统计
+        TOTAL_COUNT=$(node -e "
+          const fs = require('fs');
+          try {
+            const data = JSON.parse(fs.readFileSync('src/data/ai-news.json', 'utf-8'));
+            console.log(data.stats.totalCount || 0);
+          } catch(e) { console.log(0); }
+        ")
+        
+        CURRENT_COUNT=$(node -e "
+          const fs = require('fs');
+          try {
+            const data = JSON.parse(fs.readFileSync('src/data/ai-news.json', 'utf-8'));
+            console.log(data.count || 0);
+          } catch(e) { console.log(0); }
+        ")
+        
+        TODAY_COUNT=$(node -e "
+          const fs = require('fs');
+          try {
+            const data = JSON.parse(fs.readFileSync('src/data/ai-news.json', 'utf-8'));
+            console.log(data.stats.todayCount || 0);
+          } catch(e) { console.log(0); }
+        ")
+        
+        echo "📈 数据统计报告:" >> $GITHUB_STEP_SUMMARY
+        echo "- 📦 **总数据量**: ${TOTAL_COUNT} 条" >> $GITHUB_STEP_SUMMARY  
+        echo "- 📱 **当前显示**: ${CURRENT_COUNT} 条" >> $GITHUB_STEP_SUMMARY
+        echo "- 🆕 **今日数据**: ${TODAY_COUNT} 条" >> $GITHUB_STEP_SUMMARY
+        echo "- ⏰ **更新时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        
+        # 检查是否有数据文件变化
+        if git diff --quiet src/data/; then
+          echo "ℹ️ **状态**: 数据无变化" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "✅ **状态**: 数据已更新" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+    - name: 📝 Check for Changes
+      id: changes
+      run: |
+        if git diff --quiet src/data/; then
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "ℹ️ 没有数据变化，跳过提交"
+        else
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "✅ 检测到数据变化，准备提交"
+          
+          # 显示变化的文件
+          echo "📁 变化的文件:"
+          git diff --name-only src/data/
+          
+          # 显示数据统计
+          echo "📊 数据文件大小:"
+          ls -lh src/data/*.json | awk '{print $5 " " $9}'
+        fi
+        
+    - name: 💾 Commit and Push Changes
+      if: steps.changes.outputs.has_changes == 'true'
+      run: |
+        # 配置Git用户
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # 添加数据文件
+        git add src/data/
+        
+        # 生成提交信息
+        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
+        TOTAL_COUNT=$(node -e "
+          const fs = require('fs');
+          try {
+            const data = JSON.parse(fs.readFileSync('src/data/ai-news.json', 'utf-8'));
+            console.log(data.stats.totalCount || 0);
+          } catch(e) { console.log(0); }
+        ")
+        
+        COMMIT_MSG="🤖 自动更新AI快讯数据 - ${TIMESTAMP}
+
+        📊 数据统计:
+        - 总数据量: ${TOTAL_COUNT} 条
+        - 更新时间: ${TIMESTAMP}
+        - 触发方式: ${{ github.event_name }}
+        
+        🔗 查看更新: https://xianyu110.github.io/ai-news-assistant/"
+        
+        # 提交变化
+        git commit -m "$COMMIT_MSG"
+        
+        # 推送到仓库
+        git push
+        
+        echo "✅ 数据已提交并推送到仓库"
+        
+    - name: 🌐 Trigger GitHub Pages Rebuild
+      if: steps.changes.outputs.has_changes == 'true'
+      run: |
+        echo "🚀 数据更新完成，GitHub Pages将自动重新构建"
+        echo "🔗 网站地址: https://xianyu110.github.io/ai-news-assistant/"
+        
+    - name: ❌ Handle Errors
+      if: failure()
+      run: |
+        echo "💥 工作流执行失败!" >> $GITHUB_STEP_SUMMARY
+        echo "⏰ 失败时间: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "🔍 请检查日志以获取详细错误信息" >> $GITHUB_STEP_SUMMARY
+        
+        # 尝试保存错误日志
+        if [ -f "error.log" ]; then
+          echo "📋 **错误日志**:" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -20 error.log >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+        fi 

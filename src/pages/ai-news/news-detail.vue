@@ -72,7 +72,7 @@
         <view class="section-title">相关推荐</view>
         <view 
           v-for="(news, index) in relatedNews" 
-          :key="news._id"
+          :key="news.id"
           class="related-item"
           @click="viewRelatedNews(news)"
         >
@@ -96,7 +96,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import { app, ensureLogin } from '../../utils/cloudbase'
+import { NewsService, LocalStorage } from '../../utils/cloudbase'
 
 // 响应式数据
 const loading = ref(true)
@@ -122,25 +122,26 @@ const loadNewsDetail = async () => {
   loading.value = true
   
   try {
-    await ensureLogin()
+    const result = await NewsService.getNews()
     
-    const db = app.database()
-    const collection = db.collection('ai_news')
-    
-    // 获取新闻详情
-    const result = await collection.doc(newsId.value).get()
-    
-    if (result.data.length > 0) {
-      newsDetail.value = result.data[0]
+    if (result.success) {
+      // 从数据中查找指定ID的新闻
+      const foundNews = result.data.find((news: any) => news.id === newsId.value)
       
-      // 检查收藏状态
-      await checkFavoriteStatus()
-      
-      // 加载相关新闻
-      await loadRelatedNews()
+      if (foundNews) {
+        newsDetail.value = foundNews
+        
+        // 检查收藏状态
+        checkFavoriteStatus()
+        
+        // 加载相关新闻
+        loadRelatedNews(result.data)
+      }
+    } else {
+      throw new Error(result.error || '加载失败')
     }
   } catch (error) {
-    console.error('加载新闻详情失败:', error)
+    console.error('❌ 加载新闻详情失败:', error)
     uni.showToast({ title: '加载失败', icon: 'error' })
   } finally {
     loading.value = false
@@ -148,75 +149,66 @@ const loadNewsDetail = async () => {
 }
 
 // 检查收藏状态
-const checkFavoriteStatus = async () => {
+const checkFavoriteStatus = () => {
   try {
-    const db = app.database()
-    const collection = db.collection('user_favorites')
-    
-    const result = await collection.where({
-      newsId: newsId.value
-    }).limit(1).get()
-    
-    newsDetail.value.isFavorited = result.data.length > 0
+    newsDetail.value.isFavorited = LocalStorage.isFavorited(newsId.value)
   } catch (error) {
-    console.error('检查收藏状态失败:', error)
+    console.error('❌ 检查收藏状态失败:', error)
   }
 }
 
 // 加载相关新闻
-const loadRelatedNews = async () => {
+const loadRelatedNews = (allNews: any[]) => {
   try {
-    const db = app.database()
-    const collection = db.collection('ai_news')
-    
     // 根据标签或分类查找相关新闻
-    const query = newsDetail.value.tags && newsDetail.value.tags.length > 0
-      ? collection.where({
-          tags: db.command.in(newsDetail.value.tags),
-          _id: db.command.neq(newsId.value)
-        })
-      : collection.where({
-          category: newsDetail.value.category,
-          _id: db.command.neq(newsId.value)
-        })
+    let candidates = allNews.filter(news => news.id !== newsId.value)
     
-    const result = await query
-      .orderBy('publishTime', 'desc')
-      .limit(5)
-      .get()
+    if (newsDetail.value.tags && newsDetail.value.tags.length > 0) {
+      // 优先按标签匹配
+      candidates = candidates.filter(news => 
+        news.tags && news.tags.some((tag: string) => 
+          newsDetail.value.tags.includes(tag)
+        )
+      )
+    }
     
-    relatedNews.value = result.data
+    if (candidates.length < 5) {
+      // 如果按标签找不到足够的相关新闻，按分类补充
+      const categoryNews = allNews.filter(news => 
+        news.id !== newsId.value && 
+        news.category === newsDetail.value.category &&
+        !candidates.some(c => c.id === news.id)
+      )
+      candidates = [...candidates, ...categoryNews]
+    }
+    
+    // 按时间排序，取前5条
+    relatedNews.value = candidates
+      .sort((a, b) => new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime())
+      .slice(0, 5)
+      
+    console.log(`✅ 找到 ${relatedNews.value.length} 条相关新闻`)
   } catch (error) {
-    console.error('加载相关新闻失败:', error)
+    console.error('❌ 加载相关新闻失败:', error)
   }
 }
 
 // 切换收藏状态
-const toggleFavorite = async () => {
+const toggleFavorite = () => {
   try {
-    const db = app.database()
-    const collection = db.collection('user_favorites')
-    
     if (newsDetail.value.isFavorited) {
       // 取消收藏
-      await collection.where({
-        newsId: newsId.value
-      }).remove()
+      LocalStorage.removeFavorite(newsId.value)
       newsDetail.value.isFavorited = false
       uni.showToast({ title: '已取消收藏', icon: 'success' })
     } else {
       // 添加收藏
-      await collection.add({
-        newsId: newsId.value,
-        title: newsDetail.value.title,
-        category: newsDetail.value.category,
-        createTime: new Date()
-      })
+      LocalStorage.saveFavorite(newsDetail.value)
       newsDetail.value.isFavorited = true
       uni.showToast({ title: '已收藏', icon: 'success' })
     }
   } catch (error) {
-    console.error('收藏操作失败:', error)
+    console.error('❌ 收藏操作失败:', error)
     uni.showToast({ title: '操作失败', icon: 'error' })
   }
 }
@@ -279,7 +271,7 @@ const openSourceUrl = () => {
 // 查看相关新闻
 const viewRelatedNews = (news: any) => {
   uni.redirectTo({
-    url: `/pages/ai-news/news-detail?id=${news._id}`
+    url: `/pages/ai-news/news-detail?id=${news.id}`
   })
 }
 

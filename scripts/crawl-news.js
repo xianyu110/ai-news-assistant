@@ -116,7 +116,14 @@ function isValidNews(title, content) {
     /^热门工具.*最新文章$/,
     /版权所有|ICP|备案/,
     /加入.*群|联系.*客服/,
-    /^\s*$|^.{1,5}$/  // 空内容或太短
+    /^\s*$|^.{1,5}$/,  // 空内容或太短
+    /^首页[•·]/,      // 导航信息
+    /^每日AI快讯热闻.*AI快讯.*小时前更新/,  // 页面描述
+    /^AI工具集每日实时更新.*领域最新趋势/,  // 网站介绍
+    /^.*(小集|AI快讯).*(\d+)$/,  // 带数字的描述性文字
+    /AI工具集.*社群/,  // 社群推广
+    /随时了解.*最新趋势/,  // 网站说明
+    /实时更新.*行业.*资讯/,  // 网站功能说明
   ];
   
   // 检查标题
@@ -127,12 +134,19 @@ function isValidNews(title, content) {
   }
   
   // 检查内容长度和质量
-  if (title.length < 10 || title.length > 200) {
+  if (title.length < 15 || title.length > 200) {  // 提高最小长度要求
+    return false;
+  }
+  
+  // 如果标题包含特定的导航或描述性词汇，直接排除
+  const navigationWords = ['首页', '快讯', '更新', '小集', '社群', '官方'];
+  const navWordCount = navigationWords.filter(word => title.includes(word)).length;
+  if (navWordCount >= 2) {  // 如果包含2个或以上导航词汇，可能是导航信息
     return false;
   }
   
   // 必须包含AI相关关键词
-  const aiKeywords = ['AI', '人工智能', 'GPT', '大模型', '机器学习', '深度学习', '智能', 'OpenAI', 'ChatGPT'];
+  const aiKeywords = ['AI', '人工智能', 'GPT', '大模型', '机器学习', '深度学习', '智能', 'OpenAI', 'ChatGPT', '语言模型', '算法', '科技', '技术', '研发', '发布', '投资', '融资'];
   const hasAIKeyword = aiKeywords.some(keyword => 
     title.includes(keyword) || content.includes(keyword)
   );
@@ -245,8 +259,11 @@ async function parseAIBotNews(html) {
       }
     }
     
+    // 先进行基本清理
+    const cleanLine = line.trim();
+    
     // 检查是否为有效新闻
-    if (!isValidNews(line, '')) {
+    if (!isValidNews(cleanLine, '')) {
       continue;
     }
     
@@ -413,9 +430,10 @@ async function saveNewsData(newsList) {
       console.log('📝 创建新的数据文件');
     }
 
-    // 去重合并（基于标题）
+    // 再次过滤无效新闻并去重合并（基于标题）
+    const validNewNews = newsList.filter(news => isValidNews(news.title, news.content));
     const existingTitles = new Set(existingNews.map(news => news.title));
-    const uniqueNewNews = newsList.filter(news => !existingTitles.has(news.title));
+    const uniqueNewNews = validNewNews.filter(news => !existingTitles.has(news.title));
     
     const allNews = [...existingNews, ...uniqueNewNews]
       .sort((a, b) => new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime());

@@ -140,18 +140,36 @@ export class NewsService {
   // 获取新闻数据
   static async getNews(): Promise<NewsData> {
     try {
+      // 尝试导入本地JSON数据
+      try {
+        // 动态导入数据文件
+        const newsModule = await import('../data/ai-news.json');
+        const rawData = newsModule.default || newsModule;
+        
+        // 检查数据格式并添加统计信息
+        if (rawData && rawData.data && Array.isArray(rawData.data)) {
+          const newsData = this.processNewsData(rawData);
+          // 缓存数据到本地
+          uni.setStorageSync('newsData', newsData);
+          return newsData;
+        }
+      } catch (error) {
+        console.warn('导入本地数据失败，尝试网络请求:', error);
+      }
+      
       // 尝试从网络获取最新数据
       try {
         const response = await uni.request({
-          url: '/ai-news-assistant/src/data/ai-news.json',
+          url: '/data/ai-news.json',
           method: 'GET',
           timeout: 10000
         });
         
         if (response.statusCode === 200 && response.data) {
+          const newsData = this.processNewsData(response.data);
           // 缓存数据到本地
-          uni.setStorageSync('newsData', response.data);
-          return response.data as NewsData;
+          uni.setStorageSync('newsData', newsData);
+          return newsData;
         }
       } catch (error) {
         console.warn('网络获取数据失败，尝试使用本地缓存:', error);
@@ -170,6 +188,36 @@ export class NewsService {
       console.error('获取新闻数据失败:', error);
       return this.getDefaultData();
     }
+  }
+  
+  // 处理并计算新闻数据统计
+  static processNewsData(rawData: any): NewsData {
+    const data = rawData.data || [];
+    const now = new Date();
+    const today = now.toDateString();
+    
+    // 计算统计信息
+    const todayCount = data.filter((item: NewsItem) => {
+      const publishDate = new Date(item.publishTime);
+      return publishDate.toDateString() === today;
+    }).length;
+    
+    // 获取所有分类和来源
+    const categories = [...new Set(data.map((item: NewsItem) => item.category))] as string[];
+    const sources = [...new Set(data.map((item: NewsItem) => item.source))] as string[];
+    
+    return {
+      success: true,
+      updateTime: rawData.updateTime || new Date().toISOString(),
+      count: data.length,
+      data: data,
+      stats: {
+        todayCount: todayCount,
+        totalCount: data.length,
+        categories: categories,
+        sources: sources
+      }
+    };
   }
   
   // 搜索新闻

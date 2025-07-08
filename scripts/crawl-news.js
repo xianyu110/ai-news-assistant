@@ -2,6 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs').promises;
 const path = require('path');
+const crypto = require('crypto');
 
 // 爬虫配置
 const CRAWL_CONFIG = {
@@ -29,259 +30,119 @@ async function ensureDirectories() {
   }
 }
 
-// 发送HTTP请求（带重试机制）
-async function fetchWithRetry(url, options = {}, retries = CRAWL_CONFIG.retryTimes) {
-  const config = {
-    timeout: CRAWL_CONFIG.timeout,
-    headers: {
-      'User-Agent': CRAWL_CONFIG.userAgent,
-      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-      'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-      'Accept-Encoding': 'gzip, deflate, br',
-      'Connection': 'keep-alive',
-      'Upgrade-Insecure-Requests': '1',
-    },
-    ...options
-  };
-
-  for (let i = 0; i < retries; i++) {
-    try {
-      console.log(`🌐 请求 ${url} (第${i + 1}次尝试)`);
-      const response = await axios.get(url, config);
-      
-      if (response.status === 200) {
-        console.log(`✅ 成功获取 ${url}`);
-        return response;
-      }
-    } catch (error) {
-      console.warn(`⚠️  请求失败 (${i + 1}/${retries}):`, error.message);
-      
-      if (i === retries - 1) {
-        throw error;
-      }
-      
-      // 等待一段时间后重试
-      await new Promise(resolve => setTimeout(resolve, (i + 1) * 1000));
-    }
-  }
+// 生成新闻ID
+function generateNewsId(title) {
+  return crypto.createHash('md5').update(title).digest('hex').substring(0, 8);
 }
 
-// 解析日期文本为标准日期
-function parseDateText(dateText) {
-  if (!dateText) return new Date();
+// 从标题中提取日期
+function extractDateFromTitle(title) {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const currentMonth = currentDate.getMonth(); // 0-11
   
-  const now = new Date();
-  const currentYear = now.getFullYear();
+  // 匹配各种日期格式
+  const patterns = [
+    // AI快讯：7月第3期（7月21日到7月31日的AI行业新闻）
+    /(\d{1,2})月第\d+期.*?(\d{1,2})月(\d{1,2})日到(\d{1,2})月(\d{1,2})日/,
+    // AI周刊丨本周不可错过的AI行业动态（6.2-6.8）
+    /(\d{1,2})\.(\d{1,2})-(\d{1,2})\.(\d{1,2})/,
+    // 12月25日·周一
+    /(\d{1,2})月(\d{1,2})日?[·•]?周[一二三四五六日]/,
+    // 7月25日
+    /(\d{1,2})月(\d{1,2})日/,
+    // 6.25 格式，但限制在合理的月份和日期范围内
+    /\b(1[0-2]|[1-9])\.(3[01]|[12]\d|[1-9])\b/
+  ];
   
-  // 匹配 "7月8·周二" 格式
-  const match = dateText.match(/(\d+)月(\d+)/);
-  if (match) {
-    const month = parseInt(match[1]) - 1; // JavaScript月份从0开始
-    const day = parseInt(match[2]);
-    
-    // 判断年份：如果月份小于当前月份，可能是下一年
-    let year = currentYear;
-    if (month < now.getMonth() || (month === now.getMonth() && day < now.getDate())) {
-      // 如果是过去的日期，保持当前年份
-      year = currentYear;
+  for (const pattern of patterns) {
+    const match = title.match(pattern);
+    if (match) {
+      let month, day;
+      
+      if (pattern.source.includes('第.*期')) {
+        // 期刊格式：取结束日期
+        month = parseInt(match[4]);
+        day = parseInt(match[5]);
+      } else if (pattern.source.includes('-')) {
+        // 周刊格式：取结束日期
+        month = parseInt(match[3]);
+        day = parseInt(match[4]);
+      } else {
+        // 单日格式
+        month = parseInt(match[1]);
+        day = parseInt(match[2]);
+      }
+      
+             // 验证月份和日期范围
+       if (month < 1 || month > 12 || day < 1 || day > 31) {
+         console.log(`⚠️  无效的日期: ${month}月${day}日，跳过`);
+         continue; // 跳过无效日期，继续尝试下一个模式
+       }
+       
+       // 判断年份：修复逻辑
+       let year = currentYear; // 2025
+       
+       // 现在是2025年7月（currentMonth = 6）
+       // 8月到12月的数据应该是2024年（去年）
+       // 1月到7月的数据应该是2025年（今年）
+       if (month > currentMonth + 1) {
+         year = currentYear - 1; // 2024
+       }
+      
+       const date = new Date(year, month - 1, day);
+       
+       // 验证日期是否有效
+       if (isNaN(date.getTime())) {
+         console.log(`⚠️  无效的日期对象: ${year}-${month}-${day}，跳过`);
+         continue;
+       }
+       
+      return date;
     }
-    
-    return new Date(year, month, day);
   }
   
-  return now;
+  return null;
 }
 
-// 解析新闻页面
-function parseNewsPage(html) {
-  const $ = cheerio.load(html);
-  const newsList = [];
-  let currentDate = null;
-  let currentDateText = '';
-
-  try {
-    console.log('📄 开始解析AI工具集新闻页面...');
-    
-    // 查找所有文本内容，按行处理
-    const bodyText = $('body').text();
-    const lines = bodyText.split('\n').map(line => line.trim()).filter(line => line.length > 0);
-    
-    let currentTitle = '';
-    let currentContent = '';
-    let currentSource = '';
-    let newsItemCount = 0;
-    
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i];
-      
-      // 跳过无关内容
-      if (line.includes('AI工具集') || line.includes('Copyright') || 
-          line.includes('蜀ICP') || line.includes('游客') ||
-          line.includes('回复') || line.includes('个月前') ||
-          line.length < 5) {
-        continue;
-      }
-      
-      // 检测日期行（如：7月8·周二）
-      if (/^\d+月\d+.*周/.test(line)) {
-        currentDateText = line;
-        currentDate = parseDateText(line);
-        console.log(`📅 找到日期: ${line} -> ${currentDate.toDateString()}`);
-        continue;
-      }
-      
-      // 检测来源行（如：来源：阿里云）
-      if (line.startsWith('来源：')) {
-        currentSource = line.replace('来源：', '').trim();
-        
-        // 如果有完整的新闻项，保存它
-        if (currentTitle && currentContent && currentDate) {
-          const publishTime = new Date(currentDate);
-          // 为同一天的新闻设置不同的时间
-          publishTime.setHours(9 + (newsItemCount % 12), (newsItemCount * 17) % 60);
-          
-          const newsItem = {
-            id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-            title: currentTitle.trim(),
-            content: currentContent.trim(),
-            source: currentSource || 'AI工具集',
-            sourceUrl: 'https://ai-bot.cn/daily-ai-news/',
-            publishTime: publishTime.toISOString(),
-            crawlTime: new Date().toISOString(),
-            category: categorizeNews(currentTitle + ' ' + currentContent),
-            tags: extractTags(currentTitle + ' ' + currentContent),
-            dateText: currentDateText
-          };
-          
-          newsList.push(newsItem);
-          newsItemCount++;
-          console.log(`📰 提取新闻 ${newsItemCount}: ${currentTitle.substring(0, 50)}...`);
-        }
-        
-        // 重置状态
-        currentTitle = '';
-        currentContent = '';
-        continue;
-      }
-      
-      // 检测标题行（通常是##开头或者是较短的描述性文本）
-      if (line.startsWith('## ') || 
-          (line.length > 15 && line.length < 150 && 
-           (line.includes('开源') || line.includes('发布') || line.includes('推出') || 
-            line.includes('完成') || line.includes('宣布') || line.includes('上线') ||
-            line.includes('升级') || line.includes('融资') || line.includes('投资')))) {
-        
-        if (currentTitle && currentContent) {
-          // 如果已有标题和内容，当前行作为新内容
-          currentContent += (currentContent ? ' ' : '') + line.replace(/^## /, '');
-        } else if (!currentTitle) {
-          currentTitle = line.replace(/^## /, '');
-        } else {
-          currentContent += (currentContent ? ' ' : '') + line.replace(/^## /, '');
-        }
-        continue;
-      }
-      
-      // 其他长文本作为内容
-      if (line.length > 20 && line.length < 1000) {
-        currentContent += (currentContent ? ' ' : '') + line;
-      }
+// 检查是否为有效新闻
+function isValidNews(title, content) {
+  // 过滤条件
+  const invalidPatterns = [
+    /^AI小集.*管理员$/,
+    /^.*游客$/,
+    /^.*回复$/,
+    /^(目前正在考虑|太棒了|后悔没有)/,
+    /^热门工具.*最新文章$/,
+    /版权所有|ICP|备案/,
+    /加入.*群|联系.*客服/,
+    /^\s*$|^.{1,5}$/  // 空内容或太短
+  ];
+  
+  // 检查标题
+  for (const pattern of invalidPatterns) {
+    if (pattern.test(title.trim())) {
+      return false;
     }
-    
-    // 处理最后一条新闻（可能没有"来源："结尾）
-    if (currentTitle && currentContent && currentDate) {
-      const publishTime = new Date(currentDate);
-      publishTime.setHours(9 + (newsItemCount % 12), (newsItemCount * 17) % 60);
-      
-      const newsItem = {
-        id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-        title: currentTitle.trim(),
-        content: currentContent.trim(),
-        source: currentSource || 'AI工具集',
-        sourceUrl: 'https://ai-bot.cn/daily-ai-news/',
-        publishTime: publishTime.toISOString(),
-        crawlTime: new Date().toISOString(),
-        category: categorizeNews(currentTitle + ' ' + currentContent),
-        tags: extractTags(currentTitle + ' ' + currentContent),
-        dateText: currentDateText
-      };
-      
-      newsList.push(newsItem);
-      newsItemCount++;
-      console.log(`📰 提取新闻 ${newsItemCount}: ${currentTitle.substring(0, 50)}...`);
-    }
-
-    // 如果没有找到新闻，使用备用解析方法
-    if (newsList.length === 0) {
-      console.log('🔄 尝试备用解析方法...');
-      return parseNewsPageAlternative($);
-    }
-
-    // 按发布时间排序
-    newsList.sort((a, b) => new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime());
-
-    console.log(`✅ 成功解析 ${newsList.length} 条新闻`);
-    return newsList;
-
-  } catch (error) {
-    console.error('❌ 解析页面失败:', error);
-    return [];
   }
-}
-
-// 备用解析方法
-function parseNewsPageAlternative($) {
-  console.log('🔍 使用备用解析方法...');
-  const newsList = [];
   
-  // 查找所有标题元素
-  $('h1, h2, h3, h4').each((index, element) => {
-    const title = $(element).text().trim();
-    if (title && title.length > 10 && title.length < 200) {
-      // 查找标题后的内容
-      let content = '';
-      let source = 'AI工具集';
-      let nextElement = $(element).next();
-      
-      while (nextElement.length && content.length < 500) {
-        const text = nextElement.text().trim();
-        if (text && !text.startsWith('来源：') && text.length > 10) {
-          content += text + ' ';
-        } else if (text.startsWith('来源：')) {
-          source = text.replace('来源：', '').trim();
-          break;
-        }
-        nextElement = nextElement.next();
-      }
-      
-      if (content.trim()) {
-        const publishTime = new Date();
-        publishTime.setHours(publishTime.getHours() - index);
-        
-        const newsItem = {
-          id: `news_alt_${Date.now()}_${index}`,
-          title: title,
-          content: content.trim().substring(0, 300),
-          source: source,
-          sourceUrl: 'https://ai-bot.cn/daily-ai-news/',
-          publishTime: publishTime.toISOString(),
-          crawlTime: new Date().toISOString(),
-          category: categorizeNews(title + ' ' + content),
-          tags: extractTags(title + ' ' + content),
-          dateText: '今日'
-        };
-        
-        newsList.push(newsItem);
-      }
-    }
-  });
+  // 检查内容长度和质量
+  if (title.length < 10 || title.length > 200) {
+    return false;
+  }
   
-  console.log(`✅ 备用方法解析到 ${newsList.length} 条新闻`);
-  return newsList;
+  // 必须包含AI相关关键词
+  const aiKeywords = ['AI', '人工智能', 'GPT', '大模型', '机器学习', '深度学习', '智能', 'OpenAI', 'ChatGPT'];
+  const hasAIKeyword = aiKeywords.some(keyword => 
+    title.includes(keyword) || content.includes(keyword)
+  );
+  
+  return hasAIKeyword;
 }
 
 // 提取标签
-function extractTags(text) {
+function extractTags(title, content = '') {
+  const text = `${title} ${content}`;
   const tags = [];
   const keywords = {
     'GPT': ['GPT', 'ChatGPT', 'GPT-4', 'GPT-3'],
@@ -308,7 +169,8 @@ function extractTags(text) {
 }
 
 // 新闻分类
-function categorizeNews(text) {
+function categorizeNews(title, content = '') {
+  const text = `${title} ${content}`;
   const categories = {
     '投融资': ['融资', '投资', '资金', '轮融资', '估值', 'A轮', 'B轮', 'C轮', '天使'],
     '开源项目': ['开源', 'GitHub', 'Open Source', '代码', '项目'],
@@ -327,20 +189,207 @@ function categorizeNews(text) {
   return '综合资讯';
 }
 
-// 爬取AI工具集新闻
+// 解析AI工具集新闻 - 重新设计
+async function parseAIBotNews(html) {
+  const $ = cheerio.load(html);
+  const newsList = [];
+  
+  console.log('📄 开始按日期分组解析AI工具集新闻页面...');
+  
+  // 策略：识别日期分组，为后续新闻分配日期
+  const bodyText = $('body').text();
+  const lines = bodyText.split('\n')
+    .map(line => line.trim())
+    .filter(line => line.length > 5);
+  
+  let currentDate = new Date(); // 默认当前日期
+  let currentDateText = '今日';
+  let validNewsCount = 0;
+  const processedTitles = new Set();
+  
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    
+    // 跳过明显的无关内容
+    if (line.includes('版权所有') || line.includes('ICP') || 
+        line.includes('游客') || line.includes('回复') ||
+        (line.includes('工具集') && line.length < 20)) {
+      continue;
+    }
+    
+    // 检查是否为日期分组标题
+    const dateGroupMatch = line.match(/(\d{1,2})月(\d{1,2})日[·•]?周[一二三四五六日]/);
+    if (dateGroupMatch) {
+      const parsedDate = parseDate(dateGroupMatch[0]);
+      if (parsedDate) {
+        currentDate = parsedDate;
+        currentDateText = formatDate(parsedDate);
+        console.log(`📅 发现日期分组: ${line} -> ${currentDateText}`);
+        continue;
+      }
+    }
+    
+    // 检查其他日期格式
+    const otherDateMatch = line.match(/(\d{1,2})\.(\d{1,2})/);
+    if (otherDateMatch && line.length < 20) { // 短行可能是纯日期
+      const month = parseInt(otherDateMatch[1]);
+      const day = parseInt(otherDateMatch[2]);
+      if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+        const parsedDate = createDateFromMonthDay(month, day);
+        if (parsedDate) {
+          currentDate = parsedDate;
+          currentDateText = formatDate(parsedDate);
+          console.log(`📅 发现日期标记: ${line} -> ${currentDateText}`);
+          continue;
+        }
+      }
+    }
+    
+    // 检查是否为有效新闻
+    if (!isValidNews(line, '')) {
+      continue;
+    }
+    
+    // 防重复
+    if (processedTitles.has(line)) {
+      continue;
+    }
+    processedTitles.add(line);
+    
+    // 尝试获取更多内容（下一行）
+    let content = line;
+    if (i + 1 < lines.length && lines[i + 1].length > 10) {
+      content += ' ' + lines[i + 1];
+    }
+    
+    const newsItem = {
+      id: generateNewsId(line),
+      title: line,
+      content: content.length > line.length ? content.substring(line.length).trim() : line,
+      originalContent: content,
+      source: 'AI工具集',
+      sourceUrl: CRAWL_CONFIG.baseUrl,
+      publishTime: currentDate.toISOString(),
+      crawlTime: new Date().toISOString(),
+      category: categorizeNews(line, content),
+      tags: extractTags(line, content),
+      dateText: currentDateText
+    };
+    
+    newsList.push(newsItem);
+    validNewsCount++;
+    
+    if (validNewsCount % 10 === 0) {
+      console.log(`📝 已解析 ${validNewsCount} 条新闻... (当前日期: ${currentDateText})`);
+    }
+  }
+  
+  console.log(`✅ 解析完成，共提取 ${validNewsCount} 条有效新闻`);
+  return newsList;
+}
+
+// 解析日期字符串
+function parseDate(dateStr) {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const currentMonth = currentDate.getMonth(); // 0-11
+  
+  // 匹配月日格式
+  const match = dateStr.match(/(\d{1,2})月(\d{1,2})日/);
+  if (match) {
+    const month = parseInt(match[1]);
+    const day = parseInt(match[2]);
+    
+    // 验证日期范围
+    if (month < 1 || month > 12 || day < 1 || day > 31) {
+      return null;
+    }
+    
+    // 判断年份
+    let year = currentYear;
+    if (month > currentMonth + 1) {
+      year = currentYear - 1;
+    }
+    
+    const date = new Date(year, month - 1, day);
+    return isNaN(date.getTime()) ? null : date;
+  }
+  
+  return null;
+}
+
+// 从月日创建日期
+function createDateFromMonthDay(month, day) {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const currentMonth = currentDate.getMonth(); // 0-11
+  
+  // 判断年份
+  let year = currentYear;
+  if (month > currentMonth + 1) {
+    year = currentYear - 1;
+  }
+  
+  const date = new Date(year, month - 1, day);
+  return isNaN(date.getTime()) ? null : date;
+}
+
+// 格式化日期显示
+function formatDate(date) {
+  const now = new Date();
+  const diffTime = now.getTime() - date.getTime();
+  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+  
+  if (diffDays === 0) return '今日';
+  if (diffDays === 1) return '昨日';
+  if (diffDays <= 7) return `${diffDays}天前`;
+  
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  return `${month}月${day}日`;
+}
+
+// 主爬虫函数
 async function crawlAIToolNews() {
   try {
-    console.log('📰 开始爬取AI工具集新闻...');
+    console.log('🚀 开始爬取AI工具集新闻...');
+    console.log(`📋 目标URL: ${CRAWL_CONFIG.baseUrl}`);
     
-    const response = await fetchWithRetry(CRAWL_CONFIG.baseUrl);
-    const newsList = parseNewsPage(response.data);
+    await ensureDirectories();
     
-    console.log(`✅ 爬取完成，获得 ${newsList.length} 条新闻`);
+    const response = await axios.get(CRAWL_CONFIG.baseUrl, {
+      timeout: CRAWL_CONFIG.timeout,
+      headers: {
+        'User-Agent': CRAWL_CONFIG.userAgent,
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1'
+      }
+    });
+    
+    console.log(`✅ 页面请求成功，状态码: ${response.status}`);
+    console.log(`📄 页面大小: ${(response.data.length / 1024).toFixed(2)} KB`);
+    
+    const newsList = await parseAIBotNews(response.data);
+    
+    if (newsList.length > 0) {
+      await saveNewsData(newsList);
+      console.log(`🎉 爬取完成！共获取 ${newsList.length} 条新闻`);
+    } else {
+      console.log('⚠️  未获取到任何新闻数据');
+    }
+    
     return newsList;
     
   } catch (error) {
-    console.error('❌ 爬取失败:', error.message);
-    return [];
+    console.error('❌ 爬取过程中出现错误:', error.message);
+    if (error.response) {
+      console.error(`HTTP状态码: ${error.response.status}`);
+      console.error(`响应头: ${JSON.stringify(error.response.headers, null, 2)}`);
+    }
+    throw error;
   }
 }
 
@@ -355,7 +404,7 @@ async function saveNewsData(newsList) {
       // 处理不同的数据格式
       if (Array.isArray(parsedData)) {
         existingNews = parsedData;
-      } else if (parsedData.data && Array.isArray(parsedData.data)) {
+      } else if (parsedData && parsedData.data && Array.isArray(parsedData.data)) {
         existingNews = parsedData.data;
       } else {
         existingNews = [];
@@ -371,45 +420,34 @@ async function saveNewsData(newsList) {
     const allNews = [...existingNews, ...uniqueNewNews]
       .sort((a, b) => new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime());
 
-    // 统计信息
-    const today = new Date().toISOString().split('T')[0];
-    const todayNews = allNews.filter(news => 
-      news.publishTime.startsWith(today)
-    );
-
-    const categories = [...new Set(allNews.map(news => news.category))];
-    const sources = [...new Set(allNews.map(news => news.source))];
-
-    const stats = {
-      totalCount: allNews.length,
-      todayCount: todayNews.length,
-      newCount: uniqueNewNews.length,
-      categories,
-      sources,
-      lastUpdate: new Date().toISOString()
-    };
-
     // 保存最新数据（用于前端展示）
-    const latestNews = allNews.slice(0, 100); // 取最新100条
-    const aiNewsData = {
+    const latestData = {
       success: true,
-      data: latestNews,
-      stats,
-      updateTime: new Date().toISOString(),
-      count: latestNews.length
+      data: allNews.slice(0, 500), // 前端只需要最新500条
+      total: allNews.length,
+      updateTime: new Date().toISOString()
     };
 
-    await fs.writeFile(AI_NEWS_FILE, JSON.stringify(aiNewsData, null, 2), 'utf8');
+    // 保存完整数据（用于历史记录）
+    const allData = {
+      success: true,
+      data: allNews,
+      total: allNews.length,
+      updateTime: new Date().toISOString()
+    };
 
-    // 保存完整历史数据
-    await fs.writeFile(ALL_NEWS_FILE, JSON.stringify(allNews, null, 2), 'utf8');
+    await Promise.all([
+      fs.writeFile(AI_NEWS_FILE, JSON.stringify(latestData, null, 2)),
+      fs.writeFile(ALL_NEWS_FILE, JSON.stringify(allData, null, 2))
+    ]);
 
-    console.log(`💾 数据保存完成:`);
-    console.log(`   - 新增: ${uniqueNewNews.length} 条`);
-    console.log(`   - 总计: ${allNews.length} 条`);
-    console.log(`   - 今日: ${todayNews.length} 条`);
+    console.log(`💾 数据保存成功:`);
+    console.log(`   - 新增新闻: ${uniqueNewNews.length} 条`);
+    console.log(`   - 总计新闻: ${allNews.length} 条`);
+    console.log(`   - 前端展示: ${latestData.data.length} 条`);
 
-    return stats;
+    // 保存历史记录
+    await saveHistoryData(allNews);
 
   } catch (error) {
     console.error('❌ 保存数据失败:', error);
@@ -417,117 +455,87 @@ async function saveNewsData(newsList) {
   }
 }
 
-// 保存历史记录
-async function saveHistoryRecord(stats) {
+// 保存历史数据
+async function saveHistoryData(newsList) {
   try {
     const today = new Date().toISOString().split('T')[0];
-    const historyFile = path.join(HISTORY_DIR, `${today}.json`);
+    const todayFile = path.join(HISTORY_DIR, `${today}.json`);
     
-    const historyRecord = {
+    // 保存今日数据
+    const todayData = {
       date: today,
-      stats,
-      timestamp: new Date().toISOString()
+      data: newsList.slice(0, 100), // 每日文件只保存100条最新
+      total: newsList.length,
+      updateTime: new Date().toISOString()
     };
-
-    await fs.writeFile(historyFile, JSON.stringify(historyRecord, null, 2), 'utf8');
+    
+    await fs.writeFile(todayFile, JSON.stringify(todayData, null, 2));
 
     // 更新历史索引
     let historyIndex = [];
     try {
       const indexData = await fs.readFile(HISTORY_INDEX_FILE, 'utf8');
-      historyIndex = JSON.parse(indexData);
+      const parsedIndex = JSON.parse(indexData);
+      // 确保是数组格式
+      if (Array.isArray(parsedIndex)) {
+        historyIndex = parsedIndex;
+      } else if (parsedIndex && parsedIndex.data && Array.isArray(parsedIndex.data)) {
+        historyIndex = parsedIndex.data;
+      } else {
+        historyIndex = [];
+      }
     } catch (error) {
       console.log('📝 创建新的历史索引');
     }
 
     // 添加或更新今日记录
-    const existingIndex = historyIndex.findIndex(record => record.date === today);
+    const existingIndex = historyIndex.findIndex(record => record && record.date === today);
     if (existingIndex >= 0) {
-      historyIndex[existingIndex] = { date: today, ...stats };
+      historyIndex[existingIndex] = {
+        date: today,
+        count: newsList.length,
+        updateTime: new Date().toISOString()
+      };
     } else {
-      historyIndex.push({ date: today, ...stats });
+      historyIndex.push({
+        date: today,
+        count: newsList.length,
+        updateTime: new Date().toISOString()
+      });
     }
 
-    // 按日期降序排序，保留最近30天
-    historyIndex = historyIndex
-      .sort((a, b) => b.date.localeCompare(a.date))
-      .slice(0, 30);
+    // 按日期排序
+    historyIndex.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-    await fs.writeFile(HISTORY_INDEX_FILE, JSON.stringify(historyIndex, null, 2), 'utf8');
-
-    console.log(`📚 历史记录已保存: ${historyFile}`);
+    await fs.writeFile(HISTORY_INDEX_FILE, JSON.stringify(historyIndex, null, 2));
+    
+    console.log(`📚 历史数据保存成功: ${today}.json`);
 
   } catch (error) {
-    console.error('❌ 保存历史记录失败:', error);
+    console.error('❌ 保存历史数据失败:', error);
   }
 }
 
 // 主函数
 async function main() {
-  const startTime = Date.now();
-  console.log('🚀 AI新闻爬虫启动...\n');
-
   try {
-    // 创建目录结构
-    await ensureDirectories();
-
-    // 爬取新闻
-    const newsList = await crawlAIToolNews();
-
-    if (newsList.length === 0) {
-      console.log('⚠️  未获取到任何新闻数据，使用示例数据');
-      
-      // 创建示例数据
-      const sampleNews = [
-        {
-          id: 'sample_1',
-          title: '混元3D再升级，推出业界首个美术级3D生成大模型Hunyuan3D-PolyGen',
-          content: '腾讯混元3D宣布升级，推出业界首个美术级3D生成大模型Hunyuan3D-PolyGen。模型结合自研高压缩率表征BPT技术，可生成上万面复杂几何模型，布线精度高，细节丰富，支持三边面和四边面，满足不同专业需求。',
-          source: '腾讯混元',
-          sourceUrl: 'https://ai-bot.cn/daily-ai-news/',
-          publishTime: new Date().toISOString(),
-          crawlTime: new Date().toISOString(),
-          category: '产品发布',
-          tags: ['3D', '大模型', '腾讯', '技术'],
-          dateText: '今日'
-        }
-      ];
-      
-      const stats = await saveNewsData(sampleNews);
-      await saveHistoryRecord(stats);
-      
-      console.log(`\n✅ 使用示例数据完成初始化`);
-      return;
-    }
-
-    // 保存数据
-    const stats = await saveNewsData(newsList);
-    
-    // 保存历史记录
-    await saveHistoryRecord(stats);
-
+    const startTime = Date.now();
+    await crawlAIToolNews();
     const endTime = Date.now();
-    const duration = ((endTime - startTime) / 1000).toFixed(2);
-
-    console.log(`\n🎉 爬取任务完成！`);
-    console.log(`   - 耗时: ${duration}s`);
-    console.log(`   - 新增: ${stats.newCount} 条新闻`);
-    console.log(`   - 总计: ${stats.totalCount} 条新闻`);
-    console.log(`   - 文件: ${AI_NEWS_FILE}`);
-    
+    console.log(`⏱️  总耗时: ${((endTime - startTime) / 1000).toFixed(2)} 秒`);
   } catch (error) {
-    console.error('\n❌ 爬取任务失败:', error);
+    console.error('❌ 程序执行失败:', error);
     process.exit(1);
   }
 }
 
-// 如果直接运行此脚本
+// 如果直接运行脚本
 if (require.main === module) {
-  main().catch(console.error);
+  main();
 }
 
 module.exports = {
   crawlAIToolNews,
   saveNewsData,
-  parseNewsPage
+  parseAIBotNews
 }; 

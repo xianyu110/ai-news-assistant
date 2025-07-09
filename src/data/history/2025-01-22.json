@@ -1,0 +1,200 @@
+{
+  "date": "2025-01-22",
+  "count": 11,
+  "data": [
+    {
+      "id": "fe42ff25",
+      "title": "智谱推出电脑智能体GLM-PC，基于智谱CogAgent模型构建，能像人类一样“观察”和“操作”电脑，协助完成各类任务。新增“深度思考”模式、逻辑推理和代码生成功能，支持Windows系统。GLM-PC通过模拟人类左右脑分工，结合代码生成和图形界面理解，实现了逻辑推理与感知认知的深度结合。来源：AI工具集",
+      "content": "字节跳动推出的开源原生 GUI 代理模型",
+      "originalContent": "智谱推出电脑智能体GLM-PC，基于智谱CogAgent模型构建，能像人类一样“观察”和“操作”电脑，协助完成各类任务。新增“深度思考”模式、逻辑推理和代码生成功能，支持Windows系统。GLM-PC通过模拟人类左右脑分工，结合代码生成和图形界面理解，实现了逻辑推理与感知认知的深度结合。来源：AI工具集 字节跳动推出的开源原生 GUI 代理模型",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.080Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "1月23日"
+    },
+    {
+      "id": "9777d6e5",
+      "title": "字节跳动发布并开源了UI-TARS大模型，是专门用于操控电脑界面的视觉语言模型，具备感知、推理和操作能力。UI-TARS提供2B、7B和72B三种参数规模版本，支持跨平台操作，能通过自然语言指令完成鼠标点击、键盘输入等任务。在多个基准测试中，UI-TARS表现优于GPT-4和Claude。来源：AI工具集",
+      "content": "Step-Video 开年震撼升级：更强大的真实世界模拟器来了",
+      "originalContent": "字节跳动发布并开源了UI-TARS大模型，是专门用于操控电脑界面的视觉语言模型，具备感知、推理和操作能力。UI-TARS提供2B、7B和72B三种参数规模版本，支持跨平台操作，能通过自然语言指令完成鼠标点击、键盘输入等任务。在多个基准测试中，UI-TARS表现优于GPT-4和Claude。来源：AI工具集 Step-Video 开年震撼升级：更强大的真实世界模拟器来了",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.080Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "1月23日"
+    },
+    {
+      "id": "94c799ae",
+      "title": "Perplexity发布Sonar API，提供实时信息搜索功能",
+      "content": "Perplexity发布Sonar API，提供实时信息搜索功能。Sonar API分为基础版和Pro版，基础版支持轻量级实时搜索和简单查询引用，Pro版则支持复杂多步骤任务、更大的上下文窗口和更丰富的引用。",
+      "originalContent": "Perplexity发布Sonar API，提供实时信息搜索功能 Perplexity发布Sonar API，提供实时信息搜索功能。Sonar API分为基础版和Pro版，基础版支持轻量级实时搜索和简单查询引用，Pro版则支持复杂多步骤任务、更大的上下文窗口和更丰富的引用。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.750Z",
+      "category": "产品发布",
+      "tags": [
+        "发布"
+      ],
+      "dateText": "1月23日·周四"
+    },
+    {
+      "id": "fc03a554",
+      "title": "Perplexity发布Sonar API，提供实时信息搜索功能。Sonar API分为基础版和Pro版，基础版支持轻量级实时搜索和简单查询引用，Pro版则支持复杂多步骤任务、更大的上下文窗口和更丰富的引用。来源：AI工具集",
+      "content": "谷歌 Gemini 2.0 Flash Thinking 强化版发布，登上 Chatbot Arena 榜首",
+      "originalContent": "Perplexity发布Sonar API，提供实时信息搜索功能。Sonar API分为基础版和Pro版，基础版支持轻量级实时搜索和简单查询引用，Pro版则支持复杂多步骤任务、更大的上下文窗口和更丰富的引用。来源：AI工具集 谷歌 Gemini 2.0 Flash Thinking 强化版发布，登上 Chatbot Arena 榜首",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.080Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "1月23日"
+    },
+    {
+      "id": "de43f5e5",
+      "title": "谷歌 Gemini 2.0 Flash Thinking 强化版发布，登上 Chatbot Arena 榜首",
+      "content": "谷歌发布Gemini 2.0 Flash Thinking推理模型的加强版，再次登顶Chatbot Arena排行榜。更新引入了1M长上下文处理能力，可对长篇文本进行更深入分析，减少模型思想与答案之间的矛盾。支持长上下文、多模态输入以及推理过程可视化，推理速度极快，在数学和科学能力测试中表现突出，数学成绩较前代提升54%。",
+      "originalContent": "谷歌 Gemini 2.0 Flash Thinking 强化版发布，登上 Chatbot Arena 榜首 谷歌发布Gemini 2.0 Flash Thinking推理模型的加强版，再次登顶Chatbot Arena排行榜。更新引入了1M长上下文处理能力，可对长篇文本进行更深入分析，减少模型思想与答案之间的矛盾。支持长上下文、多模态输入以及推理过程可视化，推理速度极快，在数学和科学能力测试中表现突出，数学成绩较前代提升54%。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.750Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "1月23日·周四"
+    },
+    {
+      "id": "c02bb227",
+      "title": "谷歌发布Gemini 2.0 Flash Thinking推理模型的加强版，再次登顶Chatbot Arena排行榜。更新引入了1M长上下文处理能力，可对长篇文本进行更深入分析，减少模型思想与答案之间的矛盾。支持长上下文、多模态输入以及推理过程可视化，推理速度极快，在数学和科学能力测试中表现突出，数学成绩较前代提升54%。来源：AI工具集",
+      "content": "字节启动 Seed Edge，加码 AGI 研究",
+      "originalContent": "谷歌发布Gemini 2.0 Flash Thinking推理模型的加强版，再次登顶Chatbot Arena排行榜。更新引入了1M长上下文处理能力，可对长篇文本进行更深入分析，减少模型思想与答案之间的矛盾。支持长上下文、多模态输入以及推理过程可视化，推理速度极快，在数学和科学能力测试中表现突出，数学成绩较前代提升54%。来源：AI工具集 字节启动 Seed Edge，加码 AGI 研究",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.080Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "1月23日"
+    },
+    {
+      "id": "f4b03fad",
+      "title": "字节跳动正式设立代号为“Seed Edge”的研究项目，专注于通用人工智能（AGI）的前沿研究。项目拟定五大研究方向，包括下一代推理、感知、软硬一体模型设计、新范式探索和Scaling方向研究。Seed Edge旨在探索AI的原创性创新，而非仅追随现有技术。字节跳动创始人张一鸣高度重视AI研究，鼓励团队探索基础课题。来源：晚点LatePost",
+      "content": "字节跳动正式设立代号为“Seed Edge”的研究项目，专注于通用人工智能（AGI）的前沿研究。项目拟定五大研究方向，包括下一代推理、感知、软硬一体模型设计、新范式探索和Scaling方向研究。Seed Edge旨在探索AI的原创性创新，而非仅追随现有技术。字节跳动创始人张一鸣高度重视AI研究，鼓励团队探索基础课题。来源：晚点LatePost",
+      "originalContent": "字节跳动正式设立代号为“Seed Edge”的研究项目，专注于通用人工智能（AGI）的前沿研究。项目拟定五大研究方向，包括下一代推理、感知、软硬一体模型设计、新范式探索和Scaling方向研究。Seed Edge旨在探索AI的原创性创新，而非仅追随现有技术。字节跳动创始人张一鸣高度重视AI研究，鼓励团队探索基础课题。来源：晚点LatePost",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.080Z",
+      "category": "开源项目",
+      "tags": [
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "1月23日"
+    },
+    {
+      "id": "40e9516f",
+      "title": "智谱GLM-PC开放体验：自主操作电脑的多模态Agent再升级",
+      "content": "智谱推出电脑智能体GLM-PC，基于智谱CogAgent模型构建，能像人类一样“观察”和“操作”电脑，协助完成各类任务。新增“深度思考”模式、逻辑推理和代码生成功能，支持Windows系统。GLM-PC通过模拟人类左右脑分工，结合代码生成和图形界面理解，实现了逻辑推理与感知认知的深度结合。",
+      "originalContent": "智谱GLM-PC开放体验：自主操作电脑的多模态Agent再升级 智谱推出电脑智能体GLM-PC，基于智谱CogAgent模型构建，能像人类一样“观察”和“操作”电脑，协助完成各类任务。新增“深度思考”模式、逻辑推理和代码生成功能，支持Windows系统。GLM-PC通过模拟人类左右脑分工，结合代码生成和图形界面理解，实现了逻辑推理与感知认知的深度结合。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.749Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "智能体"
+      ],
+      "dateText": "1月23日·周四"
+    },
+    {
+      "id": "6b78740c",
+      "title": "字节跳动推出的开源原生 GUI 代理模型",
+      "content": "字节跳动发布并开源了UI-TARS大模型，是专门用于操控电脑界面的视觉语言模型，具备感知、推理和操作能力。UI-TARS提供2B、7B和72B三种参数规模版本，支持跨平台操作，能通过自然语言指令完成鼠标点击、键盘输入等任务。在多个基准测试中，UI-TARS表现优于GPT-4和Claude。",
+      "originalContent": "字节跳动推出的开源原生 GUI 代理模型 字节跳动发布并开源了UI-TARS大模型，是专门用于操控电脑界面的视觉语言模型，具备感知、推理和操作能力。UI-TARS提供2B、7B和72B三种参数规模版本，支持跨平台操作，能通过自然语言指令完成鼠标点击、键盘输入等任务。在多个基准测试中，UI-TARS表现优于GPT-4和Claude。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.749Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "1月23日·周四"
+    },
+    {
+      "id": "a7808b99",
+      "title": "字节启动 Seed Edge，加码 AGI 研究",
+      "content": "字节跳动正式设立代号为“Seed Edge”的研究项目，专注于通用人工智能（AGI）的前沿研究。项目拟定五大研究方向，包括下一代推理、感知、软硬一体模型设计、新范式探索和Scaling方向研究。Seed Edge旨在探索AI的原创性创新，而非仅追随现有技术。字节跳动创始人张一鸣高度重视AI研究，鼓励团队探索基础课题。",
+      "originalContent": "字节启动 Seed Edge，加码 AGI 研究 字节跳动正式设立代号为“Seed Edge”的研究项目，专注于通用人工智能（AGI）的前沿研究。项目拟定五大研究方向，包括下一代推理、感知、软硬一体模型设计、新范式探索和Scaling方向研究。Seed Edge旨在探索AI的原创性创新，而非仅追随现有技术。字节跳动创始人张一鸣高度重视AI研究，鼓励团队探索基础课题。",
+      "source": "晚点LatePost",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.750Z",
+      "category": "开源项目",
+      "tags": [
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "1月23日·周四"
+    },
+    {
+      "id": "cdfdae25",
+      "title": "Step-Video 开年震撼升级：更强大的真实世界模拟器来了",
+      "content": "阶跃星辰推出视频生成模型 Step-Video V2版本。新版本在参数量、语义理解、指令遵循能力等方面大幅提升，支持复杂运动、人物美感、基础文字生成和多语言输入等功能。用户可通过跃问网页端申请试用。",
+      "originalContent": "Step-Video 开年震撼升级：更强大的真实世界模拟器来了 阶跃星辰推出视频生成模型 Step-Video V2版本。新版本在参数量、语义理解、指令遵循能力等方面大幅提升，支持复杂运动、人物美感、基础文字生成和多语言输入等功能。用户可通过跃问网页端申请试用。",
+      "source": "阶跃星辰",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-22T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.749Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "1月23日·周四"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.075Z"
+}

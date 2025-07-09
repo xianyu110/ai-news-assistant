@@ -17,7 +17,7 @@
       <!-- 描述文字 -->
       <view class="description">
         AI工具集每日实时更新 AI 行业的最新资讯、新闻、热点、融资、产品动态、爆料等，让你随时了解人工智能领域最新趋势、更新突破和热门大事件。
-        <text class="highlight" @click="joinGroup">加入AI工具集官方社群</text>
+        <text class="highlight" @click="joinGroup">关注公众号 MaynorAI</text>
         ，获取最新一手信息！
       </view>
     </view>
@@ -412,8 +412,8 @@ const goToSearch = () => {
 // 加入群组
 const joinGroup = () => {
   uni.showModal({
-    title: '提示',
-    content: '请关注AI工具集官方网站获取更多信息',
+    title: '关注公众号',
+    content: '请在微信搜索并关注公众号「MaynorAI」，获取更多一手AI资讯和工具。',
     showCancel: false
   })
 }

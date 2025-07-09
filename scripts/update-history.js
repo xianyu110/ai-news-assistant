@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { crawlAINews } = require('./crawl-news');
+const { crawlAIToolNews } = require('./crawl-news');
 
 /**
  * 历史数据管理器
@@ -29,18 +29,20 @@ class HistoryManager {
       console.log('🔄 开始更新历史数据...');
       
       // 1. 爬取最新数据
-      const newData = await crawlAINews();
+      const newNewsList = await crawlAIToolNews();
       
-      if (!newData.success || !newData.data.length) {
+      if (!newNewsList || !newNewsList.length) {
         console.log('❌ 没有获取到新数据');
         return false;
       }
+      const newData = { data: newNewsList };
       
       // 2. 读取现有的全量数据
       const allNews = this.loadAllNews();
+      const existingData = Array.isArray(allNews.data) ? allNews.data : [];
       
       // 3. 合并和去重
-      const mergedData = this.mergeAndDeduplicate(allNews.data, newData.data);
+      const mergedData = this.mergeAndDeduplicate(existingData, newData.data);
       
       // 4. 按时间排序
       mergedData.sort((a, b) => new Date(b.publishTime) - new Date(a.publishTime));
@@ -56,11 +58,13 @@ class HistoryManager {
       
       fs.writeFileSync(this.allNewsFile, JSON.stringify(updatedAllNews, null, 2));
       
-      // 6. 更新当前数据文件（只包含最新的50条）
+      // 6. 更新当前数据文件（只包含最新的200条）
       const currentData = {
-        ...updatedAllNews,
-        data: mergedData.slice(0, 50),
-        count: Math.min(50, mergedData.length)
+        success: true,
+        updateTime: updatedAllNews.updateTime,
+        count: Math.min(200, mergedData.length),
+        data: mergedData.slice(0, 200),
+        stats: updatedAllNews.stats
       };
       
       fs.writeFileSync(this.currentFile, JSON.stringify(currentData, null, 2));
@@ -94,7 +98,14 @@ class HistoryManager {
     try {
       if (fs.existsSync(this.allNewsFile)) {
         const content = fs.readFileSync(this.allNewsFile, 'utf-8');
-        return JSON.parse(content);
+        const data = JSON.parse(content);
+        // 兼容直接是数组或包含data属性的对象
+        if (Array.isArray(data)) {
+          return { data: data };
+        }
+        if (data && Array.isArray(data.data)) {
+          return data;
+        }
       }
     } catch (error) {
       console.warn('读取全量数据失败:', error);
@@ -119,7 +130,7 @@ class HistoryManager {
    * 合并数据并去重
    */
   mergeAndDeduplicate(existingData, newData) {
-    const allData = [...existingData];
+    const allData = [...(Array.isArray(existingData) ? existingData : [])];
     
     // 按ID去重，优先保留新数据
     newData.forEach(newItem => {
@@ -237,11 +248,13 @@ class HistoryManager {
    * 生成统计信息
    */
   generateStats(data) {
-    const today = new Date().toISOString().split('T')[0];
+    const now = new Date();
+    const todayStr = now.toISOString().split('T')[0];
     const todayCount = data.filter(item => 
-      item.publishTime.startsWith(today)
+      item && typeof item.publishTime === 'string' && item.publishTime.startsWith(todayStr)
     ).length;
-    
+
+    // 获取所有分类和来源
     const categories = [...new Set(data.map(item => item.category))];
     const sources = [...new Set(data.map(item => item.source))];
     
@@ -296,22 +309,17 @@ class HistoryManager {
   }
 }
 
-// 如果是直接运行脚本
-if (require.main === module) {
+/**
+ * 主函数
+ */
+async function main() {
   const manager = new HistoryManager();
-  
-  manager.updateHistory().then(result => {
-    if (result) {
-      console.log('🎉 历史数据更新完成！');
-      console.log(`📊 统计: 总计${result.totalCount}条，新增${result.newCount}条，当前显示${result.currentCount}条`);
-    } else {
-      console.log('❌ 历史数据更新失败');
-    }
-    process.exit(0);
-  }).catch(error => {
-    console.error('💥 脚本执行失败:', error);
-    process.exit(1);
-  });
+  await manager.updateHistory();
+}
+
+// 如果直接运行此脚本
+if (require.main === module) {
+  main();
 }
 
 module.exports = { HistoryManager }; 

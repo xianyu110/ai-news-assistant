@@ -1,0 +1,168 @@
+{
+  "date": "2025-03-03",
+  "count": 9,
+  "data": [
+    {
+      "id": "3b0487db",
+      "title": "智谱发布开源图像生成模型CogView4，首个支持中英双语，图像生成迎来新突破",
+      "content": "智谱正式发布并开源最新的图像生成模型CogView4。模型具备强大的复杂语义对齐和指令跟随能力，支持任意长度的中英双语输入，可生成任意分辨率的图像。CogView4在DPG-Bench基准测试中综合评分排名第一，成为开源文生图模型中的最先进技术（SOTA）。",
+      "originalContent": "智谱发布开源图像生成模型CogView4，首个支持中英双语，图像生成迎来新突破 智谱正式发布并开源最新的图像生成模型CogView4。模型具备强大的复杂语义对齐和指令跟随能力，支持任意长度的中英双语输入，可生成任意分辨率的图像。CogView4在DPG-Bench基准测试中综合评分排名第一，成为开源文生图模型中的最先进技术（SOTA）。",
+      "source": "GLM大模型",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.695Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "3月4日·周二"
+    },
+    {
+      "id": "200a315a",
+      "title": "智谱正式发布并开源最新的图像生成模型CogView4。模型具备强大的复杂语义对齐和指令跟随能力，支持任意长度的中英双语输入，可生成任意分辨率的图像。CogView4在DPG-Bench基准测试中综合评分排名第一，成为开源文生图模型中的最先进技术（SOTA）。来源：GLM大模型",
+      "content": "通义灵码上新Qwen2.5-Max模型，体验数学和编程双冠王能力",
+      "originalContent": "智谱正式发布并开源最新的图像生成模型CogView4。模型具备强大的复杂语义对齐和指令跟随能力，支持任意长度的中英双语输入，可生成任意分辨率的图像。CogView4在DPG-Bench基准测试中综合评分排名第一，成为开源文生图模型中的最先进技术（SOTA）。来源：GLM大模型 通义灵码上新Qwen2.5-Max模型，体验数学和编程双冠王能力",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "3月4日"
+    },
+    {
+      "id": "e8f957fe",
+      "title": "阿里云和通义实验室联合推出的AI编码助手“通义灵码”上线了Qwen2.5-Max模型。模型使用超过20万亿token的预训练数据及优化的后训练方案，在Arena-Hard、LiveBench等基准测试中，Qwen2.5-Max领先业界，在数学和编程能力上排名第一。来源：通义灵码",
+      "content": "Anthropic完成35亿美元E轮融资，估值飙升至615亿美元",
+      "originalContent": "阿里云和通义实验室联合推出的AI编码助手“通义灵码”上线了Qwen2.5-Max模型。模型使用超过20万亿token的预训练数据及优化的后训练方案，在Arena-Hard、LiveBench等基准测试中，Qwen2.5-Max领先业界，在数学和编程能力上排名第一。来源：通义灵码 Anthropic完成35亿美元E轮融资，估值飙升至615亿美元",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "合作",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "3月4日"
+    },
+    {
+      "id": "3a017064",
+      "title": "Anthropic完成35亿美元E轮融资，估值飙升至615亿美元",
+      "content": "Anthropic完成35亿美元E轮融资，估值达615亿美元。本轮融资由Lightspeed Venture Partners领投，Bessemer Venture Partners、Cisco Investments等多家机构参与。资金将用于推进下一代AI系统开发、扩大计算能力、加速国际扩张。Anthropic推出的Claude 3.7 Sonnet和Claude Code，在代码能力上取得突破。",
+      "originalContent": "Anthropic完成35亿美元E轮融资，估值飙升至615亿美元 Anthropic完成35亿美元E轮融资，估值达615亿美元。本轮融资由Lightspeed Venture Partners领投，Bessemer Venture Partners、Cisco Investments等多家机构参与。资金将用于推进下一代AI系统开发、扩大计算能力、加速国际扩张。Anthropic推出的Claude 3.7 Sonnet和Claude Code，在代码能力上取得突破。",
+      "source": "Anthropic",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.696Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "3月4日·周二"
+    },
+    {
+      "id": "adc88d94",
+      "title": "秘塔AI搜索推出视频搜索功能，高效学习娱乐新体验",
+      "content": "秘塔AI搜索推出新功能，新增“视频”搜索模块。功能基于对上亿条视频内容的分析，覆盖多模态数据，用户可通过关键词快速找到学习或娱乐视频。",
+      "originalContent": "秘塔AI搜索推出视频搜索功能，高效学习娱乐新体验 秘塔AI搜索推出新功能，新增“视频”搜索模块。功能基于对上亿条视频内容的分析，覆盖多模态数据，用户可通过关键词快速找到学习或娱乐视频。",
+      "source": "AI秘塔",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.696Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "3月4日·周二"
+    },
+    {
+      "id": "35c31d26",
+      "title": "秘塔AI搜索推出新功能，新增“视频”搜索模块。功能基于对上亿条视频内容的分析，覆盖多模态数据，用户可通过关键词快速找到学习或娱乐视频。来源：AI秘塔",
+      "content": "百川智能调整业务布局，聚焦医疗领域",
+      "originalContent": "秘塔AI搜索推出新功能，新增“视频”搜索模块。功能基于对上亿条视频内容的分析，覆盖多模态数据，用户可通过关键词快速找到学习或娱乐视频。来源：AI秘塔 百川智能调整业务布局，聚焦医疗领域",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "3月4日"
+    },
+    {
+      "id": "1a9bb51a",
+      "title": "百川智能调整业务布局，聚焦医疗领域",
+      "content": "百川智能近期对To B业务进行重大调整。2025年3月3日，金融行业To B团队被裁撤，此前，团队曾负责金融领域的大模型商业化，推出Baichuan4-Finance等产品。此次调整是为聚焦医疗领域，百川已在该领域布局，如投资医疗数据服务商“小儿方”并计划落地AI医生助理。",
+      "originalContent": "百川智能调整业务布局，聚焦医疗领域 百川智能近期对To B业务进行重大调整。2025年3月3日，金融行业To B团队被裁撤，此前，团队曾负责金融领域的大模型商业化，推出Baichuan4-Finance等产品。此次调整是为聚焦医疗领域，百川已在该领域布局，如投资医疗数据服务商“小儿方”并计划落地AI医生助理。",
+      "source": "智能涌现",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.697Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月4日·周二"
+    },
+    {
+      "id": "6ce4d881",
+      "title": "百川智能近期对To B业务进行重大调整。2025年3月3日，金融行业To B团队被裁撤，此前，团队曾负责金融领域的大模型商业化，推出Baichuan4-Finance等产品。此次调整是为聚焦医疗领域，百川已在该领域布局，如投资医疗数据服务商“小儿方”并计划落地AI医生助理。来源：智能涌现",
+      "content": "百川智能近期对To B业务进行重大调整。2025年3月3日，金融行业To B团队被裁撤，此前，团队曾负责金融领域的大模型商业化，推出Baichuan4-Finance等产品。此次调整是为聚焦医疗领域，百川已在该领域布局，如投资医疗数据服务商“小儿方”并计划落地AI医生助理。来源：智能涌现",
+      "originalContent": "百川智能近期对To B业务进行重大调整。2025年3月3日，金融行业To B团队被裁撤，此前，团队曾负责金融领域的大模型商业化，推出Baichuan4-Finance等产品。此次调整是为聚焦医疗领域，百川已在该领域布局，如投资医疗数据服务商“小儿方”并计划落地AI医生助理。来源：智能涌现",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月4日"
+    },
+    {
+      "id": "56b21f5f",
+      "title": "通义灵码上新Qwen2.5-Max模型，体验数学和编程双冠王能力",
+      "content": "阿里云和通义实验室联合推出的AI编码助手“通义灵码”上线了Qwen2.5-Max模型。模型使用超过20万亿token的预训练数据及优化的后训练方案，在Arena-Hard、LiveBench等基准测试中，Qwen2.5-Max领先业界，在数学和编程能力上排名第一。",
+      "originalContent": "通义灵码上新Qwen2.5-Max模型，体验数学和编程双冠王能力 阿里云和通义实验室联合推出的AI编码助手“通义灵码”上线了Qwen2.5-Max模型。模型使用超过20万亿token的预训练数据及优化的后训练方案，在Arena-Hard、LiveBench等基准测试中，Qwen2.5-Max领先业界，在数学和编程能力上排名第一。",
+      "source": "通义灵码",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.696Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月4日·周二"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.053Z"
+}

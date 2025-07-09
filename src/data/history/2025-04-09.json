@@ -1,0 +1,201 @@
+{
+  "date": "2025-04-09",
+  "count": 11,
+  "data": [
+    {
+      "id": "6998d6d0",
+      "title": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性",
+      "content": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性。A2A 是开放协议，支持超过 50 个技术合作伙伴，支持不同供应商的智能体在跨平台环境中安全协作，完成复杂任务。协议基于 HTTP、SSE、JSON-RPC 等标准，支持长时任务和多种数据格式（如音频、视频）。",
+      "originalContent": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性 谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性。A2A 是开放协议，支持超过 50 个技术合作伙伴，支持不同供应商的智能体在跨平台环境中安全协作，完成复杂任务。协议基于 HTTP、SSE、JSON-RPC 等标准，支持长时任务和多种数据格式（如音频、视频）。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.639Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月10日·周四"
+    },
+    {
+      "id": "85c6a009",
+      "title": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性。A2A 是开放协议，支持超过 50 个技术合作伙伴，支持不同供应商的智能体在跨平台环境中安全协作，完成复杂任务。协议基于 HTTP、SSE、JSON-RPC 等标准，支持长时任务和多种数据格式（如音频、视频）。来源：AI工具集",
+      "content": "谷歌推出AI编程工具 Firebase Studio，一站式完成全栈应用的构建、修改和部署",
+      "originalContent": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性。A2A 是开放协议，支持超过 50 个技术合作伙伴，支持不同供应商的智能体在跨平台环境中安全协作，完成复杂任务。协议基于 HTTP、SSE、JSON-RPC 等标准，支持长时任务和多种数据格式（如音频、视频）。来源：AI工具集 谷歌推出AI编程工具 Firebase Studio，一站式完成全栈应用的构建、修改和部署",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月10日"
+    },
+    {
+      "id": "47bfd323",
+      "title": "谷歌推出AI编程工具 Firebase Studio，一站式完成全栈应用的构建、修改和部署",
+      "content": "谷歌推出 Firebase Studio，用户可以一站式完成全栈应用的构建、修改和部署。只需输入提示词，AI 可快速生成完整应用程序，支持 React、Next.js、Angular、Vue.js、Flutter、Android、Node.js、Java 和 Python Flask 等多种编程语言和框架。",
+      "originalContent": "谷歌推出AI编程工具 Firebase Studio，一站式完成全栈应用的构建、修改和部署 谷歌推出 Firebase Studio，用户可以一站式完成全栈应用的构建、修改和部署。只需输入提示词，AI 可快速生成完整应用程序，支持 React、Next.js、Angular、Vue.js、Flutter、Android、Node.js、Java 和 Python Flask 等多种编程语言和框架。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.640Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月10日·周四"
+    },
+    {
+      "id": "1201c94b",
+      "title": "谷歌推出 Firebase Studio，用户可以一站式完成全栈应用的构建、修改和部署。只需输入提示词，AI 可快速生成完整应用程序，支持 React、Next.js、Angular、Vue.js、Flutter、Android、Node.js、Java 和 Python Flask 等多种编程语言和框架。来源：AI工具集",
+      "content": "连续完成A及A+轮融资，星尘智能获锦秋基金、蚂蚁集团等领投",
+      "originalContent": "谷歌推出 Firebase Studio，用户可以一站式完成全栈应用的构建、修改和部署。只需输入提示词，AI 可快速生成完整应用程序，支持 React、Next.js、Angular、Vue.js、Flutter、Android、Node.js、Java 和 Python Flask 等多种编程语言和框架。来源：AI工具集 连续完成A及A+轮融资，星尘智能获锦秋基金、蚂蚁集团等领投",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月10日"
+    },
+    {
+      "id": "cac2f033",
+      "title": "连续完成A及A+轮融资，星尘智能获锦秋基金、蚂蚁集团等领投",
+      "content": "星尘智能宣布连续完成A轮及A+轮融资数亿元，由锦秋基金、蚂蚁集团领投，云启资本、道彤资本等老股东跟投，华兴资本担任独家财务顾问。星尘智能于2022年底在深圳成立，首创面向AI的软硬件一体化系统架构，全栈自研的Astribot S1高度仿人，关键操作参数媲美甚至超越成年男性。",
+      "originalContent": "连续完成A及A+轮融资，星尘智能获锦秋基金、蚂蚁集团等领投 星尘智能宣布连续完成A轮及A+轮融资数亿元，由锦秋基金、蚂蚁集团领投，云启资本、道彤资本等老股东跟投，华兴资本担任独家财务顾问。星尘智能于2022年底在深圳成立，首创面向AI的软硬件一体化系统架构，全栈自研的Astribot S1高度仿人，关键操作参数媲美甚至超越成年男性。",
+      "source": "Z Potentials",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.640Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "4月10日·周四"
+    },
+    {
+      "id": "6aa6ad32",
+      "title": "星尘智能宣布连续完成A轮及A+轮融资数亿元，由锦秋基金、蚂蚁集团领投，云启资本、道彤资本等老股东跟投，华兴资本担任独家财务顾问。星尘智能于2022年底在深圳成立，首创面向AI的软硬件一体化系统架构，全栈自研的Astribot S1高度仿人，关键操作参数媲美甚至超越成年男性。来源：Z Potentials",
+      "content": "alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成",
+      "originalContent": "星尘智能宣布连续完成A轮及A+轮融资数亿元，由锦秋基金、蚂蚁集团领投，云启资本、道彤资本等老股东跟投，华兴资本担任独家财务顾问。星尘智能于2022年底在深圳成立，首创面向AI的软硬件一体化系统架构，全栈自研的Astribot S1高度仿人，关键操作参数媲美甚至超越成年男性。来源：Z Potentials alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "4月10日"
+    },
+    {
+      "id": "1019f14f",
+      "title": "阿里云百炼上线业界首个全生命周期MCP服务，5分钟搭建专属AI智能体",
+      "content": "阿里云在AI势能大会上宣布上线业界首个全生命周期MCP服务，加速AI落地。服务集成阿里云函数计算、200多款大模型和50多款主流MCP服务，用户无需代码，仅需简单配置，5分钟即可搭建专属Agent。",
+      "originalContent": "阿里云百炼上线业界首个全生命周期MCP服务，5分钟搭建专属AI智能体 阿里云在AI势能大会上宣布上线业界首个全生命周期MCP服务，加速AI落地。服务集成阿里云函数计算、200多款大模型和50多款主流MCP服务，用户无需代码，仅需简单配置，5分钟即可搭建专属Agent。",
+      "source": "量子位",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.641Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月10日·周四"
+    },
+    {
+      "id": "490c91b8",
+      "title": "阿里云在AI势能大会上宣布上线业界首个全生命周期MCP服务，加速AI落地。服务集成阿里云函数计算、200多款大模型和50多款主流MCP服务，用户无需代码，仅需简单配置，5分钟即可搭建专属Agent。来源：量子位",
+      "content": "火山引擎推出AI数据专家“Data Agent”，企业数据全场景智能体",
+      "originalContent": "阿里云在AI势能大会上宣布上线业界首个全生命周期MCP服务，加速AI落地。服务集成阿里云函数计算、200多款大模型和50多款主流MCP服务，用户无需代码，仅需简单配置，5分钟即可搭建专属Agent。来源：量子位 火山引擎推出AI数据专家“Data Agent”，企业数据全场景智能体",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月10日"
+    },
+    {
+      "id": "a899d031",
+      "title": "火山引擎推出AI数据专家“Data Agent”，企业数据全场景智能体",
+      "content": "火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。",
+      "originalContent": "火山引擎推出AI数据专家“Data Agent”，企业数据全场景智能体 火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。",
+      "source": "火山引擎",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.641Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月10日·周四"
+    },
+    {
+      "id": "ef02c163",
+      "title": "火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。来源：火山引擎",
+      "content": "火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。来源：火山引擎",
+      "originalContent": "火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。来源：火山引擎",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "技术研究",
+      "tags": [
+        "研究",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月10日"
+    },
+    {
+      "id": "44864c59",
+      "title": "alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成",
+      "content": "alphaXiv推出「Deep Research for arXiv」功能，可协助研究人员在arXiv平台上快速检索与阅读学术论文，提升文献检索及研究效率。用户输入相关问题，系统能迅速生成文献综述或热门论文回答，将数小时的搜索过程缩短至几秒。",
+      "originalContent": "alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成 alphaXiv推出「Deep Research for arXiv」功能，可协助研究人员在arXiv平台上快速检索与阅读学术论文，提升文献检索及研究效率。用户输入相关问题，系统能迅速生成文献综述或热门论文回答，将数小时的搜索过程缩短至几秒。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.640Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "技术"
+      ],
+      "dateText": "4月10日·周四"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.033Z"
+}

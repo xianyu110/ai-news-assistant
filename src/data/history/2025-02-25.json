@@ -1,0 +1,125 @@
+{
+  "date": "2025-02-25",
+  "count": 7,
+  "data": [
+    {
+      "id": "fe551829",
+      "title": "阿里云开源视频生成大模型“Wan2.1”，全模态、全尺寸助力全球开发者",
+      "content": "阿里云开源视频生成大模型“万相2.1”，采用Apache 2.0协议，提供14B和1.3B两个参数版本，支持文生视频和图生视频任务。14B版本在复杂运动生成和物理建模方面表现卓越，1.3B版本能在消费级显卡上运行，仅需8.2GB显存可生成480P视频。万相2.1在权威评测集Vbench中以86.22%的总分超越国内外众多模型。",
+      "originalContent": "阿里云开源视频生成大模型“Wan2.1”，全模态、全尺寸助力全球开发者 阿里云开源视频生成大模型“万相2.1”，采用Apache 2.0协议，提供14B和1.3B两个参数版本，支持文生视频和图生视频任务。14B版本在复杂运动生成和物理建模方面表现卓越，1.3B版本能在消费级显卡上运行，仅需8.2GB显存可生成480P视频。万相2.1在权威评测集Vbench中以86.22%的总分超越国内外众多模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.705Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型"
+      ],
+      "dateText": "2月26日·周三"
+    },
+    {
+      "id": "51bf8a58",
+      "title": "阿里云开源视频生成大模型“万相2.1”，采用Apache 2.0协议，提供14B和1.3B两个参数版本，支持文生视频和图生视频任务。14B版本在复杂运动生成和物理建模方面表现卓越，1.3B版本能在消费级显卡上运行，仅需8.2GB显存可生成480P视频。万相2.1在权威评测集Vbench中以86.22%的总分超越国内外众多模型。来源：AI工具集",
+      "content": "DeepSeek开源FP8 GEMM库：极致优化Hopper GPU性能，助力AI训练与推理",
+      "originalContent": "阿里云开源视频生成大模型“万相2.1”，采用Apache 2.0协议，提供14B和1.3B两个参数版本，支持文生视频和图生视频任务。14B版本在复杂运动生成和物理建模方面表现卓越，1.3B版本能在消费级显卡上运行，仅需8.2GB显存可生成480P视频。万相2.1在权威评测集Vbench中以86.22%的总分超越国内外众多模型。来源：AI工具集 DeepSeek开源FP8 GEMM库：极致优化Hopper GPU性能，助力AI训练与推理",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月26日"
+    },
+    {
+      "id": "c5d8c136",
+      "title": "DeepSeek开源FP8 GEMM库：极致优化Hopper GPU性能，助力AI训练与推理",
+      "content": "DeepSeek开源周第三弹发布——DeepGEMM，是专为Hopper GPU设计的FP8 GEMM库，支持密集和MoE GEMM，性能高达1350+ TFLOPS。采用JIT即时编译，无需预编译，核心代码仅约300行，支持多种矩阵布局，矩阵运算提速显著。",
+      "originalContent": "DeepSeek开源FP8 GEMM库：极致优化Hopper GPU性能，助力AI训练与推理 DeepSeek开源周第三弹发布——DeepGEMM，是专为Hopper GPU设计的FP8 GEMM库，支持密集和MoE GEMM，性能高达1350+ TFLOPS。采用JIT即时编译，无需预编译，核心代码仅约300行，支持多种矩阵布局，矩阵运算提速显著。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.706Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "2月26日·周三"
+    },
+    {
+      "id": "09ba8d00",
+      "title": "DeepSeek开源周第三弹发布——DeepGEMM，是专为Hopper GPU设计的FP8 GEMM库，支持密集和MoE GEMM，性能高达1350+ TFLOPS。采用JIT即时编译，无需预编译，核心代码仅约300行，支持多种矩阵布局，矩阵运算提速显著。来源：AI工具集",
+      "content": "谷歌推出 Gemini Code Assist 个人版编程工具，免费可用",
+      "originalContent": "DeepSeek开源周第三弹发布——DeepGEMM，是专为Hopper GPU设计的FP8 GEMM库，支持密集和MoE GEMM，性能高达1350+ TFLOPS。采用JIT即时编译，无需预编译，核心代码仅约300行，支持多种矩阵布局，矩阵运算提速显著。来源：AI工具集 谷歌推出 Gemini Code Assist 个人版编程工具，免费可用",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "2月26日"
+    },
+    {
+      "id": "3b96f5d6",
+      "title": "谷歌推出面向个人开发者的免费编程工具 Gemini Code Assist，帮助学生、爱好者和初创公司更便捷地获取AI编程支持。工具基于谷歌Gemini 2.0模型驱动，支持38种语言，提供每月最多18万次代码补全服务，远超其他同类产品。来源：AI工具集",
+      "content": "谷歌推出面向个人开发者的免费编程工具 Gemini Code Assist，帮助学生、爱好者和初创公司更便捷地获取AI编程支持。工具基于谷歌Gemini 2.0模型驱动，支持38种语言，提供每月最多18万次代码补全服务，远超其他同类产品。来源：AI工具集",
+      "originalContent": "谷歌推出面向个人开发者的免费编程工具 Gemini Code Assist，帮助学生、爱好者和初创公司更便捷地获取AI编程支持。工具基于谷歌Gemini 2.0模型驱动，支持38种语言，提供每月最多18万次代码补全服务，远超其他同类产品。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月26日"
+    },
+    {
+      "id": "d20e2a77",
+      "title": "谷歌推出 Gemini Code Assist 个人版编程工具，免费可用",
+      "content": "谷歌推出面向个人开发者的免费编程工具 Gemini Code Assist，帮助学生、爱好者和初创公司更便捷地获取AI编程支持。工具基于谷歌Gemini 2.0模型驱动，支持38种语言，提供每月最多18万次代码补全服务，远超其他同类产品。",
+      "originalContent": "谷歌推出 Gemini Code Assist 个人版编程工具，免费可用 谷歌推出面向个人开发者的免费编程工具 Gemini Code Assist，帮助学生、爱好者和初创公司更便捷地获取AI编程支持。工具基于谷歌Gemini 2.0模型驱动，支持38种语言，提供每月最多18万次代码补全服务，远超其他同类产品。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.707Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月26日·周三"
+    },
+    {
+      "id": "57d003d9",
+      "title": "DeepSeek API 错峰优惠，R1 价格降至1/4",
+      "content": "DeepSeek推出API错峰优惠，2025年2月26日起，DeepSeek开放平台在北京时间每日00:30至08:30的夜间空闲时段，DeepSeek-V3 API调用价格降至原价的50%，DeepSeek-R1价格低至原价的25%。鼓励用户在夜间利用平台资源，享受更经济、更流畅的服务体验。",
+      "originalContent": "DeepSeek API 错峰优惠，R1 价格降至1/4 DeepSeek推出API错峰优惠，2025年2月26日起，DeepSeek开放平台在北京时间每日00:30至08:30的夜间空闲时段，DeepSeek-V3 API调用价格降至原价的50%，DeepSeek-R1价格低至原价的25%。鼓励用户在夜间利用平台资源，享受更经济、更流畅的服务体验。",
+      "source": "DeepSeek",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.705Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "技术"
+      ],
+      "dateText": "2月26日·周三"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.056Z"
+}

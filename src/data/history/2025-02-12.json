@@ -1,0 +1,131 @@
+{
+  "date": "2025-02-12",
+  "count": 7,
+  "data": [
+    {
+      "id": "c09d4ab1",
+      "title": "OpenAI 将在未来几个月内推出 GPT-5：整合 o3 等多项技术，可免费无限使用",
+      "content": "OpenAI创始人Sam Altman在社交媒体上透露公司产品路线图的重大更新。OpenAI将发布GPT-4.5（代号Orion），是最后一个非思维链（CoT）模型。未来几个月，OpenAI将推出GPT-5，模型将整合OpenAI的多项技术，包括o3，不再将o3作为独立模型发布。GPT-5将集成到ChatGPT和API中，提供更统一的智能体验。",
+      "originalContent": "OpenAI 将在未来几个月内推出 GPT-5：整合 o3 等多项技术，可免费无限使用 OpenAI创始人Sam Altman在社交媒体上透露公司产品路线图的重大更新。OpenAI将发布GPT-4.5（代号Orion），是最后一个非思维链（CoT）模型。未来几个月，OpenAI将推出GPT-5，模型将整合OpenAI的多项技术，包括o3，不再将o3作为独立模型发布。GPT-5将集成到ChatGPT和API中，提供更统一的智能体验。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.727Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月13日·周四"
+    },
+    {
+      "id": "2c8980bb",
+      "title": "OpenAI创始人Sam Altman在社交媒体上透露公司产品路线图的重大更新。OpenAI将发布GPT-4.5（代号Orion），是最后一个非思维链（CoT）模型。未来几个月，OpenAI将推出GPT-5，模型将整合OpenAI的多项技术，包括o3，不再将o3作为独立模型发布。GPT-5将集成到ChatGPT和API中，提供更统一的智能体验。来源：机器之心",
+      "content": "文心一言 4 月起全面免费，上线深度搜索功能",
+      "originalContent": "OpenAI创始人Sam Altman在社交媒体上透露公司产品路线图的重大更新。OpenAI将发布GPT-4.5（代号Orion），是最后一个非思维链（CoT）模型。未来几个月，OpenAI将推出GPT-5，模型将整合OpenAI的多项技术，包括o3，不再将o3作为独立模型发布。GPT-5将集成到ChatGPT和API中，提供更统一的智能体验。来源：机器之心 文心一言 4 月起全面免费，上线深度搜索功能",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月13日"
+    },
+    {
+      "id": "9b333e8f",
+      "title": "Adobe Firefly 开放 AI 视频生成，一键搞定 5 秒 1080P 视频",
+      "content": "Adobe宣布向公众免费开放AI视频生成器Firefly。用户仅需输入文本描述或上传图像，可一键生成5秒的1080p高清视频。Firefly在动态景观、动物行为、天气模式和粒子效果等元素上表现出色，支持高级相机设置和多种宽高比选择。",
+      "originalContent": "Adobe Firefly 开放 AI 视频生成，一键搞定 5 秒 1080P 视频 Adobe宣布向公众免费开放AI视频生成器Firefly。用户仅需输入文本描述或上传图像，可一键生成5秒的1080p高清视频。Firefly在动态景观、动物行为、天气模式和粒子效果等元素上表现出色，支持高级相机设置和多种宽高比选择。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.728Z",
+      "category": "综合资讯",
+      "tags": [
+        "开源",
+        "AI工具"
+      ],
+      "dateText": "2月13日·周四"
+    },
+    {
+      "id": "85487a19",
+      "title": "Adobe宣布向公众免费开放AI视频生成器Firefly。用户仅需输入文本描述或上传图像，可一键生成5秒的1080p高清视频。Firefly在动态景观、动物行为、天气模式和粒子效果等元素上表现出色，支持高级相机设置和多种宽高比选择。来源：AI工具集",
+      "content": "腾讯元宝接入 DeepSeek R1 模型，支持深度思考 + 联网搜索",
+      "originalContent": "Adobe宣布向公众免费开放AI视频生成器Firefly。用户仅需输入文本描述或上传图像，可一键生成5秒的1080p高清视频。Firefly在动态景观、动物行为、天气模式和粒子效果等元素上表现出色，支持高级相机设置和多种宽高比选择。来源：AI工具集 腾讯元宝接入 DeepSeek R1 模型，支持深度思考 + 联网搜索",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "综合资讯",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月13日"
+    },
+    {
+      "id": "635c8d4e",
+      "title": "腾讯元宝发布更新，正式接入DeepSeek R1模型，支持深度思考与联网搜索。模型基于腾讯混元架构，具备强大的自然语言理解能力，可提供详细且权威的回答。QQ音乐此前也已完成对DeepSeek R1的部署，成为首个应用该模型的音乐平台。来源：AI工具集",
+      "content": "腾讯元宝发布更新，正式接入DeepSeek R1模型，支持深度思考与联网搜索。模型基于腾讯混元架构，具备强大的自然语言理解能力，可提供详细且权威的回答。QQ音乐此前也已完成对DeepSeek R1的部署，成为首个应用该模型的音乐平台。来源：AI工具集",
+      "originalContent": "腾讯元宝发布更新，正式接入DeepSeek R1模型，支持深度思考与联网搜索。模型基于腾讯混元架构，具备强大的自然语言理解能力，可提供详细且权威的回答。QQ音乐此前也已完成对DeepSeek R1的部署，成为首个应用该模型的音乐平台。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月13日"
+    },
+    {
+      "id": "4e834aba",
+      "title": "文心一言 4 月起全面免费，上线深度搜索功能",
+      "content": "百度AI宣布：自2025年4月1日零时起，文心一言将全面免费开放，PC端和APP端用户均可体验文心系列最新模型。同时，文心一言上线深度搜索功能，同样于4月1日起免费开放。深度搜索功能具备更强大的思考规划和外部工具使用能力，为用户提供专家级内容回复，支持多场景任务处理以及多模态输入与输出。APP端也将同步上线。",
+      "originalContent": "文心一言 4 月起全面免费，上线深度搜索功能 百度AI宣布：自2025年4月1日零时起，文心一言将全面免费开放，PC端和APP端用户均可体验文心系列最新模型。同时，文心一言上线深度搜索功能，同样于4月1日起免费开放。深度搜索功能具备更强大的思考规划和外部工具使用能力，为用户提供专家级内容回复，支持多场景任务处理以及多模态输入与输出。APP端也将同步上线。",
+      "source": "百度AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.728Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月13日·周四"
+    },
+    {
+      "id": "1a3aad8b",
+      "title": "腾讯元宝接入 DeepSeek R1 模型，支持深度思考 + 联网搜索",
+      "content": "腾讯元宝发布更新，正式接入DeepSeek R1模型，支持深度思考与联网搜索。模型基于腾讯混元架构，具备强大的自然语言理解能力，可提供详细且权威的回答。QQ音乐此前也已完成对DeepSeek R1的部署，成为首个应用该模型的音乐平台。",
+      "originalContent": "腾讯元宝接入 DeepSeek R1 模型，支持深度思考 + 联网搜索 腾讯元宝发布更新，正式接入DeepSeek R1模型，支持深度思考与联网搜索。模型基于腾讯混元架构，具备强大的自然语言理解能力，可提供详细且权威的回答。QQ音乐此前也已完成对DeepSeek R1的部署，成为首个应用该模型的音乐平台。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.729Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "2月13日·周四"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.062Z"
+}

@@ -1,0 +1,239 @@
+{
+  "date": "2025-03-17",
+  "count": 13,
+  "data": [
+    {
+      "id": "9cfc320f",
+      "title": "腾讯推出 Hunyuan3D 2.0，开源的高质量 3D 模型生成系统。采用几何与纹理分离的生成架构，通过大规模扩散模型实现高精度几何形状和高分辨率纹理的生成。系统支持文本和图像到 3D 模型的快速转换，具备纹理更换功能。来源：AI工具集",
+      "content": "Cursor 推出 Claude 3.7 Max：更强大的代码编辑与项目管理",
+      "originalContent": "腾讯推出 Hunyuan3D 2.0，开源的高质量 3D 模型生成系统。采用几何与纹理分离的生成架构，通过大规模扩散模型实现高精度几何形状和高分辨率纹理的生成。系统支持文本和图像到 3D 模型的快速转换，具备纹理更换功能。来源：AI工具集 Cursor 推出 Claude 3.7 Max：更强大的代码编辑与项目管理",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具",
+        "3D"
+      ],
+      "dateText": "3月18日"
+    },
+    {
+      "id": "38469a6b",
+      "title": "Cursor 推出 Claude 3.7 Max，提供了更大的200k上下文窗口，支持最多 200 次工具调用，能处理更复杂的代码编辑和项目。专为需要深度理解和大规模修改的复杂任务设计。来源：AI工具集",
+      "content": "昆仑万维开源R1V视觉思维链推理模型，开启多模态思考新时代",
+      "originalContent": "Cursor 推出 Claude 3.7 Max，提供了更大的200k上下文窗口，支持最多 200 次工具调用，能处理更复杂的代码编辑和项目。专为需要深度理解和大规模修改的复杂任务设计。来源：AI工具集 昆仑万维开源R1V视觉思维链推理模型，开启多模态思考新时代",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月18日"
+    },
+    {
+      "id": "b0ced5d7",
+      "title": "秘塔AI搜索升级：文字秒变可视化网页",
+      "content": "秘塔AI搜索升级模型，推出“生成互动网页”功能。用户可在研究模式下将文字内容秒变互动网页，或通过粘贴文章链接快速生成，核心观点一目了然。支持上下滑动查看更多内容，登录后署名分享。",
+      "originalContent": "秘塔AI搜索升级：文字秒变可视化网页 秘塔AI搜索升级模型，推出“生成互动网页”功能。用户可在研究模式下将文字内容秒变互动网页，或通过粘贴文章链接快速生成，核心观点一目了然。支持上下滑动查看更多内容，登录后署名分享。",
+      "source": "AI秘塔",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.676Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月18日·周二"
+    },
+    {
+      "id": "1f7ad9ef",
+      "title": "秘塔AI搜索升级模型，推出“生成互动网页”功能。用户可在研究模式下将文字内容秒变互动网页，或通过粘贴文章链接快速生成，核心观点一目了然。支持上下滑动查看更多内容，登录后署名分享。来源：AI秘塔",
+      "content": "苏姿丰北京激情演讲！点赞DeepSeek，AMD全面拥抱中国",
+      "originalContent": "秘塔AI搜索升级模型，推出“生成互动网页”功能。用户可在研究模式下将文字内容秒变互动网页，或通过粘贴文章链接快速生成，核心观点一目了然。支持上下滑动查看更多内容，登录后署名分享。来源：AI秘塔 苏姿丰北京激情演讲！点赞DeepSeek，AMD全面拥抱中国",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月18日"
+    },
+    {
+      "id": "85a6c0a5",
+      "title": "AMD董事会主席兼CEO苏姿丰在北京AMD AI PC创新峰会上发表演讲，强调中国市场对AMD的重要性。会上，AMD展示了锐龙AI Max系列、锐龙AI 300系列等新品，强调AI PC的定制化、自动化和进阶推理趋势。AMD现场演示了DeepSeek模型在AI PC上的本地部署效果，包括生成吃豆人游戏等应用。来源：智东西",
+      "content": "Mistral Small 3.1 上线，多模态理解与文本性能双重升级",
+      "originalContent": "AMD董事会主席兼CEO苏姿丰在北京AMD AI PC创新峰会上发表演讲，强调中国市场对AMD的重要性。会上，AMD展示了锐龙AI Max系列、锐龙AI 300系列等新品，强调AI PC的定制化、自动化和进阶推理趋势。AMD现场演示了DeepSeek模型在AI PC上的本地部署效果，包括生成吃豆人游戏等应用。来源：智东西 Mistral Small 3.1 上线，多模态理解与文本性能双重升级",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月18日"
+    },
+    {
+      "id": "a28c88a6",
+      "title": "Mistral AI 推出 Mistral Small 3.1开源多模态人工智能模型。模型在文本性能、多模态理解以及长上下文窗口（128k tokens）方面进行了改进，推理速度可达每秒 150 个 token。在多项基准测试中表现优异，超越了 Gemma 3 和 GPT-4o Mini 等同类模型。来源：AI工具集",
+      "content": "QwQ-32B登陆！超算互联网MaaS服务再上新",
+      "originalContent": "Mistral AI 推出 Mistral Small 3.1开源多模态人工智能模型。模型在文本性能、多模态理解以及长上下文窗口（128k tokens）方面进行了改进，推理速度可达每秒 150 个 token。在多项基准测试中表现优异，超越了 Gemma 3 和 GPT-4o Mini 等同类模型。来源：AI工具集 QwQ-32B登陆！超算互联网MaaS服务再上新",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "3月18日"
+    },
+    {
+      "id": "00c6f182",
+      "title": "超算互联网平台推出 QwQ-32B 推理大模型服务。QwQ-32B 已集成至平台的 Chatbot 可视化对话服务和 API 在线调用服务。用户可通过平台一级栏目直接体验其多轮交互和长文本解析能力，满足学术研究、代码生成、日常咨询等需求。来源：超算互联网",
+      "content": "超算互联网平台推出 QwQ-32B 推理大模型服务。QwQ-32B 已集成至平台的 Chatbot 可视化对话服务和 API 在线调用服务。用户可通过平台一级栏目直接体验其多轮交互和长文本解析能力，满足学术研究、代码生成、日常咨询等需求。来源：超算互联网",
+      "originalContent": "超算互联网平台推出 QwQ-32B 推理大模型服务。QwQ-32B 已集成至平台的 Chatbot 可视化对话服务和 API 在线调用服务。用户可通过平台一级栏目直接体验其多轮交互和长文本解析能力，满足学术研究、代码生成、日常咨询等需求。来源：超算互联网",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "3月18日"
+    },
+    {
+      "id": "cad98a1b",
+      "title": "苏姿丰北京激情演讲！点赞DeepSeek，AMD全面拥抱中国",
+      "content": "AMD董事会主席兼CEO苏姿丰在北京AMD AI PC创新峰会上发表演讲，强调中国市场对AMD的重要性。会上，AMD展示了锐龙AI Max系列、锐龙AI 300系列等新品，强调AI PC的定制化、自动化和进阶推理趋势。AMD现场演示了DeepSeek模型在AI PC上的本地部署效果，包括生成吃豆人游戏等应用。",
+      "originalContent": "苏姿丰北京激情演讲！点赞DeepSeek，AMD全面拥抱中国 AMD董事会主席兼CEO苏姿丰在北京AMD AI PC创新峰会上发表演讲，强调中国市场对AMD的重要性。会上，AMD展示了锐龙AI Max系列、锐龙AI 300系列等新品，强调AI PC的定制化、自动化和进阶推理趋势。AMD现场演示了DeepSeek模型在AI PC上的本地部署效果，包括生成吃豆人游戏等应用。",
+      "source": "智东西",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.676Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月18日·周二"
+    },
+    {
+      "id": "4ba9d7aa",
+      "title": "Mistral Small 3.1 上线，多模态理解与文本性能双重升级",
+      "content": "Mistral AI 推出 Mistral Small 3.1开源多模态人工智能模型。模型在文本性能、多模态理解以及长上下文窗口（128k tokens）方面进行了改进，推理速度可达每秒 150 个 token。在多项基准测试中表现优异，超越了 Gemma 3 和 GPT-4o Mini 等同类模型。",
+      "originalContent": "Mistral Small 3.1 上线，多模态理解与文本性能双重升级 Mistral AI 推出 Mistral Small 3.1开源多模态人工智能模型。模型在文本性能、多模态理解以及长上下文窗口（128k tokens）方面进行了改进，推理速度可达每秒 150 个 token。在多项基准测试中表现优异，超越了 Gemma 3 和 GPT-4o Mini 等同类模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.677Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "3月18日·周二"
+    },
+    {
+      "id": "d05518f6",
+      "title": "QwQ-32B登陆！超算互联网MaaS服务再上新",
+      "content": "超算互联网平台推出 QwQ-32B 推理大模型服务。QwQ-32B 已集成至平台的 Chatbot 可视化对话服务和 API 在线调用服务。用户可通过平台一级栏目直接体验其多轮交互和长文本解析能力，满足学术研究、代码生成、日常咨询等需求。",
+      "originalContent": "QwQ-32B登陆！超算互联网MaaS服务再上新 超算互联网平台推出 QwQ-32B 推理大模型服务。QwQ-32B 已集成至平台的 Chatbot 可视化对话服务和 API 在线调用服务。用户可通过平台一级栏目直接体验其多轮交互和长文本解析能力，满足学术研究、代码生成、日常咨询等需求。",
+      "source": "超算互联网",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.677Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "3月18日·周二"
+    },
+    {
+      "id": "135f89dd",
+      "title": "腾讯 Hunyuan3D 2.0 开源：几何与纹理分离，一键生成高精度3D模型",
+      "content": "腾讯推出 Hunyuan3D 2.0，开源的高质量 3D 模型生成系统。采用几何与纹理分离的生成架构，通过大规模扩散模型实现高精度几何形状和高分辨率纹理的生成。系统支持文本和图像到 3D 模型的快速转换，具备纹理更换功能。",
+      "originalContent": "腾讯 Hunyuan3D 2.0 开源：几何与纹理分离，一键生成高精度3D模型 腾讯推出 Hunyuan3D 2.0，开源的高质量 3D 模型生成系统。采用几何与纹理分离的生成架构，通过大规模扩散模型实现高精度几何形状和高分辨率纹理的生成。系统支持文本和图像到 3D 模型的快速转换，具备纹理更换功能。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.675Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "3D"
+      ],
+      "dateText": "3月18日·周二"
+    },
+    {
+      "id": "de730d86",
+      "title": "Cursor 推出 Claude 3.7 Max：更强大的代码编辑与项目管理",
+      "content": "Cursor 推出 Claude 3.7 Max，提供了更大的200k上下文窗口，支持最多 200 次工具调用，能处理更复杂的代码编辑和项目。专为需要深度理解和大规模修改的复杂任务设计。",
+      "originalContent": "Cursor 推出 Claude 3.7 Max：更强大的代码编辑与项目管理 Cursor 推出 Claude 3.7 Max，提供了更大的200k上下文窗口，支持最多 200 次工具调用，能处理更复杂的代码编辑和项目。专为需要深度理解和大规模修改的复杂任务设计。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.675Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "3月18日·周二"
+    },
+    {
+      "id": "8c4ccfca",
+      "title": "昆仑万维开源R1V视觉思维链推理模型，开启多模态思考新时代",
+      "content": "昆仑万维开源首款工业级多模态思维链推理模型Skywork R1V。模型具备强大的视觉理解和推理能力，能处理复杂的视觉逻辑推理、数学问题和科学现象分析等任务。在权威基准测试中表现卓越，推理能力领先于行业内众多主流模型。",
+      "originalContent": "昆仑万维开源R1V视觉思维链推理模型，开启多模态思考新时代 昆仑万维开源首款工业级多模态思维链推理模型Skywork R1V。模型具备强大的视觉理解和推理能力，能处理复杂的视觉逻辑推理、数学问题和科学现象分析等任务。在权威基准测试中表现卓越，推理能力领先于行业内众多主流模型。",
+      "source": "昆仑万维集团",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-17T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.676Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "3月18日·周二"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.046Z"
+}

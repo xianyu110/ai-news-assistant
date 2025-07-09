@@ -1,0 +1,90 @@
+{
+  "date": "2025-06-02",
+  "count": 5,
+  "data": [
+    {
+      "id": "c4cb9601",
+      "title": "谷歌 DeepMind 推出手语翻译模型：SignGemma，打破手语沟通壁垒",
+      "content": "谷歌 DeepMind 推出 SignGemma，是强大的手语翻译模型，可将手语转化为口语文本，主要针对美国手语（ASL）和英语深度优化，为开源模型，将于今年晚些时候加入 Gemma 模型家族。DeepMind 希望借此打破手语使用者的沟通障碍，助力他们在工作、学习和社交中更顺畅地参与。",
+      "originalContent": "谷歌 DeepMind 推出手语翻译模型：SignGemma，打破手语沟通壁垒 谷歌 DeepMind 推出 SignGemma，是强大的手语翻译模型，可将手语转化为口语文本，主要针对美国手语（ASL）和英语深度优化，为开源模型，将于今年晚些时候加入 Gemma 模型家族。DeepMind 希望借此打破手语使用者的沟通障碍，助力他们在工作、学习和社交中更顺畅地参与。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.520Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月3·周二"
+    },
+    {
+      "id": "d92a4e85",
+      "title": "微软Bing推出AI视频生成工具：Bing Video Creator，免费使用Sora模型",
+      "content": "微软 Bing 团队推出 Bing Video Creator免费的 AI 视频生成工具，由 OpenAI 的 Sora 模型提供支持。用户只需在 Bing 移动应用中输入详细的文字描述，可生成5秒长的竖屏视频（9:16格式）。提供快速和标准两种生成速度，初始有10次免费快速生成机会，之后可使用积分兑换或转为标准速度。",
+      "originalContent": "微软Bing推出AI视频生成工具：Bing Video Creator，免费使用Sora模型 微软 Bing 团队推出 Bing Video Creator免费的 AI 视频生成工具，由 OpenAI 的 Sora 模型提供支持。用户只需在 Bing 移动应用中输入详细的文字描述，可生成5秒长的竖屏视频（9:16格式）。提供快速和标准两种生成速度，初始有10次免费快速生成机会，之后可使用积分兑换或转为标准速度。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.518Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月3·周二"
+    },
+    {
+      "id": "92c36407",
+      "title": "我国水利标准AI大模型正式发布",
+      "content": "水利部国科司组织中国水科院自主研发的“水利标准AI大模型”正式发布并应用。模型基于“SkyLIM”体系，采用“海量知识库+DeepSeek/Qwen双模型+标准服务”架构，集成1800余项水利水电标准、500余项法律法规等多源语料，具备水利标准查重比对、查询、编制、审查、评估等多维功能。",
+      "originalContent": "我国水利标准AI大模型正式发布 水利部国科司组织中国水科院自主研发的“水利标准AI大模型”正式发布并应用。模型基于“SkyLIM”体系，采用“海量知识库+DeepSeek/Qwen双模型+标准服务”架构，集成1800余项水利水电标准、500余项法律法规等多源语料，具备水利标准查重比对、查询、编制、审查、评估等多维功能。",
+      "source": "中国水利",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.519Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月3·周二"
+    },
+    {
+      "id": "844df92a",
+      "title": "银河通用发布全球首个产品级端到端具身 FSD 大模型：TrackVLA",
+      "content": "银河通用发布全球首个产品级端到端具身FSD大模型TrackVLA。模型具备纯视觉环境感知、语言指令驱动、自主推理及零样本泛化能力，无需提前建图和遥操控制，可实现“听→看→懂→走”的闭环运动。有八大核心能力，包括自然语言理解与目标识别、复杂场景下准确跟随、目标丢失找回、陌生环境自主导航等。",
+      "originalContent": "银河通用发布全球首个产品级端到端具身 FSD 大模型：TrackVLA 银河通用发布全球首个产品级端到端具身FSD大模型TrackVLA。模型具备纯视觉环境感知、语言指令驱动、自主推理及零样本泛化能力，无需提前建图和遥操控制，可实现“听→看→懂→走”的闭环运动。有八大核心能力，包括自然语言理解与目标识别、复杂场景下准确跟随、目标丢失找回、陌生环境自主导航等。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.519Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月3·周二"
+    },
+    {
+      "id": "043297e5",
+      "title": "小米多模态大模型 MiMo-VL 开源，多方面领先 Qwen2.5-VL-7B",
+      "content": "小米多模态大模型 MiMo-VL 正式开源。在图片、视频、语言的通用问答和理解推理等多个任务上大幅领先同尺寸标杆多模态模型 Qwen2.5-VL-7B，在 GUI Grounding 任务上比肩专用模型。",
+      "originalContent": "小米多模态大模型 MiMo-VL 开源，多方面领先 Qwen2.5-VL-7B 小米多模态大模型 MiMo-VL 正式开源。在图片、视频、语言的通用问答和理解推理等多个任务上大幅领先同尺寸标杆多模态模型 Qwen2.5-VL-7B，在 GUI Grounding 任务上比肩专用模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.521Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型"
+      ],
+      "dateText": "6月3·周二"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.000Z"
+}

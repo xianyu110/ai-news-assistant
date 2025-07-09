@@ -1,0 +1,224 @@
+{
+  "date": "2024-12-12",
+  "count": 12,
+  "data": [
+    {
+      "id": "857d4388",
+      "title": "快手开源全球首个”多视角视频生成”工具SynCamMaster，能从任意视点生成开放世界视频，解决了多视点间动态一致性问题。SynCamMaster通过即插即用模块增强预训练的文生视频模型，实现多摄像机视频生成，确保不同视点的内容一致性。实现出色的视点间同步，可扩展到新视图合成任务中。来源：AI工具集",
+      "content": "巨人网络发布”千影”有声游戏大模型，加码”游戏+AI”赛道",
+      "originalContent": "快手开源全球首个”多视角视频生成”工具SynCamMaster，能从任意视点生成开放世界视频，解决了多视点间动态一致性问题。SynCamMaster通过即插即用模块增强预训练的文生视频模型，实现多摄像机视频生成，确保不同视点的内容一致性。实现出色的视点间同步，可扩展到新视图合成任务中。来源：AI工具集 巨人网络发布”千影”有声游戏大模型，加码”游戏+AI”赛道",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.085Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月13日"
+    },
+    {
+      "id": "10a86de6",
+      "title": "巨人网络发布”千影”有声游戏大模型，加码”游戏+AI”赛道",
+      "content": "巨人网络在2024年度中国游戏产业年会上发布”千影 QianYing“有声游戏生成大模型，包括游戏视频生成大模型YingGame和视频配音大模型YingSound。YingGame支持开放世界游戏角色动作交互控制和物理仿真特性，YingSound能为视频添加逼真音效。巨人网络AI实验室将推进模型升级，推动游戏创作平权时代的到来。",
+      "originalContent": "巨人网络发布”千影”有声游戏大模型，加码”游戏+AI”赛道 巨人网络在2024年度中国游戏产业年会上发布”千影 QianYing“有声游戏生成大模型，包括游戏视频生成大模型YingGame和视频配音大模型YingSound。YingGame支持开放世界游戏角色动作交互控制和物理仿真特性，YingSound能为视频添加逼真音效。巨人网络AI实验室将推进模型升级，推动游戏创作平权时代的到来。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.810Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月13日·周五"
+    },
+    {
+      "id": "45caf524",
+      "title": "巨人网络在2024年度中国游戏产业年会上发布”千影 QianYing“有声游戏生成大模型，包括游戏视频生成大模型YingGame和视频配音大模型YingSound。YingGame支持开放世界游戏角色动作交互控制和物理仿真特性，YingSound能为视频添加逼真音效。巨人网络AI实验室将推进模型升级，推动游戏创作平权时代的到来。来源：AI工具集",
+      "content": "微软推出14B参数小语言模型 Phi-4：专攻数学等领域复杂推理",
+      "originalContent": "巨人网络在2024年度中国游戏产业年会上发布”千影 QianYing“有声游戏生成大模型，包括游戏视频生成大模型YingGame和视频配音大模型YingSound。YingGame支持开放世界游戏角色动作交互控制和物理仿真特性，YingSound能为视频添加逼真音效。巨人网络AI实验室将推进模型升级，推动游戏创作平权时代的到来。来源：AI工具集 微软推出14B参数小语言模型 Phi-4：专攻数学等领域复杂推理",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.085Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月13日"
+    },
+    {
+      "id": "54b9bd2d",
+      "title": "微软推出14B参数小语言模型 Phi-4：专攻数学等领域复杂推理",
+      "content": "微软近日推出14B参数的小型语言模型Phi-4，模型在传统语言处理能力之外，特别擅长数学等领域的复杂推理。Phi-4在数学竞赛问题上的表现超越了多个更大规模的模型（如70B的Llama 3.3和72B的Qwen 2.5）。已将Phi-4在Azure AI Foundry上开放使用。",
+      "originalContent": "微软推出14B参数小语言模型 Phi-4：专攻数学等领域复杂推理 微软近日推出14B参数的小型语言模型Phi-4，模型在传统语言处理能力之外，特别擅长数学等领域的复杂推理。Phi-4在数学竞赛问题上的表现超越了多个更大规模的模型（如70B的Llama 3.3和72B的Qwen 2.5）。已将Phi-4在Azure AI Foundry上开放使用。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.810Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月13日·周五"
+    },
+    {
+      "id": "e25aec75",
+      "title": "微软近日推出14B参数的小型语言模型Phi-4，模型在传统语言处理能力之外，特别擅长数学等领域的复杂推理。Phi-4在数学竞赛问题上的表现超越了多个更大规模的模型（如70B的Llama 3.3和72B的Qwen 2.5）。已将Phi-4在Azure AI Foundry上开放使用。来源：AI工具集",
+      "content": "OpenAI 数据中心提供商Crusoe融资6亿美元，估值28亿美元",
+      "originalContent": "微软近日推出14B参数的小型语言模型Phi-4，模型在传统语言处理能力之外，特别擅长数学等领域的复杂推理。Phi-4在数学竞赛问题上的表现超越了多个更大规模的模型（如70B的Llama 3.3和72B的Qwen 2.5）。已将Phi-4在Azure AI Foundry上开放使用。来源：AI工具集 OpenAI 数据中心提供商Crusoe融资6亿美元，估值28亿美元",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.085Z",
+      "category": "投融资",
+      "tags": [
+        "开源",
+        "融资",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月13日"
+    },
+    {
+      "id": "48359da9",
+      "title": "OpenAI 数据中心提供商Crusoe融资6亿美元，估值28亿美元",
+      "content": "OpenAI的数据中心提供商Crusoe在最新一轮融资中筹集了6亿美元，由Founders Fund主导，Nvidia、Fidelity等参与，公司估值达到28亿美元。Crusoe开发AI数据中心，出租Nvidia GPU的云服务。公司正在德克萨斯州阿比林建设大型数据中心园区，将为Oracle和OpenAI提供服务，已筹集34亿美元债务以资助配备Nvidia下一代旗舰芯片Blackwell的项目。",
+      "originalContent": "OpenAI 数据中心提供商Crusoe融资6亿美元，估值28亿美元 OpenAI的数据中心提供商Crusoe在最新一轮融资中筹集了6亿美元，由Founders Fund主导，Nvidia、Fidelity等参与，公司估值达到28亿美元。Crusoe开发AI数据中心，出租Nvidia GPU的云服务。公司正在德克萨斯州阿比林建设大型数据中心园区，将为Oracle和OpenAI提供服务，已筹集34亿美元债务以资助配备Nvidia下一代旗舰芯片Blackwell的项目。",
+      "source": "Z Potentials",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.811Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "12月13日·周五"
+    },
+    {
+      "id": "f3cb7cd0",
+      "title": "Google 发布了「虚拟现实」版 Android XR，想让你把熟悉的应用「戴在头上」",
+      "content": "Google发布了全新的Android XR操作系统，专为下一代计算构建，兼容各种XR设备，从VR头显到AI眼镜。系统以Android为底层，集成AI能力，提供沉浸式体验，如实时信息查询和多窗口功能。Google提供开发工具包，帮助开发者将2D Android应用快速适配到XR平台。首批搭载Android XR的设备包括三星的Project Moohan VR头显，与高通合作的AR眼镜。",
+      "originalContent": "Google 发布了「虚拟现实」版 Android XR，想让你把熟悉的应用「戴在头上」 Google发布了全新的Android XR操作系统，专为下一代计算构建，兼容各种XR设备，从VR头显到AI眼镜。系统以Android为底层，集成AI能力，提供沉浸式体验，如实时信息查询和多窗口功能。Google提供开发工具包，帮助开发者将2D Android应用快速适配到XR平台。首批搭载Android XR的设备包括三星的Project Moohan VR头显，与高通合作的AR眼镜。",
+      "source": "极客公园",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.811Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月13日·周五"
+    },
+    {
+      "id": "808d814a",
+      "title": "千寻智能一年三轮融资数亿元，构建下一代智慧劳动力",
+      "content": "千寻智能由产业老兵和清华教授联合创立的具身智能初创企业，已完成三轮融资数亿元。公司采用”数据金字塔”模式，结合互联网视频数据、仿真数据、遥操数据和强化学习，构建能控制各类机器人执行任务的具身模型，目标是打造下一代智慧劳动力。",
+      "originalContent": "千寻智能一年三轮融资数亿元，构建下一代智慧劳动力 千寻智能由产业老兵和清华教授联合创立的具身智能初创企业，已完成三轮融资数亿元。公司采用”数据金字塔”模式，结合互联网视频数据、仿真数据、遥操数据和强化学习，构建能控制各类机器人执行任务的具身模型，目标是打造下一代智慧劳动力。",
+      "source": "Z Potentials",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.812Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "大模型",
+        "机器人"
+      ],
+      "dateText": "12月13日·周五"
+    },
+    {
+      "id": "b60b1537",
+      "title": "千寻智能由产业老兵和清华教授联合创立的具身智能初创企业，已完成三轮融资数亿元。公司采用”数据金字塔”模式，结合互联网视频数据、仿真数据、遥操数据和强化学习，构建能控制各类机器人执行任务的具身模型，目标是打造下一代智慧劳动力。来源：Z Potentials",
+      "content": "OpenAI版《Her》全量来袭：实时视频对话，你每个动作AI都看得见",
+      "originalContent": "千寻智能由产业老兵和清华教授联合创立的具身智能初创企业，已完成三轮融资数亿元。公司采用”数据金字塔”模式，结合互联网视频数据、仿真数据、遥操数据和强化学习，构建能控制各类机器人执行任务的具身模型，目标是打造下一代智慧劳动力。来源：Z Potentials OpenAI版《Her》全量来袭：实时视频对话，你每个动作AI都看得见",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.085Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "大模型",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "12月13日"
+    },
+    {
+      "id": "e5124332",
+      "title": "OpenAI版《Her》全量来袭：实时视频对话，你每个动作AI都看得见",
+      "content": "OpenAI直播第六天，推出”Santa Mode”（圣诞模式），实现《Her》式视频通话功能。可通过点击”雪花”与AI进行圣诞老人风格对话，开启摄像头让AI”看见”你。新功能包括实时视频通话、屏幕共享和图片上传，即日将在ChatGPT移动应用中推出。一周内，将向所有团队用户以及大多数Plus和Pro用户开放。",
+      "originalContent": "OpenAI版《Her》全量来袭：实时视频对话，你每个动作AI都看得见 OpenAI直播第六天，推出”Santa Mode”（圣诞模式），实现《Her》式视频通话功能。可通过点击”雪花”与AI进行圣诞老人风格对话，开启摄像头让AI”看见”你。新功能包括实时视频通话、屏幕共享和图片上传，即日将在ChatGPT移动应用中推出。一周内，将向所有团队用户以及大多数Plus和Pro用户开放。",
+      "source": "量子位",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.812Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "12月13日·周五"
+    },
+    {
+      "id": "12bbd449",
+      "title": "OpenAI直播第六天，推出”Santa Mode”（圣诞模式），实现《Her》式视频通话功能。可通过点击”雪花”与AI进行圣诞老人风格对话，开启摄像头让AI”看见”你。新功能包括实时视频通话、屏幕共享和图片上传，即日将在ChatGPT移动应用中推出。一周内，将向所有团队用户以及大多数Plus和Pro用户开放。来源：量子位",
+      "content": "OpenAI直播第六天，推出”Santa Mode”（圣诞模式），实现《Her》式视频通话功能。可通过点击”雪花”与AI进行圣诞老人风格对话，开启摄像头让AI”看见”你。新功能包括实时视频通话、屏幕共享和图片上传，即日将在ChatGPT移动应用中推出。一周内，将向所有团队用户以及大多数Plus和Pro用户开放。来源：量子位",
+      "originalContent": "OpenAI直播第六天，推出”Santa Mode”（圣诞模式），实现《Her》式视频通话功能。可通过点击”雪花”与AI进行圣诞老人风格对话，开启摄像头让AI”看见”你。新功能包括实时视频通话、屏幕共享和图片上传，即日将在ChatGPT移动应用中推出。一周内，将向所有团队用户以及大多数Plus和Pro用户开放。来源：量子位",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.085Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "12月13日"
+    },
+    {
+      "id": "270f2dfa",
+      "title": "快手开源全球首个”多视角视频生成”工具，解锁无限视角！",
+      "content": "快手开源全球首个”多视角视频生成”工具SynCamMaster，能从任意视点生成开放世界视频，解决了多视点间动态一致性问题。SynCamMaster通过即插即用模块增强预训练的文生视频模型，实现多摄像机视频生成，确保不同视点的内容一致性。实现出色的视点间同步，可扩展到新视图合成任务中。",
+      "originalContent": "快手开源全球首个”多视角视频生成”工具，解锁无限视角！ 快手开源全球首个”多视角视频生成”工具SynCamMaster，能从任意视点生成开放世界视频，解决了多视点间动态一致性问题。SynCamMaster通过即插即用模块增强预训练的文生视频模型，实现多摄像机视频生成，确保不同视点的内容一致性。实现出色的视点间同步，可扩展到新视图合成任务中。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-12T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.810Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月13日·周五"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.102Z"
+}

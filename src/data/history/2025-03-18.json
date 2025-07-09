@@ -1,0 +1,141 @@
+{
+  "date": "2025-03-18",
+  "count": 8,
+  "data": [
+    {
+      "id": "9142ca03",
+      "title": "黄仁勋甩出三代核弹AI芯片！个人超算每秒运算1000万亿次，DeepSeek成最大赢家",
+      "content": "英伟达GTC大会上，黄仁勋发布了新一代核弹级AI芯片Blackwell Ultra（GB300），性能大幅提升，推理速度可达每秒1000万亿次。芯片配备20TB HBM3内存和40TB快速内存，支持14.4TB/s的CX8带宽。还推出了基于Blackwell Ultra的AI PC，包括DGX Station和DGX Spark，适用于AI推理、机器人训练及自动驾驶等领域。",
+      "originalContent": "黄仁勋甩出三代核弹AI芯片！个人超算每秒运算1000万亿次，DeepSeek成最大赢家 英伟达GTC大会上，黄仁勋发布了新一代核弹级AI芯片Blackwell Ultra（GB300），性能大幅提升，推理速度可达每秒1000万亿次。芯片配备20TB HBM3内存和40TB快速内存，支持14.4TB/s的CX8带宽。还推出了基于Blackwell Ultra的AI PC，包括DGX Station和DGX Spark，适用于AI推理、机器人训练及自动驾驶等领域。",
+      "source": "APPSO",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-18T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.673Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "3月19日·周三"
+    },
+    {
+      "id": "e4463f60",
+      "title": "英伟达GTC大会上，黄仁勋发布了新一代核弹级AI芯片Blackwell Ultra（GB300），性能大幅提升，推理速度可达每秒1000万亿次。芯片配备20TB HBM3内存和40TB快速内存，支持14.4TB/s的CX8带宽。还推出了基于Blackwell Ultra的AI PC，包括DGX Station和DGX Spark，适用于AI推理、机器人训练及自动驾驶等领域。来源：APPSO",
+      "content": "豆包编程能力再升级，3分钟做出专属小游戏",
+      "originalContent": "英伟达GTC大会上，黄仁勋发布了新一代核弹级AI芯片Blackwell Ultra（GB300），性能大幅提升，推理速度可达每秒1000万亿次。芯片配备20TB HBM3内存和40TB快速内存，支持14.4TB/s的CX8带宽。还推出了基于Blackwell Ultra的AI PC，包括DGX Station和DGX Spark，适用于AI推理、机器人训练及自动驾驶等领域。来源：APPSO 豆包编程能力再升级，3分钟做出专属小游戏",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-18T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "3月19日"
+    },
+    {
+      "id": "6ae2edad",
+      "title": "字节跳动旗下的AI智能助手豆包宣布AI编程能力升级，新增HTML预览、Python运行和完整项目生成三项功能。用户可通过豆包快速制作小游戏等互动网页。豆包支持HTML代码实时预览和交互，Python代码直接运行并提供一键报错修复，能生成完整项目代码，无需分别编写前后端逻辑。来源：豆包",
+      "content": "谷歌 Gemini 更新：新增音频播客、Canvas 画布与 Deep Research 扩容",
+      "originalContent": "字节跳动旗下的AI智能助手豆包宣布AI编程能力升级，新增HTML预览、Python运行和完整项目生成三项功能。用户可通过豆包快速制作小游戏等互动网页。豆包支持HTML代码实时预览和交互，Python代码直接运行并提供一键报错修复，能生成完整项目代码，无需分别编写前后端逻辑。来源：豆包 谷歌 Gemini 更新：新增音频播客、Canvas 画布与 Deep Research 扩容",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-18T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "开源项目",
+      "tags": [
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "3月19日"
+    },
+    {
+      "id": "00133c2d",
+      "title": "马斯克xAI公司收购视频生成初创公司Hotshot，加速布局AI视频领域",
+      "content": "马斯克的xAI公司收购了 Hotshot 视频生成初创公司。Hotshot由4人组成，在13个月内开发出3款视频生成模型，包括Hotshot-XL、Hotshot Act-One和Hotshot。Hotshot模型可生成最长10秒的720p视频。公司由Aakash Sastry和John Mullan于2017年创立，曾获Reddit联合创始人Alexis Ohanian等投资。",
+      "originalContent": "马斯克xAI公司收购视频生成初创公司Hotshot，加速布局AI视频领域 马斯克的xAI公司收购了 Hotshot 视频生成初创公司。Hotshot由4人组成，在13个月内开发出3款视频生成模型，包括Hotshot-XL、Hotshot Act-One和Hotshot。Hotshot模型可生成最长10秒的720p视频。公司由Aakash Sastry和John Mullan于2017年创立，曾获Reddit联合创始人Alexis Ohanian等投资。",
+      "source": "量子位",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-18T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.674Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月19日·周三"
+    },
+    {
+      "id": "780d2138",
+      "title": "马斯克的xAI公司收购了 Hotshot 视频生成初创公司。Hotshot由4人组成，在13个月内开发出3款视频生成模型，包括Hotshot-XL、Hotshot Act-One和Hotshot。Hotshot模型可生成最长10秒的720p视频。公司由Aakash Sastry和John Mullan于2017年创立，曾获Reddit联合创始人Alexis Ohanian等投资。来源：量子位",
+      "content": "谷歌达成迄今最大一笔收购交易，320 亿美元现金买下云安全公司 Wiz",
+      "originalContent": "马斯克的xAI公司收购了 Hotshot 视频生成初创公司。Hotshot由4人组成，在13个月内开发出3款视频生成模型，包括Hotshot-XL、Hotshot Act-One和Hotshot。Hotshot模型可生成最长10秒的720p视频。公司由Aakash Sastry和John Mullan于2017年创立，曾获Reddit联合创始人Alexis Ohanian等投资。来源：量子位 谷歌达成迄今最大一笔收购交易，320 亿美元现金买下云安全公司 Wiz",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-18T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月19日"
+    },
+    {
+      "id": "88411848",
+      "title": "豆包编程能力再升级，3分钟做出专属小游戏",
+      "content": "字节跳动旗下的AI智能助手豆包宣布AI编程能力升级，新增HTML预览、Python运行和完整项目生成三项功能。用户可通过豆包快速制作小游戏等互动网页。豆包支持HTML代码实时预览和交互，Python代码直接运行并提供一键报错修复，能生成完整项目代码，无需分别编写前后端逻辑。",
+      "originalContent": "豆包编程能力再升级，3分钟做出专属小游戏 字节跳动旗下的AI智能助手豆包宣布AI编程能力升级，新增HTML预览、Python运行和完整项目生成三项功能。用户可通过豆包快速制作小游戏等互动网页。豆包支持HTML代码实时预览和交互，Python代码直接运行并提供一键报错修复，能生成完整项目代码，无需分别编写前后端逻辑。",
+      "source": "豆包",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-18T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.673Z",
+      "category": "开源项目",
+      "tags": [
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "3月19日·周三"
+    },
+    {
+      "id": "45b4ea5a",
+      "title": "谷歌 Gemini 更新：新增音频播客、Canvas 画布与 Deep Research 扩容",
+      "content": "谷歌 Gemini 最新推出了 Canvas 功能，可用于创建、改进和分享写作与编码项目，实时预览代码效果。新增“文本转音频”功能（Audio Overviews），可将文本对话生成音频播客。免费用户的 Deep Research 使用次数增加至每月 10 次，帮助用户更高效地完成复杂的研究任务。",
+      "originalContent": "谷歌 Gemini 更新：新增音频播客、Canvas 画布与 Deep Research 扩容 谷歌 Gemini 最新推出了 Canvas 功能，可用于创建、改进和分享写作与编码项目，实时预览代码效果。新增“文本转音频”功能（Audio Overviews），可将文本对话生成音频播客。免费用户的 Deep Research 使用次数增加至每月 10 次，帮助用户更高效地完成复杂的研究任务。",
+      "source": "Google",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-18T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.674Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "研究"
+      ],
+      "dateText": "3月19日·周三"
+    },
+    {
+      "id": "f8f9b349",
+      "title": "谷歌达成迄今最大一笔收购交易，320 亿美元现金买下云安全公司 Wiz",
+      "content": "谷歌宣布以320亿美元全现金收购云安全初创公司Wiz，是其迄今最大一笔收购交易。Wiz是一家总部位于纽约的云安全公司，提供连接到所有主要云服务和代码环境的安全平台。此次收购旨在提升谷歌云的安全能力，支持多云环境，推动云安全创新。交易完成后，Wiz将继续在所有主要云平台上运行，包括AWS、Azure和甲骨文云。",
+      "originalContent": "谷歌达成迄今最大一笔收购交易，320 亿美元现金买下云安全公司 Wiz 谷歌宣布以320亿美元全现金收购云安全初创公司Wiz，是其迄今最大一笔收购交易。Wiz是一家总部位于纽约的云安全公司，提供连接到所有主要云服务和代码环境的安全平台。此次收购旨在提升谷歌云的安全能力，支持多云环境，推动云安全创新。交易完成后，Wiz将继续在所有主要云平台上运行，包括AWS、Azure和甲骨文云。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-18T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.674Z",
+      "category": "开源项目",
+      "tags": [
+        "合作",
+        "技术"
+      ],
+      "dateText": "3月19日·周三"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.046Z"
+}

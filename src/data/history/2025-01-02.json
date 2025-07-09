@@ -1,0 +1,82 @@
+{
+  "date": "2025-01-02",
+  "count": 4,
+  "data": [
+    {
+      "id": "ccbeab1f",
+      "title": "阿里入局 AI 眼镜：与雷鸟达成战略合作，产品将接入通义大模型",
+      "content": "雷鸟创新与阿里云达成AI眼镜领域的独家战略合作，阿里云通义大模型将为雷鸟AI眼镜提供技术支持。是国内首次大模型与AI眼镜硬件厂商深度定制合作。双方将共同投入研发资源，围绕云计算、大模型、AI硬件等领域合作。雷鸟计划于1月7日发布雷鸟V3 AI拍摄眼镜。",
+      "originalContent": "阿里入局 AI 眼镜：与雷鸟达成战略合作，产品将接入通义大模型 雷鸟创新与阿里云达成AI眼镜领域的独家战略合作，阿里云通义大模型将为雷鸟AI眼镜提供技术支持。是国内首次大模型与AI眼镜硬件厂商深度定制合作。双方将共同投入研发资源，围绕云计算、大模型、AI硬件等领域合作。雷鸟计划于1月7日发布雷鸟V3 AI拍摄眼镜。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.777Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "1月3日·周五"
+    },
+    {
+      "id": "dc60426b",
+      "title": "雷鸟创新与阿里云达成AI眼镜领域的独家战略合作，阿里云通义大模型将为雷鸟AI眼镜提供技术支持。是国内首次大模型与AI眼镜硬件厂商深度定制合作。双方将共同投入研发资源，围绕云计算、大模型、AI硬件等领域合作。雷鸟计划于1月7日发布雷鸟V3 AI拍摄眼镜。来源：IT之家",
+      "content": "微软发布新模型 LAM ，可以自己操作Windows程序",
+      "originalContent": "雷鸟创新与阿里云达成AI眼镜领域的独家战略合作，阿里云通义大模型将为雷鸟AI眼镜提供技术支持。是国内首次大模型与AI眼镜硬件厂商深度定制合作。双方将共同投入研发资源，围绕云计算、大模型、AI硬件等领域合作。雷鸟计划于1月7日发布雷鸟V3 AI拍摄眼镜。来源：IT之家 微软发布新模型 LAM ，可以自己操作Windows程序",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-02T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.082Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "1月3日"
+    },
+    {
+      "id": "222c2db4",
+      "title": "微软发布新模型 LAM ，可以自己操作Windows程序",
+      "content": "微软推出 LAM（Large Action Model）“大型动作模型” ，能够独立操作Windows程序，将用户请求转化为实际行动。是首个专门训练与微软Office产品一起工作的模型。在Word测试中，LAM的成功率达到71%，速度超过GPT-4o。",
+      "originalContent": "微软发布新模型 LAM ，可以自己操作Windows程序 微软推出 LAM（Large Action Model）“大型动作模型” ，能够独立操作Windows程序，将用户请求转化为实际行动。是首个专门训练与微软Office产品一起工作的模型。在Word测试中，LAM的成功率达到71%，速度超过GPT-4o。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.778Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "1月3日·周五"
+    },
+    {
+      "id": "febd19ae",
+      "title": "微软推出 LAM（Large Action Model）“大型动作模型” ，能够独立操作Windows程序，将用户请求转化为实际行动。是首个专门训练与微软Office产品一起工作的模型。在Word测试中，LAM的成功率达到71%，速度超过GPT-4o。来源：AI工具集",
+      "content": "微软推出 LAM（Large Action Model）“大型动作模型” ，能够独立操作Windows程序，将用户请求转化为实际行动。是首个专门训练与微软Office产品一起工作的模型。在Word测试中，LAM的成功率达到71%，速度超过GPT-4o。来源：AI工具集",
+      "originalContent": "微软推出 LAM（Large Action Model）“大型动作模型” ，能够独立操作Windows程序，将用户请求转化为实际行动。是首个专门训练与微软Office产品一起工作的模型。在Word测试中，LAM的成功率达到71%，速度超过GPT-4o。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-02T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.082Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "1月3日"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.087Z"
+}

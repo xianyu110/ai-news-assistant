@@ -1,0 +1,145 @@
+{
+  "date": "2025-03-24",
+  "count": 8,
+  "data": [
+    {
+      "id": "2f045936",
+      "title": "DeepSeek V3发布模型更新。此次更新属于小版本升级，模型参数量达6850亿，新版V3在编程能力上大幅提升，特别在前端编码方面，已接近Claude 3.7水平。用户测试显示，多轮对话的上下文理解能力也显著增强。开源版本已上架HuggingFace。来源：AI工具集",
+      "content": "阿里开源Qwen2.5-VL-32B多模态模型，视觉语言与数学推理能力显著增强",
+      "originalContent": "DeepSeek V3发布模型更新。此次更新属于小版本升级，模型参数量达6850亿，新版V3在编程能力上大幅提升，特别在前端编码方面，已接近Claude 3.7水平。用户测试显示，多轮对话的上下文理解能力也显著增强。开源版本已上架HuggingFace。来源：AI工具集 阿里开源Qwen2.5-VL-32B多模态模型，视觉语言与数学推理能力显著增强",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.074Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月25日"
+    },
+    {
+      "id": "1edfbfcb",
+      "title": "阿里开源了最新多模态模型 Qwen2.5-VL-32B-Instruct，参数量 32B，主打视觉语言，兼顾性能与尺寸，适合本地部署。模型经强化学习优化，在数学推理、图像解析等任务中表现出色，超越更大规模的 72B 模型。在多模态任务及纯文本能力上均达同规模最优表现。来源：AI工具集",
+      "content": "Trae 支持配置 DeepSeek V3 最新版",
+      "originalContent": "阿里开源了最新多模态模型 Qwen2.5-VL-32B-Instruct，参数量 32B，主打视觉语言，兼顾性能与尺寸，适合本地部署。模型经强化学习优化，在数学推理、图像解析等任务中表现出色，超越更大规模的 72B 模型。在多模态任务及纯文本能力上均达同规模最优表现。来源：AI工具集 Trae 支持配置 DeepSeek V3 最新版",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月25日"
+    },
+    {
+      "id": "d17474ae",
+      "title": "Trae宣布支持配置DeepSeek V3最新版（DeepSeek-V3–0324）。Trae是国内首个AI原生IDE，专注于中文开发场景，支持自定义模型接入。DeepSeek-V3–0324拥有6850亿参数，是基于DeepSeek V3的小版本升级。开发者可通过简单配置接入该模型，提升编程体验。来源：Trae&MarsCode",
+      "content": "美团已开发内部大模型 LongCat，AI 策略是主动进攻",
+      "originalContent": "Trae宣布支持配置DeepSeek V3最新版（DeepSeek-V3–0324）。Trae是国内首个AI原生IDE，专注于中文开发场景，支持自定义模型接入。DeepSeek-V3–0324拥有6850亿参数，是基于DeepSeek V3的小版本升级。开发者可通过简单配置接入该模型，提升编程体验。来源：Trae&MarsCode 美团已开发内部大模型 LongCat，AI 策略是主动进攻",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "产品发布",
+      "tags": [
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月25日"
+    },
+    {
+      "id": "21aa7920",
+      "title": "美团已开发内部大模型 LongCat，AI 策略是主动进攻",
+      "content": "美团CEO王兴在财报电话会议中表示，美团在人工智能领域采取“主动进攻”策略，定位为连接数字世界与物理世界的桥梁。美团已开发内部大语言模型LongCat，用于日常工作，推出AI编码、智能会议与文档助手等工具，将集成其他主流模型助力产品研发。",
+      "originalContent": "美团已开发内部大模型 LongCat，AI 策略是主动进攻 美团CEO王兴在财报电话会议中表示，美团在人工智能领域采取“主动进攻”策略，定位为连接数字世界与物理世界的桥梁。美团已开发内部大语言模型LongCat，用于日常工作，推出AI编码、智能会议与文档助手等工具，将集成其他主流模型助力产品研发。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.668Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "3月25日·周二"
+    },
+    {
+      "id": "10df127d",
+      "title": "美团CEO王兴在财报电话会议中表示，美团在人工智能领域采取“主动进攻”策略，定位为连接数字世界与物理世界的桥梁。美团已开发内部大语言模型LongCat，用于日常工作，推出AI编码、智能会议与文档助手等工具，将集成其他主流模型助力产品研发。来源：IT之家",
+      "content": "美团CEO王兴在财报电话会议中表示，美团在人工智能领域采取“主动进攻”策略，定位为连接数字世界与物理世界的桥梁。美团已开发内部大语言模型LongCat，用于日常工作，推出AI编码、智能会议与文档助手等工具，将集成其他主流模型助力产品研发。来源：IT之家",
+      "originalContent": "美团CEO王兴在财报电话会议中表示，美团在人工智能领域采取“主动进攻”策略，定位为连接数字世界与物理世界的桥梁。美团已开发内部大语言模型LongCat，用于日常工作，推出AI编码、智能会议与文档助手等工具，将集成其他主流模型助力产品研发。来源：IT之家",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.075Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "3月25日"
+    },
+    {
+      "id": "e7435e14",
+      "title": "DeepSeek V3模型已完成小版本升级，可在官方网页、APP、小程序试用体验",
+      "content": "DeepSeek V3发布模型更新。此次更新属于小版本升级，模型参数量达6850亿，新版V3在编程能力上大幅提升，特别在前端编码方面，已接近Claude 3.7水平。用户测试显示，多轮对话的上下文理解能力也显著增强。开源版本已上架HuggingFace。",
+      "originalContent": "DeepSeek V3模型已完成小版本升级，可在官方网页、APP、小程序试用体验 DeepSeek V3发布模型更新。此次更新属于小版本升级，模型参数量达6850亿，新版V3在编程能力上大幅提升，特别在前端编码方面，已接近Claude 3.7水平。用户测试显示，多轮对话的上下文理解能力也显著增强。开源版本已上架HuggingFace。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.666Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "3月25日·周二"
+    },
+    {
+      "id": "e716598c",
+      "title": "Trae 支持配置 DeepSeek V3 最新版",
+      "content": "Trae宣布支持配置DeepSeek V3最新版（DeepSeek-V3–0324）。Trae是国内首个AI原生IDE，专注于中文开发场景，支持自定义模型接入。DeepSeek-V3–0324拥有6850亿参数，是基于DeepSeek V3的小版本升级。开发者可通过简单配置接入该模型，提升编程体验。",
+      "originalContent": "Trae 支持配置 DeepSeek V3 最新版 Trae宣布支持配置DeepSeek V3最新版（DeepSeek-V3–0324）。Trae是国内首个AI原生IDE，专注于中文开发场景，支持自定义模型接入。DeepSeek-V3–0324拥有6850亿参数，是基于DeepSeek V3的小版本升级。开发者可通过简单配置接入该模型，提升编程体验。",
+      "source": "Trae&MarsCode",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.667Z",
+      "category": "产品发布",
+      "tags": [
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月25日·周二"
+    },
+    {
+      "id": "333004fb",
+      "title": "阿里开源Qwen2.5-VL-32B多模态模型，视觉语言与数学推理能力显著增强",
+      "content": "阿里开源了最新多模态模型 Qwen2.5-VL-32B-Instruct，参数量 32B，主打视觉语言，兼顾性能与尺寸，适合本地部署。模型经强化学习优化，在数学推理、图像解析等任务中表现出色，超越更大规模的 72B 模型。在多模态任务及纯文本能力上均达同规模最优表现。",
+      "originalContent": "阿里开源Qwen2.5-VL-32B多模态模型，视觉语言与数学推理能力显著增强 阿里开源了最新多模态模型 Qwen2.5-VL-32B-Instruct，参数量 32B，主打视觉语言，兼顾性能与尺寸，适合本地部署。模型经强化学习优化，在数学推理、图像解析等任务中表现出色，超越更大规模的 72B 模型。在多模态任务及纯文本能力上均达同规模最优表现。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.666Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型"
+      ],
+      "dateText": "3月25日·周二"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.044Z"
+}

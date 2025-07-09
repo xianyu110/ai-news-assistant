@@ -1,0 +1,626 @@
+{
+  "date": "2024-12-01",
+  "count": 37,
+  "data": [
+    {
+      "id": "a3630c49",
+      "title": "微信公众号后台新增“AI 配图”功能，支持文章配图和封面配图",
+      "content": "微信公众号后台最近推出了“AI 配图”功能，支持创作者通过简单的文字描述在十几秒内生成四张风格和比例可调的候选图片，用于文章配图。极大提高了内容创作的效率，还有效规避了图片版权问题，增强了内容生产的安全性。同时，文章封面图也支持AI配图。",
+      "originalContent": "微信公众号后台新增“AI 配图”功能，支持文章配图和封面配图 微信公众号后台最近推出了“AI 配图”功能，支持创作者通过简单的文字描述在十几秒内生成四张风格和比例可调的候选图片，用于文章配图。极大提高了内容创作的效率，还有效规避了图片版权问题，增强了内容生产的安全性。同时，文章封面图也支持AI配图。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.830Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "12月02日·周一"
+    },
+    {
+      "id": "4318ee42",
+      "title": "微信公众号后台最近推出了“AI 配图”功能，支持创作者通过简单的文字描述在十几秒内生成四张风格和比例可调的候选图片，用于文章配图。极大提高了内容创作的效率，还有效规避了图片版权问题，增强了内容生产的安全性。同时，文章封面图也支持AI配图。来源：IT之家",
+      "content": "ChatGPT两岁，OpenAI 10亿用户计划曝光！",
+      "originalContent": "微信公众号后台最近推出了“AI 配图”功能，支持创作者通过简单的文字描述在十几秒内生成四张风格和比例可调的候选图片，用于文章配图。极大提高了内容创作的效率，还有效规避了图片版权问题，增强了内容生产的安全性。同时，文章封面图也支持AI配图。来源：IT之家 ChatGPT两岁，OpenAI 10亿用户计划曝光！",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "38782603",
+      "title": "ChatGPT两岁，OpenAI 10亿用户计划曝光！",
+      "content": "ChatGPT 已经2岁了！OpenAI下一个目标瞄准十亿用户，预计明年放出AI智能体产品。就在生日这天，马斯克还送上了大礼：阻止OpenAI全面盈利的一份诉状书。",
+      "originalContent": "ChatGPT两岁，OpenAI 10亿用户计划曝光！ ChatGPT 已经2岁了！OpenAI下一个目标瞄准十亿用户，预计明年放出AI智能体产品。就在生日这天，马斯克还送上了大礼：阻止OpenAI全面盈利的一份诉状书。",
+      "source": "新智元",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.832Z",
+      "category": "综合资讯",
+      "tags": [
+        "GPT",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月02日·周一"
+    },
+    {
+      "id": "e259007b",
+      "title": "ChatGPT 已经2岁了！OpenAI下一个目标瞄准十亿用户，预计明年放出AI智能体产品。就在生日这天，马斯克还送上了大礼：阻止OpenAI全面盈利的一份诉状书。来源：新智元",
+      "content": "实测腾讯元宝2.0：图文视频啥都能搜，论文绘画全搞定",
+      "originalContent": "ChatGPT 已经2岁了！OpenAI下一个目标瞄准十亿用户，预计明年放出AI智能体产品。就在生日这天，马斯克还送上了大礼：阻止OpenAI全面盈利的一份诉状书。来源：新智元 实测腾讯元宝2.0：图文视频啥都能搜，论文绘画全搞定",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "技术研究",
+      "tags": [
+        "GPT",
+        "研究",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "26b469d6",
+      "title": "腾讯元宝2.0全新升级，集成AI搜索、阅读、生图等功能，打通公众号、视频号等资源，提供深度研究、脑图整理服务。新增创意绘画、灵感图库、AI美照等图片功能，以及应用广场。同时整合腾讯文档、电脑管家、搜狗输入法，提升工作效率和用户体验。来源：量子位",
+      "content": "可灵AI新增「AI换衣」功能！1.5 模型支持「首尾帧」",
+      "originalContent": "腾讯元宝2.0全新升级，集成AI搜索、阅读、生图等功能，打通公众号、视频号等资源，提供深度研究、脑图整理服务。新增创意绘画、灵感图库、AI美照等图片功能，以及应用广场。同时整合腾讯文档、电脑管家、搜狗输入法，提升工作效率和用户体验。来源：量子位 可灵AI新增「AI换衣」功能！1.5 模型支持「首尾帧」",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "41340795",
+      "title": "可灵AI新增「AI换衣」功能！1.5 模型支持「首尾帧」",
+      "content": "可灵AI 推出新功能“AI试衣”，用户只需2张图即可解锁新造型。1.5模型支持高品质视频制作，新增“首尾帧”功能，5s/10s均支持使用首尾帧。可灵AI 上线「灵感学院」！新手入门免费课程，帮你快速上手可灵AI。",
+      "originalContent": "可灵AI新增「AI换衣」功能！1.5 模型支持「首尾帧」 可灵AI 推出新功能“AI试衣”，用户只需2张图即可解锁新造型。1.5模型支持高品质视频制作，新增“首尾帧”功能，5s/10s均支持使用首尾帧。可灵AI 上线「灵感学院」！新手入门免费课程，帮你快速上手可灵AI。",
+      "source": "可灵AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.832Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月02日·周一"
+    },
+    {
+      "id": "06fc32bd",
+      "title": "可灵AI 推出新功能“AI试衣”，用户只需2张图即可解锁新造型。1.5模型支持高品质视频制作，新增“首尾帧”功能，5s/10s均支持使用首尾帧。可灵AI 上线「灵感学院」！新手入门免费课程，帮你快速上手可灵AI。来源：可灵AI",
+      "content": "对话智谱CEO张鹏：大家对大模型期待过高，Scaling Law还有很大增长空间",
+      "originalContent": "可灵AI 推出新功能“AI试衣”，用户只需2张图即可解锁新造型。1.5模型支持高品质视频制作，新增“首尾帧”功能，5s/10s均支持使用首尾帧。可灵AI 上线「灵感学院」！新手入门免费课程，帮你快速上手可灵AI。来源：可灵AI 对话智谱CEO张鹏：大家对大模型期待过高，Scaling Law还有很大增长空间",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "d1c69baf",
+      "title": "对话智谱CEO张鹏：大家对大模型期待过高，Scaling Law还有很大增长空间",
+      "content": "CEO张鹏认为，大家对大模型期待过高，但Scaling Law仍有增长空间。智谱AI定位“开放平台”，聚焦基座模型研发，已获九轮融资近60亿元，致力于AI智能体应用，推动人机交互变革。",
+      "originalContent": "对话智谱CEO张鹏：大家对大模型期待过高，Scaling Law还有很大增长空间 CEO张鹏认为，大家对大模型期待过高，但Scaling Law仍有增长空间。智谱AI定位“开放平台”，聚焦基座模型研发，已获九轮融资近60亿元，致力于AI智能体应用，推动人机交互变革。",
+      "source": "钛媒体",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.833Z",
+      "category": "投融资",
+      "tags": [
+        "开源",
+        "融资",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月02日·周一"
+    },
+    {
+      "id": "11c98005",
+      "title": "CEO张鹏认为，大家对大模型期待过高，但Scaling Law仍有增长空间。智谱AI定位“开放平台”，聚焦基座模型研发，已获九轮融资近60亿元，致力于AI智能体应用，推动人机交互变革。来源：钛媒体",
+      "content": "$(function(){var $input=$(\"input[type='search']\"),$clearBtn=$(\"button[data-search='clear']\"),$prevBtn=$(\"button[data-search='prev']\"),$nextBtn=$(\"button[data-search='next']\"),$content=$(\".news-list\"),$results,currentClass=\"current\",offsetTop=50,currentIndex=0;function jumpTo(){if($results.length){var position,$current=$results.eq(currentIndex);$results.removeClass(currentClass);if($current.length){$current.addClass(currentClass);position=$current.offset().top-offsetTop;window.scrollTo(0,position)}}}$input.on(\"input\",function(){var searchVal=this.value;$content.unmark({done:function(){$content.mark(searchVal,{separateWordSearch:true,done:function(){$results=$content.find(\"mark\");currentIndex=0;jumpTo()}})}})});$clearBtn.on(\"click\",function(){$content.unmark();$input.val(\"\").focus()});$nextBtn.add($prevBtn).on(\"click\",function(){if($results.length){currentIndex+=$(this).is($prevBtn)?-1:1;if(currentIndex<0){currentIndex=$results.length-1}if(currentIndex>$results.length-1){currentIndex=0}jumpTo()}})});",
+      "originalContent": "CEO张鹏认为，大家对大模型期待过高，但Scaling Law仍有增长空间。智谱AI定位“开放平台”，聚焦基座模型研发，已获九轮融资近60亿元，致力于AI智能体应用，推动人机交互变革。来源：钛媒体 $(function(){var $input=$(\"input[type='search']\"),$clearBtn=$(\"button[data-search='clear']\"),$prevBtn=$(\"button[data-search='prev']\"),$nextBtn=$(\"button[data-search='next']\"),$content=$(\".news-list\"),$results,currentClass=\"current\",offsetTop=50,currentIndex=0;function jumpTo(){if($results.length){var position,$current=$results.eq(currentIndex);$results.removeClass(currentClass);if($current.length){$current.addClass(currentClass);position=$current.offset().top-offsetTop;window.scrollTo(0,position)}}}$input.on(\"input\",function(){var searchVal=this.value;$content.unmark({done:function(){$content.mark(searchVal,{separateWordSearch:true,done:function(){$results=$content.find(\"mark\");currentIndex=0;jumpTo()}})}})});$clearBtn.on(\"click\",function(){$content.unmark();$input.val(\"\").focus()});$nextBtn.add($prevBtn).on(\"click\",function(){if($results.length){currentIndex+=$(this).is($prevBtn)?-1:1;if(currentIndex<0){currentIndex=$results.length-1}if(currentIndex>$results.length-1){currentIndex=0}jumpTo()}})});",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "投融资",
+      "tags": [
+        "开源",
+        "融资",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "a61bb50b",
+      "title": "# AI快讯© 版权声明本站文章版权归 AI工具集 所有，未经允许禁止任何形式的转载。",
+      "content": "(adsbygoogle = window.adsbygoogle || []).push({});",
+      "originalContent": "# AI快讯© 版权声明本站文章版权归 AI工具集 所有，未经允许禁止任何形式的转载。 (adsbygoogle = window.adsbygoogle || []).push({});",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "69dd1102",
+      "title": "AI快讯：8月第1期（8月1日到8月10日的AI行业新闻）",
+      "content": "AI初创公司融资数据库 - 国内外人工智能初创公司最新融资数据和情况",
+      "originalContent": "AI快讯：8月第1期（8月1日到8月10日的AI行业新闻） AI初创公司融资数据库 - 国内外人工智能初创公司最新融资数据和情况",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "409e3cfc",
+      "title": "AI初创公司融资数据库 - 国内外人工智能初创公司最新融资数据和情况",
+      "content": "Anthropic《AI 经济指数报告》38页PDF（中文版）",
+      "originalContent": "AI初创公司融资数据库 - 国内外人工智能初创公司最新融资数据和情况 Anthropic《AI 经济指数报告》38页PDF（中文版）",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "ecffb2ca",
+      "title": "Anthropic《AI 经济指数报告》38页PDF（中文版）",
+      "content": "AI周刊丨本周不可错过的AI行业动态（5.26-6.1）",
+      "originalContent": "Anthropic《AI 经济指数报告》38页PDF（中文版） AI周刊丨本周不可错过的AI行业动态（5.26-6.1）",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "6ef07c94",
+      "title": "AI周刊丨本周不可错过的AI行业动态（5.26-6.1）",
+      "content": "AI快讯：4月第2期（4月11日到4月20日的AI行业新闻）",
+      "originalContent": "AI周刊丨本周不可错过的AI行业动态（5.26-6.1） AI快讯：4月第2期（4月11日到4月20日的AI行业新闻）",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "b1dfaf1a",
+      "title": "AI快讯：4月第2期（4月11日到4月20日的AI行业新闻）",
+      "content": "AI快讯：7月第3期（7月21日到7月31日的AI行业新闻）",
+      "originalContent": "AI快讯：4月第2期（4月11日到4月20日的AI行业新闻） AI快讯：7月第3期（7月21日到7月31日的AI行业新闻）",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "3dc4eb41",
+      "title": "AI快讯：7月第3期（7月21日到7月31日的AI行业新闻）",
+      "content": "AI快讯：7月第3期（7月21日到7月31日的AI行业新闻）",
+      "originalContent": "AI快讯：7月第3期（7月21日到7月31日的AI行业新闻）",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "7db796b4",
+      "title": "AI快讯：3月第3期（3月21日到3月31日的AI行业新闻）",
+      "content": "(adsbygoogle = window.adsbygoogle || []).push({});",
+      "originalContent": "AI快讯：3月第3期（3月21日到3月31日的AI行业新闻） (adsbygoogle = window.adsbygoogle || []).push({});",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "1959f8a4",
+      "title": "AI工具集                        管理员",
+      "content": "感谢认可，对您有帮助就行！",
+      "originalContent": "AI工具集                        管理员 感谢认可，对您有帮助就行！",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "64b2d581",
+      "title": "千音漫语 – AI声音创作助手，涵盖多种语言和音色",
+      "content": "MetaStone-S1 – 原石科技推出的反思型生成式大模型",
+      "originalContent": "千音漫语 – AI声音创作助手，涵盖多种语言和音色 MetaStone-S1 – 原石科技推出的反思型生成式大模型",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "b0936b1e",
+      "title": "MetaStone-S1 – 原石科技推出的反思型生成式大模型",
+      "content": "Astro AI – AI星座应用，深入分析用户的个性和命运",
+      "originalContent": "MetaStone-S1 – 原石科技推出的反思型生成式大模型 Astro AI – AI星座应用，深入分析用户的个性和命运",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "13c65aa6",
+      "title": "Astro AI – AI星座应用，深入分析用户的个性和命运",
+      "content": "Gen CLI – AI命令行编程助手，Gemini-CLI平替项目",
+      "originalContent": "Astro AI – AI星座应用，深入分析用户的个性和命运 Gen CLI – AI命令行编程助手，Gemini-CLI平替项目",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "开源项目",
+      "tags": [
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "ca1bcd67",
+      "title": "Gen CLI – AI命令行编程助手，Gemini-CLI平替项目",
+      "content": "Starla – AI星座应用，根据星盘匹配生成“灵魂伴侣画像”",
+      "originalContent": "Gen CLI – AI命令行编程助手，Gemini-CLI平替项目 Starla – AI星座应用，根据星盘匹配生成“灵魂伴侣画像”",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "开源项目",
+      "tags": [
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "0ce7d457",
+      "title": "Starla – AI星座应用，根据星盘匹配生成“灵魂伴侣画像”",
+      "content": "Hunyuan3D-PolyGen – 腾讯混元推出的美术级3D生成大模型",
+      "originalContent": "Starla – AI星座应用，根据星盘匹配生成“灵魂伴侣画像” Hunyuan3D-PolyGen – 腾讯混元推出的美术级3D生成大模型",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "3D"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "9f088d7c",
+      "title": "Hunyuan3D-PolyGen – 腾讯混元推出的美术级3D生成大模型",
+      "content": "Furion – 基于.NET的免费开源AI开发框架",
+      "originalContent": "Hunyuan3D-PolyGen – 腾讯混元推出的美术级3D生成大模型 Furion – 基于.NET的免费开源AI开发框架",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "c4b1311e",
+      "title": "Furion – 基于.NET的免费开源AI开发框架",
+      "content": "RoboNeo – 美图推出的图像设计AI Agent",
+      "originalContent": "Furion – 基于.NET的免费开源AI开发框架 RoboNeo – 美图推出的图像设计AI Agent",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "f18d2525",
+      "title": "RoboNeo – 美图推出的图像设计AI Agent",
+      "content": "WebSailor – 阿里通义实验室开源的网络智能体",
+      "originalContent": "RoboNeo – 美图推出的图像设计AI Agent WebSailor – 阿里通义实验室开源的网络智能体",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "5b2c2c37",
+      "title": "WebSailor – 阿里通义实验室开源的网络智能体",
+      "content": "NativeMind – 开源本地AI助手，智能对话、内容分析、写作辅助等",
+      "originalContent": "WebSailor – 阿里通义实验室开源的网络智能体 NativeMind – 开源本地AI助手，智能对话、内容分析、写作辅助等",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "a95b4a61",
+      "title": "NativeMind – 开源本地AI助手，智能对话、内容分析、写作辅助等",
+      "content": "Agent Zero – 开源可扩展AI框架，通过用户指令和任务动态学习",
+      "originalContent": "NativeMind – 开源本地AI助手，智能对话、内容分析、写作辅助等 Agent Zero – 开源可扩展AI框架，通过用户指令和任务动态学习",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.088Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "4ed4bd43",
+      "title": "Agent Zero – 开源可扩展AI框架，通过用户指令和任务动态学习",
+      "content": "Higress MCP – 今日投资推出的MCP市场",
+      "originalContent": "Agent Zero – 开源可扩展AI框架，通过用户指令和任务动态学习 Higress MCP – 今日投资推出的MCP市场",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.088Z",
+      "category": "投融资",
+      "tags": [
+        "开源",
+        "融资",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "ed03db24",
+      "title": "Higress MCP – 今日投资推出的MCP市场",
+      "content": "PromptMuse – 一站式AI提示词生成与优化平台",
+      "originalContent": "Higress MCP – 今日投资推出的MCP市场 PromptMuse – 一站式AI提示词生成与优化平台",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.088Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "4f4f477a",
+      "title": "PromptMuse – 一站式AI提示词生成与优化平台",
+      "content": "SeaArt AI – 海艺AI国际版，图片、音视频一站式AI创作平台",
+      "originalContent": "PromptMuse – 一站式AI提示词生成与优化平台 SeaArt AI – 海艺AI国际版，图片、音视频一站式AI创作平台",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.088Z",
+      "category": "综合资讯",
+      "tags": [
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "69a2d313",
+      "title": "SeaArt AI – 海艺AI国际版，图片、音视频一站式AI创作平台",
+      "content": "工作性价比计算器 – 这b班上得值不值·测算版（网页版入口）",
+      "originalContent": "SeaArt AI – 海艺AI国际版，图片、音视频一站式AI创作平台 工作性价比计算器 – 这b班上得值不值·测算版（网页版入口）",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.088Z",
+      "category": "综合资讯",
+      "tags": [
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "12cd5b50",
+      "title": "AI工具集导航收录了国内外数百个不同类型的AI工具，每日更新和添加最新AI工具，AI工具集还推荐了AI学习开发的常用网站、框架和模型，帮助你加入人工智能浪潮，自动化高效完成任务！",
+      "content": "Ctrl + D 或 ⌘ + D 收藏本站到浏览器书签栏。",
+      "originalContent": "AI工具集导航收录了国内外数百个不同类型的AI工具，每日更新和添加最新AI工具，AI工具集还推荐了AI学习开发的常用网站、框架和模型，帮助你加入人工智能浪潮，自动化高效完成任务！ Ctrl + D 或 ⌘ + D 收藏本站到浏览器书签栏。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.088Z",
+      "category": "产品发布",
+      "tags": [
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "700e78fc",
+      "title": "AI快讯：5月第3期（5月21日到5月31日的AI行业新闻）",
+      "content": "AI快讯：5月第3期（5月21日到5月31日的AI行业新闻）",
+      "originalContent": "AI快讯：5月第3期（5月21日到5月31日的AI行业新闻）",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T13:23:52.205Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "825b59f0",
+      "title": "谷歌《Prompt Engineering》提示词工程白皮书（PDF文件） – AI教程资料",
+      "content": "AI周刊丨本周不可错过的AI行业动态（5.26-6.1）",
+      "originalContent": "谷歌《Prompt Engineering》提示词工程白皮书（PDF文件） – AI教程资料 AI周刊丨本周不可错过的AI行业动态（5.26-6.1）",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T13:23:52.205Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "5fe1cf59",
+      "title": "AI快讯：6月第1期（6月1日到6月10日的AI行业新闻）",
+      "content": "AI快讯：7月第3期（7月21日到7月31日的AI行业新闻）",
+      "originalContent": "AI快讯：6月第1期（6月1日到6月10日的AI行业新闻） AI快讯：7月第3期（7月21日到7月31日的AI行业新闻）",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-08T13:23:52.205Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "12月2日"
+    },
+    {
+      "id": "ea5ec8f3",
+      "title": "实测腾讯元宝2.0：图文视频啥都能搜，论文绘画全搞定",
+      "content": "腾讯元宝2.0全新升级，集成AI搜索、阅读、生图等功能，打通公众号、视频号等资源，提供深度研究、脑图整理服务。新增创意绘画、灵感图库、AI美照等图片功能，以及应用广场。同时整合腾讯文档、电脑管家、搜狗输入法，提升工作效率和用户体验。",
+      "originalContent": "实测腾讯元宝2.0：图文视频啥都能搜，论文绘画全搞定 腾讯元宝2.0全新升级，集成AI搜索、阅读、生图等功能，打通公众号、视频号等资源，提供深度研究、脑图整理服务。新增创意绘画、灵感图库、AI美照等图片功能，以及应用广场。同时整合腾讯文档、电脑管家、搜狗输入法，提升工作效率和用户体验。",
+      "source": "量子位",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.832Z",
+      "category": "产品发布",
+      "tags": [
+        "研究",
+        "AI工具"
+      ],
+      "dateText": "12月02日·周一"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.111Z"
+}

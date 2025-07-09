@@ -1,0 +1,94 @@
+{
+  "date": "2025-07-01",
+  "count": 5,
+  "data": [
+    {
+      "id": "5f70342d",
+      "title": "豆包「图像生成」超能创意2.0开启灰度测试",
+      "content": "豆包超能创意 2.0 已在网页版和电脑版灰度测试，模型升级至豆包大模型 1.6 版本，接入 seedream 3.0、seededit 3.0 和 seedance 1.0 Pro 模型，分别提升图片生成、编辑和视频生成效果。",
+      "originalContent": "豆包「图像生成」超能创意2.0开启灰度测试 豆包超能创意 2.0 已在网页版和电脑版灰度测试，模型升级至豆包大模型 1.6 版本，接入 seedream 3.0、seededit 3.0 和 seedance 1.0 Pro 模型，分别提升图片生成、编辑和视频生成效果。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.439Z",
+      "category": "产品发布",
+      "tags": [
+        "研究",
+        "大模型"
+      ],
+      "dateText": "7月2·周三"
+    },
+    {
+      "id": "d4b47e95",
+      "title": "智谱发布并开源 GLM-4.1V-Thinking 系列视觉模型",
+      "content": "智谱发布两项重要成果。一是开源新一代通用视觉语言模型GLM-4.1V-Thinking，10B级轻量版在多项权威评测中表现卓越，具备图像、视频、文档等多模态输入能力，支持复杂推理任务。二是上线MaaS“Agent应用空间”平台，启动Agent开拓者专项扶持计划，助力企业低门槛接入Agent能力，推动AI原生创业发展。",
+      "originalContent": "智谱发布并开源 GLM-4.1V-Thinking 系列视觉模型 智谱发布两项重要成果。一是开源新一代通用视觉语言模型GLM-4.1V-Thinking，10B级轻量版在多项权威评测中表现卓越，具备图像、视频、文档等多模态输入能力，支持复杂推理任务。二是上线MaaS“Agent应用空间”平台，启动Agent开拓者专项扶持计划，助力企业低门槛接入Agent能力，推动AI原生创业发展。",
+      "source": "智谱",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.437Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月2·周三"
+    },
+    {
+      "id": "ed69256a",
+      "title": "百度推出自研多模态大模型MuseSteamer和AI视频创作平台绘想",
+      "content": "百度发布自研视频生成模型MuseSteamer及AI视频创作平台“绘想”。MuseSteamer是全球首个实现中文音视频一体化生成的模型，打破传统AIGC视频“先画面后配音”的流程，可实现画面、音效与人声台词协同创作。用户仅需上传一张图片即可生成专业级视频内容。",
+      "originalContent": "百度推出自研多模态大模型MuseSteamer和AI视频创作平台绘想 百度发布自研视频生成模型MuseSteamer及AI视频创作平台“绘想”。MuseSteamer是全球首个实现中文音视频一体化生成的模型，打破传统AIGC视频“先画面后配音”的流程，可实现画面、音效与人声台词协同创作。用户仅需上传一张图片即可生成专业级视频内容。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.438Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月2·周三"
+    },
+    {
+      "id": "2060e404",
+      "title": "阿里云加码领投，智能体开发平台BetterYeah AI完成超亿元B轮融资",
+      "content": "企业级AI智能体开发平台BetterYeah AI宣布完成超亿元人民币B轮融资，由阿里云领投、名川资本跟投。资金将用于新一代智能体产品研发。BetterYeah AI由钉钉创始团队成员创立，核心团队具备深厚的企业级产品基因。",
+      "originalContent": "阿里云加码领投，智能体开发平台BetterYeah AI完成超亿元B轮融资 企业级AI智能体开发平台BetterYeah AI宣布完成超亿元人民币B轮融资，由阿里云领投、名川资本跟投。资金将用于新一代智能体产品研发。BetterYeah AI由钉钉创始团队成员创立，核心团队具备深厚的企业级产品基因。",
+      "source": "钛媒体AGI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.438Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月2·周三"
+    },
+    {
+      "id": "10306310",
+      "title": "北京中小学生 9 月起开设 AI 通识课",
+      "content": "北京宣布从2025年秋季学期起，全市中小学将全面普及人工智能通识教育，每学年不少于8课时。课程将涵盖人工智能的基本概念、应用与技术、实现方法及伦理与社会等方面，并将评价结果纳入学生综合素质评价体系。",
+      "originalContent": "北京中小学生 9 月起开设 AI 通识课 北京宣布从2025年秋季学期起，全市中小学将全面普及人工智能通识教育，每学年不少于8课时。课程将涵盖人工智能的基本概念、应用与技术、实现方法及伦理与社会等方面，并将评价结果纳入学生综合素质评价体系。",
+      "source": "北京市教育委员会",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-01T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.438Z",
+      "category": "综合资讯",
+      "tags": [
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月2·周三"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:17.981Z"
+}

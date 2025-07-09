@@ -1,0 +1,274 @@
+{
+  "date": "2025-04-10",
+  "count": 15,
+  "data": [
+    {
+      "id": "65bced98",
+      "title": "OpenAI宣布ChatGPT新功能，新增长期记忆功能，可以记住过去所有的聊天记录",
+      "content": "OpenAI宣布ChatGPT推出新功能，能引用过去所有聊天记录，为用户提供更加私人订制的体验。标志着LLM交互范式从偶发性互动向持续性互动转变，使ChatGPT更像私人助理。新功能已向Plus和Pro用户开放，用户可以与ChatGPT进行更深入的互动。",
+      "originalContent": "OpenAI宣布ChatGPT新功能，新增长期记忆功能，可以记住过去所有的聊天记录 OpenAI宣布ChatGPT推出新功能，能引用过去所有聊天记录，为用户提供更加私人订制的体验。标志着LLM交互范式从偶发性互动向持续性互动转变，使ChatGPT更像私人助理。新功能已向Plus和Pro用户开放，用户可以与ChatGPT进行更深入的互动。",
+      "source": "量子位",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.635Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月11日·周五"
+    },
+    {
+      "id": "aeeaac81",
+      "title": "OpenAI宣布ChatGPT推出新功能，能引用过去所有聊天记录，为用户提供更加私人订制的体验。标志着LLM交互范式从偶发性互动向持续性互动转变，使ChatGPT更像私人助理。新功能已向Plus和Pro用户开放，用户可以与ChatGPT进行更深入的互动。来源：量子位",
+      "content": "傅利叶发布首款开源人形机器人 Fourier N1，加速行业生态共建",
+      "originalContent": "OpenAI宣布ChatGPT推出新功能，能引用过去所有聊天记录，为用户提供更加私人订制的体验。标志着LLM交互范式从偶发性互动向持续性互动转变，使ChatGPT更像私人助理。新功能已向Plus和Pro用户开放，用户可以与ChatGPT进行更深入的互动。来源：量子位 傅利叶发布首款开源人形机器人 Fourier N1，加速行业生态共建",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.072Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月11日"
+    },
+    {
+      "id": "5f3201b9",
+      "title": "傅利叶发布首款开源人形机器人 Fourier N1，加速行业生态共建",
+      "content": "通用机器人公司傅利叶在上海发布首款开源人形机器人Fourier N1。机器人身高1.3米，体重38公斤，拥有23个自由度，采用铝合金与工程塑料复合结构，续航可达2小时以上，最高奔跑速度3.5米/秒。作为傅利叶“Nexus开源生态矩阵”的首个项目，N1同步开放了涵盖物料清单、设计图纸、装配指南、基础操作软件等完整本体资源包。",
+      "originalContent": "傅利叶发布首款开源人形机器人 Fourier N1，加速行业生态共建 通用机器人公司傅利叶在上海发布首款开源人形机器人Fourier N1。机器人身高1.3米，体重38公斤，拥有23个自由度，采用铝合金与工程塑料复合结构，续航可达2小时以上，最高奔跑速度3.5米/秒。作为傅利叶“Nexus开源生态矩阵”的首个项目，N1同步开放了涵盖物料清单、设计图纸、装配指南、基础操作软件等完整本体资源包。",
+      "source": "傅利叶",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.636Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "机器人"
+      ],
+      "dateText": "4月11日·周五"
+    },
+    {
+      "id": "10b656f7",
+      "title": "通用机器人公司傅利叶在上海发布首款开源人形机器人Fourier N1。机器人身高1.3米，体重38公斤，拥有23个自由度，采用铝合金与工程塑料复合结构，续航可达2小时以上，最高奔跑速度3.5米/秒。作为傅利叶“Nexus开源生态矩阵”的首个项目，N1同步开放了涵盖物料清单、设计图纸、装配指南、基础操作软件等完整本体资源包。来源：傅利叶",
+      "content": "商汤发布「日日新SenseNova V6」大模型，助力机器人具身智能升级",
+      "originalContent": "通用机器人公司傅利叶在上海发布首款开源人形机器人Fourier N1。机器人身高1.3米，体重38公斤，拥有23个自由度，采用铝合金与工程塑料复合结构，续航可达2小时以上，最高奔跑速度3.5米/秒。作为傅利叶“Nexus开源生态矩阵”的首个项目，N1同步开放了涵盖物料清单、设计图纸、装配指南、基础操作软件等完整本体资源包。来源：傅利叶 商汤发布「日日新SenseNova V6」大模型，助力机器人具身智能升级",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.072Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "机器人"
+      ],
+      "dateText": "4月11日"
+    },
+    {
+      "id": "35174e83",
+      "title": "商汤发布「日日新SenseNova V6」大模型，助力机器人具身智能升级",
+      "content": "商汤发布新一代多模态大模型「日日新SenseNova V6」，参数达6000亿，采用混合专家架构，实现多模态长思维链、强化学习与全局记忆融合，推理能力显著提升，多项测试超国际领先模型。模型助力人形机器人具身智能发展，使其具备视觉、语言等多模态交互能力，可应用于导览、社交互动等场景。",
+      "originalContent": "商汤发布「日日新SenseNova V6」大模型，助力机器人具身智能升级 商汤发布新一代多模态大模型「日日新SenseNova V6」，参数达6000亿，采用混合专家架构，实现多模态长思维链、强化学习与全局记忆融合，推理能力显著提升，多项测试超国际领先模型。模型助力人形机器人具身智能发展，使其具备视觉、语言等多模态交互能力，可应用于导览、社交互动等场景。",
+      "source": "智东西",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.636Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "机器人"
+      ],
+      "dateText": "4月11日·周五"
+    },
+    {
+      "id": "56d1e84d",
+      "title": "商汤发布新一代多模态大模型「日日新SenseNova V6」，参数达6000亿，采用混合专家架构，实现多模态长思维链、强化学习与全局记忆融合，推理能力显著提升，多项测试超国际领先模型。模型助力人形机器人具身智能发展，使其具备视觉、语言等多模态交互能力，可应用于导览、社交互动等场景。来源：智东西",
+      "content": "谷歌发布 Gemini 2.5 Flash AI 模型：专为省钱高效而生",
+      "originalContent": "商汤发布新一代多模态大模型「日日新SenseNova V6」，参数达6000亿，采用混合专家架构，实现多模态长思维链、强化学习与全局记忆融合，推理能力显著提升，多项测试超国际领先模型。模型助力人形机器人具身智能发展，使其具备视觉、语言等多模态交互能力，可应用于导览、社交互动等场景。来源：智东西 谷歌发布 Gemini 2.5 Flash AI 模型：专为省钱高效而生",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "4月11日"
+    },
+    {
+      "id": "c1888f9b",
+      "title": "谷歌发布 Gemini 2.5 Flash AI 模型：专为省钱高效而生",
+      "content": "谷歌推出Gemini 2.5 Flash AI模型，专为高效能和成本优化设计。模型即将登陆谷歌Vertex AI平台，具备动态且可控的计算能力，开发者可根据查询复杂度灵活调整处理时间，平衡速度、准确性和成本。",
+      "originalContent": "谷歌发布 Gemini 2.5 Flash AI 模型：专为省钱高效而生 谷歌推出Gemini 2.5 Flash AI模型，专为高效能和成本优化设计。模型即将登陆谷歌Vertex AI平台，具备动态且可控的计算能力，开发者可根据查询复杂度灵活调整处理时间，平衡速度、准确性和成本。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.637Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月11日·周五"
+    },
+    {
+      "id": "00d99478",
+      "title": "谷歌推出Gemini 2.5 Flash AI模型，专为高效能和成本优化设计。模型即将登陆谷歌Vertex AI平台，具备动态且可控的计算能力，开发者可根据查询复杂度灵活调整处理时间，平衡速度、准确性和成本。来源：AI工具集",
+      "content": "Anthropic 推出 Claude Max 订阅计划，月费最高 200 美元",
+      "originalContent": "谷歌推出Gemini 2.5 Flash AI模型，专为高效能和成本优化设计。模型即将登陆谷歌Vertex AI平台，具备动态且可控的计算能力，开发者可根据查询复杂度灵活调整处理时间，平衡速度、准确性和成本。来源：AI工具集 Anthropic 推出 Claude Max 订阅计划，月费最高 200 美元",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月11日"
+    },
+    {
+      "id": "48f17af5",
+      "title": "Anthropic推出Claude Max订阅计划，月费最高200美元，与OpenAI的ChatGPT Pro竞争。Max计划分为两个层级：每月100美元的Max速率限制是Claude Pro的5倍，每月200美元的Max速率限制是Claude Pro的20倍。计划提供更宽松的使用限制和优先获取最新AI模型的功能。来源：IT之家",
+      "content": "谷歌Deep Research迎来重大升级，搭载Gemini 2.5 Pro模型，性能超OpenAI",
+      "originalContent": "Anthropic推出Claude Max订阅计划，月费最高200美元，与OpenAI的ChatGPT Pro竞争。Max计划分为两个层级：每月100美元的Max速率限制是Claude Pro的5倍，每月200美元的Max速率限制是Claude Pro的20倍。计划提供更宽松的使用限制和优先获取最新AI模型的功能。来源：IT之家 谷歌Deep Research迎来重大升级，搭载Gemini 2.5 Pro模型，性能超OpenAI",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月11日"
+    },
+    {
+      "id": "a76098d5",
+      "title": "谷歌Deep Research迎来重大升级，搭载Gemini 2.5 Pro模型，性能超OpenAI",
+      "content": "谷歌Deep Research迎来重大升级，搭载全球顶尖的Gemini 2.5 Pro模型。新版本在分析推理、信息整合和报告洞察力方面显著提升，5分钟可生成46页学术论文，能将复杂报告转为10分钟播客。性能较OpenAI DR提升超40%，价格仅为1/10。",
+      "originalContent": "谷歌Deep Research迎来重大升级，搭载Gemini 2.5 Pro模型，性能超OpenAI 谷歌Deep Research迎来重大升级，搭载全球顶尖的Gemini 2.5 Pro模型。新版本在分析推理、信息整合和报告洞察力方面显著提升，5分钟可生成46页学术论文，能将复杂报告转为10分钟播客。性能较OpenAI DR提升超40%，价格仅为1/10。",
+      "source": "新智元",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.638Z",
+      "category": "产品发布",
+      "tags": [
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月11日·周五"
+    },
+    {
+      "id": "27732b78",
+      "title": "谷歌Deep Research迎来重大升级，搭载全球顶尖的Gemini 2.5 Pro模型。新版本在分析推理、信息整合和报告洞察力方面显著提升，5分钟可生成46页学术论文，能将复杂报告转为10分钟播客。性能较OpenAI DR提升超40%，价格仅为1/10。来源：新智元",
+      "content": "继 OpenAI 后，谷歌 Gemini 模型将支持 Anthropic 的 MCP 协议",
+      "originalContent": "谷歌Deep Research迎来重大升级，搭载全球顶尖的Gemini 2.5 Pro模型。新版本在分析推理、信息整合和报告洞察力方面显著提升，5分钟可生成46页学术论文，能将复杂报告转为10分钟播客。性能较OpenAI DR提升超40%，价格仅为1/10。来源：新智元 继 OpenAI 后，谷歌 Gemini 模型将支持 Anthropic 的 MCP 协议",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "产品发布",
+      "tags": [
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月11日"
+    },
+    {
+      "id": "38303dee",
+      "title": "继 OpenAI 后，谷歌 Gemini 模型将支持 Anthropic 的 MCP 协议",
+      "content": "谷歌DeepMind宣布为Gemini模型和SDK添加对Anthropic的模型上下文协议（MCP）的支持。谷歌DeepMind首席执行官德米斯·哈萨比斯表示，MCP正在迅速成为AI代理时代的开放标准，谷歌期待与其他行业伙伴共同开发这一协议。",
+      "originalContent": "继 OpenAI 后，谷歌 Gemini 模型将支持 Anthropic 的 MCP 协议 谷歌DeepMind宣布为Gemini模型和SDK添加对Anthropic的模型上下文协议（MCP）的支持。谷歌DeepMind首席执行官德米斯·哈萨比斯表示，MCP正在迅速成为AI代理时代的开放标准，谷歌期待与其他行业伙伴共同开发这一协议。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.638Z",
+      "category": "综合资讯",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月11日·周五"
+    },
+    {
+      "id": "3ea1180b",
+      "title": "谷歌DeepMind宣布为Gemini模型和SDK添加对Anthropic的模型上下文协议（MCP）的支持。谷歌DeepMind首席执行官德米斯·哈萨比斯表示，MCP正在迅速成为AI代理时代的开放标准，谷歌期待与其他行业伙伴共同开发这一协议。来源：IT之家",
+      "content": "悠船宣布MidJourney V7模型正式上线：图像生成质量大幅提升",
+      "originalContent": "谷歌DeepMind宣布为Gemini模型和SDK添加对Anthropic的模型上下文协议（MCP）的支持。谷歌DeepMind首席执行官德米斯·哈萨比斯表示，MCP正在迅速成为AI代理时代的开放标准，谷歌期待与其他行业伙伴共同开发这一协议。来源：IT之家 悠船宣布MidJourney V7模型正式上线：图像生成质量大幅提升",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.073Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月11日"
+    },
+    {
+      "id": "0f6d4048",
+      "title": "Anthropic 推出 Claude Max 订阅计划，月费最高 200 美元",
+      "content": "Anthropic推出Claude Max订阅计划，月费最高200美元，与OpenAI的ChatGPT Pro竞争。Max计划分为两个层级：每月100美元的Max速率限制是Claude Pro的5倍，每月200美元的Max速率限制是Claude Pro的20倍。计划提供更宽松的使用限制和优先获取最新AI模型的功能。",
+      "originalContent": "Anthropic 推出 Claude Max 订阅计划，月费最高 200 美元 Anthropic推出Claude Max订阅计划，月费最高200美元，与OpenAI的ChatGPT Pro竞争。Max计划分为两个层级：每月100美元的Max速率限制是Claude Pro的5倍，每月200美元的Max速率限制是Claude Pro的20倍。计划提供更宽松的使用限制和优先获取最新AI模型的功能。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.637Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月11日·周五"
+    },
+    {
+      "id": "319acb2e",
+      "title": "悠船宣布MidJourney V7模型正式上线：图像生成质量大幅提升",
+      "content": "悠船团队宣布悠船V7模型正式上线。V7版本在图像生成质量上显著提升，包括人物肤色、面部细节、材质纹理和光影效果等方面。能更好地解析复杂场景，实现背景与主体的自然融合。V7在视角表现和风格还原度上也更加专业，显著提升了身体、手部及物体细节的一致性。",
+      "originalContent": "悠船宣布MidJourney V7模型正式上线：图像生成质量大幅提升 悠船团队宣布悠船V7模型正式上线。V7版本在图像生成质量上显著提升，包括人物肤色、面部细节、材质纹理和光影效果等方面。能更好地解析复杂场景，实现背景与主体的自然融合。V7在视角表现和风格还原度上也更加专业，显著提升了身体、手部及物体细节的一致性。",
+      "source": "悠船助手",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.639Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "4月11日·周五"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.032Z"
+}

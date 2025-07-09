@@ -1,0 +1,109 @@
+{
+  "date": "2025-06-16",
+  "count": 6,
+  "data": [
+    {
+      "id": "037a1885",
+      "title": "MiniMax-M1，全球首个开源大规模混合架构的推理模型",
+      "content": "MiniMax稀宇科技发布全球首个开源大规模混合架构推理模型MiniMax-M1。在复杂生产力场景中表现卓越，接近海外领先水平，性价比极高。M1支持100万上下文输入和8万Token推理输出，基于闪电注意力机制和混合架构，算力效率显著提升。强化学习算法CISPO收敛性能优异，训练成本仅53.74万美金。",
+      "originalContent": "MiniMax-M1，全球首个开源大规模混合架构的推理模型 MiniMax稀宇科技发布全球首个开源大规模混合架构推理模型MiniMax-M1。在复杂生产力场景中表现卓越，接近海外领先水平，性价比极高。M1支持100万上下文输入和8万Token推理输出，基于闪电注意力机制和混合架构，算力效率显著提升。强化学习算法CISPO收敛性能优异，训练成本仅53.74万美金。",
+      "source": "MiniMax 稀宇科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.478Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "6月17·周二"
+    },
+    {
+      "id": "6e7d5599",
+      "title": "Qwen3 全系适配 MLX，开源 32 款 MLX 量化模型",
+      "content": "Qwen3模型宣布全系适配苹果芯片的MLX框架，开源32款量化模型。MLX是专为苹果芯片深度适配的开源机器学习框架，可高效训练和部署AI大模型。Qwen3此次推出的模型包括4bit、6bit、8bit和BF16四种精度的量化版本，覆盖从Mac Pro到iPhone的全场景设备。",
+      "originalContent": "Qwen3 全系适配 MLX，开源 32 款 MLX 量化模型 Qwen3模型宣布全系适配苹果芯片的MLX框架，开源32款量化模型。MLX是专为苹果芯片深度适配的开源机器学习框架，可高效训练和部署AI大模型。Qwen3此次推出的模型包括4bit、6bit、8bit和BF16四种精度的量化版本，覆盖从Mac Pro到iPhone的全场景设备。",
+      "source": "通义千问Qwen",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.478Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "6月17·周二"
+    },
+    {
+      "id": "a9b11dfc",
+      "title": "豆包电脑版、网页版上线“AI 播客”功能",
+      "content": "豆包电脑版和网页版上线了“AI播客”功能。用户只需上传PDF文件或添加网页链接，可生成自然流畅的拟人化双人对话播客。语音效果逼真，模拟真人播客的口语习惯，停顿和附和细节恰到好处。用户可将行业报告、课程知识点等资料上传，快速生成通俗易懂的播客。",
+      "originalContent": "豆包电脑版、网页版上线“AI 播客”功能 豆包电脑版和网页版上线了“AI播客”功能。用户只需上传PDF文件或添加网页链接，可生成自然流畅的拟人化双人对话播客。语音效果逼真，模拟真人播客的口语习惯，停顿和附和细节恰到好处。用户可将行业报告、课程知识点等资料上传，快速生成通俗易懂的播客。",
+      "source": "豆包",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.477Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "6月17·周二"
+    },
+    {
+      "id": "e6620580",
+      "title": "Kimi新模型Kimi-Dev拿下代码开源SOTA，仅仅72B，发布即开源",
+      "content": "月之暗面发布了开源代码模型Kimi-Dev，在SWE-bench Verified上以60.4%的成绩取得开源SOTA，其参数量仅72B，但编程能力超越DeepSeek-R1。Kimi-Dev采用BugFixer和TestWriter两种角色，通过文件定位和代码编辑实现功能。",
+      "originalContent": "Kimi新模型Kimi-Dev拿下代码开源SOTA，仅仅72B，发布即开源 月之暗面发布了开源代码模型Kimi-Dev，在SWE-bench Verified上以60.4%的成绩取得开源SOTA，其参数量仅72B，但编程能力超越DeepSeek-R1。Kimi-Dev采用BugFixer和TestWriter两种角色，通过文件定位和代码编辑实现功能。",
+      "source": "量子位",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.479Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月17·周二"
+    },
+    {
+      "id": "c5d08f2d",
+      "title": "美国国防部与 OpenAI 签订 2 亿美元合同，开发 AI 工具应对国家安全挑战",
+      "content": "美国国防部与OpenAI签订了一份价值2亿美元的合同，开发人工智能工具以应对国家安全挑战。根据合同，相关工作将在华盛顿及其周边地区开展，预计于2026年7月完成。",
+      "originalContent": "美国国防部与 OpenAI 签订 2 亿美元合同，开发 AI 工具应对国家安全挑战 美国国防部与OpenAI签订了一份价值2亿美元的合同，开发人工智能工具以应对国家安全挑战。根据合同，相关工作将在华盛顿及其周边地区开展，预计于2026年7月完成。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.479Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "6月17·周二"
+    },
+    {
+      "id": "c6988efa",
+      "title": "普惠算力新标杆 九章智算云 Alaya NeW Cloud 2.0 震撼发布",
+      "content": "九章云极DataCanvas公司在北京发布新一代全栈智能计算云平台——九章智算云Alaya NeW Cloud 2.0，启动全球首个强化学习智算服务。平台基于Serverless技术架构与强化学习技术，突破“秒级生成百万级token”的性能瓶颈，支持万卡级至十万卡级异构算力统一调度，推理优化效率提升数倍，采用创新计价模型，显著降低成本。",
+      "originalContent": "普惠算力新标杆 九章智算云 Alaya NeW Cloud 2.0 震撼发布 九章云极DataCanvas公司在北京发布新一代全栈智能计算云平台——九章智算云Alaya NeW Cloud 2.0，启动全球首个强化学习智算服务。平台基于Serverless技术架构与强化学习技术，突破“秒级生成百万级token”的性能瓶颈，支持万卡级至十万卡级异构算力统一调度，推理优化效率提升数倍，采用创新计价模型，显著降低成本。",
+      "source": "九章云极DataCanvas",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.480Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "6月17·周二"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:17.991Z"
+}

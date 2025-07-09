@@ -1,0 +1,128 @@
+{
+  "date": "2025-06-25",
+  "count": 7,
+  "data": [
+    {
+      "id": "3df7e9bd",
+      "title": "出门问问发布Agentic AI软硬结合产品TicNote，定义新一代“AI思考伙伴”",
+      "content": "出门问问发布全球首款Agentic AI硬件产品TicNote，售价999元起。产品搭载自研AI Agent Shadow AI，具备AI转写、总结、生成思维导图等功能，支持120多种语言及24种方言转写，准确率达98%。TicNote厚度仅3mm，可磁吸于手机，续航达20天，支持10米远距收声。",
+      "originalContent": "出门问问发布Agentic AI软硬结合产品TicNote，定义新一代“AI思考伙伴” 出门问问发布全球首款Agentic AI硬件产品TicNote，售价999元起。产品搭载自研AI Agent Shadow AI，具备AI转写、总结、生成思维导图等功能，支持120多种语言及24种方言转写，准确率达98%。TicNote厚度仅3mm，可磁吸于手机，续航达20天，支持10米远距收声。",
+      "source": "出门问问AIGC",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.449Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月26·周四"
+    },
+    {
+      "id": "011cc91d",
+      "title": "谷歌推出的开源终端AI编程Agent——Gemini CLI",
+      "content": "谷歌推出Gemini CLI（命令行界面），基于Gemini 2.5 Pro AI模型。工具将AI问答、内容生成等功能集成到开发者终端界面，支持高达100万个token的上下文窗口，与Gemini Code Assist代码助手深度集成，支持谷歌搜索。",
+      "originalContent": "谷歌推出的开源终端AI编程Agent——Gemini CLI 谷歌推出Gemini CLI（命令行界面），基于Gemini 2.5 Pro AI模型。工具将AI问答、内容生成等功能集成到开发者终端界面，支持高达100万个token的上下文窗口，与Gemini Code Assist代码助手深度集成，支持谷歌搜索。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.450Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月26·周四"
+    },
+    {
+      "id": "f2e7062b",
+      "title": "阶跃星辰与鲸鱼机器人达成战略合作，为青少年打造AI学习伙伴",
+      "content": "阶跃星辰与鲸鱼机器人达成战略合作。鲸鱼机器人将接入阶跃星辰的Step-Audio端到端语音大模型，为其教育机器人产品引入语音交互能力，打造更贴合教育认知规律的AI学习伙伴。",
+      "originalContent": "阶跃星辰与鲸鱼机器人达成战略合作，为青少年打造AI学习伙伴 阶跃星辰与鲸鱼机器人达成战略合作。鲸鱼机器人将接入阶跃星辰的Step-Audio端到端语音大模型，为其教育机器人产品引入语音交互能力，打造更贴合教育认知规律的AI学习伙伴。",
+      "source": "阶跃星辰",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.450Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "大模型",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "6月26·周四"
+    },
+    {
+      "id": "dbc1c064",
+      "title": "灵宝CASBOT完成近亿元天使+轮融资，技术务实加速商业化落地",
+      "content": "灵宝CASBOT宣布完成近亿元天使+轮融资，由蓝思科技领投，天津佳益及老股东国投创合、河南资产跟投。本轮融资将用于加速产品量产、技术研发迭代及市场拓展。灵宝CASBOT专注于通用人形机器人和具身智能产品，其VLA技术路线结合强化学习，可应对复杂工业场景。",
+      "originalContent": "灵宝CASBOT完成近亿元天使+轮融资，技术务实加速商业化落地 灵宝CASBOT宣布完成近亿元天使+轮融资，由蓝思科技领投，天津佳益及老股东国投创合、河南资产跟投。本轮融资将用于加速产品量产、技术研发迭代及市场拓展。灵宝CASBOT专注于通用人形机器人和具身智能产品，其VLA技术路线结合强化学习，可应对复杂工业场景。",
+      "source": "灵宝CASBOT",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.450Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "技术",
+        "机器人"
+      ],
+      "dateText": "6月26·周四"
+    },
+    {
+      "id": "e538c7e3",
+      "title": "谷歌DeepMind推出的基因变异预测AI模型 AlphaGenome",
+      "content": "谷歌DeepMind发布AlphaGenome模型，用于预测人类DNA序列中单个变异或突变的影响。模型可处理长达100万字母的DNA序列，预测数千个分子属性，通过比较突变与未突变序列进行评分。",
+      "originalContent": "谷歌DeepMind推出的基因变异预测AI模型 AlphaGenome 谷歌DeepMind发布AlphaGenome模型，用于预测人类DNA序列中单个变异或突变的影响。模型可处理长达100万字母的DNA序列，预测数千个分子属性，通过比较突变与未突变序列进行评分。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.451Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月26·周四"
+    },
+    {
+      "id": "154e6395",
+      "title": "蚂蚁集团发布 AI 健康应用 AQ：可看病症、看医生、看报告",
+      "content": "蚂蚁集团发布全新AI健康应用「AQ」，帮助公众看病更简单、生活更健康。AQ提供健康科普、就诊咨询、报告解读、健康档案等上百项AI功能，连接全国超5000家医院、近百万医生及200余个名医AI分身。",
+      "originalContent": "蚂蚁集团发布 AI 健康应用 AQ：可看病症、看医生、看报告 蚂蚁集团发布全新AI健康应用「AQ」，帮助公众看病更简单、生活更健康。AQ提供健康科普、就诊咨询、报告解读、健康档案等上百项AI功能，连接全国超5000家医院、近百万医生及200余个名医AI分身。",
+      "source": "蚂蚁集团",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.451Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "6月26·周四"
+    },
+    {
+      "id": "9aafe03f",
+      "title": "万兴科技推出AIGC视频创作平台“万兴天幕”",
+      "content": "万兴科技推出AIGC视频创作平台“万兴天幕”，覆盖视频、图片及音频生成三大领域，为创作者提供一站式解决方案。平台具备文生视频、图生视频、视频续写、文生音乐、文生音效及视频智能配乐等功能，支持灵感社区激发创作。",
+      "originalContent": "万兴科技推出AIGC视频创作平台“万兴天幕” 万兴科技推出AIGC视频创作平台“万兴天幕”，覆盖视频、图片及音频生成三大领域，为创作者提供一站式解决方案。平台具备文生视频、图生视频、视频续写、文生音乐、文生音效及视频智能配乐等功能，支持灵感社区激发创作。",
+      "source": "万兴科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-25T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.451Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "6月26·周四"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:17.986Z"
+}

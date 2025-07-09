@@ -1,0 +1,225 @@
+{
+  "date": "2025-02-24",
+  "count": 12,
+  "data": [
+    {
+      "id": "f65638af",
+      "title": "Claude 3.7 Sonnet发布：AI推理与编码能力的双重突破",
+      "content": "Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。",
+      "originalContent": "Claude 3.7 Sonnet发布：AI推理与编码能力的双重突破 Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.708Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月25日·周二"
+    },
+    {
+      "id": "742cd32a",
+      "title": "Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。来源：AI工具集",
+      "content": "DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率",
+      "originalContent": "Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。来源：AI工具集 DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月25日"
+    },
+    {
+      "id": "030275c4",
+      "title": "DeepSeek 开源周第二天，发布开源项目 DeepEP，专为混合专家模型（MoE）训练和推理设计的高效通信库。DeepEP 提供高吞吐量和低延迟的全对全 GPU 内核，支持 NVLink 和 RDMA 通信，优化训练和推理效率。来源：AI工具集",
+      "content": "ChatGPT 变身苹果 Safari 浏览器默认搜索引擎",
+      "originalContent": "DeepSeek 开源周第二天，发布开源项目 DeepEP，专为混合专家模型（MoE）训练和推理设计的高效通信库。DeepEP 提供高吞吐量和低延迟的全对全 GPU 内核，支持 NVLink 和 RDMA 通信，优化训练和推理效率。来源：AI工具集 ChatGPT 变身苹果 Safari 浏览器默认搜索引擎",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月25日"
+    },
+    {
+      "id": "3f8d892a",
+      "title": "ChatGPT 变身苹果 Safari 浏览器默认搜索引擎",
+      "content": "OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。",
+      "originalContent": "ChatGPT 变身苹果 Safari 浏览器默认搜索引擎 OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.708Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "AI工具"
+      ],
+      "dateText": "2月25日·周二"
+    },
+    {
+      "id": "1253b768",
+      "title": "OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。来源：IT之家",
+      "content": "阿里Qwen团队发布推理模型QwQ，会展示完整的思维链",
+      "originalContent": "OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。来源：IT之家 阿里Qwen团队发布推理模型QwQ，会展示完整的思维链",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月25日"
+    },
+    {
+      "id": "07c1a40c",
+      "title": "阿里Qwen团队发布推理模型QwQ，会展示完整的思维链",
+      "content": "阿里通义千问团队推出QwQ-Max-Preview深度思考模型，支持联网搜索，具备强大的通用能力，可完成创意写作、代码生成、数学题解答等任务。模型基于Qwen2.5-Max构建，未来将以Apache 2.0许可协议开源。目前已上线官网，用户可通过点击“深度思考（QwQ）”按钮体验。",
+      "originalContent": "阿里Qwen团队发布推理模型QwQ，会展示完整的思维链 阿里通义千问团队推出QwQ-Max-Preview深度思考模型，支持联网搜索，具备强大的通用能力，可完成创意写作、代码生成、数学题解答等任务。模型基于Qwen2.5-Max构建，未来将以Apache 2.0许可协议开源。目前已上线官网，用户可通过点击“深度思考（QwQ）”按钮体验。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.709Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "2月25日·周二"
+    },
+    {
+      "id": "59680f07",
+      "title": "阿里通义千问团队推出QwQ-Max-Preview深度思考模型，支持联网搜索，具备强大的通用能力，可完成创意写作、代码生成、数学题解答等任务。模型基于Qwen2.5-Max构建，未来将以Apache 2.0许可协议开源。目前已上线官网，用户可通过点击“深度思考（QwQ）”按钮体验。来源：AI工具集",
+      "content": "Perplexity 官宣“Comet”浏览器，主打“AI 智能体搜索”",
+      "originalContent": "阿里通义千问团队推出QwQ-Max-Preview深度思考模型，支持联网搜索，具备强大的通用能力，可完成创意写作、代码生成、数学题解答等任务。模型基于Qwen2.5-Max构建，未来将以Apache 2.0许可协议开源。目前已上线官网，用户可通过点击“深度思考（QwQ）”按钮体验。来源：AI工具集 Perplexity 官宣“Comet”浏览器，主打“AI 智能体搜索”",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "2月25日"
+    },
+    {
+      "id": "835c95bd",
+      "title": "Perplexity 官宣“Comet”浏览器，主打“AI 智能体搜索”",
+      "content": "Perplexity AI 宣布进军浏览器市场，推出名为“Comet”的浏览器。浏览器以“AI 智能体搜索”为核心概念，提供更贴近用户需求的搜索体验。Comet 已开启注册，具体上线时间和功能细节尚未公布。Perplexity AI 称 AI 技术将优于谷歌 Chrome 和微软 Edge 等现有浏览器的搜索体验。",
+      "originalContent": "Perplexity 官宣“Comet”浏览器，主打“AI 智能体搜索” Perplexity AI 宣布进军浏览器市场，推出名为“Comet”的浏览器。浏览器以“AI 智能体搜索”为核心概念，提供更贴近用户需求的搜索体验。Comet 已开启注册，具体上线时间和功能细节尚未公布。Perplexity AI 称 AI 技术将优于谷歌 Chrome 和微软 Edge 等现有浏览器的搜索体验。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.709Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "2月25日·周二"
+    },
+    {
+      "id": "67fe0421",
+      "title": "Perplexity AI 宣布进军浏览器市场，推出名为“Comet”的浏览器。浏览器以“AI 智能体搜索”为核心概念，提供更贴近用户需求的搜索体验。Comet 已开启注册，具体上线时间和功能细节尚未公布。Perplexity AI 称 AI 技术将优于谷歌 Chrome 和微软 Edge 等现有浏览器的搜索体验。来源：IT之家",
+      "content": "字节AI加速调整，豆包正测试深度思考模型，暂未接入DeepSeek",
+      "originalContent": "Perplexity AI 宣布进军浏览器市场，推出名为“Comet”的浏览器。浏览器以“AI 智能体搜索”为核心概念，提供更贴近用户需求的搜索体验。Comet 已开启注册，具体上线时间和功能细节尚未公布。Perplexity AI 称 AI 技术将优于谷歌 Chrome 和微软 Edge 等现有浏览器的搜索体验。来源：IT之家 字节AI加速调整，豆包正测试深度思考模型，暂未接入DeepSeek",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月25日"
+    },
+    {
+      "id": "67365ae4",
+      "title": "字节AI加速调整，豆包正测试深度思考模型，暂未接入DeepSeek",
+      "content": "字节跳动旗下AI助手“豆包”正在小范围测试深度思考模型，但未接入DeepSeek，是采用自研技术。目前，豆包的深度思考功能尚未开放，部分测试用户已能体验到思维链的呈现。自DeepSeek开源后，字节AI部门面临重大调整。",
+      "originalContent": "字节AI加速调整，豆包正测试深度思考模型，暂未接入DeepSeek 字节跳动旗下AI助手“豆包”正在小范围测试深度思考模型，但未接入DeepSeek，是采用自研技术。目前，豆包的深度思考功能尚未开放，部分测试用户已能体验到思维链的呈现。自DeepSeek开源后，字节AI部门面临重大调整。",
+      "source": "Z Finance",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.710Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月25日·周二"
+    },
+    {
+      "id": "174060a8",
+      "title": "字节跳动旗下AI助手“豆包”正在小范围测试深度思考模型，但未接入DeepSeek，是采用自研技术。目前，豆包的深度思考功能尚未开放，部分测试用户已能体验到思维链的呈现。自DeepSeek开源后，字节AI部门面临重大调整。来源：Z Finance",
+      "content": "字节跳动旗下AI助手“豆包”正在小范围测试深度思考模型，但未接入DeepSeek，是采用自研技术。目前，豆包的深度思考功能尚未开放，部分测试用户已能体验到思维链的呈现。自DeepSeek开源后，字节AI部门面临重大调整。来源：Z Finance",
+      "originalContent": "字节跳动旗下AI助手“豆包”正在小范围测试深度思考模型，但未接入DeepSeek，是采用自研技术。目前，豆包的深度思考功能尚未开放，部分测试用户已能体验到思维链的呈现。自DeepSeek开源后，字节AI部门面临重大调整。来源：Z Finance",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月25日"
+    },
+    {
+      "id": "2bbea8e6",
+      "title": "DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率",
+      "content": "DeepSeek 开源周第二天，发布开源项目 DeepEP，专为混合专家模型（MoE）训练和推理设计的高效通信库。DeepEP 提供高吞吐量和低延迟的全对全 GPU 内核，支持 NVLink 和 RDMA 通信，优化训练和推理效率。",
+      "originalContent": "DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率 DeepSeek 开源周第二天，发布开源项目 DeepEP，专为混合专家模型（MoE）训练和推理设计的高效通信库。DeepEP 提供高吞吐量和低延迟的全对全 GPU 内核，支持 NVLink 和 RDMA 通信，优化训练和推理效率。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.708Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "2月25日·周二"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.056Z"
+}

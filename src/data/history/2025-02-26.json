@@ -1,0 +1,146 @@
+{
+  "date": "2025-02-26",
+  "count": 8,
+  "data": [
+    {
+      "id": "9111dd5d",
+      "title": "腾讯混元新一代快思考模型 Turbo S 发布，实现秒级响应",
+      "content": "腾讯发布新一代快思考模型混元Turbo S，模型在知识、数理、创作等方面表现出色，实现“秒回”功能，吐字速度提升一倍，首字时延降低44%。混元Turbo S采用Hybrid-Mamba-Transformer融合架构，有效降低计算复杂度和部署成本。",
+      "originalContent": "腾讯混元新一代快思考模型 Turbo S 发布，实现秒级响应 腾讯发布新一代快思考模型混元Turbo S，模型在知识、数理、创作等方面表现出色，实现“秒回”功能，吐字速度提升一倍，首字时延降低44%。混元Turbo S采用Hybrid-Mamba-Transformer融合架构，有效降低计算复杂度和部署成本。",
+      "source": "腾讯混元",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.703Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "2月27日·周四"
+    },
+    {
+      "id": "082a7b07",
+      "title": "腾讯发布新一代快思考模型混元Turbo S，模型在知识、数理、创作等方面表现出色，实现“秒回”功能，吐字速度提升一倍，首字时延降低44%。混元Turbo S采用Hybrid-Mamba-Transformer融合架构，有效降低计算复杂度和部署成本。来源：腾讯混元",
+      "content": "DeepSeek开源新动作：三大并行计算优化技术，助力大模型训练效率飞跃",
+      "originalContent": "腾讯发布新一代快思考模型混元Turbo S，模型在知识、数理、创作等方面表现出色，实现“秒回”功能，吐字速度提升一倍，首字时延降低44%。混元Turbo S采用Hybrid-Mamba-Transformer融合架构，有效降低计算复杂度和部署成本。来源：腾讯混元 DeepSeek开源新动作：三大并行计算优化技术，助力大模型训练效率飞跃",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "2月27日"
+    },
+    {
+      "id": "ca9a9d3d",
+      "title": "DeepSeek开源新动作：三大并行计算优化技术，助力大模型训练效率飞跃",
+      "content": "DeepSeek开源三项并行计算优化技术，DualPipe 是一种双向流水线并行算法，通过计算与通信的完全重叠，显著减少流水线气泡，优化 GPU 资源利用率。EPLB（专家并行负载均衡器）通过冗余专家策略和负载均衡技术，解决专家并行中 GPU 负载不均的问题。profile-data 提供详细的性能分析数据，帮助开发者深入理解并行策略优化。",
+      "originalContent": "DeepSeek开源新动作：三大并行计算优化技术，助力大模型训练效率飞跃 DeepSeek开源三项并行计算优化技术，DualPipe 是一种双向流水线并行算法，通过计算与通信的完全重叠，显著减少流水线气泡，优化 GPU 资源利用率。EPLB（专家并行负载均衡器）通过冗余专家策略和负载均衡技术，解决专家并行中 GPU 负载不均的问题。profile-data 提供详细的性能分析数据，帮助开发者深入理解并行策略优化。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.703Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "2月27日·周四"
+    },
+    {
+      "id": "df707c74",
+      "title": "DeepSeek开源三项并行计算优化技术，DualPipe 是一种双向流水线并行算法，通过计算与通信的完全重叠，显著减少流水线气泡，优化 GPU 资源利用率。EPLB（专家并行负载均衡器）通过冗余专家策略和负载均衡技术，解决专家并行中 GPU 负载不均的问题。profile-data 提供详细的性能分析数据，帮助开发者深入理解并行策略优化。来源：AI工具集",
+      "content": "Anthropic 全面开放 Claude AI 的 GitHub 集成，赋能所有开发者",
+      "originalContent": "DeepSeek开源三项并行计算优化技术，DualPipe 是一种双向流水线并行算法，通过计算与通信的完全重叠，显著减少流水线气泡，优化 GPU 资源利用率。EPLB（专家并行负载均衡器）通过冗余专家策略和负载均衡技术，解决专家并行中 GPU 负载不均的问题。profile-data 提供详细的性能分析数据，帮助开发者深入理解并行策略优化。来源：AI工具集 Anthropic 全面开放 Claude AI 的 GitHub 集成，赋能所有开发者",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月27日"
+    },
+    {
+      "id": "12834be0",
+      "title": "Anthropic 全面开放 Claude AI 的 GitHub 集成，赋能所有开发者",
+      "content": "Anthropic宣布全面开放Claude AI的GitHub集成，面向免费、Pro和Teams用户。集成后，用户可将GitHub代码库同步至Claude，使其理解代码上下文，辅助测试、调试和优化代码。",
+      "originalContent": "Anthropic 全面开放 Claude AI 的 GitHub 集成，赋能所有开发者 Anthropic宣布全面开放Claude AI的GitHub集成，面向免费、Pro和Teams用户。集成后，用户可将GitHub代码库同步至Claude，使其理解代码上下文，辅助测试、调试和优化代码。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.703Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "AI工具"
+      ],
+      "dateText": "2月27日·周四"
+    },
+    {
+      "id": "b0e6ca15",
+      "title": "Anthropic宣布全面开放Claude AI的GitHub集成，面向免费、Pro和Teams用户。集成后，用户可将GitHub代码库同步至Claude，使其理解代码上下文，辅助测试、调试和优化代码。来源：IT之家",
+      "content": "微软开源Phi4多模态与Phi4-Mini：端侧AI迎来最强小模型",
+      "originalContent": "Anthropic宣布全面开放Claude AI的GitHub集成，面向免费、Pro和Teams用户。集成后，用户可将GitHub代码库同步至Claude，使其理解代码上下文，辅助测试、调试和优化代码。来源：IT之家 微软开源Phi4多模态与Phi4-Mini：端侧AI迎来最强小模型",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月27日"
+    },
+    {
+      "id": "8d0dd5cd",
+      "title": "微软开源Phi4多模态与Phi4-Mini：端侧AI迎来最强小模型",
+      "content": "微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。",
+      "originalContent": "微软开源Phi4多模态与Phi4-Mini：端侧AI迎来最强小模型 微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.704Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月27日·周四"
+    },
+    {
+      "id": "9e4f95e0",
+      "title": "微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。来源：AI工具集",
+      "content": "微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。来源：AI工具集",
+      "originalContent": "微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月27日"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.055Z"
+}

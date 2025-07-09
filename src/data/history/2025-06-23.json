@@ -1,0 +1,89 @@
+{
+  "date": "2025-06-23",
+  "count": 5,
+  "data": [
+    {
+      "id": "0790e391",
+      "title": "特斯拉Robotaxi终于上线！仅需4.2美元一口价",
+      "content": "特斯拉在德克萨斯州奥斯汀正式上线自动驾驶出租车服务Robotaxi，首批受邀用户可支付4.2美元体验。目前服务处于试运营阶段，仅限特定区域和受邀用户使用，运营时间为早上6点至午夜12点。车内配备安全监控员，车辆在复杂路况下需远程操作员介入。",
+      "originalContent": "特斯拉Robotaxi终于上线！仅需4.2美元一口价 特斯拉在德克萨斯州奥斯汀正式上线自动驾驶出租车服务Robotaxi，首批受邀用户可支付4.2美元体验。目前服务处于试运营阶段，仅限特定区域和受邀用户使用，运营时间为早上6点至午夜12点。车内配备安全监控员，车辆在复杂路况下需远程操作员介入。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.461Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "机器人"
+      ],
+      "dateText": "6月24·周二"
+    },
+    {
+      "id": "1486a7d0",
+      "title": "ElevenLabs推出AI语音助手——11ai，支持自定义MCP",
+      "content": "ElevenLabs发布11ai的AI个人语音助理产品。11ai主打语音优先设计，支持多通道处理（MCP），用户可通过语音指令完成日程规划、任务管理、信息查询等操作，可与Notion、Linear等工具对接。",
+      "originalContent": "ElevenLabs推出AI语音助手——11ai，支持自定义MCP ElevenLabs发布11ai的AI个人语音助理产品。11ai主打语音优先设计，支持多通道处理（MCP），用户可通过语音指令完成日程规划、任务管理、信息查询等操作，可与Notion、Linear等工具对接。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.458Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月24·周二"
+    },
+    {
+      "id": "d9630648",
+      "title": "微软推出 Win11 设备端小型语言模型 Mu",
+      "content": "微软发布创新小参数模型Mu。Mu仅含3.3亿参数，性能却可比肩微软Phi-3.5-mini模型，且体量小10倍左右。在配备NPU的笔记本上响应速度超每秒100 tokens，表现优异。",
+      "originalContent": "微软推出 Win11 设备端小型语言模型 Mu 微软发布创新小参数模型Mu。Mu仅含3.3亿参数，性能却可比肩微软Phi-3.5-mini模型，且体量小10倍左右。在配备NPU的笔记本上响应速度超每秒100 tokens，表现优异。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.459Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月24·周二"
+    },
+    {
+      "id": "17eb03a8",
+      "title": "字节跳动旗下抖音推出AI饭搭子——探饭",
+      "content": "字节跳动上线“探饭”AI产品，搭载豆包大模型。探饭为用户提供全方位的美食智能向导服务，包括探店推荐、菜品推荐、美食攻略、AI点菜、团购购买和外卖下单等功能。用户可通过“PK比店”功能对比店铺，能在地图上寻找美食店并导航。",
+      "originalContent": "字节跳动旗下抖音推出AI饭搭子——探饭 字节跳动上线“探饭”AI产品，搭载豆包大模型。探饭为用户提供全方位的美食智能向导服务，包括探店推荐、菜品推荐、美食攻略、AI点菜、团购购买和外卖下单等功能。用户可通过“PK比店”功能对比店铺，能在地图上寻找美食店并导航。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.459Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月24·周二"
+    },
+    {
+      "id": "2e60cb11",
+      "title": "墨刀AIPPT正式上线，一句话生成完整PPT",
+      "content": "墨刀官方宣布AIPPT功能正式上线。墨刀AIPPT是AI驱动的PPT生成工具，用户仅需输入一句话，可快速生成包含封面、目录、章节标题及配套文案思路的PPT草稿，自动匹配排版、配图和配色。",
+      "originalContent": "墨刀AIPPT正式上线，一句话生成完整PPT 墨刀官方宣布AIPPT功能正式上线。墨刀AIPPT是AI驱动的PPT生成工具，用户仅需输入一句话，可快速生成包含封面、目录、章节标题及配套文案思路的PPT草稿，自动匹配排版、配图和配色。",
+      "source": "墨刀",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.460Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "6月24·周二"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:17.987Z"
+}

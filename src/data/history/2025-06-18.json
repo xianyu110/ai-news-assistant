@@ -1,0 +1,74 @@
+{
+  "date": "2025-06-18",
+  "count": 4,
+  "data": [
+    {
+      "id": "6bd6022a",
+      "title": "红杉中国正式开源xbench两个评测集",
+      "content": "红杉中国正式开源xbench评测集，包括xbench-ScienceQA和xbench-DeepSearch两个子集。xbench-ScienceQA聚焦高难度科学与工程问答，邀请博士生和专家出题，题目难度高、区分度好，平均正确率仅32%。xbench-DeepSearch针对 AgentAI的深度搜索能力，考察规划、搜索、推理和总结能力，适配中文互联网环境。",
+      "originalContent": "红杉中国正式开源xbench两个评测集 红杉中国正式开源xbench评测集，包括xbench-ScienceQA和xbench-DeepSearch两个子集。xbench-ScienceQA聚焦高难度科学与工程问答，邀请博士生和专家出题，题目难度高、区分度好，平均正确率仅32%。xbench-DeepSearch针对 AgentAI的深度搜索能力，考察规划、搜索、推理和总结能力，适配中文互联网环境。",
+      "source": "红杉汇",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.471Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月19·周四"
+    },
+    {
+      "id": "f191dcd2",
+      "title": "Midjourney正式推出首个视频生成模型V1，很快、很好、很便宜",
+      "content": "Midjourney推出视频生成模型V1，是一款图生视频模型。用户在生成静态图像后，点击“Animate”按钮即可让画面动起来。系统提供“自动动画”和“手动动画”两种模式，以及低动态和高动态两种强度选项，分别适合不同场景需求。生成视频后，能进行延长操作，每次延长约4秒，最多可延长4次。",
+      "originalContent": "Midjourney正式推出首个视频生成模型V1，很快、很好、很便宜 Midjourney推出视频生成模型V1，是一款图生视频模型。用户在生成静态图像后，点击“Animate”按钮即可让画面动起来。系统提供“自动动画”和“手动动画”两种模式，以及低动态和高动态两种强度选项，分别适合不同场景需求。生成视频后，能进行延长操作，每次延长约4秒，最多可延长4次。",
+      "source": "Midjourney",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.470Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月19·周四"
+    },
+    {
+      "id": "b450cd39",
+      "title": "MiniMax Agent，能完成长程复杂任务的通用智能体",
+      "content": "MiniMax稀宇科技发布的MiniMax Agent通用智能体。能完成长程复杂任务，具备多步规划和灵活拆解任务需求的能力，可生成讨论材料、学习教程、视频等多种内容。设计遵循“靠谱的人”标准，支持多模态输入输出，集成多种办公工具扩展能力。",
+      "originalContent": "MiniMax Agent，能完成长程复杂任务的通用智能体 MiniMax稀宇科技发布的MiniMax Agent通用智能体。能完成长程复杂任务，具备多步规划和灵活拆解任务需求的能力，可生成讨论材料、学习教程、视频等多种内容。设计遵循“靠谱的人”标准，支持多模态输入输出，集成多种办公工具扩展能力。",
+      "source": "MiniMax 稀宇科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.471Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月19·周四"
+    },
+    {
+      "id": "9636ab9d",
+      "title": "AI陪伴硬件公司“珞博智能”完成数千万人民币融资，上影、金沙江领投",
+      "content": "AI陪伴硬件初创公司珞博智能近日完成数千万元人民币天使轮融资，由零一创投、上影新视野基金和金沙江创投参与投资。珞博智能成立于2024年，首款产品芙崽Fuzozo于2025年3月发布，6月正式投入市场销售。芙崽是一款AI养成系潮玩，通过多模态交互与类宠物养成玩法，为Z世代人群提供情感陪伴。",
+      "originalContent": "AI陪伴硬件公司“珞博智能”完成数千万人民币融资，上影、金沙江领投 AI陪伴硬件初创公司珞博智能近日完成数千万元人民币天使轮融资，由零一创投、上影新视野基金和金沙江创投参与投资。珞博智能成立于2024年，首款产品芙崽Fuzozo于2025年3月发布，6月正式投入市场销售。芙崽是一款AI养成系潮玩，通过多模态交互与类宠物养成玩法，为Z世代人群提供情感陪伴。",
+      "source": "Robopoet珞博智能",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.471Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "6月19·周四"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:17.989Z"
+}

@@ -1,0 +1,211 @@
+{
+  "date": "2024-12-03",
+  "count": 12,
+  "data": [
+    {
+      "id": "8b41a105",
+      "title": "文心一言上线“深度写作”专业版功能：会自己搜素材的AI写作",
+      "content": "百度AI推出文心一言“深度写作”专业版，能自动搜索素材并创作个性化文章。可通过上传资料或网盘素材，使内容更具体。适用于多种文档创作，模板将持续更新。",
+      "originalContent": "文心一言上线“深度写作”专业版功能：会自己搜素材的AI写作 百度AI推出文心一言“深度写作”专业版，能自动搜索素材并创作个性化文章。可通过上传资料或网盘素材，使内容更具体。适用于多种文档创作，模板将持续更新。",
+      "source": "百度AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.825Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "12月04日·周三"
+    },
+    {
+      "id": "ad7c92bd",
+      "title": "百度AI推出文心一言“深度写作”专业版，能自动搜索素材并创作个性化文章。可通过上传资料或网盘素材，使内容更具体。适用于多种文档创作，模板将持续更新。来源：百度AI",
+      "content": "刚刚！字节跳动豆包上线图片理解，大模型走向多模态",
+      "originalContent": "百度AI推出文心一言“深度写作”专业版，能自动搜索素材并创作个性化文章。可通过上传资料或网盘素材，使内容更具体。适用于多种文档创作，模板将持续更新。来源：百度AI 刚刚！字节跳动豆包上线图片理解，大模型走向多模态",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月4日"
+    },
+    {
+      "id": "5b37a591",
+      "title": "刚刚！字节跳动豆包上线图片理解，大模型走向多模态",
+      "content": "字节跳动豆包APP和PC端新增图片理解功能，能识别图片内容并回答相关问题，如景点位置和动漫人物身份。标志着AI大模型向多模态发展，更加实用。豆包已成为中国日活用户最高的AI大模型产品，AI应用行业月活跃用户规模同比增长373%。",
+      "originalContent": "刚刚！字节跳动豆包上线图片理解，大模型走向多模态 字节跳动豆包APP和PC端新增图片理解功能，能识别图片内容并回答相关问题，如景点位置和动漫人物身份。标志着AI大模型向多模态发展，更加实用。豆包已成为中国日活用户最高的AI大模型产品，AI应用行业月活跃用户规模同比增长373%。",
+      "source": "钛媒体",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.826Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月04日·周三"
+    },
+    {
+      "id": "b3bbcb71",
+      "title": "字节跳动豆包APP和PC端新增图片理解功能，能识别图片内容并回答相关问题，如景点位置和动漫人物身份。标志着AI大模型向多模态发展，更加实用。豆包已成为中国日活用户最高的AI大模型产品，AI应用行业月活跃用户规模同比增长373%。来源：钛媒体",
+      "content": "亚马逊年末甩王炸！6款大模型、3nm AI芯片、全球最大AI计算集群，苹果罕见站台",
+      "originalContent": "字节跳动豆包APP和PC端新增图片理解功能，能识别图片内容并回答相关问题，如景点位置和动漫人物身份。标志着AI大模型向多模态发展，更加实用。豆包已成为中国日活用户最高的AI大模型产品，AI应用行业月活跃用户规模同比增长373%。来源：钛媒体 亚马逊年末甩王炸！6款大模型、3nm AI芯片、全球最大AI计算集群，苹果罕见站台",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "综合资讯",
+      "tags": [
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月4日"
+    },
+    {
+      "id": "eb0eb05c",
+      "title": "亚马逊年末甩王炸！6款大模型、3nm AI芯片、全球最大AI计算集群，苹果罕见站台",
+      "content": "亚马逊在AWS re:Invent大会上宣布将推出6款大模型和3nm第三代AI训练芯片Trainum3，以及最强AI服务器Trn2 UltraServer。Amazon Nova系列模型涵盖文本、图像和视频，Reel模型支持生成6秒视频。AWS与Anthropic合作构建全球最大AI计算集群，Bedrock服务更新包括自动推理检查、多Agent协作和模型蒸馏功能.",
+      "originalContent": "亚马逊年末甩王炸！6款大模型、3nm AI芯片、全球最大AI计算集群，苹果罕见站台 亚马逊在AWS re:Invent大会上宣布将推出6款大模型和3nm第三代AI训练芯片Trainum3，以及最强AI服务器Trn2 UltraServer。Amazon Nova系列模型涵盖文本、图像和视频，Reel模型支持生成6秒视频。AWS与Anthropic合作构建全球最大AI计算集群，Bedrock服务更新包括自动推理检查、多Agent协作和模型蒸馏功能.",
+      "source": "智东西",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.826Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月04日·周三"
+    },
+    {
+      "id": "4346a866",
+      "title": "亚马逊在AWS re:Invent大会上宣布将推出6款大模型和3nm第三代AI训练芯片Trainum3，以及最强AI服务器Trn2 UltraServer。Amazon Nova系列模型涵盖文本、图像和视频，Reel模型支持生成6秒视频。AWS与Anthropic合作构建全球最大AI计算集群，Bedrock服务更新包括自动推理检查、多Agent协作和模型蒸馏功能.来源：智东西",
+      "content": "即梦2.1模型上线，一键生成图文融合设计图",
+      "originalContent": "亚马逊在AWS re:Invent大会上宣布将推出6款大模型和3nm第三代AI训练芯片Trainum3，以及最强AI服务器Trn2 UltraServer。Amazon Nova系列模型涵盖文本、图像和视频，Reel模型支持生成6秒视频。AWS与Anthropic合作构建全球最大AI计算集群，Bedrock服务更新包括自动推理检查、多Agent协作和模型蒸馏功能.来源：智东西 即梦2.1模型上线，一键生成图文融合设计图",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "12月4日"
+    },
+    {
+      "id": "cc85d4ef",
+      "title": "字节即梦AI发布全新绘图模型v2.1，10秒内一键生成中文海报。解决了中文嵌入问题，支持直接在图片上绘制中英文字体，具有高审美和泛化能力。可通过简单描述生成个性化海报，但需注意避免抄袭。来源：AI工具集",
+      "content": "The Browser Company计划推出新型AI网络浏览器Dia",
+      "originalContent": "字节即梦AI发布全新绘图模型v2.1，10秒内一键生成中文海报。解决了中文嵌入问题，支持直接在图片上绘制中英文字体，具有高审美和泛化能力。可通过简单描述生成个性化海报，但需注意避免抄袭。来源：AI工具集 The Browser Company计划推出新型AI网络浏览器Dia",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月4日"
+    },
+    {
+      "id": "d2749573",
+      "title": "The Browser Company计划推出新型AI网络浏览器Dia",
+      "content": "The Browser Company计划于2025年推出新款AI网络浏览器Dia。Dia具备人工智能功能，如从互联网获取事实、提供写作灵感、总结网页内容，能从打开的标签中复制信息，如亚马逊链接，插入电子邮件。",
+      "originalContent": "The Browser Company计划推出新型AI网络浏览器Dia The Browser Company计划于2025年推出新款AI网络浏览器Dia。Dia具备人工智能功能，如从互联网获取事实、提供写作灵感、总结网页内容，能从打开的标签中复制信息，如亚马逊链接，插入电子邮件。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.826Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "12月04日·周三"
+    },
+    {
+      "id": "92c0db68",
+      "title": "The Browser Company计划于2025年推出新款AI网络浏览器Dia。Dia具备人工智能功能，如从互联网获取事实、提供写作灵感、总结网页内容，能从打开的标签中复制信息，如亚马逊链接，插入电子邮件。来源：AI工具集",
+      "content": "WPS Office推出 WPS AI 语音速记功能",
+      "originalContent": "The Browser Company计划于2025年推出新款AI网络浏览器Dia。Dia具备人工智能功能，如从互联网获取事实、提供写作灵感、总结网页内容，能从打开的标签中复制信息，如亚马逊链接，插入电子邮件。来源：AI工具集 WPS Office推出 WPS AI 语音速记功能",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "12月4日"
+    },
+    {
+      "id": "0b4503f9",
+      "title": "WPS Office推出 WPS AI 语音速记功能",
+      "content": "WPS Office推出了WPS AI语音速记功能，通过WPS AI技术得到增强，与WPS云文档深度整合。支持实时录音和音频导入转文字，实现中英等多种语言互译，确保录音文件的完整性。声纹识别和AI自动总结功能提高转写准确率和速度，提供无缝衔接，确保高安全性能。",
+      "originalContent": "WPS Office推出 WPS AI 语音速记功能 WPS Office推出了WPS AI语音速记功能，通过WPS AI技术得到增强，与WPS云文档深度整合。支持实时录音和音频导入转文字，实现中英等多种语言互译，确保录音文件的完整性。声纹识别和AI自动总结功能提高转写准确率和速度，提供无缝衔接，确保高安全性能。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.827Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月04日·周三"
+    },
+    {
+      "id": "4bd1e288",
+      "title": "WPS Office推出了WPS AI语音速记功能，通过WPS AI技术得到增强，与WPS云文档深度整合。支持实时录音和音频导入转文字，实现中英等多种语言互译，确保录音文件的完整性。声纹识别和AI自动总结功能提高转写准确率和速度，提供无缝衔接，确保高安全性能。来源：AI工具集",
+      "content": "WPS Office推出了WPS AI语音速记功能，通过WPS AI技术得到增强，与WPS云文档深度整合。支持实时录音和音频导入转文字，实现中英等多种语言互译，确保录音文件的完整性。声纹识别和AI自动总结功能提高转写准确率和速度，提供无缝衔接，确保高安全性能。来源：AI工具集",
+      "originalContent": "WPS Office推出了WPS AI语音速记功能，通过WPS AI技术得到增强，与WPS云文档深度整合。支持实时录音和音频导入转文字，实现中英等多种语言互译，确保录音文件的完整性。声纹识别和AI自动总结功能提高转写准确率和速度，提供无缝衔接，确保高安全性能。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.087Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月4日"
+    },
+    {
+      "id": "ed91e415",
+      "title": "即梦2.1模型上线，一键生成图文融合设计图",
+      "content": "字节即梦AI发布全新绘图模型v2.1，10秒内一键生成中文海报。解决了中文嵌入问题，支持直接在图片上绘制中英文字体，具有高审美和泛化能力。可通过简单描述生成个性化海报，但需注意避免抄袭。",
+      "originalContent": "即梦2.1模型上线，一键生成图文融合设计图 字节即梦AI发布全新绘图模型v2.1，10秒内一键生成中文海报。解决了中文嵌入问题，支持直接在图片上绘制中英文字体，具有高审美和泛化能力。可通过简单描述生成个性化海报，但需注意避免抄袭。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-03T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.826Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月04日·周三"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.109Z"
+}

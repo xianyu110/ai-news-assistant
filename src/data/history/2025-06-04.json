@@ -1,0 +1,77 @@
+{
+  "date": "2025-06-04",
+  "count": 4,
+  "data": [
+    {
+      "id": "2b924b94",
+      "title": "秘塔“今天学点啥”平台上线导出PPT功能",
+      "content": "“今天学点啥”平台上线一键导出PPT功能。用户在视频讲解页面点击“导出PPT”按钮，可下载包含图文、语音讲解及逐字稿的完整PPT。功能因算力消耗大，仅前三天（6月5日—6月7日）限时免费。",
+      "originalContent": "秘塔“今天学点啥”平台上线导出PPT功能 “今天学点啥”平台上线一键导出PPT功能。用户在视频讲解页面点击“导出PPT”按钮，可下载包含图文、语音讲解及逐字稿的完整PPT。功能因算力消耗大，仅前三天（6月5日—6月7日）限时免费。",
+      "source": "AI秘塔",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.511Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术"
+      ],
+      "dateText": "6月5·周四"
+    },
+    {
+      "id": "69ad93ec",
+      "title": "OpenAI 发布了两项 ChatGPT 新功能：「连接器」与「记录模式」",
+      "content": "OpenAI为ChatGPT推出两项新功能：“连接器”与“记录模式”。连接器可接入GitHub、Google Drive等平台，实现数据查询与整理，助力企业知识管理。记录模式则能自动录音、记笔记、生成会议纪要，提升会议效率。新功能让ChatGPT融入企业日常，成为打工人“第二大脑”。",
+      "originalContent": "OpenAI 发布了两项 ChatGPT 新功能：「连接器」与「记录模式」 OpenAI为ChatGPT推出两项新功能：“连接器”与“记录模式”。连接器可接入GitHub、Google Drive等平台，实现数据查询与整理，助力企业知识管理。记录模式则能自动录音、记笔记、生成会议纪要，提升会议效率。新功能让ChatGPT融入企业日常，成为打工人“第二大脑”。",
+      "source": "APPSO",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.510Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "6月5·周四"
+    },
+    {
+      "id": "1ccf6080",
+      "title": "Cursor 1.0 发布：BugBot 代码审查、Memories 记忆、一键 MCP 安装等",
+      "content": "Cursor 1.0 正式发布，新增 BugBot 自动代码审查工具，可自动审查 PRs 精准识别潜在问题，发现问题后能在 GitHub 的 PR 上评论提供修复提示；推出测试版 Memories 功能，可按项目存储对话中的关键信息；支持一键安装 MCP 服务器并简化验证流程；聊天界面新增可视化支持，优化了设置和仪表盘界面；简化定价模式。",
+      "originalContent": "Cursor 1.0 发布：BugBot 代码审查、Memories 记忆、一键 MCP 安装等 Cursor 1.0 正式发布，新增 BugBot 自动代码审查工具，可自动审查 PRs 精准识别潜在问题，发现问题后能在 GitHub 的 PR 上评论提供修复提示；推出测试版 Memories 功能，可按项目存储对话中的关键信息；支持一键安装 MCP 服务器并简化验证流程；聊天界面新增可视化支持，优化了设置和仪表盘界面；简化定价模式。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.512Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "研究",
+        "AI工具"
+      ],
+      "dateText": "6月5·周四"
+    },
+    {
+      "id": "7909d73f",
+      "title": "AMD 收购 AI 软件优化初创公司 Brium",
+      "content": "AMD 宣布收购 Brium，Brium 专注于开发可适配多种硬件架构的机器学习推理技术，能让原本为英伟达等特定硬件设计的 AI 模型在其他品牌平台上有效运行。AMD 表示此举在推动“高性能、开放的 AI 软件生态建设”，支持开发者创新。",
+      "originalContent": "AMD 收购 AI 软件优化初创公司 Brium AMD 宣布收购 Brium，Brium 专注于开发可适配多种硬件架构的机器学习推理技术，能让原本为英伟达等特定硬件设计的 AI 模型在其他品牌平台上有效运行。AMD 表示此举在推动“高性能、开放的 AI 软件生态建设”，支持开发者创新。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.512Z",
+      "category": "行业动态",
+      "tags": [
+        "开源",
+        "合作",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "6月5·周四"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:17.999Z"
+}

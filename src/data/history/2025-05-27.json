@@ -1,0 +1,133 @@
+{
+  "date": "2025-05-27",
+  "count": 7,
+  "data": [
+    {
+      "id": "cfbd10d7",
+      "title": "腾讯混元开源语音数字人模型HunyuanVideo-Avatar",
+      "content": "腾讯混元开源语音数字人模型HunyuanVideo-Avatar，模型由腾讯混元视频大模型及腾讯音乐天琴实验室MuseV技术联合研发。用户只需上传一张图片和一段音频，模型能生成人物自然说话或唱歌的视频，支持多种场景和风格。",
+      "originalContent": "腾讯混元开源语音数字人模型HunyuanVideo-Avatar 腾讯混元开源语音数字人模型HunyuanVideo-Avatar，模型由腾讯混元视频大模型及腾讯音乐天琴实验室MuseV技术联合研发。用户只需上传一张图片和一段音频，模型能生成人物自然说话或唱歌的视频，支持多种场景和风格。",
+      "source": "腾讯混元",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-27T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.531Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "研究",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "5月28·周三"
+    },
+    {
+      "id": "6bc6c005",
+      "title": "小红书与复旦哲学达成“AI+人文”合作",
+      "content": "小红书hi lab与复旦大学哲学学院共同成立“AI人文人才训练营”，培养“AI+人文”复合型人才。合作聚焦于AI后训练阶段的人文课题，将人文关怀注入AI训练中，使AI更具人性化表达和价值对齐能力。小红书hi lab由内部大模型技术与应用产品团队升级而成，专注于人文智能研究。",
+      "originalContent": "小红书与复旦哲学达成“AI+人文”合作 小红书hi lab与复旦大学哲学学院共同成立“AI人文人才训练营”，培养“AI+人文”复合型人才。合作聚焦于AI后训练阶段的人文课题，将人文关怀注入AI训练中，使AI更具人性化表达和价值对齐能力。小红书hi lab由内部大模型技术与应用产品团队升级而成，专注于人文智能研究。",
+      "source": "小红书",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-27T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.532Z",
+      "category": "产品发布",
+      "tags": [
+        "合作",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "5月28·周三"
+    },
+    {
+      "id": "4ee4df4a",
+      "title": "AI初创公司SpAItial获1300万美金种子资金",
+      "content": "欧洲顶尖AI 3D模型研究者马蒂亚斯·尼斯纳创立的初创公司SpAItial获得1300万美元种子轮融资，领投方为Earlybird Venture Capital。尼斯纳曾是Synthesia的联合创始人，团队成员来自Meta和谷歌等公司。SpAItial专注于文本生成3D在线环境的基础模型，目标是创造可交互的3D世界。",
+      "originalContent": "AI初创公司SpAItial获1300万美金种子资金 欧洲顶尖AI 3D模型研究者马蒂亚斯·尼斯纳创立的初创公司SpAItial获得1300万美元种子轮融资，领投方为Earlybird Venture Capital。尼斯纳曾是Synthesia的联合创始人，团队成员来自Meta和谷歌等公司。SpAItial专注于文本生成3D在线环境的基础模型，目标是创造可交互的3D世界。",
+      "source": "Z Potentials",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-27T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.532Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "5月28·周三"
+    },
+    {
+      "id": "3f8a9c9e",
+      "title": "AI编程IDE Trae.ai 海外版正式上线Pro订阅模式",
+      "content": "字节跳动的AI编程IDE Trae海外版正式上线Pro订阅模式，结束了完全免费和无限调用的时代。Pro订阅首月3美元，次月起10美元/月或90美元/年，提供600次快速请求额度。Pro用户仍需排队，但速度更快。Trae支持9款高级模型，包括Claude Sonnet 4和GPT-4.1等。",
+      "originalContent": "AI编程IDE Trae.ai 海外版正式上线Pro订阅模式 字节跳动的AI编程IDE Trae海外版正式上线Pro订阅模式，结束了完全免费和无限调用的时代。Pro订阅首月3美元，次月起10美元/月或90美元/年，提供600次快速请求额度。Pro用户仍需排队，但速度更快。Trae支持9款高级模型，包括Claude Sonnet 4和GPT-4.1等。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-27T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.533Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "5月28·周三"
+    },
+    {
+      "id": "68e31622",
+      "title": "字节再出AI新产品「剪小映」简化版视频剪辑应用",
+      "content": "字节跳动旗下剪映团队近期推出AI简化版应用「剪小映」，应用主打一键式操作，用户上传图片和视频后，应用自动剪辑并提供滤镜模板和音乐选择，快速生成抖音风格视频，简化流程使无专业剪辑经验者也能轻松制作高质量短视频。",
+      "originalContent": "字节再出AI新产品「剪小映」简化版视频剪辑应用 字节跳动旗下剪映团队近期推出AI简化版应用「剪小映」，应用主打一键式操作，用户上传图片和视频后，应用自动剪辑并提供滤镜模板和音乐选择，快速生成抖音风格视频，简化流程使无专业剪辑经验者也能轻松制作高质量短视频。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-27T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.533Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "5月28·周三"
+    },
+    {
+      "id": "b234ac46",
+      "title": "具身智能公司优理奇机器人完成数亿元天使轮及天使+轮融资",
+      "content": "优理奇机器人（UniX AI）近期完成数亿元天使轮及天使+轮融资，投资方包括中关村前沿基金、赛纳资本及长安私人资本。本轮融资将用于加速研发多模态具身智能大模型与通用机器人本体的同步演进，并推动其在泛商业服务和C端场景的落地。",
+      "originalContent": "具身智能公司优理奇机器人完成数亿元天使轮及天使+轮融资 优理奇机器人（UniX AI）近期完成数亿元天使轮及天使+轮融资，投资方包括中关村前沿基金、赛纳资本及长安私人资本。本轮融资将用于加速研发多模态具身智能大模型与通用机器人本体的同步演进，并推动其在泛商业服务和C端场景的落地。",
+      "source": "Z Potentials",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-27T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.534Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "大模型",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "5月28·周三"
+    },
+    {
+      "id": "6dd6f684",
+      "title": "阿里巴巴集团与SAP达成战略合作，探索接入通义千问大模型",
+      "content": "阿里巴巴集团与SAP宣布达成战略合作。合作将SAP领先的企业级软件与阿里云的基础设施及AI能力相结合，加速企业客户的创新和数字化转型。阿里云将作为SAP超大规模云服务提供商，支持企业在阿里云上部署SAP ERP云及私有云版本，加入SAP IaaS认证计划。SAP将探索接入通义千问大模型，使企业客户能在SAP应用中使用本地化生成式AI功能。",
+      "originalContent": "阿里巴巴集团与SAP达成战略合作，探索接入通义千问大模型 阿里巴巴集团与SAP宣布达成战略合作。合作将SAP领先的企业级软件与阿里云的基础设施及AI能力相结合，加速企业客户的创新和数字化转型。阿里云将作为SAP超大规模云服务提供商，支持企业在阿里云上部署SAP ERP云及私有云版本，加入SAP IaaS认证计划。SAP将探索接入通义千问大模型，使企业客户能在SAP应用中使用本地化生成式AI功能。",
+      "source": "阿里云",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-27T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.534Z",
+      "category": "产品发布",
+      "tags": [
+        "合作",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "5月28·周三"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.004Z"
+}

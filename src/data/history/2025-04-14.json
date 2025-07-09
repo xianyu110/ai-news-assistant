@@ -1,0 +1,189 @@
+{
+  "date": "2025-04-14",
+  "count": 10,
+  "data": [
+    {
+      "id": "feda3e82",
+      "title": "快手发布可灵 2.0 视频生成模型及可图 2.0 图像生成模型，国产AI视频新突破",
+      "content": "快手可灵AI正式发布可灵2.0视频生成模型，可灵AI 2.0在模型层面迎来重大更新，画面美学、语义响应和动态质量大幅提升。新增“多模态编辑”功能，支持在视频基础上输入图片/文字进行精准修改和再创作；可图2.0新增“图片编辑”及“风格转绘”功能。具备AI音效生成功能，可根据影像内容和文字prompt生成适配音效。",
+      "originalContent": "快手发布可灵 2.0 视频生成模型及可图 2.0 图像生成模型，国产AI视频新突破 快手可灵AI正式发布可灵2.0视频生成模型，可灵AI 2.0在模型层面迎来重大更新，画面美学、语义响应和动态质量大幅提升。新增“多模态编辑”功能，支持在视频基础上输入图片/文字进行精准修改和再创作；可图2.0新增“图片编辑”及“风格转绘”功能。具备AI音效生成功能，可根据影像内容和文字prompt生成适配音效。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.630Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "8ea72356",
+      "title": "快手可灵AI正式发布可灵2.0视频生成模型，可灵AI 2.0在模型层面迎来重大更新，画面美学、语义响应和动态质量大幅提升。新增“多模态编辑”功能，支持在视频基础上输入图片/文字进行精准修改和再创作；可图2.0新增“图片编辑”及“风格转绘”功能。具备AI音效生成功能，可根据影像内容和文字prompt生成适配音效。来源：AI工具集",
+      "content": "OpenAI发布GPT-4.1系列模型：编码、指令遵循和长文本处理能力大幅提升",
+      "originalContent": "快手可灵AI正式发布可灵2.0视频生成模型，可灵AI 2.0在模型层面迎来重大更新，画面美学、语义响应和动态质量大幅提升。新增“多模态编辑”功能，支持在视频基础上输入图片/文字进行精准修改和再创作；可图2.0新增“图片编辑”及“风格转绘”功能。具备AI音效生成功能，可根据影像内容和文字prompt生成适配音效。来源：AI工具集 OpenAI发布GPT-4.1系列模型：编码、指令遵循和长文本处理能力大幅提升",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.072Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月15日"
+    },
+    {
+      "id": "5bca76d4",
+      "title": "OpenAI发布GPT-4.1系列模型：编码、指令遵循和长文本处理能力大幅提升",
+      "content": "OpenAI推出新一代GPT模型GPT-4.1系列，包括GPT-4.1、GPT-4.1 mini和GPT-4.1 nano。模型在编码、指令遵循和长文本处理方面大幅领先于GPT-4o，支持高达100万tokens的上下文窗口，知识截止日期更新至2024年6月。GPT-4.1 mini在性能和成本上均优于GPT-4o，GPT-4.1 nano是最快最便宜的模型，适合分类和自动补全任务。",
+      "originalContent": "OpenAI发布GPT-4.1系列模型：编码、指令遵循和长文本处理能力大幅提升 OpenAI推出新一代GPT模型GPT-4.1系列，包括GPT-4.1、GPT-4.1 mini和GPT-4.1 nano。模型在编码、指令遵循和长文本处理方面大幅领先于GPT-4o，支持高达100万tokens的上下文窗口，知识截止日期更新至2024年6月。GPT-4.1 mini在性能和成本上均优于GPT-4o，GPT-4.1 nano是最快最便宜的模型，适合分类和自动补全任务。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.631Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "22b9b052",
+      "title": "阿里云旗下的AI开源社区魔搭（ModelScope）推出全新MCP广场，上架千余款热门MCP服务，独家首发支付宝、MiniMax等全新MCP服务。支付宝MCP服务是国内首款聚焦AI智能体支付场景的服务，可实现交易创建、查询、退款等功能；MiniMax MCP服务器封装了语音生成、语音克隆、图片生成及视频生成等多模态能力。来源：阿里云",
+      "content": "智谱启用全新全球域名“z.ai”，开源高性能GLM模型系列",
+      "originalContent": "阿里云旗下的AI开源社区魔搭（ModelScope）推出全新MCP广场，上架千余款热门MCP服务，独家首发支付宝、MiniMax等全新MCP服务。支付宝MCP服务是国内首款聚焦AI智能体支付场景的服务，可实现交易创建、查询、退款等功能；MiniMax MCP服务器封装了语音生成、语音克隆、图片生成及视频生成等多模态能力。来源：阿里云 智谱启用全新全球域名“z.ai”，开源高性能GLM模型系列",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.072Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月15日"
+    },
+    {
+      "id": "df0e69d1",
+      "title": "MiniMax 稀宇科技宣布其 MiniMax MCP Server 正式上线。服务器通过简单文本输入即可调用视频、图像、语音生成及声音克隆等多项多模态能力，兼容 Claude Desktop、Cursor、Windsurf 和 OpenAI Agents 等主流 MCP 客户端。来源：MiniMax 稀宇科技",
+      "content": "Hugging Face 收购 Pollen Robotics，进军人形机器人市场",
+      "originalContent": "MiniMax 稀宇科技宣布其 MiniMax MCP Server 正式上线。服务器通过简单文本输入即可调用视频、图像、语音生成及声音克隆等多项多模态能力，兼容 Claude Desktop、Cursor、Windsurf 和 OpenAI Agents 等主流 MCP 客户端。来源：MiniMax 稀宇科技 Hugging Face 收购 Pollen Robotics，进军人形机器人市场",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.072Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "AI工具",
+        "智能体",
+        "机器人"
+      ],
+      "dateText": "4月15日"
+    },
+    {
+      "id": "71d4a38c",
+      "title": "人工智能开发平台Hugging Face收购法国人形机器人初创公司Pollen Robotics，此次收购标志着Hugging Face在机器人领域的拓展，双方此前已合作打造开源家务机器人“Le Robot”。Hugging Face成立了由曾在特斯拉Optimus项目任职的雷米・卡德内领导的机器人团队，计划销售Pollen的人形机器人Reachy 2并开放代码供开发者改进。来源：IT之家",
+      "content": "人工智能开发平台Hugging Face收购法国人形机器人初创公司Pollen Robotics，此次收购标志着Hugging Face在机器人领域的拓展，双方此前已合作打造开源家务机器人“Le Robot”。Hugging Face成立了由曾在特斯拉Optimus项目任职的雷米・卡德内领导的机器人团队，计划销售Pollen的人形机器人Reachy 2并开放代码供开发者改进。来源：IT之家",
+      "originalContent": "人工智能开发平台Hugging Face收购法国人形机器人初创公司Pollen Robotics，此次收购标志着Hugging Face在机器人领域的拓展，双方此前已合作打造开源家务机器人“Le Robot”。Hugging Face成立了由曾在特斯拉Optimus项目任职的雷米・卡德内领导的机器人团队，计划销售Pollen的人形机器人Reachy 2并开放代码供开发者改进。来源：IT之家",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.072Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "技术",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "4月15日"
+    },
+    {
+      "id": "35599d16",
+      "title": "魔搭上线最大MCP中文社区，独家首发支付宝、MiniMax等MCP",
+      "content": "阿里云旗下的AI开源社区魔搭（ModelScope）推出全新MCP广场，上架千余款热门MCP服务，独家首发支付宝、MiniMax等全新MCP服务。支付宝MCP服务是国内首款聚焦AI智能体支付场景的服务，可实现交易创建、查询、退款等功能；MiniMax MCP服务器封装了语音生成、语音克隆、图片生成及视频生成等多模态能力。",
+      "originalContent": "魔搭上线最大MCP中文社区，独家首发支付宝、MiniMax等MCP 阿里云旗下的AI开源社区魔搭（ModelScope）推出全新MCP广场，上架千余款热门MCP服务，独家首发支付宝、MiniMax等全新MCP服务。支付宝MCP服务是国内首款聚焦AI智能体支付场景的服务，可实现交易创建、查询、退款等功能；MiniMax MCP服务器封装了语音生成、语音克隆、图片生成及视频生成等多模态能力。",
+      "source": "阿里云",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.631Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "f4190e49",
+      "title": "MiniMax MCP Server 上线：多模态能力，一键触达",
+      "content": "MiniMax 稀宇科技宣布其 MiniMax MCP Server 正式上线。服务器通过简单文本输入即可调用视频、图像、语音生成及声音克隆等多项多模态能力，兼容 Claude Desktop、Cursor、Windsurf 和 OpenAI Agents 等主流 MCP 客户端。",
+      "originalContent": "MiniMax MCP Server 上线：多模态能力，一键触达 MiniMax 稀宇科技宣布其 MiniMax MCP Server 正式上线。服务器通过简单文本输入即可调用视频、图像、语音生成及声音克隆等多项多模态能力，兼容 Claude Desktop、Cursor、Windsurf 和 OpenAI Agents 等主流 MCP 客户端。",
+      "source": "MiniMax 稀宇科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.632Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "f556fb4e",
+      "title": "Hugging Face 收购 Pollen Robotics，进军人形机器人市场",
+      "content": "人工智能开发平台Hugging Face收购法国人形机器人初创公司Pollen Robotics，此次收购标志着Hugging Face在机器人领域的拓展，双方此前已合作打造开源家务机器人“Le Robot”。Hugging Face成立了由曾在特斯拉Optimus项目任职的雷米・卡德内领导的机器人团队，计划销售Pollen的人形机器人Reachy 2并开放代码供开发者改进。",
+      "originalContent": "Hugging Face 收购 Pollen Robotics，进军人形机器人市场 人工智能开发平台Hugging Face收购法国人形机器人初创公司Pollen Robotics，此次收购标志着Hugging Face在机器人领域的拓展，双方此前已合作打造开源家务机器人“Le Robot”。Hugging Face成立了由曾在特斯拉Optimus项目任职的雷米・卡德内领导的机器人团队，计划销售Pollen的人形机器人Reachy 2并开放代码供开发者改进。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.632Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "技术",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "4cdae37c",
+      "title": "智谱启用全新全球域名“z.ai”，开源高性能GLM模型系列",
+      "content": "智谱启用全新域名“z.ai”，整合32B基座、推理、沉思三类模型，作为最新模型的交互体验入口。基座模型和推理模型已上线智谱MaaS平台，提供API服务，部分版本免费。宣布开源32B/9B系列GLM模型，涵盖基座、推理、沉思模型，均采用MIT许可协议，可免费用于商业用途。",
+      "originalContent": "智谱启用全新全球域名“z.ai”，开源高性能GLM模型系列 智谱启用全新域名“z.ai”，整合32B基座、推理、沉思三类模型，作为最新模型的交互体验入口。基座模型和推理模型已上线智谱MaaS平台，提供API服务，部分版本免费。宣布开源32B/9B系列GLM模型，涵盖基座、推理、沉思模型，均采用MIT许可协议，可免费用于商业用途。",
+      "source": "智谱",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.632Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "4月15日·周二"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.031Z"
+}

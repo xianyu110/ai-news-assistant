@@ -1,0 +1,221 @@
+{
+  "date": "2025-02-23",
+  "count": 12,
+  "data": [
+    {
+      "id": "52780a11",
+      "title": "DeepSeek启动“开源周”，首个开源项目为FlashMLA，是针对NVIDIA Hopper GPU优化的高效MLA解码内核，专为处理可变长度序列设计。灵感来源于FlashAttention 2&3和Cutlass项目。FlashMLA支持CUDA 12.3及以上版本、PyTorch 2.0及以上版本。来源：AI工具集",
+      "content": "LiblibAI一年内完成四轮融资，再次斩获数亿元资金",
+      "originalContent": "DeepSeek启动“开源周”，首个开源项目为FlashMLA，是针对NVIDIA Hopper GPU优化的高效MLA解码内核，专为处理可变长度序列设计。灵感来源于FlashAttention 2&3和Cutlass项目。FlashMLA支持CUDA 12.3及以上版本、PyTorch 2.0及以上版本。来源：AI工具集 LiblibAI一年内完成四轮融资，再次斩获数亿元资金",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "投融资",
+      "tags": [
+        "开源",
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "2月24日"
+    },
+    {
+      "id": "4bacccf5",
+      "title": "LiblibAI一年内完成四轮融资，再次斩获数亿元资金",
+      "content": "LiblibAI宣布在过去一年内连续完成四轮融资，创下国内AI应用赛道融资速度新纪录。最新两轮融资由渶策资本、顺为资本领投，明势创投等跟投，巨人网络参与产业投资。LiblibAI致力于AI内容创作与分享，已拥有超2000万创作者和5亿张生成图片。本轮融资将重点投入创作者生态建设和技术研发，推动平台全球化发展。",
+      "originalContent": "LiblibAI一年内完成四轮融资，再次斩获数亿元资金 LiblibAI宣布在过去一年内连续完成四轮融资，创下国内AI应用赛道融资速度新纪录。最新两轮融资由渶策资本、顺为资本领投，明势创投等跟投，巨人网络参与产业投资。LiblibAI致力于AI内容创作与分享，已拥有超2000万创作者和5亿张生成图片。本轮融资将重点投入创作者生态建设和技术研发，推动平台全球化发展。",
+      "source": "LiblibAI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.711Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "0fd9030a",
+      "title": "LiblibAI宣布在过去一年内连续完成四轮融资，创下国内AI应用赛道融资速度新纪录。最新两轮融资由渶策资本、顺为资本领投，明势创投等跟投，巨人网络参与产业投资。LiblibAI致力于AI内容创作与分享，已拥有超2000万创作者和5亿张生成图片。本轮融资将重点投入创作者生态建设和技术研发，推动平台全球化发展。来源：LiblibAI",
+      "content": "爱诗科技推出PixVerse V4：5秒生成AI视频，音画同步",
+      "originalContent": "LiblibAI宣布在过去一年内连续完成四轮融资，创下国内AI应用赛道融资速度新纪录。最新两轮融资由渶策资本、顺为资本领投，明势创投等跟投，巨人网络参与产业投资。LiblibAI致力于AI内容创作与分享，已拥有超2000万创作者和5亿张生成图片。本轮融资将重点投入创作者生态建设和技术研发，推动平台全球化发展。来源：LiblibAI 爱诗科技推出PixVerse V4：5秒生成AI视频，音画同步",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月24日"
+    },
+    {
+      "id": "f17a2e7f",
+      "title": "爱诗科技推出PixVerse V4：5秒生成AI视频，音画同步",
+      "content": "爱诗科技发布PixVerse V4，带来AI视频创作新突破。新增“音效”功能，可自动生成与视频内容匹配的音效；“人声”功能可为视频角色生成口型一致的配音；“重绘”功能支持一键切换视频风格，提供赛博、芭比等多种风格。生成速度可达5秒。",
+      "originalContent": "爱诗科技推出PixVerse V4：5秒生成AI视频，音画同步 爱诗科技发布PixVerse V4，带来AI视频创作新突破。新增“音效”功能，可自动生成与视频内容匹配的音效；“人声”功能可为视频角色生成口型一致的配音；“重绘”功能支持一键切换视频风格，提供赛博、芭比等多种风格。生成速度可达5秒。",
+      "source": "爱诗科技 AIsphere",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.712Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "138c0148",
+      "title": "爱诗科技发布PixVerse V4，带来AI视频创作新突破。新增“音效”功能，可自动生成与视频内容匹配的音效；“人声”功能可为视频角色生成口型一致的配音；“重绘”功能支持一键切换视频风格，提供赛博、芭比等多种风格。生成速度可达5秒。来源：爱诗科技 AIsphere",
+      "content": "LiblibAI 作为独家 AIGC 创作合作平台接入阶跃开源视频生成大模型",
+      "originalContent": "爱诗科技发布PixVerse V4，带来AI视频创作新突破。新增“音效”功能，可自动生成与视频内容匹配的音效；“人声”功能可为视频角色生成口型一致的配音；“重绘”功能支持一键切换视频风格，提供赛博、芭比等多种风格。生成速度可达5秒。来源：爱诗科技 AIsphere LiblibAI 作为独家 AIGC 创作合作平台接入阶跃开源视频生成大模型",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "2月24日"
+    },
+    {
+      "id": "808d99a1",
+      "title": "LiblibAI 作为独家 AIGC 创作合作平台接入阶跃开源视频生成大模型",
+      "content": "上海阶跃星辰智能科技有限公司开源的视频生成大模型“Step-Video-T2V”正式接入LiblibAI平台，LiblibAI成为其独家AIGC创作合作平台。此次合作推动AI技术的普及与创新，为全球开发者和创作者提供更优质的服务。",
+      "originalContent": "LiblibAI 作为独家 AIGC 创作合作平台接入阶跃开源视频生成大模型 上海阶跃星辰智能科技有限公司开源的视频生成大模型“Step-Video-T2V”正式接入LiblibAI平台，LiblibAI成为其独家AIGC创作合作平台。此次合作推动AI技术的普及与创新，为全球开发者和创作者提供更优质的服务。",
+      "source": "阶跃星辰",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.712Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "6d5765c0",
+      "title": "上海阶跃星辰智能科技有限公司开源的视频生成大模型“Step-Video-T2V”正式接入LiblibAI平台，LiblibAI成为其独家AIGC创作合作平台。此次合作推动AI技术的普及与创新，为全球开发者和创作者提供更优质的服务。来源：阶跃星辰",
+      "content": "马斯克宣布 Grok 3 语音模式早期测试版已上线",
+      "originalContent": "上海阶跃星辰智能科技有限公司开源的视频生成大模型“Step-Video-T2V”正式接入LiblibAI平台，LiblibAI成为其独家AIGC创作合作平台。此次合作推动AI技术的普及与创新，为全球开发者和创作者提供更优质的服务。来源：阶跃星辰 马斯克宣布 Grok 3 语音模式早期测试版已上线",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "2月24日"
+    },
+    {
+      "id": "2aec4a1e",
+      "title": "马斯克在社交平台X宣布，Grok 3语音模式早期测试版已在Grok应用程序上线。支持用户通过自然语言与AI对话，提供两种声音（Ara和Grok）及不同个性，支持添加自定义说明和分享对话。来源：IT之家",
+      "content": "月之暗面 Kimi 开源“Moonlight”混合专家模型",
+      "originalContent": "马斯克在社交平台X宣布，Grok 3语音模式早期测试版已在Grok应用程序上线。支持用户通过自然语言与AI对话，提供两种声音（Ara和Grok）及不同个性，支持添加自定义说明和分享对话。来源：IT之家 月之暗面 Kimi 开源“Moonlight”混合专家模型",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "2月24日"
+    },
+    {
+      "id": "bac41f9e",
+      "title": "月之暗面Kimi发布“Moonlight”混合专家模型（MoE），包含30亿和160亿参数版本。模型在Muon技术基础上训练，使用了5.7万亿个token，以更低的浮点运算次数（FLOPs）实现更优性能，提升了帕累托效率边界。团队通过添加权重衰减等技术优化Muon优化器，无需超参数调优可用于大规模训练，计算效率是AdamW的2倍。来源：AI工具集",
+      "content": "月之暗面Kimi发布“Moonlight”混合专家模型（MoE），包含30亿和160亿参数版本。模型在Muon技术基础上训练，使用了5.7万亿个token，以更低的浮点运算次数（FLOPs）实现更优性能，提升了帕累托效率边界。团队通过添加权重衰减等技术优化Muon优化器，无需超参数调优可用于大规模训练，计算效率是AdamW的2倍。来源：AI工具集",
+      "originalContent": "月之暗面Kimi发布“Moonlight”混合专家模型（MoE），包含30亿和160亿参数版本。模型在Muon技术基础上训练，使用了5.7万亿个token，以更低的浮点运算次数（FLOPs）实现更优性能，提升了帕累托效率边界。团队通过添加权重衰减等技术优化Muon优化器，无需超参数调优可用于大规模训练，计算效率是AdamW的2倍。来源：AI工具集",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.077Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月24日"
+    },
+    {
+      "id": "601d5e89",
+      "title": "马斯克宣布 Grok 3 语音模式早期测试版已上线",
+      "content": "马斯克在社交平台X宣布，Grok 3语音模式早期测试版已在Grok应用程序上线。支持用户通过自然语言与AI对话，提供两种声音（Ara和Grok）及不同个性，支持添加自定义说明和分享对话。",
+      "originalContent": "马斯克宣布 Grok 3 语音模式早期测试版已上线 马斯克在社交平台X宣布，Grok 3语音模式早期测试版已在Grok应用程序上线。支持用户通过自然语言与AI对话，提供两种声音（Ara和Grok）及不同个性，支持添加自定义说明和分享对话。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.712Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "444b3aa7",
+      "title": "月之暗面 Kimi 开源“Moonlight”混合专家模型",
+      "content": "月之暗面Kimi发布“Moonlight”混合专家模型（MoE），包含30亿和160亿参数版本。模型在Muon技术基础上训练，使用了5.7万亿个token，以更低的浮点运算次数（FLOPs）实现更优性能，提升了帕累托效率边界。团队通过添加权重衰减等技术优化Muon优化器，无需超参数调优可用于大规模训练，计算效率是AdamW的2倍。",
+      "originalContent": "月之暗面 Kimi 开源“Moonlight”混合专家模型 月之暗面Kimi发布“Moonlight”混合专家模型（MoE），包含30亿和160亿参数版本。模型在Muon技术基础上训练，使用了5.7万亿个token，以更低的浮点运算次数（FLOPs）实现更优性能，提升了帕累托效率边界。团队通过添加权重衰减等技术优化Muon优化器，无需超参数调优可用于大规模训练，计算效率是AdamW的2倍。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.713Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "ffadcb42",
+      "title": "DeepSeek 开源周首日推出 FlashMLA，为 Hopper GPU 优化的高效 MLA 解码内核",
+      "content": "DeepSeek启动“开源周”，首个开源项目为FlashMLA，是针对NVIDIA Hopper GPU优化的高效MLA解码内核，专为处理可变长度序列设计。灵感来源于FlashAttention 2&3和Cutlass项目。FlashMLA支持CUDA 12.3及以上版本、PyTorch 2.0及以上版本。",
+      "originalContent": "DeepSeek 开源周首日推出 FlashMLA，为 Hopper GPU 优化的高效 MLA 解码内核 DeepSeek启动“开源周”，首个开源项目为FlashMLA，是针对NVIDIA Hopper GPU优化的高效MLA解码内核，专为处理可变长度序列设计。灵感来源于FlashAttention 2&3和Cutlass项目。FlashMLA支持CUDA 12.3及以上版本、PyTorch 2.0及以上版本。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-23T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.711Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布"
+      ],
+      "dateText": "2月24日·周一"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.057Z"
+}

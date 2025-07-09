@@ -1,0 +1,238 @@
+{
+  "date": "2025-03-09",
+  "count": 13,
+  "data": [
+    {
+      "id": "03243e30",
+      "title": "MetaGPT 团队推出 OpenManus ：开源版 Manus",
+      "content": "MetaGPT的5人小团队仅用3小时成功复刻了开源版Manus——OpenManus，在GitHub上获得了8k+的star。OpenManus无需邀请码，可以自由使用。用户可通过创建conda环境、克隆存储库、安装依赖项并配置API密钥等步骤快速上手使用。",
+      "originalContent": "MetaGPT 团队推出 OpenManus ：开源版 Manus MetaGPT的5人小团队仅用3小时成功复刻了开源版Manus——OpenManus，在GitHub上获得了8k+的star。OpenManus无需邀请码，可以自由使用。用户可通过创建conda环境、克隆存储库、安装依赖项并配置API密钥等步骤快速上手使用。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.690Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布"
+      ],
+      "dateText": "3月10日·周一"
+    },
+    {
+      "id": "e4c284a7",
+      "title": "MetaGPT的5人小团队仅用3小时成功复刻了开源版Manus——OpenManus，在GitHub上获得了8k+的star。OpenManus无需邀请码，可以自由使用。用户可通过创建conda环境、克隆存储库、安装依赖项并配置API密钥等步骤快速上手使用。来源：AI工具集",
+      "content": "智元发布首个通用具身基座大模型GO-1",
+      "originalContent": "MetaGPT的5人小团队仅用3小时成功复刻了开源版Manus——OpenManus，在GitHub上获得了8k+的star。OpenManus无需邀请码，可以自由使用。用户可通过创建conda环境、克隆存储库、安装依赖项并配置API密钥等步骤快速上手使用。来源：AI工具集 智元发布首个通用具身基座大模型GO-1",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月10日"
+    },
+    {
+      "id": "30bcd931",
+      "title": "智元发布首个通用具身基座大模型GO-1",
+      "content": "智元机器人发布首个通用具身基座大模型Genie Operator-1（GO-1）。模型基于创新的Vision-Language-Latent-Action（ViLLA）架构，融合多模态大模型（VLM）和混合专家系统（MoE），通过预测隐式动作标记，弥合图像-文本输入与机器人动作执行之间的差距。",
+      "originalContent": "智元发布首个通用具身基座大模型GO-1 智元机器人发布首个通用具身基座大模型Genie Operator-1（GO-1）。模型基于创新的Vision-Language-Latent-Action（ViLLA）架构，融合多模态大模型（VLM）和混合专家系统（MoE），通过预测隐式动作标记，弥合图像-文本输入与机器人动作执行之间的差距。",
+      "source": "智元机器人",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.690Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "机器人"
+      ],
+      "dateText": "3月10日·周一"
+    },
+    {
+      "id": "3f97fd90",
+      "title": "智元机器人发布首个通用具身基座大模型Genie Operator-1（GO-1）。模型基于创新的Vision-Language-Latent-Action（ViLLA）架构，融合多模态大模型（VLM）和混合专家系统（MoE），通过预测隐式动作标记，弥合图像-文本输入与机器人动作执行之间的差距。来源：智元机器人",
+      "content": "超算互联网QwQ-32B API接口服务上线，免费100万Tokens",
+      "originalContent": "智元机器人发布首个通用具身基座大模型Genie Operator-1（GO-1）。模型基于创新的Vision-Language-Latent-Action（ViLLA）架构，融合多模态大模型（VLM）和混合专家系统（MoE），通过预测隐式动作标记，弥合图像-文本输入与机器人动作执行之间的差距。来源：智元机器人 超算互联网QwQ-32B API接口服务上线，免费100万Tokens",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "机器人"
+      ],
+      "dateText": "3月10日"
+    },
+    {
+      "id": "013b45e9",
+      "title": "北京大学联合华为发布全栈开源DeepSeek推理方案",
+      "content": "北京大学联合华为发布DeepSeek全栈开源推理方案。方案基于北大自研的SCOW算力平台系统、鹤思调度系统，整合了DeepSeek、openEuler、MindSpore与vLLM/RAY等开源组件，实现了华为昇腾上的高效推理，支持大规模算力集群的训推一体化部署。",
+      "originalContent": "北京大学联合华为发布全栈开源DeepSeek推理方案 北京大学联合华为发布DeepSeek全栈开源推理方案。方案基于北大自研的SCOW算力平台系统、鹤思调度系统，整合了DeepSeek、openEuler、MindSpore与vLLM/RAY等开源组件，实现了华为昇腾上的高效推理，支持大规模算力集群的训推一体化部署。",
+      "source": "北京大学高性能计算校级公共平台",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.692Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "3月10日·周一"
+    },
+    {
+      "id": "aca53553",
+      "title": "北京大学联合华为发布DeepSeek全栈开源推理方案。方案基于北大自研的SCOW算力平台系统、鹤思调度系统，整合了DeepSeek、openEuler、MindSpore与vLLM/RAY等开源组件，实现了华为昇腾上的高效推理，支持大规模算力集群的训推一体化部署。来源：北京大学高性能计算校级公共平台",
+      "content": "CAMEL-AI推出OWL项目：0天复刻Manus，开源且性能卓越",
+      "originalContent": "北京大学联合华为发布DeepSeek全栈开源推理方案。方案基于北大自研的SCOW算力平台系统、鹤思调度系统，整合了DeepSeek、openEuler、MindSpore与vLLM/RAY等开源组件，实现了华为昇腾上的高效推理，支持大规模算力集群的训推一体化部署。来源：北京大学高性能计算校级公共平台 CAMEL-AI推出OWL项目：0天复刻Manus，开源且性能卓越",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "3月10日"
+    },
+    {
+      "id": "3413f99c",
+      "title": "CAMEL-AI推出OWL项目：0天复刻Manus，开源且性能卓越",
+      "content": "CAMEL-AI开源社区推出OWL项目，成功0天复刻Manus通用智能体完全开源，性能在GAIA Benchmark上达到57.7%，超越Huggingface的Open Deep Research（55.15%）。OWL项目免费，支持GitHub一键克隆，提供云端和本地两种执行环境。",
+      "originalContent": "CAMEL-AI推出OWL项目：0天复刻Manus，开源且性能卓越 CAMEL-AI开源社区推出OWL项目，成功0天复刻Manus通用智能体完全开源，性能在GAIA Benchmark上达到57.7%，超越Huggingface的Open Deep Research（55.15%）。OWL项目免费，支持GitHub一键克隆，提供云端和本地两种执行环境。",
+      "source": "CAMEL-AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.692Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "3月10日·周一"
+    },
+    {
+      "id": "3189d2db",
+      "title": "CAMEL-AI开源社区推出OWL项目，成功0天复刻Manus通用智能体完全开源，性能在GAIA Benchmark上达到57.7%，超越Huggingface的Open Deep Research（55.15%）。OWL项目免费，支持GitHub一键克隆，提供云端和本地两种执行环境。来源：CAMEL-AI",
+      "content": "Mistral AI 推出 Mistral OCR API：最快最准光学字符识别，千页 1 美元",
+      "originalContent": "CAMEL-AI开源社区推出OWL项目，成功0天复刻Manus通用智能体完全开源，性能在GAIA Benchmark上达到57.7%，超越Huggingface的Open Deep Research（55.15%）。OWL项目免费，支持GitHub一键克隆，提供云端和本地两种执行环境。来源：CAMEL-AI Mistral AI 推出 Mistral OCR API：最快最准光学字符识别，千页 1 美元",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "3月10日"
+    },
+    {
+      "id": "0739409a",
+      "title": "Mistral AI 推出 Mistral OCR API：最快最准光学字符识别，千页 1 美元",
+      "content": "Mistral AI推出Mistral OCR，先进的光学字符识别（OCR）API。能精准识别文档中的文本、图像、表格、公式等复杂元素，支持多语言和多模态输入，处理速度可达每分钟2000页。在基准测试中，Mistral OCR的准确率高达94.89%，全面领先其他OCR模型。",
+      "originalContent": "Mistral AI 推出 Mistral OCR API：最快最准光学字符识别，千页 1 美元 Mistral AI推出Mistral OCR，先进的光学字符识别（OCR）API。能精准识别文档中的文本、图像、表格、公式等复杂元素，支持多语言和多模态输入，处理速度可达每分钟2000页。在基准测试中，Mistral OCR的准确率高达94.89%，全面领先其他OCR模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.692Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月10日·周一"
+    },
+    {
+      "id": "aadba2e1",
+      "title": "Mistral AI推出Mistral OCR，先进的光学字符识别（OCR）API。能精准识别文档中的文本、图像、表格、公式等复杂元素，支持多语言和多模态输入，处理速度可达每分钟2000页。在基准测试中，Mistral OCR的准确率高达94.89%，全面领先其他OCR模型。来源：AI工具集",
+      "content": "OpenAI 更新 macOS 版 ChatGPT，可在 Xcode 等 IDE 中直接编辑代码",
+      "originalContent": "Mistral AI推出Mistral OCR，先进的光学字符识别（OCR）API。能精准识别文档中的文本、图像、表格、公式等复杂元素，支持多语言和多模态输入，处理速度可达每分钟2000页。在基准测试中，Mistral OCR的准确率高达94.89%，全面领先其他OCR模型。来源：AI工具集 OpenAI 更新 macOS 版 ChatGPT，可在 Xcode 等 IDE 中直接编辑代码",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月10日"
+    },
+    {
+      "id": "fa8f817a",
+      "title": "OpenAI 更新 macOS 版 ChatGPT，可在 Xcode 等 IDE 中直接编辑代码",
+      "content": "OpenAI更新macOS版ChatGPT应用，新增在Xcode、VS Code等IDE中直接编辑代码的功能。用户通过“与应用程序协作”功能，可让ChatGPT自动检测当前活跃编辑器并交互，能在编辑过程中对话ChatGPT。",
+      "originalContent": "OpenAI 更新 macOS 版 ChatGPT，可在 Xcode 等 IDE 中直接编辑代码 OpenAI更新macOS版ChatGPT应用，新增在Xcode、VS Code等IDE中直接编辑代码的功能。用户通过“与应用程序协作”功能，可让ChatGPT自动检测当前活跃编辑器并交互，能在编辑过程中对话ChatGPT。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.692Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "AI工具"
+      ],
+      "dateText": "3月10日·周一"
+    },
+    {
+      "id": "c4269a1a",
+      "title": "OpenAI更新macOS版ChatGPT应用，新增在Xcode、VS Code等IDE中直接编辑代码的功能。用户通过“与应用程序协作”功能，可让ChatGPT自动检测当前活跃编辑器并交互，能在编辑过程中对话ChatGPT。来源：IT之家",
+      "content": "OpenAI更新macOS版ChatGPT应用，新增在Xcode、VS Code等IDE中直接编辑代码的功能。用户通过“与应用程序协作”功能，可让ChatGPT自动检测当前活跃编辑器并交互，能在编辑过程中对话ChatGPT。来源：IT之家",
+      "originalContent": "OpenAI更新macOS版ChatGPT应用，新增在Xcode、VS Code等IDE中直接编辑代码的功能。用户通过“与应用程序协作”功能，可让ChatGPT自动检测当前活跃编辑器并交互，能在编辑过程中对话ChatGPT。来源：IT之家",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.076Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "AI工具"
+      ],
+      "dateText": "3月10日"
+    },
+    {
+      "id": "1f0841aa",
+      "title": "超算互联网QwQ-32B API接口服务上线，免费100万Tokens",
+      "content": "超算互联网平台上线阿里巴巴开源推理模型QwQ-32B的API接口服务，提供免费100万Tokens。QwQ-32B基于Qwen2.5-32B+强化学习构建，在数学和代码能力上表现优异。用户可通过超算互联网平台快速开发或私有化部署该模型，平台提供保姆级教程，支持多种访问形式。",
+      "originalContent": "超算互联网QwQ-32B API接口服务上线，免费100万Tokens 超算互联网平台上线阿里巴巴开源推理模型QwQ-32B的API接口服务，提供免费100万Tokens。QwQ-32B基于Qwen2.5-32B+强化学习构建，在数学和代码能力上表现优异。用户可通过超算互联网平台快速开发或私有化部署该模型，平台提供保姆级教程，支持多种访问形式。",
+      "source": "超算互联网",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-09T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.690Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "3月10日·周一"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.050Z"
+}

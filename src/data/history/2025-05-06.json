@@ -1,0 +1,246 @@
+{
+  "date": "2025-05-06",
+  "count": 14,
+  "data": [
+    {
+      "id": "06cfd633",
+      "title": "阶跃多模态再添一员：阶跃与 ACE Studio 联合开源音乐大模型 ACE-Step",
+      "content": "阶跃星辰与ACE Studio联合开源音乐大模型ACE-Step（音跃）。模型参数量3.5B，具备快速生成、强可控性、易于拓展等特点，支持19种语言歌曲创作，涵盖多种音乐风格。采用一阶段DiT架构与REPA技术，提升音频质量与生成效率；结合DCAE和线性Transformer，加速音频生成，处理更长音频数据。",
+      "originalContent": "阶跃多模态再添一员：阶跃与 ACE Studio 联合开源音乐大模型 ACE-Step 阶跃星辰与ACE Studio联合开源音乐大模型ACE-Step（音跃）。模型参数量3.5B，具备快速生成、强可控性、易于拓展等特点，支持19种语言歌曲创作，涵盖多种音乐风格。采用一阶段DiT架构与REPA技术，提升音频质量与生成效率；结合DCAE和线性Transformer，加速音频生成，处理更长音频数据。",
+      "source": "阶跃星辰",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.578Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "5月7日·周三"
+    },
+    {
+      "id": "609b8e45",
+      "title": "阶跃星辰与ACE Studio联合开源音乐大模型ACE-Step（音跃）。模型参数量3.5B，具备快速生成、强可控性、易于拓展等特点，支持19种语言歌曲创作，涵盖多种音乐风格。采用一阶段DiT架构与REPA技术，提升音频质量与生成效率；结合DCAE和线性Transformer，加速音频生成，处理更长音频数据。来源：阶跃星辰",
+      "content": "机器人界「Sora」来了！清华、星动纪元开源首个AIGC机器人大模型VPP",
+      "originalContent": "阶跃星辰与ACE Studio联合开源音乐大模型ACE-Step（音跃）。模型参数量3.5B，具备快速生成、强可控性、易于拓展等特点，支持19种语言歌曲创作，涵盖多种音乐风格。采用一阶段DiT架构与REPA技术，提升音频质量与生成效率；结合DCAE和线性Transformer，加速音频生成，处理更长音频数据。来源：阶跃星辰 机器人界「Sora」来了！清华、星动纪元开源首个AIGC机器人大模型VPP",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.070Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "5月7日"
+    },
+    {
+      "id": "e7b849a9",
+      "title": "机器人界「Sora」来了！清华、星动纪元开源首个AIGC机器人大模型VPP",
+      "content": "清华大学叉院ISRLab与星动纪元联合开源的AIGC生成式机器人大模型VPP入选ICML2025 Spotlight。VPP利用预训练视频生成大模型，通过大量互联网视频数据训练，学习人类动作，减轻对高质量机器人真机数据依赖，能跨人形机器人本体切换，加速商业化落地。",
+      "originalContent": "机器人界「Sora」来了！清华、星动纪元开源首个AIGC机器人大模型VPP 清华大学叉院ISRLab与星动纪元联合开源的AIGC生成式机器人大模型VPP入选ICML2025 Spotlight。VPP利用预训练视频生成大模型，通过大量互联网视频数据训练，学习人类动作，减轻对高质量机器人真机数据依赖，能跨人形机器人本体切换，加速商业化落地。",
+      "source": "北京星动纪元科技有限公司",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.578Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "大模型",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "5月7日·周三"
+    },
+    {
+      "id": "97ec2f7c",
+      "title": "清华大学叉院ISRLab与星动纪元联合开源的AIGC生成式机器人大模型VPP入选ICML2025 Spotlight。VPP利用预训练视频生成大模型，通过大量互联网视频数据训练，学习人类动作，减轻对高质量机器人真机数据依赖，能跨人形机器人本体切换，加速商业化落地。来源：北京星动纪元科技有限公司",
+      "content": "Gemini 2.5 Pro升级版本：Gemini 2.5 Pro (I/O edition)，成编程模型新王",
+      "originalContent": "清华大学叉院ISRLab与星动纪元联合开源的AIGC生成式机器人大模型VPP入选ICML2025 Spotlight。VPP利用预训练视频生成大模型，通过大量互联网视频数据训练，学习人类动作，减轻对高质量机器人真机数据依赖，能跨人形机器人本体切换，加速商业化落地。来源：北京星动纪元科技有限公司 Gemini 2.5 Pro升级版本：Gemini 2.5 Pro (I/O edition)，成编程模型新王",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.070Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "大模型",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "5月7日"
+    },
+    {
+      "id": "921e85b9",
+      "title": "Google DeepMind发布了Gemini 2.5 Pro (I/O edition)。该版本编程能力大幅提升，在LMArena编程排行榜和WebDev Arena排行榜中均名列前茅，超越了Claude 3.7 Sonnet。用户仅需提供手绘草图和功能描述，可生成功能完备的Web应用、游戏等。来源：机器之心",
+      "content": "Amazon Nova家族最强成员——Nova Premier正式可用",
+      "originalContent": "Google DeepMind发布了Gemini 2.5 Pro (I/O edition)。该版本编程能力大幅提升，在LMArena编程排行榜和WebDev Arena排行榜中均名列前茅，超越了Claude 3.7 Sonnet。用户仅需提供手绘草图和功能描述，可生成功能完备的Web应用、游戏等。来源：机器之心 Amazon Nova家族最强成员——Nova Premier正式可用",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.070Z",
+      "category": "产品发布",
+      "tags": [
+        "发布"
+      ],
+      "dateText": "5月7日"
+    },
+    {
+      "id": "b90f6d96",
+      "title": "亚马逊云科技宣布其Nova家族最强成员——Nova Premier正式上线。Nova Premier集成于Amazon Bedrock，支持文本、图像与视频输入，具备百万级别上下文处理能力，擅长复杂任务处理与多智能体协作。可作为教师模型，通过模型蒸馏优化Nova Pro、Lite和Micro等模型性能，提升API调用准确率20%。来源：亚马逊云科技",
+      "content": "Kimi 长思考模型 API 正式发布，擅长解决复杂问题",
+      "originalContent": "亚马逊云科技宣布其Nova家族最强成员——Nova Premier正式上线。Nova Premier集成于Amazon Bedrock，支持文本、图像与视频输入，具备百万级别上下文处理能力，擅长复杂任务处理与多智能体协作。可作为教师模型，通过模型蒸馏优化Nova Pro、Lite和Micro等模型性能，提升API调用准确率20%。来源：亚马逊云科技 Kimi 长思考模型 API 正式发布，擅长解决复杂问题",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.070Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "智能体"
+      ],
+      "dateText": "5月7日"
+    },
+    {
+      "id": "034c3f3a",
+      "title": "Kimi 长思考模型 API 正式发布，擅长解决复杂问题",
+      "content": "月之暗面推出 kimi-thinking-preview 模型，具有多模态推理能力和通用推理能力的多模态思考模型，擅长深度推理，可帮助解决复杂问题。模型通过 HTTP 接口或 openai SDK 使用，响应中包含 reasoning_content 字段展示思考过程。",
+      "originalContent": "Kimi 长思考模型 API 正式发布，擅长解决复杂问题 月之暗面推出 kimi-thinking-preview 模型，具有多模态推理能力和通用推理能力的多模态思考模型，擅长深度推理，可帮助解决复杂问题。模型通过 HTTP 接口或 openai SDK 使用，响应中包含 reasoning_content 字段展示思考过程。",
+      "source": "Kimi开放平台",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.581Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "5月7日·周三"
+    },
+    {
+      "id": "714ae691",
+      "title": "Recraft 完成 3000 万美元 B 轮融资，其图像生成模型曾击败 DALL-E 和 Midjourney",
+      "content": "图像生成初创公司 Recraft 完成 3000 万美元 B 轮融资，由 Accel 领投，Khosla Ventures 和 Madrona 等参投。Recraft 总部位于美国旧金山，在 2024 年获得 1200 万美元 A 轮融资。其图像生成模型“red_panda”在去年的基准测试中超越 DALL-E 和 Midjourney。",
+      "originalContent": "Recraft 完成 3000 万美元 B 轮融资，其图像生成模型曾击败 DALL-E 和 Midjourney 图像生成初创公司 Recraft 完成 3000 万美元 B 轮融资，由 Accel 领投，Khosla Ventures 和 Madrona 等参投。Recraft 总部位于美国旧金山，在 2024 年获得 1200 万美元 A 轮融资。其图像生成模型“red_panda”在去年的基准测试中超越 DALL-E 和 Midjourney。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.581Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "5月7日·周三"
+    },
+    {
+      "id": "21e04c1a",
+      "title": "图像生成初创公司 Recraft 完成 3000 万美元 B 轮融资，由 Accel 领投，Khosla Ventures 和 Madrona 等参投。Recraft 总部位于美国旧金山，在 2024 年获得 1200 万美元 A 轮融资。其图像生成模型“red_panda”在去年的基准测试中超越 DALL-E 和 Midjourney。来源：IT之家",
+      "content": "最火AI编程独角兽 Cursor 母公司又融资！估值超650亿",
+      "originalContent": "图像生成初创公司 Recraft 完成 3000 万美元 B 轮融资，由 Accel 领投，Khosla Ventures 和 Madrona 等参投。Recraft 总部位于美国旧金山，在 2024 年获得 1200 万美元 A 轮融资。其图像生成模型“red_panda”在去年的基准测试中超越 DALL-E 和 Midjourney。来源：IT之家 最火AI编程独角兽 Cursor 母公司又融资！估值超650亿",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.070Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "5月7日"
+    },
+    {
+      "id": "725fc4d5",
+      "title": "最火AI编程独角兽 Cursor 母公司又融资！估值超650亿",
+      "content": "AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。",
+      "originalContent": "最火AI编程独角兽 Cursor 母公司又融资！估值超650亿 AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。",
+      "source": "智东西",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.581Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "5月7日·周三"
+    },
+    {
+      "id": "259ba610",
+      "title": "AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。来源：智东西",
+      "content": "AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。来源：智东西",
+      "originalContent": "AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。来源：智东西",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.070Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "5月7日"
+    },
+    {
+      "id": "9d671ed1",
+      "title": "Gemini 2.5 Pro升级版本：Gemini 2.5 Pro (I/O edition)，成编程模型新王",
+      "content": "Google DeepMind发布了Gemini 2.5 Pro (I/O edition)。该版本编程能力大幅提升，在LMArena编程排行榜和WebDev Arena排行榜中均名列前茅，超越了Claude 3.7 Sonnet。用户仅需提供手绘草图和功能描述，可生成功能完备的Web应用、游戏等。",
+      "originalContent": "Gemini 2.5 Pro升级版本：Gemini 2.5 Pro (I/O edition)，成编程模型新王 Google DeepMind发布了Gemini 2.5 Pro (I/O edition)。该版本编程能力大幅提升，在LMArena编程排行榜和WebDev Arena排行榜中均名列前茅，超越了Claude 3.7 Sonnet。用户仅需提供手绘草图和功能描述，可生成功能完备的Web应用、游戏等。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.578Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "5月7日·周三"
+    },
+    {
+      "id": "f1fb88fa",
+      "title": "Amazon Nova家族最强成员——Nova Premier正式可用",
+      "content": "亚马逊云科技宣布其Nova家族最强成员——Nova Premier正式上线。Nova Premier集成于Amazon Bedrock，支持文本、图像与视频输入，具备百万级别上下文处理能力，擅长复杂任务处理与多智能体协作。可作为教师模型，通过模型蒸馏优化Nova Pro、Lite和Micro等模型性能，提升API调用准确率20%。",
+      "originalContent": "Amazon Nova家族最强成员——Nova Premier正式可用 亚马逊云科技宣布其Nova家族最强成员——Nova Premier正式上线。Nova Premier集成于Amazon Bedrock，支持文本、图像与视频输入，具备百万级别上下文处理能力，擅长复杂任务处理与多智能体协作。可作为教师模型，通过模型蒸馏优化Nova Pro、Lite和Micro等模型性能，提升API调用准确率20%。",
+      "source": "亚马逊云科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.579Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "智能体"
+      ],
+      "dateText": "5月7日·周三"
+    },
+    {
+      "id": "b7590ae8",
+      "title": "腾讯元宝文生图功能升级：混元和 DeepSeek 都支持生图",
+      "content": "腾讯元宝宣布文生图功能升级，混元和DeepSeek模型均可实现生图功能。用户只需输入一句话，元宝能生成高质量、复杂且有想象力的图像。功能结合腾讯混元最新文生图模型，已全端上线。",
+      "originalContent": "腾讯元宝文生图功能升级：混元和 DeepSeek 都支持生图 腾讯元宝宣布文生图功能升级，混元和DeepSeek模型均可实现生图功能。用户只需输入一句话，元宝能生成高质量、复杂且有想象力的图像。功能结合腾讯混元最新文生图模型，已全端上线。",
+      "source": "腾讯元宝",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.577Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "5月7日·周三"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.019Z"
+}

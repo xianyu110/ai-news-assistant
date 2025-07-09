@@ -1,0 +1,60 @@
+{
+  "date": "2025-07-02",
+  "count": 3,
+  "data": [
+    {
+      "id": "720103f4",
+      "title": "星流 Agent上线！更适合中国设计师的一站式创意设计Agent",
+      "content": "星流Agent正式上线，是专为中国设计师打造的一站式创意设计Agent。星流Agent延续了Lovart的全栈式智能设计能力，全面适配中文语义、东方美学和本地场景。用户只需输入一句话，能自动拆解任务、匹配风格、生成整套设计物料，支持多模态内容创作，涵盖图像、视频、3D等多种格式。",
+      "originalContent": "星流 Agent上线！更适合中国设计师的一站式创意设计Agent 星流Agent正式上线，是专为中国设计师打造的一站式创意设计Agent。星流Agent延续了Lovart的全栈式智能设计能力，全面适配中文语义、东方美学和本地场景。用户只需输入一句话，能自动拆解任务、匹配风格、生成整套设计物料，支持多模态内容创作，涵盖图像、视频、3D等多种格式。",
+      "source": "LiblibAI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.436Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "3D",
+        "智能体"
+      ],
+      "dateText": "7月3·周四"
+    },
+    {
+      "id": "934fead4",
+      "title": "Perplexity Max 订阅上线，月费 200 美元",
+      "content": "Perplexity推出高端订阅服务Perplexity Max，月费200美元（约合1433元人民币）。订阅用户可无限制访问电子表格和报告生成工具Labs，提前体验Comet浏览器等新功能，调用OpenAI的o3-pro和Claude Opus 4等先进AI模型。",
+      "originalContent": "Perplexity Max 订阅上线，月费 200 美元 Perplexity推出高端订阅服务Perplexity Max，月费200美元（约合1433元人民币）。订阅用户可无限制访问电子表格和报告生成工具Labs，提前体验Comet浏览器等新功能，调用OpenAI的o3-pro和Claude Opus 4等先进AI模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.436Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月3·周四"
+    },
+    {
+      "id": "06730e7f",
+      "title": "智谱获上海国资10亿元战略融资",
+      "content": "国产AI大模型企业智谱在开放平台产业生态大会上宣布获得上海国资10亿元战略投资，由浦东创投集团和张江集团完成首笔交割。同时，三方与上海仪电、浦发集团合作，共同建设AI新型基础设施。",
+      "originalContent": "智谱获上海国资10亿元战略融资 国产AI大模型企业智谱在开放平台产业生态大会上宣布获得上海国资10亿元战略投资，由浦东创投集团和张江集团完成首笔交割。同时，三方与上海仪电、浦发集团合作，共同建设AI新型基础设施。",
+      "source": "钛媒体AGI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-02T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.435Z",
+      "category": "投融资",
+      "tags": [
+        "开源",
+        "融资",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "7月3·周四"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:17.980Z"
+}

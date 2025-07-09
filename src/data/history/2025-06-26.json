@@ -1,0 +1,92 @@
+{
+  "date": "2025-06-26",
+  "count": 5,
+  "data": [
+    {
+      "id": "d406bcc1",
+      "title": "Black Forest Labs 推出 FLUX.1 Kontext 图像生成与编辑模型",
+      "content": "Black Forest Labs 推出 FLUX.1 Kontext 图像生成与编辑模型。模型基于文本和图像提示，支持上下文感知的图像处理，具备角色一致性保持、局部编辑、风格转换等功能。Pro 版本可快速迭代编辑，保持图像质量稳定；Max 版本在提示词遵循和排版生成方面表现出色；dev 开源版本适合定制化开发。",
+      "originalContent": "Black Forest Labs 推出 FLUX.1 Kontext 图像生成与编辑模型 Black Forest Labs 推出 FLUX.1 Kontext 图像生成与编辑模型。模型基于文本和图像提示，支持上下文感知的图像处理，具备角色一致性保持、局部编辑、风格转换等功能。Pro 版本可快速迭代编辑，保持图像质量稳定；Max 版本在提示词遵循和排版生成方面表现出色；dev 开源版本适合定制化开发。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-26T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.448Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月27·周五"
+    },
+    {
+      "id": "f3294684",
+      "title": "腾讯混元新成员——混元-A13B模型发布并开源",
+      "content": "腾讯发布了混元-A13B模型并宣布开源。模型基于专家混合（MoE）架构，总参数800亿，激活参数130亿，推理效率高，仅需1张中低端GPU卡即可部署。在数学、科学和逻辑推理任务中表现出色，支持快思考和慢思考模式，兼顾速度与准确性。",
+      "originalContent": "腾讯混元新成员——混元-A13B模型发布并开源 腾讯发布了混元-A13B模型并宣布开源。模型基于专家混合（MoE）架构，总参数800亿，激活参数130亿，推理效率高，仅需1张中低端GPU卡即可部署。在数学、科学和逻辑推理任务中表现出色，支持快思考和慢思考模式，兼顾速度与准确性。",
+      "source": "腾讯",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-26T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.447Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月27·周五"
+    },
+    {
+      "id": "42a70ee9",
+      "title": "快手可灵AI 上线“视频音效”功能，向用户限时免费开放",
+      "content": "快手旗下可灵AI宣布上线“视频音效”功能，向用户限时免费开放。功能可在生成视频时同步生成高质量立体声音效，支持用户上传视频或调用历史作品，一键匹配精准同步音效。",
+      "originalContent": "快手可灵AI 上线“视频音效”功能，向用户限时免费开放 快手旗下可灵AI宣布上线“视频音效”功能，向用户限时免费开放。功能可在生成视频时同步生成高质量立体声音效，支持用户上传视频或调用历史作品，一键匹配精准同步音效。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-26T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.447Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具",
+        "3D"
+      ],
+      "dateText": "6月27·周五"
+    },
+    {
+      "id": "c5de98ba",
+      "title": "快手推出自主研发的多模态大语言模型 Kwai Keye-VL",
+      "content": "快手推出自主研发的多模态大语言模型 Kwai Keye-VL，具备强大的视频理解与推理能力。该模型融合文本、图像、视频等多模态信息，能快速解析复杂视觉内容，如精准计数图像中的草莓，并在短时间内为商品视频生成推销方案。",
+      "originalContent": "快手推出自主研发的多模态大语言模型 Kwai Keye-VL 快手推出自主研发的多模态大语言模型 Kwai Keye-VL，具备强大的视频理解与推理能力。该模型融合文本、图像、视频等多模态信息，能快速解析复杂视觉内容，如精准计数图像中的草莓，并在短时间内为商品视频生成推销方案。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-26T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.448Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月27·周五"
+    },
+    {
+      "id": "b5aaf2d9",
+      "title": "Hengbot 推出 Sirius 机器狗：集成 OpenAI，可跳舞、踢足球",
+      "content": "Hengbot 推出 Sirius 机器狗，主打敏捷运动，可跳舞、踢足球，集成了 OpenAI 大语言模型，支持语音对话，能根据主人需求调整性格和声音。腿部和头部内置 14 个运动轴，配备“Neurocore”关节，动作自然流畅。",
+      "originalContent": "Hengbot 推出 Sirius 机器狗：集成 OpenAI，可跳舞、踢足球 Hengbot 推出 Sirius 机器狗，主打敏捷运动，可跳舞、踢足球，集成了 OpenAI 大语言模型，支持语音对话，能根据主人需求调整性格和声音。腿部和头部内置 14 个运动轴，配备“Neurocore”关节，动作自然流畅。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-26T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.449Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月27·周五"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:17.985Z"
+}

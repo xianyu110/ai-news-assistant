@@ -1,0 +1,106 @@
+{
+  "date": "2025-06-08",
+  "count": 6,
+  "data": [
+    {
+      "id": "0bd835a2",
+      "title": "智谱推出首个企业级超级助手Agent——CoCo",
+      "content": "智谱推出首个企业级超级助手Agent——CoCo，具备交付导向、记忆机制和无缝嵌入三大企业级特性。能全流程辅助工作，根据员工职能和需求主动服务，无缝接入企业资源，提供个性化服务。",
+      "originalContent": "智谱推出首个企业级超级助手Agent——CoCo 智谱推出首个企业级超级助手Agent——CoCo，具备交付导向、记忆机制和无缝嵌入三大企业级特性。能全流程辅助工作，根据员工职能和需求主动服务，无缝接入企业资源，提供个性化服务。",
+      "source": "智谱",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-08T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.499Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "智能体"
+      ],
+      "dateText": "6月9·周一"
+    },
+    {
+      "id": "c818f77e",
+      "title": "硅基流动完成新一轮数亿元融资，阿里云领投",
+      "content": "硅基流动宣布完成数亿元人民币A轮融资，由阿里云领投，创新工场等老股东超额跟投，华兴资本担任独家财务顾问。硅基流动专注于AI基础设施领域，通过技术突破和产品创新，有效解决国内AI行业发展难题。",
+      "originalContent": "硅基流动完成新一轮数亿元融资，阿里云领投 硅基流动宣布完成数亿元人民币A轮融资，由阿里云领投，创新工场等老股东超额跟投，华兴资本担任独家财务顾问。硅基流动专注于AI基础设施领域，通过技术突破和产品创新，有效解决国内AI行业发展难题。",
+      "source": "硅基流动",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-08T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.500Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "6月9·周一"
+    },
+    {
+      "id": "ec1d0983",
+      "title": "小红书hi lab团队首次开源文本大模型 ：dots.llm1",
+      "content": "小红书hi lab（人文智能实验室）首次开源文本大模型dots.llm1。模型是中等规模的Mixture of Experts（MoE）语言模型，总参数量1420亿，激活参数140亿。在训练11.2万亿token高质量数据后，性能可与Qwen2.5-72B媲美。",
+      "originalContent": "小红书hi lab团队首次开源文本大模型 ：dots.llm1 小红书hi lab（人文智能实验室）首次开源文本大模型dots.llm1。模型是中等规模的Mixture of Experts（MoE）语言模型，总参数量1420亿，激活参数140亿。在训练11.2万亿token高质量数据后，性能可与Qwen2.5-72B媲美。",
+      "source": "小红书技术REDtech",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-08T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.501Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "6月9·周一"
+    },
+    {
+      "id": "13489196",
+      "title": "面壁智能推出端侧大模型 MiniCPM 4.0",
+      "content": "面壁智能推出端侧大模型 MiniCPM 4.0，包含 8B 闪电稀疏版和 0.5B 版。8B 版采用「高效双频换挡」机制，可自动切换注意力模式，兼顾长、短文本场景。模型通过自研 CPM.cu 推理框架，在极限场景下最高提速 220 倍，常规提速 5 倍，实现 90% 模型瘦身。",
+      "originalContent": "面壁智能推出端侧大模型 MiniCPM 4.0 面壁智能推出端侧大模型 MiniCPM 4.0，包含 8B 闪电稀疏版和 0.5B 版。8B 版采用「高效双频换挡」机制，可自动切换注意力模式，兼顾长、短文本场景。模型通过自研 CPM.cu 推理框架，在极限场景下最高提速 220 倍，常规提速 5 倍，实现 90% 模型瘦身。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-08T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.501Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "6月9·周一"
+    },
+    {
+      "id": "df71601b",
+      "title": "Meta 正谈判投资 Scale AI，预计价值超 100 亿美元",
+      "content": "Meta 正与 AI 初创公司 Scale AI 进行投资谈判，融资价值有望超 100 亿美元。Scale AI 由亚历山大・王于 2016 年创立，主要提供数据标签服务，客户包括微软、OpenAI 等。若交易达成，将是 Meta 最大外部 AI 投资。",
+      "originalContent": "Meta 正谈判投资 Scale AI，预计价值超 100 亿美元 Meta 正与 AI 初创公司 Scale AI 进行投资谈判，融资价值有望超 100 亿美元。Scale AI 由亚历山大・王于 2016 年创立，主要提供数据标签服务，客户包括微软、OpenAI 等。若交易达成，将是 Meta 最大外部 AI 投资。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-08T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.502Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "6月9·周一"
+    },
+    {
+      "id": "eedef359",
+      "title": "智平方×东风柳汽：国产具身大模型首获汽车制造全场景验证，启动数据飞轮",
+      "content": "智平方与东风柳汽在深圳签署协议，共同探索具身大模型在汽车制造全场景的深度应用。智平方的AlphaBot 2（爱宝）机器人搭载GOVLA大模型，将在东风柳汽工厂的上下料、拖拽料车、贴标签等场景执行智能化作业。",
+      "originalContent": "智平方×东风柳汽：国产具身大模型首获汽车制造全场景验证，启动数据飞轮 智平方与东风柳汽在深圳签署协议，共同探索具身大模型在汽车制造全场景的深度应用。智平方的AlphaBot 2（爱宝）机器人搭载GOVLA大模型，将在东风柳汽工厂的上下料、拖拽料车、贴标签等场景执行智能化作业。",
+      "source": "智平方科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-08T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.502Z",
+      "category": "综合资讯",
+      "tags": [
+        "大模型",
+        "机器人"
+      ],
+      "dateText": "6月9·周一"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:17.996Z"
+}

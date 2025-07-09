@@ -1,0 +1,256 @@
+{
+  "date": "2025-02-16",
+  "count": 14,
+  "data": [
+    {
+      "id": "f749b123",
+      "title": "字节跳动推出的AI编程IDE Trae Win+Mac版于正式全量上线。Trae支持免费无限量使用Claude Sonnet编程大模型，具备全自动开发模式“Builder模式”，可实现需求理解、代码生成、文件操作及错误修复一体化。Trae支持多模态开发，可直接通过上传原型或截图生成代码。来源：AI工具集",
+      "content": "浙江大学推出DeepSeek系列专题线上公开课",
+      "originalContent": "字节跳动推出的AI编程IDE Trae Win+Mac版于正式全量上线。Trae支持免费无限量使用Claude Sonnet编程大模型，具备全自动开发模式“Builder模式”，可实现需求理解、代码生成、文件操作及错误修复一体化。Trae支持多模态开发，可直接通过上传原型或截图生成代码。来源：AI工具集 浙江大学推出DeepSeek系列专题线上公开课",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月17日"
+    },
+    {
+      "id": "24ab3456",
+      "title": "浙江大学人工智能教育教学研究中心于2025年2月17日起推出DeepSeek系列专题线上公开课，每周一晚上19:30面向全校师生及社会公众直播。解析DeepSeek的技术革新与伦理影响，探讨在人工智能领域的突破与应用。首期课程由吴飞教授和陈文智教授主讲。来源：AI工具集",
+      "content": "xAI即将发布Grok 3，马斯克称之为“地球上最聪明的人工智能”",
+      "originalContent": "浙江大学人工智能教育教学研究中心于2025年2月17日起推出DeepSeek系列专题线上公开课，每周一晚上19:30面向全校师生及社会公众直播。解析DeepSeek的技术革新与伦理影响，探讨在人工智能领域的突破与应用。首期课程由吴飞教授和陈文智教授主讲。来源：AI工具集 xAI即将发布Grok 3，马斯克称之为“地球上最聪明的人工智能”",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月17日"
+    },
+    {
+      "id": "1fe5601e",
+      "title": "xAI即将发布Grok 3，马斯克称之为“地球上最聪明的人工智能”",
+      "content": "埃隆·马斯克的xAI公司将于2月17日发布Grok 3聊天机器人，马斯克称其为“地球上最聪明的人工智能”。Grok 3引入“思维链”推理能力，显著提升推理、编程及多模态功能。训练使用合成数据，可反思错误。Grok 3接入X平台，供用户使用。发布时间较马斯克原计划延迟",
+      "originalContent": "xAI即将发布Grok 3，马斯克称之为“地球上最聪明的人工智能” 埃隆·马斯克的xAI公司将于2月17日发布Grok 3聊天机器人，马斯克称其为“地球上最聪明的人工智能”。Grok 3引入“思维链”推理能力，显著提升推理、编程及多模态功能。训练使用合成数据，可反思错误。Grok 3接入X平台，供用户使用。发布时间较马斯克原计划延迟",
+      "source": "第一财经",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.723Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "aa056391",
+      "title": "埃隆·马斯克的xAI公司将于2月17日发布Grok 3聊天机器人，马斯克称其为“地球上最聪明的人工智能”。Grok 3引入“思维链”推理能力，显著提升推理、编程及多模态功能。训练使用合成数据，可反思错误。Grok 3接入X平台，供用户使用。发布时间较马斯克原计划延迟来源：第一财经",
+      "content": "腾讯元宝再更新：DeepSeek R1+腾讯混元T1「双核」驱动",
+      "originalContent": "埃隆·马斯克的xAI公司将于2月17日发布Grok 3聊天机器人，马斯克称其为“地球上最聪明的人工智能”。Grok 3引入“思维链”推理能力，显著提升推理、编程及多模态功能。训练使用合成数据，可反思错误。Grok 3接入X平台，供用户使用。发布时间较马斯克原计划延迟来源：第一财经 腾讯元宝再更新：DeepSeek R1+腾讯混元T1「双核」驱动",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "2月17日"
+    },
+    {
+      "id": "535ada3c",
+      "title": "腾讯元宝发布重大更新，接入腾讯混元T1和DeepSeek-R1两大模型，均支持深度思考功能。用户可免费切换使用，解决复杂问题更高效。混元T1为腾讯自研的最新「深度思考模型」，专为多维度分析设计，思维方式贴近人类认知。更新后，腾讯元宝支持联网搜索，结合腾讯生态内容及权威信源，答案更精准。来源：AI工具集",
+      "content": "AI搜索新突破：Perplexity推出Deep Research免费深度研究功能",
+      "originalContent": "腾讯元宝发布重大更新，接入腾讯混元T1和DeepSeek-R1两大模型，均支持深度思考功能。用户可免费切换使用，解决复杂问题更高效。混元T1为腾讯自研的最新「深度思考模型」，专为多维度分析设计，思维方式贴近人类认知。更新后，腾讯元宝支持联网搜索，结合腾讯生态内容及权威信源，答案更精准。来源：AI工具集 AI搜索新突破：Perplexity推出Deep Research免费深度研究功能",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月17日"
+    },
+    {
+      "id": "50220392",
+      "title": "AI搜索新突破：Perplexity推出Deep Research免费深度研究功能",
+      "content": "AI公司Perplexity宣布推出Deep Research（深度研究）功能，向所有用户免费开放。非订阅用户每天可免费体验5次，Pro用户每天可体验500次。Deep Research通过多次搜索和推理，挖掘上百个信息源，提供深度研究报告，与普通AI搜索相比，搜索深度、广度和推理能力更强。",
+      "originalContent": "AI搜索新突破：Perplexity推出Deep Research免费深度研究功能 AI公司Perplexity宣布推出Deep Research（深度研究）功能，向所有用户免费开放。非订阅用户每天可免费体验5次，Pro用户每天可体验500次。Deep Research通过多次搜索和推理，挖掘上百个信息源，提供深度研究报告，与普通AI搜索相比，搜索深度、广度和推理能力更强。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.723Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "AI工具"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "c965c3c1",
+      "title": "AI公司Perplexity宣布推出Deep Research（深度研究）功能，向所有用户免费开放。非订阅用户每天可免费体验5次，Pro用户每天可体验500次。Deep Research通过多次搜索和推理，挖掘上百个信息源，提供深度研究报告，与普通AI搜索相比，搜索深度、广度和推理能力更强。来源：AI工具集",
+      "content": "腾讯多款产品接入DeepSeek-R1模型，全面升级AI体验",
+      "originalContent": "AI公司Perplexity宣布推出Deep Research（深度研究）功能，向所有用户免费开放。非订阅用户每天可免费体验5次，Pro用户每天可体验500次。Deep Research通过多次搜索和推理，挖掘上百个信息源，提供深度研究报告，与普通AI搜索相比，搜索深度、广度和推理能力更强。来源：AI工具集 腾讯多款产品接入DeepSeek-R1模型，全面升级AI体验",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月17日"
+    },
+    {
+      "id": "ac26b018",
+      "title": "腾讯多款产品接入DeepSeek-R1模型，全面升级AI体验",
+      "content": "腾讯宣布旗下多款产品接入DeepSeek-R1模型，包括腾讯元宝、微信、ima、腾讯文档、QQ浏览器、QQ音乐等。腾讯元宝支持免费使用DeepSeek-R1满血版和混元T1深度思考模型，提供复杂问题解答能力。微信“AI搜索”功能在灰度测试中。ima、腾讯文档、QQ浏览器、QQ音乐等产品结合DeepSeek-R1优化功能，提升用户体验。",
+      "originalContent": "腾讯多款产品接入DeepSeek-R1模型，全面升级AI体验 腾讯宣布旗下多款产品接入DeepSeek-R1模型，包括腾讯元宝、微信、ima、腾讯文档、QQ浏览器、QQ音乐等。腾讯元宝支持免费使用DeepSeek-R1满血版和混元T1深度思考模型，提供复杂问题解答能力。微信“AI搜索”功能在灰度测试中。ima、腾讯文档、QQ浏览器、QQ音乐等产品结合DeepSeek-R1优化功能，提升用户体验。",
+      "source": "腾讯",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.723Z",
+      "category": "产品发布",
+      "tags": [
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "4ea6d34f",
+      "title": "腾讯宣布旗下多款产品接入DeepSeek-R1模型，包括腾讯元宝、微信、ima、腾讯文档、QQ浏览器、QQ音乐等。腾讯元宝支持免费使用DeepSeek-R1满血版和混元T1深度思考模型，提供复杂问题解答能力。微信“AI搜索”功能在灰度测试中。ima、腾讯文档、QQ浏览器、QQ音乐等产品结合DeepSeek-R1优化功能，提升用户体验。来源：腾讯",
+      "content": "中国AI变局：腾讯、百度接入DeepSeek模型，字节反思，“大模型六虎”加速分化",
+      "originalContent": "腾讯宣布旗下多款产品接入DeepSeek-R1模型，包括腾讯元宝、微信、ima、腾讯文档、QQ浏览器、QQ音乐等。腾讯元宝支持免费使用DeepSeek-R1满血版和混元T1深度思考模型，提供复杂问题解答能力。微信“AI搜索”功能在灰度测试中。ima、腾讯文档、QQ浏览器、QQ音乐等产品结合DeepSeek-R1优化功能，提升用户体验。来源：腾讯 中国AI变局：腾讯、百度接入DeepSeek模型，字节反思，“大模型六虎”加速分化",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "技术研究",
+      "tags": [
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月17日"
+    },
+    {
+      "id": "b851323d",
+      "title": "中国AI变局：腾讯、百度接入DeepSeek模型，字节反思，“大模型六虎”加速分化",
+      "content": "腾讯微信上线“AI搜索”功能灰度测试DeepSeek-R1模型，百度搜索宣布全面接入DeepSeek和文心大模型的深度搜索功能。字节跳动反思DeepSeek技术跟进，“大模型六小虎”加速分化，部分企业选择拥抱DeepSeek，另一些则继续深耕自身模型研发。",
+      "originalContent": "中国AI变局：腾讯、百度接入DeepSeek模型，字节反思，“大模型六虎”加速分化 腾讯微信上线“AI搜索”功能灰度测试DeepSeek-R1模型，百度搜索宣布全面接入DeepSeek和文心大模型的深度搜索功能。字节跳动反思DeepSeek技术跟进，“大模型六小虎”加速分化，部分企业选择拥抱DeepSeek，另一些则继续深耕自身模型研发。",
+      "source": "钛媒体AGI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.724Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "378b79cc",
+      "title": "腾讯微信上线“AI搜索”功能灰度测试DeepSeek-R1模型，百度搜索宣布全面接入DeepSeek和文心大模型的深度搜索功能。字节跳动反思DeepSeek技术跟进，“大模型六小虎”加速分化，部分企业选择拥抱DeepSeek，另一些则继续深耕自身模型研发。来源：钛媒体AGI",
+      "content": "腾讯微信上线“AI搜索”功能灰度测试DeepSeek-R1模型，百度搜索宣布全面接入DeepSeek和文心大模型的深度搜索功能。字节跳动反思DeepSeek技术跟进，“大模型六小虎”加速分化，部分企业选择拥抱DeepSeek，另一些则继续深耕自身模型研发。来源：钛媒体AGI",
+      "originalContent": "腾讯微信上线“AI搜索”功能灰度测试DeepSeek-R1模型，百度搜索宣布全面接入DeepSeek和文心大模型的深度搜索功能。字节跳动反思DeepSeek技术跟进，“大模型六小虎”加速分化，部分企业选择拥抱DeepSeek，另一些则继续深耕自身模型研发。来源：钛媒体AGI",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-08T12:47:49.078Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月17日"
+    },
+    {
+      "id": "940cde7d",
+      "title": "字节Trae Win+Mac版全量上线，免费无限量使用Claude",
+      "content": "字节跳动推出的AI编程IDE Trae Win+Mac版于正式全量上线。Trae支持免费无限量使用Claude Sonnet编程大模型，具备全自动开发模式“Builder模式”，可实现需求理解、代码生成、文件操作及错误修复一体化。Trae支持多模态开发，可直接通过上传原型或截图生成代码。",
+      "originalContent": "字节Trae Win+Mac版全量上线，免费无限量使用Claude 字节跳动推出的AI编程IDE Trae Win+Mac版于正式全量上线。Trae支持免费无限量使用Claude Sonnet编程大模型，具备全自动开发模式“Builder模式”，可实现需求理解、代码生成、文件操作及错误修复一体化。Trae支持多模态开发，可直接通过上传原型或截图生成代码。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.722Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "a07b9c02",
+      "title": "浙江大学推出DeepSeek系列专题线上公开课",
+      "content": "浙江大学人工智能教育教学研究中心于2025年2月17日起推出DeepSeek系列专题线上公开课，每周一晚上19:30面向全校师生及社会公众直播。解析DeepSeek的技术革新与伦理影响，探讨在人工智能领域的突破与应用。首期课程由吴飞教授和陈文智教授主讲。",
+      "originalContent": "浙江大学推出DeepSeek系列专题线上公开课 浙江大学人工智能教育教学研究中心于2025年2月17日起推出DeepSeek系列专题线上公开课，每周一晚上19:30面向全校师生及社会公众直播。解析DeepSeek的技术革新与伦理影响，探讨在人工智能领域的突破与应用。首期课程由吴飞教授和陈文智教授主讲。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.722Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "56d5af34",
+      "title": "腾讯元宝再更新：DeepSeek R1+腾讯混元T1「双核」驱动",
+      "content": "腾讯元宝发布重大更新，接入腾讯混元T1和DeepSeek-R1两大模型，均支持深度思考功能。用户可免费切换使用，解决复杂问题更高效。混元T1为腾讯自研的最新「深度思考模型」，专为多维度分析设计，思维方式贴近人类认知。更新后，腾讯元宝支持联网搜索，结合腾讯生态内容及权威信源，答案更精准。",
+      "originalContent": "腾讯元宝再更新：DeepSeek R1+腾讯混元T1「双核」驱动 腾讯元宝发布重大更新，接入腾讯混元T1和DeepSeek-R1两大模型，均支持深度思考功能。用户可免费切换使用，解决复杂问题更高效。混元T1为腾讯自研的最新「深度思考模型」，专为多维度分析设计，思维方式贴近人类认知。更新后，腾讯元宝支持联网搜索，结合腾讯生态内容及权威信源，答案更精准。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-16T16:00:00.000Z",
+      "crawlTime": "2025-07-09T07:55:17.723Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "2月17日·周一"
+    }
+  ],
+  "updateTime": "2025-07-09T07:55:18.061Z"
+}

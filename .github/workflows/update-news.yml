@@ -24,6 +24,9 @@ on:
       - 'scripts/**'
       - '.github/workflows/update-news.yml'
 
+permissions:
+  contents: write
+
 jobs:
   update-news:
     runs-on: ubuntu-latest

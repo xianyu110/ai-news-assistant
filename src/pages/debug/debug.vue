@@ -40,7 +40,7 @@
 import { ref, onMounted } from 'vue'
 import { NewsService } from '../../utils/cloudbase'
 
-const envId = ref('codedemo-0gwailqxfd0e68b3')
+const envId = ref('请配置环境ID')
 const sdkStatus = ref('未知')
 const loginStatus = ref('未知')
 const logs = ref<Array<{message: string, type: string}>>([])

@@ -1,5 +1,5 @@
 /**
- * 数据服务 - 不依赖CloudBase的静态数据服务
+ * 数据服务 - 优化数据获取策略，支持自动刷新
  */
 
 // 数据存储接口
@@ -30,6 +30,20 @@ export interface NewsData {
   };
   error?: string;
 }
+
+// 数据源配置
+const DATA_SOURCES = {
+  // GitHub Pages 原始数据源
+  github: 'https://raw.githubusercontent.com/xianyu110/ai-news-assistant/main/src/data/ai-news.json',
+  // 本地路径
+  local: '/data/ai-news.json',
+  // 缓存配置
+  cache: {
+    key: 'newsData',
+    updateKey: 'lastUpdateTime',
+    expireTime: 5 * 60 * 1000 // 5分钟缓存
+  }
+};
 
 // 本地存储管理
 export class LocalStorage {
@@ -132,60 +146,136 @@ export class LocalStorage {
       console.error('清除搜索历史失败:', error);
     }
   }
+
+  // 检查缓存是否过期
+  static isCacheExpired(): boolean {
+    try {
+      const lastUpdate = uni.getStorageSync(DATA_SOURCES.cache.updateKey);
+      if (!lastUpdate) return true;
+      
+      const now = Date.now();
+      const expireTime = lastUpdate + DATA_SOURCES.cache.expireTime;
+      
+      return now > expireTime;
+    } catch (error) {
+      return true;
+    }
+  }
+
+  // 更新缓存时间戳
+  static updateCacheTime() {
+    try {
+      uni.setStorageSync(DATA_SOURCES.cache.updateKey, Date.now());
+    } catch (error) {
+      console.error('更新缓存时间失败:', error);
+    }
+  }
 }
 
 // 数据服务
 export class NewsService {
   
-  // 获取新闻数据
-  static async getNews(): Promise<NewsData> {
+  // 获取新闻数据 - 优化获取策略
+  static async getNews(forceRefresh: boolean = false): Promise<NewsData> {
     try {
-      // 尝试导入本地JSON数据
-      try {
-        // 动态导入数据文件
-        const newsModule = await import('../data/ai-news.json');
-        const rawData = newsModule.default || newsModule;
-        
-        // 检查数据格式并添加统计信息
-        if (rawData && rawData.data && Array.isArray(rawData.data)) {
-          const newsData = this.processNewsData(rawData);
-          // 缓存数据到本地
-          uni.setStorageSync('newsData', newsData);
-          return newsData;
+      console.log('🔄 开始获取新闻数据...', { forceRefresh });
+      
+      // 检查是否需要强制刷新或缓存过期
+      const shouldRefresh = forceRefresh || LocalStorage.isCacheExpired();
+      
+      if (!shouldRefresh) {
+        // 使用缓存数据
+        const cachedData = uni.getStorageSync(DATA_SOURCES.cache.key);
+        if (cachedData) {
+          console.log('📄 使用缓存数据');
+          return cachedData as NewsData;
         }
-      } catch (error) {
-        console.warn('导入本地数据失败，尝试网络请求:', error);
       }
       
-      // 尝试从网络获取最新数据
+      // 1. 优先从 GitHub 获取最新数据
       try {
+        console.log('🌐 尝试从 GitHub 获取最新数据...');
         const response = await uni.request({
-          url: '/data/ai-news.json',
+          url: DATA_SOURCES.github,
           method: 'GET',
-          timeout: 10000
+          timeout: 10000,
+          header: {
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache'
+          }
         });
         
         if (response.statusCode === 200 && response.data) {
+          console.log('✅ GitHub 数据获取成功');
           const newsData = this.processNewsData(response.data);
-          // 缓存数据到本地
-          uni.setStorageSync('newsData', newsData);
+          // 缓存数据
+          uni.setStorageSync(DATA_SOURCES.cache.key, newsData);
+          LocalStorage.updateCacheTime();
           return newsData;
         }
       } catch (error) {
-        console.warn('网络获取数据失败，尝试使用本地缓存:', error);
+        console.warn('❌ GitHub 数据获取失败:', error);
       }
       
-      // 尝试从本地缓存获取
-      const cachedData = uni.getStorageSync('newsData');
+      // 2. 尝试导入本地JSON数据
+      try {
+        console.log('📁 尝试导入本地数据...');
+        const newsModule = await import('../data/ai-news.json');
+        const rawData = newsModule.default || newsModule;
+        
+        if (rawData && rawData.data && Array.isArray(rawData.data)) {
+          console.log('✅ 本地数据导入成功');
+          const newsData = this.processNewsData(rawData);
+          // 缓存数据
+          uni.setStorageSync(DATA_SOURCES.cache.key, newsData);
+          LocalStorage.updateCacheTime();
+          return newsData;
+        }
+      } catch (error) {
+        console.warn('❌ 本地数据导入失败:', error);
+      }
+      
+      // 3. 尝试从本地路径获取数据
+      try {
+        console.log('🔗 尝试从本地路径获取数据...');
+        const response = await uni.request({
+          url: DATA_SOURCES.local,
+          method: 'GET',
+          timeout: 8000
+        });
+        
+        if (response.statusCode === 200 && response.data) {
+          console.log('✅ 本地路径数据获取成功');
+          const newsData = this.processNewsData(response.data);
+          // 缓存数据
+          uni.setStorageSync(DATA_SOURCES.cache.key, newsData);
+          LocalStorage.updateCacheTime();
+          return newsData;
+        }
+      } catch (error) {
+        console.warn('❌ 本地路径数据获取失败:', error);
+      }
+      
+      // 4. 使用旧缓存数据
+      const cachedData = uni.getStorageSync(DATA_SOURCES.cache.key);
+      if (cachedData) {
+        console.log('📄 使用旧缓存数据');
+        return cachedData as NewsData;
+      }
+      
+      // 5. 返回默认数据
+      console.log('⚠️ 使用默认数据');
+      return this.getDefaultData();
+      
+    } catch (error) {
+      console.error('❌ 获取新闻数据失败:', error);
+      
+      // 尝试使用缓存数据
+      const cachedData = uni.getStorageSync(DATA_SOURCES.cache.key);
       if (cachedData) {
         return cachedData as NewsData;
       }
       
-      // 返回默认数据
-      return this.getDefaultData();
-      
-    } catch (error) {
-      console.error('获取新闻数据失败:', error);
       return this.getDefaultData();
     }
   }
@@ -218,6 +308,12 @@ export class NewsService {
         sources: sources
       }
     };
+  }
+
+  // 强制刷新数据
+  static async refreshNews(): Promise<NewsData> {
+    console.log('🔄 强制刷新新闻数据...');
+    return this.getNews(true);
   }
   
   // 搜索新闻
@@ -263,76 +359,37 @@ export class NewsService {
       count: 5,
       data: [
         {
-          id: "1",
-          title: "通义网络智能体WebSailor开源，检索性能登顶开源榜单！",
-          content: "阿里云通义实验室开源网络智能体WebSailor。智能体具备强大的推理和检索能力，在智能体评测集BrowseComp上超越DeepSeek R1、Grok-3等模型，登顶开源网络智能体榜单。WebSailor通过创新的post-training方法和强化学习算法DUPO，大幅提升了复杂网页推理任务的表现。",
-          originalContent: "阿里云通义实验室开源网络智能体WebSailor。智能体具备强大的推理和检索能力，在智能体评测集BrowseComp上超越DeepSeek R1、Grok-3等模型，登顶开源网络智能体榜单。WebSailor通过创新的post-training方法和强化学习算法DUPO，大幅提升了复杂网页推理任务的表现。",
-          source: "阿里云",
+          id: "demo-1",
+          title: "AI新闻助手数据加载中...",
+          content: "正在从远程数据源获取最新AI资讯，请稍候...",
+          originalContent: "正在从远程数据源获取最新AI资讯，请稍候...",
+          source: "系统提示",
           sourceUrl: "https://ai-bot.cn/daily-ai-news/",
-          publishTime: "2024-01-08T10:00:00.000Z",
+          publishTime: new Date().toISOString(),
           crawlTime: new Date().toISOString(),
-          category: "开源项目",
-          tags: ["AI模型", "开源", "大语言模型"],
-          dateText: "1月8·周一"
+          category: "系统消息",
+          tags: ["加载中"],
+          dateText: "今日"
         },
         {
-          id: "2",
-          title: "字节跳动开源 AI IDE 工具核心组件 Trae-Agent",
-          content: "字节开源TRAE Agent 在 SWE-bench Verified 排行榜上取得 75.2% 的求解率，位居第一。TRAE Agent 是基于大语言模型的智能助手，专为软件工程任务设计，能自主完成代码理解、问题复现、修复方案制定、高质量代码编写等任务。",
-          originalContent: "字节开源TRAE Agent 在 SWE-bench Verified 排行榜上取得 75.2% 的求解率，位居第一。TRAE Agent 是基于大语言模型的智能助手，专为软件工程任务设计，能自主完成代码理解、问题复现、修复方案制定、高质量代码编写等任务。",
-          source: "TRAE.ai",
+          id: "demo-2",
+          title: "数据获取策略说明",
+          content: "本应用会优先从 GitHub 获取最新数据，如果失败则使用本地缓存数据，确保在各种网络环境下都能正常访问。",
+          originalContent: "本应用会优先从 GitHub 获取最新数据，如果失败则使用本地缓存数据，确保在各种网络环境下都能正常访问。",
+          source: "系统说明",
           sourceUrl: "https://ai-bot.cn/daily-ai-news/",
-          publishTime: "2024-01-07T15:00:00.000Z",
+          publishTime: new Date().toISOString(),
           crawlTime: new Date().toISOString(),
-          category: "开源项目",
-          tags: ["AI模型", "开源", "开发工具"],
-          dateText: "1月7·周日"
-        },
-        {
-          id: "3",
-          title: "星动纪元完成近5亿元A轮融资！通用具身技术突破驱动商业化落地",
-          content: "星动纪元宣布完成近5亿元A轮融资，由鼎晖VGC和海尔资本联合领投。公司成立于2023年，是清华大学唯一持股的具身智能企业，致力于打造通用智能体。目前，星动纪元已向全球科技巨头批量交付超200台产品，订单中50%以上来自海外客户，在工业物流、连锁零售等行业加速落地。",
-          originalContent: "星动纪元宣布完成近5亿元A轮融资，由鼎晖VGC和海尔资本联合领投。公司成立于2023年，是清华大学唯一持股的具身智能企业，致力于打造通用智能体。目前，星动纪元已向全球科技巨头批量交付超200台产品，订单中50%以上来自海外客户，在工业物流、连锁零售等行业加速落地。",
-          source: "北京星动纪元科技有限公司",
-          sourceUrl: "https://ai-bot.cn/daily-ai-news/",
-          publishTime: "2024-01-07T09:00:00.000Z",
-          crawlTime: new Date().toISOString(),
-          category: "投融资",
-          tags: ["投融资", "机器人"],
-          dateText: "1月7·周日"
-        },
-        {
-          id: "4",
-          title: "通义实验室开源首个音频生成模型 ThinkSound",
-          content: "通义实验室开源首个音频生成模型ThinkSound，专为打破静音画面局限而生。模型通过引入思维链（CoT）技术，让AI学会结构化推理画面与声音的关系，实现高保真、强同步的空间音频生成。基于2531.8小时高质量多模态数据训练，包含对象级和指令级样本，支持交互式编辑。",
-          originalContent: "通义实验室开源首个音频生成模型ThinkSound，专为打破静音画面局限而生。模型通过引入思维链（CoT）技术，让AI学会结构化推理画面与声音的关系，实现高保真、强同步的空间音频生成。基于2531.8小时高质量多模态数据训练，包含对象级和指令级样本，支持交互式编辑。",
-          source: "通义大模型",
-          sourceUrl: "https://ai-bot.cn/daily-ai-news/",
-          publishTime: "2024-01-06T14:00:00.000Z",
-          crawlTime: new Date().toISOString(),
-          category: "开源项目",
-          tags: ["AI模型", "语音技术", "开源"],
-          dateText: "1月6·周六"
-        },
-        {
-          id: "5",
-          title: "AIGC独角兽硅基智能完成D轮融资，数字人业务营收数亿",
-          content: "AIGC独角兽硅基智能完成数亿元D轮融资，投资方为嘉兴高新区产业基金。本轮资金将用于研发创新、技术落地及产品市场化。自2017年成立以来，硅基智能已完成10轮融资，投资方包括腾讯、红杉中国等。",
-          originalContent: "AIGC独角兽硅基智能完成数亿元D轮融资，投资方为嘉兴高新区产业基金。本轮资金将用于研发创新、技术落地及产品市场化。自2017年成立以来，硅基智能已完成10轮融资，投资方包括腾讯、红杉中国等。",
-          source: "36氪",
-          sourceUrl: "https://ai-bot.cn/daily-ai-news/",
-          publishTime: "2024-01-06T11:00:00.000Z",
-          crawlTime: new Date().toISOString(),
-          category: "投融资",
-          tags: ["投融资", "AIGC"],
-          dateText: "1月6·周六"
+          category: "系统消息",
+          tags: ["说明"],
+          dateText: "今日"
         }
       ],
       stats: {
-        todayCount: 2,
-        totalCount: 5,
-        categories: ["开源项目", "投融资", "产品发布", "行业动态", "技术研究", "综合资讯"],
-        sources: ["阿里云", "TRAE.ai", "北京星动纪元科技有限公司", "通义大模型", "36氪"]
+        todayCount: 0,
+        totalCount: 2,
+        categories: ["系统消息"],
+        sources: ["系统提示", "系统说明"]
       }
     };
   }

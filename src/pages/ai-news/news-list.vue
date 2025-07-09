@@ -135,7 +135,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { NewsService, LocalStorage } from '../../utils/cloudbase'
 
 // 声明 wx 对象类型（小程序环境）
@@ -155,6 +155,11 @@ const updateTime = ref(Date.now())
 const currentPage = ref(1)
 const pageSize = ref(20)
 const hasMore = ref(true)
+const autoRefreshTimer = ref<number | null>(null)
+const isPageVisible = ref(true)
+
+// 自动刷新配置
+const AUTO_REFRESH_INTERVAL = 10 * 60 * 1000 // 10分钟自动刷新一次
 
 // 按日期分组的新闻
 const groupedNews = computed(() => {
@@ -186,7 +191,68 @@ const groupedNews = computed(() => {
 // 页面初始化
 onMounted(async () => {
   await initPage()
+  startAutoRefresh()
+  
+  // 监听页面显示/隐藏
+  uni.onAppShow(() => {
+    isPageVisible.value = true
+    startAutoRefresh()
+  })
+  
+  uni.onAppHide(() => {
+    isPageVisible.value = false
+    stopAutoRefresh()
+  })
 })
+
+// 页面卸载时清理定时器
+onUnmounted(() => {
+  stopAutoRefresh()
+})
+
+// 开始自动刷新
+const startAutoRefresh = () => {
+  stopAutoRefresh() // 先清理已有定时器
+  
+  autoRefreshTimer.value = setInterval(async () => {
+    if (isPageVisible.value) {
+      console.log('🔄 自动刷新数据...')
+      try {
+        const result = await NewsService.getNews(true)
+        if (result.success && result.data.length > 0) {
+          // 静默更新数据，不显示loading
+          const allNews = result.data || []
+          updateTime.value = new Date(result.updateTime).getTime()
+          
+          // 检查是否有新数据
+          const hasNewData = allNews.length > newsList.value.length ||
+            (allNews.length > 0 && newsList.value.length > 0 && 
+             allNews[0].id !== newsList.value[0].id)
+          
+          if (hasNewData) {
+            // 有新数据时重新加载
+            await loadNews(1, true)
+            uni.showToast({ 
+              title: '发现新内容', 
+              icon: 'success',
+              duration: 1500
+            })
+          }
+        }
+      } catch (error) {
+        console.log('自动刷新失败:', error)
+      }
+    }
+  }, AUTO_REFRESH_INTERVAL)
+}
+
+// 停止自动刷新
+const stopAutoRefresh = () => {
+  if (autoRefreshTimer.value) {
+    clearInterval(autoRefreshTimer.value)
+    autoRefreshTimer.value = null
+  }
+}
 
 // H5版本不支持下拉刷新和上拉加载
 // 使用手动刷新按钮和加载更多按钮代替
@@ -204,8 +270,31 @@ const initPage = async () => {
   }
 }
 
+// 刷新新闻
+const refreshNews = async () => {
+  console.log('🔄 刷新新闻数据...')
+  currentPage.value = 1
+  await loadNews(1, true) // 强制刷新
+  await loadStats()
+  
+  // 显示刷新成功提示
+  uni.showToast({ 
+    title: '数据已更新', 
+    icon: 'success',
+    duration: 2000
+  })
+}
+
+// 加载更多
+const loadMore = async () => {
+  if (!hasMore.value || loadingMore.value) return
+  
+  currentPage.value += 1
+  await loadNews(currentPage.value)
+}
+
 // 加载新闻列表
-const loadNews = async (page = 1) => {
+const loadNews = async (page = 1, forceRefresh = false) => {
   if (page === 1) {
     loading.value = true
     newsList.value = []
@@ -218,7 +307,7 @@ const loadNews = async (page = 1) => {
   try {
     console.log('📰 开始加载新闻数据...')
     
-    const result = await NewsService.getNews()
+    const result = await NewsService.getNews(forceRefresh)
     
     if (result.success) {
       const allNews = result.data || []
@@ -255,7 +344,7 @@ const loadNews = async (page = 1) => {
     }
   } catch (error) {
     console.error('❌ 加载新闻失败:', error)
-    uni.showToast({ title: '加载失败', icon: 'error' })
+    uni.showToast({ title: '加载失败，请稍后重试', icon: 'error' })
   } finally {
     loading.value = false
     loadingMore.value = false
@@ -274,22 +363,6 @@ const loadStats = async () => {
   } catch (error) {
     console.error('❌ 加载统计失败:', error)
   }
-}
-
-// 刷新新闻
-const refreshNews = async () => {
-  console.log('🔄 刷新新闻数据...')
-  currentPage.value = 1
-  await loadNews(1)
-  await loadStats()
-}
-
-// 加载更多
-const loadMore = async () => {
-  if (!hasMore.value || loadingMore.value) return
-  
-  currentPage.value += 1
-  await loadNews(currentPage.value)
 }
 
 // 切换收藏状态

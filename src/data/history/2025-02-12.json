@@ -1,26 +1,7 @@
 {
   "date": "2025-02-12",
-  "count": 7,
+  "count": 8,
   "data": [
-    {
-      "id": "c09d4ab1",
-      "title": "OpenAI 将在未来几个月内推出 GPT-5：整合 o3 等多项技术，可免费无限使用",
-      "content": "OpenAI创始人Sam Altman在社交媒体上透露公司产品路线图的重大更新。OpenAI将发布GPT-4.5（代号Orion），是最后一个非思维链（CoT）模型。未来几个月，OpenAI将推出GPT-5，模型将整合OpenAI的多项技术，包括o3，不再将o3作为独立模型发布。GPT-5将集成到ChatGPT和API中，提供更统一的智能体验。",
-      "originalContent": "OpenAI 将在未来几个月内推出 GPT-5：整合 o3 等多项技术，可免费无限使用 OpenAI创始人Sam Altman在社交媒体上透露公司产品路线图的重大更新。OpenAI将发布GPT-4.5（代号Orion），是最后一个非思维链（CoT）模型。未来几个月，OpenAI将推出GPT-5，模型将整合OpenAI的多项技术，包括o3，不再将o3作为独立模型发布。GPT-5将集成到ChatGPT和API中，提供更统一的智能体验。",
-      "source": "机器之心",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-12T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.727Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "发布",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "2月13日·周四"
-    },
     {
       "id": "2c8980bb",
       "title": "OpenAI创始人Sam Altman在社交媒体上透露公司产品路线图的重大更新。OpenAI将发布GPT-4.5（代号Orion），是最后一个非思维链（CoT）模型。未来几个月，OpenAI将推出GPT-5，模型将整合OpenAI的多项技术，包括o3，不再将o3作为独立模型发布。GPT-5将集成到ChatGPT和API中，提供更统一的智能体验。来源：机器之心",
@@ -39,22 +20,6 @@
         "AI工具"
       ],
       "dateText": "2月13日"
-    },
-    {
-      "id": "9b333e8f",
-      "title": "Adobe Firefly 开放 AI 视频生成，一键搞定 5 秒 1080P 视频",
-      "content": "Adobe宣布向公众免费开放AI视频生成器Firefly。用户仅需输入文本描述或上传图像，可一键生成5秒的1080p高清视频。Firefly在动态景观、动物行为、天气模式和粒子效果等元素上表现出色，支持高级相机设置和多种宽高比选择。",
-      "originalContent": "Adobe Firefly 开放 AI 视频生成，一键搞定 5 秒 1080P 视频 Adobe宣布向公众免费开放AI视频生成器Firefly。用户仅需输入文本描述或上传图像，可一键生成5秒的1080p高清视频。Firefly在动态景观、动物行为、天气模式和粒子效果等元素上表现出色，支持高级相机设置和多种宽高比选择。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-12T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.728Z",
-      "category": "综合资讯",
-      "tags": [
-        "开源",
-        "AI工具"
-      ],
-      "dateText": "2月13日·周四"
     },
     {
       "id": "85487a19",
@@ -92,40 +57,90 @@
       "dateText": "2月13日"
     },
     {
-      "id": "4e834aba",
-      "title": "文心一言 4 月起全面免费，上线深度搜索功能",
-      "content": "百度AI宣布：自2025年4月1日零时起，文心一言将全面免费开放，PC端和APP端用户均可体验文心系列最新模型。同时，文心一言上线深度搜索功能，同样于4月1日起免费开放。深度搜索功能具备更强大的思考规划和外部工具使用能力，为用户提供专家级内容回复，支持多场景任务处理以及多模态输入与输出。APP端也将同步上线。",
-      "originalContent": "文心一言 4 月起全面免费，上线深度搜索功能 百度AI宣布：自2025年4月1日零时起，文心一言将全面免费开放，PC端和APP端用户均可体验文心系列最新模型。同时，文心一言上线深度搜索功能，同样于4月1日起免费开放。深度搜索功能具备更强大的思考规划和外部工具使用能力，为用户提供专家级内容回复，支持多场景任务处理以及多模态输入与输出。APP端也将同步上线。",
-      "source": "百度AI",
+      "id": "bfd8f6db",
+      "title": "苹果抛弃DeepSeek，选择与阿里合作开发中国iPhone AI 功能",
+      "content": "苹果公司已与阿里巴巴集团达成合作，共同开发面向中国市场的AI功能。双方联合开发的AI功能已提交审批，预计3月25日公布国行AI开发者教程。苹果曾尝试与百度合作，但未达预期，后放弃DeepSeek，因其缺乏支持大客户的经验。",
+      "originalContent": "苹果抛弃DeepSeek，选择与阿里合作开发中国iPhone AI 功能 苹果公司已与阿里巴巴集团达成合作，共同开发面向中国市场的AI功能。双方联合开发的AI功能已提交审批，预计3月25日公布国行AI开发者教程。苹果曾尝试与百度合作，但未达预期，后放弃DeepSeek，因其缺乏支持大客户的经验。",
+      "source": "钛媒体AGI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-12T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.728Z",
-      "category": "产品发布",
+      "publishTime": "2025-02-12T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.322Z",
+      "category": "行业动态",
       "tags": [
-        "开源",
-        "发布",
-        "大模型",
+        "合作",
         "AI工具"
       ],
-      "dateText": "2月13日·周四"
+      "dateText": "2月12日·周三"
     },
     {
-      "id": "1a3aad8b",
-      "title": "腾讯元宝接入 DeepSeek R1 模型，支持深度思考 + 联网搜索",
-      "content": "腾讯元宝发布更新，正式接入DeepSeek R1模型，支持深度思考与联网搜索。模型基于腾讯混元架构，具备强大的自然语言理解能力，可提供详细且权威的回答。QQ音乐此前也已完成对DeepSeek R1的部署，成为首个应用该模型的音乐平台。",
-      "originalContent": "腾讯元宝接入 DeepSeek R1 模型，支持深度思考 + 联网搜索 腾讯元宝发布更新，正式接入DeepSeek R1模型，支持深度思考与联网搜索。模型基于腾讯混元架构，具备强大的自然语言理解能力，可提供详细且权威的回答。QQ音乐此前也已完成对DeepSeek R1的部署，成为首个应用该模型的音乐平台。",
+      "id": "0c1e862d",
+      "title": "华为小艺助手网页端上线人人可用：支持 R1 深度思考",
+      "content": "华为小艺助手网页端正式上线，适配手机和PC，用户可通过浏览器直接访问。更新接入DeepSeek-R1智能体，支持联网搜索功能，可实时获取最新信息。网页版小艺提供AI问答、AI写作、编程助手和AI翻译等功能，支持R1深度思考模式，用户可根据需要自定义自动或强制使用。",
+      "originalContent": "华为小艺助手网页端上线人人可用：支持 R1 深度思考 华为小艺助手网页端正式上线，适配手机和PC，用户可通过浏览器直接访问。更新接入DeepSeek-R1智能体，支持联网搜索功能，可实时获取最新信息。网页版小艺提供AI问答、AI写作、编程助手和AI翻译等功能，支持R1深度思考模式，用户可根据需要自定义自动或强制使用。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-12T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.729Z",
+      "publishTime": "2025-02-12T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.321Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "2月12日·周三"
+    },
+    {
+      "id": "2fab0c8a",
+      "title": "Agentic GLM全面登陆三星最新款手机Galaxy S25",
+      "content": "智谱与三星合作，将Agentic GLM技术全面应用于三星Galaxy S25系列手机。技术基于多模态数据处理能力，支持AI音视频通话、视觉理解、系统功能调用、AI搜索、文案写作等功能。Galaxy S25的“语聊视界”功能可实现智能互动视频通话，同时支持社交媒体文案生成和系统级功能调用。",
+      "originalContent": "Agentic GLM全面登陆三星最新款手机Galaxy S25 智谱与三星合作，将Agentic GLM技术全面应用于三星Galaxy S25系列手机。技术基于多模态数据处理能力，支持AI音视频通话、视觉理解、系统功能调用、AI搜索、文案写作等功能。Galaxy S25的“语聊视界”功能可实现智能互动视频通话，同时支持社交媒体文案生成和系统级功能调用。",
+      "source": "智谱",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.322Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "2月12日·周三"
+    },
+    {
+      "id": "abf0575e",
+      "title": "七家国产芯片鼎力支持！无问芯穹异构云打通DeepSeek-R1多芯片适配优化",
+      "content": "无问芯穹异构云大模型服务平台正式上线DeepSeek-R1和DeepSeek-V3，完成了在壁仞、海光、摩尔线程、沐曦、昇腾、燧原、天数智芯等七家国产芯片上的适配优化。平台支持通过Infini-AI异构云平台一键获取DeepSeek系列模型与多元异构自主算力服务，为开发者提供高效、省心、划算的AI开发体验。",
+      "originalContent": "七家国产芯片鼎力支持！无问芯穹异构云打通DeepSeek-R1多芯片适配优化 无问芯穹异构云大模型服务平台正式上线DeepSeek-R1和DeepSeek-V3，完成了在壁仞、海光、摩尔线程、沐曦、昇腾、燧原、天数智芯等七家国产芯片上的适配优化。平台支持通过Infini-AI异构云平台一键获取DeepSeek系列模型与多元异构自主算力服务，为开发者提供高效、省心、划算的AI开发体验。",
+      "source": "无问芯穹",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.322Z",
       "category": "产品发布",
       "tags": [
         "发布",
         "大模型",
-        "技术"
+        "技术",
+        "AI工具"
       ],
-      "dateText": "2月13日·周四"
+      "dateText": "2月12日·周三"
+    },
+    {
+      "id": "5cdbb29f",
+      "title": "字节跳动推出UltraMem架构，推理成本较MoE最高降83%",
+      "content": "字节跳动豆包大模型团队发布全新稀疏模型架构UltraMem，有效解决传统MoE架构在推理时的高额访存问题。UltraMem通过优化内存访问和计算效率，推理速度较MoE提升2-6倍，推理成本最高降低83%。",
+      "originalContent": "字节跳动推出UltraMem架构，推理成本较MoE最高降83% 字节跳动豆包大模型团队发布全新稀疏模型架构UltraMem，有效解决传统MoE架构在推理时的高额访存问题。UltraMem通过优化内存访问和计算效率，推理速度较MoE提升2-6倍，推理成本最高降低83%。",
+      "source": "豆包大模型团队",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-12T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.322Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "2月12日·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.062Z"
+  "updateTime": "2025-07-09T10:29:02.491Z"
 }

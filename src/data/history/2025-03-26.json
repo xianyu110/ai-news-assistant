@@ -1,6 +1,6 @@
 {
   "date": "2025-03-26",
-  "count": 10,
+  "count": 11,
   "data": [
     {
       "id": "58f279d3",
@@ -56,23 +56,6 @@
       "dateText": "3月27日"
     },
     {
-      "id": "7a618e15",
-      "title": "OpenAI宣布Agent SDK 正式支持 MCP 服务，解锁无限工具扩展",
-      "content": "OpenAI宣布Agent SDK重大更新，正式支持Model Context Protocol（MCP）服务。MCP如同AI模型的“USB接口”，提供统一标准，使AI智能体能“即插即用”地接入各种第三方工具，如网络搜索、数据库查询等，极大简化多任务开发流程，提升复杂自动化应用开发效率。",
-      "originalContent": "OpenAI宣布Agent SDK 正式支持 MCP 服务，解锁无限工具扩展 OpenAI宣布Agent SDK重大更新，正式支持Model Context Protocol（MCP）服务。MCP如同AI模型的“USB接口”，提供统一标准，使AI智能体能“即插即用”地接入各种第三方工具，如网络搜索、数据库查询等，极大简化多任务开发流程，提升复杂自动化应用开发效率。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-26T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.662Z",
-      "category": "产品发布",
-      "tags": [
-        "大模型",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "3月27日·周四"
-    },
-    {
       "id": "6067186e",
       "title": "OpenAI宣布Agent SDK重大更新，正式支持Model Context Protocol（MCP）服务。MCP如同AI模型的“USB接口”，提供统一标准，使AI智能体能“即插即用”地接入各种第三方工具，如网络搜索、数据库查询等，极大简化多任务开发流程，提升复杂自动化应用开发效率。来源：IT之家",
       "content": "微信 AI 搜索新增“快速思考”，采用混元 T1 模型",
@@ -88,22 +71,6 @@
         "智能体"
       ],
       "dateText": "3月27日"
-    },
-    {
-      "id": "fe94e762",
-      "title": "微信 AI 搜索新增“快速思考”，采用混元 T1 模型",
-      "content": "微信AI搜索在“快速回答”和“深度思考”之外，新增“快速思考”选项，由腾讯混元T1模型提供支持。可快速生成回答，引用消息源包括公众号推文和网页信息，结果页面支持继续提问和社交分享，历史问答会保存在“最近”列表中。",
-      "originalContent": "微信 AI 搜索新增“快速思考”，采用混元 T1 模型 微信AI搜索在“快速回答”和“深度思考”之外，新增“快速思考”选项，由腾讯混元T1模型提供支持。可快速生成回答，引用消息源包括公众号推文和网页信息，结果页面支持继续提问和社交分享，历史问答会保存在“最近”列表中。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-26T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.662Z",
-      "category": "综合资讯",
-      "tags": [
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "3月27日·周四"
     },
     {
       "id": "5b892bf5",
@@ -122,55 +89,109 @@
       "dateText": "3月27日"
     },
     {
-      "id": "a7d86639",
-      "title": "阿里开源全模态模型Qwen2.5-Omni，7B尺寸实现全球最强性能",
-      "content": "阿里通义千问Qwen2.5-Omni-7B正式开源。作为首个端到端全模态大模型，Qwen2.5-Omni可同时处理文本、图像、音频和视频输入，实时生成文本与自然语音输出。在OmniBench等多模态任务中刷新纪录，性能远超Google的Gemini-1.5-Pro等同类模型。",
-      "originalContent": "阿里开源全模态模型Qwen2.5-Omni，7B尺寸实现全球最强性能 阿里通义千问Qwen2.5-Omni-7B正式开源。作为首个端到端全模态大模型，Qwen2.5-Omni可同时处理文本、图像、音频和视频输入，实时生成文本与自然语音输出。在OmniBench等多模态任务中刷新纪录，性能远超Google的Gemini-1.5-Pro等同类模型。",
-      "source": "阿里云",
+      "id": "5318f5ef",
+      "title": "谷歌发布Gemini 2.5 Pro，多项测试夺冠，推理能力全面超越OpenAI",
+      "content": "谷歌发布Gemini 2.5 Pro，是Gemini 2.5思考模型家族的首个成员。模型在多项基准测试中表现卓越，以1443分在大模型竞技场获断层第一，领先优势达39分，全面超越OpenAI o3-mini等多款知名模型。在“人类最后考试”中，得分较OpenAI o3-mini提升近5%，提升比例达34%。Gemini 2.5 Pro支持100万tokens上下文窗口。",
+      "originalContent": "谷歌发布Gemini 2.5 Pro，多项测试夺冠，推理能力全面超越OpenAI 谷歌发布Gemini 2.5 Pro，是Gemini 2.5思考模型家族的首个成员。模型在多项基准测试中表现卓越，以1443分在大模型竞技场获断层第一，领先优势达39分，全面超越OpenAI o3-mini等多款知名模型。在“人类最后考试”中，得分较OpenAI o3-mini提升近5%，提升比例达34%。Gemini 2.5 Pro支持100万tokens上下文窗口。",
+      "source": "智东西",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-26T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.661Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "大模型"
-      ],
-      "dateText": "3月27日·周四"
-    },
-    {
-      "id": "63bf0269",
-      "title": "腾讯ima知识号正式上线，助力知识创作与管理",
-      "content": "腾讯旗下的AI智能工作台ima宣布正式推出知识号。知识号为知识库创作者提供了一个全新的平台，创作者可以通过ima知识号入口申请创建账号，在ima知识广场发布知识库。平台提供数据分析工具，创作者可以直观地查看知识库的相关数据，包括知识库的数量、参与人数等。",
-      "originalContent": "腾讯ima知识号正式上线，助力知识创作与管理 腾讯旗下的AI智能工作台ima宣布正式推出知识号。知识号为知识库创作者提供了一个全新的平台，创作者可以通过ima知识号入口申请创建账号，在ima知识广场发布知识库。平台提供数据分析工具，创作者可以直观地查看知识库的相关数据，包括知识库的数量、参与人数等。",
-      "source": "ima.copilot",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-26T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.661Z",
+      "publishTime": "2025-03-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.286Z",
       "category": "产品发布",
       "tags": [
         "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月26日·周三"
+    },
+    {
+      "id": "23e8e946",
+      "title": "昆仑万维发布全球首款音乐推理大模型Mureka O1，中国AI音乐革命领跑全球",
+      "content": "昆仑万维正式发布全球首款音乐推理大模型Mureka O1。模型基于Mureka V6升级，首次引入思维链（CoT）技术，显著提升音乐创作效率与品质。涵盖多种风格与情感表达，具备歌曲参考和音色克隆等特色功能。性能超越Suno V4，登顶SOTA。",
+      "originalContent": "昆仑万维发布全球首款音乐推理大模型Mureka O1，中国AI音乐革命领跑全球 昆仑万维正式发布全球首款音乐推理大模型Mureka O1。模型基于Mureka V6升级，首次引入思维链（CoT）技术，显著提升音乐创作效率与品质。涵盖多种风格与情感表达，具备歌曲参考和音色克隆等特色功能。性能超越Suno V4，登顶SOTA。",
+      "source": "昆仑万维集团",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.286Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
         "技术",
         "AI工具"
       ],
-      "dateText": "3月27日·周四"
+      "dateText": "3月26日·周三"
     },
     {
-      "id": "df98541b",
-      "title": "DeepSeek全新版本API上线讯飞星辰MaaS平台",
-      "content": "DeepSeek全新版本DeepSeek-V3-0324上线讯飞星辰MaaS平台。新版本在推理任务表现、前端开发能力、中文写作水平以及中文搜索能力等方面实现显著提升，在数学、代码类评测集上得分超GPT-4.5。平台提供与DeepSeek官方API一致的效果，支持联网搜索，拓展应用场景。",
-      "originalContent": "DeepSeek全新版本API上线讯飞星辰MaaS平台 DeepSeek全新版本DeepSeek-V3-0324上线讯飞星辰MaaS平台。新版本在推理任务表现、前端开发能力、中文写作水平以及中文搜索能力等方面实现显著提升，在数学、代码类评测集上得分超GPT-4.5。平台提供与DeepSeek官方API一致的效果，支持联网搜索，拓展应用场景。",
-      "source": "讯飞开放平台",
+      "id": "df814bc9",
+      "title": "瑞典AI初创公司Lovable，3个月收入达1.2亿，AI编程市场新奇迹",
+      "content": "由Anton Osika和Fabian Hedin创立的瑞典AI公司 Lovable，凭借AI驱动的Web应用开发平台，仅用3个月就实现了从0到1700万美元的年化收入增长。平台支持用户通过自然语言描述功能，AI自动生成可生产代码。是面向非技术人员的AI编程工具。用户留存率超85%，网站月访问量达1000万次。",
+      "originalContent": "瑞典AI初创公司Lovable，3个月收入达1.2亿，AI编程市场新奇迹 由Anton Osika和Fabian Hedin创立的瑞典AI公司 Lovable，凭借AI驱动的Web应用开发平台，仅用3个月就实现了从0到1700万美元的年化收入增长。平台支持用户通过自然语言描述功能，AI自动生成可生产代码。是面向非技术人员的AI编程工具。用户留存率超85%，网站月访问量达1000万次。",
+      "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-26T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.662Z",
+      "publishTime": "2025-03-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.286Z",
       "category": "开源项目",
       "tags": [
-        "GPT",
-        "发布",
-        "技术"
+        "技术",
+        "AI工具"
       ],
-      "dateText": "3月27日·周四"
+      "dateText": "3月26日·周三"
+    },
+    {
+      "id": "8d917acb",
+      "title": "OpenAI发布GPT-4o图像生成功能，免费向用户开放",
+      "content": "OpenAI宣布在GPT-4o模型中集成先进图像生成功能，用户可通过自然语言指令生成和编辑图像。新功能支持多轮对话优化图像，保持内容一致性，能处理10至20个物体的复杂指令，远超其他模型。支持文本渲染、风格转换和上下文关联生成。",
+      "originalContent": "OpenAI发布GPT-4o图像生成功能，免费向用户开放 OpenAI宣布在GPT-4o模型中集成先进图像生成功能，用户可通过自然语言指令生成和编辑图像。新功能支持多轮对话优化图像，保持内容一致性，能处理10至20个物体的复杂指令，远超其他模型。支持文本渲染、风格转换和上下文关联生成。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.286Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月26日·周三"
+    },
+    {
+      "id": "11ad5d30",
+      "title": "它石智航官宣天使轮融资1.2亿美元，开启具身智能创业新征程",
+      "content": "具身智能初创公司它石智航（TARS）宣布完成1.2亿美元天使轮融资，创下中国具身智能行业天使轮最大融资额纪录。本轮融资由蓝驰创投、启明创投领投，线性资本等多家知名机构跟投。融资将用于产品研发、模型训练和场景拓展。",
+      "originalContent": "它石智航官宣天使轮融资1.2亿美元，开启具身智能创业新征程 具身智能初创公司它石智航（TARS）宣布完成1.2亿美元天使轮融资，创下中国具身智能行业天使轮最大融资额纪录。本轮融资由蓝驰创投、启明创投领投，线性资本等多家知名机构跟投。融资将用于产品研发、模型训练和场景拓展。",
+      "source": "它石智航",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.286Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "大模型",
+        "机器人"
+      ],
+      "dateText": "3月26日·周三"
+    },
+    {
+      "id": "160f1ca0",
+      "title": "谷歌Gemini Live推出实时AI视频新功能，实时交互能力再升级",
+      "content": "谷歌在MWC上承诺的Project Astra与Gemini Live集成功能正式上线。Gemini Live新增屏幕共享功能，用户可通过“Share screen with Live”按钮让AI读取手机屏幕信息并回答问题。实时视频功能可让Gemini通过手机摄像头解读画面并即时回答相关问题。",
+      "originalContent": "谷歌Gemini Live推出实时AI视频新功能，实时交互能力再升级 谷歌在MWC上承诺的Project Astra与Gemini Live集成功能正式上线。Gemini Live新增屏幕共享功能，用户可通过“Share screen with Live”按钮让AI读取手机屏幕信息并回答问题。实时视频功能可让Gemini通过手机摄像头解读画面并即时回答相关问题。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.287Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "3月26日·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.041Z"
+  "updateTime": "2025-07-09T10:29:02.485Z"
 }

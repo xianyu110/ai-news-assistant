@@ -1,23 +1,7 @@
 {
   "date": "2025-02-25",
-  "count": 7,
+  "count": 9,
   "data": [
-    {
-      "id": "fe551829",
-      "title": "阿里云开源视频生成大模型“Wan2.1”，全模态、全尺寸助力全球开发者",
-      "content": "阿里云开源视频生成大模型“万相2.1”，采用Apache 2.0协议，提供14B和1.3B两个参数版本，支持文生视频和图生视频任务。14B版本在复杂运动生成和物理建模方面表现卓越，1.3B版本能在消费级显卡上运行，仅需8.2GB显存可生成480P视频。万相2.1在权威评测集Vbench中以86.22%的总分超越国内外众多模型。",
-      "originalContent": "阿里云开源视频生成大模型“Wan2.1”，全模态、全尺寸助力全球开发者 阿里云开源视频生成大模型“万相2.1”，采用Apache 2.0协议，提供14B和1.3B两个参数版本，支持文生视频和图生视频任务。14B版本在复杂运动生成和物理建模方面表现卓越，1.3B版本能在消费级显卡上运行，仅需8.2GB显存可生成480P视频。万相2.1在权威评测集Vbench中以86.22%的总分超越国内外众多模型。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.705Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "大模型"
-      ],
-      "dateText": "2月26日·周三"
-    },
     {
       "id": "51bf8a58",
       "title": "阿里云开源视频生成大模型“万相2.1”，采用Apache 2.0协议，提供14B和1.3B两个参数版本，支持文生视频和图生视频任务。14B版本在复杂运动生成和物理建模方面表现卓越，1.3B版本能在消费级显卡上运行，仅需8.2GB显存可生成480P视频。万相2.1在权威评测集Vbench中以86.22%的总分超越国内外众多模型。来源：AI工具集",
@@ -34,23 +18,6 @@
         "AI工具"
       ],
       "dateText": "2月26日"
-    },
-    {
-      "id": "c5d8c136",
-      "title": "DeepSeek开源FP8 GEMM库：极致优化Hopper GPU性能，助力AI训练与推理",
-      "content": "DeepSeek开源周第三弹发布——DeepGEMM，是专为Hopper GPU设计的FP8 GEMM库，支持密集和MoE GEMM，性能高达1350+ TFLOPS。采用JIT即时编译，无需预编译，核心代码仅约300行，支持多种矩阵布局，矩阵运算提速显著。",
-      "originalContent": "DeepSeek开源FP8 GEMM库：极致优化Hopper GPU性能，助力AI训练与推理 DeepSeek开源周第三弹发布——DeepGEMM，是专为Hopper GPU设计的FP8 GEMM库，支持密集和MoE GEMM，性能高达1350+ TFLOPS。采用JIT即时编译，无需预编译，核心代码仅约300行，支持多种矩阵布局，矩阵运算提速显著。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.706Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "2月26日·周三"
     },
     {
       "id": "09ba8d00",
@@ -87,39 +54,110 @@
       "dateText": "2月26日"
     },
     {
-      "id": "d20e2a77",
-      "title": "谷歌推出 Gemini Code Assist 个人版编程工具，免费可用",
-      "content": "谷歌推出面向个人开发者的免费编程工具 Gemini Code Assist，帮助学生、爱好者和初创公司更便捷地获取AI编程支持。工具基于谷歌Gemini 2.0模型驱动，支持38种语言，提供每月最多18万次代码补全服务，远超其他同类产品。",
-      "originalContent": "谷歌推出 Gemini Code Assist 个人版编程工具，免费可用 谷歌推出面向个人开发者的免费编程工具 Gemini Code Assist，帮助学生、爱好者和初创公司更便捷地获取AI编程支持。工具基于谷歌Gemini 2.0模型驱动，支持38种语言，提供每月最多18万次代码补全服务，远超其他同类产品。",
+      "id": "f65638af",
+      "title": "Claude 3.7 Sonnet发布：AI推理与编码能力的双重突破",
+      "content": "Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。",
+      "originalContent": "Claude 3.7 Sonnet发布：AI推理与编码能力的双重突破 Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.707Z",
+      "publishTime": "2025-02-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.312Z",
       "category": "开源项目",
       "tags": [
         "发布",
+        "研究",
         "大模型",
         "AI工具"
       ],
-      "dateText": "2月26日·周三"
+      "dateText": "2月25日·周二"
     },
     {
-      "id": "57d003d9",
-      "title": "DeepSeek API 错峰优惠，R1 价格降至1/4",
-      "content": "DeepSeek推出API错峰优惠，2025年2月26日起，DeepSeek开放平台在北京时间每日00:30至08:30的夜间空闲时段，DeepSeek-V3 API调用价格降至原价的50%，DeepSeek-R1价格低至原价的25%。鼓励用户在夜间利用平台资源，享受更经济、更流畅的服务体验。",
-      "originalContent": "DeepSeek API 错峰优惠，R1 价格降至1/4 DeepSeek推出API错峰优惠，2025年2月26日起，DeepSeek开放平台在北京时间每日00:30至08:30的夜间空闲时段，DeepSeek-V3 API调用价格降至原价的50%，DeepSeek-R1价格低至原价的25%。鼓励用户在夜间利用平台资源，享受更经济、更流畅的服务体验。",
-      "source": "DeepSeek",
+      "id": "3f8d892a",
+      "title": "ChatGPT 变身苹果 Safari 浏览器默认搜索引擎",
+      "content": "OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。",
+      "originalContent": "ChatGPT 变身苹果 Safari 浏览器默认搜索引擎 OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。",
+      "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.705Z",
+      "publishTime": "2025-02-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.312Z",
       "category": "产品发布",
+      "tags": [
+        "GPT",
+        "AI工具"
+      ],
+      "dateText": "2月25日·周二"
+    },
+    {
+      "id": "07c1a40c",
+      "title": "阿里Qwen团队发布推理模型QwQ，会展示完整的思维链",
+      "content": "阿里通义千问团队推出QwQ-Max-Preview深度思考模型，支持联网搜索，具备强大的通用能力，可完成创意写作、代码生成、数学题解答等任务。模型基于Qwen2.5-Max构建，未来将以Apache 2.0许可协议开源。目前已上线官网，用户可通过点击“深度思考（QwQ）”按钮体验。",
+      "originalContent": "阿里Qwen团队发布推理模型QwQ，会展示完整的思维链 阿里通义千问团队推出QwQ-Max-Preview深度思考模型，支持联网搜索，具备强大的通用能力，可完成创意写作、代码生成、数学题解答等任务。模型基于Qwen2.5-Max构建，未来将以Apache 2.0许可协议开源。目前已上线官网，用户可通过点击“深度思考（QwQ）”按钮体验。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.313Z",
+      "category": "开源项目",
       "tags": [
         "开源",
         "发布",
-        "技术"
+        "大模型"
       ],
-      "dateText": "2月26日·周三"
+      "dateText": "2月25日·周二"
+    },
+    {
+      "id": "835c95bd",
+      "title": "Perplexity 官宣“Comet”浏览器，主打“AI 智能体搜索”",
+      "content": "Perplexity AI 宣布进军浏览器市场，推出名为“Comet”的浏览器。浏览器以“AI 智能体搜索”为核心概念，提供更贴近用户需求的搜索体验。Comet 已开启注册，具体上线时间和功能细节尚未公布。Perplexity AI 称 AI 技术将优于谷歌 Chrome 和微软 Edge 等现有浏览器的搜索体验。",
+      "originalContent": "Perplexity 官宣“Comet”浏览器，主打“AI 智能体搜索” Perplexity AI 宣布进军浏览器市场，推出名为“Comet”的浏览器。浏览器以“AI 智能体搜索”为核心概念，提供更贴近用户需求的搜索体验。Comet 已开启注册，具体上线时间和功能细节尚未公布。Perplexity AI 称 AI 技术将优于谷歌 Chrome 和微软 Edge 等现有浏览器的搜索体验。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.313Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "2月25日·周二"
+    },
+    {
+      "id": "67365ae4",
+      "title": "字节AI加速调整，豆包正测试深度思考模型，暂未接入DeepSeek",
+      "content": "字节跳动旗下AI助手“豆包”正在小范围测试深度思考模型，但未接入DeepSeek，是采用自研技术。目前，豆包的深度思考功能尚未开放，部分测试用户已能体验到思维链的呈现。自DeepSeek开源后，字节AI部门面临重大调整。",
+      "originalContent": "字节AI加速调整，豆包正测试深度思考模型，暂未接入DeepSeek 字节跳动旗下AI助手“豆包”正在小范围测试深度思考模型，但未接入DeepSeek，是采用自研技术。目前，豆包的深度思考功能尚未开放，部分测试用户已能体验到思维链的呈现。自DeepSeek开源后，字节AI部门面临重大调整。",
+      "source": "Z Finance",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.313Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月25日·周二"
+    },
+    {
+      "id": "2bbea8e6",
+      "title": "DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率",
+      "content": "DeepSeek 开源周第二天，发布开源项目 DeepEP，专为混合专家模型（MoE）训练和推理设计的高效通信库。DeepEP 提供高吞吐量和低延迟的全对全 GPU 内核，支持 NVLink 和 RDMA 通信，优化训练和推理效率。",
+      "originalContent": "DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率 DeepSeek 开源周第二天，发布开源项目 DeepEP，专为混合专家模型（MoE）训练和推理设计的高效通信库。DeepEP 提供高吞吐量和低延迟的全对全 GPU 内核，支持 NVLink 和 RDMA 通信，优化训练和推理效率。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.312Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "2月25日·周二"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.056Z"
+  "updateTime": "2025-07-09T10:29:02.489Z"
 }

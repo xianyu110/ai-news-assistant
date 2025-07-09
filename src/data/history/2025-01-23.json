@@ -1,26 +1,7 @@
 {
   "date": "2025-01-23",
-  "count": 7,
+  "count": 9,
   "data": [
-    {
-      "id": "0e948e8b",
-      "title": "OpenAI正式发布智能体Operator！能推理、联网自主执行任务",
-      "content": "OpenAI推出“Operator”AI代理，Operator依托Computer-Using Agent（CUA）模型，结合GPT-4o的视觉能力和强化学习推理能力，能自动完成多种在线任务，如预订餐厅、旅行规划、购物等。通过屏幕截图“感知”界面，通过虚拟键盘和鼠标操作网页。具备自我纠错能力，遇到敏感信息或复杂任务时会交由用户接管。",
-      "originalContent": "OpenAI正式发布智能体Operator！能推理、联网自主执行任务 OpenAI推出“Operator”AI代理，Operator依托Computer-Using Agent（CUA）模型，结合GPT-4o的视觉能力和强化学习推理能力，能自动完成多种在线任务，如预订餐厅、旅行规划、购物等。通过屏幕截图“感知”界面，通过虚拟键盘和鼠标操作网页。具备自我纠错能力，遇到敏感信息或复杂任务时会交由用户接管。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-01-23T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.747Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "发布",
-        "大模型",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "1月24日·周五"
-    },
     {
       "id": "2602a7a1",
       "title": "OpenAI推出“Operator”AI代理，Operator依托Computer-Using Agent（CUA）模型，结合GPT-4o的视觉能力和强化学习推理能力，能自动完成多种在线任务，如预订餐厅、旅行规划、购物等。通过屏幕截图“感知”界面，通过虚拟键盘和鼠标操作网页。具备自我纠错能力，遇到敏感信息或复杂任务时会交由用户接管。来源：AI工具集",
@@ -39,23 +20,6 @@
         "智能体"
       ],
       "dateText": "1月24日"
-    },
-    {
-      "id": "2c375045",
-      "title": "百川智能发布深度思考模型，同时具备语言、视觉和搜索三大领域推理能力",
-      "content": "百川智能推出两款新模型：Baichuan-M1-preview是国内首个全场景深度思考模型，具备语言、视觉和搜索三大领域推理能力，在医疗循证模式下，能快速精准回答医疗问题，提供深度推理和个性化建议。小尺寸版本Baichuan-M1-14B是行业首个开源医疗增强大模型，医疗能力超越Qwen2.5-72B。",
-      "originalContent": "百川智能发布深度思考模型，同时具备语言、视觉和搜索三大领域推理能力 百川智能推出两款新模型：Baichuan-M1-preview是国内首个全场景深度思考模型，具备语言、视觉和搜索三大领域推理能力，在医疗循证模式下，能快速精准回答医疗问题，提供深度推理和个性化建议。小尺寸版本Baichuan-M1-14B是行业首个开源医疗增强大模型，医疗能力超越Qwen2.5-72B。",
-      "source": "百川大模型",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-01-23T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.748Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "大模型"
-      ],
-      "dateText": "1月24日·周五"
     },
     {
       "id": "a3f4e1fb",
@@ -94,40 +58,108 @@
       "dateText": "1月24日"
     },
     {
-      "id": "d351e91a",
-      "title": "JetBrains发布AI编程Agent，助力开发者提升代码效率与质量",
-      "content": "JetBrains推出全新的AI编程Agent——Junie，以插件形式支持IntelliJ IDEA Ultimate和PyCharm Professional，未来将扩展至WebStorm。Junie在SWE-Bench Verified基准测试中完成53.6%的任务，表现中等偏上。能与JetBrains IDE深度整合，生成代码、运行检查、编写测试并验证结果，显著提升开发效率和代码质量。",
-      "originalContent": "JetBrains发布AI编程Agent，助力开发者提升代码效率与质量 JetBrains推出全新的AI编程Agent——Junie，以插件形式支持IntelliJ IDEA Ultimate和PyCharm Professional，未来将扩展至WebStorm。Junie在SWE-Bench Verified基准测试中完成53.6%的任务，表现中等偏上。能与JetBrains IDE深度整合，生成代码、运行检查、编写测试并验证结果，显著提升开发效率和代码质量。",
+      "id": "94c799ae",
+      "title": "Perplexity发布Sonar API，提供实时信息搜索功能",
+      "content": "Perplexity发布Sonar API，提供实时信息搜索功能。Sonar API分为基础版和Pro版，基础版支持轻量级实时搜索和简单查询引用，Pro版则支持复杂多步骤任务、更大的上下文窗口和更丰富的引用。",
+      "originalContent": "Perplexity发布Sonar API，提供实时信息搜索功能 Perplexity发布Sonar API，提供实时信息搜索功能。Sonar API分为基础版和Pro版，基础版支持轻量级实时搜索和简单查询引用，Pro版则支持复杂多步骤任务、更大的上下文窗口和更丰富的引用。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-01-23T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.749Z",
-      "category": "开源项目",
+      "publishTime": "2025-01-23T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.334Z",
+      "category": "产品发布",
+      "tags": [
+        "发布"
+      ],
+      "dateText": "1月23日·周四"
+    },
+    {
+      "id": "de43f5e5",
+      "title": "谷歌 Gemini 2.0 Flash Thinking 强化版发布，登上 Chatbot Arena 榜首",
+      "content": "谷歌发布Gemini 2.0 Flash Thinking推理模型的加强版，再次登顶Chatbot Arena排行榜。更新引入了1M长上下文处理能力，可对长篇文本进行更深入分析，减少模型思想与答案之间的矛盾。支持长上下文、多模态输入以及推理过程可视化，推理速度极快，在数学和科学能力测试中表现突出，数学成绩较前代提升54%。",
+      "originalContent": "谷歌 Gemini 2.0 Flash Thinking 强化版发布，登上 Chatbot Arena 榜首 谷歌发布Gemini 2.0 Flash Thinking推理模型的加强版，再次登顶Chatbot Arena排行榜。更新引入了1M长上下文处理能力，可对长篇文本进行更深入分析，减少模型思想与答案之间的矛盾。支持长上下文、多模态输入以及推理过程可视化，推理速度极快，在数学和科学能力测试中表现突出，数学成绩较前代提升54%。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-23T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.335Z",
+      "category": "产品发布",
       "tags": [
         "发布",
         "研究",
-        "AI工具",
-        "智能体"
+        "大模型"
       ],
-      "dateText": "1月24日·周五"
+      "dateText": "1月23日·周四"
     },
     {
-      "id": "f3a1545d",
-      "title": "跃问App上新「创意板」功能，零代码实现应用与游戏创作",
-      "content": "跃问App上线国内首个「创意板」功能，用户可通过简单指令生成应用、游戏等创意内容，无需代码知识。基于自研多模态大模型Step-1o系列。创意板支持生成海报、游戏、互动网页等，可分享至任意平台。",
-      "originalContent": "跃问App上新「创意板」功能，零代码实现应用与游戏创作 跃问App上线国内首个「创意板」功能，用户可通过简单指令生成应用、游戏等创意内容，无需代码知识。基于自研多模态大模型Step-1o系列。创意板支持生成海报、游戏、互动网页等，可分享至任意平台。",
+      "id": "40e9516f",
+      "title": "智谱GLM-PC开放体验：自主操作电脑的多模态Agent再升级",
+      "content": "智谱推出电脑智能体GLM-PC，基于智谱CogAgent模型构建，能像人类一样“观察”和“操作”电脑，协助完成各类任务。新增“深度思考”模式、逻辑推理和代码生成功能，支持Windows系统。GLM-PC通过模拟人类左右脑分工，结合代码生成和图形界面理解，实现了逻辑推理与感知认知的深度结合。",
+      "originalContent": "智谱GLM-PC开放体验：自主操作电脑的多模态Agent再升级 智谱推出电脑智能体GLM-PC，基于智谱CogAgent模型构建，能像人类一样“观察”和“操作”电脑，协助完成各类任务。新增“深度思考”模式、逻辑推理和代码生成功能，支持Windows系统。GLM-PC通过模拟人类左右脑分工，结合代码生成和图形界面理解，实现了逻辑推理与感知认知的深度结合。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-01-23T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.748Z",
+      "publishTime": "2025-01-23T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.334Z",
       "category": "开源项目",
       "tags": [
+        "开源",
         "发布",
         "大模型",
-        "技术"
+        "智能体"
       ],
-      "dateText": "1月24日·周五"
+      "dateText": "1月23日·周四"
+    },
+    {
+      "id": "6b78740c",
+      "title": "字节跳动推出的开源原生 GUI 代理模型",
+      "content": "字节跳动发布并开源了UI-TARS大模型，是专门用于操控电脑界面的视觉语言模型，具备感知、推理和操作能力。UI-TARS提供2B、7B和72B三种参数规模版本，支持跨平台操作，能通过自然语言指令完成鼠标点击、键盘输入等任务。在多个基准测试中，UI-TARS表现优于GPT-4和Claude。",
+      "originalContent": "字节跳动推出的开源原生 GUI 代理模型 字节跳动发布并开源了UI-TARS大模型，是专门用于操控电脑界面的视觉语言模型，具备感知、推理和操作能力。UI-TARS提供2B、7B和72B三种参数规模版本，支持跨平台操作，能通过自然语言指令完成鼠标点击、键盘输入等任务。在多个基准测试中，UI-TARS表现优于GPT-4和Claude。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-23T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.334Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "1月23日·周四"
+    },
+    {
+      "id": "a7808b99",
+      "title": "字节启动 Seed Edge，加码 AGI 研究",
+      "content": "字节跳动正式设立代号为“Seed Edge”的研究项目，专注于通用人工智能（AGI）的前沿研究。项目拟定五大研究方向，包括下一代推理、感知、软硬一体模型设计、新范式探索和Scaling方向研究。Seed Edge旨在探索AI的原创性创新，而非仅追随现有技术。字节跳动创始人张一鸣高度重视AI研究，鼓励团队探索基础课题。",
+      "originalContent": "字节启动 Seed Edge，加码 AGI 研究 字节跳动正式设立代号为“Seed Edge”的研究项目，专注于通用人工智能（AGI）的前沿研究。项目拟定五大研究方向，包括下一代推理、感知、软硬一体模型设计、新范式探索和Scaling方向研究。Seed Edge旨在探索AI的原创性创新，而非仅追随现有技术。字节跳动创始人张一鸣高度重视AI研究，鼓励团队探索基础课题。",
+      "source": "晚点LatePost",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-23T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.335Z",
+      "category": "开源项目",
+      "tags": [
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "1月23日·周四"
+    },
+    {
+      "id": "cdfdae25",
+      "title": "Step-Video 开年震撼升级：更强大的真实世界模拟器来了",
+      "content": "阶跃星辰推出视频生成模型 Step-Video V2版本。新版本在参数量、语义理解、指令遵循能力等方面大幅提升，支持复杂运动、人物美感、基础文字生成和多语言输入等功能。用户可通过跃问网页端申请试用。",
+      "originalContent": "Step-Video 开年震撼升级：更强大的真实世界模拟器来了 阶跃星辰推出视频生成模型 Step-Video V2版本。新版本在参数量、语义理解、指令遵循能力等方面大幅提升，支持复杂运动、人物美感、基础文字生成和多语言输入等功能。用户可通过跃问网页端申请试用。",
+      "source": "阶跃星辰",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-23T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.334Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "1月23日·周四"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.074Z"
+  "updateTime": "2025-07-09T10:29:02.493Z"
 }

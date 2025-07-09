@@ -1,74 +1,127 @@
 {
   "date": "2025-06-18",
-  "count": 4,
+  "count": 7,
   "data": [
     {
-      "id": "6bd6022a",
-      "title": "红杉中国正式开源xbench两个评测集",
-      "content": "红杉中国正式开源xbench评测集，包括xbench-ScienceQA和xbench-DeepSearch两个子集。xbench-ScienceQA聚焦高难度科学与工程问答，邀请博士生和专家出题，题目难度高、区分度好，平均正确率仅32%。xbench-DeepSearch针对 AgentAI的深度搜索能力，考察规划、搜索、推理和总结能力，适配中文互联网环境。",
-      "originalContent": "红杉中国正式开源xbench两个评测集 红杉中国正式开源xbench评测集，包括xbench-ScienceQA和xbench-DeepSearch两个子集。xbench-ScienceQA聚焦高难度科学与工程问答，邀请博士生和专家出题，题目难度高、区分度好，平均正确率仅32%。xbench-DeepSearch针对 AgentAI的深度搜索能力，考察规划、搜索、推理和总结能力，适配中文互联网环境。",
-      "source": "红杉汇",
+      "id": "12e69adc",
+      "title": "硅基流动入驻阿里云云市场，核心API服务将全面接入阿里云百炼平台",
+      "content": "AI Infra企业硅基流动正式入驻阿里云云市场，并加入阿里云“繁花计划”。大模型推理平台SiliconCloud核心API服务将全面接入阿里云百炼平台，借助阿里云灵骏智能计算集群的算力支撑，为客户提供开箱即用的大模型服务。",
+      "originalContent": "硅基流动入驻阿里云云市场，核心API服务将全面接入阿里云百炼平台 AI Infra企业硅基流动正式入驻阿里云云市场，并加入阿里云“繁花计划”。大模型推理平台SiliconCloud核心API服务将全面接入阿里云百炼平台，借助阿里云灵骏智能计算集群的算力支撑，为客户提供开箱即用的大模型服务。",
+      "source": "阿里云",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-18T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.471Z",
-      "category": "开源项目",
+      "publishTime": "2025-06-18T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.195Z",
+      "category": "综合资讯",
       "tags": [
-        "开源",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "6月19·周四"
-    },
-    {
-      "id": "f191dcd2",
-      "title": "Midjourney正式推出首个视频生成模型V1，很快、很好、很便宜",
-      "content": "Midjourney推出视频生成模型V1，是一款图生视频模型。用户在生成静态图像后，点击“Animate”按钮即可让画面动起来。系统提供“自动动画”和“手动动画”两种模式，以及低动态和高动态两种强度选项，分别适合不同场景需求。生成视频后，能进行延长操作，每次延长约4秒，最多可延长4次。",
-      "originalContent": "Midjourney正式推出首个视频生成模型V1，很快、很好、很便宜 Midjourney推出视频生成模型V1，是一款图生视频模型。用户在生成静态图像后，点击“Animate”按钮即可让画面动起来。系统提供“自动动画”和“手动动画”两种模式，以及低动态和高动态两种强度选项，分别适合不同场景需求。生成视频后，能进行延长操作，每次延长约4秒，最多可延长4次。",
-      "source": "Midjourney",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-18T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.470Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型"
-      ],
-      "dateText": "6月19·周四"
-    },
-    {
-      "id": "b450cd39",
-      "title": "MiniMax Agent，能完成长程复杂任务的通用智能体",
-      "content": "MiniMax稀宇科技发布的MiniMax Agent通用智能体。能完成长程复杂任务，具备多步规划和灵活拆解任务需求的能力，可生成讨论材料、学习教程、视频等多种内容。设计遵循“靠谱的人”标准，支持多模态输入输出，集成多种办公工具扩展能力。",
-      "originalContent": "MiniMax Agent，能完成长程复杂任务的通用智能体 MiniMax稀宇科技发布的MiniMax Agent通用智能体。能完成长程复杂任务，具备多步规划和灵活拆解任务需求的能力，可生成讨论材料、学习教程、视频等多种内容。设计遵循“靠谱的人”标准，支持多模态输入输出，集成多种办公工具扩展能力。",
-      "source": "MiniMax 稀宇科技",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-18T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.471Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "6月19·周四"
-    },
-    {
-      "id": "9636ab9d",
-      "title": "AI陪伴硬件公司“珞博智能”完成数千万人民币融资，上影、金沙江领投",
-      "content": "AI陪伴硬件初创公司珞博智能近日完成数千万元人民币天使轮融资，由零一创投、上影新视野基金和金沙江创投参与投资。珞博智能成立于2024年，首款产品芙崽Fuzozo于2025年3月发布，6月正式投入市场销售。芙崽是一款AI养成系潮玩，通过多模态交互与类宠物养成玩法，为Z世代人群提供情感陪伴。",
-      "originalContent": "AI陪伴硬件公司“珞博智能”完成数千万人民币融资，上影、金沙江领投 AI陪伴硬件初创公司珞博智能近日完成数千万元人民币天使轮融资，由零一创投、上影新视野基金和金沙江创投参与投资。珞博智能成立于2024年，首款产品芙崽Fuzozo于2025年3月发布，6月正式投入市场销售。芙崽是一款AI养成系潮玩，通过多模态交互与类宠物养成玩法，为Z世代人群提供情感陪伴。",
-      "source": "Robopoet珞博智能",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-18T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.471Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "发布",
+        "大模型",
+        "技术",
         "AI工具"
       ],
-      "dateText": "6月19·周四"
+      "dateText": "6月18·周三"
+    },
+    {
+      "id": "eefe8765",
+      "title": "重磅！MiniMax推出全新AI视频模型——Hailuo 02，刷新排名 力压可灵和Veo 3",
+      "content": "国内MiniMax旗下视频生成模型海螺AI推出新版本Hailuo 02，这个模型目前在图生视频、文生视频的榜单位于第二，超越快手可灵以及谷歌Veo 3，仅次于字节上周刚刚发布Seedance 1.0。",
+      "originalContent": "重磅！MiniMax推出全新AI视频模型——Hailuo 02，刷新排名 力压可灵和Veo 3 国内MiniMax旗下视频生成模型海螺AI推出新版本Hailuo 02，这个模型目前在图生视频、文生视频的榜单位于第二，超越快手可灵以及谷歌Veo 3，仅次于字节上周刚刚发布Seedance 1.0。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.192Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月18·周三"
+    },
+    {
+      "id": "3ac6e7f2",
+      "title": "AI 编程工具 Cursor 推出月费 200 美元 Ultra 订阅",
+      "content": "AI 编程工具 Cursor 推出月费 200 美元的 Ultra 订阅方案。方案提供比现有 20 美元 Pro 方案多 20 倍的 AI 模型额度，并优先体验新功能。",
+      "originalContent": "AI 编程工具 Cursor 推出月费 200 美元 Ultra 订阅 AI 编程工具 Cursor 推出月费 200 美元的 Ultra 订阅方案。方案提供比现有 20 美元 Pro 方案多 20 倍的 AI 模型额度，并优先体验新功能。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.193Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月18·周三"
+    },
+    {
+      "id": "336db415",
+      "title": "字节跳动Seed与比亚迪锂电池深化合作：将成立AI联合实验室加速电池研发",
+      "content": "字节跳动Seed与比亚迪锂电池深化合作，将成立AI联合实验室加速电池研发。双方将通过联合实验室，进一步探索AI技术在动力电池快充、寿命和安全等问题上的应用，推动电池技术进步。",
+      "originalContent": "字节跳动Seed与比亚迪锂电池深化合作：将成立AI联合实验室加速电池研发 字节跳动Seed与比亚迪锂电池深化合作，将成立AI联合实验室加速电池研发。双方将通过联合实验室，进一步探索AI技术在动力电池快充、寿命和安全等问题上的应用，推动电池技术进步。",
+      "source": "字节跳动Seed",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.193Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "6月18·周三"
+    },
+    {
+      "id": "a7284b7f",
+      "title": "OpenAI“热线电话”技能更新：发短信给 1-800-242-8478 即可生成图片",
+      "content": "OpenAI更新其“热线电话”技能，用户可通过WhatsApp向1-800-242-8478发短信调用图像生成功能。OpenAI为WhatsApp集成ChatGPT，用户无需OpenAI账号，将1 (800) CHATGPT添加到联系人即可使用。",
+      "originalContent": "OpenAI“热线电话”技能更新：发短信给 1-800-242-8478 即可生成图片 OpenAI更新其“热线电话”技能，用户可通过WhatsApp向1-800-242-8478发短信调用图像生成功能。OpenAI为WhatsApp集成ChatGPT，用户无需OpenAI账号，将1 (800) CHATGPT添加到联系人即可使用。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.194Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "AI工具"
+      ],
+      "dateText": "6月18·周三"
+    },
+    {
+      "id": "10303df5",
+      "title": "Google发布Gemini 2.5 AI模型家族更新",
+      "content": "Google发布Gemini 2.5 AI模型家族更新，三大亮点：Gemini 2.5 Flash-Lite上线预览版，支持多模态输入、Google搜索、代码执行等工具接入；Gemini 2.5 Flash正式上线并调整定价，输入每百万Token价格为0.3美元，输出为2.5美元；Gemini 2.5 Pro正式版上线，在多个基准测试中超越DeepSeek R1等模型，视频理解能力显著提升。",
+      "originalContent": "Google发布Gemini 2.5 AI模型家族更新 Google发布Gemini 2.5 AI模型家族更新，三大亮点：Gemini 2.5 Flash-Lite上线预览版，支持多模态输入、Google搜索、代码执行等工具接入；Gemini 2.5 Flash正式上线并调整定价，输入每百万Token价格为0.3美元，输出为2.5美元；Gemini 2.5 Pro正式版上线，在多个基准测试中超越DeepSeek R1等模型，视频理解能力显著提升。",
+      "source": "APPSO",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.194Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月18·周三"
+    },
+    {
+      "id": "58bae9b1",
+      "title": "腾讯元宝上线 AI 编程模式：支持边修改代码边实时预览",
+      "content": "腾讯元宝上线AI编程模式，用户可通过“一句话写代码”实现快速编程。模式基于DeepSeek V3模型，支持双栏展示，左侧提需求，右侧实时生成代码并可在线运行，支持HTML、Python、C++等多种语言。",
+      "originalContent": "腾讯元宝上线 AI 编程模式：支持边修改代码边实时预览 腾讯元宝上线AI编程模式，用户可通过“一句话写代码”实现快速编程。模式基于DeepSeek V3模型，支持双栏展示，左侧提需求，右侧实时生成代码并可在线运行，支持HTML、Python、C++等多种语言。",
+      "source": "腾讯元宝",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-18T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.194Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月18·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:17.989Z"
+  "updateTime": "2025-07-09T10:29:02.473Z"
 }

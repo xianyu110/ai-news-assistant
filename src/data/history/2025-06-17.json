@@ -1,127 +1,109 @@
 {
   "date": "2025-06-17",
-  "count": 7,
+  "count": 6,
   "data": [
     {
-      "id": "12e69adc",
-      "title": "硅基流动入驻阿里云云市场，核心API服务将全面接入阿里云百炼平台",
-      "content": "AI Infra企业硅基流动正式入驻阿里云云市场，并加入阿里云“繁花计划”。大模型推理平台SiliconCloud核心API服务将全面接入阿里云百炼平台，借助阿里云灵骏智能计算集群的算力支撑，为客户提供开箱即用的大模型服务。",
-      "originalContent": "硅基流动入驻阿里云云市场，核心API服务将全面接入阿里云百炼平台 AI Infra企业硅基流动正式入驻阿里云云市场，并加入阿里云“繁花计划”。大模型推理平台SiliconCloud核心API服务将全面接入阿里云百炼平台，借助阿里云灵骏智能计算集群的算力支撑，为客户提供开箱即用的大模型服务。",
-      "source": "阿里云",
+      "id": "037a1885",
+      "title": "MiniMax-M1，全球首个开源大规模混合架构的推理模型",
+      "content": "MiniMax稀宇科技发布全球首个开源大规模混合架构推理模型MiniMax-M1。在复杂生产力场景中表现卓越，接近海外领先水平，性价比极高。M1支持100万上下文输入和8万Token推理输出，基于闪电注意力机制和混合架构，算力效率显著提升。强化学习算法CISPO收敛性能优异，训练成本仅53.74万美金。",
+      "originalContent": "MiniMax-M1，全球首个开源大规模混合架构的推理模型 MiniMax稀宇科技发布全球首个开源大规模混合架构推理模型MiniMax-M1。在复杂生产力场景中表现卓越，接近海外领先水平，性价比极高。M1支持100万上下文输入和8万Token推理输出，基于闪电注意力机制和混合架构，算力效率显著提升。强化学习算法CISPO收敛性能优异，训练成本仅53.74万美金。",
+      "source": "MiniMax 稀宇科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.476Z",
-      "category": "综合资讯",
+      "publishTime": "2025-06-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.195Z",
+      "category": "开源项目",
       "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "6月17·周二"
+    },
+    {
+      "id": "6e7d5599",
+      "title": "Qwen3 全系适配 MLX，开源 32 款 MLX 量化模型",
+      "content": "Qwen3模型宣布全系适配苹果芯片的MLX框架，开源32款量化模型。MLX是专为苹果芯片深度适配的开源机器学习框架，可高效训练和部署AI大模型。Qwen3此次推出的模型包括4bit、6bit、8bit和BF16四种精度的量化版本，覆盖从Mac Pro到iPhone的全场景设备。",
+      "originalContent": "Qwen3 全系适配 MLX，开源 32 款 MLX 量化模型 Qwen3模型宣布全系适配苹果芯片的MLX框架，开源32款量化模型。MLX是专为苹果芯片深度适配的开源机器学习框架，可高效训练和部署AI大模型。Qwen3此次推出的模型包括4bit、6bit、8bit和BF16四种精度的量化版本，覆盖从Mac Pro到iPhone的全场景设备。",
+      "source": "通义千问Qwen",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.195Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
         "大模型",
         "技术",
         "AI工具"
       ],
-      "dateText": "6月18·周三"
+      "dateText": "6月17·周二"
     },
     {
-      "id": "eefe8765",
-      "title": "重磅！MiniMax推出全新AI视频模型——Hailuo 02，刷新排名 力压可灵和Veo 3",
-      "content": "国内MiniMax旗下视频生成模型海螺AI推出新版本Hailuo 02，这个模型目前在图生视频、文生视频的榜单位于第二，超越快手可灵以及谷歌Veo 3，仅次于字节上周刚刚发布Seedance 1.0。",
-      "originalContent": "重磅！MiniMax推出全新AI视频模型——Hailuo 02，刷新排名 力压可灵和Veo 3 国内MiniMax旗下视频生成模型海螺AI推出新版本Hailuo 02，这个模型目前在图生视频、文生视频的榜单位于第二，超越快手可灵以及谷歌Veo 3，仅次于字节上周刚刚发布Seedance 1.0。",
-      "source": "AI工具集",
+      "id": "a9b11dfc",
+      "title": "豆包电脑版、网页版上线“AI 播客”功能",
+      "content": "豆包电脑版和网页版上线了“AI播客”功能。用户只需上传PDF文件或添加网页链接，可生成自然流畅的拟人化双人对话播客。语音效果逼真，模拟真人播客的口语习惯，停顿和附和细节恰到好处。用户可将行业报告、课程知识点等资料上传，快速生成通俗易懂的播客。",
+      "originalContent": "豆包电脑版、网页版上线“AI 播客”功能 豆包电脑版和网页版上线了“AI播客”功能。用户只需上传PDF文件或添加网页链接，可生成自然流畅的拟人化双人对话播客。语音效果逼真，模拟真人播客的口语习惯，停顿和附和细节恰到好处。用户可将行业报告、课程知识点等资料上传，快速生成通俗易懂的播客。",
+      "source": "豆包",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.472Z",
+      "publishTime": "2025-06-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.195Z",
       "category": "产品发布",
       "tags": [
         "发布",
-        "大模型",
         "AI工具"
       ],
-      "dateText": "6月18·周三"
+      "dateText": "6月17·周二"
     },
     {
-      "id": "3ac6e7f2",
-      "title": "AI 编程工具 Cursor 推出月费 200 美元 Ultra 订阅",
-      "content": "AI 编程工具 Cursor 推出月费 200 美元的 Ultra 订阅方案。方案提供比现有 20 美元 Pro 方案多 20 倍的 AI 模型额度，并优先体验新功能。",
-      "originalContent": "AI 编程工具 Cursor 推出月费 200 美元 Ultra 订阅 AI 编程工具 Cursor 推出月费 200 美元的 Ultra 订阅方案。方案提供比现有 20 美元 Pro 方案多 20 倍的 AI 模型额度，并优先体验新功能。",
-      "source": "AI工具集",
+      "id": "e6620580",
+      "title": "Kimi新模型Kimi-Dev拿下代码开源SOTA，仅仅72B，发布即开源",
+      "content": "月之暗面发布了开源代码模型Kimi-Dev，在SWE-bench Verified上以60.4%的成绩取得开源SOTA，其参数量仅72B，但编程能力超越DeepSeek-R1。Kimi-Dev采用BugFixer和TestWriter两种角色，通过文件定位和代码编辑实现功能。",
+      "originalContent": "Kimi新模型Kimi-Dev拿下代码开源SOTA，仅仅72B，发布即开源 月之暗面发布了开源代码模型Kimi-Dev，在SWE-bench Verified上以60.4%的成绩取得开源SOTA，其参数量仅72B，但编程能力超越DeepSeek-R1。Kimi-Dev采用BugFixer和TestWriter两种角色，通过文件定位和代码编辑实现功能。",
+      "source": "量子位",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.472Z",
-      "category": "产品发布",
+      "publishTime": "2025-06-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.196Z",
+      "category": "开源项目",
       "tags": [
+        "开源",
         "发布",
-        "大模型",
-        "AI工具"
+        "大模型"
       ],
-      "dateText": "6月18·周三"
+      "dateText": "6月17·周二"
     },
     {
-      "id": "336db415",
-      "title": "字节跳动Seed与比亚迪锂电池深化合作：将成立AI联合实验室加速电池研发",
-      "content": "字节跳动Seed与比亚迪锂电池深化合作，将成立AI联合实验室加速电池研发。双方将通过联合实验室，进一步探索AI技术在动力电池快充、寿命和安全等问题上的应用，推动电池技术进步。",
-      "originalContent": "字节跳动Seed与比亚迪锂电池深化合作：将成立AI联合实验室加速电池研发 字节跳动Seed与比亚迪锂电池深化合作，将成立AI联合实验室加速电池研发。双方将通过联合实验室，进一步探索AI技术在动力电池快充、寿命和安全等问题上的应用，推动电池技术进步。",
-      "source": "字节跳动Seed",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.474Z",
-      "category": "行业动态",
-      "tags": [
-        "合作",
-        "研究",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "6月18·周三"
-    },
-    {
-      "id": "a7284b7f",
-      "title": "OpenAI“热线电话”技能更新：发短信给 1-800-242-8478 即可生成图片",
-      "content": "OpenAI更新其“热线电话”技能，用户可通过WhatsApp向1-800-242-8478发短信调用图像生成功能。OpenAI为WhatsApp集成ChatGPT，用户无需OpenAI账号，将1 (800) CHATGPT添加到联系人即可使用。",
-      "originalContent": "OpenAI“热线电话”技能更新：发短信给 1-800-242-8478 即可生成图片 OpenAI更新其“热线电话”技能，用户可通过WhatsApp向1-800-242-8478发短信调用图像生成功能。OpenAI为WhatsApp集成ChatGPT，用户无需OpenAI账号，将1 (800) CHATGPT添加到联系人即可使用。",
+      "id": "c5d08f2d",
+      "title": "美国国防部与 OpenAI 签订 2 亿美元合同，开发 AI 工具应对国家安全挑战",
+      "content": "美国国防部与OpenAI签订了一份价值2亿美元的合同，开发人工智能工具以应对国家安全挑战。根据合同，相关工作将在华盛顿及其周边地区开展，预计于2026年7月完成。",
+      "originalContent": "美国国防部与 OpenAI 签订 2 亿美元合同，开发 AI 工具应对国家安全挑战 美国国防部与OpenAI签订了一份价值2亿美元的合同，开发人工智能工具以应对国家安全挑战。根据合同，相关工作将在华盛顿及其周边地区开展，预计于2026年7月完成。",
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.474Z",
+      "publishTime": "2025-06-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.196Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "6月17·周二"
+    },
+    {
+      "id": "c6988efa",
+      "title": "普惠算力新标杆 九章智算云 Alaya NeW Cloud 2.0 震撼发布",
+      "content": "九章云极DataCanvas公司在北京发布新一代全栈智能计算云平台——九章智算云Alaya NeW Cloud 2.0，启动全球首个强化学习智算服务。平台基于Serverless技术架构与强化学习技术，突破“秒级生成百万级token”的性能瓶颈，支持万卡级至十万卡级异构算力统一调度，推理优化效率提升数倍，采用创新计价模型，显著降低成本。",
+      "originalContent": "普惠算力新标杆 九章智算云 Alaya NeW Cloud 2.0 震撼发布 九章云极DataCanvas公司在北京发布新一代全栈智能计算云平台——九章智算云Alaya NeW Cloud 2.0，启动全球首个强化学习智算服务。平台基于Serverless技术架构与强化学习技术，突破“秒级生成百万级token”的性能瓶颈，支持万卡级至十万卡级异构算力统一调度，推理优化效率提升数倍，采用创新计价模型，显著降低成本。",
+      "source": "九章云极DataCanvas",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.196Z",
       "category": "产品发布",
       "tags": [
-        "GPT",
-        "AI工具"
-      ],
-      "dateText": "6月18·周三"
-    },
-    {
-      "id": "10303df5",
-      "title": "Google发布Gemini 2.5 AI模型家族更新",
-      "content": "Google发布Gemini 2.5 AI模型家族更新，三大亮点：Gemini 2.5 Flash-Lite上线预览版，支持多模态输入、Google搜索、代码执行等工具接入；Gemini 2.5 Flash正式上线并调整定价，输入每百万Token价格为0.3美元，输出为2.5美元；Gemini 2.5 Pro正式版上线，在多个基准测试中超越DeepSeek R1等模型，视频理解能力显著提升。",
-      "originalContent": "Google发布Gemini 2.5 AI模型家族更新 Google发布Gemini 2.5 AI模型家族更新，三大亮点：Gemini 2.5 Flash-Lite上线预览版，支持多模态输入、Google搜索、代码执行等工具接入；Gemini 2.5 Flash正式上线并调整定价，输入每百万Token价格为0.3美元，输出为2.5美元；Gemini 2.5 Pro正式版上线，在多个基准测试中超越DeepSeek R1等模型，视频理解能力显著提升。",
-      "source": "APPSO",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.475Z",
-      "category": "开源项目",
-      "tags": [
-        "发布",
-        "研究",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "6月18·周三"
-    },
-    {
-      "id": "58bae9b1",
-      "title": "腾讯元宝上线 AI 编程模式：支持边修改代码边实时预览",
-      "content": "腾讯元宝上线AI编程模式，用户可通过“一句话写代码”实现快速编程。模式基于DeepSeek V3模型，支持双栏展示，左侧提需求，右侧实时生成代码并可在线运行，支持HTML、Python、C++等多种语言。",
-      "originalContent": "腾讯元宝上线 AI 编程模式：支持边修改代码边实时预览 腾讯元宝上线AI编程模式，用户可通过“一句话写代码”实现快速编程。模式基于DeepSeek V3模型，支持双栏展示，左侧提需求，右侧实时生成代码并可在线运行，支持HTML、Python、C++等多种语言。",
-      "source": "腾讯元宝",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.475Z",
-      "category": "开源项目",
-      "tags": [
         "发布",
         "大模型",
-        "AI工具"
+        "技术"
       ],
-      "dateText": "6月18·周三"
+      "dateText": "6月17·周二"
     }
   ],
-  "updateTime": "2025-07-09T07:55:17.991Z"
+  "updateTime": "2025-07-09T10:29:02.474Z"
 }

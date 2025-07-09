@@ -1,24 +1,7 @@
 {
   "date": "2025-05-15",
-  "count": 10,
+  "count": 9,
   "data": [
-    {
-      "id": "95f174a3",
-      "title": "腾讯混元图像2.0发布，体验“毫秒级”AI图像生成",
-      "content": "腾讯正式发布混元图像2.0模型。模型具有实时生图、超写实画质两大特点，参数量大幅提升，借助超高压缩倍率的图像编解码器和全新扩散架构，生图速度达毫秒级，远超行业领先模型，改变了传统交互方式。图像生成质量高，避免了AIGC图像的“AI味”，真实感强、细节丰富。",
-      "originalContent": "腾讯混元图像2.0发布，体验“毫秒级”AI图像生成 腾讯正式发布混元图像2.0模型。模型具有实时生图、超写实画质两大特点，参数量大幅提升，借助超高压缩倍率的图像编解码器和全新扩散架构，生图速度达毫秒级，远超行业领先模型，改变了传统交互方式。图像生成质量高，避免了AIGC图像的“AI味”，真实感强、细节丰富。",
-      "source": "腾讯混元",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.555Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月16日·周五"
-    },
     {
       "id": "a2fdae90",
       "title": "腾讯正式发布混元图像2.0模型。模型具有实时生图、超写实画质两大特点，参数量大幅提升，借助超高压缩倍率的图像编解码器和全新扩散架构，生图速度达毫秒级，远超行业领先模型，改变了传统交互方式。图像生成质量高，避免了AIGC图像的“AI味”，真实感强、细节丰富。来源：腾讯混元",
@@ -37,25 +20,6 @@
         "智能体"
       ],
       "dateText": "5月16日"
-    },
-    {
-      "id": "77c9547e",
-      "title": "MiniMax悄悄推出manus产品，通用 AI 智能体平台MiniMax Agent",
-      "content": "MiniMax推出通用 AI 智能体平台MiniMax Agent，能高效便捷地处理多种任务，如生成音频、市场研究、文档验证、旅行规划、社交媒体分析、专利识别、投资策略分析以及创意内容创作等。用户仅需输入任务描述，平台会根据任务类型提供相应解决方案。",
-      "originalContent": "MiniMax悄悄推出manus产品，通用 AI 智能体平台MiniMax Agent MiniMax推出通用 AI 智能体平台MiniMax Agent，能高效便捷地处理多种任务，如生成音频、市场研究、文档验证、旅行规划、社交媒体分析、专利识别、投资策略分析以及创意内容创作等。用户仅需输入任务描述，平台会根据任务类型提供相应解决方案。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.556Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "发布",
-        "研究",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "5月16日·周五"
     },
     {
       "id": "7ca9f4fe",
@@ -113,23 +77,6 @@
       "dateText": "5月16日"
     },
     {
-      "id": "681d6a4c",
-      "title": "Windsurf推出专为软件工程设计的AI模型系列：SWE-1",
-      "content": "Windsurf发布专为软件工程设计的AI模型系列：SWE-1、SWE-1-lite和SWE-1-mini。突破现有大模型在软件工程实际需求上的局限，强调对开发流程中多种状态和上下文的感知能力（flow awareness）。SWE-1是其中最大、能力最强的模型，在“对话式SWE任务基准”和“端到端SWE任务基准”两项核心指标上接近行业前沿模型。",
-      "originalContent": "Windsurf推出专为软件工程设计的AI模型系列：SWE-1 Windsurf发布专为软件工程设计的AI模型系列：SWE-1、SWE-1-lite和SWE-1-mini。突破现有大模型在软件工程实际需求上的局限，强调对开发流程中多种状态和上下文的感知能力（flow awareness）。SWE-1是其中最大、能力最强的模型，在“对话式SWE任务基准”和“端到端SWE任务基准”两项核心指标上接近行业前沿模型。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.557Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月16日·周五"
-    },
-    {
       "id": "08d5ab76",
       "title": "Windsurf发布专为软件工程设计的AI模型系列：SWE-1、SWE-1-lite和SWE-1-mini。突破现有大模型在软件工程实际需求上的局限，强调对开发流程中多种状态和上下文的感知能力（flow awareness）。SWE-1是其中最大、能力最强的模型，在“对话式SWE任务基准”和“端到端SWE任务基准”两项核心指标上接近行业前沿模型。来源：AI工具集",
       "content": "Windsurf发布专为软件工程设计的AI模型系列：SWE-1、SWE-1-lite和SWE-1-mini。突破现有大模型在软件工程实际需求上的局限，强调对开发流程中多种状态和上下文的感知能力（flow awareness）。SWE-1是其中最大、能力最强的模型，在“对话式SWE任务基准”和“端到端SWE任务基准”两项核心指标上接近行业前沿模型。来源：AI工具集",
@@ -147,38 +94,77 @@
       "dateText": "5月16日"
     },
     {
-      "id": "67817520",
-      "title": "问小白学术搜索来了，可检索海量权威文献",
-      "content": "问小白推出“学术搜索”功能，基于谷歌学术数据库，可检索海量权威文献。功能搭载DeepSeek R1/V3、Qwen3等模型，具备智能检索能力，能将用户问题转化为中英检索词，提高检索质量。",
-      "originalContent": "问小白学术搜索来了，可检索海量权威文献 问小白推出“学术搜索”功能，基于谷歌学术数据库，可检索海量权威文献。功能搭载DeepSeek R1/V3、Qwen3等模型，具备智能检索能力，能将用户问题转化为中英检索词，提高检索质量。",
-      "source": "问小白",
+      "id": "40b6c227",
+      "title": "OpenAI 升级 ChatGPT AI 聊天机器人，GPT-4.1 编程专家模型登场",
+      "content": "OpenAI在ChatGPT中引入GPT-4.1模型，Pro、Plus和Team用户可通过“More models”菜单立即使用，Enterprise和Edu用户将在未来几周内获得权限。GPT-4.1擅长编程任务，能精确遵循指令，避免冗长输出，相比GPT-4o效率更高、输出更稳定，整体性能更优。",
+      "originalContent": "OpenAI 升级 ChatGPT AI 聊天机器人，GPT-4.1 编程专家模型登场 OpenAI在ChatGPT中引入GPT-4.1模型，Pro、Plus和Team用户可通过“More models”菜单立即使用，Enterprise和Edu用户将在未来几周内获得权限。GPT-4.1擅长编程任务，能精确遵循指令，避免冗长输出，相比GPT-4o效率更高、输出更稳定，整体性能更优。",
+      "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.556Z",
+      "publishTime": "2025-05-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.226Z",
       "category": "产品发布",
       "tags": [
-        "发布",
-        "大模型"
+        "GPT",
+        "大模型",
+        "AI工具",
+        "机器人"
       ],
-      "dateText": "5月16日·周五"
+      "dateText": "5月15日·周四"
     },
     {
-      "id": "f7bbb57d",
-      "title": "Manus推出图像生成Agent功能，可调用多种工具协同工作",
-      "content": "Manus推出图像生成Agent功能。用户上传家中照片后，Manus可理解家居风格并自动在宜家网站找到匹配家具进行搭配。上传产品照片，Manus能依据市场趋势设计新茶饮品牌，创建上市计划，制作吸引人的在线销售列表和网站。可调用多种工具协同工作。",
-      "originalContent": "Manus推出图像生成Agent功能，可调用多种工具协同工作 Manus推出图像生成Agent功能。用户上传家中照片后，Manus可理解家居风格并自动在宜家网站找到匹配家具进行搭配。上传产品照片，Manus能依据市场趋势设计新茶饮品牌，创建上市计划，制作吸引人的在线销售列表和网站。可调用多种工具协同工作。",
-      "source": "AI工具集",
+      "id": "a6c793ad",
+      "title": "MiniMax发布TTS系统 MiniMax Speech 02，AI语音的Her Moment",
+      "content": "稀宇科技旗下MiniMax团队发布基于AR Transformer模型的高质量TTS系统——MiniMax Speech 02。系统具有强大的泛化能力，可驾驭32语种、不同口音、情绪的人声，核心创新在于内在的Zero-Shot能力，通过“会学习的音色提取器”与AR Transformer协同，实现任意语言、口音、音色的无限组合。",
+      "originalContent": "MiniMax发布TTS系统 MiniMax Speech 02，AI语音的Her Moment 稀宇科技旗下MiniMax团队发布基于AR Transformer模型的高质量TTS系统——MiniMax Speech 02。系统具有强大的泛化能力，可驾驭32语种、不同口音、情绪的人声，核心创新在于内在的Zero-Shot能力，通过“会学习的音色提取器”与AR Transformer协同，实现任意语言、口音、音色的无限组合。",
+      "source": "MiniMax 稀宇科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.556Z",
+      "publishTime": "2025-05-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.227Z",
       "category": "产品发布",
       "tags": [
         "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "5月15日·周四"
+    },
+    {
+      "id": "b119297e",
+      "title": "谷歌发布AlphaEvolve：能发明新算法、改进芯片设计、解疑难数学题",
+      "content": "DeepMind宣布推出AlphaEvolve，是基于Gemini驱动的进化编码智能体，用于发现和优化通用算法。AlphaEvolve结合了大型语言模型的创造性与自动化评估器的验证能力，通过进化框架改进最有潜力的想法。已优化了谷歌数据中心、芯片设计和AI训练流程，包括训练自身底层的大型语言模型。",
+      "originalContent": "谷歌发布AlphaEvolve：能发明新算法、改进芯片设计、解疑难数学题 DeepMind宣布推出AlphaEvolve，是基于Gemini驱动的进化编码智能体，用于发现和优化通用算法。AlphaEvolve结合了大型语言模型的创造性与自动化评估器的验证能力，通过进化框架改进最有潜力的想法。已优化了谷歌数据中心、芯片设计和AI训练流程，包括训练自身底层的大型语言模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.227Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
         "AI工具",
         "智能体"
       ],
-      "dateText": "5月16日·周五"
+      "dateText": "5月15日·周四"
+    },
+    {
+      "id": "ef99fd64",
+      "title": "通义万相VACE开源！一款模型搞定多种视频编辑任务",
+      "content": "通义万相VACE开源。VACE支持480P和720P分辨率，可一站式完成文生视频、图像参考生成、局部编辑与视频扩展等任务，无需频繁切换工具。核心技术是多模态输入机制，集文本、图像、视频、Mask和控制信号于一体，支持多种单任务能力自由组合。",
+      "originalContent": "通义万相VACE开源！一款模型搞定多种视频编辑任务 通义万相VACE开源。VACE支持480P和720P分辨率，可一站式完成文生视频、图像参考生成、局部编辑与视频扩展等任务，无需频繁切换工具。核心技术是多模态输入机制，集文本、图像、视频、Mask和控制信号于一体，支持多种单任务能力自由组合。",
+      "source": "通义大模型",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.227Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "5月15日·周四"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.013Z"
+  "updateTime": "2025-07-09T10:29:02.477Z"
 }

@@ -3,24 +3,6 @@
   "count": 14,
   "data": [
     {
-      "id": "06cfd633",
-      "title": "阶跃多模态再添一员：阶跃与 ACE Studio 联合开源音乐大模型 ACE-Step",
-      "content": "阶跃星辰与ACE Studio联合开源音乐大模型ACE-Step（音跃）。模型参数量3.5B，具备快速生成、强可控性、易于拓展等特点，支持19种语言歌曲创作，涵盖多种音乐风格。采用一阶段DiT架构与REPA技术，提升音频质量与生成效率；结合DCAE和线性Transformer，加速音频生成，处理更长音频数据。",
-      "originalContent": "阶跃多模态再添一员：阶跃与 ACE Studio 联合开源音乐大模型 ACE-Step 阶跃星辰与ACE Studio联合开源音乐大模型ACE-Step（音跃）。模型参数量3.5B，具备快速生成、强可控性、易于拓展等特点，支持19种语言歌曲创作，涵盖多种音乐风格。采用一阶段DiT架构与REPA技术，提升音频质量与生成效率；结合DCAE和线性Transformer，加速音频生成，处理更长音频数据。",
-      "source": "阶跃星辰",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.578Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "合作",
-        "大模型",
-        "技术"
-      ],
-      "dateText": "5月7日·周三"
-    },
-    {
       "id": "609b8e45",
       "title": "阶跃星辰与ACE Studio联合开源音乐大模型ACE-Step（音跃）。模型参数量3.5B，具备快速生成、强可控性、易于拓展等特点，支持19种语言歌曲创作，涵盖多种音乐风格。采用一阶段DiT架构与REPA技术，提升音频质量与生成效率；结合DCAE和线性Transformer，加速音频生成，处理更长音频数据。来源：阶跃星辰",
       "content": "机器人界「Sora」来了！清华、星动纪元开源首个AIGC机器人大模型VPP",
@@ -38,25 +20,6 @@
         "AI工具"
       ],
       "dateText": "5月7日"
-    },
-    {
-      "id": "e7b849a9",
-      "title": "机器人界「Sora」来了！清华、星动纪元开源首个AIGC机器人大模型VPP",
-      "content": "清华大学叉院ISRLab与星动纪元联合开源的AIGC生成式机器人大模型VPP入选ICML2025 Spotlight。VPP利用预训练视频生成大模型，通过大量互联网视频数据训练，学习人类动作，减轻对高质量机器人真机数据依赖，能跨人形机器人本体切换，加速商业化落地。",
-      "originalContent": "机器人界「Sora」来了！清华、星动纪元开源首个AIGC机器人大模型VPP 清华大学叉院ISRLab与星动纪元联合开源的AIGC生成式机器人大模型VPP入选ICML2025 Spotlight。VPP利用预训练视频生成大模型，通过大量互联网视频数据训练，学习人类动作，减轻对高质量机器人真机数据依赖，能跨人形机器人本体切换，加速商业化落地。",
-      "source": "北京星动纪元科技有限公司",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.578Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "合作",
-        "大模型",
-        "AI工具",
-        "机器人"
-      ],
-      "dateText": "5月7日·周三"
     },
     {
       "id": "97ec2f7c",
@@ -110,39 +73,6 @@
       "dateText": "5月7日"
     },
     {
-      "id": "034c3f3a",
-      "title": "Kimi 长思考模型 API 正式发布，擅长解决复杂问题",
-      "content": "月之暗面推出 kimi-thinking-preview 模型，具有多模态推理能力和通用推理能力的多模态思考模型，擅长深度推理，可帮助解决复杂问题。模型通过 HTTP 接口或 openai SDK 使用，响应中包含 reasoning_content 字段展示思考过程。",
-      "originalContent": "Kimi 长思考模型 API 正式发布，擅长解决复杂问题 月之暗面推出 kimi-thinking-preview 模型，具有多模态推理能力和通用推理能力的多模态思考模型，擅长深度推理，可帮助解决复杂问题。模型通过 HTTP 接口或 openai SDK 使用，响应中包含 reasoning_content 字段展示思考过程。",
-      "source": "Kimi开放平台",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.581Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型"
-      ],
-      "dateText": "5月7日·周三"
-    },
-    {
-      "id": "714ae691",
-      "title": "Recraft 完成 3000 万美元 B 轮融资，其图像生成模型曾击败 DALL-E 和 Midjourney",
-      "content": "图像生成初创公司 Recraft 完成 3000 万美元 B 轮融资，由 Accel 领投，Khosla Ventures 和 Madrona 等参投。Recraft 总部位于美国旧金山，在 2024 年获得 1200 万美元 A 轮融资。其图像生成模型“red_panda”在去年的基准测试中超越 DALL-E 和 Midjourney。",
-      "originalContent": "Recraft 完成 3000 万美元 B 轮融资，其图像生成模型曾击败 DALL-E 和 Midjourney 图像生成初创公司 Recraft 完成 3000 万美元 B 轮融资，由 Accel 领投，Khosla Ventures 和 Madrona 等参投。Recraft 总部位于美国旧金山，在 2024 年获得 1200 万美元 A 轮融资。其图像生成模型“red_panda”在去年的基准测试中超越 DALL-E 和 Midjourney。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.581Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "研究",
-        "大模型"
-      ],
-      "dateText": "5月7日·周三"
-    },
-    {
       "id": "21e04c1a",
       "title": "图像生成初创公司 Recraft 完成 3000 万美元 B 轮融资，由 Accel 领投，Khosla Ventures 和 Madrona 等参投。Recraft 总部位于美国旧金山，在 2024 年获得 1200 万美元 A 轮融资。其图像生成模型“red_panda”在去年的基准测试中超越 DALL-E 和 Midjourney。来源：IT之家",
       "content": "最火AI编程独角兽 Cursor 母公司又融资！估值超650亿",
@@ -161,22 +91,6 @@
       "dateText": "5月7日"
     },
     {
-      "id": "725fc4d5",
-      "title": "最火AI编程独角兽 Cursor 母公司又融资！估值超650亿",
-      "content": "AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。",
-      "originalContent": "最火AI编程独角兽 Cursor 母公司又融资！估值超650亿 AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。",
-      "source": "智东西",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.581Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "AI工具"
-      ],
-      "dateText": "5月7日·周三"
-    },
-    {
       "id": "259ba610",
       "title": "AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。来源：智东西",
       "content": "AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。来源：智东西",
@@ -193,54 +107,139 @@
       "dateText": "5月7日"
     },
     {
-      "id": "9d671ed1",
-      "title": "Gemini 2.5 Pro升级版本：Gemini 2.5 Pro (I/O edition)，成编程模型新王",
-      "content": "Google DeepMind发布了Gemini 2.5 Pro (I/O edition)。该版本编程能力大幅提升，在LMArena编程排行榜和WebDev Arena排行榜中均名列前茅，超越了Claude 3.7 Sonnet。用户仅需提供手绘草图和功能描述，可生成功能完备的Web应用、游戏等。",
-      "originalContent": "Gemini 2.5 Pro升级版本：Gemini 2.5 Pro (I/O edition)，成编程模型新王 Google DeepMind发布了Gemini 2.5 Pro (I/O edition)。该版本编程能力大幅提升，在LMArena编程排行榜和WebDev Arena排行榜中均名列前茅，超越了Claude 3.7 Sonnet。用户仅需提供手绘草图和功能描述，可生成功能完备的Web应用、游戏等。",
-      "source": "机器之心",
+      "id": "834b12d5",
+      "title": "OpenAI 深夜官宣大调整！奥特曼全员信：放弃营利转型，开源强大模型",
+      "content": "OpenAI宣布重大调整，其营利业务将转型为“公共利益公司”（PBC），由非营利组织继续掌控并成为重要股东。此举确保通用人工智能（AGI）造福全人类，同时放弃复杂的“利润上限结构”，采用常规股权结构。OpenAI将继续秉持民主化AI的理念，开源强大模型，让用户自由使用工具，推动AI在健康、教育、公共服务等领域产生积极影响。",
+      "originalContent": "OpenAI 深夜官宣大调整！奥特曼全员信：放弃营利转型，开源强大模型 OpenAI宣布重大调整，其营利业务将转型为“公共利益公司”（PBC），由非营利组织继续掌控并成为重要股东。此举确保通用人工智能（AGI）造福全人类，同时放弃复杂的“利润上限结构”，采用常规股权结构。OpenAI将继续秉持民主化AI的理念，开源强大模型，让用户自由使用工具，推动AI在健康、教育、公共服务等领域产生积极影响。",
+      "source": "APPSO",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.578Z",
+      "publishTime": "2025-05-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.242Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "5月6日·周二"
+    },
+    {
+      "id": "303129c5",
+      "title": "OpenAI史上最大收购敲定！同意以约30亿美元收购WindSurf",
+      "content": "据彭博社消息，OpenAI已同意以约30亿美元收购AI编程创企WindSurf（前身为Codeium），是OpenAI迄今最大规模收购案。WindSurf成立于2021年，由麻省理工学院工程师团队创立，专注于AI编程工具开发。",
+      "originalContent": "OpenAI史上最大收购敲定！同意以约30亿美元收购WindSurf 据彭博社消息，OpenAI已同意以约30亿美元收购AI编程创企WindSurf（前身为Codeium），是OpenAI迄今最大规模收购案。WindSurf成立于2021年，由麻省理工学院工程师团队创立，专注于AI编程工具开发。",
+      "source": "智东西",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.243Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "AI工具"
+      ],
+      "dateText": "5月6日·周二"
+    },
+    {
+      "id": "e707ddf3",
+      "title": "Midjourney推出Omni-Reference全能参考功能，AI绘图实现精准控制",
+      "content": "Midjourney推出Omni-Reference全能参考功能，AI绘图进入精准控制新时代。Omni-Reference可将指定元素加入图像，支持风格化及个性化定制等功能。用户通过网页端拖拽图片或Discord端输入参数即可使用，可调节权重系数控制参考图的严格程度。",
+      "originalContent": "Midjourney推出Omni-Reference全能参考功能，AI绘图实现精准控制 Midjourney推出Omni-Reference全能参考功能，AI绘图进入精准控制新时代。Omni-Reference可将指定元素加入图像，支持风格化及个性化定制等功能。用户通过网页端拖拽图片或Discord端输入参数即可使用，可调节权重系数控制参考图的严格程度。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.243Z",
       "category": "产品发布",
       "tags": [
         "发布",
-        "大模型"
+        "AI工具"
       ],
-      "dateText": "5月7日·周三"
+      "dateText": "5月6日·周二"
     },
     {
-      "id": "f1fb88fa",
-      "title": "Amazon Nova家族最强成员——Nova Premier正式可用",
-      "content": "亚马逊云科技宣布其Nova家族最强成员——Nova Premier正式上线。Nova Premier集成于Amazon Bedrock，支持文本、图像与视频输入，具备百万级别上下文处理能力，擅长复杂任务处理与多智能体协作。可作为教师模型，通过模型蒸馏优化Nova Pro、Lite和Micro等模型性能，提升API调用准确率20%。",
-      "originalContent": "Amazon Nova家族最强成员——Nova Premier正式可用 亚马逊云科技宣布其Nova家族最强成员——Nova Premier正式上线。Nova Premier集成于Amazon Bedrock，支持文本、图像与视频输入，具备百万级别上下文处理能力，擅长复杂任务处理与多智能体协作。可作为教师模型，通过模型蒸馏优化Nova Pro、Lite和Micro等模型性能，提升API调用准确率20%。",
-      "source": "亚马逊云科技",
+      "id": "3399d7ab",
+      "title": "微软发布 Phi-4 系列小语言 AI 推理模型Phi-4-reasoning",
+      "content": "微软推出Phi-4推理模型系列，包括Phi-4-reasoning、Phi-4-reasoning-plus和Phi-4-mini-reasoning。模型参数最多仅14B，能在本地高性能笔记本上流畅运行。其中，3.8B参数的Phi-4-mini-reasoning在数学推理上超越8B的DeepSeek-R1蒸馏模型，展现了小模型的强大推理能力。",
+      "originalContent": "微软发布 Phi-4 系列小语言 AI 推理模型Phi-4-reasoning 微软推出Phi-4推理模型系列，包括Phi-4-reasoning、Phi-4-reasoning-plus和Phi-4-mini-reasoning。模型参数最多仅14B，能在本地高性能笔记本上流畅运行。其中，3.8B参数的Phi-4-mini-reasoning在数学推理上超越8B的DeepSeek-R1蒸馏模型，展现了小模型的强大推理能力。",
+      "source": "新智元",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.579Z",
+      "publishTime": "2025-05-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.243Z",
       "category": "产品发布",
       "tags": [
         "发布",
         "大模型",
-        "智能体"
+        "AI工具"
       ],
-      "dateText": "5月7日·周三"
+      "dateText": "5月6日·周二"
     },
     {
-      "id": "b7590ae8",
-      "title": "腾讯元宝文生图功能升级：混元和 DeepSeek 都支持生图",
-      "content": "腾讯元宝宣布文生图功能升级，混元和DeepSeek模型均可实现生图功能。用户只需输入一句话，元宝能生成高质量、复杂且有想象力的图像。功能结合腾讯混元最新文生图模型，已全端上线。",
-      "originalContent": "腾讯元宝文生图功能升级：混元和 DeepSeek 都支持生图 腾讯元宝宣布文生图功能升级，混元和DeepSeek模型均可实现生图功能。用户只需输入一句话，元宝能生成高质量、复杂且有想象力的图像。功能结合腾讯混元最新文生图模型，已全端上线。",
-      "source": "腾讯元宝",
+      "id": "b41c4ca7",
+      "title": "基于科学基础大模型的智能科研平台ScienceOne正式发布，为科研打造AI底座",
+      "content": "中国科学院自动化研究所在第八届数字中国建设峰会上发布了基于科学基础大模型的智能科研平台ScienceOne。由自动化所联合多个中科院单位及产业化平台共同研发，推动多学科协同的智能科研新范式。ScienceOne首发了S1-Literature文献助手和S1-ToolChain科学工具调度台两个产品，分别用于文献综述生成与科研任务的工具调度。",
+      "originalContent": "基于科学基础大模型的智能科研平台ScienceOne正式发布，为科研打造AI底座 中国科学院自动化研究所在第八届数字中国建设峰会上发布了基于科学基础大模型的智能科研平台ScienceOne。由自动化所联合多个中科院单位及产业化平台共同研发，推动多学科协同的智能科研新范式。ScienceOne首发了S1-Literature文献助手和S1-ToolChain科学工具调度台两个产品，分别用于文献综述生成与科研任务的工具调度。",
+      "source": "中国科学院自动化研究所",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.577Z",
+      "publishTime": "2025-05-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.244Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "研究",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "5月6日·周二"
+    },
+    {
+      "id": "8a5ca277",
+      "title": "快手旗下轻雀科技推出“喵记多”AI笔记工具",
+      "content": "快手旗下轻雀科技推出“喵记多”AI笔记工具，用户可将碎片化的文字、图片、文件发送给内置AI“喵仔”，将其转为笔记，支持二次编辑和删除。若发送网页超链接，喵仔会自动爬取内容生成笔记。App具备“提醒待办”功能，用户可通过特定指令创建和查看待办事项。",
+      "originalContent": "快手旗下轻雀科技推出“喵记多”AI笔记工具 快手旗下轻雀科技推出“喵记多”AI笔记工具，用户可将碎片化的文字、图片、文件发送给内置AI“喵仔”，将其转为笔记，支持二次编辑和删除。若发送网页超链接，喵仔会自动爬取内容生成笔记。App具备“提醒待办”功能，用户可通过特定指令创建和查看待办事项。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.245Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "5月6日·周二"
+    },
+    {
+      "id": "72ff0e3d",
+      "title": "通义千问Qwen推出Qwen2.5-Omni-3B模型，尺寸更小，性能依旧",
+      "content": "Qwen2.5-Omni-3B模型正式发布。是Qwen2.5-Omni-7B的轻量级版本，3B版本在长上下文序列处理（约25k tokens）中显存消耗减少超50%，可在普通24GB消费级GPU上支持长达30秒的音视频交互。尺寸更小，3B版本保留了7B模型90%以上的多模态理解能力，语音输出的自然度与稳定性与7B版本一致。",
+      "originalContent": "通义千问Qwen推出Qwen2.5-Omni-3B模型，尺寸更小，性能依旧 Qwen2.5-Omni-3B模型正式发布。是Qwen2.5-Omni-7B的轻量级版本，3B版本在长上下文序列处理（约25k tokens）中显存消耗减少超50%，可在普通24GB消费级GPU上支持长达30秒的音视频交互。尺寸更小，3B版本保留了7B模型90%以上的多模态理解能力，语音输出的自然度与稳定性与7B版本一致。",
+      "source": "通义千问Qwen",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.244Z",
       "category": "产品发布",
       "tags": [
         "发布",
         "大模型"
       ],
-      "dateText": "5月7日·周三"
+      "dateText": "5月6日·周二"
+    },
+    {
+      "id": "dc5c0af7",
+      "title": "DeepSeek开源Prover-V2强推理模型，奥数解题不再难",
+      "content": "DeepSeek开源Prover-V2强推理模型，专注于数学定理证明。模型分为7B和671B两个版本，其中671B版本基于DeepSeek-V3-Base训练而成，7B版本支持最长32K tokens的上下文长度扩展。Prover-V2通过递归定理证明流程生成冷启动数据，结合强化学习提升性能，在MiniF2F测试中达到88.9%的通过率。",
+      "originalContent": "DeepSeek开源Prover-V2强推理模型，奥数解题不再难 DeepSeek开源Prover-V2强推理模型，专注于数学定理证明。模型分为7B和671B两个版本，其中671B版本基于DeepSeek-V3-Base训练而成，7B版本支持最长32K tokens的上下文长度扩展。Prover-V2通过递归定理证明流程生成冷启动数据，结合强化学习提升性能，在MiniF2F测试中达到88.9%的通过率。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.244Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "5月6日·周二"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.019Z"
+  "updateTime": "2025-07-09T10:29:02.478Z"
 }

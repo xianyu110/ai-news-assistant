@@ -3,22 +3,6 @@
   "count": 8,
   "data": [
     {
-      "id": "9111dd5d",
-      "title": "腾讯混元新一代快思考模型 Turbo S 发布，实现秒级响应",
-      "content": "腾讯发布新一代快思考模型混元Turbo S，模型在知识、数理、创作等方面表现出色，实现“秒回”功能，吐字速度提升一倍，首字时延降低44%。混元Turbo S采用Hybrid-Mamba-Transformer融合架构，有效降低计算复杂度和部署成本。",
-      "originalContent": "腾讯混元新一代快思考模型 Turbo S 发布，实现秒级响应 腾讯发布新一代快思考模型混元Turbo S，模型在知识、数理、创作等方面表现出色，实现“秒回”功能，吐字速度提升一倍，首字时延降低44%。混元Turbo S采用Hybrid-Mamba-Transformer融合架构，有效降低计算复杂度和部署成本。",
-      "source": "腾讯混元",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-26T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.703Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型"
-      ],
-      "dateText": "2月27日·周四"
-    },
-    {
       "id": "082a7b07",
       "title": "腾讯发布新一代快思考模型混元Turbo S，模型在知识、数理、创作等方面表现出色，实现“秒回”功能，吐字速度提升一倍，首字时延降低44%。混元Turbo S采用Hybrid-Mamba-Transformer融合架构，有效降低计算复杂度和部署成本。来源：腾讯混元",
       "content": "DeepSeek开源新动作：三大并行计算优化技术，助力大模型训练效率飞跃",
@@ -37,23 +21,6 @@
       "dateText": "2月27日"
     },
     {
-      "id": "ca9a9d3d",
-      "title": "DeepSeek开源新动作：三大并行计算优化技术，助力大模型训练效率飞跃",
-      "content": "DeepSeek开源三项并行计算优化技术，DualPipe 是一种双向流水线并行算法，通过计算与通信的完全重叠，显著减少流水线气泡，优化 GPU 资源利用率。EPLB（专家并行负载均衡器）通过冗余专家策略和负载均衡技术，解决专家并行中 GPU 负载不均的问题。profile-data 提供详细的性能分析数据，帮助开发者深入理解并行策略优化。",
-      "originalContent": "DeepSeek开源新动作：三大并行计算优化技术，助力大模型训练效率飞跃 DeepSeek开源三项并行计算优化技术，DualPipe 是一种双向流水线并行算法，通过计算与通信的完全重叠，显著减少流水线气泡，优化 GPU 资源利用率。EPLB（专家并行负载均衡器）通过冗余专家策略和负载均衡技术，解决专家并行中 GPU 负载不均的问题。profile-data 提供详细的性能分析数据，帮助开发者深入理解并行策略优化。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-26T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.703Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "大模型",
-        "技术"
-      ],
-      "dateText": "2月27日·周四"
-    },
-    {
       "id": "df707c74",
       "title": "DeepSeek开源三项并行计算优化技术，DualPipe 是一种双向流水线并行算法，通过计算与通信的完全重叠，显著减少流水线气泡，优化 GPU 资源利用率。EPLB（专家并行负载均衡器）通过冗余专家策略和负载均衡技术，解决专家并行中 GPU 负载不均的问题。profile-data 提供详细的性能分析数据，帮助开发者深入理解并行策略优化。来源：AI工具集",
       "content": "Anthropic 全面开放 Claude AI 的 GitHub 集成，赋能所有开发者",
@@ -69,23 +36,6 @@
         "AI工具"
       ],
       "dateText": "2月27日"
-    },
-    {
-      "id": "12834be0",
-      "title": "Anthropic 全面开放 Claude AI 的 GitHub 集成，赋能所有开发者",
-      "content": "Anthropic宣布全面开放Claude AI的GitHub集成，面向免费、Pro和Teams用户。集成后，用户可将GitHub代码库同步至Claude，使其理解代码上下文，辅助测试、调试和优化代码。",
-      "originalContent": "Anthropic 全面开放 Claude AI 的 GitHub 集成，赋能所有开发者 Anthropic宣布全面开放Claude AI的GitHub集成，面向免费、Pro和Teams用户。集成后，用户可将GitHub代码库同步至Claude，使其理解代码上下文，辅助测试、调试和优化代码。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-26T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.703Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "研究",
-        "AI工具"
-      ],
-      "dateText": "2月27日·周四"
     },
     {
       "id": "b0e6ca15",
@@ -106,24 +56,6 @@
       "dateText": "2月27日"
     },
     {
-      "id": "8d0dd5cd",
-      "title": "微软开源Phi4多模态与Phi4-Mini：端侧AI迎来最强小模型",
-      "content": "微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。",
-      "originalContent": "微软开源Phi4多模态与Phi4-Mini：端侧AI迎来最强小模型 微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-26T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.704Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "2月27日·周四"
-    },
-    {
       "id": "9e4f95e0",
       "title": "微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。来源：AI工具集",
       "content": "微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。来源：AI工具集",
@@ -140,7 +72,74 @@
         "AI工具"
       ],
       "dateText": "2月27日"
+    },
+    {
+      "id": "fe551829",
+      "title": "阿里云开源视频生成大模型“Wan2.1”，全模态、全尺寸助力全球开发者",
+      "content": "阿里云开源视频生成大模型“万相2.1”，采用Apache 2.0协议，提供14B和1.3B两个参数版本，支持文生视频和图生视频任务。14B版本在复杂运动生成和物理建模方面表现卓越，1.3B版本能在消费级显卡上运行，仅需8.2GB显存可生成480P视频。万相2.1在权威评测集Vbench中以86.22%的总分超越国内外众多模型。",
+      "originalContent": "阿里云开源视频生成大模型“Wan2.1”，全模态、全尺寸助力全球开发者 阿里云开源视频生成大模型“万相2.1”，采用Apache 2.0协议，提供14B和1.3B两个参数版本，支持文生视频和图生视频任务。14B版本在复杂运动生成和物理建模方面表现卓越，1.3B版本能在消费级显卡上运行，仅需8.2GB显存可生成480P视频。万相2.1在权威评测集Vbench中以86.22%的总分超越国内外众多模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.311Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型"
+      ],
+      "dateText": "2月26日·周三"
+    },
+    {
+      "id": "c5d8c136",
+      "title": "DeepSeek开源FP8 GEMM库：极致优化Hopper GPU性能，助力AI训练与推理",
+      "content": "DeepSeek开源周第三弹发布——DeepGEMM，是专为Hopper GPU设计的FP8 GEMM库，支持密集和MoE GEMM，性能高达1350+ TFLOPS。采用JIT即时编译，无需预编译，核心代码仅约300行，支持多种矩阵布局，矩阵运算提速显著。",
+      "originalContent": "DeepSeek开源FP8 GEMM库：极致优化Hopper GPU性能，助力AI训练与推理 DeepSeek开源周第三弹发布——DeepGEMM，是专为Hopper GPU设计的FP8 GEMM库，支持密集和MoE GEMM，性能高达1350+ TFLOPS。采用JIT即时编译，无需预编译，核心代码仅约300行，支持多种矩阵布局，矩阵运算提速显著。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.312Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "2月26日·周三"
+    },
+    {
+      "id": "d20e2a77",
+      "title": "谷歌推出 Gemini Code Assist 个人版编程工具，免费可用",
+      "content": "谷歌推出面向个人开发者的免费编程工具 Gemini Code Assist，帮助学生、爱好者和初创公司更便捷地获取AI编程支持。工具基于谷歌Gemini 2.0模型驱动，支持38种语言，提供每月最多18万次代码补全服务，远超其他同类产品。",
+      "originalContent": "谷歌推出 Gemini Code Assist 个人版编程工具，免费可用 谷歌推出面向个人开发者的免费编程工具 Gemini Code Assist，帮助学生、爱好者和初创公司更便捷地获取AI编程支持。工具基于谷歌Gemini 2.0模型驱动，支持38种语言，提供每月最多18万次代码补全服务，远超其他同类产品。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.312Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月26日·周三"
+    },
+    {
+      "id": "57d003d9",
+      "title": "DeepSeek API 错峰优惠，R1 价格降至1/4",
+      "content": "DeepSeek推出API错峰优惠，2025年2月26日起，DeepSeek开放平台在北京时间每日00:30至08:30的夜间空闲时段，DeepSeek-V3 API调用价格降至原价的50%，DeepSeek-R1价格低至原价的25%。鼓励用户在夜间利用平台资源，享受更经济、更流畅的服务体验。",
+      "originalContent": "DeepSeek API 错峰优惠，R1 价格降至1/4 DeepSeek推出API错峰优惠，2025年2月26日起，DeepSeek开放平台在北京时间每日00:30至08:30的夜间空闲时段，DeepSeek-V3 API调用价格降至原价的50%，DeepSeek-R1价格低至原价的25%。鼓励用户在夜间利用平台资源，享受更经济、更流畅的服务体验。",
+      "source": "DeepSeek",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-26T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.311Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "技术"
+      ],
+      "dateText": "2月26日·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.055Z"
+  "updateTime": "2025-07-09T10:29:02.489Z"
 }

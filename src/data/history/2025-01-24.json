@@ -1,0 +1,78 @@
+{
+  "date": "2025-01-24",
+  "count": 4,
+  "data": [
+    {
+      "id": "0e948e8b",
+      "title": "OpenAI正式发布智能体Operator！能推理、联网自主执行任务",
+      "content": "OpenAI推出“Operator”AI代理，Operator依托Computer-Using Agent（CUA）模型，结合GPT-4o的视觉能力和强化学习推理能力，能自动完成多种在线任务，如预订餐厅、旅行规划、购物等。通过屏幕截图“感知”界面，通过虚拟键盘和鼠标操作网页。具备自我纠错能力，遇到敏感信息或复杂任务时会交由用户接管。",
+      "originalContent": "OpenAI正式发布智能体Operator！能推理、联网自主执行任务 OpenAI推出“Operator”AI代理，Operator依托Computer-Using Agent（CUA）模型，结合GPT-4o的视觉能力和强化学习推理能力，能自动完成多种在线任务，如预订餐厅、旅行规划、购物等。通过屏幕截图“感知”界面，通过虚拟键盘和鼠标操作网页。具备自我纠错能力，遇到敏感信息或复杂任务时会交由用户接管。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.333Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "1月24日·周五"
+    },
+    {
+      "id": "2c375045",
+      "title": "百川智能发布深度思考模型，同时具备语言、视觉和搜索三大领域推理能力",
+      "content": "百川智能推出两款新模型：Baichuan-M1-preview是国内首个全场景深度思考模型，具备语言、视觉和搜索三大领域推理能力，在医疗循证模式下，能快速精准回答医疗问题，提供深度推理和个性化建议。小尺寸版本Baichuan-M1-14B是行业首个开源医疗增强大模型，医疗能力超越Qwen2.5-72B。",
+      "originalContent": "百川智能发布深度思考模型，同时具备语言、视觉和搜索三大领域推理能力 百川智能推出两款新模型：Baichuan-M1-preview是国内首个全场景深度思考模型，具备语言、视觉和搜索三大领域推理能力，在医疗循证模式下，能快速精准回答医疗问题，提供深度推理和个性化建议。小尺寸版本Baichuan-M1-14B是行业首个开源医疗增强大模型，医疗能力超越Qwen2.5-72B。",
+      "source": "百川大模型",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.333Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "1月24日·周五"
+    },
+    {
+      "id": "d351e91a",
+      "title": "JetBrains发布AI编程Agent，助力开发者提升代码效率与质量",
+      "content": "JetBrains推出全新的AI编程Agent——Junie，以插件形式支持IntelliJ IDEA Ultimate和PyCharm Professional，未来将扩展至WebStorm。Junie在SWE-Bench Verified基准测试中完成53.6%的任务，表现中等偏上。能与JetBrains IDE深度整合，生成代码、运行检查、编写测试并验证结果，显著提升开发效率和代码质量。",
+      "originalContent": "JetBrains发布AI编程Agent，助力开发者提升代码效率与质量 JetBrains推出全新的AI编程Agent——Junie，以插件形式支持IntelliJ IDEA Ultimate和PyCharm Professional，未来将扩展至WebStorm。Junie在SWE-Bench Verified基准测试中完成53.6%的任务，表现中等偏上。能与JetBrains IDE深度整合，生成代码、运行检查、编写测试并验证结果，显著提升开发效率和代码质量。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.334Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "研究",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "1月24日·周五"
+    },
+    {
+      "id": "f3a1545d",
+      "title": "跃问App上新「创意板」功能，零代码实现应用与游戏创作",
+      "content": "跃问App上线国内首个「创意板」功能，用户可通过简单指令生成应用、游戏等创意内容，无需代码知识。基于自研多模态大模型Step-1o系列。创意板支持生成海报、游戏、互动网页等，可分享至任意平台。",
+      "originalContent": "跃问App上新「创意板」功能，零代码实现应用与游戏创作 跃问App上线国内首个「创意板」功能，用户可通过简单指令生成应用、游戏等创意内容，无需代码知识。基于自研多模态大模型Step-1o系列。创意板支持生成海报、游戏、互动网页等，可分享至任意平台。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-01-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.333Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "1月24日·周五"
+    }
+  ],
+  "updateTime": "2025-07-09T10:29:02.493Z"
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2025-02-03",
+  "count": 3,
+  "data": [
+    {
+      "id": "0f7c72b9",
+      "title": "OpenAI 推出 Deep Research 深度研究功能，助力复杂任务高效解决",
+      "content": "OpenAI发布ChatGPT的Deep Research功能。通过多步骤推理和互联网信息综合，可在数十分钟内完成复杂的研究任务。Deep Research基于o3模型，针对网页浏览和数据分析进行了优化。能生成专家级的研究报告，适用于金融、科学、政策和工程等领域的知识密集型工作。",
+      "originalContent": "OpenAI 推出 Deep Research 深度研究功能，助力复杂任务高效解决 OpenAI发布ChatGPT的Deep Research功能。通过多步骤推理和互联网信息综合，可在数十分钟内完成复杂的研究任务。Deep Research基于o3模型，针对网页浏览和数据分析进行了优化。能生成专家级的研究报告，适用于金融、科学、政策和工程等领域的知识密集型工作。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-03T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.330Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月3日·周一"
+    },
+    {
+      "id": "a8175cab",
+      "title": "秘塔AI接入满血版DeepSeek R1推理模型",
+      "content": "秘塔AI宣布接入DeepSeek R1推理模型的满血版。模型结合了秘塔数十亿的全网数据和数千万学术文献，能处理复杂的推理问题，在结合知识和学术文献的推理任务中表现出色。秘塔AI的测试结果显示，R1模型在回答复杂问题时表现突出。",
+      "originalContent": "秘塔AI接入满血版DeepSeek R1推理模型 秘塔AI宣布接入DeepSeek R1推理模型的满血版。模型结合了秘塔数十亿的全网数据和数千万学术文献，能处理复杂的推理问题，在结合知识和学术文献的推理任务中表现出色。秘塔AI的测试结果显示，R1模型在回答复杂问题时表现突出。",
+      "source": "AI秘塔",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-03T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.330Z",
+      "category": "技术研究",
+      "tags": [
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月3日·周一"
+    },
+    {
+      "id": "4fd354ff",
+      "title": "OpenAI 更新 ChatGPT Canvas 工具：上线 o1 模型、支持渲染 HTML / React 代码",
+      "content": "OpenAI更新ChatGPT Canvas写作工具，新增了o1模型支持，扩展了代码渲染功能，支持HTML和React代码。Canvas是ChatGPT中的写作与编码工具，用户可以在右侧输入文本，左侧基于模型调整文本长度或联想上下文。订阅了ChatGPT Pro、Plus、Team会员的用户可以使用o1模型，HTML和React代码渲染功能对所有用户开放。",
+      "originalContent": "OpenAI 更新 ChatGPT Canvas 工具：上线 o1 模型、支持渲染 HTML / React 代码 OpenAI更新ChatGPT Canvas写作工具，新增了o1模型支持，扩展了代码渲染功能，支持HTML和React代码。Canvas是ChatGPT中的写作与编码工具，用户可以在右侧输入文本，左侧基于模型调整文本长度或联想上下文。订阅了ChatGPT Pro、Plus、Team会员的用户可以使用o1模型，HTML和React代码渲染功能对所有用户开放。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-03T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.331Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月3日·周一"
+    }
+  ],
+  "updateTime": "2025-07-09T10:29:02.492Z"
+}

@@ -1,24 +1,7 @@
 {
   "date": "2025-01-31",
-  "count": 8,
+  "count": 4,
   "data": [
-    {
-      "id": "b8134cec",
-      "title": "OpenAI发布新的推理模型o3-mini，性能提升 24%",
-      "content": "OpenAI发布新的推理模型o3-mini，是推理系列中最具成本效益的模型。o3-mini在科学、数学和编程等STEM领域表现出色，保持低延迟和低成本。支持函数调用、结构化输出和开发者消息等高级功能，提供低、中、高三档推理强度供开发者选择。与搜索功能集成，为用户提供最新答案及链接。",
-      "originalContent": "OpenAI发布新的推理模型o3-mini，性能提升 24% OpenAI发布新的推理模型o3-mini，是推理系列中最具成本效益的模型。o3-mini在科学、数学和编程等STEM领域表现出色，保持低延迟和低成本。支持函数调用、结构化输出和开发者消息等高级功能，提供低、中、高三档推理强度供开发者选择。与搜索功能集成，为用户提供最新答案及链接。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-01-31T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.743Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "2月1日·周六"
-    },
     {
       "id": "877a2e8f",
       "title": "OpenAI发布新的推理模型o3-mini，是推理系列中最具成本效益的模型。o3-mini在科学、数学和编程等STEM领域表现出色，保持低延迟和低成本。支持函数调用、结构化输出和开发者消息等高级功能，提供低、中、高三档推理强度供开发者选择。与搜索功能集成，为用户提供最新答案及链接。来源：AI工具集",
@@ -35,24 +18,6 @@
         "AI工具"
       ],
       "dateText": "2月1日"
-    },
-    {
-      "id": "7c9d2268",
-      "title": "阿里云通义千问旗舰版模型Qwen2.5-Max全新升级发布",
-      "content": "阿里云通义千问推出旗舰版模型Qwen2.5-Max。是MoE模型的最新探索成果，预训练数据超20万亿tokens，在知识、编程、综合能力等主流权威基准测试中表现卓越，全面超越全球领先的开源MoE模型及最大开源稠密模型。",
-      "originalContent": "阿里云通义千问旗舰版模型Qwen2.5-Max全新升级发布 阿里云通义千问推出旗舰版模型Qwen2.5-Max。是MoE模型的最新探索成果，预训练数据超20万亿tokens，在知识、编程、综合能力等主流权威基准测试中表现卓越，全面超越全球领先的开源MoE模型及最大开源稠密模型。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-01-31T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.743Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "研究",
-        "大模型"
-      ],
-      "dateText": "2月1日·周六"
     },
     {
       "id": "2a060020",
@@ -74,25 +39,6 @@
       "dateText": "2月1日"
     },
     {
-      "id": "930ab9bb",
-      "title": "DeepSeek推出人人可用的开源视觉多模态AI模型Janus-Pro",
-      "content": "DeepSeek发布开源多模态AI模型Janus-Pro，包含10亿和70亿参数规模。模型在GenEval和DPG-Bench基准测试中击败了OpenAI的DALL-E 3和Stable Diffusion。Janus-Pro基于DeepSeek-LLM构建，使用SigLIP-L作为视觉编码器，支持多模态理解和生成。",
-      "originalContent": "DeepSeek推出人人可用的开源视觉多模态AI模型Janus-Pro DeepSeek发布开源多模态AI模型Janus-Pro，包含10亿和70亿参数规模。模型在GenEval和DPG-Bench基准测试中击败了OpenAI的DALL-E 3和Stable Diffusion。Janus-Pro基于DeepSeek-LLM构建，使用SigLIP-L作为视觉编码器，支持多模态理解和生成。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-01-31T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.744Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "研究",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "2月1日·周六"
-    },
-    {
       "id": "b2e176b0",
       "title": "DeepSeek发布开源多模态AI模型Janus-Pro，包含10亿和70亿参数规模。模型在GenEval和DPG-Bench基准测试中击败了OpenAI的DALL-E 3和Stable Diffusion。Janus-Pro基于DeepSeek-LLM构建，使用SigLIP-L作为视觉编码器，支持多模态理解和生成。来源：AI工具集",
       "content": "通义开源两大AI模型：支持理解长视频和捕捉事件等能力",
@@ -110,25 +56,6 @@
         "AI工具"
       ],
       "dateText": "2月1日"
-    },
-    {
-      "id": "5f3bb7a5",
-      "title": "通义开源两大AI模型：支持理解长视频和捕捉事件等能力",
-      "content": "通义开源两大AI模型：Qwen2.5-VL和Qwen2.5-1M。Qwen2.5-VL推出3B、7B和72B三个版本，全面超越GPT-4o与Claude3.5。模型支持超1小时的视频理解，无需微调即可操作手机和电脑完成复杂任务。Qwen2.5-1M推出7B和14B版本，处理长文本任务性能卓越，推理速度提升近7倍，首次将上下文扩展到1M长度。",
-      "originalContent": "通义开源两大AI模型：支持理解长视频和捕捉事件等能力 通义开源两大AI模型：Qwen2.5-VL和Qwen2.5-1M。Qwen2.5-VL推出3B、7B和72B三个版本，全面超越GPT-4o与Claude3.5。模型支持超1小时的视频理解，无需微调即可操作手机和电脑完成复杂任务。Qwen2.5-1M推出7B和14B版本，处理长文本任务性能卓越，推理速度提升近7倍，首次将上下文扩展到1M长度。",
-      "source": "通义",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-01-31T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.744Z",
-      "category": "开源项目",
-      "tags": [
-        "GPT",
-        "开源",
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "2月1日·周六"
     },
     {
       "id": "5aae183c",
@@ -150,5 +77,5 @@
       "dateText": "2月1日"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.073Z"
+  "updateTime": "2025-07-09T10:29:02.493Z"
 }

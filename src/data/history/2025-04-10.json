@@ -1,26 +1,7 @@
 {
   "date": "2025-04-10",
-  "count": 15,
+  "count": 13,
   "data": [
-    {
-      "id": "65bced98",
-      "title": "OpenAI宣布ChatGPT新功能，新增长期记忆功能，可以记住过去所有的聊天记录",
-      "content": "OpenAI宣布ChatGPT推出新功能，能引用过去所有聊天记录，为用户提供更加私人订制的体验。标志着LLM交互范式从偶发性互动向持续性互动转变，使ChatGPT更像私人助理。新功能已向Plus和Pro用户开放，用户可以与ChatGPT进行更深入的互动。",
-      "originalContent": "OpenAI宣布ChatGPT新功能，新增长期记忆功能，可以记住过去所有的聊天记录 OpenAI宣布ChatGPT推出新功能，能引用过去所有聊天记录，为用户提供更加私人订制的体验。标志着LLM交互范式从偶发性互动向持续性互动转变，使ChatGPT更像私人助理。新功能已向Plus和Pro用户开放，用户可以与ChatGPT进行更深入的互动。",
-      "source": "量子位",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.635Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "开源",
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "4月11日·周五"
-    },
     {
       "id": "aeeaac81",
       "title": "OpenAI宣布ChatGPT推出新功能，能引用过去所有聊天记录，为用户提供更加私人订制的体验。标志着LLM交互范式从偶发性互动向持续性互动转变，使ChatGPT更像私人助理。新功能已向Plus和Pro用户开放，用户可以与ChatGPT进行更深入的互动。来源：量子位",
@@ -41,23 +22,6 @@
       "dateText": "4月11日"
     },
     {
-      "id": "5f3201b9",
-      "title": "傅利叶发布首款开源人形机器人 Fourier N1，加速行业生态共建",
-      "content": "通用机器人公司傅利叶在上海发布首款开源人形机器人Fourier N1。机器人身高1.3米，体重38公斤，拥有23个自由度，采用铝合金与工程塑料复合结构，续航可达2小时以上，最高奔跑速度3.5米/秒。作为傅利叶“Nexus开源生态矩阵”的首个项目，N1同步开放了涵盖物料清单、设计图纸、装配指南、基础操作软件等完整本体资源包。",
-      "originalContent": "傅利叶发布首款开源人形机器人 Fourier N1，加速行业生态共建 通用机器人公司傅利叶在上海发布首款开源人形机器人Fourier N1。机器人身高1.3米，体重38公斤，拥有23个自由度，采用铝合金与工程塑料复合结构，续航可达2小时以上，最高奔跑速度3.5米/秒。作为傅利叶“Nexus开源生态矩阵”的首个项目，N1同步开放了涵盖物料清单、设计图纸、装配指南、基础操作软件等完整本体资源包。",
-      "source": "傅利叶",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.636Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "机器人"
-      ],
-      "dateText": "4月11日·周五"
-    },
-    {
       "id": "10b656f7",
       "title": "通用机器人公司傅利叶在上海发布首款开源人形机器人Fourier N1。机器人身高1.3米，体重38公斤，拥有23个自由度，采用铝合金与工程塑料复合结构，续航可达2小时以上，最高奔跑速度3.5米/秒。作为傅利叶“Nexus开源生态矩阵”的首个项目，N1同步开放了涵盖物料清单、设计图纸、装配指南、基础操作软件等完整本体资源包。来源：傅利叶",
       "content": "商汤发布「日日新SenseNova V6」大模型，助力机器人具身智能升级",
@@ -74,24 +38,6 @@
         "机器人"
       ],
       "dateText": "4月11日"
-    },
-    {
-      "id": "35174e83",
-      "title": "商汤发布「日日新SenseNova V6」大模型，助力机器人具身智能升级",
-      "content": "商汤发布新一代多模态大模型「日日新SenseNova V6」，参数达6000亿，采用混合专家架构，实现多模态长思维链、强化学习与全局记忆融合，推理能力显著提升，多项测试超国际领先模型。模型助力人形机器人具身智能发展，使其具备视觉、语言等多模态交互能力，可应用于导览、社交互动等场景。",
-      "originalContent": "商汤发布「日日新SenseNova V6」大模型，助力机器人具身智能升级 商汤发布新一代多模态大模型「日日新SenseNova V6」，参数达6000亿，采用混合专家架构，实现多模态长思维链、强化学习与全局记忆融合，推理能力显著提升，多项测试超国际领先模型。模型助力人形机器人具身智能发展，使其具备视觉、语言等多模态交互能力，可应用于导览、社交互动等场景。",
-      "source": "智东西",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.636Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "研究",
-        "大模型",
-        "机器人"
-      ],
-      "dateText": "4月11日·周五"
     },
     {
       "id": "56d1e84d",
@@ -111,24 +57,6 @@
         "机器人"
       ],
       "dateText": "4月11日"
-    },
-    {
-      "id": "c1888f9b",
-      "title": "谷歌发布 Gemini 2.5 Flash AI 模型：专为省钱高效而生",
-      "content": "谷歌推出Gemini 2.5 Flash AI模型，专为高效能和成本优化设计。模型即将登陆谷歌Vertex AI平台，具备动态且可控的计算能力，开发者可根据查询复杂度灵活调整处理时间，平衡速度、准确性和成本。",
-      "originalContent": "谷歌发布 Gemini 2.5 Flash AI 模型：专为省钱高效而生 谷歌推出Gemini 2.5 Flash AI模型，专为高效能和成本优化设计。模型即将登陆谷歌Vertex AI平台，具备动态且可控的计算能力，开发者可根据查询复杂度灵活调整处理时间，平衡速度、准确性和成本。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.637Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "4月11日·周五"
     },
     {
       "id": "00d99478",
@@ -167,23 +95,6 @@
       "dateText": "4月11日"
     },
     {
-      "id": "a76098d5",
-      "title": "谷歌Deep Research迎来重大升级，搭载Gemini 2.5 Pro模型，性能超OpenAI",
-      "content": "谷歌Deep Research迎来重大升级，搭载全球顶尖的Gemini 2.5 Pro模型。新版本在分析推理、信息整合和报告洞察力方面显著提升，5分钟可生成46页学术论文，能将复杂报告转为10分钟播客。性能较OpenAI DR提升超40%，价格仅为1/10。",
-      "originalContent": "谷歌Deep Research迎来重大升级，搭载Gemini 2.5 Pro模型，性能超OpenAI 谷歌Deep Research迎来重大升级，搭载全球顶尖的Gemini 2.5 Pro模型。新版本在分析推理、信息整合和报告洞察力方面显著提升，5分钟可生成46页学术论文，能将复杂报告转为10分钟播客。性能较OpenAI DR提升超40%，价格仅为1/10。",
-      "source": "新智元",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.638Z",
-      "category": "产品发布",
-      "tags": [
-        "研究",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "4月11日·周五"
-    },
-    {
       "id": "27732b78",
       "title": "谷歌Deep Research迎来重大升级，搭载全球顶尖的Gemini 2.5 Pro模型。新版本在分析推理、信息整合和报告洞察力方面显著提升，5分钟可生成46页学术论文，能将复杂报告转为10分钟播客。性能较OpenAI DR提升超40%，价格仅为1/10。来源：新智元",
       "content": "继 OpenAI 后，谷歌 Gemini 模型将支持 Anthropic 的 MCP 协议",
@@ -199,23 +110,6 @@
         "AI工具"
       ],
       "dateText": "4月11日"
-    },
-    {
-      "id": "38303dee",
-      "title": "继 OpenAI 后，谷歌 Gemini 模型将支持 Anthropic 的 MCP 协议",
-      "content": "谷歌DeepMind宣布为Gemini模型和SDK添加对Anthropic的模型上下文协议（MCP）的支持。谷歌DeepMind首席执行官德米斯·哈萨比斯表示，MCP正在迅速成为AI代理时代的开放标准，谷歌期待与其他行业伙伴共同开发这一协议。",
-      "originalContent": "继 OpenAI 后，谷歌 Gemini 模型将支持 Anthropic 的 MCP 协议 谷歌DeepMind宣布为Gemini模型和SDK添加对Anthropic的模型上下文协议（MCP）的支持。谷歌DeepMind首席执行官德米斯·哈萨比斯表示，MCP正在迅速成为AI代理时代的开放标准，谷歌期待与其他行业伙伴共同开发这一协议。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.638Z",
-      "category": "综合资讯",
-      "tags": [
-        "开源",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "4月11日·周五"
     },
     {
       "id": "3ea1180b",
@@ -236,39 +130,110 @@
       "dateText": "4月11日"
     },
     {
-      "id": "0f6d4048",
-      "title": "Anthropic 推出 Claude Max 订阅计划，月费最高 200 美元",
-      "content": "Anthropic推出Claude Max订阅计划，月费最高200美元，与OpenAI的ChatGPT Pro竞争。Max计划分为两个层级：每月100美元的Max速率限制是Claude Pro的5倍，每月200美元的Max速率限制是Claude Pro的20倍。计划提供更宽松的使用限制和优先获取最新AI模型的功能。",
-      "originalContent": "Anthropic 推出 Claude Max 订阅计划，月费最高 200 美元 Anthropic推出Claude Max订阅计划，月费最高200美元，与OpenAI的ChatGPT Pro竞争。Max计划分为两个层级：每月100美元的Max速率限制是Claude Pro的5倍，每月200美元的Max速率限制是Claude Pro的20倍。计划提供更宽松的使用限制和优先获取最新AI模型的功能。",
-      "source": "IT之家",
+      "id": "6998d6d0",
+      "title": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性",
+      "content": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性。A2A 是开放协议，支持超过 50 个技术合作伙伴，支持不同供应商的智能体在跨平台环境中安全协作，完成复杂任务。协议基于 HTTP、SSE、JSON-RPC 等标准，支持长时任务和多种数据格式（如音频、视频）。",
+      "originalContent": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性 谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性。A2A 是开放协议，支持超过 50 个技术合作伙伴，支持不同供应商的智能体在跨平台环境中安全协作，完成复杂任务。协议基于 HTTP、SSE、JSON-RPC 等标准，支持长时任务和多种数据格式（如音频、视频）。",
+      "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.637Z",
+      "publishTime": "2025-04-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.271Z",
       "category": "产品发布",
       "tags": [
-        "GPT",
+        "开源",
         "发布",
-        "大模型",
+        "合作",
+        "技术",
         "AI工具"
       ],
-      "dateText": "4月11日·周五"
+      "dateText": "4月10日·周四"
     },
     {
-      "id": "319acb2e",
-      "title": "悠船宣布MidJourney V7模型正式上线：图像生成质量大幅提升",
-      "content": "悠船团队宣布悠船V7模型正式上线。V7版本在图像生成质量上显著提升，包括人物肤色、面部细节、材质纹理和光影效果等方面。能更好地解析复杂场景，实现背景与主体的自然融合。V7在视角表现和风格还原度上也更加专业，显著提升了身体、手部及物体细节的一致性。",
-      "originalContent": "悠船宣布MidJourney V7模型正式上线：图像生成质量大幅提升 悠船团队宣布悠船V7模型正式上线。V7版本在图像生成质量上显著提升，包括人物肤色、面部细节、材质纹理和光影效果等方面。能更好地解析复杂场景，实现背景与主体的自然融合。V7在视角表现和风格还原度上也更加专业，显著提升了身体、手部及物体细节的一致性。",
-      "source": "悠船助手",
+      "id": "47bfd323",
+      "title": "谷歌推出AI编程工具 Firebase Studio，一站式完成全栈应用的构建、修改和部署",
+      "content": "谷歌推出 Firebase Studio，用户可以一站式完成全栈应用的构建、修改和部署。只需输入提示词，AI 可快速生成完整应用程序，支持 React、Next.js、Angular、Vue.js、Flutter、Android、Node.js、Java 和 Python Flask 等多种编程语言和框架。",
+      "originalContent": "谷歌推出AI编程工具 Firebase Studio，一站式完成全栈应用的构建、修改和部署 谷歌推出 Firebase Studio，用户可以一站式完成全栈应用的构建、修改和部署。只需输入提示词，AI 可快速生成完整应用程序，支持 React、Next.js、Angular、Vue.js、Flutter、Android、Node.js、Java 和 Python Flask 等多种编程语言和框架。",
+      "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.639Z",
+      "publishTime": "2025-04-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.271Z",
       "category": "产品发布",
       "tags": [
         "发布",
-        "大模型"
+        "技术",
+        "AI工具"
       ],
-      "dateText": "4月11日·周五"
+      "dateText": "4月10日·周四"
+    },
+    {
+      "id": "cac2f033",
+      "title": "连续完成A及A+轮融资，星尘智能获锦秋基金、蚂蚁集团等领投",
+      "content": "星尘智能宣布连续完成A轮及A+轮融资数亿元，由锦秋基金、蚂蚁集团领投，云启资本、道彤资本等老股东跟投，华兴资本担任独家财务顾问。星尘智能于2022年底在深圳成立，首创面向AI的软硬件一体化系统架构，全栈自研的Astribot S1高度仿人，关键操作参数媲美甚至超越成年男性。",
+      "originalContent": "连续完成A及A+轮融资，星尘智能获锦秋基金、蚂蚁集团等领投 星尘智能宣布连续完成A轮及A+轮融资数亿元，由锦秋基金、蚂蚁集团领投，云启资本、道彤资本等老股东跟投，华兴资本担任独家财务顾问。星尘智能于2022年底在深圳成立，首创面向AI的软硬件一体化系统架构，全栈自研的Astribot S1高度仿人，关键操作参数媲美甚至超越成年男性。",
+      "source": "Z Potentials",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.271Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "4月10日·周四"
+    },
+    {
+      "id": "1019f14f",
+      "title": "阿里云百炼上线业界首个全生命周期MCP服务，5分钟搭建专属AI智能体",
+      "content": "阿里云在AI势能大会上宣布上线业界首个全生命周期MCP服务，加速AI落地。服务集成阿里云函数计算、200多款大模型和50多款主流MCP服务，用户无需代码，仅需简单配置，5分钟即可搭建专属Agent。",
+      "originalContent": "阿里云百炼上线业界首个全生命周期MCP服务，5分钟搭建专属AI智能体 阿里云在AI势能大会上宣布上线业界首个全生命周期MCP服务，加速AI落地。服务集成阿里云函数计算、200多款大模型和50多款主流MCP服务，用户无需代码，仅需简单配置，5分钟即可搭建专属Agent。",
+      "source": "量子位",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.271Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月10日·周四"
+    },
+    {
+      "id": "a899d031",
+      "title": "火山引擎推出AI数据专家“Data Agent”，企业数据全场景智能体",
+      "content": "火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。",
+      "originalContent": "火山引擎推出AI数据专家“Data Agent”，企业数据全场景智能体 火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。",
+      "source": "火山引擎",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.271Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月10日·周四"
+    },
+    {
+      "id": "44864c59",
+      "title": "alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成",
+      "content": "alphaXiv推出「Deep Research for arXiv」功能，可协助研究人员在arXiv平台上快速检索与阅读学术论文，提升文献检索及研究效率。用户输入相关问题，系统能迅速生成文献综述或热门论文回答，将数小时的搜索过程缩短至几秒。",
+      "originalContent": "alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成 alphaXiv推出「Deep Research for arXiv」功能，可协助研究人员在arXiv平台上快速检索与阅读学术论文，提升文献检索及研究效率。用户输入相关问题，系统能迅速生成文献综述或热门论文回答，将数小时的搜索过程缩短至几秒。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.271Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "技术"
+      ],
+      "dateText": "4月10日·周四"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.032Z"
+  "updateTime": "2025-07-09T10:29:02.482Z"
 }

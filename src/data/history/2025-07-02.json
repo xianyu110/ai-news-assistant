@@ -1,60 +1,94 @@
 {
   "date": "2025-07-02",
-  "count": 3,
+  "count": 5,
   "data": [
     {
-      "id": "720103f4",
-      "title": "星流 Agent上线！更适合中国设计师的一站式创意设计Agent",
-      "content": "星流Agent正式上线，是专为中国设计师打造的一站式创意设计Agent。星流Agent延续了Lovart的全栈式智能设计能力，全面适配中文语义、东方美学和本地场景。用户只需输入一句话，能自动拆解任务、匹配风格、生成整套设计物料，支持多模态内容创作，涵盖图像、视频、3D等多种格式。",
-      "originalContent": "星流 Agent上线！更适合中国设计师的一站式创意设计Agent 星流Agent正式上线，是专为中国设计师打造的一站式创意设计Agent。星流Agent延续了Lovart的全栈式智能设计能力，全面适配中文语义、东方美学和本地场景。用户只需输入一句话，能自动拆解任务、匹配风格、生成整套设计物料，支持多模态内容创作，涵盖图像、视频、3D等多种格式。",
-      "source": "LiblibAI",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-07-02T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.436Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "3D",
-        "智能体"
-      ],
-      "dateText": "7月3·周四"
-    },
-    {
-      "id": "934fead4",
-      "title": "Perplexity Max 订阅上线，月费 200 美元",
-      "content": "Perplexity推出高端订阅服务Perplexity Max，月费200美元（约合1433元人民币）。订阅用户可无限制访问电子表格和报告生成工具Labs，提前体验Comet浏览器等新功能，调用OpenAI的o3-pro和Claude Opus 4等先进AI模型。",
-      "originalContent": "Perplexity Max 订阅上线，月费 200 美元 Perplexity推出高端订阅服务Perplexity Max，月费200美元（约合1433元人民币）。订阅用户可无限制访问电子表格和报告生成工具Labs，提前体验Comet浏览器等新功能，调用OpenAI的o3-pro和Claude Opus 4等先进AI模型。",
+      "id": "5f70342d",
+      "title": "豆包「图像生成」超能创意2.0开启灰度测试",
+      "content": "豆包超能创意 2.0 已在网页版和电脑版灰度测试，模型升级至豆包大模型 1.6 版本，接入 seedream 3.0、seededit 3.0 和 seedance 1.0 Pro 模型，分别提升图片生成、编辑和视频生成效果。",
+      "originalContent": "豆包「图像生成」超能创意2.0开启灰度测试 豆包超能创意 2.0 已在网页版和电脑版灰度测试，模型升级至豆包大模型 1.6 版本，接入 seedream 3.0、seededit 3.0 和 seedance 1.0 Pro 模型，分别提升图片生成、编辑和视频生成效果。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-07-02T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.436Z",
+      "publishTime": "2025-07-02T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.179Z",
+      "category": "产品发布",
+      "tags": [
+        "研究",
+        "大模型"
+      ],
+      "dateText": "7月2·周三"
+    },
+    {
+      "id": "d4b47e95",
+      "title": "智谱发布并开源 GLM-4.1V-Thinking 系列视觉模型",
+      "content": "智谱发布两项重要成果。一是开源新一代通用视觉语言模型GLM-4.1V-Thinking，10B级轻量版在多项权威评测中表现卓越，具备图像、视频、文档等多模态输入能力，支持复杂推理任务。二是上线MaaS“Agent应用空间”平台，启动Agent开拓者专项扶持计划，助力企业低门槛接入Agent能力，推动AI原生创业发展。",
+      "originalContent": "智谱发布并开源 GLM-4.1V-Thinking 系列视觉模型 智谱发布两项重要成果。一是开源新一代通用视觉语言模型GLM-4.1V-Thinking，10B级轻量版在多项权威评测中表现卓越，具备图像、视频、文档等多模态输入能力，支持复杂推理任务。二是上线MaaS“Agent应用空间”平台，启动Agent开拓者专项扶持计划，助力企业低门槛接入Agent能力，推动AI原生创业发展。",
+      "source": "智谱",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-02T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.178Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月2·周三"
+    },
+    {
+      "id": "ed69256a",
+      "title": "百度推出自研多模态大模型MuseSteamer和AI视频创作平台绘想",
+      "content": "百度发布自研视频生成模型MuseSteamer及AI视频创作平台“绘想”。MuseSteamer是全球首个实现中文音视频一体化生成的模型，打破传统AIGC视频“先画面后配音”的流程，可实现画面、音效与人声台词协同创作。用户仅需上传一张图片即可生成专业级视频内容。",
+      "originalContent": "百度推出自研多模态大模型MuseSteamer和AI视频创作平台绘想 百度发布自研视频生成模型MuseSteamer及AI视频创作平台“绘想”。MuseSteamer是全球首个实现中文音视频一体化生成的模型，打破传统AIGC视频“先画面后配音”的流程，可实现画面、音效与人声台词协同创作。用户仅需上传一张图片即可生成专业级视频内容。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-02T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.178Z",
       "category": "产品发布",
       "tags": [
         "发布",
         "大模型",
+        "技术",
         "AI工具"
       ],
-      "dateText": "7月3·周四"
+      "dateText": "7月2·周三"
     },
     {
-      "id": "06730e7f",
-      "title": "智谱获上海国资10亿元战略融资",
-      "content": "国产AI大模型企业智谱在开放平台产业生态大会上宣布获得上海国资10亿元战略投资，由浦东创投集团和张江集团完成首笔交割。同时，三方与上海仪电、浦发集团合作，共同建设AI新型基础设施。",
-      "originalContent": "智谱获上海国资10亿元战略融资 国产AI大模型企业智谱在开放平台产业生态大会上宣布获得上海国资10亿元战略投资，由浦东创投集团和张江集团完成首笔交割。同时，三方与上海仪电、浦发集团合作，共同建设AI新型基础设施。",
+      "id": "2060e404",
+      "title": "阿里云加码领投，智能体开发平台BetterYeah AI完成超亿元B轮融资",
+      "content": "企业级AI智能体开发平台BetterYeah AI宣布完成超亿元人民币B轮融资，由阿里云领投、名川资本跟投。资金将用于新一代智能体产品研发。BetterYeah AI由钉钉创始团队成员创立，核心团队具备深厚的企业级产品基因。",
+      "originalContent": "阿里云加码领投，智能体开发平台BetterYeah AI完成超亿元B轮融资 企业级AI智能体开发平台BetterYeah AI宣布完成超亿元人民币B轮融资，由阿里云领投、名川资本跟投。资金将用于新一代智能体产品研发。BetterYeah AI由钉钉创始团队成员创立，核心团队具备深厚的企业级产品基因。",
       "source": "钛媒体AGI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-07-02T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.435Z",
+      "publishTime": "2025-07-02T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.178Z",
       "category": "投融资",
       "tags": [
-        "开源",
         "融资",
-        "合作",
-        "大模型",
-        "技术"
+        "技术",
+        "AI工具",
+        "智能体"
       ],
-      "dateText": "7月3·周四"
+      "dateText": "7月2·周三"
+    },
+    {
+      "id": "10306310",
+      "title": "北京中小学生 9 月起开设 AI 通识课",
+      "content": "北京宣布从2025年秋季学期起，全市中小学将全面普及人工智能通识教育，每学年不少于8课时。课程将涵盖人工智能的基本概念、应用与技术、实现方法及伦理与社会等方面，并将评价结果纳入学生综合素质评价体系。",
+      "originalContent": "北京中小学生 9 月起开设 AI 通识课 北京宣布从2025年秋季学期起，全市中小学将全面普及人工智能通识教育，每学年不少于8课时。课程将涵盖人工智能的基本概念、应用与技术、实现方法及伦理与社会等方面，并将评价结果纳入学生综合素质评价体系。",
+      "source": "北京市教育委员会",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-02T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.178Z",
+      "category": "综合资讯",
+      "tags": [
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月2·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:17.980Z"
+  "updateTime": "2025-07-09T10:29:02.472Z"
 }

@@ -1,25 +1,7 @@
 {
   "date": "2025-04-15",
-  "count": 13,
+  "count": 12,
   "data": [
-    {
-      "id": "2fca97af",
-      "title": "微信上线首个AI助手“元宝”，聊天答题与文件解析功能齐备",
-      "content": "微信首个AI助手“元宝”正式上线。用户可通过微信搜索或扫描二维码添加为联系人。“元宝”搭载腾讯混元大模型和DeepSeek双模引擎，支持聊天、答题、文件解析（100M以内）、公众号文章解读及图片识别等功能，暂不支持语音/视频通话、群聊、修改昵称、红包转账等。",
-      "originalContent": "微信上线首个AI助手“元宝”，聊天答题与文件解析功能齐备 微信首个AI助手“元宝”正式上线。用户可通过微信搜索或扫描二维码添加为联系人。“元宝”搭载腾讯混元大模型和DeepSeek双模引擎，支持聊天、答题、文件解析（100M以内）、公众号文章解读及图片识别等功能，暂不支持语音/视频通话、群聊、修改昵称、红包转账等。",
-      "source": "APPSO",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.625Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "4月16日·周三"
-    },
     {
       "id": "ece82e7a",
       "title": "微信首个AI助手“元宝”正式上线。用户可通过微信搜索或扫描二维码添加为联系人。“元宝”搭载腾讯混元大模型和DeepSeek双模引擎，支持聊天、答题、文件解析（100M以内）、公众号文章解读及图片识别等功能，暂不支持语音/视频通话、群聊、修改昵称、红包转账等。来源：APPSO",
@@ -40,22 +22,6 @@
       "dateText": "4月16日"
     },
     {
-      "id": "4101ffee",
-      "title": "国际版 Trae IDE 正式支持 Gemini 2.5 Pro 和 GPT-4.1",
-      "content": "Trae IDE宣布正式支持Gemini 2.5 Pro和GPT-4.1模型，增强了内置模型功能。用户现在可以在国际版Trae IDE中直接使用，提升开发效率和创新能力。",
-      "originalContent": "国际版 Trae IDE 正式支持 Gemini 2.5 Pro 和 GPT-4.1 Trae IDE宣布正式支持Gemini 2.5 Pro和GPT-4.1模型，增强了内置模型功能。用户现在可以在国际版Trae IDE中直接使用，提升开发效率和创新能力。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.626Z",
-      "category": "综合资讯",
-      "tags": [
-        "GPT",
-        "大模型"
-      ],
-      "dateText": "4月16日·周三"
-    },
-    {
       "id": "5c11670f",
       "title": "Trae IDE宣布正式支持Gemini 2.5 Pro和GPT-4.1模型，增强了内置模型功能。用户现在可以在国际版Trae IDE中直接使用，提升开发效率和创新能力。来源：AI工具集",
       "content": "谷歌 Veo 2 视频生成模型入驻 Gemini，可创建 8 秒 720p 视频",
@@ -73,22 +39,6 @@
       "dateText": "4月16日"
     },
     {
-      "id": "0854bf5b",
-      "title": "xAI 旗下Grok 推出 Grok Studio 功能：可 AI 编辑创建文档、代码、报告等",
-      "content": "xAI旗下Grok宣布推出Grok Studio功能，支持用户编辑和创建文档、代码、报告，简单浏览器游戏。Grok Studio可在独立窗口中打开内容，用户可与Grok实时协作完善项目。免费和付费用户均可使用，支持预览HTML片段并运行Python、C++和JavaScript等代码。",
-      "originalContent": "xAI 旗下Grok 推出 Grok Studio 功能：可 AI 编辑创建文档、代码、报告等 xAI旗下Grok宣布推出Grok Studio功能，支持用户编辑和创建文档、代码、报告，简单浏览器游戏。Grok Studio可在独立窗口中打开内容，用户可与Grok实时协作完善项目。免费和付费用户均可使用，支持预览HTML片段并运行Python、C++和JavaScript等代码。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.628Z",
-      "category": "开源项目",
-      "tags": [
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "4月16日·周三"
-    },
-    {
       "id": "2f112c0a",
       "title": "xAI旗下Grok宣布推出Grok Studio功能，支持用户编辑和创建文档、代码、报告，简单浏览器游戏。Grok Studio可在独立窗口中打开内容，用户可与Grok实时协作完善项目。免费和付费用户均可使用，支持预览HTML片段并运行Python、C++和JavaScript等代码。来源：AI工具集",
       "content": "OpenAI ChatGPT 上线图库功能，更轻松管理 AI 生成图片",
@@ -104,24 +54,6 @@
         "AI工具"
       ],
       "dateText": "4月16日"
-    },
-    {
-      "id": "7952ae8a",
-      "title": "OpenAI ChatGPT 上线图库功能，更轻松管理 AI 生成图片",
-      "content": "OpenAI 宣布 ChatGPT 上线 Image Library 图库功能，帮助用户更便捷地管理和查看 AI 生成的图像。功能已向所有 Free、Plus 和 Pro 用户开放，覆盖移动端和网页端。",
-      "originalContent": "OpenAI ChatGPT 上线图库功能，更轻松管理 AI 生成图片 OpenAI 宣布 ChatGPT 上线 Image Library 图库功能，帮助用户更便捷地管理和查看 AI 生成的图像。功能已向所有 Free、Plus 和 Pro 用户开放，覆盖移动端和网页端。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.629Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "开源",
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "4月16日·周三"
     },
     {
       "id": "a9e11461",
@@ -143,25 +75,6 @@
       "dateText": "4月16日"
     },
     {
-      "id": "b173f349",
-      "title": "AI 音乐商用创作平台Mureka火爆海外，正式开放国内登陆入口和API",
-      "content": "昆仑万维集团旗下的 AI 音乐商用创作平台 Mureka 正式开放国内登录入口和 API。Mureka 自 2024 年上线以来，在全球范围内收获极高人气，支持纯音乐及 10 种语言的音乐创作。其 Mureka V6 是基座模型，Mureka O1 是推理优化版本，可提升音乐品质和创作效率。",
-      "originalContent": "AI 音乐商用创作平台Mureka火爆海外，正式开放国内登陆入口和API 昆仑万维集团旗下的 AI 音乐商用创作平台 Mureka 正式开放国内登录入口和 API。Mureka 自 2024 年上线以来，在全球范围内收获极高人气，支持纯音乐及 10 种语言的音乐创作。其 Mureka V6 是基座模型，Mureka O1 是推理优化版本，可提升音乐品质和创作效率。",
-      "source": "昆仑万维集团",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.629Z",
-      "category": "产品发布",
-      "tags": [
-        "开源",
-        "发布",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "4月16日·周三"
-    },
-    {
       "id": "f7ee3522",
       "title": "昆仑万维集团旗下的 AI 音乐商用创作平台 Mureka 正式开放国内登录入口和 API。Mureka 自 2024 年上线以来，在全球范围内收获极高人气，支持纯音乐及 10 种语言的音乐创作。其 Mureka V6 是基座模型，Mureka O1 是推理优化版本，可提升音乐品质和创作效率。来源：昆仑万维集团",
       "content": "中国第一家启动IPO的“大模型六虎”来袭！智谱融资超160亿，美国OpenAI也将IPO",
@@ -179,24 +92,6 @@
         "技术"
       ],
       "dateText": "4月16日"
-    },
-    {
-      "id": "c91b20ef",
-      "title": "中国第一家启动IPO的“大模型六虎”来袭！智谱融资超160亿，美国OpenAI也将IPO",
-      "content": "智谱 AI 启动 IPO 上市流程，成为中国第一家进入 IPO 阶段的“大模型六虎”公司。智谱 AI 成立于 2019 年，由清华大学计算机系技术转化而来，目前累计融资超 160 亿元，投后估值超 200 亿元。",
-      "originalContent": "中国第一家启动IPO的“大模型六虎”来袭！智谱融资超160亿，美国OpenAI也将IPO 智谱 AI 启动 IPO 上市流程，成为中国第一家进入 IPO 阶段的“大模型六虎”公司。智谱 AI 成立于 2019 年，由清华大学计算机系技术转化而来，目前累计融资超 160 亿元，投后估值超 200 亿元。",
-      "source": "钛媒体AGI",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.630Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "4月16日·周三"
     },
     {
       "id": "8b9fce74",
@@ -217,22 +112,112 @@
       "dateText": "4月16日"
     },
     {
-      "id": "e760cfe4",
-      "title": "谷歌 Veo 2 视频生成模型入驻 Gemini，可创建 8 秒 720p 视频",
-      "content": "谷歌宣布将旗下 Veo 2 视频生成 AI 模型引入 Gemini Advanced，用户可创建 8 秒、720p 分辨率、16:9 宽高比的视频片段，通过 Gemini 将视频上传至 TikTok、YouTube 等平台。Veo 2 生成的视频可下载为带有谷歌 SynthID 水印的 MP4 文件。Veo 2 整合至 Google Labs 的 Whisk 功能中，可将图片转化为 8 秒视频。",
-      "originalContent": "谷歌 Veo 2 视频生成模型入驻 Gemini，可创建 8 秒 720p 视频 谷歌宣布将旗下 Veo 2 视频生成 AI 模型引入 Gemini Advanced，用户可创建 8 秒、720p 分辨率、16:9 宽高比的视频片段，通过 Gemini 将视频上传至 TikTok、YouTube 等平台。Veo 2 生成的视频可下载为带有谷歌 SynthID 水印的 MP4 文件。Veo 2 整合至 Google Labs 的 Whisk 功能中，可将图片转化为 8 秒视频。",
-      "source": "IT之家",
+      "id": "feda3e82",
+      "title": "快手发布可灵 2.0 视频生成模型及可图 2.0 图像生成模型，国产AI视频新突破",
+      "content": "快手可灵AI正式发布可灵2.0视频生成模型，可灵AI 2.0在模型层面迎来重大更新，画面美学、语义响应和动态质量大幅提升。新增“多模态编辑”功能，支持在视频基础上输入图片/文字进行精准修改和再创作；可图2.0新增“图片编辑”及“风格转绘”功能。具备AI音效生成功能，可根据影像内容和文字prompt生成适配音效。",
+      "originalContent": "快手发布可灵 2.0 视频生成模型及可图 2.0 图像生成模型，国产AI视频新突破 快手可灵AI正式发布可灵2.0视频生成模型，可灵AI 2.0在模型层面迎来重大更新，画面美学、语义响应和动态质量大幅提升。新增“多模态编辑”功能，支持在视频基础上输入图片/文字进行精准修改和再创作；可图2.0新增“图片编辑”及“风格转绘”功能。具备AI音效生成功能，可根据影像内容和文字prompt生成适配音效。",
+      "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-15T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.627Z",
-      "category": "综合资讯",
+      "publishTime": "2025-04-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.265Z",
+      "category": "产品发布",
       "tags": [
+        "发布",
         "大模型",
-        "技术",
         "AI工具"
       ],
-      "dateText": "4月16日·周三"
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "5bca76d4",
+      "title": "OpenAI发布GPT-4.1系列模型：编码、指令遵循和长文本处理能力大幅提升",
+      "content": "OpenAI推出新一代GPT模型GPT-4.1系列，包括GPT-4.1、GPT-4.1 mini和GPT-4.1 nano。模型在编码、指令遵循和长文本处理方面大幅领先于GPT-4o，支持高达100万tokens的上下文窗口，知识截止日期更新至2024年6月。GPT-4.1 mini在性能和成本上均优于GPT-4o，GPT-4.1 nano是最快最便宜的模型，适合分类和自动补全任务。",
+      "originalContent": "OpenAI发布GPT-4.1系列模型：编码、指令遵循和长文本处理能力大幅提升 OpenAI推出新一代GPT模型GPT-4.1系列，包括GPT-4.1、GPT-4.1 mini和GPT-4.1 nano。模型在编码、指令遵循和长文本处理方面大幅领先于GPT-4o，支持高达100万tokens的上下文窗口，知识截止日期更新至2024年6月。GPT-4.1 mini在性能和成本上均优于GPT-4o，GPT-4.1 nano是最快最便宜的模型，适合分类和自动补全任务。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.266Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "35599d16",
+      "title": "魔搭上线最大MCP中文社区，独家首发支付宝、MiniMax等MCP",
+      "content": "阿里云旗下的AI开源社区魔搭（ModelScope）推出全新MCP广场，上架千余款热门MCP服务，独家首发支付宝、MiniMax等全新MCP服务。支付宝MCP服务是国内首款聚焦AI智能体支付场景的服务，可实现交易创建、查询、退款等功能；MiniMax MCP服务器封装了语音生成、语音克隆、图片生成及视频生成等多模态能力。",
+      "originalContent": "魔搭上线最大MCP中文社区，独家首发支付宝、MiniMax等MCP 阿里云旗下的AI开源社区魔搭（ModelScope）推出全新MCP广场，上架千余款热门MCP服务，独家首发支付宝、MiniMax等全新MCP服务。支付宝MCP服务是国内首款聚焦AI智能体支付场景的服务，可实现交易创建、查询、退款等功能；MiniMax MCP服务器封装了语音生成、语音克隆、图片生成及视频生成等多模态能力。",
+      "source": "阿里云",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.266Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "f4190e49",
+      "title": "MiniMax MCP Server 上线：多模态能力，一键触达",
+      "content": "MiniMax 稀宇科技宣布其 MiniMax MCP Server 正式上线。服务器通过简单文本输入即可调用视频、图像、语音生成及声音克隆等多项多模态能力，兼容 Claude Desktop、Cursor、Windsurf 和 OpenAI Agents 等主流 MCP 客户端。",
+      "originalContent": "MiniMax MCP Server 上线：多模态能力，一键触达 MiniMax 稀宇科技宣布其 MiniMax MCP Server 正式上线。服务器通过简单文本输入即可调用视频、图像、语音生成及声音克隆等多项多模态能力，兼容 Claude Desktop、Cursor、Windsurf 和 OpenAI Agents 等主流 MCP 客户端。",
+      "source": "MiniMax 稀宇科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.266Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "f556fb4e",
+      "title": "Hugging Face 收购 Pollen Robotics，进军人形机器人市场",
+      "content": "人工智能开发平台Hugging Face收购法国人形机器人初创公司Pollen Robotics，此次收购标志着Hugging Face在机器人领域的拓展，双方此前已合作打造开源家务机器人“Le Robot”。Hugging Face成立了由曾在特斯拉Optimus项目任职的雷米・卡德内领导的机器人团队，计划销售Pollen的人形机器人Reachy 2并开放代码供开发者改进。",
+      "originalContent": "Hugging Face 收购 Pollen Robotics，进军人形机器人市场 人工智能开发平台Hugging Face收购法国人形机器人初创公司Pollen Robotics，此次收购标志着Hugging Face在机器人领域的拓展，双方此前已合作打造开源家务机器人“Le Robot”。Hugging Face成立了由曾在特斯拉Optimus项目任职的雷米・卡德内领导的机器人团队，计划销售Pollen的人形机器人Reachy 2并开放代码供开发者改进。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.266Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "技术",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "4月15日·周二"
+    },
+    {
+      "id": "4cdae37c",
+      "title": "智谱启用全新全球域名“z.ai”，开源高性能GLM模型系列",
+      "content": "智谱启用全新域名“z.ai”，整合32B基座、推理、沉思三类模型，作为最新模型的交互体验入口。基座模型和推理模型已上线智谱MaaS平台，提供API服务，部分版本免费。宣布开源32B/9B系列GLM模型，涵盖基座、推理、沉思模型，均采用MIT许可协议，可免费用于商业用途。",
+      "originalContent": "智谱启用全新全球域名“z.ai”，开源高性能GLM模型系列 智谱启用全新域名“z.ai”，整合32B基座、推理、沉思三类模型，作为最新模型的交互体验入口。基座模型和推理模型已上线智谱MaaS平台，提供API服务，部分版本免费。宣布开源32B/9B系列GLM模型，涵盖基座、推理、沉思模型，均采用MIT许可协议，可免费用于商业用途。",
+      "source": "智谱",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-15T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.266Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "4月15日·周二"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.030Z"
+  "updateTime": "2025-07-09T10:29:02.481Z"
 }

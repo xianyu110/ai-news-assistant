@@ -1,0 +1,97 @@
+{
+  "date": "2024-12-06",
+  "count": 5,
+  "data": [
+    {
+      "id": "8914d237",
+      "title": "LiblibAI x 星流：正式推出新一代自研图像大模型Star-3 Alpha",
+      "content": "LiblibAI今日宣布推出新一代自研图像大模型Star-3 Alpha。模型基于F.1基础算法架构，提升图像精准度、色彩表现力和美学捕捉能力，提供高级感和真实感。可通过星流官网、Lib官网在线生图功能及API开放平台体验。",
+      "originalContent": "LiblibAI x 星流：正式推出新一代自研图像大模型Star-3 Alpha LiblibAI今日宣布推出新一代自研图像大模型Star-3 Alpha。模型基于F.1基础算法架构，提升图像精准度、色彩表现力和美学捕捉能力，提供高级感和真实感。可通过星流官网、Lib官网在线生图功能及API开放平台体验。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.373Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月06日·周五"
+    },
+    {
+      "id": "0996fbe7",
+      "title": "谷歌DeepMind推出AI气象预测模型GenCast，8分钟预测15日天气",
+      "content": "DeepMind气象预测大模型GenCast在Nature发表，能在8分钟内完成15天的天气预报，准确度超过全球顶尖中期天气预报系统ENS。GenCast基于扩散模型和Transformer技术，分辨率为0.25度经度/纬度。在1320种实验条件下，GenCast在97.2%的任务中比ENS更准确，在36小时后的预测中表现突出。",
+      "originalContent": "谷歌DeepMind推出AI气象预测模型GenCast，8分钟预测15日天气 DeepMind气象预测大模型GenCast在Nature发表，能在8分钟内完成15天的天气预报，准确度超过全球顶尖中期天气预报系统ENS。GenCast基于扩散模型和Transformer技术，分辨率为0.25度经度/纬度。在1320种实验条件下，GenCast在97.2%的任务中比ENS更准确，在36小时后的预测中表现突出。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.373Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "12月06日·周五"
+    },
+    {
+      "id": "ecc77d5d",
+      "title": "豆包大模型团队开源FullStack Bench代码全新基准，覆盖超11类真实编程场景",
+      "content": "字节跳动豆包大模型团队开源全栈编程代码评估数据集FullStack Bench。FullStack Bench覆盖超11类真实编程场景和16种编程语言，包含3374个问题，有效评估大模型代码开发能力。为AI在真实编程场景中的表现提供快速评估参考。",
+      "originalContent": "豆包大模型团队开源FullStack Bench代码全新基准，覆盖超11类真实编程场景 字节跳动豆包大模型团队开源全栈编程代码评估数据集FullStack Bench。FullStack Bench覆盖超11类真实编程场景和16种编程语言，包含3374个问题，有效评估大模型代码开发能力。为AI在真实编程场景中的表现提供快速评估参考。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.373Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月06日·周五"
+    },
+    {
+      "id": "521d539e",
+      "title": "OpenAI第一场直播就炸场！o1满血版上线，ChatGPT Pro订阅费：200美元/月",
+      "content": "OpenAI发布最强推理模型o1满血版及其Pro版本，ChatGPT Pro订阅计划定价为200美金/月，成为全球最贵的大模型订阅服务。满血版o1在数学、代码能力上显著提升，推理速度比预览版快60%，支持多模态输入。Pro版本为订阅用户提供o1满血版的不限量访问权限，展示在高难度科学问答上的卓越表现。",
+      "originalContent": "OpenAI第一场直播就炸场！o1满血版上线，ChatGPT Pro订阅费：200美元/月 OpenAI发布最强推理模型o1满血版及其Pro版本，ChatGPT Pro订阅计划定价为200美金/月，成为全球最贵的大模型订阅服务。满血版o1在数学、代码能力上显著提升，推理速度比预览版快60%，支持多模态输入。Pro版本为订阅用户提供o1满血版的不限量访问权限，展示在高难度科学问答上的卓越表现。",
+      "source": "量子位",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.374Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "12月06日·周五"
+    },
+    {
+      "id": "107d0e57",
+      "title": "通义实验室开源 ClearerVoice-Studio，高效去除背景噪声",
+      "content": "阿里通义实验室语音团队开源ClearerVoice-Studio技术框架，集成语音增强、分离和音视频说话人提取功能。通过复数域深度学习算法，有效消除背景噪声，保留语音清晰度，保持语音失真最小化。可在Github和HuggingFace Space上查看和试用。",
+      "originalContent": "通义实验室开源 ClearerVoice-Studio，高效去除背景噪声 阿里通义实验室语音团队开源ClearerVoice-Studio技术框架，集成语音增强、分离和音视频说话人提取功能。通过复数域深度学习算法，有效消除背景噪声，保留语音清晰度，保持语音失真最小化。可在Github和HuggingFace Space上查看和试用。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2024-12-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.373Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "技术"
+      ],
+      "dateText": "12月06日·周五"
+    }
+  ],
+  "updateTime": "2025-07-09T10:29:02.501Z"
+}

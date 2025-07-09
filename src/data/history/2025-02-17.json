@@ -1,26 +1,7 @@
 {
   "date": "2025-02-17",
-  "count": 12,
+  "count": 13,
   "data": [
-    {
-      "id": "fbba0e28",
-      "title": "xAI 发布 Grok 3 聊天机器人，性能较前代提升十倍",
-      "content": "马斯克旗下xAI公司发布新一代大模型Grok 3，Grok 3在数学推理、科学逻辑和代码写作等能力上表现卓越，超越DeepSeek-v3、GPT-4o和Gemini-2 Pro等模型。开发依托10万块英伟达H100 GPU的Colossus超级计算机，训练时长2亿GPU小时，性能较前代提升十倍。Grok 3引入推理模式和“DeepSearch”功能，支持复杂问题的深度思考。",
-      "originalContent": "xAI 发布 Grok 3 聊天机器人，性能较前代提升十倍 马斯克旗下xAI公司发布新一代大模型Grok 3，Grok 3在数学推理、科学逻辑和代码写作等能力上表现卓越，超越DeepSeek-v3、GPT-4o和Gemini-2 Pro等模型。开发依托10万块英伟达H100 GPU的Colossus超级计算机，训练时长2亿GPU小时，性能较前代提升十倍。Grok 3引入推理模式和“DeepSearch”功能，支持复杂问题的深度思考。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.720Z",
-      "category": "开源项目",
-      "tags": [
-        "GPT",
-        "发布",
-        "大模型",
-        "AI工具",
-        "机器人"
-      ],
-      "dateText": "2月18日·周二"
-    },
     {
       "id": "dc534af3",
       "title": "马斯克旗下xAI公司发布新一代大模型Grok 3，Grok 3在数学推理、科学逻辑和代码写作等能力上表现卓越，超越DeepSeek-v3、GPT-4o和Gemini-2 Pro等模型。开发依托10万块英伟达H100 GPU的Colossus超级计算机，训练时长2亿GPU小时，性能较前代提升十倍。Grok 3引入推理模式和“DeepSearch”功能，支持复杂问题的深度思考。来源：AI工具集",
@@ -79,24 +60,6 @@
       "dateText": "2月18日"
     },
     {
-      "id": "deff0559",
-      "title": "秘塔AI搜索推出“浅度研究”功能，2-3分钟完成数百网页分析",
-      "content": "秘塔AI搜索推出 Shallow Research「浅度研究」功能，快速收集信息并完成初步分析。功能采用“小模型+大模型”协同架构，结合秘塔自研模型与DeepSeek R1推理模型，可在2-3分钟内完成数百个网页的搜索与分析。",
-      "originalContent": "秘塔AI搜索推出“浅度研究”功能，2-3分钟完成数百网页分析 秘塔AI搜索推出 Shallow Research「浅度研究」功能，快速收集信息并完成初步分析。功能采用“小模型+大模型”协同架构，结合秘塔自研模型与DeepSeek R1推理模型，可在2-3分钟内完成数百个网页的搜索与分析。",
-      "source": "AI秘塔",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.721Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "研究",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "2月18日·周二"
-    },
-    {
       "id": "440d669c",
       "title": "秘塔AI搜索推出 Shallow Research「浅度研究」功能，快速收集信息并完成初步分析。功能采用“小模型+大模型”协同架构，结合秘塔自研模型与DeepSeek R1推理模型，可在2-3分钟内完成数百个网页的搜索与分析。来源：AI秘塔",
       "content": "昆仑万维开源中国首个面向AI短剧创作的视频生成模型，重塑AI短剧行业格局",
@@ -114,24 +77,6 @@
         "AI工具"
       ],
       "dateText": "2月18日"
-    },
-    {
-      "id": "4c95bc8d",
-      "title": "昆仑万维开源中国首个面向AI短剧创作的视频生成模型，重塑AI短剧行业格局",
-      "content": "昆仑万维开源中国首个面向AI短剧创作的视频生成模型SkyReels-V1及表情动作可控算法SkyReels-A1。SkyReels-V1是开源视频生成模型中参数最大且支持图生视频的模型，可实现影视级人物微表情表演和电影级光影美学，支持33种细腻表情与400+自然动作组合。SkyReels-A1支持高保真微表情还原和更大幅度的人物表情驱动。",
-      "originalContent": "昆仑万维开源中国首个面向AI短剧创作的视频生成模型，重塑AI短剧行业格局 昆仑万维开源中国首个面向AI短剧创作的视频生成模型SkyReels-V1及表情动作可控算法SkyReels-A1。SkyReels-V1是开源视频生成模型中参数最大且支持图生视频的模型，可实现影视级人物微表情表演和电影级光影美学，支持33种细腻表情与400+自然动作组合。SkyReels-A1支持高保真微表情还原和更大幅度的人物表情驱动。",
-      "source": "昆仑万维集团",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.721Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "2月18日·周二"
     },
     {
       "id": "b13e164b",
@@ -153,23 +98,6 @@
       "dateText": "2月18日"
     },
     {
-      "id": "cccdf4a3",
-      "title": "Mistral 推出首个专业区域语言模型：专精阿拉伯语和印度起源语言",
-      "content": "Mistral AI 推出首个专业区域语言模型 Mistral Saba，满足中东和南亚地区对本地化语言和文化的需求。模型拥有 240 亿参数，经过精心策划的数据集训练，支持阿拉伯语及多种印度起源语言，擅长泰米尔语。",
-      "originalContent": "Mistral 推出首个专业区域语言模型：专精阿拉伯语和印度起源语言 Mistral AI 推出首个专业区域语言模型 Mistral Saba，满足中东和南亚地区对本地化语言和文化的需求。模型拥有 240 亿参数，经过精心策划的数据集训练，支持阿拉伯语及多种印度起源语言，擅长泰米尔语。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.721Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "2月18日·周二"
-    },
-    {
       "id": "e7a551ad",
       "title": "Mistral AI 推出首个专业区域语言模型 Mistral Saba，满足中东和南亚地区对本地化语言和文化的需求。模型拥有 240 亿参数，经过精心策划的数据集训练，支持阿拉伯语及多种印度起源语言，擅长泰米尔语。来源：AI工具集",
       "content": "Mistral AI 推出首个专业区域语言模型 Mistral Saba，满足中东和南亚地区对本地化语言和文化的需求。模型拥有 240 亿参数，经过精心策划的数据集训练，支持阿拉伯语及多种印度起源语言，擅长泰米尔语。来源：AI工具集",
@@ -187,41 +115,128 @@
       "dateText": "2月18日"
     },
     {
-      "id": "73235b59",
-      "title": "月之暗面推出最新模型：Kimi Latest，开放平台同步上线",
-      "content": "月之暗面科技宣布推出Kimi智能助手最新模型——Kimi Latest。模型对标Kimi智能助手当前使用的最新大模型，支持128k上下文长度，具备图片理解能力，支持自动上下文缓存。Kimi Latest适用于大模型聊天应用，如ChatWise、ChatBox等，可提供与Kimi智能助手相似的聊天体验。",
-      "originalContent": "月之暗面推出最新模型：Kimi Latest，开放平台同步上线 月之暗面科技宣布推出Kimi智能助手最新模型——Kimi Latest。模型对标Kimi智能助手当前使用的最新大模型，支持128k上下文长度，具备图片理解能力，支持自动上下文缓存。Kimi Latest适用于大模型聊天应用，如ChatWise、ChatBox等，可提供与Kimi智能助手相似的聊天体验。",
-      "source": "Kimi 开放平台",
+      "id": "1fe5601e",
+      "title": "xAI即将发布Grok 3，马斯克称之为“地球上最聪明的人工智能”",
+      "content": "埃隆·马斯克的xAI公司将于2月17日发布Grok 3聊天机器人，马斯克称其为“地球上最聪明的人工智能”。Grok 3引入“思维链”推理能力，显著提升推理、编程及多模态功能。训练使用合成数据，可反思错误。Grok 3接入X平台，供用户使用。发布时间较马斯克原计划延迟",
+      "originalContent": "xAI即将发布Grok 3，马斯克称之为“地球上最聪明的人工智能” 埃隆·马斯克的xAI公司将于2月17日发布Grok 3聊天机器人，马斯克称其为“地球上最聪明的人工智能”。Grok 3引入“思维链”推理能力，显著提升推理、编程及多模态功能。训练使用合成数据，可反思错误。Grok 3接入X平台，供用户使用。发布时间较马斯克原计划延迟",
+      "source": "第一财经",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.720Z",
+      "publishTime": "2025-02-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.319Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "50220392",
+      "title": "AI搜索新突破：Perplexity推出Deep Research免费深度研究功能",
+      "content": "AI公司Perplexity宣布推出Deep Research（深度研究）功能，向所有用户免费开放。非订阅用户每天可免费体验5次，Pro用户每天可体验500次。Deep Research通过多次搜索和推理，挖掘上百个信息源，提供深度研究报告，与普通AI搜索相比，搜索深度、广度和推理能力更强。",
+      "originalContent": "AI搜索新突破：Perplexity推出Deep Research免费深度研究功能 AI公司Perplexity宣布推出Deep Research（深度研究）功能，向所有用户免费开放。非订阅用户每天可免费体验5次，Pro用户每天可体验500次。Deep Research通过多次搜索和推理，挖掘上百个信息源，提供深度研究报告，与普通AI搜索相比，搜索深度、广度和推理能力更强。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.319Z",
       "category": "产品发布",
       "tags": [
         "开源",
         "发布",
-        "大模型",
-        "技术",
-        "智能体"
+        "研究",
+        "AI工具"
       ],
-      "dateText": "2月18日·周二"
+      "dateText": "2月17日·周一"
     },
     {
-      "id": "1103058b",
-      "title": "阶跃星辰联合吉利首次开源，为开源世界贡献多模态力量",
-      "content": "阶跃星辰与吉利汽车集团联合开源两款多模态大模型——Step-Video-T2V视频生成模型和Step-Audio语音交互模型。Step-Video-T2V参数量达300亿，可生成高质量视频，性能领先全球开源视频模型。Step-Audio是业内首款产品级开源语音交互模型，支持多语种、方言、情感表达及音色克隆，性能在多项评测中名列前茅。",
-      "originalContent": "阶跃星辰联合吉利首次开源，为开源世界贡献多模态力量 阶跃星辰与吉利汽车集团联合开源两款多模态大模型——Step-Video-T2V视频生成模型和Step-Audio语音交互模型。Step-Video-T2V参数量达300亿，可生成高质量视频，性能领先全球开源视频模型。Step-Audio是业内首款产品级开源语音交互模型，支持多语种、方言、情感表达及音色克隆，性能在多项评测中名列前茅。",
-      "source": "阶跃星辰",
+      "id": "ac26b018",
+      "title": "腾讯多款产品接入DeepSeek-R1模型，全面升级AI体验",
+      "content": "腾讯宣布旗下多款产品接入DeepSeek-R1模型，包括腾讯元宝、微信、ima、腾讯文档、QQ浏览器、QQ音乐等。腾讯元宝支持免费使用DeepSeek-R1满血版和混元T1深度思考模型，提供复杂问题解答能力。微信“AI搜索”功能在灰度测试中。ima、腾讯文档、QQ浏览器、QQ音乐等产品结合DeepSeek-R1优化功能，提升用户体验。",
+      "originalContent": "腾讯多款产品接入DeepSeek-R1模型，全面升级AI体验 腾讯宣布旗下多款产品接入DeepSeek-R1模型，包括腾讯元宝、微信、ima、腾讯文档、QQ浏览器、QQ音乐等。腾讯元宝支持免费使用DeepSeek-R1满血版和混元T1深度思考模型，提供复杂问题解答能力。微信“AI搜索”功能在灰度测试中。ima、腾讯文档、QQ浏览器、QQ音乐等产品结合DeepSeek-R1优化功能，提升用户体验。",
+      "source": "腾讯",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-17T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.721Z",
+      "publishTime": "2025-02-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.319Z",
+      "category": "产品发布",
+      "tags": [
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "b851323d",
+      "title": "中国AI变局：腾讯、百度接入DeepSeek模型，字节反思，“大模型六虎”加速分化",
+      "content": "腾讯微信上线“AI搜索”功能灰度测试DeepSeek-R1模型，百度搜索宣布全面接入DeepSeek和文心大模型的深度搜索功能。字节跳动反思DeepSeek技术跟进，“大模型六小虎”加速分化，部分企业选择拥抱DeepSeek，另一些则继续深耕自身模型研发。",
+      "originalContent": "中国AI变局：腾讯、百度接入DeepSeek模型，字节反思，“大模型六虎”加速分化 腾讯微信上线“AI搜索”功能灰度测试DeepSeek-R1模型，百度搜索宣布全面接入DeepSeek和文心大模型的深度搜索功能。字节跳动反思DeepSeek技术跟进，“大模型六小虎”加速分化，部分企业选择拥抱DeepSeek，另一些则继续深耕自身模型研发。",
+      "source": "钛媒体AGI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.319Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "940cde7d",
+      "title": "字节Trae Win+Mac版全量上线，免费无限量使用Claude",
+      "content": "字节跳动推出的AI编程IDE Trae Win+Mac版于正式全量上线。Trae支持免费无限量使用Claude Sonnet编程大模型，具备全自动开发模式“Builder模式”，可实现需求理解、代码生成、文件操作及错误修复一体化。Trae支持多模态开发，可直接通过上传原型或截图生成代码。",
+      "originalContent": "字节Trae Win+Mac版全量上线，免费无限量使用Claude 字节跳动推出的AI编程IDE Trae Win+Mac版于正式全量上线。Trae支持免费无限量使用Claude Sonnet编程大模型，具备全自动开发模式“Builder模式”，可实现需求理解、代码生成、文件操作及错误修复一体化。Trae支持多模态开发，可直接通过上传原型或截图生成代码。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.318Z",
       "category": "开源项目",
       "tags": [
-        "开源",
-        "合作",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "a07b9c02",
+      "title": "浙江大学推出DeepSeek系列专题线上公开课",
+      "content": "浙江大学人工智能教育教学研究中心于2025年2月17日起推出DeepSeek系列专题线上公开课，每周一晚上19:30面向全校师生及社会公众直播。解析DeepSeek的技术革新与伦理影响，探讨在人工智能领域的突破与应用。首期课程由吴飞教授和陈文智教授主讲。",
+      "originalContent": "浙江大学推出DeepSeek系列专题线上公开课 浙江大学人工智能教育教学研究中心于2025年2月17日起推出DeepSeek系列专题线上公开课，每周一晚上19:30面向全校师生及社会公众直播。解析DeepSeek的技术革新与伦理影响，探讨在人工智能领域的突破与应用。首期课程由吴飞教授和陈文智教授主讲。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.318Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月17日·周一"
+    },
+    {
+      "id": "56d5af34",
+      "title": "腾讯元宝再更新：DeepSeek R1+腾讯混元T1「双核」驱动",
+      "content": "腾讯元宝发布重大更新，接入腾讯混元T1和DeepSeek-R1两大模型，均支持深度思考功能。用户可免费切换使用，解决复杂问题更高效。混元T1为腾讯自研的最新「深度思考模型」，专为多维度分析设计，思维方式贴近人类认知。更新后，腾讯元宝支持联网搜索，结合腾讯生态内容及权威信源，答案更精准。",
+      "originalContent": "腾讯元宝再更新：DeepSeek R1+腾讯混元T1「双核」驱动 腾讯元宝发布重大更新，接入腾讯混元T1和DeepSeek-R1两大模型，均支持深度思考功能。用户可免费切换使用，解决复杂问题更高效。混元T1为腾讯自研的最新「深度思考模型」，专为多维度分析设计，思维方式贴近人类认知。更新后，腾讯元宝支持联网搜索，结合腾讯生态内容及权威信源，答案更精准。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-17T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.319Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
         "大模型"
       ],
-      "dateText": "2月18日·周二"
+      "dateText": "2月17日·周一"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.060Z"
+  "updateTime": "2025-07-09T10:29:02.490Z"
 }

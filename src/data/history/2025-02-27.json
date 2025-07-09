@@ -1,6 +1,6 @@
 {
   "date": "2025-02-27",
-  "count": 10,
+  "count": 9,
   "data": [
     {
       "id": "28227345",
@@ -19,25 +19,6 @@
         "AI工具"
       ],
       "dateText": "2月28日"
-    },
-    {
-      "id": "b5435c51",
-      "title": "OpenAI发布GPT-4.5：更智能、更具情商的聊天模型",
-      "content": "OpenAI推出GPT-4.5，作为最强聊天模型的研究预览版本，目前仅对Pro用户和开发者开放。GPT-4.5通过扩大无监督学习，提升了模式识别、知识广度和创造力，减少了幻觉现象，对话更自然。在写作、编程和解决问题上表现出色，具备更高情商，能更好地理解人类意图。",
-      "originalContent": "OpenAI发布GPT-4.5：更智能、更具情商的聊天模型 OpenAI推出GPT-4.5，作为最强聊天模型的研究预览版本，目前仅对Pro用户和开发者开放。GPT-4.5通过扩大无监督学习，提升了模式识别、知识广度和创造力，减少了幻觉现象，对话更自然。在写作、编程和解决问题上表现出色，具备更高情商，能更好地理解人类意图。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-27T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.701Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "开源",
-        "发布",
-        "研究",
-        "大模型"
-      ],
-      "dateText": "2月28日·周五"
     },
     {
       "id": "3b484522",
@@ -78,23 +59,6 @@
       "dateText": "2月28日"
     },
     {
-      "id": "c7420a8a",
-      "title": "百度文心大模型4.5，3月16日正式上线",
-      "content": "百度宣布文心大模型4.5将于3月16日正式上线。两年前的同一天，百度发布了全球首个生成式AI产品——文心一言。此次升级后的文心大模型4.5在基础模型能力上大幅提升，新增原生多模态和深度思考能力。",
-      "originalContent": "百度文心大模型4.5，3月16日正式上线 百度宣布文心大模型4.5将于3月16日正式上线。两年前的同一天，百度发布了全球首个生成式AI产品——文心一言。此次升级后的文心大模型4.5在基础模型能力上大幅提升，新增原生多模态和深度思考能力。",
-      "source": "百度",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-27T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.702Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "2月28日·周五"
-    },
-    {
       "id": "bc019887",
       "title": "百度宣布文心大模型4.5将于3月16日正式上线。两年前的同一天，百度发布了全球首个生成式AI产品——文心一言。此次升级后的文心大模型4.5在基础模型能力上大幅提升，新增原生多模态和深度思考能力。来源：百度",
       "content": "荣耀、阿里在 AI 领域达成合作：千问、万相等多个模型已接入 YOYO 智能体",
@@ -112,25 +76,6 @@
         "智能体"
       ],
       "dateText": "2月28日"
-    },
-    {
-      "id": "924d17a5",
-      "title": "荣耀、阿里在 AI 领域达成合作：千问、万相等多个模型已接入 YOYO 智能体",
-      "content": "百荣耀宣布与阿里在AI领域达成合作，千问（Qwen）和万相（Wan）等多款语言、视觉理解及图像生成模型已接入荣耀YOYO智能体。用户可通过Magic7系列手机体验相关AI功能。YOYO助理已上线DeepSeek-R1满血版，支持深度思考模式，答案更精准、及时。",
-      "originalContent": "荣耀、阿里在 AI 领域达成合作：千问、万相等多个模型已接入 YOYO 智能体 百荣耀宣布与阿里在AI领域达成合作，千问（Qwen）和万相（Wan）等多款语言、视觉理解及图像生成模型已接入荣耀YOYO智能体。用户可通过Magic7系列手机体验相关AI功能。YOYO助理已上线DeepSeek-R1满血版，支持深度思考模式，答案更精准、及时。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-27T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.702Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "合作",
-        "大模型",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "2月28日·周五"
     },
     {
       "id": "765a78ed",
@@ -152,40 +97,73 @@
       "dateText": "2月28日"
     },
     {
-      "id": "c9baa034",
-      "title": "Trae已全量支持Claude 3.7！免费！",
-      "content": "Trae v1.0.8版本正式发布，新增对Claude 3.7 Sonnet模型的全量支持，为用户提供更强大的AI生成能力。资源有限，响应可能延迟，服务目前免费，用户可体验更高效、智能的AI功能。",
-      "originalContent": "Trae已全量支持Claude 3.7！免费！ Trae v1.0.8版本正式发布，新增对Claude 3.7 Sonnet模型的全量支持，为用户提供更强大的AI生成能力。资源有限，响应可能延迟，服务目前免费，用户可体验更高效、智能的AI功能。",
-      "source": "AI工具集",
+      "id": "9111dd5d",
+      "title": "腾讯混元新一代快思考模型 Turbo S 发布，实现秒级响应",
+      "content": "腾讯发布新一代快思考模型混元Turbo S，模型在知识、数理、创作等方面表现出色，实现“秒回”功能，吐字速度提升一倍，首字时延降低44%。混元Turbo S采用Hybrid-Mamba-Transformer融合架构，有效降低计算复杂度和部署成本。",
+      "originalContent": "腾讯混元新一代快思考模型 Turbo S 发布，实现秒级响应 腾讯发布新一代快思考模型混元Turbo S，模型在知识、数理、创作等方面表现出色，实现“秒回”功能，吐字速度提升一倍，首字时延降低44%。混元Turbo S采用Hybrid-Mamba-Transformer融合架构，有效降低计算复杂度和部署成本。",
+      "source": "腾讯混元",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-27T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.701Z",
+      "publishTime": "2025-02-27T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.310Z",
       "category": "产品发布",
       "tags": [
         "发布",
-        "大模型",
-        "AI工具"
+        "大模型"
       ],
-      "dateText": "2月28日·周五"
+      "dateText": "2月27日·周四"
     },
     {
-      "id": "cf613e8c",
-      "title": "DeepSeek开源高性能并行文件系统 3FS 实现聚合吞吐 6.6 TiB/s",
-      "content": "DeepSeek在开源周最后一天发布了Fire-Flyer File System（3FS）和Smallpond数据处理框架。3FS是一种高性能并行文件系统，专为AI训练和推理设计，支持大规模集群的高吞吐量数据访问，峰值读取吞吐量达6.6 TiB/s。Smallpond基于3FS和DuckDB构建，支持高效数据处理，可扩展至PB级数据集。",
-      "originalContent": "DeepSeek开源高性能并行文件系统 3FS 实现聚合吞吐 6.6 TiB/s DeepSeek在开源周最后一天发布了Fire-Flyer File System（3FS）和Smallpond数据处理框架。3FS是一种高性能并行文件系统，专为AI训练和推理设计，支持大规模集群的高吞吐量数据访问，峰值读取吞吐量达6.6 TiB/s。Smallpond基于3FS和DuckDB构建，支持高效数据处理，可扩展至PB级数据集。",
+      "id": "ca9a9d3d",
+      "title": "DeepSeek开源新动作：三大并行计算优化技术，助力大模型训练效率飞跃",
+      "content": "DeepSeek开源三项并行计算优化技术，DualPipe 是一种双向流水线并行算法，通过计算与通信的完全重叠，显著减少流水线气泡，优化 GPU 资源利用率。EPLB（专家并行负载均衡器）通过冗余专家策略和负载均衡技术，解决专家并行中 GPU 负载不均的问题。profile-data 提供详细的性能分析数据，帮助开发者深入理解并行策略优化。",
+      "originalContent": "DeepSeek开源新动作：三大并行计算优化技术，助力大模型训练效率飞跃 DeepSeek开源三项并行计算优化技术，DualPipe 是一种双向流水线并行算法，通过计算与通信的完全重叠，显著减少流水线气泡，优化 GPU 资源利用率。EPLB（专家并行负载均衡器）通过冗余专家策略和负载均衡技术，解决专家并行中 GPU 负载不均的问题。profile-data 提供详细的性能分析数据，帮助开发者深入理解并行策略优化。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-27T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.702Z",
+      "publishTime": "2025-02-27T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.310Z",
       "category": "开源项目",
       "tags": [
         "开源",
-        "发布",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "2月27日·周四"
+    },
+    {
+      "id": "12834be0",
+      "title": "Anthropic 全面开放 Claude AI 的 GitHub 集成，赋能所有开发者",
+      "content": "Anthropic宣布全面开放Claude AI的GitHub集成，面向免费、Pro和Teams用户。集成后，用户可将GitHub代码库同步至Claude，使其理解代码上下文，辅助测试、调试和优化代码。",
+      "originalContent": "Anthropic 全面开放 Claude AI 的 GitHub 集成，赋能所有开发者 Anthropic宣布全面开放Claude AI的GitHub集成，面向免费、Pro和Teams用户。集成后，用户可将GitHub代码库同步至Claude，使其理解代码上下文，辅助测试、调试和优化代码。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-27T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.311Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "AI工具"
+      ],
+      "dateText": "2月27日·周四"
+    },
+    {
+      "id": "8d0dd5cd",
+      "title": "微软开源Phi4多模态与Phi4-Mini：端侧AI迎来最强小模型",
+      "content": "微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。",
+      "originalContent": "微软开源Phi4多模态与Phi4-Mini：端侧AI迎来最强小模型 微软开源两款小模型Phi-4-Multimodal和Phi-4-Mini。Phi-4-Multimodal是多模态模型，集成了文本、视觉和语音输入，采用“混合LoRA”技术，表现出色。Phi-4-Mini是3.8亿参数的语言模型，擅长数学和编码任务，性能优于同尺寸模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-27T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.311Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
         "技术",
         "AI工具"
       ],
-      "dateText": "2月28日·周五"
+      "dateText": "2月27日·周四"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.054Z"
+  "updateTime": "2025-07-09T10:29:02.489Z"
 }

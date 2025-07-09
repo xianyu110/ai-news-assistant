@@ -1,23 +1,7 @@
 {
   "date": "2025-02-05",
-  "count": 9,
+  "count": 11,
   "data": [
-    {
-      "id": "dbc36984",
-      "title": "OpenAI 放大招：ChatGPT 搜索功能无需注册人人可用，分钟级别解析全网信息",
-      "content": "OpenAI 宣布 ChatGPT 搜索功能无需登录账户即可使用，用户可直接获取基于实时网络信息生成的答案，查看信息来源清单。与传统搜索引擎相比，ChatGPT 搜索可实现分钟级解析网络信息，能查看地图和本地景点图片，结果更具可信度和实用性。",
-      "originalContent": "OpenAI 放大招：ChatGPT 搜索功能无需注册人人可用，分钟级别解析全网信息 OpenAI 宣布 ChatGPT 搜索功能无需登录账户即可使用，用户可直接获取基于实时网络信息生成的答案，查看信息来源清单。与传统搜索引擎相比，ChatGPT 搜索可实现分钟级解析网络信息，能查看地图和本地景点图片，结果更具可信度和实用性。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.738Z",
-      "category": "综合资讯",
-      "tags": [
-        "GPT",
-        "AI工具"
-      ],
-      "dateText": "2月6日·周四"
-    },
     {
       "id": "da65dee2",
       "title": "OpenAI 宣布 ChatGPT 搜索功能无需登录账户即可使用，用户可直接获取基于实时网络信息生成的答案，查看信息来源清单。与传统搜索引擎相比，ChatGPT 搜索可实现分钟级解析网络信息，能查看地图和本地景点图片，结果更具可信度和实用性。来源：IT之家",
@@ -34,39 +18,6 @@
         "AI工具"
       ],
       "dateText": "2月6日"
-    },
-    {
-      "id": "06be94c2",
-      "title": "谷歌发布Gemini 2.0 Pro，全型号刷榜，原生多模态，编程、物理模拟能力炸裂",
-      "content": "谷歌发布 Gemini 2.0 系列模型，包括 Gemini 2.0 Pro、2.0 Flash 和 2.0 Flash-Lite。2.0 Pro 是谷歌最强的编码和复杂提示处理模型，配备 200 万 token 上下文窗口，支持谷歌搜索和代码执行工具。2.0 Flash 是高效主力模型，支持 100 万 token 上下文和多模态输入，适合高容量任务。2.0 Flash-Lite 是最具性价比的模型，性能优于前代 1.5 Flash，成本更低。",
-      "originalContent": "谷歌发布Gemini 2.0 Pro，全型号刷榜，原生多模态，编程、物理模拟能力炸裂 谷歌发布 Gemini 2.0 系列模型，包括 Gemini 2.0 Pro、2.0 Flash 和 2.0 Flash-Lite。2.0 Pro 是谷歌最强的编码和复杂提示处理模型，配备 200 万 token 上下文窗口，支持谷歌搜索和代码执行工具。2.0 Flash 是高效主力模型，支持 100 万 token 上下文和多模态输入，适合高容量任务。2.0 Flash-Lite 是最具性价比的模型，性能优于前代 1.5 Flash，成本更低。",
-      "source": "Founder Park",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.739Z",
-      "category": "开源项目",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "2月6日·周四"
-    },
-    {
-      "id": "a543f792",
-      "title": "前追觅中国区执行总裁郭人杰创业，「乐享科技」宣布完成近2亿元天使轮融资",
-      "content": "前追觅中国区执行总裁郭人杰创立的「乐享科技」宣布完成近 2 亿元人民币的天使轮融资，由 IDG 资本领投，Monolith、经纬创投、真格基金等跟投，投后估值约 6 亿元。乐享科技成立于 2024 年，定位为全球科技公司，专注于 AI + 消费硬件市场，首款面向家庭场景的产品正在研发中。",
-      "originalContent": "前追觅中国区执行总裁郭人杰创业，「乐享科技」宣布完成近2亿元天使轮融资 前追觅中国区执行总裁郭人杰创立的「乐享科技」宣布完成近 2 亿元人民币的天使轮融资，由 IDG 资本领投，Monolith、经纬创投、真格基金等跟投，投后估值约 6 亿元。乐享科技成立于 2024 年，定位为全球科技公司，专注于 AI + 消费硬件市场，首款面向家庭场景的产品正在研发中。",
-      "source": "36氪",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.739Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "AI工具"
-      ],
-      "dateText": "2月6日·周四"
     },
     {
       "id": "22786090",
@@ -105,24 +56,6 @@
       "dateText": "2月6日"
     },
     {
-      "id": "e8485154",
-      "title": "训练成本不到 50 美元，研究人员打造出媲美 OpenAI o1 的推理模型",
-      "content": "斯坦福大学和华盛顿大学的研究人员仅花费不到50美元的云计算费用，训练出s1人工智能推理模型。模型在数学和编程能力测试中表现与OpenAI的o1和DeepSeek的r1等顶尖模型相当。s1通过“蒸馏”技术从谷歌的Gemini 2.0 Flash Thinking Experimental模型中提取推理能力，使用监督微调方法，耗时不到30分钟。",
-      "originalContent": "训练成本不到 50 美元，研究人员打造出媲美 OpenAI o1 的推理模型 斯坦福大学和华盛顿大学的研究人员仅花费不到50美元的云计算费用，训练出s1人工智能推理模型。模型在数学和编程能力测试中表现与OpenAI的o1和DeepSeek的r1等顶尖模型相当。s1通过“蒸馏”技术从谷歌的Gemini 2.0 Flash Thinking Experimental模型中提取推理能力，使用监督微调方法，耗时不到30分钟。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.739Z",
-      "category": "技术研究",
-      "tags": [
-        "研究",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "2月6日·周四"
-    },
-    {
       "id": "8a0d207e",
       "title": "斯坦福大学和华盛顿大学的研究人员仅花费不到50美元的云计算费用，训练出s1人工智能推理模型。模型在数学和编程能力测试中表现与OpenAI的o1和DeepSeek的r1等顶尖模型相当。s1通过“蒸馏”技术从谷歌的Gemini 2.0 Flash Thinking Experimental模型中提取推理能力，使用监督微调方法，耗时不到30分钟。来源：AI工具集",
       "content": "斯坦福大学和华盛顿大学的研究人员仅花费不到50美元的云计算费用，训练出s1人工智能推理模型。模型在数学和编程能力测试中表现与OpenAI的o1和DeepSeek的r1等顶尖模型相当。s1通过“蒸馏”技术从谷歌的Gemini 2.0 Flash Thinking Experimental模型中提取推理能力，使用监督微调方法，耗时不到30分钟。来源：AI工具集",
@@ -141,22 +74,125 @@
       "dateText": "2月6日"
     },
     {
-      "id": "54152627",
-      "title": "字节跳动推出 OmniHuman 多模态框架：图片+音频 = 逼真动画",
-      "content": "字节跳动提出OmniHuman，基于扩散变换器的高保真人类视频生成框架。模型通过单阶段的音频和姿态驱动，能生成高质量的人类视频内容。支持文本、音频、姿态等多种输入信号，可生成从面部特写到全身的各种视频，适应不同风格。",
-      "originalContent": "字节跳动推出 OmniHuman 多模态框架：图片+音频 = 逼真动画 字节跳动提出OmniHuman，基于扩散变换器的高保真人类视频生成框架。模型通过单阶段的音频和姿态驱动，能生成高质量的人类视频内容。支持文本、音频、姿态等多种输入信号，可生成从面部特写到全身的各种视频，适应不同风格。",
+      "id": "ecde9a89",
+      "title": "一场关于DeepSeek的高质量闭门会：比技术更重要的是愿景",
+      "content": "拾象创始人李广密组织了一场关于DeepSeek的闭门讨论会，数十位顶尖AI研究员、投资人与从业者参与。会议探讨了DeepSeek的技术细节、组织文化及其影响。DeepSeek凭借高效的资源利用和对智能的专注，展现出强大的技术实力。创始人梁文锋注重技术与智能的推进，而非商业化。",
+      "originalContent": "一场关于DeepSeek的高质量闭门会：比技术更重要的是愿景 拾象创始人李广密组织了一场关于DeepSeek的闭门讨论会，数十位顶尖AI研究员、投资人与从业者参与。会议探讨了DeepSeek的技术细节、组织文化及其影响。DeepSeek凭借高效的资源利用和对智能的专注，展现出强大的技术实力。创始人梁文锋注重技术与智能的推进，而非商业化。",
+      "source": "腾讯科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-05T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.329Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月5日·周三"
+    },
+    {
+      "id": "0a4872e0",
+      "title": "5人创业国产AI搜索火了，小红书Reddit都在推！比Perplexity留存更高",
+      "content": "国产AI搜索工具 Hika AI 仅5人团队打造，上线不到1个月，在获取用户注意力方面已超越Perplexity等竞争对手。Hika AI 提供免费的知识获取引擎，核心特点是按段落分割回答，支持用户对感兴趣的部分深入提问，提供图表化的总结表和思维导图。",
+      "originalContent": "5人创业国产AI搜索火了，小红书Reddit都在推！比Perplexity留存更高 国产AI搜索工具 Hika AI 仅5人团队打造，上线不到1个月，在获取用户注意力方面已超越Perplexity等竞争对手。Hika AI 提供免费的知识获取引擎，核心特点是按段落分割回答，支持用户对感兴趣的部分深入提问，提供图表化的总结表和思维导图。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.739Z",
+      "publishTime": "2025-02-05T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.329Z",
       "category": "产品发布",
       "tags": [
         "发布",
-        "大模型",
-        "技术"
+        "AI工具"
       ],
-      "dateText": "2月6日·周四"
+      "dateText": "2月5日·周三"
+    },
+    {
+      "id": "86b22d51",
+      "title": "Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元",
+      "content": "Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元（约 36.4 元人民币）。可帮助用户理解复杂合同条款，自动发现不同合同之间的差异，例如新旧合同的变化。Acrobat 应用能自动识别合同文档，提取关键条款，生成摘要，推荐可能的问题。可同时比较多达 10 份合同。",
+      "originalContent": "Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元 Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元（约 36.4 元人民币）。可帮助用户理解复杂合同条款，自动发现不同合同之间的差异，例如新旧合同的变化。Acrobat 应用能自动识别合同文档，提取关键条款，生成摘要，推荐可能的问题。可同时比较多达 10 份合同。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-05T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.329Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "2月5日·周三"
+    },
+    {
+      "id": "502f2484",
+      "title": "SB OpenAI Japan成立！2025年首个最火AI赛道开打",
+      "content": "OpenAI在日本宣布成立合资公司 SB OpenAI Japan，与软银合作，专注于开发和销售新型高级企业AI——“水晶智能（Cristal intelligence）”。合作为日本企业提供定制化的AI解决方案，推动企业工作流程自动化和效率提升。",
+      "originalContent": "SB OpenAI Japan成立！2025年首个最火AI赛道开打 OpenAI在日本宣布成立合资公司 SB OpenAI Japan，与软银合作，专注于开发和销售新型高级企业AI——“水晶智能（Cristal intelligence）”。合作为日本企业提供定制化的AI解决方案，推动企业工作流程自动化和效率提升。",
+      "source": "智东西",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-05T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.329Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "AI工具"
+      ],
+      "dateText": "2月5日·周三"
+    },
+    {
+      "id": "ac79b5a1",
+      "title": "Figure AI与OpenAI“分手”，人形机器人公司与大模型公司重新划定边界",
+      "content": "人形机器人公司Figure AI与OpenAI终止合作。Figure AI创始人Brett Adcock表示，公司自主研发的端到端机器人AI取得重大突破，未来30天内将展示新成果。Figure AI与OpenAI合作始于去年初，曾发布多条展示机器人视觉、对话及灵活操作能力的视频。",
+      "originalContent": "Figure AI与OpenAI“分手”，人形机器人公司与大模型公司重新划定边界 人形机器人公司Figure AI与OpenAI终止合作。Figure AI创始人Brett Adcock表示，公司自主研发的端到端机器人AI取得重大突破，未来30天内将展示新成果。Figure AI与OpenAI合作始于去年初，曾发布多条展示机器人视觉、对话及灵活操作能力的视频。",
+      "source": "第一财经",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-05T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.330Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "大模型",
+        "AI工具",
+        "机器人"
+      ],
+      "dateText": "2月5日·周三"
+    },
+    {
+      "id": "7f64d000",
+      "title": "Ai2推出开源模型Tülu 3 405B，性能超越DeepSeek V3与GPT-4o",
+      "content": "美国艾伦人工智能研究所（Ai2）推出新一代开源模型Tülu 3 405B，基于强化学习技术，在多项基准测试中超越了DeepSeek v3和GPT-4o。Tülu 3系列模型基于Llama 3 Base，通过四阶段后训练方法优化，包括精心策划的提示词、监督微调、偏好微调和强化学习。训练数据、代码和方法完全开源。",
+      "originalContent": "Ai2推出开源模型Tülu 3 405B，性能超越DeepSeek V3与GPT-4o 美国艾伦人工智能研究所（Ai2）推出新一代开源模型Tülu 3 405B，基于强化学习技术，在多项基准测试中超越了DeepSeek v3和GPT-4o。Tülu 3系列模型基于Llama 3 Base，通过四阶段后训练方法优化，包括精心策划的提示词、监督微调、偏好微调和强化学习。训练数据、代码和方法完全开源。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-05T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.330Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "2月5日·周三"
+    },
+    {
+      "id": "8c22d770",
+      "title": "华为小艺助手接入 DeepSeek，升级纯血鸿蒙 HarmonyOS NEXT 即可体验",
+      "content": "华为小艺助手接入 DeepSeek，升级至 HarmonyOS NEXT 后即可体验。小艺助手的智能体广场已上线 DeepSeek-R1 Beta 版，升级小艺助手至 11.2.10.310 版本及以上，可在“发现”栏找到智能体广场，与 DeepSeek 进行对话。",
+      "originalContent": "华为小艺助手接入 DeepSeek，升级纯血鸿蒙 HarmonyOS NEXT 即可体验 华为小艺助手接入 DeepSeek，升级至 HarmonyOS NEXT 后即可体验。小艺助手的智能体广场已上线 DeepSeek-R1 Beta 版，升级小艺助手至 11.2.10.310 版本及以上，可在“发现”栏找到智能体广场，与 DeepSeek 进行对话。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-05T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.330Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "智能体"
+      ],
+      "dateText": "2月5日·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.070Z"
+  "updateTime": "2025-07-09T10:29:02.492Z"
 }

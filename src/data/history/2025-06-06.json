@@ -1,0 +1,109 @@
+{
+  "date": "2025-06-06",
+  "count": 6,
+  "data": [
+    {
+      "id": "f9069442",
+      "title": "阿里开源 Qwen3 新模型 Embedding 及 Reranker",
+      "content": "Qwen家族推出新成员Qwen3 Embedding和Qwen3 Reranker。Qwen3 Embedding是基于Qwen3基础模型训练的文本嵌入模型系列，可将文字等符号转化为数字向量，挖掘语义关系，为搜索、推荐等任务提供支持。Qwen3 Reranker用于提升搜索和推荐系统相关性排序能力，可精细化打分和排序。",
+      "originalContent": "阿里开源 Qwen3 新模型 Embedding 及 Reranker Qwen家族推出新成员Qwen3 Embedding和Qwen3 Reranker。Qwen3 Embedding是基于Qwen3基础模型训练的文本嵌入模型系列，可将文字等符号转化为数字向量，挖掘语义关系，为搜索、推荐等任务提供支持。Qwen3 Reranker用于提升搜索和推荐系统相关性排序能力，可精细化打分和排序。",
+      "source": "通义大模型",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.208Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月6·周五"
+    },
+    {
+      "id": "54d69acd",
+      "title": "智源发布“悟界”系列大模型，解码物理世界交互新范式",
+      "content": "第七届北京智源大会在中关村开幕。智源研究院发布“悟界”系列大模型，包括原生多模态世界模型Emu3、脑科学多模态通用基础模型Brainμ、跨本体具身大小脑协作框架RoboOS 2.0与具身大脑RoboBrain 2.0，全原子微观生命模型OpenComplex2，推动人工智能与物理世界的深度融合，探索生命机理本质规律。",
+      "originalContent": "智源发布“悟界”系列大模型，解码物理世界交互新范式 第七届北京智源大会在中关村开幕。智源研究院发布“悟界”系列大模型，包括原生多模态世界模型Emu3、脑科学多模态通用基础模型Brainμ、跨本体具身大小脑协作框架RoboOS 2.0与具身大脑RoboBrain 2.0，全原子微观生命模型OpenComplex2，推动人工智能与物理世界的深度融合，探索生命机理本质规律。",
+      "source": "智源研究院",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.207Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "6月6·周五"
+    },
+    {
+      "id": "02b62ace",
+      "title": "图像编辑模型SeedEdit 3.0发布！更强保持力，更高可用率",
+      "content": "字节跳动Seed团队发布图像编辑模型SeedEdit 3.0。模型基于文生图模型Seedream 3.0，采用多样化数据融合方法与特定奖励模型，显著提升图像主体、背景和细节保持能力，在人像编辑、背景更改等场景表现出色。SeedEdit 3.0可处理4K图像，精准识别并移除无关人物及其影子，能将2D绘画转为真实模特，保持细节。",
+      "originalContent": "图像编辑模型SeedEdit 3.0发布！更强保持力，更高可用率 字节跳动Seed团队发布图像编辑模型SeedEdit 3.0。模型基于文生图模型Seedream 3.0，采用多样化数据融合方法与特定奖励模型，显著提升图像主体、背景和细节保持能力，在人像编辑、背景更改等场景表现出色。SeedEdit 3.0可处理4K图像，精准识别并移除无关人物及其影子，能将2D绘画转为真实模特，保持细节。",
+      "source": "字节跳动Seed",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.207Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月6·周五"
+    },
+    {
+      "id": "9445f0b5",
+      "title": "即梦图片3.0重磅更新，上线智能参考功能",
+      "content": "即梦图片3.0模型更新智能参考功能，在原图一致性保持方面表现出色，精细到头发丝级。用户可通过简单提示语实现添加文字、修改文字、复杂设计等多种操作，生成高质量图片。目前功能灰度测试中。",
+      "originalContent": "即梦图片3.0重磅更新，上线智能参考功能 即梦图片3.0模型更新智能参考功能，在原图一致性保持方面表现出色，精细到头发丝级。用户可通过简单提示语实现添加文字、修改文字、复杂设计等多种操作，生成高质量图片。目前功能灰度测试中。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.208Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "6月6·周五"
+    },
+    {
+      "id": "7d498126",
+      "title": "谷歌更新 Gemini 2.5 Pro 预览版模型至 06-05 版本，多项 AI 性能提升",
+      "content": "谷歌更新了Gemini 2.5 Pro预览版模型至06-05版本，多项AI性能基准测试评分提升。LMArena Elo评分上升24分，WebDevArena Elo评分上升35分至1443分，取得业界领先地位。谷歌对模型进行了风格与结构优化，使其更具创意、回答格式更清晰，提升了交互体验。",
+      "originalContent": "谷歌更新 Gemini 2.5 Pro 预览版模型至 06-05 版本，多项 AI 性能提升 谷歌更新了Gemini 2.5 Pro预览版模型至06-05版本，多项AI性能基准测试评分提升。LMArena Elo评分上升24分，WebDevArena Elo评分上升35分至1443分，取得业界领先地位。谷歌对模型进行了风格与结构优化，使其更具创意、回答格式更清晰，提升了交互体验。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.208Z",
+      "category": "产品发布",
+      "tags": [
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "6月6·周五"
+    },
+    {
+      "id": "b8475a03",
+      "title": "AI视频神器PixVerse国内版“拍我AI”正式上线",
+      "content": "PixVerse国内版“拍我AI”正式上线，网页端和移动端同步推出，支持V4.5版本。用户可通过访问拍我AI官网和各大应用商店下载体验。产品提供AI特效、首尾帧等创新功能，助力用户创作独特视频。",
+      "originalContent": "AI视频神器PixVerse国内版“拍我AI”正式上线 PixVerse国内版“拍我AI”正式上线，网页端和移动端同步推出，支持V4.5版本。用户可通过访问拍我AI官网和各大应用商店下载体验。产品提供AI特效、首尾帧等创新功能，助力用户创作独特视频。",
+      "source": "爱诗科技AIsphere",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.208Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "6月6·周五"
+    }
+  ],
+  "updateTime": "2025-07-09T10:29:02.475Z"
+}

@@ -1,68 +1,34 @@
 {
   "date": "2025-06-04",
-  "count": 4,
+  "count": 8,
   "data": [
     {
-      "id": "2b924b94",
-      "title": "秘塔“今天学点啥”平台上线导出PPT功能",
-      "content": "“今天学点啥”平台上线一键导出PPT功能。用户在视频讲解页面点击“导出PPT”按钮，可下载包含图文、语音讲解及逐字稿的完整PPT。功能因算力消耗大，仅前三天（6月5日—6月7日）限时免费。",
-      "originalContent": "秘塔“今天学点啥”平台上线导出PPT功能 “今天学点啥”平台上线一键导出PPT功能。用户在视频讲解页面点击“导出PPT”按钮，可下载包含图文、语音讲解及逐字稿的完整PPT。功能因算力消耗大，仅前三天（6月5日—6月7日）限时免费。",
-      "source": "AI秘塔",
+      "id": "6a83738c",
+      "title": "图灵奖得主Bengio再创业：启动资金就筹集了3000万美元",
+      "content": "图灵奖得主、深度学习三巨头之一Yoshua Bengio再次创业，成立非营利组织LawZero，已筹集3000万美元启动资金。LawZero构建“设计即安全”的AI系统，不做Agent，而是监督Agent，以理解学习世界为核心目标，提供可验证的真实答案。",
+      "originalContent": "图灵奖得主Bengio再创业：启动资金就筹集了3000万美元 图灵奖得主、深度学习三巨头之一Yoshua Bengio再次创业，成立非营利组织LawZero，已筹集3000万美元启动资金。LawZero构建“设计即安全”的AI系统，不做Agent，而是监督Agent，以理解学习世界为核心目标，提供可验证的真实答案。",
+      "source": "量子位",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.511Z",
-      "category": "产品发布",
+      "publishTime": "2025-06-04T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.211Z",
+      "category": "投融资",
       "tags": [
-        "发布",
-        "技术"
+        "融资",
+        "AI工具",
+        "智能体"
       ],
-      "dateText": "6月5·周四"
+      "dateText": "6月4·周三"
     },
     {
-      "id": "69ad93ec",
-      "title": "OpenAI 发布了两项 ChatGPT 新功能：「连接器」与「记录模式」",
-      "content": "OpenAI为ChatGPT推出两项新功能：“连接器”与“记录模式”。连接器可接入GitHub、Google Drive等平台，实现数据查询与整理，助力企业知识管理。记录模式则能自动录音、记笔记、生成会议纪要，提升会议效率。新功能让ChatGPT融入企业日常，成为打工人“第二大脑”。",
-      "originalContent": "OpenAI 发布了两项 ChatGPT 新功能：「连接器」与「记录模式」 OpenAI为ChatGPT推出两项新功能：“连接器”与“记录模式”。连接器可接入GitHub、Google Drive等平台，实现数据查询与整理，助力企业知识管理。记录模式则能自动录音、记笔记、生成会议纪要，提升会议效率。新功能让ChatGPT融入企业日常，成为打工人“第二大脑”。",
-      "source": "APPSO",
+      "id": "9e1025eb",
+      "title": "阶跃星辰To C产品“冒泡鸭”将停运，重心转向终端Agent",
+      "content": "大模型“六小虎”之一的阶跃星辰调整其C端AI应用布局，角色扮演类Agent产品“冒泡鸭”将停止大范围投入，团队合并至对话产品“阶跃AI”。2025年以来，阶跃星辰将战略重心从C端转移到模型研发和ToB/G上，加大开源力度，组织不同技术路线的团队，将ToB的Agent产品作为重点布局方向。",
+      "originalContent": "阶跃星辰To C产品“冒泡鸭”将停运，重心转向终端Agent 大模型“六小虎”之一的阶跃星辰调整其C端AI应用布局，角色扮演类Agent产品“冒泡鸭”将停止大范围投入，团队合并至对话产品“阶跃AI”。2025年以来，阶跃星辰将战略重心从C端转移到模型研发和ToB/G上，加大开源力度，组织不同技术路线的团队，将ToB的Agent产品作为重点布局方向。",
+      "source": "智能涌现",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.510Z",
+      "publishTime": "2025-06-04T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.211Z",
       "category": "开源项目",
-      "tags": [
-        "GPT",
-        "发布",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "6月5·周四"
-    },
-    {
-      "id": "1ccf6080",
-      "title": "Cursor 1.0 发布：BugBot 代码审查、Memories 记忆、一键 MCP 安装等",
-      "content": "Cursor 1.0 正式发布，新增 BugBot 自动代码审查工具，可自动审查 PRs 精准识别潜在问题，发现问题后能在 GitHub 的 PR 上评论提供修复提示；推出测试版 Memories 功能，可按项目存储对话中的关键信息；支持一键安装 MCP 服务器并简化验证流程；聊天界面新增可视化支持，优化了设置和仪表盘界面；简化定价模式。",
-      "originalContent": "Cursor 1.0 发布：BugBot 代码审查、Memories 记忆、一键 MCP 安装等 Cursor 1.0 正式发布，新增 BugBot 自动代码审查工具，可自动审查 PRs 精准识别潜在问题，发现问题后能在 GitHub 的 PR 上评论提供修复提示；推出测试版 Memories 功能，可按项目存储对话中的关键信息；支持一键安装 MCP 服务器并简化验证流程；聊天界面新增可视化支持，优化了设置和仪表盘界面；简化定价模式。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.512Z",
-      "category": "开源项目",
-      "tags": [
-        "发布",
-        "研究",
-        "AI工具"
-      ],
-      "dateText": "6月5·周四"
-    },
-    {
-      "id": "7909d73f",
-      "title": "AMD 收购 AI 软件优化初创公司 Brium",
-      "content": "AMD 宣布收购 Brium，Brium 专注于开发可适配多种硬件架构的机器学习推理技术，能让原本为英伟达等特定硬件设计的 AI 模型在其他品牌平台上有效运行。AMD 表示此举在推动“高性能、开放的 AI 软件生态建设”，支持开发者创新。",
-      "originalContent": "AMD 收购 AI 软件优化初创公司 Brium AMD 宣布收购 Brium，Brium 专注于开发可适配多种硬件架构的机器学习推理技术，能让原本为英伟达等特定硬件设计的 AI 模型在其他品牌平台上有效运行。AMD 表示此举在推动“高性能、开放的 AI 软件生态建设”，支持开发者创新。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.512Z",
-      "category": "行业动态",
       "tags": [
         "开源",
         "合作",
@@ -70,8 +36,114 @@
         "技术",
         "AI工具"
       ],
-      "dateText": "6月5·周四"
+      "dateText": "6月4·周三"
+    },
+    {
+      "id": "85454e64",
+      "title": "Kimi推出全新AI学术研究助手：学术搜索",
+      "content": "Kimi推出全新AI学术研究助手“学术搜索”，通过深度推理搜索、遵循用户指令、实时互动等，帮助用户在学术研究和论文写作中提高效率和质量。用户可在官网注册登录后使用，适用于学术研究支持、技术问题解决等多种场景。",
+      "originalContent": "Kimi推出全新AI学术研究助手：学术搜索 Kimi推出全新AI学术研究助手“学术搜索”，通过深度推理搜索、遵循用户指令、实时互动等，帮助用户在学术研究和论文写作中提高效率和质量。用户可在官网注册登录后使用，适用于学术研究支持、技术问题解决等多种场景。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.210Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月4·周三"
+    },
+    {
+      "id": "ff3417a9",
+      "title": "快手开源”Auto Think”大模型，根据问题自动调节思考深度",
+      "content": "快手 Kwaipilot 团队开源 KwaiCoder-AutoThink-preview 自动思考大模型。模型针对深度思考大模型“过度思考”问题，提出自动思考模型训练范式，融合“思考”和“非思考”能力，可根据问题难度自动切换思考形态。",
+      "originalContent": "快手开源”Auto Think”大模型，根据问题自动调节思考深度 快手 Kwaipilot 团队开源 KwaiCoder-AutoThink-preview 自动思考大模型。模型针对深度思考大模型“过度思考”问题，提出自动思考模型训练范式，融合“思考”和“非思考”能力，可根据问题难度自动切换思考形态。",
+      "source": "快手技术",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.210Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型"
+      ],
+      "dateText": "6月4·周三"
+    },
+    {
+      "id": "aad013c4",
+      "title": "Manus 推出“文生视频”功能，挑战 OpenAI Sora 等竞争对手",
+      "content": "AI 初创公司 Manus 推出原生“文生视频”功能，目前仅对付费会员开放。功能可将文本命令快速转换为有序视频故事。Manus 提供 Basic、Plus、Pro 三种会员服务，Pro 会员每月收费 199 美元。",
+      "originalContent": "Manus 推出“文生视频”功能，挑战 OpenAI Sora 等竞争对手 AI 初创公司 Manus 推出原生“文生视频”功能，目前仅对付费会员开放。功能可将文本命令快速转换为有序视频故事。Manus 提供 Basic、Plus、Pro 三种会员服务，Pro 会员每月收费 199 美元。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.211Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "6月4·周三"
+    },
+    {
+      "id": "0b1def6b",
+      "title": "开源 AI 设计 Agent —— Jaaz，Lovart 的免费平替项目",
+      "content": "开源 AI 设计 Agent —— Jaaz，Lovart 的免费平替项目。具备强大的 AI 设计能力，可智能生成设计提示，批量生成图像、海报、故事板等。Jaaz 支持 Ollama、Stable Diffusion、Flux Dev 等本地图像和语言模型，实现免费的图像生成。",
+      "originalContent": "开源 AI 设计 Agent —— Jaaz，Lovart 的免费平替项目 开源 AI 设计 Agent —— Jaaz，Lovart 的免费平替项目。具备强大的 AI 设计能力，可智能生成设计提示，批量生成图像、海报、故事板等。Jaaz 支持 Ollama、Stable Diffusion、Flux Dev 等本地图像和语言模型，实现免费的图像生成。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.212Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月4·周三"
+    },
+    {
+      "id": "83a2cca1",
+      "title": "OpenAI 向 ChatGPT 免费用户开放记忆功能",
+      "content": "OpenAI宣布将ChatGPT的记忆功能向免费用户逐步开放。此前，该功能仅限于ChatGPT Plus和Pro等付费用户使用。免费用户可体验轻量版记忆功能，支持短期对话连续性，付费用户可引用更久远的对话记录。",
+      "originalContent": "OpenAI 向 ChatGPT 免费用户开放记忆功能 OpenAI宣布将ChatGPT的记忆功能向免费用户逐步开放。此前，该功能仅限于ChatGPT Plus和Pro等付费用户使用。免费用户可体验轻量版记忆功能，支持短期对话连续性，付费用户可引用更久远的对话记录。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.212Z",
+      "category": "综合资讯",
+      "tags": [
+        "GPT",
+        "开源",
+        "AI工具"
+      ],
+      "dateText": "6月4·周三"
+    },
+    {
+      "id": "7a922626",
+      "title": "中国首个房地产垂直领域AI Agent：CRIC深度智联",
+      "content": "克而瑞推出中国首个房地产垂直领域AI Agent “CRIC深度智联”。基于克而瑞20年行业经验与海量数据，结合多模态大模型技术，为房地产行业提供智能化解决方案。CRIC深度智联助力房地产从业者提升工作效率与决策质量，被誉为地产人的“第二大脑”。",
+      "originalContent": "中国首个房地产垂直领域AI Agent：CRIC深度智联 克而瑞推出中国首个房地产垂直领域AI Agent “CRIC深度智联”。基于克而瑞20年行业经验与海量数据，结合多模态大模型技术，为房地产行业提供智能化解决方案。CRIC深度智联助力房地产从业者提升工作效率与决策质量，被誉为地产人的“第二大脑”。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-04T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.212Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月4·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:17.999Z"
+  "updateTime": "2025-07-09T10:29:02.475Z"
 }

@@ -1,25 +1,7 @@
 {
   "date": "2025-03-25",
-  "count": 12,
+  "count": 10,
   "data": [
-    {
-      "id": "5318f5ef",
-      "title": "谷歌发布Gemini 2.5 Pro，多项测试夺冠，推理能力全面超越OpenAI",
-      "content": "谷歌发布Gemini 2.5 Pro，是Gemini 2.5思考模型家族的首个成员。模型在多项基准测试中表现卓越，以1443分在大模型竞技场获断层第一，领先优势达39分，全面超越OpenAI o3-mini等多款知名模型。在“人类最后考试”中，得分较OpenAI o3-mini提升近5%，提升比例达34%。Gemini 2.5 Pro支持100万tokens上下文窗口。",
-      "originalContent": "谷歌发布Gemini 2.5 Pro，多项测试夺冠，推理能力全面超越OpenAI 谷歌发布Gemini 2.5 Pro，是Gemini 2.5思考模型家族的首个成员。模型在多项基准测试中表现卓越，以1443分在大模型竞技场获断层第一，领先优势达39分，全面超越OpenAI o3-mini等多款知名模型。在“人类最后考试”中，得分较OpenAI o3-mini提升近5%，提升比例达34%。Gemini 2.5 Pro支持100万tokens上下文窗口。",
-      "source": "智东西",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.664Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "研究",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "3月26日·周三"
-    },
     {
       "id": "f01dfcef",
       "title": "谷歌发布Gemini 2.5 Pro，是Gemini 2.5思考模型家族的首个成员。模型在多项基准测试中表现卓越，以1443分在大模型竞技场获断层第一，领先优势达39分，全面超越OpenAI o3-mini等多款知名模型。在“人类最后考试”中，得分较OpenAI o3-mini提升近5%，提升比例达34%。Gemini 2.5 Pro支持100万tokens上下文窗口。来源：智东西",
@@ -39,24 +21,6 @@
       "dateText": "3月26日"
     },
     {
-      "id": "23e8e946",
-      "title": "昆仑万维发布全球首款音乐推理大模型Mureka O1，中国AI音乐革命领跑全球",
-      "content": "昆仑万维正式发布全球首款音乐推理大模型Mureka O1。模型基于Mureka V6升级，首次引入思维链（CoT）技术，显著提升音乐创作效率与品质。涵盖多种风格与情感表达，具备歌曲参考和音色克隆等特色功能。性能超越Suno V4，登顶SOTA。",
-      "originalContent": "昆仑万维发布全球首款音乐推理大模型Mureka O1，中国AI音乐革命领跑全球 昆仑万维正式发布全球首款音乐推理大模型Mureka O1。模型基于Mureka V6升级，首次引入思维链（CoT）技术，显著提升音乐创作效率与品质。涵盖多种风格与情感表达，具备歌曲参考和音色克隆等特色功能。性能超越Suno V4，登顶SOTA。",
-      "source": "昆仑万维集团",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.664Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "3月26日·周三"
-    },
-    {
       "id": "15e694c3",
       "title": "昆仑万维正式发布全球首款音乐推理大模型Mureka O1。模型基于Mureka V6升级，首次引入思维链（CoT）技术，显著提升音乐创作效率与品质。涵盖多种风格与情感表达，具备歌曲参考和音色克隆等特色功能。性能超越Suno V4，登顶SOTA。来源：昆仑万维集团",
       "content": "瑞典AI初创公司Lovable，3个月收入达1.2亿，AI编程市场新奇迹",
@@ -73,22 +37,6 @@
         "AI工具"
       ],
       "dateText": "3月26日"
-    },
-    {
-      "id": "df814bc9",
-      "title": "瑞典AI初创公司Lovable，3个月收入达1.2亿，AI编程市场新奇迹",
-      "content": "由Anton Osika和Fabian Hedin创立的瑞典AI公司 Lovable，凭借AI驱动的Web应用开发平台，仅用3个月就实现了从0到1700万美元的年化收入增长。平台支持用户通过自然语言描述功能，AI自动生成可生产代码。是面向非技术人员的AI编程工具。用户留存率超85%，网站月访问量达1000万次。",
-      "originalContent": "瑞典AI初创公司Lovable，3个月收入达1.2亿，AI编程市场新奇迹 由Anton Osika和Fabian Hedin创立的瑞典AI公司 Lovable，凭借AI驱动的Web应用开发平台，仅用3个月就实现了从0到1700万美元的年化收入增长。平台支持用户通过自然语言描述功能，AI自动生成可生产代码。是面向非技术人员的AI编程工具。用户留存率超85%，网站月访问量达1000万次。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.664Z",
-      "category": "开源项目",
-      "tags": [
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "3月26日·周三"
     },
     {
       "id": "69916375",
@@ -110,25 +58,6 @@
       "dateText": "3月26日"
     },
     {
-      "id": "8d917acb",
-      "title": "OpenAI发布GPT-4o图像生成功能，免费向用户开放",
-      "content": "OpenAI宣布在GPT-4o模型中集成先进图像生成功能，用户可通过自然语言指令生成和编辑图像。新功能支持多轮对话优化图像，保持内容一致性，能处理10至20个物体的复杂指令，远超其他模型。支持文本渲染、风格转换和上下文关联生成。",
-      "originalContent": "OpenAI发布GPT-4o图像生成功能，免费向用户开放 OpenAI宣布在GPT-4o模型中集成先进图像生成功能，用户可通过自然语言指令生成和编辑图像。新功能支持多轮对话优化图像，保持内容一致性，能处理10至20个物体的复杂指令，远超其他模型。支持文本渲染、风格转换和上下文关联生成。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.665Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "开源",
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "3月26日·周三"
-    },
-    {
       "id": "b6c52073",
       "title": "OpenAI宣布在GPT-4o模型中集成先进图像生成功能，用户可通过自然语言指令生成和编辑图像。新功能支持多轮对话优化图像，保持内容一致性，能处理10至20个物体的复杂指令，远超其他模型。支持文本渲染、风格转换和上下文关联生成。来源：IT之家",
       "content": "它石智航官宣天使轮融资1.2亿美元，开启具身智能创业新征程",
@@ -146,23 +75,6 @@
         "机器人"
       ],
       "dateText": "3月26日"
-    },
-    {
-      "id": "11ad5d30",
-      "title": "它石智航官宣天使轮融资1.2亿美元，开启具身智能创业新征程",
-      "content": "具身智能初创公司它石智航（TARS）宣布完成1.2亿美元天使轮融资，创下中国具身智能行业天使轮最大融资额纪录。本轮融资由蓝驰创投、启明创投领投，线性资本等多家知名机构跟投。融资将用于产品研发、模型训练和场景拓展。",
-      "originalContent": "它石智航官宣天使轮融资1.2亿美元，开启具身智能创业新征程 具身智能初创公司它石智航（TARS）宣布完成1.2亿美元天使轮融资，创下中国具身智能行业天使轮最大融资额纪录。本轮融资由蓝驰创投、启明创投领投，线性资本等多家知名机构跟投。融资将用于产品研发、模型训练和场景拓展。",
-      "source": "它石智航",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.665Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "大模型",
-        "机器人"
-      ],
-      "dateText": "3月26日·周三"
     },
     {
       "id": "7d2d8fac",
@@ -184,22 +96,6 @@
       "dateText": "3月26日"
     },
     {
-      "id": "160f1ca0",
-      "title": "谷歌Gemini Live推出实时AI视频新功能，实时交互能力再升级",
-      "content": "谷歌在MWC上承诺的Project Astra与Gemini Live集成功能正式上线。Gemini Live新增屏幕共享功能，用户可通过“Share screen with Live”按钮让AI读取手机屏幕信息并回答问题。实时视频功能可让Gemini通过手机摄像头解读画面并即时回答相关问题。",
-      "originalContent": "谷歌Gemini Live推出实时AI视频新功能，实时交互能力再升级 谷歌在MWC上承诺的Project Astra与Gemini Live集成功能正式上线。Gemini Live新增屏幕共享功能，用户可通过“Share screen with Live”按钮让AI读取手机屏幕信息并回答问题。实时视频功能可让Gemini通过手机摄像头解读画面并即时回答相关问题。",
-      "source": "机器之心",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-25T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.665Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "3月26日·周三"
-    },
-    {
       "id": "b81c41df",
       "title": "谷歌在MWC上承诺的Project Astra与Gemini Live集成功能正式上线。Gemini Live新增屏幕共享功能，用户可通过“Share screen with Live”按钮让AI读取手机屏幕信息并回答问题。实时视频功能可让Gemini通过手机摄像头解读画面并即时回答相关问题。来源：机器之心",
       "content": "谷歌在MWC上承诺的Project Astra与Gemini Live集成功能正式上线。Gemini Live新增屏幕共享功能，用户可通过“Share screen with Live”按钮让AI读取手机屏幕信息并回答问题。实时视频功能可让Gemini通过手机摄像头解读画面并即时回答相关问题。来源：机器之心",
@@ -214,7 +110,75 @@
         "AI工具"
       ],
       "dateText": "3月26日"
+    },
+    {
+      "id": "21aa7920",
+      "title": "美团已开发内部大模型 LongCat，AI 策略是主动进攻",
+      "content": "美团CEO王兴在财报电话会议中表示，美团在人工智能领域采取“主动进攻”策略，定位为连接数字世界与物理世界的桥梁。美团已开发内部大语言模型LongCat，用于日常工作，推出AI编码、智能会议与文档助手等工具，将集成其他主流模型助力产品研发。",
+      "originalContent": "美团已开发内部大模型 LongCat，AI 策略是主动进攻 美团CEO王兴在财报电话会议中表示，美团在人工智能领域采取“主动进攻”策略，定位为连接数字世界与物理世界的桥梁。美团已开发内部大语言模型LongCat，用于日常工作，推出AI编码、智能会议与文档助手等工具，将集成其他主流模型助力产品研发。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.287Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "3月25日·周二"
+    },
+    {
+      "id": "e7435e14",
+      "title": "DeepSeek V3模型已完成小版本升级，可在官方网页、APP、小程序试用体验",
+      "content": "DeepSeek V3发布模型更新。此次更新属于小版本升级，模型参数量达6850亿，新版V3在编程能力上大幅提升，特别在前端编码方面，已接近Claude 3.7水平。用户测试显示，多轮对话的上下文理解能力也显著增强。开源版本已上架HuggingFace。",
+      "originalContent": "DeepSeek V3模型已完成小版本升级，可在官方网页、APP、小程序试用体验 DeepSeek V3发布模型更新。此次更新属于小版本升级，模型参数量达6850亿，新版V3在编程能力上大幅提升，特别在前端编码方面，已接近Claude 3.7水平。用户测试显示，多轮对话的上下文理解能力也显著增强。开源版本已上架HuggingFace。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.287Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "3月25日·周二"
+    },
+    {
+      "id": "e716598c",
+      "title": "Trae 支持配置 DeepSeek V3 最新版",
+      "content": "Trae宣布支持配置DeepSeek V3最新版（DeepSeek-V3–0324）。Trae是国内首个AI原生IDE，专注于中文开发场景，支持自定义模型接入。DeepSeek-V3–0324拥有6850亿参数，是基于DeepSeek V3的小版本升级。开发者可通过简单配置接入该模型，提升编程体验。",
+      "originalContent": "Trae 支持配置 DeepSeek V3 最新版 Trae宣布支持配置DeepSeek V3最新版（DeepSeek-V3–0324）。Trae是国内首个AI原生IDE，专注于中文开发场景，支持自定义模型接入。DeepSeek-V3–0324拥有6850亿参数，是基于DeepSeek V3的小版本升级。开发者可通过简单配置接入该模型，提升编程体验。",
+      "source": "Trae&MarsCode",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.287Z",
+      "category": "产品发布",
+      "tags": [
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月25日·周二"
+    },
+    {
+      "id": "333004fb",
+      "title": "阿里开源Qwen2.5-VL-32B多模态模型，视觉语言与数学推理能力显著增强",
+      "content": "阿里开源了最新多模态模型 Qwen2.5-VL-32B-Instruct，参数量 32B，主打视觉语言，兼顾性能与尺寸，适合本地部署。模型经强化学习优化，在数学推理、图像解析等任务中表现出色，超越更大规模的 72B 模型。在多模态任务及纯文本能力上均达同规模最优表现。",
+      "originalContent": "阿里开源Qwen2.5-VL-32B多模态模型，视觉语言与数学推理能力显著增强 阿里开源了最新多模态模型 Qwen2.5-VL-32B-Instruct，参数量 32B，主打视觉语言，兼顾性能与尺寸，适合本地部署。模型经强化学习优化，在数学推理、图像解析等任务中表现出色，超越更大规模的 72B 模型。在多模态任务及纯文本能力上均达同规模最优表现。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-25T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.287Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型"
+      ],
+      "dateText": "3月25日·周二"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.043Z"
+  "updateTime": "2025-07-09T10:29:02.486Z"
 }

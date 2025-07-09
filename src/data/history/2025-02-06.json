@@ -1,23 +1,7 @@
 {
   "date": "2025-02-06",
-  "count": 12,
+  "count": 11,
   "data": [
-    {
-      "id": "44816316",
-      "title": "OpenAI 更新 o3-mini 模型思维链展示方式，提高 AI 推理透明度",
-      "content": "OpenAI宣布公开o3-mini模型的推理思维链，免费和付费用户可查看其思维过程。部分人质疑公开的思维链是否为原始数据，因为展示速度较慢且字符数量与原始版本存在差异。OpenAI发言人确认公开的思维链经过后处理，消除不安全内容、简化复杂想法，为非英语用户提供更好的体验。",
-      "originalContent": "OpenAI 更新 o3-mini 模型思维链展示方式，提高 AI 推理透明度 OpenAI宣布公开o3-mini模型的推理思维链，免费和付费用户可查看其思维过程。部分人质疑公开的思维链是否为原始数据，因为展示速度较慢且字符数量与原始版本存在差异。OpenAI发言人确认公开的思维链经过后处理，消除不安全内容、简化复杂想法，为非英语用户提供更好的体验。",
-      "source": "量子位",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.736Z",
-      "category": "产品发布",
-      "tags": [
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "2月7日·周五"
-    },
     {
       "id": "7ebe8c04",
       "title": "OpenAI宣布公开o3-mini模型的推理思维链，免费和付费用户可查看其思维过程。部分人质疑公开的思维链是否为原始数据，因为展示速度较慢且字符数量与原始版本存在差异。OpenAI发言人确认公开的思维链经过后处理，消除不安全内容、简化复杂想法，为非英语用户提供更好的体验。来源：量子位",
@@ -36,22 +20,6 @@
       "dateText": "2月7日"
     },
     {
-      "id": "c8fbbf7a",
-      "title": "欧洲的 OpenAI，Mistral AI 推出 iOS 和 安卓APP",
-      "content": "Mistral AI发布客户端Le Chat，推出iOS和Android版本。支持实时网络搜索、文档分析、图像生成等功能，提供企业级解决方案，包括代码解释器、OCR和文档处理等。",
-      "originalContent": "欧洲的 OpenAI，Mistral AI 推出 iOS 和 安卓APP Mistral AI发布客户端Le Chat，推出iOS和Android版本。支持实时网络搜索、文档分析、图像生成等功能，提供企业级解决方案，包括代码解释器、OCR和文档处理等。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.736Z",
-      "category": "开源项目",
-      "tags": [
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "2月7日·周五"
-    },
-    {
       "id": "992f73ab",
       "title": "Mistral AI发布客户端Le Chat，推出iOS和Android版本。支持实时网络搜索、文档分析、图像生成等功能，提供企业级解决方案，包括代码解释器、OCR和文档处理等。来源：AI工具集",
       "content": "《麻省理工科技评论》点评中国AI“四剑客”，每家都媲美DeepSeek",
@@ -66,24 +34,6 @@
         "AI工具"
       ],
       "dateText": "2月7日"
-    },
-    {
-      "id": "06a97952",
-      "title": "《麻省理工科技评论》点评中国AI“四剑客”，每家都媲美DeepSeek",
-      "content": "DeepSeek凭借低训练成本和高性能的开源模型引发全球关注。《麻省理工科技评论》指出，除DeepSeek外，中国还有四家AI初创公司展现出强大的技术实力，包括阶跃星辰、面壁智能、智谱AI和无问芯穹。分别在基础模型、端侧模型、多模态AI以及AI基础设施领域取得了显著成就，展现了与DeepSeek媲美的竞争力。",
-      "originalContent": "《麻省理工科技评论》点评中国AI“四剑客”，每家都媲美DeepSeek DeepSeek凭借低训练成本和高性能的开源模型引发全球关注。《麻省理工科技评论》指出，除DeepSeek外，中国还有四家AI初创公司展现出强大的技术实力，包括阶跃星辰、面壁智能、智谱AI和无问芯穹。分别在基础模型、端侧模型、多模态AI以及AI基础设施领域取得了显著成就，展现了与DeepSeek媲美的竞争力。",
-      "source": "机器之心",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.737Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "2月7日·周五"
     },
     {
       "id": "6e8f5934",
@@ -104,22 +54,6 @@
       "dateText": "2月7日"
     },
     {
-      "id": "e26a9569",
-      "title": "谷歌 Magic Editor 集成 SynthID，“火眼金睛”识别 AI 造假",
-      "content": "为应对 AI 生成内容带来的虚假信息风险，谷歌将 SynthID 水印技术集成到图像编辑工具 Magic Editor 中。本周使用 Magic Editor 的 AI 生成编辑图像将在 Google Photos 中被 SynthID 标记，部分细微编辑可能无法被检测到。技术通过嵌入数字水印标记内容，不影响视觉质量。",
-      "originalContent": "谷歌 Magic Editor 集成 SynthID，“火眼金睛”识别 AI 造假 为应对 AI 生成内容带来的虚假信息风险，谷歌将 SynthID 水印技术集成到图像编辑工具 Magic Editor 中。本周使用 Magic Editor 的 AI 生成编辑图像将在 Google Photos 中被 SynthID 标记，部分细微编辑可能无法被检测到。技术通过嵌入数字水印标记内容，不影响视觉质量。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.737Z",
-      "category": "综合资讯",
-      "tags": [
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "2月7日·周五"
-    },
-    {
       "id": "fc96f0cc",
       "title": "为应对 AI 生成内容带来的虚假信息风险，谷歌将 SynthID 水印技术集成到图像编辑工具 Magic Editor 中。本周使用 Magic Editor 的 AI 生成编辑图像将在 Google Photos 中被 SynthID 标记，部分细微编辑可能无法被检测到。技术通过嵌入数字水印标记内容，不影响视觉质量。来源：IT之家",
       "content": "OpenAI 与加州州立大学达成迄今最大的AI教育合作",
@@ -135,24 +69,6 @@
         "AI工具"
       ],
       "dateText": "2月7日"
-    },
-    {
-      "id": "670d672b",
-      "title": "OpenAI 与加州州立大学达成迄今最大的AI教育合作",
-      "content": "OpenAI宣布将在加州州立大学23个校区推出ChatGPT，覆盖46万名学生和6.3万名教职员工。是OpenAI在美国高等教育领域的最大规模部署，为学生提供个性化辅导和学习指南，同时帮助教师完成行政工作。",
-      "originalContent": "OpenAI 与加州州立大学达成迄今最大的AI教育合作 OpenAI宣布将在加州州立大学23个校区推出ChatGPT，覆盖46万名学生和6.3万名教职员工。是OpenAI在美国高等教育领域的最大规模部署，为学生提供个性化辅导和学习指南，同时帮助教师完成行政工作。",
-      "source": "36氪",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.737Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "发布",
-        "合作",
-        "AI工具"
-      ],
-      "dateText": "2月7日·周五"
     },
     {
       "id": "240d89b6",
@@ -188,21 +104,89 @@
       "dateText": "2月7日"
     },
     {
-      "id": "f957f745",
-      "title": "DeepSeek声明：社交平台仅三个账号，一切声称与官方群组有关收费行为均系假冒",
-      "content": "DeepSeek官方发布声明：近期，DeepSeek发现部分仿冒账号和不实信息误导公众，DeepSeek的官方账号仅包括微信公众号“DeepSeek”、小红书“@DeepSeek（deepseek_ai）”和X（Twitter）“DeepSeek (@deepseek_ai)”。除这些账号外，其他任何声称与DeepSeek相关的信息均为假冒。",
-      "originalContent": "DeepSeek声明：社交平台仅三个账号，一切声称与官方群组有关收费行为均系假冒 DeepSeek官方发布声明：近期，DeepSeek发现部分仿冒账号和不实信息误导公众，DeepSeek的官方账号仅包括微信公众号“DeepSeek”、小红书“@DeepSeek（deepseek_ai）”和X（Twitter）“DeepSeek (@deepseek_ai)”。除这些账号外，其他任何声称与DeepSeek相关的信息均为假冒。",
-      "source": "DeepSeek",
+      "id": "dbc36984",
+      "title": "OpenAI 放大招：ChatGPT 搜索功能无需注册人人可用，分钟级别解析全网信息",
+      "content": "OpenAI 宣布 ChatGPT 搜索功能无需登录账户即可使用，用户可直接获取基于实时网络信息生成的答案，查看信息来源清单。与传统搜索引擎相比，ChatGPT 搜索可实现分钟级解析网络信息，能查看地图和本地景点图片，结果更具可信度和实用性。",
+      "originalContent": "OpenAI 放大招：ChatGPT 搜索功能无需注册人人可用，分钟级别解析全网信息 OpenAI 宣布 ChatGPT 搜索功能无需登录账户即可使用，用户可直接获取基于实时网络信息生成的答案，查看信息来源清单。与传统搜索引擎相比，ChatGPT 搜索可实现分钟级解析网络信息，能查看地图和本地景点图片，结果更具可信度和实用性。",
+      "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-06T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.738Z",
+      "publishTime": "2025-02-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.326Z",
+      "category": "综合资讯",
+      "tags": [
+        "GPT",
+        "AI工具"
+      ],
+      "dateText": "2月6日·周四"
+    },
+    {
+      "id": "06be94c2",
+      "title": "谷歌发布Gemini 2.0 Pro，全型号刷榜，原生多模态，编程、物理模拟能力炸裂",
+      "content": "谷歌发布 Gemini 2.0 系列模型，包括 Gemini 2.0 Pro、2.0 Flash 和 2.0 Flash-Lite。2.0 Pro 是谷歌最强的编码和复杂提示处理模型，配备 200 万 token 上下文窗口，支持谷歌搜索和代码执行工具。2.0 Flash 是高效主力模型，支持 100 万 token 上下文和多模态输入，适合高容量任务。2.0 Flash-Lite 是最具性价比的模型，性能优于前代 1.5 Flash，成本更低。",
+      "originalContent": "谷歌发布Gemini 2.0 Pro，全型号刷榜，原生多模态，编程、物理模拟能力炸裂 谷歌发布 Gemini 2.0 系列模型，包括 Gemini 2.0 Pro、2.0 Flash 和 2.0 Flash-Lite。2.0 Pro 是谷歌最强的编码和复杂提示处理模型，配备 200 万 token 上下文窗口，支持谷歌搜索和代码执行工具。2.0 Flash 是高效主力模型，支持 100 万 token 上下文和多模态输入，适合高容量任务。2.0 Flash-Lite 是最具性价比的模型，性能优于前代 1.5 Flash，成本更低。",
+      "source": "Founder Park",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.327Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月6日·周四"
+    },
+    {
+      "id": "a543f792",
+      "title": "前追觅中国区执行总裁郭人杰创业，「乐享科技」宣布完成近2亿元天使轮融资",
+      "content": "前追觅中国区执行总裁郭人杰创立的「乐享科技」宣布完成近 2 亿元人民币的天使轮融资，由 IDG 资本领投，Monolith、经纬创投、真格基金等跟投，投后估值约 6 亿元。乐享科技成立于 2024 年，定位为全球科技公司，专注于 AI + 消费硬件市场，首款面向家庭场景的产品正在研发中。",
+      "originalContent": "前追觅中国区执行总裁郭人杰创业，「乐享科技」宣布完成近2亿元天使轮融资 前追觅中国区执行总裁郭人杰创立的「乐享科技」宣布完成近 2 亿元人民币的天使轮融资，由 IDG 资本领投，Monolith、经纬创投、真格基金等跟投，投后估值约 6 亿元。乐享科技成立于 2024 年，定位为全球科技公司，专注于 AI + 消费硬件市场，首款面向家庭场景的产品正在研发中。",
+      "source": "36氪",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.327Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "2月6日·周四"
+    },
+    {
+      "id": "e8485154",
+      "title": "训练成本不到 50 美元，研究人员打造出媲美 OpenAI o1 的推理模型",
+      "content": "斯坦福大学和华盛顿大学的研究人员仅花费不到50美元的云计算费用，训练出s1人工智能推理模型。模型在数学和编程能力测试中表现与OpenAI的o1和DeepSeek的r1等顶尖模型相当。s1通过“蒸馏”技术从谷歌的Gemini 2.0 Flash Thinking Experimental模型中提取推理能力，使用监督微调方法，耗时不到30分钟。",
+      "originalContent": "训练成本不到 50 美元，研究人员打造出媲美 OpenAI o1 的推理模型 斯坦福大学和华盛顿大学的研究人员仅花费不到50美元的云计算费用，训练出s1人工智能推理模型。模型在数学和编程能力测试中表现与OpenAI的o1和DeepSeek的r1等顶尖模型相当。s1通过“蒸馏”技术从谷歌的Gemini 2.0 Flash Thinking Experimental模型中提取推理能力，使用监督微调方法，耗时不到30分钟。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.328Z",
+      "category": "技术研究",
+      "tags": [
+        "研究",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月6日·周四"
+    },
+    {
+      "id": "54152627",
+      "title": "字节跳动推出 OmniHuman 多模态框架：图片+音频 = 逼真动画",
+      "content": "字节跳动提出OmniHuman，基于扩散变换器的高保真人类视频生成框架。模型通过单阶段的音频和姿态驱动，能生成高质量的人类视频内容。支持文本、音频、姿态等多种输入信号，可生成从面部特写到全身的各种视频，适应不同风格。",
+      "originalContent": "字节跳动推出 OmniHuman 多模态框架：图片+音频 = 逼真动画 字节跳动提出OmniHuman，基于扩散变换器的高保真人类视频生成框架。模型通过单阶段的音频和姿态驱动，能生成高质量的人类视频内容。支持文本、音频、姿态等多种输入信号，可生成从面部特写到全身的各种视频，适应不同风格。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-06T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.327Z",
       "category": "产品发布",
       "tags": [
         "发布",
+        "大模型",
         "技术"
       ],
-      "dateText": "2月7日·周五"
+      "dateText": "2月6日·周四"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.069Z"
+  "updateTime": "2025-07-09T10:29:02.492Z"
 }

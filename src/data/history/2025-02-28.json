@@ -1,0 +1,97 @@
+{
+  "date": "2025-02-28",
+  "count": 5,
+  "data": [
+    {
+      "id": "b5435c51",
+      "title": "OpenAI发布GPT-4.5：更智能、更具情商的聊天模型",
+      "content": "OpenAI推出GPT-4.5，作为最强聊天模型的研究预览版本，目前仅对Pro用户和开发者开放。GPT-4.5通过扩大无监督学习，提升了模式识别、知识广度和创造力，减少了幻觉现象，对话更自然。在写作、编程和解决问题上表现出色，具备更高情商，能更好地理解人类意图。",
+      "originalContent": "OpenAI发布GPT-4.5：更智能、更具情商的聊天模型 OpenAI推出GPT-4.5，作为最强聊天模型的研究预览版本，目前仅对Pro用户和开发者开放。GPT-4.5通过扩大无监督学习，提升了模式识别、知识广度和创造力，减少了幻觉现象，对话更自然。在写作、编程和解决问题上表现出色，具备更高情商，能更好地理解人类意图。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-28T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.309Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "2月28日·周五"
+    },
+    {
+      "id": "c7420a8a",
+      "title": "百度文心大模型4.5，3月16日正式上线",
+      "content": "百度宣布文心大模型4.5将于3月16日正式上线。两年前的同一天，百度发布了全球首个生成式AI产品——文心一言。此次升级后的文心大模型4.5在基础模型能力上大幅提升，新增原生多模态和深度思考能力。",
+      "originalContent": "百度文心大模型4.5，3月16日正式上线 百度宣布文心大模型4.5将于3月16日正式上线。两年前的同一天，百度发布了全球首个生成式AI产品——文心一言。此次升级后的文心大模型4.5在基础模型能力上大幅提升，新增原生多模态和深度思考能力。",
+      "source": "百度",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-28T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.310Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月28日·周五"
+    },
+    {
+      "id": "924d17a5",
+      "title": "荣耀、阿里在 AI 领域达成合作：千问、万相等多个模型已接入 YOYO 智能体",
+      "content": "百荣耀宣布与阿里在AI领域达成合作，千问（Qwen）和万相（Wan）等多款语言、视觉理解及图像生成模型已接入荣耀YOYO智能体。用户可通过Magic7系列手机体验相关AI功能。YOYO助理已上线DeepSeek-R1满血版，支持深度思考模式，答案更精准、及时。",
+      "originalContent": "荣耀、阿里在 AI 领域达成合作：千问、万相等多个模型已接入 YOYO 智能体 百荣耀宣布与阿里在AI领域达成合作，千问（Qwen）和万相（Wan）等多款语言、视觉理解及图像生成模型已接入荣耀YOYO智能体。用户可通过Magic7系列手机体验相关AI功能。YOYO助理已上线DeepSeek-R1满血版，支持深度思考模式，答案更精准、及时。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-28T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.310Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "2月28日·周五"
+    },
+    {
+      "id": "c9baa034",
+      "title": "Trae已全量支持Claude 3.7！免费！",
+      "content": "Trae v1.0.8版本正式发布，新增对Claude 3.7 Sonnet模型的全量支持，为用户提供更强大的AI生成能力。资源有限，响应可能延迟，服务目前免费，用户可体验更高效、智能的AI功能。",
+      "originalContent": "Trae已全量支持Claude 3.7！免费！ Trae v1.0.8版本正式发布，新增对Claude 3.7 Sonnet模型的全量支持，为用户提供更强大的AI生成能力。资源有限，响应可能延迟，服务目前免费，用户可体验更高效、智能的AI功能。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-28T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.309Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "2月28日·周五"
+    },
+    {
+      "id": "cf613e8c",
+      "title": "DeepSeek开源高性能并行文件系统 3FS 实现聚合吞吐 6.6 TiB/s",
+      "content": "DeepSeek在开源周最后一天发布了Fire-Flyer File System（3FS）和Smallpond数据处理框架。3FS是一种高性能并行文件系统，专为AI训练和推理设计，支持大规模集群的高吞吐量数据访问，峰值读取吞吐量达6.6 TiB/s。Smallpond基于3FS和DuckDB构建，支持高效数据处理，可扩展至PB级数据集。",
+      "originalContent": "DeepSeek开源高性能并行文件系统 3FS 实现聚合吞吐 6.6 TiB/s DeepSeek在开源周最后一天发布了Fire-Flyer File System（3FS）和Smallpond数据处理框架。3FS是一种高性能并行文件系统，专为AI训练和推理设计，支持大规模集群的高吞吐量数据访问，峰值读取吞吐量达6.6 TiB/s。Smallpond基于3FS和DuckDB构建，支持高效数据处理，可扩展至PB级数据集。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-28T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.309Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月28日·周五"
+    }
+  ],
+  "updateTime": "2025-07-09T10:29:02.489Z"
+}

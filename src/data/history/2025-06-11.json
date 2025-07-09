@@ -1,160 +1,113 @@
 {
   "date": "2025-06-11",
-  "count": 9,
+  "count": 6,
   "data": [
     {
-      "id": "11447e2f",
-      "title": "Meta 推出基于视频训练的世界模型 V-JEPA 2",
-      "content": "Meta推出基于视频训练的世界模型V-JEPA 2，由首席AI科学家Yann LeCun介绍。模型拥有12亿参数，基于联合嵌入预测架构（JEPA）构建，具备先进的环境理解与预测能力，能在新环境中完成零样本规划与机器人控制。V-JEPA 2通过自监督学习训练，无需人工注释，可用于辅助技术、混合现实指导、个性化教育等领域。",
-      "originalContent": "Meta 推出基于视频训练的世界模型 V-JEPA 2 Meta推出基于视频训练的世界模型V-JEPA 2，由首席AI科学家Yann LeCun介绍。模型拥有12亿参数，基于联合嵌入预测架构（JEPA）构建，具备先进的环境理解与预测能力，能在新环境中完成零样本规划与机器人控制。V-JEPA 2通过自监督学习训练，无需人工注释，可用于辅助技术、混合现实指导、个性化教育等领域。",
-      "source": "机器之心",
+      "id": "e20fa0d8",
+      "title": "Mistral 推出推理模型 Magistral 系列，Small 版已开源",
+      "content": "法国AI实验室Mistral推出推理模型Magistral系列，包含Magistral Small和Magistral Medium两个版本。Magistral Small拥有240亿参数，已在Hugging Face平台开源；Magistral Medium能力更强，处于预览阶段，仅在特定平台提供。",
+      "originalContent": "Mistral 推出推理模型 Magistral 系列，Small 版已开源 法国AI实验室Mistral推出推理模型Magistral系列，包含Magistral Small和Magistral Medium两个版本。Magistral Small拥有240亿参数，已在Hugging Face平台开源；Magistral Medium能力更强，处于预览阶段，仅在特定平台提供。",
+      "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-11T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.487Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "合作",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "6月12·周四"
-    },
-    {
-      "id": "8ac58f46",
-      "title": "Tolan已在全球获得超 500 万次下载，ARR超 400 万美元",
-      "content": "AI陪伴应用Tolan凭借独特外星人形象和情感互动模式，获得超500万下载量，ARR达400万美元。Tolan由西雅图初创公司Portola开发，主打与外星生物“交朋友”，通过语音交互、情绪回应和个性成长机制，为用户提供温暖陪伴。",
-      "originalContent": "Tolan已在全球获得超 500 万次下载，ARR超 400 万美元 AI陪伴应用Tolan凭借独特外星人形象和情感互动模式，获得超500万下载量，ARR达400万美元。Tolan由西雅图初创公司Portola开发，主打与外星生物“交朋友”，通过语音交互、情绪回应和个性成长机制，为用户提供温暖陪伴。",
-      "source": "极客公园",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-11T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.493Z",
-      "category": "综合资讯",
-      "tags": [
-        "AI工具"
-      ],
-      "dateText": "6月12·周四"
-    },
-    {
-      "id": "5463b0a9",
-      "title": "Manus推出聊天模式，免费向所有用户开放",
-      "content": "Manus 上线 chat 模式，用户可以在Manus中免费使用 chat 模式，为了解决用户在和 Agent 交互过程中需求不明确或者很多需求不需要 Agent 的问题。覆盖日常咨询、知识查询等场景，可无缝切换至代理模式。",
-      "originalContent": "Manus推出聊天模式，免费向所有用户开放 Manus 上线 chat 模式，用户可以在Manus中免费使用 chat 模式，为了解决用户在和 Agent 交互过程中需求不明确或者很多需求不需要 Agent 的问题。覆盖日常咨询、知识查询等场景，可无缝切换至代理模式。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-11T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.488Z",
-      "category": "产品发布",
+      "publishTime": "2025-06-11T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.203Z",
+      "category": "开源项目",
       "tags": [
         "开源",
         "发布",
-        "智能体"
-      ],
-      "dateText": "6月12·周四"
-    },
-    {
-      "id": "7cd590a0",
-      "title": "知乎知名答主夕小瑶团队推出全球首个A2A范式Agent——Teamo",
-      "content": "知乎知名答主夕小瑶团队推出全球首个A2A范式Agent——Teamo。产品定位为知识工作者的超级Agent，采用Agent-to-Agent（A2A）范式，由“Teamo队长”统一指挥，各领域专业Agent协同工作，模拟真实团队作业。",
-      "originalContent": "知乎知名答主夕小瑶团队推出全球首个A2A范式Agent——Teamo 知乎知名答主夕小瑶团队推出全球首个A2A范式Agent——Teamo。产品定位为知识工作者的超级Agent，采用Agent-to-Agent（A2A）范式，由“Teamo队长”统一指挥，各领域专业Agent协同工作，模拟真实团队作业。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-11T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.490Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "智能体"
-      ],
-      "dateText": "6月12·周四"
-    },
-    {
-      "id": "307bfc0b",
-      "title": "普林复旦打造历史研究场景的AI助手——HistAgent",
-      "content": "普林斯顿大学与复旦大学联合推出全球首个历史领域AI评测基准HistBench及AI历史助手HistAgent。HistAgent集成文献检索、OCR识别、多语言翻译等工具，专为历史研究优化，在HistBench测试中表现远超现有模型。",
-      "originalContent": "普林复旦打造历史研究场景的AI助手——HistAgent 普林斯顿大学与复旦大学联合推出全球首个历史领域AI评测基准HistBench及AI历史助手HistAgent。HistAgent集成文献检索、OCR识别、多语言翻译等工具，专为历史研究优化，在HistBench测试中表现远超现有模型。",
-      "source": "36氪",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-11T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.490Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "合作",
         "研究",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "6月11·周三"
+    },
+    {
+      "id": "a039a07c",
+      "title": "OpenAI 发布 o3-pro升级版推理模型，支持调用ChatGPT全套工具",
+      "content": "OpenAI发布o3-pro模型，替代o1-pro向Pro和Team用户开放。o3-pro是推理模型o3的升级版，处理复杂问题、精准回答能力更强，支持调用ChatGPT全套工具，响应速度稍慢，适合对答案准确性要求高的场景。o3-pro在表达清晰度、答案完整性等方面优于o3。",
+      "originalContent": "OpenAI 发布 o3-pro升级版推理模型，支持调用ChatGPT全套工具 OpenAI发布o3-pro模型，替代o1-pro向Pro和Team用户开放。o3-pro是推理模型o3的升级版，处理复杂问题、精准回答能力更强，支持调用ChatGPT全套工具，响应速度稍慢，适合对答案准确性要求高的场景。o3-pro在表达清晰度、答案完整性等方面优于o3。",
+      "source": "APPSO",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-11T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.202Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
         "大模型",
         "AI工具"
       ],
-      "dateText": "6月12·周四"
+      "dateText": "6月11·周三"
     },
     {
-      "id": "984932ff",
-      "title": "英伟达、三星联手投资 AI 机器人公司 Skild AI，估值达 45 亿美元",
-      "content": "英伟达和三星电子将联手投资AI机器人创业公司Skild AI，分别投资2500万美元和1000万美元。Skild AI专注于机器人软件开发，此次投资属于其B轮融资的一部分，公司估值约45亿美元，软银集团领投1亿美元。英伟达正推广“实体AI”概念，认为其将成为重要收入来源；三星则希望通过投资保持对Skild及其人才的了解。",
-      "originalContent": "英伟达、三星联手投资 AI 机器人公司 Skild AI，估值达 45 亿美元 英伟达和三星电子将联手投资AI机器人创业公司Skild AI，分别投资2500万美元和1000万美元。Skild AI专注于机器人软件开发，此次投资属于其B轮融资的一部分，公司估值约45亿美元，软银集团领投1亿美元。英伟达正推广“实体AI”概念，认为其将成为重要收入来源；三星则希望通过投资保持对Skild及其人才的了解。",
-      "source": "IT之家",
+      "id": "bf4937fd",
+      "title": "字节跳动推出豆包大模型 1.6，使用成本降至三分之一",
+      "content": "在火山引擎Force原动力大会上，字节跳动宣布豆包大模型升级至1.6版，推理、数学、指令遵循等能力大幅提升，达到全球第一梯队水平。豆包 1.6 系列模型支持多模态理解和图形界面操作，能理解和处理真实世界问题。",
+      "originalContent": "字节跳动推出豆包大模型 1.6，使用成本降至三分之一 在火山引擎Force原动力大会上，字节跳动宣布豆包大模型升级至1.6版，推理、数学、指令遵循等能力大幅提升，达到全球第一梯队水平。豆包 1.6 系列模型支持多模态理解和图形界面操作，能理解和处理真实世界问题。",
+      "source": "字节跳动",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-11T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.491Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "AI工具",
-        "机器人"
-      ],
-      "dateText": "6月12·周四"
-    },
-    {
-      "id": "27e736d2",
-      "title": "上海市委网信办指导小红书、B站、拼多多等平台清理违规 AI 产品及信息",
-      "content": "上海市委网信办自4月下旬起开展“清朗・整治AI技术滥用”专项行动，聚焦6类突出问题。指导小红书、哔哩哔哩、拼多多等15家重点网站平台，清理“一键脱衣”、未经授权的人脸或人声克隆编辑等违规AI产品及相关信息。",
-      "originalContent": "上海市委网信办指导小红书、B站、拼多多等平台清理违规 AI 产品及信息 上海市委网信办自4月下旬起开展“清朗・整治AI技术滥用”专项行动，聚焦6类突出问题。指导小红书、哔哩哔哩、拼多多等15家重点网站平台，清理“一键脱衣”、未经授权的人脸或人声克隆编辑等违规AI产品及相关信息。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-11T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.491Z",
-      "category": "综合资讯",
-      "tags": [
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "6月12·周四"
-    },
-    {
-      "id": "d00601ea",
-      "title": "夸克发布行业首个高考志愿大模型",
-      "content": "夸克APP发布行业首个高考志愿大模型，为考生提供全新高考志愿服务。模型推出全新专业的高考知识库，通过【夸克搜索】可提供专业、准确的大学、专业查询及志愿问题解答。",
-      "originalContent": "夸克发布行业首个高考志愿大模型 夸克APP发布行业首个高考志愿大模型，为考生提供全新高考志愿服务。模型推出全新专业的高考知识库，通过【夸克搜索】可提供专业、准确的大学、专业查询及志愿问题解答。",
-      "source": "夸克APP",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-11T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.492Z",
+      "publishTime": "2025-06-11T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.202Z",
       "category": "产品发布",
       "tags": [
         "发布",
         "大模型"
       ],
-      "dateText": "6月12·周四"
+      "dateText": "6月11·周三"
     },
     {
-      "id": "eb7d14fb",
-      "title": "全球AI开源贡献榜出炉，阿里千问跻身全球前五、中国第一",
-      "content": "全球最大的AI开源社区Hugging Face发布最新AI开源贡献榜，阿里通义千问跻身全球第五、中国第一，DeepSeek位列第九，是前十中唯二的非美国机构。榜单考察开源模型、数据集、开发者关注度、社区活跃度及全球影响力等指标。",
-      "originalContent": "全球AI开源贡献榜出炉，阿里千问跻身全球前五、中国第一 全球最大的AI开源社区Hugging Face发布最新AI开源贡献榜，阿里通义千问跻身全球第五、中国第一，DeepSeek位列第九，是前十中唯二的非美国机构。榜单考察开源模型、数据集、开发者关注度、社区活跃度及全球影响力等指标。",
-      "source": "网易",
+      "id": "2526743d",
+      "title": "Genspark公司推出创新性 Genspark AI 浏览器",
+      "content": "Genspark公司推出创新性人工智能浏览器——Genspark AI Browser。内置智能助手，可帮助用户查找更优交易、比较产品、分析评论，辅助决策。“自动驾驶模式”能自动浏览信息源、收集资料、访问高级数据库，完成复杂网页任务。支持MCP连接700多种工具，实现工作流程自动化，具备广告拦截功能。",
+      "originalContent": "Genspark公司推出创新性 Genspark AI 浏览器 Genspark公司推出创新性人工智能浏览器——Genspark AI Browser。内置智能助手，可帮助用户查找更优交易、比较产品、分析评论，辅助决策。“自动驾驶模式”能自动浏览信息源、收集资料、访问高级数据库，完成复杂网页任务。支持MCP连接700多种工具，实现工作流程自动化，具备广告拦截功能。",
+      "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-11T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.492Z",
-      "category": "开源项目",
+      "publishTime": "2025-06-11T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.202Z",
+      "category": "产品发布",
       "tags": [
-        "开源",
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月11·周三"
+    },
+    {
+      "id": "654d8b42",
+      "title": "字节跳动 Seed 团队正式发布视频生成基础模型 Seedance 1.0",
+      "content": "字节跳动Seed团队发布Seedance 1.0视频生成模型。模型支持文字与图片输入，可生成多镜头无缝切换的1080p高品质视频，具备原生多镜头叙事能力、更强运动生成效果、支持多种风格创作等亮点，40多秒能完成5秒1080p视频的生成任务。在第三方评测榜单Artificial Analysis中，Seedance 1.0文生视频、图生视频两个任务均位居首位。",
+      "originalContent": "字节跳动 Seed 团队正式发布视频生成基础模型 Seedance 1.0 字节跳动Seed团队发布Seedance 1.0视频生成模型。模型支持文字与图片输入，可生成多镜头无缝切换的1080p高品质视频，具备原生多镜头叙事能力、更强运动生成效果、支持多种风格创作等亮点，40多秒能完成5秒1080p视频的生成任务。在第三方评测榜单Artificial Analysis中，Seedance 1.0文生视频、图生视频两个任务均位居首位。",
+      "source": "字节跳动Seed",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-11T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.203Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月11·周三"
+    },
+    {
+      "id": "46840f1d",
+      "title": "3D大模型公司VAST再次完成数千万美元的Pre-A+轮融资",
+      "content": "3D大模型公司VAST完成数千万美元Pre-A+轮融资，由北京市人工智能产业投资基金领投，靖亚资本跟投。VAST同时发布全球首个AI驱动的一站式3D工作台Tripo Studio，即将推出全新算法Tripo 3.0。融资将重点投入Tripo系列大模型研发及Tripo Studio产品及生态平台建设。",
+      "originalContent": "3D大模型公司VAST再次完成数千万美元的Pre-A+轮融资 3D大模型公司VAST完成数千万美元Pre-A+轮融资，由北京市人工智能产业投资基金领投，靖亚资本跟投。VAST同时发布全球首个AI驱动的一站式3D工作台Tripo Studio，即将推出全新算法Tripo 3.0。融资将重点投入Tripo系列大模型研发及Tripo Studio产品及生态平台建设。",
+      "source": "Tripo AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-11T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.203Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
         "发布",
         "大模型",
+        "技术",
         "AI工具"
       ],
-      "dateText": "6月12·周四"
+      "dateText": "6月11·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:17.994Z"
+  "updateTime": "2025-07-09T10:29:02.474Z"
 }

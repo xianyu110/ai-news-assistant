@@ -1,25 +1,7 @@
 {
   "date": "2025-02-04",
-  "count": 14,
+  "count": 7,
   "data": [
-    {
-      "id": "ecde9a89",
-      "title": "一场关于DeepSeek的高质量闭门会：比技术更重要的是愿景",
-      "content": "拾象创始人李广密组织了一场关于DeepSeek的闭门讨论会，数十位顶尖AI研究员、投资人与从业者参与。会议探讨了DeepSeek的技术细节、组织文化及其影响。DeepSeek凭借高效的资源利用和对智能的专注，展现出强大的技术实力。创始人梁文锋注重技术与智能的推进，而非商业化。",
-      "originalContent": "一场关于DeepSeek的高质量闭门会：比技术更重要的是愿景 拾象创始人李广密组织了一场关于DeepSeek的闭门讨论会，数十位顶尖AI研究员、投资人与从业者参与。会议探讨了DeepSeek的技术细节、组织文化及其影响。DeepSeek凭借高效的资源利用和对智能的专注，展现出强大的技术实力。创始人梁文锋注重技术与智能的推进，而非商业化。",
-      "source": "腾讯科技",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.740Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "研究",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "2月5日·周三"
-    },
     {
       "id": "d6e453cc",
       "title": "拾象创始人李广密组织了一场关于DeepSeek的闭门讨论会，数十位顶尖AI研究员、投资人与从业者参与。会议探讨了DeepSeek的技术细节、组织文化及其影响。DeepSeek凭借高效的资源利用和对智能的专注，展现出强大的技术实力。创始人梁文锋注重技术与智能的推进，而非商业化。来源：腾讯科技",
@@ -39,22 +21,6 @@
       "dateText": "2月5日"
     },
     {
-      "id": "0a4872e0",
-      "title": "5人创业国产AI搜索火了，小红书Reddit都在推！比Perplexity留存更高",
-      "content": "国产AI搜索工具 Hika AI 仅5人团队打造，上线不到1个月，在获取用户注意力方面已超越Perplexity等竞争对手。Hika AI 提供免费的知识获取引擎，核心特点是按段落分割回答，支持用户对感兴趣的部分深入提问，提供图表化的总结表和思维导图。",
-      "originalContent": "5人创业国产AI搜索火了，小红书Reddit都在推！比Perplexity留存更高 国产AI搜索工具 Hika AI 仅5人团队打造，上线不到1个月，在获取用户注意力方面已超越Perplexity等竞争对手。Hika AI 提供免费的知识获取引擎，核心特点是按段落分割回答，支持用户对感兴趣的部分深入提问，提供图表化的总结表和思维导图。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.741Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "2月5日·周三"
-    },
-    {
       "id": "fab53b2a",
       "title": "国产AI搜索工具 Hika AI 仅5人团队打造，上线不到1个月，在获取用户注意力方面已超越Perplexity等竞争对手。Hika AI 提供免费的知识获取引擎，核心特点是按段落分割回答，支持用户对感兴趣的部分深入提问，提供图表化的总结表和思维导图。来源：AI工具集",
       "content": "Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元",
@@ -72,22 +38,6 @@
       "dateText": "2月5日"
     },
     {
-      "id": "86b22d51",
-      "title": "Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元",
-      "content": "Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元（约 36.4 元人民币）。可帮助用户理解复杂合同条款，自动发现不同合同之间的差异，例如新旧合同的变化。Acrobat 应用能自动识别合同文档，提取关键条款，生成摘要，推荐可能的问题。可同时比较多达 10 份合同。",
-      "originalContent": "Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元 Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元（约 36.4 元人民币）。可帮助用户理解复杂合同条款，自动发现不同合同之间的差异，例如新旧合同的变化。Acrobat 应用能自动识别合同文档，提取关键条款，生成摘要，推荐可能的问题。可同时比较多达 10 份合同。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.741Z",
-      "category": "综合资讯",
-      "tags": [
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "2月5日·周三"
-    },
-    {
       "id": "9a759684",
       "title": "Adobe Acrobat AI 助手新增合同理解与比对功能，月费 5 美元（约 36.4 元人民币）。可帮助用户理解复杂合同条款，自动发现不同合同之间的差异，例如新旧合同的变化。Acrobat 应用能自动识别合同文档，提取关键条款，生成摘要，推荐可能的问题。可同时比较多达 10 份合同。来源：AI工具集",
       "content": "SB OpenAI Japan成立！2025年首个最火AI赛道开打",
@@ -102,22 +52,6 @@
         "智能体"
       ],
       "dateText": "2月5日"
-    },
-    {
-      "id": "502f2484",
-      "title": "SB OpenAI Japan成立！2025年首个最火AI赛道开打",
-      "content": "OpenAI在日本宣布成立合资公司 SB OpenAI Japan，与软银合作，专注于开发和销售新型高级企业AI——“水晶智能（Cristal intelligence）”。合作为日本企业提供定制化的AI解决方案，推动企业工作流程自动化和效率提升。",
-      "originalContent": "SB OpenAI Japan成立！2025年首个最火AI赛道开打 OpenAI在日本宣布成立合资公司 SB OpenAI Japan，与软银合作，专注于开发和销售新型高级企业AI——“水晶智能（Cristal intelligence）”。合作为日本企业提供定制化的AI解决方案，推动企业工作流程自动化和效率提升。",
-      "source": "智东西",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.741Z",
-      "category": "行业动态",
-      "tags": [
-        "合作",
-        "AI工具"
-      ],
-      "dateText": "2月5日·周三"
     },
     {
       "id": "36bab298",
@@ -156,25 +90,6 @@
       "dateText": "2月5日"
     },
     {
-      "id": "ac79b5a1",
-      "title": "Figure AI与OpenAI“分手”，人形机器人公司与大模型公司重新划定边界",
-      "content": "人形机器人公司Figure AI与OpenAI终止合作。Figure AI创始人Brett Adcock表示，公司自主研发的端到端机器人AI取得重大突破，未来30天内将展示新成果。Figure AI与OpenAI合作始于去年初，曾发布多条展示机器人视觉、对话及灵活操作能力的视频。",
-      "originalContent": "Figure AI与OpenAI“分手”，人形机器人公司与大模型公司重新划定边界 人形机器人公司Figure AI与OpenAI终止合作。Figure AI创始人Brett Adcock表示，公司自主研发的端到端机器人AI取得重大突破，未来30天内将展示新成果。Figure AI与OpenAI合作始于去年初，曾发布多条展示机器人视觉、对话及灵活操作能力的视频。",
-      "source": "第一财经",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.742Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "合作",
-        "大模型",
-        "AI工具",
-        "机器人"
-      ],
-      "dateText": "2月5日·周三"
-    },
-    {
       "id": "f785aa2f",
       "title": "人形机器人公司Figure AI与OpenAI终止合作。Figure AI创始人Brett Adcock表示，公司自主研发的端到端机器人AI取得重大突破，未来30天内将展示新成果。Figure AI与OpenAI合作始于去年初，曾发布多条展示机器人视觉、对话及灵活操作能力的视频。来源：第一财经",
       "content": "Ai2推出开源模型Tülu 3 405B，性能超越DeepSeek V3与GPT-4o",
@@ -194,25 +109,6 @@
       "dateText": "2月5日"
     },
     {
-      "id": "7f64d000",
-      "title": "Ai2推出开源模型Tülu 3 405B，性能超越DeepSeek V3与GPT-4o",
-      "content": "美国艾伦人工智能研究所（Ai2）推出新一代开源模型Tülu 3 405B，基于强化学习技术，在多项基准测试中超越了DeepSeek v3和GPT-4o。Tülu 3系列模型基于Llama 3 Base，通过四阶段后训练方法优化，包括精心策划的提示词、监督微调、偏好微调和强化学习。训练数据、代码和方法完全开源。",
-      "originalContent": "Ai2推出开源模型Tülu 3 405B，性能超越DeepSeek V3与GPT-4o 美国艾伦人工智能研究所（Ai2）推出新一代开源模型Tülu 3 405B，基于强化学习技术，在多项基准测试中超越了DeepSeek v3和GPT-4o。Tülu 3系列模型基于Llama 3 Base，通过四阶段后训练方法优化，包括精心策划的提示词、监督微调、偏好微调和强化学习。训练数据、代码和方法完全开源。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.742Z",
-      "category": "开源项目",
-      "tags": [
-        "GPT",
-        "开源",
-        "发布",
-        "研究",
-        "大模型"
-      ],
-      "dateText": "2月5日·周三"
-    },
-    {
       "id": "52297ce9",
       "title": "美国艾伦人工智能研究所（Ai2）推出新一代开源模型Tülu 3 405B，基于强化学习技术，在多项基准测试中超越了DeepSeek v3和GPT-4o。Tülu 3系列模型基于Llama 3 Base，通过四阶段后训练方法优化，包括精心策划的提示词、监督微调、偏好微调和强化学习。训练数据、代码和方法完全开源。来源：AI工具集",
       "content": "美国艾伦人工智能研究所（Ai2）推出新一代开源模型Tülu 3 405B，基于强化学习技术，在多项基准测试中超越了DeepSeek v3和GPT-4o。Tülu 3系列模型基于Llama 3 Base，通过四阶段后训练方法优化，包括精心策划的提示词、监督微调、偏好微调和强化学习。训练数据、代码和方法完全开源。来源：AI工具集",
@@ -230,23 +126,7 @@
         "大模型"
       ],
       "dateText": "2月5日"
-    },
-    {
-      "id": "8c22d770",
-      "title": "华为小艺助手接入 DeepSeek，升级纯血鸿蒙 HarmonyOS NEXT 即可体验",
-      "content": "华为小艺助手接入 DeepSeek，升级至 HarmonyOS NEXT 后即可体验。小艺助手的智能体广场已上线 DeepSeek-R1 Beta 版，升级小艺助手至 11.2.10.310 版本及以上，可在“发现”栏找到智能体广场，与 DeepSeek 进行对话。",
-      "originalContent": "华为小艺助手接入 DeepSeek，升级纯血鸿蒙 HarmonyOS NEXT 即可体验 华为小艺助手接入 DeepSeek，升级至 HarmonyOS NEXT 后即可体验。小艺助手的智能体广场已上线 DeepSeek-R1 Beta 版，升级小艺助手至 11.2.10.310 版本及以上，可在“发现”栏找到智能体广场，与 DeepSeek 进行对话。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-04T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.742Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "智能体"
-      ],
-      "dateText": "2月5日·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.071Z"
+  "updateTime": "2025-07-09T10:29:02.492Z"
 }

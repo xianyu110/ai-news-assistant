@@ -1,113 +1,76 @@
 {
   "date": "2025-06-10",
-  "count": 6,
+  "count": 4,
   "data": [
     {
-      "id": "e20fa0d8",
-      "title": "Mistral 推出推理模型 Magistral 系列，Small 版已开源",
-      "content": "法国AI实验室Mistral推出推理模型Magistral系列，包含Magistral Small和Magistral Medium两个版本。Magistral Small拥有240亿参数，已在Hugging Face平台开源；Magistral Medium能力更强，处于预览阶段，仅在特定平台提供。",
-      "originalContent": "Mistral 推出推理模型 Magistral 系列，Small 版已开源 法国AI实验室Mistral推出推理模型Magistral系列，包含Magistral Small和Magistral Medium两个版本。Magistral Small拥有240亿参数，已在Hugging Face平台开源；Magistral Medium能力更强，处于预览阶段，仅在特定平台提供。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.495Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "研究",
-        "大模型",
-        "技术"
-      ],
-      "dateText": "6月11·周三"
-    },
-    {
-      "id": "a039a07c",
-      "title": "OpenAI 发布 o3-pro升级版推理模型，支持调用ChatGPT全套工具",
-      "content": "OpenAI发布o3-pro模型，替代o1-pro向Pro和Team用户开放。o3-pro是推理模型o3的升级版，处理复杂问题、精准回答能力更强，支持调用ChatGPT全套工具，响应速度稍慢，适合对答案准确性要求高的场景。o3-pro在表达清晰度、答案完整性等方面优于o3。",
-      "originalContent": "OpenAI 发布 o3-pro升级版推理模型，支持调用ChatGPT全套工具 OpenAI发布o3-pro模型，替代o1-pro向Pro和Team用户开放。o3-pro是推理模型o3的升级版，处理复杂问题、精准回答能力更强，支持调用ChatGPT全套工具，响应速度稍慢，适合对答案准确性要求高的场景。o3-pro在表达清晰度、答案完整性等方面优于o3。",
-      "source": "APPSO",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.493Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "开源",
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "6月11·周三"
-    },
-    {
-      "id": "bf4937fd",
-      "title": "字节跳动推出豆包大模型 1.6，使用成本降至三分之一",
-      "content": "在火山引擎Force原动力大会上，字节跳动宣布豆包大模型升级至1.6版，推理、数学、指令遵循等能力大幅提升，达到全球第一梯队水平。豆包 1.6 系列模型支持多模态理解和图形界面操作，能理解和处理真实世界问题。",
-      "originalContent": "字节跳动推出豆包大模型 1.6，使用成本降至三分之一 在火山引擎Force原动力大会上，字节跳动宣布豆包大模型升级至1.6版，推理、数学、指令遵循等能力大幅提升，达到全球第一梯队水平。豆包 1.6 系列模型支持多模态理解和图形界面操作，能理解和处理真实世界问题。",
-      "source": "字节跳动",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.494Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型"
-      ],
-      "dateText": "6月11·周三"
-    },
-    {
-      "id": "2526743d",
-      "title": "Genspark公司推出创新性 Genspark AI 浏览器",
-      "content": "Genspark公司推出创新性人工智能浏览器——Genspark AI Browser。内置智能助手，可帮助用户查找更优交易、比较产品、分析评论，辅助决策。“自动驾驶模式”能自动浏览信息源、收集资料、访问高级数据库，完成复杂网页任务。支持MCP连接700多种工具，实现工作流程自动化，具备广告拦截功能。",
-      "originalContent": "Genspark公司推出创新性 Genspark AI 浏览器 Genspark公司推出创新性人工智能浏览器——Genspark AI Browser。内置智能助手，可帮助用户查找更优交易、比较产品、分析评论，辅助决策。“自动驾驶模式”能自动浏览信息源、收集资料、访问高级数据库，完成复杂网页任务。支持MCP连接700多种工具，实现工作流程自动化，具备广告拦截功能。",
+      "id": "e1170a31",
+      "title": "Manus已接入 Veo3 模型，创作电影级视觉体验",
+      "content": "Manus现已接入Veo3模型，带来更出色的视觉表现力，角色对话更自然，音画同步更准确，故事叙事更流畅可以创作出电影级别的视觉体验。面向Basic，Plus，Pro会员开放使用。",
+      "originalContent": "Manus已接入 Veo3 模型，创作电影级视觉体验 Manus现已接入Veo3模型，带来更出色的视觉表现力，角色对话更自然，音画同步更准确，故事叙事更流畅可以创作出电影级别的视觉体验。面向Basic，Plus，Pro会员开放使用。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.494Z",
+      "publishTime": "2025-06-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.204Z",
+      "category": "综合资讯",
+      "tags": [
+        "开源",
+        "大模型"
+      ],
+      "dateText": "6月10·周二"
+    },
+    {
+      "id": "2c200dc0",
+      "title": "商汤小浣熊牵手蚂蚁百宝箱，共建AI+数据分析方案",
+      "content": "商汤科技的“小浣熊家族”与蚂蚁集团的“蚂蚁百宝箱”正式达成生态合作，联合打造“AI数据分析助手”，为用户提供大模型服务，后续将登陆支付宝平台。为数字生活平台上的商家及生态方提供轻量化、智能化的分析工具，助力AI数智化服务能力升级。“办公小浣熊”将以AI Agent形态免费为用户提供数据分析能力，构建自然的人机协作场景。",
+      "originalContent": "商汤小浣熊牵手蚂蚁百宝箱，共建AI+数据分析方案 商汤科技的“小浣熊家族”与蚂蚁集团的“蚂蚁百宝箱”正式达成生态合作，联合打造“AI数据分析助手”，为用户提供大模型服务，后续将登陆支付宝平台。为数字生活平台上的商家及生态方提供轻量化、智能化的分析工具，助力AI数智化服务能力升级。“办公小浣熊”将以AI Agent形态免费为用户提供数据分析能力，构建自然的人机协作场景。",
+      "source": "商汤科技SenseTime",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.203Z",
       "category": "产品发布",
       "tags": [
-        "发布",
+        "合作",
+        "大模型",
+        "技术",
         "AI工具",
         "智能体"
       ],
-      "dateText": "6月11·周三"
+      "dateText": "6月10·周二"
     },
     {
-      "id": "654d8b42",
-      "title": "字节跳动 Seed 团队正式发布视频生成基础模型 Seedance 1.0",
-      "content": "字节跳动Seed团队发布Seedance 1.0视频生成模型。模型支持文字与图片输入，可生成多镜头无缝切换的1080p高品质视频，具备原生多镜头叙事能力、更强运动生成效果、支持多种风格创作等亮点，40多秒能完成5秒1080p视频的生成任务。在第三方评测榜单Artificial Analysis中，Seedance 1.0文生视频、图生视频两个任务均位居首位。",
-      "originalContent": "字节跳动 Seed 团队正式发布视频生成基础模型 Seedance 1.0 字节跳动Seed团队发布Seedance 1.0视频生成模型。模型支持文字与图片输入，可生成多镜头无缝切换的1080p高品质视频，具备原生多镜头叙事能力、更强运动生成效果、支持多种风格创作等亮点，40多秒能完成5秒1080p视频的生成任务。在第三方评测榜单Artificial Analysis中，Seedance 1.0文生视频、图生视频两个任务均位居首位。",
-      "source": "字节跳动Seed",
+      "id": "038f2f1b",
+      "title": "靠ChatGPT狂飙，OpenAI年化经常性收入突破百亿美元",
+      "content": "OpenAI自推出ChatGPT不到三年，年化经常性收入（ARR）已突破100亿美元，较去年增长近80%。该收入包括消费者产品、ChatGPT商业产品及API销售收入，不包含微软授权收入等。目前OpenAI拥有300万付费商业用户。",
+      "originalContent": "靠ChatGPT狂飙，OpenAI年化经常性收入突破百亿美元 OpenAI自推出ChatGPT不到三年，年化经常性收入（ARR）已突破100亿美元，较去年增长近80%。该收入包括消费者产品、ChatGPT商业产品及API销售收入，不包含微软授权收入等。目前OpenAI拥有300万付费商业用户。",
+      "source": "财联社",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.495Z",
+      "publishTime": "2025-06-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.204Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "6月10·周二"
+    },
+    {
+      "id": "cf40f18c",
+      "title": "AI 编程工具 Cursor 快速崛起，20 个月实现 1 亿美元年化收入",
+      "content": "Cursor AI 编程工具，由 AnySphere 联合创始人兼 CEO Michael Truell 创立，上线 20 个月实现 1 亿美元年化收入，两年达 3 亿美元。成功源于重构软件开发流程，提升人类指令表达能力。团队曾尝试机械工程领域，后回归编程，放弃插件形式，构建完整 IDE。",
+      "originalContent": "AI 编程工具 Cursor 快速崛起，20 个月实现 1 亿美元年化收入 Cursor AI 编程工具，由 AnySphere 联合创始人兼 CEO Michael Truell 创立，上线 20 个月实现 1 亿美元年化收入，两年达 3 亿美元。成功源于重构软件开发流程，提升人类指令表达能力。团队曾尝试机械工程领域，后回归编程，放弃插件形式，构建完整 IDE。",
+      "source": "有新Newin",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-10T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.204Z",
       "category": "产品发布",
       "tags": [
         "发布",
-        "大模型"
-      ],
-      "dateText": "6月11·周三"
-    },
-    {
-      "id": "46840f1d",
-      "title": "3D大模型公司VAST再次完成数千万美元的Pre-A+轮融资",
-      "content": "3D大模型公司VAST完成数千万美元Pre-A+轮融资，由北京市人工智能产业投资基金领投，靖亚资本跟投。VAST同时发布全球首个AI驱动的一站式3D工作台Tripo Studio，即将推出全新算法Tripo 3.0。融资将重点投入Tripo系列大模型研发及Tripo Studio产品及生态平台建设。",
-      "originalContent": "3D大模型公司VAST再次完成数千万美元的Pre-A+轮融资 3D大模型公司VAST完成数千万美元Pre-A+轮融资，由北京市人工智能产业投资基金领投，靖亚资本跟投。VAST同时发布全球首个AI驱动的一站式3D工作台Tripo Studio，即将推出全新算法Tripo 3.0。融资将重点投入Tripo系列大模型研发及Tripo Studio产品及生态平台建设。",
-      "source": "Tripo AI",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-10T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.496Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "发布",
-        "大模型",
-        "技术",
+        "合作",
         "AI工具"
       ],
-      "dateText": "6月11·周三"
+      "dateText": "6月10·周二"
     }
   ],
-  "updateTime": "2025-07-09T07:55:17.995Z"
+  "updateTime": "2025-07-09T10:29:02.474Z"
 }

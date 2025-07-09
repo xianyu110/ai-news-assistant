@@ -1,90 +1,60 @@
 {
   "date": "2025-07-03",
-  "count": 5,
+  "count": 3,
   "data": [
     {
-      "id": "b26beb15",
-      "title": "昆仑万维再次开源奖励模型！Skywork-Reward-V2",
-      "content": "昆仑万维开源第二代奖励模型Skywork-Reward-V2系列，共8个模型，参数规模从6亿到80亿不等。系列在七大主流奖励模型评测榜单中全面夺魁。",
-      "originalContent": "昆仑万维再次开源奖励模型！Skywork-Reward-V2 昆仑万维开源第二代奖励模型Skywork-Reward-V2系列，共8个模型，参数规模从6亿到80亿不等。系列在七大主流奖励模型评测榜单中全面夺魁。",
-      "source": "昆仑万维集团",
+      "id": "720103f4",
+      "title": "星流 Agent上线！更适合中国设计师的一站式创意设计Agent",
+      "content": "星流Agent正式上线，是专为中国设计师打造的一站式创意设计Agent。星流Agent延续了Lovart的全栈式智能设计能力，全面适配中文语义、东方美学和本地场景。用户只需输入一句话，能自动拆解任务、匹配风格、生成整套设计物料，支持多模态内容创作，涵盖图像、视频、3D等多种格式。",
+      "originalContent": "星流 Agent上线！更适合中国设计师的一站式创意设计Agent 星流Agent正式上线，是专为中国设计师打造的一站式创意设计Agent。星流Agent延续了Lovart的全栈式智能设计能力，全面适配中文语义、东方美学和本地场景。用户只需输入一句话，能自动拆解任务、匹配风格、生成整套设计物料，支持多模态内容创作，涵盖图像、视频、3D等多种格式。",
+      "source": "LiblibAI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-07-03T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.433Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "大模型"
-      ],
-      "dateText": "7月4·周五"
-    },
-    {
-      "id": "44d5e14e",
-      "title": "腾讯元宝支持一句话搜索图片、视频号内容",
-      "content": "腾讯元宝推出新功能，支持用户通过“一句话搜索”匹配图片和视频号内容。用户开启“联网搜索”后，元宝可自动根据提问匹配图片与视频号，支持任意模型，不限“深度思考”是否开启。",
-      "originalContent": "腾讯元宝支持一句话搜索图片、视频号内容 腾讯元宝推出新功能，支持用户通过“一句话搜索”匹配图片和视频号内容。用户开启“联网搜索”后，元宝可自动根据提问匹配图片与视频号，支持任意模型，不限“深度思考”是否开启。",
-      "source": "腾讯元宝",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-07-03T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.433Z",
+      "publishTime": "2025-07-03T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.177Z",
       "category": "产品发布",
       "tags": [
         "发布",
-        "大模型"
+        "3D",
+        "智能体"
       ],
-      "dateText": "7月4·周五"
+      "dateText": "7月3·周四"
     },
     {
-      "id": "e2d5c816",
-      "title": "OmniGen2重磅升级，统一图像生成再进化",
-      "content": "智源研究院宣布 OmniGen2 图像生成模型重磅升级。OmniGen2采用分离式架构与双编码器策略，强化上下文理解与指令遵循能力，图像生成质量大幅提升。重构数据生成流程，解决开源数据集质量缺陷问题，引入图像生成反思机制，提升模型自我优化能力。",
-      "originalContent": "OmniGen2重磅升级，统一图像生成再进化 智源研究院宣布 OmniGen2 图像生成模型重磅升级。OmniGen2采用分离式架构与双编码器策略，强化上下文理解与指令遵循能力，图像生成质量大幅提升。重构数据生成流程，解决开源数据集质量缺陷问题，引入图像生成反思机制，提升模型自我优化能力。",
-      "source": "智源研究院",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-07-03T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.434Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "研究",
-        "大模型"
-      ],
-      "dateText": "7月4·周五"
-    },
-    {
-      "id": "8ac824b2",
-      "title": "京东内测“宠TA”与“聊愈小宇宙”AI设计产品",
-      "content": "京东APP悄然上线两款AI社交产品，“宠TA”和“聊愈小宇宙”。“宠TA”围绕宠物数字人提供陪聊、换装、问诊及一键购粮等闭环消费；“聊愈小宇宙”则通过情绪识别、回忆日历和社区交流，结合专业的心理咨询服务。",
-      "originalContent": "京东内测“宠TA”与“聊愈小宇宙”AI设计产品 京东APP悄然上线两款AI社交产品，“宠TA”和“聊愈小宇宙”。“宠TA”围绕宠物数字人提供陪聊、换装、问诊及一键购粮等闭环消费；“聊愈小宇宙”则通过情绪识别、回忆日历和社区交流，结合专业的心理咨询服务。",
+      "id": "934fead4",
+      "title": "Perplexity Max 订阅上线，月费 200 美元",
+      "content": "Perplexity推出高端订阅服务Perplexity Max，月费200美元（约合1433元人民币）。订阅用户可无限制访问电子表格和报告生成工具Labs，提前体验Comet浏览器等新功能，调用OpenAI的o3-pro和Claude Opus 4等先进AI模型。",
+      "originalContent": "Perplexity Max 订阅上线，月费 200 美元 Perplexity推出高端订阅服务Perplexity Max，月费200美元（约合1433元人民币）。订阅用户可无限制访问电子表格和报告生成工具Labs，提前体验Comet浏览器等新功能，调用OpenAI的o3-pro和Claude Opus 4等先进AI模型。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-07-03T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.423Z",
+      "publishTime": "2025-07-03T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.177Z",
       "category": "产品发布",
       "tags": [
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "7月4·周五"
-    },
-    {
-      "id": "fb7197fd",
-      "title": "谷歌 Veo 3 AI文生视频模型正式向 Pro / Ultra 会员开放",
-      "content": "谷歌Veo 3 AI文生视频模型正式向Pro/Ultra会员开放。Pro会员每天可生成3段视频，Ultra会员生成数量未公布。Veo 3的“照片生成视频”功能即将上线。",
-      "originalContent": "谷歌 Veo 3 AI文生视频模型正式向 Pro / Ultra 会员开放 谷歌Veo 3 AI文生视频模型正式向Pro/Ultra会员开放。Pro会员每天可生成3段视频，Ultra会员生成数量未公布。Veo 3的“照片生成视频”功能即将上线。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-07-03T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.432Z",
-      "category": "产品发布",
-      "tags": [
-        "开源",
         "发布",
         "大模型",
         "AI工具"
       ],
-      "dateText": "7月4·周五"
+      "dateText": "7月3·周四"
+    },
+    {
+      "id": "06730e7f",
+      "title": "智谱获上海国资10亿元战略融资",
+      "content": "国产AI大模型企业智谱在开放平台产业生态大会上宣布获得上海国资10亿元战略投资，由浦东创投集团和张江集团完成首笔交割。同时，三方与上海仪电、浦发集团合作，共同建设AI新型基础设施。",
+      "originalContent": "智谱获上海国资10亿元战略融资 国产AI大模型企业智谱在开放平台产业生态大会上宣布获得上海国资10亿元战略投资，由浦东创投集团和张江集团完成首笔交割。同时，三方与上海仪电、浦发集团合作，共同建设AI新型基础设施。",
+      "source": "钛媒体AGI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-03T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.177Z",
+      "category": "投融资",
+      "tags": [
+        "开源",
+        "融资",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "7月3·周四"
     }
   ],
-  "updateTime": "2025-07-09T07:55:17.980Z"
+  "updateTime": "2025-07-09T10:29:02.472Z"
 }

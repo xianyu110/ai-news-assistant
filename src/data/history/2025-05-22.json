@@ -1,24 +1,7 @@
 {
   "date": "2025-05-22",
-  "count": 6,
+  "count": 8,
   "data": [
-    {
-      "id": "734a8404",
-      "title": "Anthropic发布新一代AI模型Claude 4，自动编码7小时刷新记录",
-      "content": "Anthropic公司推出了新一代Claude 4模型—— Claude Opus 4 和 Claude Sonnet 4 。Claude Opus 4 是全球顶尖的编码模型，在复杂、长时间任务和代理工作流中表现出色。Claude Sonnet 4 在编码和推理方面进行了显著升级，响应指令更精准。",
-      "originalContent": "Anthropic发布新一代AI模型Claude 4，自动编码7小时刷新记录 Anthropic公司推出了新一代Claude 4模型—— Claude Opus 4 和 Claude Sonnet 4 。Claude Opus 4 是全球顶尖的编码模型，在复杂、长时间任务和代理工作流中表现出色。Claude Sonnet 4 在编码和推理方面进行了显著升级，响应指令更精准。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-22T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.544Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月23日·周五"
-    },
     {
       "id": "7cc71982",
       "title": "Anthropic公司推出了新一代Claude 4模型—— Claude Opus 4 和 Claude Sonnet 4 。Claude Opus 4 是全球顶尖的编码模型，在复杂、长时间任务和代理工作流中表现出色。Claude Sonnet 4 在编码和推理方面进行了显著升级，响应指令更精准。来源：AI工具集",
@@ -35,22 +18,6 @@
         "AI工具"
       ],
       "dateText": "5月23日"
-    },
-    {
-      "id": "b1e043a7",
-      "title": "OpenAI 宣布“星际之门”首个国际部署项目落户阿联酋，并考虑扩张至亚太地区",
-      "content": "OpenAI宣布“星际之门阿联酋”项目，是人工智能基础设施平台Stargate的首个国际部署。项目由OpenAI与G42、甲骨文、英伟达、软银和思科共同打造，位于阿布扎比阿联酋-美国人工智能园区。G42负责建设，OpenAI和甲骨文运营，思科提供安全连接，英伟达供应系统。",
-      "originalContent": "OpenAI 宣布“星际之门”首个国际部署项目落户阿联酋，并考虑扩张至亚太地区 OpenAI宣布“星际之门阿联酋”项目，是人工智能基础设施平台Stargate的首个国际部署。项目由OpenAI与G42、甲骨文、英伟达、软银和思科共同打造，位于阿布扎比阿联酋-美国人工智能园区。G42负责建设，OpenAI和甲骨文运营，思科提供安全连接，英伟达供应系统。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-22T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.545Z",
-      "category": "开源项目",
-      "tags": [
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "5月23日·周五"
     },
     {
       "id": "d147fb65",
@@ -71,23 +38,6 @@
       "dateText": "5月23日"
     },
     {
-      "id": "f2ab3321",
-      "title": "京东工业发布行业首个以供应链为核心的工业大模型Joy industrial",
-      "content": "京东工业在上海发布行业首个以供应链为核心的工业大模型——Joy industrial。模型依托京东工业在工业数智供应链领域的经验积累和数据沉淀，构建全栈产品矩阵，首批推出需求代理、运营代理、关务代理、商品专家、集成专家等AI产品，助力产业降本增效。",
-      "originalContent": "京东工业发布行业首个以供应链为核心的工业大模型Joy industrial 京东工业在上海发布行业首个以供应链为核心的工业大模型——Joy industrial。模型依托京东工业在工业数智供应链领域的经验积累和数据沉淀，构建全栈产品矩阵，首批推出需求代理、运营代理、关务代理、商品专家、集成专家等AI产品，助力产业降本增效。",
-      "source": "京东黑板报",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-22T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.545Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月23日·周五"
-    },
-    {
       "id": "1e47d0b4",
       "title": "京东工业在上海发布行业首个以供应链为核心的工业大模型——Joy industrial。模型依托京东工业在工业数智供应链领域的经验积累和数据沉淀，构建全栈产品矩阵，首批推出需求代理、运营代理、关务代理、商品专家、集成专家等AI产品，助力产业降本增效。来源：京东黑板报",
       "content": "京东工业在上海发布行业首个以供应链为核心的工业大模型——Joy industrial。模型依托京东工业在工业数智供应链领域的经验积累和数据沉淀，构建全栈产品矩阵，首批推出需求代理、运营代理、关务代理、商品专家、集成专家等AI产品，助力产业降本增效。来源：京东黑板报",
@@ -103,7 +53,93 @@
         "AI工具"
       ],
       "dateText": "5月23日"
+    },
+    {
+      "id": "e18f7074",
+      "title": "OpenAI最大收购，65亿美元拿下苹果前高管Jony Ive公司io",
+      "content": "OpenAI宣布以约65亿美元收购由CEO Sam Altman与前苹果首席设计官Jony Ive联合创办的AI设备初创公司io。是OpenAI史上最大一笔交易，预计夏季完成，需监管部门批准。收购后，OpenAI将获得约55名顶尖硬件工程师、软件开发者和制造专家，包括多位曾参与iPhone设计的前苹果设计师。",
+      "originalContent": "OpenAI最大收购，65亿美元拿下苹果前高管Jony Ive公司io OpenAI宣布以约65亿美元收购由CEO Sam Altman与前苹果首席设计官Jony Ive联合创办的AI设备初创公司io。是OpenAI史上最大一笔交易，预计夏季完成，需监管部门批准。收购后，OpenAI将获得约55名顶尖硬件工程师、软件开发者和制造专家，包括多位曾参与iPhone设计的前苹果设计师。",
+      "source": "APPSO",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-22T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.220Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "AI工具"
+      ],
+      "dateText": "5月22日·周四"
+    },
+    {
+      "id": "3795e1d2",
+      "title": "Mistral 发布编程专用开源 AI 模型 Devstral",
+      "content": "Mistral AI与All Hands AI合作推出240亿参数的开源AI模型Devstral，专为高级软件工程任务设计，处于“研究预览”阶段，以Apache 2.0许可发布，可商用。Devstral在SWE-Bench Verified基准测试中得分46.8%，超越部分闭源模型。能在单张RTX 4090显卡或32GB RAM的Mac上运行，降低硬件门槛。",
+      "originalContent": "Mistral 发布编程专用开源 AI 模型 Devstral Mistral AI与All Hands AI合作推出240亿参数的开源AI模型Devstral，专为高级软件工程任务设计，处于“研究预览”阶段，以Apache 2.0许可发布，可商用。Devstral在SWE-Bench Verified基准测试中得分46.8%，超越部分闭源模型。能在单张RTX 4090显卡或32GB RAM的Mac上运行，降低硬件门槛。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-22T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.220Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "5月22日·周四"
+    },
+    {
+      "id": "f6138552",
+      "title": "OpenAI 扩展 Responses API：支持 MCP、图像生成等",
+      "content": "OpenAI宣布扩展Responses API，新增对远程连接MCP服务器、图像生成（gpt-image-1模型）、Code Interpreter及文件搜索优化等功能的支持，全面适配GPT-4o系列、GPT-4.1系列及OpenAI o系列推理模型。开发者可通过几行代码让模型连接Cloudflare等MCP工具，访问用户数据源。",
+      "originalContent": "OpenAI 扩展 Responses API：支持 MCP、图像生成等 OpenAI宣布扩展Responses API，新增对远程连接MCP服务器、图像生成（gpt-image-1模型）、Code Interpreter及文件搜索优化等功能的支持，全面适配GPT-4o系列、GPT-4.1系列及OpenAI o系列推理模型。开发者可通过几行代码让模型连接Cloudflare等MCP工具，访问用户数据源。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-22T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.221Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "5月22日·周四"
+    },
+    {
+      "id": "ede6c2ab",
+      "title": "昆仑万维面向全球发布天工超级智能体：基于deep research的“AI版office”",
+      "content": "昆仑万维面向全球发布天工超级智能体（Skywork Super Agents），采用AI agent架构和deep research技术，能生成文档、PPT、表格、网页、播客和音视频等多模态内容。其deep research能力在GAIA榜单上排名全球第一，超过OpenAI Deep Research和Manus。",
+      "originalContent": "昆仑万维面向全球发布天工超级智能体：基于deep research的“AI版office” 昆仑万维面向全球发布天工超级智能体（Skywork Super Agents），采用AI agent架构和deep research技术，能生成文档、PPT、表格、网页、播客和音视频等多模态内容。其deep research能力在GAIA榜单上排名全球第一，超过OpenAI Deep Research和Manus。",
+      "source": "昆仑万维集团",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-22T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.221Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "5月22日·周四"
+    },
+    {
+      "id": "f98f4f86",
+      "title": "特斯拉展示 Optimus 人形机器人做家务能力：扔垃圾、扫地、炒菜",
+      "content": "埃隆·马斯克重申Optimus将成为特斯拉重要产品。Optimus社交媒体账号发布视频，展示机器人扔垃圾、扫地、炒菜等家务能力，成功搬运Model X零件。",
+      "originalContent": "特斯拉展示 Optimus 人形机器人做家务能力：扔垃圾、扫地、炒菜 埃隆·马斯克重申Optimus将成为特斯拉重要产品。Optimus社交媒体账号发布视频，展示机器人扔垃圾、扫地、炒菜等家务能力，成功搬运Model X零件。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-22T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.221Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "机器人"
+      ],
+      "dateText": "5月22日·周四"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.008Z"
+  "updateTime": "2025-07-09T10:29:02.476Z"
 }

@@ -1,26 +1,7 @@
 {
   "date": "2025-04-09",
-  "count": 11,
+  "count": 9,
   "data": [
-    {
-      "id": "6998d6d0",
-      "title": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性",
-      "content": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性。A2A 是开放协议，支持超过 50 个技术合作伙伴，支持不同供应商的智能体在跨平台环境中安全协作，完成复杂任务。协议基于 HTTP、SSE、JSON-RPC 等标准，支持长时任务和多种数据格式（如音频、视频）。",
-      "originalContent": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性 谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性。A2A 是开放协议，支持超过 50 个技术合作伙伴，支持不同供应商的智能体在跨平台环境中安全协作，完成复杂任务。协议基于 HTTP、SSE、JSON-RPC 等标准，支持长时任务和多种数据格式（如音频、视频）。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-09T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.639Z",
-      "category": "产品发布",
-      "tags": [
-        "开源",
-        "发布",
-        "合作",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "4月10日·周四"
-    },
     {
       "id": "85c6a009",
       "title": "谷歌推出 Agent2Agent（A2A）协议，实现 AI 智能体之间的互操作性。A2A 是开放协议，支持超过 50 个技术合作伙伴，支持不同供应商的智能体在跨平台环境中安全协作，完成复杂任务。协议基于 HTTP、SSE、JSON-RPC 等标准，支持长时任务和多种数据格式（如音频、视频）。来源：AI工具集",
@@ -41,23 +22,6 @@
       "dateText": "4月10日"
     },
     {
-      "id": "47bfd323",
-      "title": "谷歌推出AI编程工具 Firebase Studio，一站式完成全栈应用的构建、修改和部署",
-      "content": "谷歌推出 Firebase Studio，用户可以一站式完成全栈应用的构建、修改和部署。只需输入提示词，AI 可快速生成完整应用程序，支持 React、Next.js、Angular、Vue.js、Flutter、Android、Node.js、Java 和 Python Flask 等多种编程语言和框架。",
-      "originalContent": "谷歌推出AI编程工具 Firebase Studio，一站式完成全栈应用的构建、修改和部署 谷歌推出 Firebase Studio，用户可以一站式完成全栈应用的构建、修改和部署。只需输入提示词，AI 可快速生成完整应用程序，支持 React、Next.js、Angular、Vue.js、Flutter、Android、Node.js、Java 和 Python Flask 等多种编程语言和框架。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-09T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.640Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "4月10日·周四"
-    },
-    {
       "id": "1201c94b",
       "title": "谷歌推出 Firebase Studio，用户可以一站式完成全栈应用的构建、修改和部署。只需输入提示词，AI 可快速生成完整应用程序，支持 React、Next.js、Angular、Vue.js、Flutter、Android、Node.js、Java 和 Python Flask 等多种编程语言和框架。来源：AI工具集",
       "content": "连续完成A及A+轮融资，星尘智能获锦秋基金、蚂蚁集团等领投",
@@ -76,22 +40,6 @@
       "dateText": "4月10日"
     },
     {
-      "id": "cac2f033",
-      "title": "连续完成A及A+轮融资，星尘智能获锦秋基金、蚂蚁集团等领投",
-      "content": "星尘智能宣布连续完成A轮及A+轮融资数亿元，由锦秋基金、蚂蚁集团领投，云启资本、道彤资本等老股东跟投，华兴资本担任独家财务顾问。星尘智能于2022年底在深圳成立，首创面向AI的软硬件一体化系统架构，全栈自研的Astribot S1高度仿人，关键操作参数媲美甚至超越成年男性。",
-      "originalContent": "连续完成A及A+轮融资，星尘智能获锦秋基金、蚂蚁集团等领投 星尘智能宣布连续完成A轮及A+轮融资数亿元，由锦秋基金、蚂蚁集团领投，云启资本、道彤资本等老股东跟投，华兴资本担任独家财务顾问。星尘智能于2022年底在深圳成立，首创面向AI的软硬件一体化系统架构，全栈自研的Astribot S1高度仿人，关键操作参数媲美甚至超越成年男性。",
-      "source": "Z Potentials",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-09T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.640Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "AI工具"
-      ],
-      "dateText": "4月10日·周四"
-    },
-    {
       "id": "6aa6ad32",
       "title": "星尘智能宣布连续完成A轮及A+轮融资数亿元，由锦秋基金、蚂蚁集团领投，云启资本、道彤资本等老股东跟投，华兴资本担任独家财务顾问。星尘智能于2022年底在深圳成立，首创面向AI的软硬件一体化系统架构，全栈自研的Astribot S1高度仿人，关键操作参数媲美甚至超越成年男性。来源：Z Potentials",
       "content": "alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成",
@@ -107,24 +55,6 @@
         "AI工具"
       ],
       "dateText": "4月10日"
-    },
-    {
-      "id": "1019f14f",
-      "title": "阿里云百炼上线业界首个全生命周期MCP服务，5分钟搭建专属AI智能体",
-      "content": "阿里云在AI势能大会上宣布上线业界首个全生命周期MCP服务，加速AI落地。服务集成阿里云函数计算、200多款大模型和50多款主流MCP服务，用户无需代码，仅需简单配置，5分钟即可搭建专属Agent。",
-      "originalContent": "阿里云百炼上线业界首个全生命周期MCP服务，5分钟搭建专属AI智能体 阿里云在AI势能大会上宣布上线业界首个全生命周期MCP服务，加速AI落地。服务集成阿里云函数计算、200多款大模型和50多款主流MCP服务，用户无需代码，仅需简单配置，5分钟即可搭建专属Agent。",
-      "source": "量子位",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-09T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.641Z",
-      "category": "开源项目",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "4月10日·周四"
     },
     {
       "id": "490c91b8",
@@ -145,24 +75,6 @@
       "dateText": "4月10日"
     },
     {
-      "id": "a899d031",
-      "title": "火山引擎推出AI数据专家“Data Agent”，企业数据全场景智能体",
-      "content": "火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。",
-      "originalContent": "火山引擎推出AI数据专家“Data Agent”，企业数据全场景智能体 火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。",
-      "source": "火山引擎",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-09T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.641Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "研究",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "4月10日·周四"
-    },
-    {
       "id": "ef02c163",
       "title": "火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。来源：火山引擎",
       "content": "火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。来源：火山引擎",
@@ -180,22 +92,78 @@
       "dateText": "4月10日"
     },
     {
-      "id": "44864c59",
-      "title": "alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成",
-      "content": "alphaXiv推出「Deep Research for arXiv」功能，可协助研究人员在arXiv平台上快速检索与阅读学术论文，提升文献检索及研究效率。用户输入相关问题，系统能迅速生成文献综述或热门论文回答，将数小时的搜索过程缩短至几秒。",
-      "originalContent": "alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成 alphaXiv推出「Deep Research for arXiv」功能，可协助研究人员在arXiv平台上快速检索与阅读学术论文，提升文献检索及研究效率。用户输入相关问题，系统能迅速生成文献综述或热门论文回答，将数小时的搜索过程缩短至几秒。",
-      "source": "机器之心",
+      "id": "9a39c64c",
+      "title": "「AI硬件」闯出一匹黑马“小智AI”，2个月接入设备增长10万台",
+      "content": "「小智AI」作为一款开源AI硬件项目，在过去两个月内接入设备数增长10万台，增速达300%。语音助手以台湾腔、反应迅速、声音拟人化等特点在短视频平台引发病毒式传播，点赞量达数十万甚至百万。小智AI团队不生产硬件，设备多由爱好者、开发者DIY完成，通过电商平台售卖。",
+      "originalContent": "「AI硬件」闯出一匹黑马“小智AI”，2个月接入设备增长10万台 「小智AI」作为一款开源AI硬件项目，在过去两个月内接入设备数增长10万台，增速达300%。语音助手以台湾腔、反应迅速、声音拟人化等特点在短视频平台引发病毒式传播，点赞量达数十万甚至百万。小智AI团队不生产硬件，设备多由爱好者、开发者DIY完成，通过电商平台售卖。",
+      "source": "极客公园",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-09T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.640Z",
+      "publishTime": "2025-04-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.272Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月9日·周三"
+    },
+    {
+      "id": "e2617cd8",
+      "title": "亚马逊推出全新 AI 语音模型 Nova Sonic，低价高质冲击 AI 语音市场",
+      "content": "亚马逊推出新一代生成式 AI 模型 Nova Sonic，模型可原生处理语音并生成自然流畅语音。Nova Sonic 通过 Bedrock 平台提供，价格比 OpenAI 的 GPT-4o 便宜约 80%。在语音识别错误率、多语言支持、对话质量和响应速度等方面表现出色，平均单词错误率仅为 4.2%，响应时间 1.09 秒，比 GPT-4o 模型更快。",
+      "originalContent": "亚马逊推出全新 AI 语音模型 Nova Sonic，低价高质冲击 AI 语音市场 亚马逊推出新一代生成式 AI 模型 Nova Sonic，模型可原生处理语音并生成自然流畅语音。Nova Sonic 通过 Bedrock 平台提供，价格比 OpenAI 的 GPT-4o 便宜约 80%。在语音识别错误率、多语言支持、对话质量和响应速度等方面表现出色，平均单词错误率仅为 4.2%，响应时间 1.09 秒，比 GPT-4o 模型更快。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.272Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月9日·周三"
+    },
+    {
+      "id": "fe5fce55",
+      "title": "美图WHEE推出全新图像生成模型Miracle F1，告别AI作品“塑料感”",
+      "content": "美图WHEE平台上线全新AI图像生成模型Miracle F1。模型能像摄影师、建筑师和画家一样，精准处理光影、空间和材质效果，生成的图像真实感强，细节逼真，告别了传统AI作品的“塑料感”。能精准理解复杂语义概念，如“纯色背景”“夜景灯光”等，支持多种风格，包括3D特效、二次元插画等。",
+      "originalContent": "美图WHEE推出全新图像生成模型Miracle F1，告别AI作品“塑料感” 美图WHEE平台上线全新AI图像生成模型Miracle F1。模型能像摄影师、建筑师和画家一样，精准处理光影、空间和材质效果，生成的图像真实感强，细节逼真，告别了传统AI作品的“塑料感”。能精准理解复杂语义概念，如“纯色背景”“夜景灯光”等，支持多种风格，包括3D特效、二次元插画等。",
+      "source": "美图小WHEE",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.272Z",
       "category": "产品发布",
       "tags": [
         "发布",
-        "研究",
-        "技术"
+        "大模型",
+        "技术",
+        "AI工具",
+        "3D"
       ],
-      "dateText": "4月10日·周四"
+      "dateText": "4月9日·周三"
+    },
+    {
+      "id": "922decd6",
+      "title": "英伟达开源Llama Nemotron-253B推理模型，吞吐量较DeepSeek R1提升4倍",
+      "content": "英伟达宣布开源Llama Nemotron-253B推理模型，模型基于Llama-3.1-405B微调而来。在多项基准测试中，Llama Nemotron击败了Llama 4，以一半参数量达到与DeepSeek R1相近的性能。在复杂数学推理、科学问答和编码任务中表现出色，吞吐量较DeepSeek R1提升4倍。",
+      "originalContent": "英伟达开源Llama Nemotron-253B推理模型，吞吐量较DeepSeek R1提升4倍 英伟达宣布开源Llama Nemotron-253B推理模型，模型基于Llama-3.1-405B微调而来。在多项基准测试中，Llama Nemotron击败了Llama 4，以一半参数量达到与DeepSeek R1相近的性能。在复杂数学推理、科学问答和编码任务中表现出色，吞吐量较DeepSeek R1提升4倍。",
+      "source": "新智元",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.272Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "4月9日·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.033Z"
+  "updateTime": "2025-07-09T10:29:02.482Z"
 }

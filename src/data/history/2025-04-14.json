@@ -3,23 +3,6 @@
   "count": 10,
   "data": [
     {
-      "id": "feda3e82",
-      "title": "快手发布可灵 2.0 视频生成模型及可图 2.0 图像生成模型，国产AI视频新突破",
-      "content": "快手可灵AI正式发布可灵2.0视频生成模型，可灵AI 2.0在模型层面迎来重大更新，画面美学、语义响应和动态质量大幅提升。新增“多模态编辑”功能，支持在视频基础上输入图片/文字进行精准修改和再创作；可图2.0新增“图片编辑”及“风格转绘”功能。具备AI音效生成功能，可根据影像内容和文字prompt生成适配音效。",
-      "originalContent": "快手发布可灵 2.0 视频生成模型及可图 2.0 图像生成模型，国产AI视频新突破 快手可灵AI正式发布可灵2.0视频生成模型，可灵AI 2.0在模型层面迎来重大更新，画面美学、语义响应和动态质量大幅提升。新增“多模态编辑”功能，支持在视频基础上输入图片/文字进行精准修改和再创作；可图2.0新增“图片编辑”及“风格转绘”功能。具备AI音效生成功能，可根据影像内容和文字prompt生成适配音效。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.630Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "4月15日·周二"
-    },
-    {
       "id": "8ea72356",
       "title": "快手可灵AI正式发布可灵2.0视频生成模型，可灵AI 2.0在模型层面迎来重大更新，画面美学、语义响应和动态质量大幅提升。新增“多模态编辑”功能，支持在视频基础上输入图片/文字进行精准修改和再创作；可图2.0新增“图片编辑”及“风格转绘”功能。具备AI音效生成功能，可根据影像内容和文字prompt生成适配音效。来源：AI工具集",
       "content": "OpenAI发布GPT-4.1系列模型：编码、指令遵循和长文本处理能力大幅提升",
@@ -36,24 +19,6 @@
         "AI工具"
       ],
       "dateText": "4月15日"
-    },
-    {
-      "id": "5bca76d4",
-      "title": "OpenAI发布GPT-4.1系列模型：编码、指令遵循和长文本处理能力大幅提升",
-      "content": "OpenAI推出新一代GPT模型GPT-4.1系列，包括GPT-4.1、GPT-4.1 mini和GPT-4.1 nano。模型在编码、指令遵循和长文本处理方面大幅领先于GPT-4o，支持高达100万tokens的上下文窗口，知识截止日期更新至2024年6月。GPT-4.1 mini在性能和成本上均优于GPT-4o，GPT-4.1 nano是最快最便宜的模型，适合分类和自动补全任务。",
-      "originalContent": "OpenAI发布GPT-4.1系列模型：编码、指令遵循和长文本处理能力大幅提升 OpenAI推出新一代GPT模型GPT-4.1系列，包括GPT-4.1、GPT-4.1 mini和GPT-4.1 nano。模型在编码、指令遵循和长文本处理方面大幅领先于GPT-4o，支持高达100万tokens的上下文窗口，知识截止日期更新至2024年6月。GPT-4.1 mini在性能和成本上均优于GPT-4o，GPT-4.1 nano是最快最便宜的模型，适合分类和自动补全任务。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.631Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "4月15日·周二"
     },
     {
       "id": "22b9b052",
@@ -113,77 +78,108 @@
       "dateText": "4月15日"
     },
     {
-      "id": "35599d16",
-      "title": "魔搭上线最大MCP中文社区，独家首发支付宝、MiniMax等MCP",
-      "content": "阿里云旗下的AI开源社区魔搭（ModelScope）推出全新MCP广场，上架千余款热门MCP服务，独家首发支付宝、MiniMax等全新MCP服务。支付宝MCP服务是国内首款聚焦AI智能体支付场景的服务，可实现交易创建、查询、退款等功能；MiniMax MCP服务器封装了语音生成、语音克隆、图片生成及视频生成等多模态能力。",
-      "originalContent": "魔搭上线最大MCP中文社区，独家首发支付宝、MiniMax等MCP 阿里云旗下的AI开源社区魔搭（ModelScope）推出全新MCP广场，上架千余款热门MCP服务，独家首发支付宝、MiniMax等全新MCP服务。支付宝MCP服务是国内首款聚焦AI智能体支付场景的服务，可实现交易创建、查询、退款等功能；MiniMax MCP服务器封装了语音生成、语音克隆、图片生成及视频生成等多模态能力。",
-      "source": "阿里云",
+      "id": "89aac81f",
+      "title": "字节跳动最新思考模型，Seed-Thinking-v1.5技术细节公开",
+      "content": "字节跳动Seed团队发布Seed-Thinking-v1.5智能推理模型技术报告。模型采用200B参数、20B激活参数的MoE架构，推理成本低。在数学、编程、科学推理等专业领域及创意写作等通用任务中表现突出，接近业界第一梯队水平。4月17日，模型将通过火山引擎开放接口供用户体验。",
+      "originalContent": "字节跳动最新思考模型，Seed-Thinking-v1.5技术细节公开 字节跳动Seed团队发布Seed-Thinking-v1.5智能推理模型技术报告。模型采用200B参数、20B激活参数的MoE架构，推理成本低。在数学、编程、科学推理等专业领域及创意写作等通用任务中表现突出，接近业界第一梯队水平。4月17日，模型将通过火山引擎开放接口供用户体验。",
+      "source": "豆包大模型团队",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.631Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "4月15日·周二"
-    },
-    {
-      "id": "f4190e49",
-      "title": "MiniMax MCP Server 上线：多模态能力，一键触达",
-      "content": "MiniMax 稀宇科技宣布其 MiniMax MCP Server 正式上线。服务器通过简单文本输入即可调用视频、图像、语音生成及声音克隆等多项多模态能力，兼容 Claude Desktop、Cursor、Windsurf 和 OpenAI Agents 等主流 MCP 客户端。",
-      "originalContent": "MiniMax MCP Server 上线：多模态能力，一键触达 MiniMax 稀宇科技宣布其 MiniMax MCP Server 正式上线。服务器通过简单文本输入即可调用视频、图像、语音生成及声音克隆等多项多模态能力，兼容 Claude Desktop、Cursor、Windsurf 和 OpenAI Agents 等主流 MCP 客户端。",
-      "source": "MiniMax 稀宇科技",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.632Z",
+      "publishTime": "2025-04-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.267Z",
       "category": "产品发布",
-      "tags": [
-        "发布",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "4月15日·周二"
-    },
-    {
-      "id": "f556fb4e",
-      "title": "Hugging Face 收购 Pollen Robotics，进军人形机器人市场",
-      "content": "人工智能开发平台Hugging Face收购法国人形机器人初创公司Pollen Robotics，此次收购标志着Hugging Face在机器人领域的拓展，双方此前已合作打造开源家务机器人“Le Robot”。Hugging Face成立了由曾在特斯拉Optimus项目任职的雷米・卡德内领导的机器人团队，计划销售Pollen的人形机器人Reachy 2并开放代码供开发者改进。",
-      "originalContent": "Hugging Face 收购 Pollen Robotics，进军人形机器人市场 人工智能开发平台Hugging Face收购法国人形机器人初创公司Pollen Robotics，此次收购标志着Hugging Face在机器人领域的拓展，双方此前已合作打造开源家务机器人“Le Robot”。Hugging Face成立了由曾在特斯拉Optimus项目任职的雷米・卡德内领导的机器人团队，计划销售Pollen的人形机器人Reachy 2并开放代码供开发者改进。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.632Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "合作",
-        "技术",
-        "AI工具",
-        "机器人"
-      ],
-      "dateText": "4月15日·周二"
-    },
-    {
-      "id": "4cdae37c",
-      "title": "智谱启用全新全球域名“z.ai”，开源高性能GLM模型系列",
-      "content": "智谱启用全新域名“z.ai”，整合32B基座、推理、沉思三类模型，作为最新模型的交互体验入口。基座模型和推理模型已上线智谱MaaS平台，提供API服务，部分版本免费。宣布开源32B/9B系列GLM模型，涵盖基座、推理、沉思模型，均采用MIT许可协议，可免费用于商业用途。",
-      "originalContent": "智谱启用全新全球域名“z.ai”，开源高性能GLM模型系列 智谱启用全新域名“z.ai”，整合32B基座、推理、沉思三类模型，作为最新模型的交互体验入口。基座模型和推理模型已上线智谱MaaS平台，提供API服务，部分版本免费。宣布开源32B/9B系列GLM模型，涵盖基座、推理、沉思模型，均采用MIT许可协议，可免费用于商业用途。",
-      "source": "智谱",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.632Z",
-      "category": "开源项目",
       "tags": [
         "开源",
         "发布",
         "大模型",
         "技术"
       ],
-      "dateText": "4月15日·周二"
+      "dateText": "4月14日·周一"
+    },
+    {
+      "id": "5dfb4986",
+      "title": "重新认识阿里：大踏步迈向 AI",
+      "content": "《晚点LatePost》发文称阿里巴巴在AI领域投入坚决、布局全面且率先盈利。过去几年，阿里历经低谷，2025年凭借AI技术股价涨幅超75%。阿里云与宝马、中移动等达成合作，云谷园区接待爆满。阿里明确AI战略，未来三年投入3800亿元建设云和AI基础设施，通义大模型位列全球第一梯队，夸克升级为“AI超级框”，钉钉回归助力AI应用。",
+      "originalContent": "重新认识阿里：大踏步迈向 AI 《晚点LatePost》发文称阿里巴巴在AI领域投入坚决、布局全面且率先盈利。过去几年，阿里历经低谷，2025年凭借AI技术股价涨幅超75%。阿里云与宝马、中移动等达成合作，云谷园区接待爆满。阿里明确AI战略，未来三年投入3800亿元建设云和AI基础设施，通义大模型位列全球第一梯队，夸克升级为“AI超级框”，钉钉回归助力AI应用。",
+      "source": "晚点LatePost",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.267Z",
+      "category": "产品发布",
+      "tags": [
+        "合作",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月14日·周一"
+    },
+    {
+      "id": "f7c96ad8",
+      "title": "云鲸再获1亿美金融资，腾讯、北京机器人基金领投，重押具身智能，迈向Pre-IPO",
+      "content": "家庭清洁服务机器人公司云鲸智能近日完成1亿美金融资，由腾讯投资、北京机器人产业发展投资基金联合领投，科幻基金与明势创投跟投。资金将用于具身智能产品研发、全球市场扩张及多品类战略布局。云鲸已启动Pre-IPO轮融资，进入上市冲刺阶段。",
+      "originalContent": "云鲸再获1亿美金融资，腾讯、北京机器人基金领投，重押具身智能，迈向Pre-IPO 家庭清洁服务机器人公司云鲸智能近日完成1亿美金融资，由腾讯投资、北京机器人产业发展投资基金联合领投，科幻基金与明势创投跟投。资金将用于具身智能产品研发、全球市场扩张及多品类战略布局。云鲸已启动Pre-IPO轮融资，进入上市冲刺阶段。",
+      "source": "36氪",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.267Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "机器人"
+      ],
+      "dateText": "4月14日·周一"
+    },
+    {
+      "id": "1d2ccf4b",
+      "title": "OpenAI 宣布 ChatGPT 自 4 月 30 日起停用 GPT-4 模型，全面升级至 4o 版本",
+      "content": "OpenAI 宣布于2025年4月30日起，将让GPT-4在ChatGPT中退役，全面启用GPT-4o。GPT-4o在能力、一致性和创造力上更胜一筹。GPT-4退出ChatGPT，开发者仍可通过API调用。",
+      "originalContent": "OpenAI 宣布 ChatGPT 自 4 月 30 日起停用 GPT-4 模型，全面升级至 4o 版本 OpenAI 宣布于2025年4月30日起，将让GPT-4在ChatGPT中退役，全面启用GPT-4o。GPT-4o在能力、一致性和创造力上更胜一筹。GPT-4退出ChatGPT，开发者仍可通过API调用。",
+      "source": "APPSO",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.268Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "4月14日·周一"
+    },
+    {
+      "id": "c520ca8a",
+      "title": "昆仑万维推出Skywork-OR1系列模型，同规模下性能超越阿里QwQ-32B，对齐DeepSeek-R1",
+      "content": "昆仑万维天工团队推出全新升级的Skywork-OR1系列模型，包括7B和32B版本，聚焦数学和代码推理能力。系列模型在同等参数规模下性能超越阿里QwQ-32B，接近DeepSeek-R1。Skywork-OR1系列全面开源，涵盖模型权重、训练数据集和完整代码，团队采用多阶段GRPO训练，优化数据过滤和训练流程，显著提升模型推理性能。",
+      "originalContent": "昆仑万维推出Skywork-OR1系列模型，同规模下性能超越阿里QwQ-32B，对齐DeepSeek-R1 昆仑万维天工团队推出全新升级的Skywork-OR1系列模型，包括7B和32B版本，聚焦数学和代码推理能力。系列模型在同等参数规模下性能超越阿里QwQ-32B，接近DeepSeek-R1。Skywork-OR1系列全面开源，涵盖模型权重、训练数据集和完整代码，团队采用多阶段GRPO训练，优化数据过滤和训练流程，显著提升模型推理性能。",
+      "source": "昆仑万维集团",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.268Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "4月14日·周一"
+    },
+    {
+      "id": "864d3611",
+      "title": "OPPO 推出的小布助手网页版上线，登录 OPPO 账号可同步手机端历史对话记录",
+      "content": "OPPO小布助手网页版正式上线，网页版接入满血版DeepSeek，支持联网搜索和结果导出功能。登录OPPO账号后，可同步手机端历史对话记录。",
+      "originalContent": "OPPO 推出的小布助手网页版上线，登录 OPPO 账号可同步手机端历史对话记录 OPPO小布助手网页版正式上线，网页版接入满血版DeepSeek，支持联网搜索和结果导出功能。登录OPPO账号后，可同步手机端历史对话记录。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.268Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "智能体"
+      ],
+      "dateText": "4月14日·周一"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.031Z"
+  "updateTime": "2025-07-09T10:29:02.481Z"
 }

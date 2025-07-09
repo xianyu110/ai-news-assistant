@@ -1,0 +1,59 @@
+{
+  "date": "2025-04-30",
+  "count": 3,
+  "data": [
+    {
+      "id": "34606449",
+      "title": "小米首个推理大模型开源 Xiaomi MiMo：为“Reasoning”而生！",
+      "content": "小米开源首个推理大模型「Xiaomi MiMo」。模型专注于提升推理能力，通过联动预训练和后训练，在数学推理和代码竞赛公开测评集中，仅用7B参数规模就超越了OpenAI的o1-mini和阿里的QwQ-32B-Preview。MiMo在强化学习潜力上显著领先，采用三阶段预训练和创新的后训练算法，设计了Seamless Rollout系统加速训练。",
+      "originalContent": "小米首个推理大模型开源 Xiaomi MiMo：为“Reasoning”而生！ 小米开源首个推理大模型「Xiaomi MiMo」。模型专注于提升推理能力，通过联动预训练和后训练，在数学推理和代码竞赛公开测评集中，仅用7B参数规模就超越了OpenAI的o1-mini和阿里的QwQ-32B-Preview。MiMo在强化学习潜力上显著领先，采用三阶段预训练和创新的后训练算法，设计了Seamless Rollout系统加速训练。",
+      "source": "Xiaomi MiMo",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-30T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.246Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月30日·周三"
+    },
+    {
+      "id": "05fccef8",
+      "title": "Meta 推出独立 AI 助手应用，融合社交元素挑战 ChatGPT",
+      "content": "Meta发布独立AI助手应用“Meta AI”，挑战ChatGPT。应用具备文字输入、语音对话、图像生成和实时搜索功能，最大创新是“发现”信息流，用户可查看并互动其他用户分享的AI交互内容。语音模式基于“全双工”AI模型，更具对话性，目前已在美国、加拿大、澳大利亚和新西兰上线。",
+      "originalContent": "Meta 推出独立 AI 助手应用，融合社交元素挑战 ChatGPT Meta发布独立AI助手应用“Meta AI”，挑战ChatGPT。应用具备文字输入、语音对话、图像生成和实时搜索功能，最大创新是“发现”信息流，用户可查看并互动其他用户分享的AI交互内容。语音模式基于“全双工”AI模型，更具对话性，目前已在美国、加拿大、澳大利亚和新西兰上线。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-30T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.246Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "4月30日·周三"
+    },
+    {
+      "id": "29e14880",
+      "title": "智谱清言多项新功能上线，新增AutoGLM沉思网页版",
+      "content": "智谱清言宣布推出多项新功能，包括视频通话形象升级、定时提醒与邮件订阅功能、清影新版操作界面、AutoGLM沉思网页版上线。视频通话新增数字形象和自然动作表情，定时提醒功能可自动生成内容并通过App或邮件发送。AutoGLM沉思网页版新增Edge浏览器支持，优化多端体验。",
+      "originalContent": "智谱清言多项新功能上线，新增AutoGLM沉思网页版 智谱清言宣布推出多项新功能，包括视频通话形象升级、定时提醒与邮件订阅功能、清影新版操作界面、AutoGLM沉思网页版上线。视频通话新增数字形象和自然动作表情，定时提醒功能可自动生成内容并通过App或邮件发送。AutoGLM沉思网页版新增Edge浏览器支持，优化多端体验。",
+      "source": "智谱清言",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-30T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.245Z",
+      "category": "产品发布",
+      "tags": [
+        "发布"
+      ],
+      "dateText": "4月30日·周三"
+    }
+  ],
+  "updateTime": "2025-07-09T10:29:02.479Z"
+}

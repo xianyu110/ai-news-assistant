@@ -1,0 +1,56 @@
+{
+  "date": "2025-02-08",
+  "count": 3,
+  "data": [
+    {
+      "id": "51d01ae5",
+      "title": "Pika新功能Pikadditions上线，用AI为视频“加料”",
+      "content": "Pika推出新功能Pikadditions，用户仅需上传一张图片和一段视频，可将图片内容自然地添加到视频中，实现如“老虎扑人”“冰箱里的北极熊”等创意效果。基于AI技术，可根据原始视频动作智能生成引人入胜的合成画面。Pika官方提供15次免费体验机会。",
+      "originalContent": "Pika新功能Pikadditions上线，用AI为视频“加料” Pika推出新功能Pikadditions，用户仅需上传一张图片和一段视频，可将图片内容自然地添加到视频中，实现如“老虎扑人”“冰箱里的北极熊”等创意效果。基于AI技术，可根据原始视频动作智能生成引人入胜的合成画面。Pika官方提供15次免费体验机会。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-08T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.324Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月8日·周六"
+    },
+    {
+      "id": "56393920",
+      "title": "Github重磅发布Agent模式和Copilot Edits，主动修复错误代码",
+      "content": "微软宣布GitHub Copilot全面支持代理功能，推出首个自主SWE智能体。可自主迭代代码、修复错误、建议并执行终端命令。同时GitHub Copilot Edits上线，支持多文件编辑与代码更改意见。微软计划将在今年内融入GitHub用户体验。",
+      "originalContent": "Github重磅发布Agent模式和Copilot Edits，主动修复错误代码 微软宣布GitHub Copilot全面支持代理功能，推出首个自主SWE智能体。可自主迭代代码、修复错误、建议并执行终端命令。同时GitHub Copilot Edits上线，支持多文件编辑与代码更改意见。微软计划将在今年内融入GitHub用户体验。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-08T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.324Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "智能体"
+      ],
+      "dateText": "2月8日·周六"
+    },
+    {
+      "id": "d6c5b91f",
+      "title": "软银即将完成对 OpenAI 的 400 亿美元投资，超越微软成为最大金主",
+      "content": "软银即将完成对OpenAI的400亿美元投资，投前估值为2600亿美元，投后估值达3000亿美元。资金将在未来12至24个月内支付，第一笔款项最快于春季到账。投资完成后，软银将超越微软，成为OpenAI的最大投资方。部分资金将用于OpenAI与软银、甲骨文合资的“星际之门”项目。",
+      "originalContent": "软银即将完成对 OpenAI 的 400 亿美元投资，超越微软成为最大金主 软银即将完成对OpenAI的400亿美元投资，投前估值为2600亿美元，投后估值达3000亿美元。资金将在未来12至24个月内支付，第一笔款项最快于春季到账。投资完成后，软银将超越微软，成为OpenAI的最大投资方。部分资金将用于OpenAI与软银、甲骨文合资的“星际之门”项目。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-08T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.325Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具"
+      ],
+      "dateText": "2月8日·周六"
+    }
+  ],
+  "updateTime": "2025-07-09T10:29:02.492Z"
+}

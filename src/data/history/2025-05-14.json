@@ -1,25 +1,7 @@
 {
   "date": "2025-05-14",
-  "count": 8,
+  "count": 9,
   "data": [
-    {
-      "id": "40b6c227",
-      "title": "OpenAI 升级 ChatGPT AI 聊天机器人，GPT-4.1 编程专家模型登场",
-      "content": "OpenAI在ChatGPT中引入GPT-4.1模型，Pro、Plus和Team用户可通过“More models”菜单立即使用，Enterprise和Edu用户将在未来几周内获得权限。GPT-4.1擅长编程任务，能精确遵循指令，避免冗长输出，相比GPT-4o效率更高、输出更稳定，整体性能更优。",
-      "originalContent": "OpenAI 升级 ChatGPT AI 聊天机器人，GPT-4.1 编程专家模型登场 OpenAI在ChatGPT中引入GPT-4.1模型，Pro、Plus和Team用户可通过“More models”菜单立即使用，Enterprise和Edu用户将在未来几周内获得权限。GPT-4.1擅长编程任务，能精确遵循指令，避免冗长输出，相比GPT-4o效率更高、输出更稳定，整体性能更优。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.557Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "大模型",
-        "AI工具",
-        "机器人"
-      ],
-      "dateText": "5月15日·周四"
-    },
     {
       "id": "de674811",
       "title": "OpenAI在ChatGPT中引入GPT-4.1模型，Pro、Plus和Team用户可通过“More models”菜单立即使用，Enterprise和Edu用户将在未来几周内获得权限。GPT-4.1擅长编程任务，能精确遵循指令，避免冗长输出，相比GPT-4o效率更高、输出更稳定，整体性能更优。来源：IT之家",
@@ -39,23 +21,6 @@
       "dateText": "5月15日"
     },
     {
-      "id": "a6c793ad",
-      "title": "MiniMax发布TTS系统 MiniMax Speech 02，AI语音的Her Moment",
-      "content": "稀宇科技旗下MiniMax团队发布基于AR Transformer模型的高质量TTS系统——MiniMax Speech 02。系统具有强大的泛化能力，可驾驭32语种、不同口音、情绪的人声，核心创新在于内在的Zero-Shot能力，通过“会学习的音色提取器”与AR Transformer协同，实现任意语言、口音、音色的无限组合。",
-      "originalContent": "MiniMax发布TTS系统 MiniMax Speech 02，AI语音的Her Moment 稀宇科技旗下MiniMax团队发布基于AR Transformer模型的高质量TTS系统——MiniMax Speech 02。系统具有强大的泛化能力，可驾驭32语种、不同口音、情绪的人声，核心创新在于内在的Zero-Shot能力，通过“会学习的音色提取器”与AR Transformer协同，实现任意语言、口音、音色的无限组合。",
-      "source": "MiniMax 稀宇科技",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.557Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月15日·周四"
-    },
-    {
       "id": "b7935b1d",
       "title": "稀宇科技旗下MiniMax团队发布基于AR Transformer模型的高质量TTS系统——MiniMax Speech 02。系统具有强大的泛化能力，可驾驭32语种、不同口音、情绪的人声，核心创新在于内在的Zero-Shot能力，通过“会学习的音色提取器”与AR Transformer协同，实现任意语言、口音、音色的无限组合。来源：MiniMax 稀宇科技",
       "content": "谷歌发布AlphaEvolve：能发明新算法、改进芯片设计、解疑难数学题",
@@ -71,25 +36,6 @@
         "技术"
       ],
       "dateText": "5月15日"
-    },
-    {
-      "id": "b119297e",
-      "title": "谷歌发布AlphaEvolve：能发明新算法、改进芯片设计、解疑难数学题",
-      "content": "DeepMind宣布推出AlphaEvolve，是基于Gemini驱动的进化编码智能体，用于发现和优化通用算法。AlphaEvolve结合了大型语言模型的创造性与自动化评估器的验证能力，通过进化框架改进最有潜力的想法。已优化了谷歌数据中心、芯片设计和AI训练流程，包括训练自身底层的大型语言模型。",
-      "originalContent": "谷歌发布AlphaEvolve：能发明新算法、改进芯片设计、解疑难数学题 DeepMind宣布推出AlphaEvolve，是基于Gemini驱动的进化编码智能体，用于发现和优化通用算法。AlphaEvolve结合了大型语言模型的创造性与自动化评估器的验证能力，通过进化框架改进最有潜力的想法。已优化了谷歌数据中心、芯片设计和AI训练流程，包括训练自身底层的大型语言模型。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.558Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "技术",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "5月15日·周四"
     },
     {
       "id": "f4b437a3",
@@ -129,23 +75,93 @@
       "dateText": "5月15日"
     },
     {
-      "id": "ef99fd64",
-      "title": "通义万相VACE开源！一款模型搞定多种视频编辑任务",
-      "content": "通义万相VACE开源。VACE支持480P和720P分辨率，可一站式完成文生视频、图像参考生成、局部编辑与视频扩展等任务，无需频繁切换工具。核心技术是多模态输入机制，集文本、图像、视频、Mask和控制信号于一体，支持多种单任务能力自由组合。",
-      "originalContent": "通义万相VACE开源！一款模型搞定多种视频编辑任务 通义万相VACE开源。VACE支持480P和720P分辨率，可一站式完成文生视频、图像参考生成、局部编辑与视频扩展等任务，无需频繁切换工具。核心技术是多模态输入机制，集文本、图像、视频、Mask和控制信号于一体，支持多种单任务能力自由组合。",
-      "source": "通义大模型",
+      "id": "355b44ca",
+      "title": "多模态上新，阶跃星辰开源 3D 大模型 Step1X-3D",
+      "content": "阶跃星辰正式发布并开源3D大模型Step1X-3D，总参数量达4.8B，由几何模块1.3B和纹理模块3.5B组成。模型基于超500万原始数据筛选出200万高质量样本训练，采用3D原生两阶段架构，解耦几何与纹理表征，生成高保真、可控的3D内容。",
+      "originalContent": "多模态上新，阶跃星辰开源 3D 大模型 Step1X-3D 阶跃星辰正式发布并开源3D大模型Step1X-3D，总参数量达4.8B，由几何模块1.3B和纹理模块3.5B组成。模型基于超500万原始数据筛选出200万高质量样本训练，采用3D原生两阶段架构，解耦几何与纹理表征，生成高保真、可控的3D内容。",
+      "source": "阶跃星辰",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-14T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.558Z",
+      "publishTime": "2025-05-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.227Z",
       "category": "开源项目",
       "tags": [
         "开源",
+        "发布",
+        "大模型",
+        "3D"
+      ],
+      "dateText": "5月14日·周三"
+    },
+    {
+      "id": "df3952f6",
+      "title": "Notion推出AI会议笔记AI Meeting Notes，转录+搜索+研究模式",
+      "content": "Notion推出AI会议笔记工具AI Meeting Notes，正式进入会议转录领域。功能可转录会议内容并提供讨论要点摘要，用户还能在转录时做笔记。Notion发布了企业搜索功能和研究模式，支持跨平台搜索及借助AI模型研究主题。",
+      "originalContent": "Notion推出AI会议笔记AI Meeting Notes，转录+搜索+研究模式 Notion推出AI会议笔记工具AI Meeting Notes，正式进入会议转录领域。功能可转录会议内容并提供讨论要点摘要，用户还能在转录时做笔记。Notion发布了企业搜索功能和研究模式，支持跨平台搜索及借助AI模型研究主题。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.228Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
         "大模型",
         "技术",
         "AI工具"
       ],
-      "dateText": "5月15日·周四"
+      "dateText": "5月14日·周三"
+    },
+    {
+      "id": "4f24fc3d",
+      "title": "具身智能「星际光年」获数千万天使+轮融资，加速公司场景落地",
+      "content": "具身智能公司「星际光年」宣布完成数千万天使轮和天使+轮融资，由峰瑞资本、嘉程资本，云时资本、水木清华校友种子基金领投和跟投。本轮融资将用于加速产品研发升级、扩大团队规模和加速场景落地。",
+      "originalContent": "具身智能「星际光年」获数千万天使+轮融资，加速公司场景落地 具身智能公司「星际光年」宣布完成数千万天使轮和天使+轮融资，由峰瑞资本、嘉程资本，云时资本、水木清华校友种子基金领投和跟投。本轮融资将用于加速产品研发升级、扩大团队规模和加速场景落地。",
+      "source": "Z Potentials",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.228Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "机器人"
+      ],
+      "dateText": "5月14日·周三"
+    },
+    {
+      "id": "48f5aa54",
+      "title": "美国商务部废除拜登签署的《AI扩散规则》，并要求全球不准使用华为AI芯片",
+      "content": "美国商务部废除拜登签署的《AI扩散规则》，并加强对全球芯片出口管制。规则原定于2025年5月15日生效，但被认为会扼杀美国创新并损害外交关系。与此同时，美国商务部发布新规，禁止全球使用华为昇腾AI芯片，并警告使用美国AI芯片训练和干扰中国人工智能模型的潜在后果。",
+      "originalContent": "美国商务部废除拜登签署的《AI扩散规则》，并要求全球不准使用华为AI芯片 美国商务部废除拜登签署的《AI扩散规则》，并加强对全球芯片出口管制。规则原定于2025年5月15日生效，但被认为会扼杀美国创新并损害外交关系。与此同时，美国商务部发布新规，禁止全球使用华为昇腾AI芯片，并警告使用美国AI芯片训练和干扰中国人工智能模型的潜在后果。",
+      "source": "钛媒体AGI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.228Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "5月14日·周三"
+    },
+    {
+      "id": "02de28f5",
+      "title": "通义千问上新Deep Research！让Qwen帮你「深入研究」一下吧",
+      "content": "Qwen团队推出智能助理系统Deep Research（深入研究），已在QwenChat免费开放体验。系统可规划复杂研究任务，结合互联网海量信息，多步骤搜索分析总结，十几分钟生成详尽报告，附清晰引用来源。基于Qwen模型，融合多种能力，实现研究闭环。",
+      "originalContent": "通义千问上新Deep Research！让Qwen帮你「深入研究」一下吧 Qwen团队推出智能助理系统Deep Research（深入研究），已在QwenChat免费开放体验。系统可规划复杂研究任务，结合互联网海量信息，多步骤搜索分析总结，十几分钟生成详尽报告，附清晰引用来源。基于Qwen模型，融合多种能力，实现研究闭环。",
+      "source": "通义千问Qwen",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-14T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.228Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "5月14日·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.013Z"
+  "updateTime": "2025-07-09T10:29:02.477Z"
 }

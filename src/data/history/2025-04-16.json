@@ -1,24 +1,7 @@
 {
   "date": "2025-04-16",
-  "count": 9,
+  "count": 11,
   "data": [
-    {
-      "id": "3f9946d7",
-      "title": "OpenAI 推出最强推理模型 o3 和 o4-mini，支持“图像思考”与多模态推理",
-      "content": "OpenAI 推出了最新的满血版o3 和 o4-mini 模型，是目前最智能的版本，具备全面的工具访问能力。o3 是功能最强大的推理模型，擅长多领域任务，如编程、数学、科学和视觉感知等，在视觉任务上表现出色，能分析图像、图表等，在复杂查询中提供精准答案。o4-mini 以快速、高效的推理能力著称，适合高吞吐量任务。",
-      "originalContent": "OpenAI 推出最强推理模型 o3 和 o4-mini，支持“图像思考”与多模态推理 OpenAI 推出了最新的满血版o3 和 o4-mini 模型，是目前最智能的版本，具备全面的工具访问能力。o3 是功能最强大的推理模型，擅长多领域任务，如编程、数学、科学和视觉感知等，在视觉任务上表现出色，能分析图像、图表等，在复杂查询中提供精准答案。o4-mini 以快速、高效的推理能力著称，适合高吞吐量任务。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-16T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.623Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "4月17日·周四"
-    },
     {
       "id": "8bd14749",
       "title": "OpenAI 推出了最新的满血版o3 和 o4-mini 模型，是目前最智能的版本，具备全面的工具访问能力。o3 是功能最强大的推理模型，擅长多领域任务，如编程、数学、科学和视觉感知等，在视觉任务上表现出色，能分析图像、图表等，在复杂查询中提供精准答案。o4-mini 以快速、高效的推理能力著称，适合高吞吐量任务。来源：AI工具集",
@@ -35,24 +18,6 @@
         "AI工具"
       ],
       "dateText": "4月17日"
-    },
-    {
-      "id": "5e7eeb5b",
-      "title": "字节跳动正式发布豆包1.5深度思考模型，文生图模型升级至3.0",
-      "content": "字节跳动在火山引擎AI创新巡展杭州站发布豆包1.5深度思考模型。模型采用MoE架构，总参数200B，激活参数20B，推理成本优势显著。在数学、编程、科学推理及创意写作等领域表现出色，结合视觉理解技术可实现地貌分析、辅助点餐等功能。",
-      "originalContent": "字节跳动正式发布豆包1.5深度思考模型，文生图模型升级至3.0 字节跳动在火山引擎AI创新巡展杭州站发布豆包1.5深度思考模型。模型采用MoE架构，总参数200B，激活参数20B，推理成本优势显著。在数学、编程、科学推理及创意写作等领域表现出色，结合视觉理解技术可实现地貌分析、辅助点餐等功能。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-16T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.623Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "4月17日·周四"
     },
     {
       "id": "bb9c2121",
@@ -74,25 +39,6 @@
       "dateText": "4月17日"
     },
     {
-      "id": "c5fb73cc",
-      "title": "再创开源多模态大模型性能标杆，书生·万象3.0升级发布，创新预训练方法",
-      "content": "上海人工智能实验室开源升级了通用多模态大模型书生·万象3.0（InternVL3）。模型采用创新的多模态预训练方法，将语言和多模态学习整合于同一预训练阶段，显著提升了多模态基础能力。在10亿至780亿参数的全量级版本中，InternVL3在开源模型性能上位列第一，接近闭源模型Gemini-2.5-Pro。",
-      "originalContent": "再创开源多模态大模型性能标杆，书生·万象3.0升级发布，创新预训练方法 上海人工智能实验室开源升级了通用多模态大模型书生·万象3.0（InternVL3）。模型采用创新的多模态预训练方法，将语言和多模态学习整合于同一预训练阶段，显著提升了多模态基础能力。在10亿至780亿参数的全量级版本中，InternVL3在开源模型性能上位列第一，接近闭源模型Gemini-2.5-Pro。",
-      "source": "上海人工智能实验室",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-16T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.623Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "研究",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "4月17日·周四"
-    },
-    {
       "id": "d5f7cfe8",
       "title": "上海人工智能实验室开源升级了通用多模态大模型书生·万象3.0（InternVL3）。模型采用创新的多模态预训练方法，将语言和多模态学习整合于同一预训练阶段，显著提升了多模态基础能力。在10亿至780亿参数的全量级版本中，InternVL3在开源模型性能上位列第一，接近闭源模型Gemini-2.5-Pro。来源：上海人工智能实验室",
       "content": "消息称 OpenAI 考虑以 30 亿美元收购人工智能编程工具 Windsurf",
@@ -110,24 +56,6 @@
         "AI工具"
       ],
       "dateText": "4月17日"
-    },
-    {
-      "id": "76c0c6c5",
-      "title": "消息称 OpenAI 考虑以 30 亿美元收购人工智能编程工具 Windsurf",
-      "content": "OpenAI 正在考虑以约 30 亿美元收购人工智能编程工具 Windsurf（原名 Codeium）。如果收购成功，将是 OpenAI 有史以来最大的一笔交易，增强其在 AI 编程助手市场的竞争力。Windsurf 专注于根据自然语言提示编写代码，此前曾计划按 30 亿美元估值融资。",
-      "originalContent": "消息称 OpenAI 考虑以 30 亿美元收购人工智能编程工具 Windsurf OpenAI 正在考虑以约 30 亿美元收购人工智能编程工具 Windsurf（原名 Codeium）。如果收购成功，将是 OpenAI 有史以来最大的一笔交易，增强其在 AI 编程助手市场的竞争力。Windsurf 专注于根据自然语言提示编写代码，此前曾计划按 30 亿美元估值融资。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-16T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.624Z",
-      "category": "投融资",
-      "tags": [
-        "融资",
-        "合作",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "4月17日·周四"
     },
     {
       "id": "9cacf466",
@@ -149,20 +77,127 @@
       "dateText": "4月17日"
     },
     {
-      "id": "b97139c5",
-      "title": "Anthropic官方推出了两个重磅新功能：Research 与 Google Workspace 集成",
-      "content": "Anthropic公司旗下的Claude推出两大新功能：Research和与Google Workspace集成。Research功能可快速检索网络与内部文件，精准回答复杂问题；Google Workspace集成则让用户能无缝调用Gmail、日历和文档信息，轻松完成任务。",
-      "originalContent": "Anthropic官方推出了两个重磅新功能：Research 与 Google Workspace 集成 Anthropic公司旗下的Claude推出两大新功能：Research和与Google Workspace集成。Research功能可快速检索网络与内部文件，精准回答复杂问题；Google Workspace集成则让用户能无缝调用Gmail、日历和文档信息，轻松完成任务。",
-      "source": "新智元",
+      "id": "2fca97af",
+      "title": "微信上线首个AI助手“元宝”，聊天答题与文件解析功能齐备",
+      "content": "微信首个AI助手“元宝”正式上线。用户可通过微信搜索或扫描二维码添加为联系人。“元宝”搭载腾讯混元大模型和DeepSeek双模引擎，支持聊天、答题、文件解析（100M以内）、公众号文章解读及图片识别等功能，暂不支持语音/视频通话、群聊、修改昵称、红包转账等。",
+      "originalContent": "微信上线首个AI助手“元宝”，聊天答题与文件解析功能齐备 微信首个AI助手“元宝”正式上线。用户可通过微信搜索或扫描二维码添加为联系人。“元宝”搭载腾讯混元大模型和DeepSeek双模引擎，支持聊天、答题、文件解析（100M以内）、公众号文章解读及图片识别等功能，暂不支持语音/视频通话、群聊、修改昵称、红包转账等。",
+      "source": "APPSO",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-04-16T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.624Z",
+      "publishTime": "2025-04-16T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.264Z",
       "category": "产品发布",
       "tags": [
-        "发布"
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
       ],
-      "dateText": "4月17日·周四"
+      "dateText": "4月16日·周三"
+    },
+    {
+      "id": "4101ffee",
+      "title": "国际版 Trae IDE 正式支持 Gemini 2.5 Pro 和 GPT-4.1",
+      "content": "Trae IDE宣布正式支持Gemini 2.5 Pro和GPT-4.1模型，增强了内置模型功能。用户现在可以在国际版Trae IDE中直接使用，提升开发效率和创新能力。",
+      "originalContent": "国际版 Trae IDE 正式支持 Gemini 2.5 Pro 和 GPT-4.1 Trae IDE宣布正式支持Gemini 2.5 Pro和GPT-4.1模型，增强了内置模型功能。用户现在可以在国际版Trae IDE中直接使用，提升开发效率和创新能力。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-16T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.264Z",
+      "category": "综合资讯",
+      "tags": [
+        "GPT",
+        "大模型"
+      ],
+      "dateText": "4月16日·周三"
+    },
+    {
+      "id": "0854bf5b",
+      "title": "xAI 旗下Grok 推出 Grok Studio 功能：可 AI 编辑创建文档、代码、报告等",
+      "content": "xAI旗下Grok宣布推出Grok Studio功能，支持用户编辑和创建文档、代码、报告，简单浏览器游戏。Grok Studio可在独立窗口中打开内容，用户可与Grok实时协作完善项目。免费和付费用户均可使用，支持预览HTML片段并运行Python、C++和JavaScript等代码。",
+      "originalContent": "xAI 旗下Grok 推出 Grok Studio 功能：可 AI 编辑创建文档、代码、报告等 xAI旗下Grok宣布推出Grok Studio功能，支持用户编辑和创建文档、代码、报告，简单浏览器游戏。Grok Studio可在独立窗口中打开内容，用户可与Grok实时协作完善项目。免费和付费用户均可使用，支持预览HTML片段并运行Python、C++和JavaScript等代码。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-16T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.264Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "4月16日·周三"
+    },
+    {
+      "id": "7952ae8a",
+      "title": "OpenAI ChatGPT 上线图库功能，更轻松管理 AI 生成图片",
+      "content": "OpenAI 宣布 ChatGPT 上线 Image Library 图库功能，帮助用户更便捷地管理和查看 AI 生成的图像。功能已向所有 Free、Plus 和 Pro 用户开放，覆盖移动端和网页端。",
+      "originalContent": "OpenAI ChatGPT 上线图库功能，更轻松管理 AI 生成图片 OpenAI 宣布 ChatGPT 上线 Image Library 图库功能，帮助用户更便捷地管理和查看 AI 生成的图像。功能已向所有 Free、Plus 和 Pro 用户开放，覆盖移动端和网页端。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-16T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.265Z",
+      "category": "产品发布",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "4月16日·周三"
+    },
+    {
+      "id": "b173f349",
+      "title": "AI 音乐商用创作平台Mureka火爆海外，正式开放国内登陆入口和API",
+      "content": "昆仑万维集团旗下的 AI 音乐商用创作平台 Mureka 正式开放国内登录入口和 API。Mureka 自 2024 年上线以来，在全球范围内收获极高人气，支持纯音乐及 10 种语言的音乐创作。其 Mureka V6 是基座模型，Mureka O1 是推理优化版本，可提升音乐品质和创作效率。",
+      "originalContent": "AI 音乐商用创作平台Mureka火爆海外，正式开放国内登陆入口和API 昆仑万维集团旗下的 AI 音乐商用创作平台 Mureka 正式开放国内登录入口和 API。Mureka 自 2024 年上线以来，在全球范围内收获极高人气，支持纯音乐及 10 种语言的音乐创作。其 Mureka V6 是基座模型，Mureka O1 是推理优化版本，可提升音乐品质和创作效率。",
+      "source": "昆仑万维集团",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-16T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.265Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月16日·周三"
+    },
+    {
+      "id": "c91b20ef",
+      "title": "中国第一家启动IPO的“大模型六虎”来袭！智谱融资超160亿，美国OpenAI也将IPO",
+      "content": "智谱 AI 启动 IPO 上市流程，成为中国第一家进入 IPO 阶段的“大模型六虎”公司。智谱 AI 成立于 2019 年，由清华大学计算机系技术转化而来，目前累计融资超 160 亿元，投后估值超 200 亿元。",
+      "originalContent": "中国第一家启动IPO的“大模型六虎”来袭！智谱融资超160亿，美国OpenAI也将IPO 智谱 AI 启动 IPO 上市流程，成为中国第一家进入 IPO 阶段的“大模型六虎”公司。智谱 AI 成立于 2019 年，由清华大学计算机系技术转化而来，目前累计融资超 160 亿元，投后估值超 200 亿元。",
+      "source": "钛媒体AGI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-16T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.265Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月16日·周三"
+    },
+    {
+      "id": "e760cfe4",
+      "title": "谷歌 Veo 2 视频生成模型入驻 Gemini，可创建 8 秒 720p 视频",
+      "content": "谷歌宣布将旗下 Veo 2 视频生成 AI 模型引入 Gemini Advanced，用户可创建 8 秒、720p 分辨率、16:9 宽高比的视频片段，通过 Gemini 将视频上传至 TikTok、YouTube 等平台。Veo 2 生成的视频可下载为带有谷歌 SynthID 水印的 MP4 文件。Veo 2 整合至 Google Labs 的 Whisk 功能中，可将图片转化为 8 秒视频。",
+      "originalContent": "谷歌 Veo 2 视频生成模型入驻 Gemini，可创建 8 秒 720p 视频 谷歌宣布将旗下 Veo 2 视频生成 AI 模型引入 Gemini Advanced，用户可创建 8 秒、720p 分辨率、16:9 宽高比的视频片段，通过 Gemini 将视频上传至 TikTok、YouTube 等平台。Veo 2 生成的视频可下载为带有谷歌 SynthID 水印的 MP4 文件。Veo 2 整合至 Google Labs 的 Whisk 功能中，可将图片转化为 8 秒视频。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-04-16T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.264Z",
+      "category": "综合资讯",
+      "tags": [
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "4月16日·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.028Z"
+  "updateTime": "2025-07-09T10:29:02.481Z"
 }

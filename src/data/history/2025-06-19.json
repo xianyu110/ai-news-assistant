@@ -1,127 +1,74 @@
 {
   "date": "2025-06-19",
-  "count": 7,
+  "count": 4,
   "data": [
     {
-      "id": "1f3a5387",
-      "title": "MiniMax推出Hailuo Video Agent视频创作Agent",
-      "content": "MiniMax稀宇科技推出Hailuo Video Agent视频创作Agent的Beta版本。降低视频创作门槛，让用户通过简单输入文字或图片，即可一键生成高质量创意短片。目前处于第一阶段，提供专业视频创意Agent模板，未来将逐步开放半自定义和端到端视频Agent功能。",
-      "originalContent": "MiniMax推出Hailuo Video Agent视频创作Agent MiniMax稀宇科技推出Hailuo Video Agent视频创作Agent的Beta版本。降低视频创作门槛，让用户通过简单输入文字或图片，即可一键生成高质量创意短片。目前处于第一阶段，提供专业视频创意Agent模板，未来将逐步开放半自定义和端到端视频Agent功能。",
+      "id": "6bd6022a",
+      "title": "红杉中国正式开源xbench两个评测集",
+      "content": "红杉中国正式开源xbench评测集，包括xbench-ScienceQA和xbench-DeepSearch两个子集。xbench-ScienceQA聚焦高难度科学与工程问答，邀请博士生和专家出题，题目难度高、区分度好，平均正确率仅32%。xbench-DeepSearch针对 AgentAI的深度搜索能力，考察规划、搜索、推理和总结能力，适配中文互联网环境。",
+      "originalContent": "红杉中国正式开源xbench两个评测集 红杉中国正式开源xbench评测集，包括xbench-ScienceQA和xbench-DeepSearch两个子集。xbench-ScienceQA聚焦高难度科学与工程问答，邀请博士生和专家出题，题目难度高、区分度好，平均正确率仅32%。xbench-DeepSearch针对 AgentAI的深度搜索能力，考察规划、搜索、推理和总结能力，适配中文互联网环境。",
+      "source": "红杉汇",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-19T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.192Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "6月19·周四"
+    },
+    {
+      "id": "f191dcd2",
+      "title": "Midjourney正式推出首个视频生成模型V1，很快、很好、很便宜",
+      "content": "Midjourney推出视频生成模型V1，是一款图生视频模型。用户在生成静态图像后，点击“Animate”按钮即可让画面动起来。系统提供“自动动画”和“手动动画”两种模式，以及低动态和高动态两种强度选项，分别适合不同场景需求。生成视频后，能进行延长操作，每次延长约4秒，最多可延长4次。",
+      "originalContent": "Midjourney正式推出首个视频生成模型V1，很快、很好、很便宜 Midjourney推出视频生成模型V1，是一款图生视频模型。用户在生成静态图像后，点击“Animate”按钮即可让画面动起来。系统提供“自动动画”和“手动动画”两种模式，以及低动态和高动态两种强度选项，分别适合不同场景需求。生成视频后，能进行延长操作，每次延长约4秒，最多可延长4次。",
+      "source": "Midjourney",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-06-19T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.191Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "6月19·周四"
+    },
+    {
+      "id": "b450cd39",
+      "title": "MiniMax Agent，能完成长程复杂任务的通用智能体",
+      "content": "MiniMax稀宇科技发布的MiniMax Agent通用智能体。能完成长程复杂任务，具备多步规划和灵活拆解任务需求的能力，可生成讨论材料、学习教程、视频等多种内容。设计遵循“靠谱的人”标准，支持多模态输入输出，集成多种办公工具扩展能力。",
+      "originalContent": "MiniMax Agent，能完成长程复杂任务的通用智能体 MiniMax稀宇科技发布的MiniMax Agent通用智能体。能完成长程复杂任务，具备多步规划和灵活拆解任务需求的能力，可生成讨论材料、学习教程、视频等多种内容。设计遵循“靠谱的人”标准，支持多模态输入输出，集成多种办公工具扩展能力。",
       "source": "MiniMax 稀宇科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.465Z",
+      "publishTime": "2025-06-19T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.192Z",
       "category": "产品发布",
       "tags": [
-        "开源",
         "发布",
+        "AI工具",
         "智能体"
       ],
-      "dateText": "6月20·周五"
+      "dateText": "6月19·周四"
     },
     {
-      "id": "ff3cc74b",
-      "title": "昆仑万维正式开源Skywork-SWE-32B，最强仓库级代码修复能力",
-      "content": "昆仑万维发布并开源Skywork-SWE-32B模型，是业界首个开源的32B规模、具备强大仓库级代码修复能力的软件工程自主代码智能体基座模型。模型基于超过1万个可验证的GitHub仓库任务实例构建，刷新了SWE-bench Verified基准上32B模型的最佳成绩，准确率从38.0%提升至47.0%。",
-      "originalContent": "昆仑万维正式开源Skywork-SWE-32B，最强仓库级代码修复能力 昆仑万维发布并开源Skywork-SWE-32B模型，是业界首个开源的32B规模、具备强大仓库级代码修复能力的软件工程自主代码智能体基座模型。模型基于超过1万个可验证的GitHub仓库任务实例构建，刷新了SWE-bench Verified基准上32B模型的最佳成绩，准确率从38.0%提升至47.0%。",
-      "source": "昆仑万维集团",
+      "id": "9636ab9d",
+      "title": "AI陪伴硬件公司“珞博智能”完成数千万人民币融资，上影、金沙江领投",
+      "content": "AI陪伴硬件初创公司珞博智能近日完成数千万元人民币天使轮融资，由零一创投、上影新视野基金和金沙江创投参与投资。珞博智能成立于2024年，首款产品芙崽Fuzozo于2025年3月发布，6月正式投入市场销售。芙崽是一款AI养成系潮玩，通过多模态交互与类宠物养成玩法，为Z世代人群提供情感陪伴。",
+      "originalContent": "AI陪伴硬件公司“珞博智能”完成数千万人民币融资，上影、金沙江领投 AI陪伴硬件初创公司珞博智能近日完成数千万元人民币天使轮融资，由零一创投、上影新视野基金和金沙江创投参与投资。珞博智能成立于2024年，首款产品芙崽Fuzozo于2025年3月发布，6月正式投入市场销售。芙崽是一款AI养成系潮玩，通过多模态交互与类宠物养成玩法，为Z世代人群提供情感陪伴。",
+      "source": "Robopoet珞博智能",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.467Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "大模型",
-        "智能体"
-      ],
-      "dateText": "6月20·周五"
-    },
-    {
-      "id": "74f32e4f",
-      "title": "DeepSite V2上线，一句话建网页、做动画、改样式",
-      "content": "DeepSeek开源生态推出DeepSite V2版本，基于DeepSeek R1‑0528模型的AI网页生成器。用户通过文字提示即可生成、预览并迭代网站页面，无需本地环境配置。V2版本升级了交互界面，支持推理式建站、细粒度编辑功能和增量差异补丁技术，可快速修改页面而不需重写代码。",
-      "originalContent": "DeepSite V2上线，一句话建网页、做动画、改样式 DeepSeek开源生态推出DeepSite V2版本，基于DeepSeek R1‑0528模型的AI网页生成器。用户通过文字提示即可生成、预览并迭代网站页面，无需本地环境配置。V2版本升级了交互界面，支持推理式建站、细粒度编辑功能和增量差异补丁技术，可快速修改页面而不需重写代码。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.467Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "6月20·周五"
-    },
-    {
-      "id": "12f1e33a",
-      "title": "谷歌 Search Live 语音搜索功能上线：支持连续对话",
-      "content": "谷歌在美国上线了基于Gemini模型的Search Live语音搜索功能，适用于iOS和Android版应用。用户在启用AI模式后，点击Live图标即可通过语音对话提问，谷歌会以AI语音回应，支持连续对话，无需重复操作。",
-      "originalContent": "谷歌 Search Live 语音搜索功能上线：支持连续对话 谷歌在美国上线了基于Gemini模型的Search Live语音搜索功能，适用于iOS和Android版应用。用户在启用AI模式后，点击Live图标即可通过语音对话提问，谷歌会以AI语音回应，支持连续对话，无需重复操作。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.469Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "6月20·周五"
-    },
-    {
-      "id": "8314632a",
-      "title": "腾讯AI Lab开源音乐生成大模型SongGeneration",
-      "content": "腾讯AI Lab开源了音乐生成大模型SongGeneration，专注于解决音乐AIGC中的音质、音乐性与生成速度三大难题。模型基于LLM-DiT融合架构，支持文本控制、多轨合成与风格跟随等功能，生成歌曲在音质、旋律、伴奏等方面表现优异。SongGeneration采用低比特率编解码、多类别token并行预测等技术创新。",
-      "originalContent": "腾讯AI Lab开源音乐生成大模型SongGeneration 腾讯AI Lab开源了音乐生成大模型SongGeneration，专注于解决音乐AIGC中的音质、音乐性与生成速度三大难题。模型基于LLM-DiT融合架构，支持文本控制、多轨合成与风格跟随等功能，生成歌曲在音质、旋律、伴奏等方面表现优异。SongGeneration采用低比特率编解码、多类别token并行预测等技术创新。",
-      "source": "机器之心",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.466Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "6月20·周五"
-    },
-    {
-      "id": "f6cd651b",
-      "title": "xAI公司 Grok 上线“定时任务”新功能",
-      "content": "马斯克的xAI公司旗下的Grok上线了新功能——“定时任务”。支持用户设置定时自动触发的Grok提示，实现重复性工作的自动化。用户可以自定义任务的触发时间（精确到时/分）、周期（如每天、每周、每月等），设置邮件或App提醒。定时任务支持深度搜索功能。",
-      "originalContent": "xAI公司 Grok 上线“定时任务”新功能 马斯克的xAI公司旗下的Grok上线了新功能——“定时任务”。支持用户设置定时自动触发的Grok提示，实现重复性工作的自动化。用户可以自定义任务的触发时间（精确到时/分）、周期（如每天、每周、每月等），设置邮件或App提醒。定时任务支持深度搜索功能。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.468Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "6月20·周五"
-    },
-    {
-      "id": "7c914c10",
-      "title": "宇树科技完成C轮融资交割，估值超过100亿",
-      "content": "宇树科技完成C轮融资交割。此次融资始于去年底，由移动旗下基金、腾讯、锦秋、阿里、蚂蚁、吉利资本共同领投，绝大部分老股东参与跟投。",
-      "originalContent": "宇树科技完成C轮融资交割，估值超过100亿 宇树科技完成C轮融资交割。此次融资始于去年底，由移动旗下基金、腾讯、锦秋、阿里、蚂蚁、吉利资本共同领投，绝大部分老股东参与跟投。",
-      "source": "第一财经",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-06-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.468Z",
+      "publishTime": "2025-06-19T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.192Z",
       "category": "投融资",
       "tags": [
-        "融资"
+        "融资",
+        "发布",
+        "AI工具"
       ],
-      "dateText": "6月20·周五"
+      "dateText": "6月19·周四"
     }
   ],
-  "updateTime": "2025-07-09T07:55:17.988Z"
+  "updateTime": "2025-07-09T10:29:02.473Z"
 }

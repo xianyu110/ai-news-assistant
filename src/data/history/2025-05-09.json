@@ -1,0 +1,176 @@
+{
+  "date": "2025-05-09",
+  "count": 10,
+  "data": [
+    {
+      "id": "9037ec52",
+      "title": "以色列创业团队 Enigma Labs 推出首个 AI 生成的多人游戏 Multiverse",
+      "content": "以色列Enigma Labs团队宣布推出全球首款AI生成的多人游戏Multiverse。是一款多人赛车游戏，玩家可在游戏中超车、漂移、加速，每次行动会重塑游戏世界。开发者Jonathan Jacobi表示，多人游戏一直是AI生成世界中缺失的拼图，Multiverse成功补齐了这一空白。Multiverse的训练和研发成本加起来不到1500美元，可以在个人电脑上运行。",
+      "originalContent": "以色列创业团队 Enigma Labs 推出首个 AI 生成的多人游戏 Multiverse 以色列Enigma Labs团队宣布推出全球首款AI生成的多人游戏Multiverse。是一款多人赛车游戏，玩家可在游戏中超车、漂移、加速，每次行动会重塑游戏世界。开发者Jonathan Jacobi表示，多人游戏一直是AI生成世界中缺失的拼图，Multiverse成功补齐了这一空白。Multiverse的训练和研发成本加起来不到1500美元，可以在个人电脑上运行。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.231Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "5月9日·周五"
+    },
+    {
+      "id": "6d541fbb",
+      "title": "阿里开源创新大模型搜索引擎 ZeroSearch，成本直降 80%",
+      "content": "阿里巴巴开源 ZeroSearch 大模型搜索引擎，是无需与真实搜索引擎交互即可激励大模型搜索能力的强化学习框架。基于大模型预训练知识，将其转化为检索模块，可动态控制生成内容质量。在 7 大问答数据集综合评测中，搜索能力超谷歌。",
+      "originalContent": "阿里开源创新大模型搜索引擎 ZeroSearch，成本直降 80% 阿里巴巴开源 ZeroSearch 大模型搜索引擎，是无需与真实搜索引擎交互即可激励大模型搜索能力的强化学习框架。基于大模型预训练知识，将其转化为检索模块，可动态控制生成内容质量。在 7 大问答数据集综合评测中，搜索能力超谷歌。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.236Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "5月9日·周五"
+    },
+    {
+      "id": "caa26ce8",
+      "title": "专注轻办公场景，AR+AI眼镜品牌INAIR完成数千万元融资",
+      "content": "AR+AI眼镜品牌INAIR完成数千万元A轮融资，由威海创投领投，真知创投等老股东继续支持。INAIR成立于2022年，聚焦轻办公场景，以AR眼镜为核心入口，构建一体化便携式计算终端，自主研发的INAIR OS支持多屏协同、3D内容显示及跨终端数据流转，兼容Android应用生态，内建智能代理INAIR AI Agent，提升多任务处理效率。",
+      "originalContent": "专注轻办公场景，AR+AI眼镜品牌INAIR完成数千万元融资 AR+AI眼镜品牌INAIR完成数千万元A轮融资，由威海创投领投，真知创投等老股东继续支持。INAIR成立于2022年，聚焦轻办公场景，以AR眼镜为核心入口，构建一体化便携式计算终端，自主研发的INAIR OS支持多屏协同、3D内容显示及跨终端数据流转，兼容Android应用生态，内建智能代理INAIR AI Agent，提升多任务处理效率。",
+      "source": "智能涌现",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.237Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "AI工具",
+        "3D",
+        "智能体"
+      ],
+      "dateText": "5月9日·周五"
+    },
+    {
+      "id": "8299344d",
+      "title": "ChatGPT推出的深度研究功能，可以直接连接GitHub",
+      "content": "ChatGPT推出“深度研究”功能，可连接GitHub。用户提出与GitHub代码库相关问题时，ChatGPT能直接连接并分析代码、文档等，生成答案。功能目前处于测试阶段，全球Team用户可用，后续将向Plus、Pro用户开放。",
+      "originalContent": "ChatGPT推出的深度研究功能，可以直接连接GitHub ChatGPT推出“深度研究”功能，可连接GitHub。用户提出与GitHub代码库相关问题时，ChatGPT能直接连接并分析代码、文档等，生成答案。功能目前处于测试阶段，全球Team用户可用，后续将向Plus、Pro用户开放。",
+      "source": "量子位",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.237Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究"
+      ],
+      "dateText": "5月9日·周五"
+    },
+    {
+      "id": "515724ee",
+      "title": "腾讯混元开源全新的多模态定制化视频生成工具 HunyuanCustom",
+      "content": "腾讯开源多模态定制化视频生成工具 HunyuanCustom。工具基于混元视频生成大模型打造，融合文本、图像、音频、视频等多模态输入，具备单主体视频生成、多主体视频生成、单主体视频配音、视频局部编辑等能力，生成视频与用户输入的参考主体高度一致。",
+      "originalContent": "腾讯混元开源全新的多模态定制化视频生成工具 HunyuanCustom 腾讯开源多模态定制化视频生成工具 HunyuanCustom。工具基于混元视频生成大模型打造，融合文本、图像、音频、视频等多模态输入，具备单主体视频生成、多主体视频生成、单主体视频配音、视频局部编辑等能力，生成视频与用户输入的参考主体高度一致。",
+      "source": "腾讯混元",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.231Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "5月9日·周五"
+    },
+    {
+      "id": "c6a10770",
+      "title": "Figma大更新，推出网站生成器与营销素材批量生产线",
+      "content": "设计公司Figma推出多项新功能，包括基于AI的网站创建工具Figma Sites、创意构思和原型设计工具Figma Make、面向营销人员的Figma Buzz以及矢量编辑与插图工具Figma Draw。推动设计师和营销人员更高效地进行创意工作。",
+      "originalContent": "Figma大更新，推出网站生成器与营销素材批量生产线 设计公司Figma推出多项新功能，包括基于AI的网站创建工具Figma Sites、创意构思和原型设计工具Figma Make、面向营销人员的Figma Buzz以及矢量编辑与插图工具Figma Draw。推动设计师和营销人员更高效地进行创意工作。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.237Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "5月9日·周五"
+    },
+    {
+      "id": "aafa56e1",
+      "title": "无需邀请码，扣子空间开放测试",
+      "content": "扣子空间宣布正式开放测试，无需邀请码，用户登录官网（space.coze.cn）即可使用。此次开放测试让更多人体验产品。目前，扣子空间已上线三个专家Agent：用户研究专家、华泰A股观察助手和舆情分析专家，可分别提供调研问卷深度分析、股票早报定制及舆情日报等服务。",
+      "originalContent": "无需邀请码，扣子空间开放测试 扣子空间宣布正式开放测试，无需邀请码，用户登录官网（space.coze.cn）即可使用。此次开放测试让更多人体验产品。目前，扣子空间已上线三个专家Agent：用户研究专家、华泰A股观察助手和舆情分析专家，可分别提供调研问卷深度分析、股票早报定制及舆情日报等服务。",
+      "source": "扣子Coze",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.231Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "智能体"
+      ],
+      "dateText": "5月9日·周五"
+    },
+    {
+      "id": "befe43df",
+      "title": "Vidu Q1 系列 API 正式开放",
+      "content": "Vidu Q1 系列 API 正式开放，全球开发者与企业用户可通过调用 API 体验 Vidu Q1 模型的图生视频、首尾帧与文生视频能力。系列模型支持更高清画质、更流畅镜头、更稳定风格，同时上线文生音频模型，支持时段自定义与音效叠加。",
+      "originalContent": "Vidu Q1 系列 API 正式开放 Vidu Q1 系列 API 正式开放，全球开发者与企业用户可通过调用 API 体验 Vidu Q1 模型的图生视频、首尾帧与文生视频能力。系列模型支持更高清画质、更流畅镜头、更稳定风格，同时上线文生音频模型，支持时段自定义与音效叠加。",
+      "source": "Vidu AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.232Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "5月9日·周五"
+    },
+    {
+      "id": "068b9533",
+      "title": "字节跳动开源深度研究项目 DeerFlow，助力科研全流程",
+      "content": "字节跳动开源 Deep Research 项目 DeerFlow，助力科研全流程。DeerFlow 采用分布式系统设计，可高效处理大规模数据，其底层数据存储系统经过优化，具备强大的数据容错能力。",
+      "originalContent": "字节跳动开源深度研究项目 DeerFlow，助力科研全流程 字节跳动开源 Deep Research 项目 DeerFlow，助力科研全流程。DeerFlow 采用分布式系统设计，可高效处理大规模数据，其底层数据存储系统经过优化，具备强大的数据容错能力。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.236Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "研究"
+      ],
+      "dateText": "5月9日·周五"
+    },
+    {
+      "id": "4a6c29e4",
+      "title": "HeyGen 推出 Avatar IV 数字人模型，只需一张照片和一段脚本",
+      "content": "HeyGen 推出 Avatar IV 数字人模型，可快速创建逼真视频。用户只需上传一张照片和一段脚本或音频，模型基于音频驱动的表情引擎，分析语音的语调、节奏和情感，生成逼真的面部动作和微表情，让视频更具真实感。",
+      "originalContent": "HeyGen 推出 Avatar IV 数字人模型，只需一张照片和一段脚本 HeyGen 推出 Avatar IV 数字人模型，可快速创建逼真视频。用户只需上传一张照片和一段脚本或音频，模型基于音频驱动的表情引擎，分析语音的语调、节奏和情感，生成逼真的面部动作和微表情，让视频更具真实感。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-05-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.238Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "5月9日·周五"
+    }
+  ],
+  "updateTime": "2025-07-09T10:29:02.478Z"
+}

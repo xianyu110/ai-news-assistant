@@ -1,24 +1,7 @@
 {
   "date": "2025-05-05",
-  "count": 14,
+  "count": 6,
   "data": [
-    {
-      "id": "834b12d5",
-      "title": "OpenAI 深夜官宣大调整！奥特曼全员信：放弃营利转型，开源强大模型",
-      "content": "OpenAI宣布重大调整，其营利业务将转型为“公共利益公司”（PBC），由非营利组织继续掌控并成为重要股东。此举确保通用人工智能（AGI）造福全人类，同时放弃复杂的“利润上限结构”，采用常规股权结构。OpenAI将继续秉持民主化AI的理念，开源强大模型，让用户自由使用工具，推动AI在健康、教育、公共服务等领域产生积极影响。",
-      "originalContent": "OpenAI 深夜官宣大调整！奥特曼全员信：放弃营利转型，开源强大模型 OpenAI宣布重大调整，其营利业务将转型为“公共利益公司”（PBC），由非营利组织继续掌控并成为重要股东。此举确保通用人工智能（AGI）造福全人类，同时放弃复杂的“利润上限结构”，采用常规股权结构。OpenAI将继续秉持民主化AI的理念，开源强大模型，让用户自由使用工具，推动AI在健康、教育、公共服务等领域产生积极影响。",
-      "source": "APPSO",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.582Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月6日·周二"
-    },
     {
       "id": "a1fc6b5c",
       "title": "OpenAI宣布重大调整，其营利业务将转型为“公共利益公司”（PBC），由非营利组织继续掌控并成为重要股东。此举确保通用人工智能（AGI）造福全人类，同时放弃复杂的“利润上限结构”，采用常规股权结构。OpenAI将继续秉持民主化AI的理念，开源强大模型，让用户自由使用工具，推动AI在健康、教育、公共服务等领域产生积极影响。来源：APPSO",
@@ -38,22 +21,6 @@
       "dateText": "5月6日"
     },
     {
-      "id": "303129c5",
-      "title": "OpenAI史上最大收购敲定！同意以约30亿美元收购WindSurf",
-      "content": "据彭博社消息，OpenAI已同意以约30亿美元收购AI编程创企WindSurf（前身为Codeium），是OpenAI迄今最大规模收购案。WindSurf成立于2021年，由麻省理工学院工程师团队创立，专注于AI编程工具开发。",
-      "originalContent": "OpenAI史上最大收购敲定！同意以约30亿美元收购WindSurf 据彭博社消息，OpenAI已同意以约30亿美元收购AI编程创企WindSurf（前身为Codeium），是OpenAI迄今最大规模收购案。WindSurf成立于2021年，由麻省理工学院工程师团队创立，专注于AI编程工具开发。",
-      "source": "智东西",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.583Z",
-      "category": "行业动态",
-      "tags": [
-        "合作",
-        "AI工具"
-      ],
-      "dateText": "5月6日·周二"
-    },
-    {
       "id": "9e9d7d22",
       "title": "据彭博社消息，OpenAI已同意以约30亿美元收购AI编程创企WindSurf（前身为Codeium），是OpenAI迄今最大规模收购案。WindSurf成立于2021年，由麻省理工学院工程师团队创立，专注于AI编程工具开发。来源：智东西",
       "content": "Midjourney推出Omni-Reference全能参考功能，AI绘图实现精准控制",
@@ -71,22 +38,6 @@
       "dateText": "5月6日"
     },
     {
-      "id": "e707ddf3",
-      "title": "Midjourney推出Omni-Reference全能参考功能，AI绘图实现精准控制",
-      "content": "Midjourney推出Omni-Reference全能参考功能，AI绘图进入精准控制新时代。Omni-Reference可将指定元素加入图像，支持风格化及个性化定制等功能。用户通过网页端拖拽图片或Discord端输入参数即可使用，可调节权重系数控制参考图的严格程度。",
-      "originalContent": "Midjourney推出Omni-Reference全能参考功能，AI绘图实现精准控制 Midjourney推出Omni-Reference全能参考功能，AI绘图进入精准控制新时代。Omni-Reference可将指定元素加入图像，支持风格化及个性化定制等功能。用户通过网页端拖拽图片或Discord端输入参数即可使用，可调节权重系数控制参考图的严格程度。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.583Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "5月6日·周二"
-    },
-    {
       "id": "031882c8",
       "title": "Midjourney推出Omni-Reference全能参考功能，AI绘图进入精准控制新时代。Omni-Reference可将指定元素加入图像，支持风格化及个性化定制等功能。用户通过网页端拖拽图片或Discord端输入参数即可使用，可调节权重系数控制参考图的严格程度。来源：AI工具集",
       "content": "微软发布 Phi-4 系列小语言 AI 推理模型Phi-4-reasoning",
@@ -102,42 +53,6 @@
         "AI工具"
       ],
       "dateText": "5月6日"
-    },
-    {
-      "id": "3399d7ab",
-      "title": "微软发布 Phi-4 系列小语言 AI 推理模型Phi-4-reasoning",
-      "content": "微软推出Phi-4推理模型系列，包括Phi-4-reasoning、Phi-4-reasoning-plus和Phi-4-mini-reasoning。模型参数最多仅14B，能在本地高性能笔记本上流畅运行。其中，3.8B参数的Phi-4-mini-reasoning在数学推理上超越8B的DeepSeek-R1蒸馏模型，展现了小模型的强大推理能力。",
-      "originalContent": "微软发布 Phi-4 系列小语言 AI 推理模型Phi-4-reasoning 微软推出Phi-4推理模型系列，包括Phi-4-reasoning、Phi-4-reasoning-plus和Phi-4-mini-reasoning。模型参数最多仅14B，能在本地高性能笔记本上流畅运行。其中，3.8B参数的Phi-4-mini-reasoning在数学推理上超越8B的DeepSeek-R1蒸馏模型，展现了小模型的强大推理能力。",
-      "source": "新智元",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.584Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月6日·周二"
-    },
-    {
-      "id": "b41c4ca7",
-      "title": "基于科学基础大模型的智能科研平台ScienceOne正式发布，为科研打造AI底座",
-      "content": "中国科学院自动化研究所在第八届数字中国建设峰会上发布了基于科学基础大模型的智能科研平台ScienceOne。由自动化所联合多个中科院单位及产业化平台共同研发，推动多学科协同的智能科研新范式。ScienceOne首发了S1-Literature文献助手和S1-ToolChain科学工具调度台两个产品，分别用于文献综述生成与科研任务的工具调度。",
-      "originalContent": "基于科学基础大模型的智能科研平台ScienceOne正式发布，为科研打造AI底座 中国科学院自动化研究所在第八届数字中国建设峰会上发布了基于科学基础大模型的智能科研平台ScienceOne。由自动化所联合多个中科院单位及产业化平台共同研发，推动多学科协同的智能科研新范式。ScienceOne首发了S1-Literature文献助手和S1-ToolChain科学工具调度台两个产品，分别用于文献综述生成与科研任务的工具调度。",
-      "source": "中国科学院自动化研究所",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.590Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "合作",
-        "研究",
-        "大模型",
-        "技术"
-      ],
-      "dateText": "5月6日·周二"
     },
     {
       "id": "f032c71e",
@@ -176,22 +91,6 @@
       "dateText": "5月6日"
     },
     {
-      "id": "8a5ca277",
-      "title": "快手旗下轻雀科技推出“喵记多”AI笔记工具",
-      "content": "快手旗下轻雀科技推出“喵记多”AI笔记工具，用户可将碎片化的文字、图片、文件发送给内置AI“喵仔”，将其转为笔记，支持二次编辑和删除。若发送网页超链接，喵仔会自动爬取内容生成笔记。App具备“提醒待办”功能，用户可通过特定指令创建和查看待办事项。",
-      "originalContent": "快手旗下轻雀科技推出“喵记多”AI笔记工具 快手旗下轻雀科技推出“喵记多”AI笔记工具，用户可将碎片化的文字、图片、文件发送给内置AI“喵仔”，将其转为笔记，支持二次编辑和删除。若发送网页超链接，喵仔会自动爬取内容生成笔记。App具备“提醒待办”功能，用户可通过特定指令创建和查看待办事项。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.592Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "5月6日·周二"
-    },
-    {
       "id": "20446b2f",
       "title": "快手旗下轻雀科技推出“喵记多”AI笔记工具，用户可将碎片化的文字、图片、文件发送给内置AI“喵仔”，将其转为笔记，支持二次编辑和删除。若发送网页超链接，喵仔会自动爬取内容生成笔记。App具备“提醒待办”功能，用户可通过特定指令创建和查看待办事项。来源：AI工具集",
       "content": "快手旗下轻雀科技推出“喵记多”AI笔记工具，用户可将碎片化的文字、图片、文件发送给内置AI“喵仔”，将其转为笔记，支持二次编辑和删除。若发送网页超链接，喵仔会自动爬取内容生成笔记。App具备“提醒待办”功能，用户可通过特定指令创建和查看待办事项。来源：AI工具集",
@@ -206,40 +105,7 @@
         "AI工具"
       ],
       "dateText": "5月6日"
-    },
-    {
-      "id": "72ff0e3d",
-      "title": "通义千问Qwen推出Qwen2.5-Omni-3B模型，尺寸更小，性能依旧",
-      "content": "Qwen2.5-Omni-3B模型正式发布。是Qwen2.5-Omni-7B的轻量级版本，3B版本在长上下文序列处理（约25k tokens）中显存消耗减少超50%，可在普通24GB消费级GPU上支持长达30秒的音视频交互。尺寸更小，3B版本保留了7B模型90%以上的多模态理解能力，语音输出的自然度与稳定性与7B版本一致。",
-      "originalContent": "通义千问Qwen推出Qwen2.5-Omni-3B模型，尺寸更小，性能依旧 Qwen2.5-Omni-3B模型正式发布。是Qwen2.5-Omni-7B的轻量级版本，3B版本在长上下文序列处理（约25k tokens）中显存消耗减少超50%，可在普通24GB消费级GPU上支持长达30秒的音视频交互。尺寸更小，3B版本保留了7B模型90%以上的多模态理解能力，语音输出的自然度与稳定性与7B版本一致。",
-      "source": "通义千问Qwen",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.591Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型"
-      ],
-      "dateText": "5月6日·周二"
-    },
-    {
-      "id": "dc5c0af7",
-      "title": "DeepSeek开源Prover-V2强推理模型，奥数解题不再难",
-      "content": "DeepSeek开源Prover-V2强推理模型，专注于数学定理证明。模型分为7B和671B两个版本，其中671B版本基于DeepSeek-V3-Base训练而成，7B版本支持最长32K tokens的上下文长度扩展。Prover-V2通过递归定理证明流程生成冷启动数据，结合强化学习提升性能，在MiniF2F测试中达到88.9%的通过率。",
-      "originalContent": "DeepSeek开源Prover-V2强推理模型，奥数解题不再难 DeepSeek开源Prover-V2强推理模型，专注于数学定理证明。模型分为7B和671B两个版本，其中671B版本基于DeepSeek-V3-Base训练而成，7B版本支持最长32K tokens的上下文长度扩展。Prover-V2通过递归定理证明流程生成冷启动数据，结合强化学习提升性能，在MiniF2F测试中达到88.9%的通过率。",
-      "source": "机器之心",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-05T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.591Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "研究",
-        "大模型"
-      ],
-      "dateText": "5月6日·周二"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.019Z"
+  "updateTime": "2025-07-09T10:29:02.479Z"
 }

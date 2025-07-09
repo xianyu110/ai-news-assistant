@@ -1,24 +1,7 @@
 {
   "date": "2025-03-19",
-  "count": 4,
+  "count": 6,
   "data": [
-    {
-      "id": "3308aa48",
-      "title": "OpenAI 推出最贵 o1-pro API，定价远超 DeepSeek",
-      "content": "OpenAI 推出了最昂贵的API——o1-pro。是o1的升级版，使用更多计算资源以提供更优质响应，仅对特定开发者开放（Tier 1–5）。定价极高：每百万输入token收费150美元，输出token收费600美元。",
-      "originalContent": "OpenAI 推出最贵 o1-pro API，定价远超 DeepSeek OpenAI 推出了最昂贵的API——o1-pro。是o1的升级版，使用更多计算资源以提供更优质响应，仅对特定开发者开放（Tier 1–5）。定价极高：每百万输入token收费150美元，输出token收费600美元。",
-      "source": "机器之心",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.672Z",
-      "category": "产品发布",
-      "tags": [
-        "开源",
-        "发布",
-        "AI工具"
-      ],
-      "dateText": "3月20日·周四"
-    },
     {
       "id": "19936338",
       "title": "OpenAI 推出了最昂贵的API——o1-pro。是o1的升级版，使用更多计算资源以提供更优质响应，仅对特定开发者开放（Tier 1–5）。定价极高：每百万输入token收费150美元，输出token收费600美元。来源：机器之心",
@@ -38,38 +21,88 @@
       "dateText": "3月20日"
     },
     {
-      "id": "7c40a342",
-      "title": "飞书字段捷径 —— Kimi 招聘助手上线，助力企业高效招聘",
-      "content": "北京月之暗面推出飞书字段捷径 Kimi 招聘助手，为 HR 提供高效招聘支持。工具通过强大的文本分析能力，实现简历信息提取、候选人匹配评估和面试建议生成的一站式服务。用户只需输入简历和职位需求，系统可快速生成关键信息和匹配度分析。",
-      "originalContent": "飞书字段捷径 —— Kimi 招聘助手上线，助力企业高效招聘 北京月之暗面推出飞书字段捷径 Kimi 招聘助手，为 HR 提供高效招聘支持。工具通过强大的文本分析能力，实现简历信息提取、候选人匹配评估和面试建议生成的一站式服务。用户只需输入简历和职位需求，系统可快速生成关键信息和匹配度分析。",
-      "source": "Kimi 开发平台",
+      "id": "9142ca03",
+      "title": "黄仁勋甩出三代核弹AI芯片！个人超算每秒运算1000万亿次，DeepSeek成最大赢家",
+      "content": "英伟达GTC大会上，黄仁勋发布了新一代核弹级AI芯片Blackwell Ultra（GB300），性能大幅提升，推理速度可达每秒1000万亿次。芯片配备20TB HBM3内存和40TB快速内存，支持14.4TB/s的CX8带宽。还推出了基于Blackwell Ultra的AI PC，包括DGX Station和DGX Spark，适用于AI推理、机器人训练及自动驾驶等领域。",
+      "originalContent": "黄仁勋甩出三代核弹AI芯片！个人超算每秒运算1000万亿次，DeepSeek成最大赢家 英伟达GTC大会上，黄仁勋发布了新一代核弹级AI芯片Blackwell Ultra（GB300），性能大幅提升，推理速度可达每秒1000万亿次。芯片配备20TB HBM3内存和40TB快速内存，支持14.4TB/s的CX8带宽。还推出了基于Blackwell Ultra的AI PC，包括DGX Station和DGX Spark，适用于AI推理、机器人训练及自动驾驶等领域。",
+      "source": "APPSO",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.672Z",
+      "publishTime": "2025-03-19T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.290Z",
       "category": "产品发布",
       "tags": [
         "发布",
         "AI工具",
-        "智能体"
+        "机器人"
       ],
-      "dateText": "3月20日·周四"
+      "dateText": "3月19日·周三"
     },
     {
-      "id": "863a1ff6",
-      "title": "阶跃星辰开源图生视频模型 Step-Video-TI2V，运动可控，动漫效果尤佳！",
-      "content": "上海阶跃星辰宣布开源图生视频模型 Step-Video-TI2V。模型基于30B参数，支持生成102帧、5秒、540P分辨率的视频，具备运动幅度可控和镜头运动可控两大核心特点，在动漫风格视频生成方面表现出色。",
-      "originalContent": "阶跃星辰开源图生视频模型 Step-Video-TI2V，运动可控，动漫效果尤佳！ 上海阶跃星辰宣布开源图生视频模型 Step-Video-TI2V。模型基于30B参数，支持生成102帧、5秒、540P分辨率的视频，具备运动幅度可控和镜头运动可控两大核心特点，在动漫风格视频生成方面表现出色。",
-      "source": "阶跃星辰",
+      "id": "00133c2d",
+      "title": "马斯克xAI公司收购视频生成初创公司Hotshot，加速布局AI视频领域",
+      "content": "马斯克的xAI公司收购了 Hotshot 视频生成初创公司。Hotshot由4人组成，在13个月内开发出3款视频生成模型，包括Hotshot-XL、Hotshot Act-One和Hotshot。Hotshot模型可生成最长10秒的720p视频。公司由Aakash Sastry和John Mullan于2017年创立，曾获Reddit联合创始人Alexis Ohanian等投资。",
+      "originalContent": "马斯克xAI公司收购视频生成初创公司Hotshot，加速布局AI视频领域 马斯克的xAI公司收购了 Hotshot 视频生成初创公司。Hotshot由4人组成，在13个月内开发出3款视频生成模型，包括Hotshot-XL、Hotshot Act-One和Hotshot。Hotshot模型可生成最长10秒的720p视频。公司由Aakash Sastry和John Mullan于2017年创立，曾获Reddit联合创始人Alexis Ohanian等投资。",
+      "source": "量子位",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-03-19T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.672Z",
+      "publishTime": "2025-03-19T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.291Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "3月19日·周三"
+    },
+    {
+      "id": "88411848",
+      "title": "豆包编程能力再升级，3分钟做出专属小游戏",
+      "content": "字节跳动旗下的AI智能助手豆包宣布AI编程能力升级，新增HTML预览、Python运行和完整项目生成三项功能。用户可通过豆包快速制作小游戏等互动网页。豆包支持HTML代码实时预览和交互，Python代码直接运行并提供一键报错修复，能生成完整项目代码，无需分别编写前后端逻辑。",
+      "originalContent": "豆包编程能力再升级，3分钟做出专属小游戏 字节跳动旗下的AI智能助手豆包宣布AI编程能力升级，新增HTML预览、Python运行和完整项目生成三项功能。用户可通过豆包快速制作小游戏等互动网页。豆包支持HTML代码实时预览和交互，Python代码直接运行并提供一键报错修复，能生成完整项目代码，无需分别编写前后端逻辑。",
+      "source": "豆包",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-19T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.291Z",
       "category": "开源项目",
       "tags": [
-        "开源",
-        "大模型"
+        "AI工具",
+        "智能体"
       ],
-      "dateText": "3月20日·周四"
+      "dateText": "3月19日·周三"
+    },
+    {
+      "id": "45b4ea5a",
+      "title": "谷歌 Gemini 更新：新增音频播客、Canvas 画布与 Deep Research 扩容",
+      "content": "谷歌 Gemini 最新推出了 Canvas 功能，可用于创建、改进和分享写作与编码项目，实时预览代码效果。新增“文本转音频”功能（Audio Overviews），可将文本对话生成音频播客。免费用户的 Deep Research 使用次数增加至每月 10 次，帮助用户更高效地完成复杂的研究任务。",
+      "originalContent": "谷歌 Gemini 更新：新增音频播客、Canvas 画布与 Deep Research 扩容 谷歌 Gemini 最新推出了 Canvas 功能，可用于创建、改进和分享写作与编码项目，实时预览代码效果。新增“文本转音频”功能（Audio Overviews），可将文本对话生成音频播客。免费用户的 Deep Research 使用次数增加至每月 10 次，帮助用户更高效地完成复杂的研究任务。",
+      "source": "Google",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-19T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.291Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "研究"
+      ],
+      "dateText": "3月19日·周三"
+    },
+    {
+      "id": "f8f9b349",
+      "title": "谷歌达成迄今最大一笔收购交易，320 亿美元现金买下云安全公司 Wiz",
+      "content": "谷歌宣布以320亿美元全现金收购云安全初创公司Wiz，是其迄今最大一笔收购交易。Wiz是一家总部位于纽约的云安全公司，提供连接到所有主要云服务和代码环境的安全平台。此次收购旨在提升谷歌云的安全能力，支持多云环境，推动云安全创新。交易完成后，Wiz将继续在所有主要云平台上运行，包括AWS、Azure和甲骨文云。",
+      "originalContent": "谷歌达成迄今最大一笔收购交易，320 亿美元现金买下云安全公司 Wiz 谷歌宣布以320亿美元全现金收购云安全初创公司Wiz，是其迄今最大一笔收购交易。Wiz是一家总部位于纽约的云安全公司，提供连接到所有主要云服务和代码环境的安全平台。此次收购旨在提升谷歌云的安全能力，支持多云环境，推动云安全创新。交易完成后，Wiz将继续在所有主要云平台上运行，包括AWS、Azure和甲骨文云。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-03-19T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.291Z",
+      "category": "开源项目",
+      "tags": [
+        "合作",
+        "技术"
+      ],
+      "dateText": "3月19日·周三"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.045Z"
+  "updateTime": "2025-07-09T10:29:02.486Z"
 }

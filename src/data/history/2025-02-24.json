@@ -3,24 +3,6 @@
   "count": 12,
   "data": [
     {
-      "id": "f65638af",
-      "title": "Claude 3.7 Sonnet发布：AI推理与编码能力的双重突破",
-      "content": "Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。",
-      "originalContent": "Claude 3.7 Sonnet发布：AI推理与编码能力的双重突破 Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-24T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.708Z",
-      "category": "开源项目",
-      "tags": [
-        "发布",
-        "研究",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "2月25日·周二"
-    },
-    {
       "id": "742cd32a",
       "title": "Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。来源：AI工具集",
       "content": "DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率",
@@ -59,22 +41,6 @@
       "dateText": "2月25日"
     },
     {
-      "id": "3f8d892a",
-      "title": "ChatGPT 变身苹果 Safari 浏览器默认搜索引擎",
-      "content": "OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。",
-      "originalContent": "ChatGPT 变身苹果 Safari 浏览器默认搜索引擎 OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-24T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.708Z",
-      "category": "产品发布",
-      "tags": [
-        "GPT",
-        "AI工具"
-      ],
-      "dateText": "2月25日·周二"
-    },
-    {
       "id": "1253b768",
       "title": "OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。来源：IT之家",
       "content": "阿里Qwen团队发布推理模型QwQ，会展示完整的思维链",
@@ -91,23 +57,6 @@
         "AI工具"
       ],
       "dateText": "2月25日"
-    },
-    {
-      "id": "07c1a40c",
-      "title": "阿里Qwen团队发布推理模型QwQ，会展示完整的思维链",
-      "content": "阿里通义千问团队推出QwQ-Max-Preview深度思考模型，支持联网搜索，具备强大的通用能力，可完成创意写作、代码生成、数学题解答等任务。模型基于Qwen2.5-Max构建，未来将以Apache 2.0许可协议开源。目前已上线官网，用户可通过点击“深度思考（QwQ）”按钮体验。",
-      "originalContent": "阿里Qwen团队发布推理模型QwQ，会展示完整的思维链 阿里通义千问团队推出QwQ-Max-Preview深度思考模型，支持联网搜索，具备强大的通用能力，可完成创意写作、代码生成、数学题解答等任务。模型基于Qwen2.5-Max构建，未来将以Apache 2.0许可协议开源。目前已上线官网，用户可通过点击“深度思考（QwQ）”按钮体验。",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-24T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.709Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "发布",
-        "大模型"
-      ],
-      "dateText": "2月25日·周二"
     },
     {
       "id": "59680f07",
@@ -129,24 +78,6 @@
       "dateText": "2月25日"
     },
     {
-      "id": "835c95bd",
-      "title": "Perplexity 官宣“Comet”浏览器，主打“AI 智能体搜索”",
-      "content": "Perplexity AI 宣布进军浏览器市场，推出名为“Comet”的浏览器。浏览器以“AI 智能体搜索”为核心概念，提供更贴近用户需求的搜索体验。Comet 已开启注册，具体上线时间和功能细节尚未公布。Perplexity AI 称 AI 技术将优于谷歌 Chrome 和微软 Edge 等现有浏览器的搜索体验。",
-      "originalContent": "Perplexity 官宣“Comet”浏览器，主打“AI 智能体搜索” Perplexity AI 宣布进军浏览器市场，推出名为“Comet”的浏览器。浏览器以“AI 智能体搜索”为核心概念，提供更贴近用户需求的搜索体验。Comet 已开启注册，具体上线时间和功能细节尚未公布。Perplexity AI 称 AI 技术将优于谷歌 Chrome 和微软 Edge 等现有浏览器的搜索体验。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-24T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.709Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "技术",
-        "AI工具",
-        "智能体"
-      ],
-      "dateText": "2月25日·周二"
-    },
-    {
       "id": "67fe0421",
       "title": "Perplexity AI 宣布进军浏览器市场，推出名为“Comet”的浏览器。浏览器以“AI 智能体搜索”为核心概念，提供更贴近用户需求的搜索体验。Comet 已开启注册，具体上线时间和功能细节尚未公布。Perplexity AI 称 AI 技术将优于谷歌 Chrome 和微软 Edge 等现有浏览器的搜索体验。来源：IT之家",
       "content": "字节AI加速调整，豆包正测试深度思考模型，暂未接入DeepSeek",
@@ -164,25 +95,6 @@
         "AI工具"
       ],
       "dateText": "2月25日"
-    },
-    {
-      "id": "67365ae4",
-      "title": "字节AI加速调整，豆包正测试深度思考模型，暂未接入DeepSeek",
-      "content": "字节跳动旗下AI助手“豆包”正在小范围测试深度思考模型，但未接入DeepSeek，是采用自研技术。目前，豆包的深度思考功能尚未开放，部分测试用户已能体验到思维链的呈现。自DeepSeek开源后，字节AI部门面临重大调整。",
-      "originalContent": "字节AI加速调整，豆包正测试深度思考模型，暂未接入DeepSeek 字节跳动旗下AI助手“豆包”正在小范围测试深度思考模型，但未接入DeepSeek，是采用自研技术。目前，豆包的深度思考功能尚未开放，部分测试用户已能体验到思维链的呈现。自DeepSeek开源后，字节AI部门面临重大调整。",
-      "source": "Z Finance",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-24T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.710Z",
-      "category": "开源项目",
-      "tags": [
-        "开源",
-        "研究",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "2月25日·周二"
     },
     {
       "id": "174060a8",
@@ -204,22 +116,109 @@
       "dateText": "2月25日"
     },
     {
-      "id": "2bbea8e6",
-      "title": "DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率",
-      "content": "DeepSeek 开源周第二天，发布开源项目 DeepEP，专为混合专家模型（MoE）训练和推理设计的高效通信库。DeepEP 提供高吞吐量和低延迟的全对全 GPU 内核，支持 NVLink 和 RDMA 通信，优化训练和推理效率。",
-      "originalContent": "DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率 DeepSeek 开源周第二天，发布开源项目 DeepEP，专为混合专家模型（MoE）训练和推理设计的高效通信库。DeepEP 提供高吞吐量和低延迟的全对全 GPU 内核，支持 NVLink 和 RDMA 通信，优化训练和推理效率。",
+      "id": "4bacccf5",
+      "title": "LiblibAI一年内完成四轮融资，再次斩获数亿元资金",
+      "content": "LiblibAI宣布在过去一年内连续完成四轮融资，创下国内AI应用赛道融资速度新纪录。最新两轮融资由渶策资本、顺为资本领投，明势创投等跟投，巨人网络参与产业投资。LiblibAI致力于AI内容创作与分享，已拥有超2000万创作者和5亿张生成图片。本轮融资将重点投入创作者生态建设和技术研发，推动平台全球化发展。",
+      "originalContent": "LiblibAI一年内完成四轮融资，再次斩获数亿元资金 LiblibAI宣布在过去一年内连续完成四轮融资，创下国内AI应用赛道融资速度新纪录。最新两轮融资由渶策资本、顺为资本领投，明势创投等跟投，巨人网络参与产业投资。LiblibAI致力于AI内容创作与分享，已拥有超2000万创作者和5亿张生成图片。本轮融资将重点投入创作者生态建设和技术研发，推动平台全球化发展。",
+      "source": "LiblibAI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.313Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "f17a2e7f",
+      "title": "爱诗科技推出PixVerse V4：5秒生成AI视频，音画同步",
+      "content": "爱诗科技发布PixVerse V4，带来AI视频创作新突破。新增“音效”功能，可自动生成与视频内容匹配的音效；“人声”功能可为视频角色生成口型一致的配音；“重绘”功能支持一键切换视频风格，提供赛博、芭比等多种风格。生成速度可达5秒。",
+      "originalContent": "爱诗科技推出PixVerse V4：5秒生成AI视频，音画同步 爱诗科技发布PixVerse V4，带来AI视频创作新突破。新增“音效”功能，可自动生成与视频内容匹配的音效；“人声”功能可为视频角色生成口型一致的配音；“重绘”功能支持一键切换视频风格，提供赛博、芭比等多种风格。生成速度可达5秒。",
+      "source": "爱诗科技 AIsphere",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.314Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "808d99a1",
+      "title": "LiblibAI 作为独家 AIGC 创作合作平台接入阶跃开源视频生成大模型",
+      "content": "上海阶跃星辰智能科技有限公司开源的视频生成大模型“Step-Video-T2V”正式接入LiblibAI平台，LiblibAI成为其独家AIGC创作合作平台。此次合作推动AI技术的普及与创新，为全球开发者和创作者提供更优质的服务。",
+      "originalContent": "LiblibAI 作为独家 AIGC 创作合作平台接入阶跃开源视频生成大模型 上海阶跃星辰智能科技有限公司开源的视频生成大模型“Step-Video-T2V”正式接入LiblibAI平台，LiblibAI成为其独家AIGC创作合作平台。此次合作推动AI技术的普及与创新，为全球开发者和创作者提供更优质的服务。",
+      "source": "阶跃星辰",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.314Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "合作",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "601d5e89",
+      "title": "马斯克宣布 Grok 3 语音模式早期测试版已上线",
+      "content": "马斯克在社交平台X宣布，Grok 3语音模式早期测试版已在Grok应用程序上线。支持用户通过自然语言与AI对话，提供两种声音（Ara和Grok）及不同个性，支持添加自定义说明和分享对话。",
+      "originalContent": "马斯克宣布 Grok 3 语音模式早期测试版已上线 马斯克在社交平台X宣布，Grok 3语音模式早期测试版已在Grok应用程序上线。支持用户通过自然语言与AI对话，提供两种声音（Ara和Grok）及不同个性，支持添加自定义说明和分享对话。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.314Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "444b3aa7",
+      "title": "月之暗面 Kimi 开源“Moonlight”混合专家模型",
+      "content": "月之暗面Kimi发布“Moonlight”混合专家模型（MoE），包含30亿和160亿参数版本。模型在Muon技术基础上训练，使用了5.7万亿个token，以更低的浮点运算次数（FLOPs）实现更优性能，提升了帕累托效率边界。团队通过添加权重衰减等技术优化Muon优化器，无需超参数调优可用于大规模训练，计算效率是AdamW的2倍。",
+      "originalContent": "月之暗面 Kimi 开源“Moonlight”混合专家模型 月之暗面Kimi发布“Moonlight”混合专家模型（MoE），包含30亿和160亿参数版本。模型在Muon技术基础上训练，使用了5.7万亿个token，以更低的浮点运算次数（FLOPs）实现更优性能，提升了帕累托效率边界。团队通过添加权重衰减等技术优化Muon优化器，无需超参数调优可用于大规模训练，计算效率是AdamW的2倍。",
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-02-24T16:00:00.000Z",
-      "crawlTime": "2025-07-09T07:55:17.708Z",
+      "publishTime": "2025-02-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.314Z",
       "category": "开源项目",
       "tags": [
         "开源",
         "发布",
-        "大模型"
+        "大模型",
+        "技术"
       ],
-      "dateText": "2月25日·周二"
+      "dateText": "2月24日·周一"
+    },
+    {
+      "id": "ffadcb42",
+      "title": "DeepSeek 开源周首日推出 FlashMLA，为 Hopper GPU 优化的高效 MLA 解码内核",
+      "content": "DeepSeek启动“开源周”，首个开源项目为FlashMLA，是针对NVIDIA Hopper GPU优化的高效MLA解码内核，专为处理可变长度序列设计。灵感来源于FlashAttention 2&3和Cutlass项目。FlashMLA支持CUDA 12.3及以上版本、PyTorch 2.0及以上版本。",
+      "originalContent": "DeepSeek 开源周首日推出 FlashMLA，为 Hopper GPU 优化的高效 MLA 解码内核 DeepSeek启动“开源周”，首个开源项目为FlashMLA，是针对NVIDIA Hopper GPU优化的高效MLA解码内核，专为处理可变长度序列设计。灵感来源于FlashAttention 2&3和Cutlass项目。FlashMLA支持CUDA 12.3及以上版本、PyTorch 2.0及以上版本。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-02-24T00:00:00.000Z",
+      "crawlTime": "2025-07-09T10:29:02.313Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布"
+      ],
+      "dateText": "2月24日·周一"
     }
   ],
-  "updateTime": "2025-07-09T07:55:18.056Z"
+  "updateTime": "2025-07-09T10:29:02.489Z"
 }

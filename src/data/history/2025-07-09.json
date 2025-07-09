@@ -1,6 +1,6 @@
 {
   "date": "2025-07-09",
-  "count": 6,
+  "count": 7,
   "data": [
     {
       "id": "97a45329",
@@ -10,7 +10,7 @@
       "source": "新智元",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-09T10:29:02.161Z",
+      "crawlTime": "2025-07-09T12:18:26.036Z",
       "category": "产品发布",
       "tags": [
         "大模型",
@@ -26,7 +26,7 @@
       "source": "昆仑万维集团",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-09T10:29:02.163Z",
+      "crawlTime": "2025-07-09T12:18:26.038Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -43,7 +43,7 @@
       "source": "星海图",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-09T10:29:02.163Z",
+      "crawlTime": "2025-07-09T12:18:26.038Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -62,7 +62,7 @@
       "source": "钉钉",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-09T10:29:02.164Z",
+      "crawlTime": "2025-07-09T12:18:26.039Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -78,7 +78,7 @@
       "source": "生数ShengShu",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-09T10:29:02.164Z",
+      "crawlTime": "2025-07-09T12:18:26.039Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -95,7 +95,7 @@
       "source": "通义大模型",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-09T10:29:02.165Z",
+      "crawlTime": "2025-07-09T12:18:26.040Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -104,7 +104,24 @@
         "大模型"
       ],
       "dateText": "7月9·周三"
+    },
+    {
+      "id": "1a02ee5d",
+      "title": "字节旗下小荷健康推出AI医疗助手——小荷AI医生",
+      "content": "字节跳动推出首款AI医疗助手App“小荷AI医生”，提供健康咨询、报告解读、药品查询等服务，强调“先求证、再建议”的诊疗逻辑。用户可通过拍照上传报告或病灶图片，获取个性化分析和用药建议。",
+      "originalContent": "字节旗下小荷健康推出AI医疗助手——小荷AI医生 字节跳动推出首款AI医疗助手App“小荷AI医生”，提供健康咨询、报告解读、药品查询等服务，强调“先求证、再建议”的诊疗逻辑。用户可通过拍照上传报告或病灶图片，获取个性化分析和用药建议。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-09T00:00:00.000Z",
+      "crawlTime": "2025-07-09T12:18:26.037Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月9·周三"
     }
   ],
-  "updateTime": "2025-07-09T10:29:02.471Z"
+  "updateTime": "2025-07-09T12:18:26.353Z"
 }

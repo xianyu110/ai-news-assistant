@@ -194,9 +194,9 @@ export class NewsService {
       
       // 1. 优先从 GitHub 获取最新数据
       try {
-        console.log('🌐 尝试从 GitHub 获取最新数据...');
+        console.log('🌐 尝试从本地路径获取最新数据...');
         const response = await uni.request({
-          url: DATA_SOURCES.github,
+          url: DATA_SOURCES.local,
           method: 'GET',
           timeout: 10000,
           header: {

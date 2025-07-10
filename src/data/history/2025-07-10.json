@@ -1,6 +1,6 @@
 {
   "date": "2025-07-10",
-  "count": 3,
+  "count": 5,
   "data": [
     {
       "id": "fd9a19c8",
@@ -10,7 +10,7 @@
       "source": "机器之心",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-10T10:11:02.671Z",
+      "crawlTime": "2025-07-10T12:18:49.875Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -28,7 +28,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-10T10:11:02.673Z",
+      "crawlTime": "2025-07-10T12:18:49.878Z",
       "category": "产品发布",
       "tags": [
         "开源",
@@ -45,14 +45,50 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-10T10:11:02.673Z",
+      "crawlTime": "2025-07-10T12:18:49.879Z",
       "category": "开源项目",
       "tags": [
         "发布",
         "AI工具"
       ],
       "dateText": "7月10·周四"
+    },
+    {
+      "id": "5a868c0a",
+      "title": "办公小浣熊 · 桌面版全新上线！",
+      "content": "商汤科技推出“办公小浣熊”桌面版，支持Windows和Mac平台，用户无需浏览器即可一键唤醒AI助手，实现任务拆解、数据分析、图表生成等办公功能。老用户可同步历史内容。",
+      "originalContent": "办公小浣熊 · 桌面版全新上线！ 商汤科技推出“办公小浣熊”桌面版，支持Windows和Mac平台，用户无需浏览器即可一键唤醒AI助手，实现任务拆解、数据分析、图表生成等办公功能。老用户可同步历史内容。",
+      "source": "商汤小浣熊",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-10T12:18:49.877Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月10·周四"
+    },
+    {
+      "id": "9918877b",
+      "title": "智谱Z.ai推出的实验性大模型GLM-Experimental",
+      "content": "智谱AI推出全新实验模型GLM-Experimental，主打“AI Presentation”功能，可一键生成网页版PPT，支持多种风格与互动效果。用户只需输入简单Prompt，模型可自动生成内容、设计排版，实现弹幕、动画等高级效果。",
+      "originalContent": "智谱Z.ai推出的实验性大模型GLM-Experimental 智谱AI推出全新实验模型GLM-Experimental，主打“AI Presentation”功能，可一键生成网页版PPT，支持多种风格与互动效果。用户只需输入简单Prompt，模型可自动生成内容、设计排版，实现弹幕、动画等高级效果。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-10T12:18:49.878Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月10·周四"
     }
   ],
-  "updateTime": "2025-07-10T10:11:02.983Z"
+  "updateTime": "2025-07-10T12:18:50.195Z"
 }

@@ -1,0 +1,42 @@
+{
+  "date": "2025-07-10",
+  "count": 2,
+  "data": [
+    {
+      "id": "fd9a19c8",
+      "title": "马斯克发布 Grok 4，处理学术问题达到博士级别",
+      "content": "马斯克旗下xAI发布新一代大模型Grok 4，推理能力较前代提升10倍，在多项基准测试中超越现有模型，达到“博士后水平”。Grok 4支持工具调用、语音交互、多模态任务，并在ARC-AGI等高难度测试中刷新纪录。",
+      "originalContent": "马斯克发布 Grok 4，处理学术问题达到博士级别 马斯克旗下xAI发布新一代大模型Grok 4，推理能力较前代提升10倍，在多项基准测试中超越现有模型，达到“博士后水平”。Grok 4支持工具调用、语音交互、多模态任务，并在ARC-AGI等高难度测试中刷新纪录。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-10T08:14:12.220Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月10·周四"
+    },
+    {
+      "id": "b66a4346",
+      "title": "Perplexity推出 AI 浏览器——Comet",
+      "content": "Perplexity发布AI浏览器Comet，主打“从浏览到思考”，整合网页解释、任务执行等功能，成为用户的“思考伙伴”。Comet目前仅向高价订阅用户开放。",
+      "originalContent": "Perplexity推出 AI 浏览器——Comet Perplexity发布AI浏览器Comet，主打“从浏览到思考”，整合网页解释、任务执行等功能，成为用户的“思考伙伴”。Comet目前仅向高价订阅用户开放。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-10T08:14:12.221Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "7月10·周四"
+    }
+  ],
+  "updateTime": "2025-07-10T08:14:12.541Z"
+}

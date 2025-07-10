@@ -1,6 +1,6 @@
 {
   "date": "2025-07-10",
-  "count": 2,
+  "count": 3,
   "data": [
     {
       "id": "fd9a19c8",
@@ -10,7 +10,7 @@
       "source": "机器之心",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-10T08:14:12.220Z",
+      "crawlTime": "2025-07-10T09:50:24.834Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -28,7 +28,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-10T08:14:12.221Z",
+      "crawlTime": "2025-07-10T09:50:24.836Z",
       "category": "产品发布",
       "tags": [
         "开源",
@@ -36,7 +36,23 @@
         "AI工具"
       ],
       "dateText": "7月10·周四"
+    },
+    {
+      "id": "e3056375",
+      "title": "抖音快手前高管创业，上线AI图片工具 KIRA",
+      "content": "由抖音、TikTok、快手前核心成员创立的 AI 图片生成工具 KIRA 正式亮相。产品由 ILLA Cloud 孵化，支持一键替换/移除背景、修补、画质增强、扩图等操作，并具备 AI 生成图片能力。创始团队包括曾任抖音 & TikTok 研发、快手孵化业务大前端负责人陈龙博，及抖音、快手多项战略项目设计负责人吴晓松。",
+      "originalContent": "抖音快手前高管创业，上线AI图片工具 KIRA 由抖音、TikTok、快手前核心成员创立的 AI 图片生成工具 KIRA 正式亮相。产品由 ILLA Cloud 孵化，支持一键替换/移除背景、修补、画质增强、扩图等操作，并具备 AI 生成图片能力。创始团队包括曾任抖音 & TikTok 研发、快手孵化业务大前端负责人陈龙博，及抖音、快手多项战略项目设计负责人吴晓松。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-10T09:50:24.836Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "7月10·周四"
     }
   ],
-  "updateTime": "2025-07-10T08:14:12.541Z"
+  "updateTime": "2025-07-10T09:50:25.151Z"
 }

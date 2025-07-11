@@ -1,6 +1,6 @@
 {
   "date": "2025-07-11",
-  "count": 5,
+  "count": 6,
   "data": [
     {
       "id": "a2a316e9",
@@ -10,7 +10,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-11T00:00:00.000Z",
-      "crawlTime": "2025-07-11T12:17:55.205Z",
+      "crawlTime": "2025-07-11T14:10:38.464Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -28,7 +28,7 @@
       "source": "墨刀",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-11T00:00:00.000Z",
-      "crawlTime": "2025-07-11T12:17:55.206Z",
+      "crawlTime": "2025-07-11T14:10:38.465Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -44,7 +44,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-11T00:00:00.000Z",
-      "crawlTime": "2025-07-11T12:17:55.207Z",
+      "crawlTime": "2025-07-11T14:10:38.465Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -79,14 +79,32 @@
       "source": "爱诗科技AIsphere",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-11T00:00:00.000Z",
-      "crawlTime": "2025-07-11T12:17:55.205Z",
+      "crawlTime": "2025-07-11T14:10:38.464Z",
       "category": "产品发布",
       "tags": [
         "发布",
         "AI工具"
       ],
       "dateText": "7月11·周五"
+    },
+    {
+      "id": "57ff0327",
+      "title": "月之暗面Kimi正式发布k2模型，具备超强代码和 Agent 能力",
+      "content": "月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "originalContent": "月之暗面Kimi正式发布k2模型，具备超强代码和 Agent 能力 月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-11T14:10:38.462Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "智能体"
+      ],
+      "dateText": "7月11·周五"
     }
   ],
-  "updateTime": "2025-07-11T12:17:55.531Z"
+  "updateTime": "2025-07-11T14:10:38.787Z"
 }

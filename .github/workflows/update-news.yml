@@ -1,15 +1,23 @@
 name: 🕷️ Update AI News Data
 
 on:
-  # 每2小时自动运行
+  # 增加更频繁的自动运行 - 每小时检查一次
   schedule:
-    - cron: '0 */2 * * *'  # 每2小时运行一次
+    - cron: '0 * * * *'  # 每小时运行一次，增加更新频率
   
   # 手动触发
   workflow_dispatch:
     inputs:
       cleanup_old_data:
         description: '是否清理90天前的旧数据'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+        - 'true'
+        - 'false'
+      force_update:
+        description: '是否强制更新（忽略重复检查）'
         required: false
         default: 'false'
         type: choice

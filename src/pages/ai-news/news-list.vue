@@ -44,6 +44,39 @@
         <text class="stats-number">{{ Math.ceil((Date.now() - updateTime) / 1000 / 60) }}</text>
         <text class="stats-label">分钟前更新</text>
       </view>
+      <view class="stats-item" @click="showDebugInfo = !showDebugInfo">
+        <text class="stats-number">🔧</text>
+        <text class="stats-label">调试信息</text>
+      </view>
+    </view>
+
+    <!-- 调试信息面板 -->
+    <view class="debug-panel" v-if="showDebugInfo">
+      <view class="debug-title">🔧 调试信息</view>
+      <view class="debug-item">
+        <text class="debug-label">自动刷新状态:</text>
+        <text class="debug-value">{{ autoRefreshTimer ? '运行中' : '已停止' }}</text>
+      </view>
+      <view class="debug-item">
+        <text class="debug-label">页面可见状态:</text>
+        <text class="debug-value">{{ isPageVisible ? '可见' : '隐藏' }}</text>
+      </view>
+      <view class="debug-item">
+        <text class="debug-label">缓存更新时间:</text>
+        <text class="debug-value">{{ debugInfo.cacheTime }}</text>
+      </view>
+      <view class="debug-item">
+        <text class="debug-label">数据来源:</text>
+        <text class="debug-value">{{ debugInfo.dataSource }}</text>
+      </view>
+      <view class="debug-item">
+        <text class="debug-label">下次刷新:</text>
+        <text class="debug-value">{{ debugInfo.nextRefresh }}</text>
+      </view>
+      <view class="debug-actions">
+        <button class="debug-btn" @click="clearAllCache">清除缓存</button>
+        <button class="debug-btn" @click="testAutoRefresh">测试刷新</button>
+      </view>
     </view>
 
     <!-- 加载状态 -->
@@ -157,9 +190,17 @@ const pageSize = ref(20)
 const hasMore = ref(true)
 const autoRefreshTimer = ref<number | null>(null)
 const isPageVisible = ref(true)
+const showDebugInfo = ref(false)
+
+// 调试信息
+const debugInfo = ref({
+  cacheTime: '',
+  dataSource: '',
+  nextRefresh: ''
+})
 
 // 自动刷新配置
-const AUTO_REFRESH_INTERVAL = 10 * 60 * 1000 // 10分钟自动刷新一次
+const AUTO_REFRESH_INTERVAL = 5 * 60 * 1000 // 缩短到5分钟自动刷新一次
 
 // 按日期分组的新闻
 const groupedNews = computed(() => {
@@ -192,17 +233,23 @@ const groupedNews = computed(() => {
 onMounted(async () => {
   await initPage()
   startAutoRefresh()
+  updateDebugInfo() // 初始化调试信息
   
   // 监听页面显示/隐藏
   uni.onAppShow(() => {
     isPageVisible.value = true
     startAutoRefresh()
+    updateDebugInfo()
   })
   
   uni.onAppHide(() => {
     isPageVisible.value = false
     stopAutoRefresh()
+    updateDebugInfo()
   })
+  
+  // 定时更新调试信息
+  setInterval(updateDebugInfo, 30000) // 每30秒更新一次调试信息
 })
 
 // 页面卸载时清理定时器
@@ -218,25 +265,32 @@ const startAutoRefresh = () => {
     if (isPageVisible.value) {
       console.log('🔄 自动刷新数据...')
       try {
-        const result = await NewsService.getNews(true)
+        // 获取最新数据，但不强制刷新缓存（让系统自动判断）
+        const result = await NewsService.getNews()
+        
         if (result.success && result.data.length > 0) {
-          // 静默更新数据，不显示loading
-          const allNews = result.data || []
-          updateTime.value = new Date(result.updateTime).getTime()
+          // 更精确的数据变化检测
+          const currentDataHash = generateCurrentDataHash()
+          const newDataHash = generateDataHash(result)
           
-          // 检查是否有新数据
-          const hasNewData = allNews.length > newsList.value.length ||
-            (allNews.length > 0 && newsList.value.length > 0 && 
-             allNews[0].id !== newsList.value[0].id)
-          
-          if (hasNewData) {
-            // 有新数据时重新加载
+          if (newDataHash !== currentDataHash) {
+            console.log('🆕 检测到数据变化，开始更新...')
+            
+            // 静默更新数据
+            const allNews = result.data || []
+            updateTime.value = new Date(result.updateTime).getTime()
+            
+            // 重新加载新闻列表
             await loadNews(1, true)
+            
+            // 显示更新提示
             uni.showToast({ 
               title: '发现新内容', 
               icon: 'success',
               duration: 1500
             })
+          } else {
+            console.log('📄 数据无变化，保持当前状态')
           }
         }
       } catch (error) {
@@ -244,6 +298,49 @@ const startAutoRefresh = () => {
       }
     }
   }, AUTO_REFRESH_INTERVAL)
+}
+
+// 生成当前数据哈希
+const generateCurrentDataHash = () => {
+  try {
+    const content = JSON.stringify({
+      count: newsList.value.length,
+      firstItemId: newsList.value[0]?.id,
+      lastItemId: newsList.value[newsList.value.length - 1]?.id,
+      updateTime: updateTime.value
+    })
+    let hash = 0
+    for (let i = 0; i < content.length; i++) {
+      const char = content.charCodeAt(i)
+      hash = ((hash << 5) - hash) + char
+      hash = hash & hash
+    }
+    return hash.toString()
+  } catch (error) {
+    return ''
+  }
+}
+
+// 生成数据哈希
+const generateDataHash = (data: any) => {
+  try {
+    const content = JSON.stringify({
+      count: data.count || 0,
+      updateTime: data.updateTime,
+      firstItemId: data.data?.[0]?.id,
+      lastItemId: data.data?.[data.data?.length - 1]?.id,
+      dataLength: data.data?.length || 0
+    })
+    let hash = 0
+    for (let i = 0; i < content.length; i++) {
+      const char = content.charCodeAt(i)
+      hash = ((hash << 5) - hash) + char
+      hash = hash & hash
+    }
+    return hash.toString()
+  } catch (error) {
+    return ''
+  }
 }
 
 // 停止自动刷新
@@ -272,17 +369,36 @@ const initPage = async () => {
 
 // 刷新新闻
 const refreshNews = async () => {
-  console.log('🔄 刷新新闻数据...')
+  console.log('🔄 手动刷新新闻数据...')
   currentPage.value = 1
-  await loadNews(1, true) // 强制刷新
-  await loadStats()
   
-  // 显示刷新成功提示
-  uni.showToast({ 
-    title: '数据已更新', 
-    icon: 'success',
-    duration: 2000
-  })
+  try {
+    // 清除缓存，强制从远程获取最新数据
+    uni.removeStorageSync('newsData')
+    uni.removeStorageSync('lastUpdateTime')
+    uni.removeStorageSync('lastDataHash')
+    
+    console.log('🧹 已清除本地缓存')
+    
+    await loadNews(1, true) // 强制刷新
+    await loadStats()
+    
+    // 显示刷新成功提示
+    uni.showToast({ 
+      title: '数据已更新', 
+      icon: 'success',
+      duration: 2000
+    })
+    
+    console.log('✅ 手动刷新完成')
+  } catch (error) {
+    console.error('❌ 手动刷新失败:', error)
+    uni.showToast({ 
+      title: '刷新失败，请稍后重试', 
+      icon: 'error',
+      duration: 2000
+    })
+  }
 }
 
 // 加载更多
@@ -447,6 +563,39 @@ const formatTime = (time: any) => {
   const minutes = String(date.getMinutes()).padStart(2, '0')
   
   return `${hours}:${minutes}`
+}
+
+// 清除所有缓存
+const clearAllCache = () => {
+  uni.clearStorageSync()
+  uni.showToast({ title: '已清除所有缓存', icon: 'success' })
+  console.log('🧹 已清除所有缓存')
+  updateTime.value = Date.now() // 强制刷新时间
+  refreshNews() // 重新加载数据
+}
+
+// 测试自动刷新
+const testAutoRefresh = () => {
+  console.log('🔄 手动触发自动刷新...')
+  startAutoRefresh()
+  uni.showToast({ title: '已手动触发自动刷新', icon: 'success' })
+}
+
+// 更新调试信息
+const updateDebugInfo = () => {
+  try {
+    const cacheTime = uni.getStorageSync('lastUpdateTime')
+    debugInfo.value.cacheTime = cacheTime ? 
+      new Date(cacheTime).toLocaleString() : '无缓存'
+    
+    debugInfo.value.dataSource = uni.getStorageSync('newsData') ? 
+      '本地缓存' : '等待获取'
+    
+    debugInfo.value.nextRefresh = autoRefreshTimer.value ? 
+      `${Math.ceil(AUTO_REFRESH_INTERVAL / 60000)}分钟后` : '已停止'
+  } catch (error) {
+    console.error('更新调试信息失败:', error)
+  }
 }
 </script>
 
@@ -775,6 +924,71 @@ const formatTime = (time: any) => {
   
   &:active {
     transform: scale(0.95);
+  }
+}
+
+// 调试信息面板样式
+.debug-panel {
+  position: fixed;
+  top: 20rpx;
+  left: 20rpx;
+  background: white;
+  border-radius: 12rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0,0,0,0.15);
+  padding: 20rpx;
+  z-index: 998;
+  max-width: 80%;
+  width: 300rpx;
+  font-size: 24rpx;
+  color: #333;
+  line-height: 1.6;
+}
+
+.debug-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #4285F4;
+  margin-bottom: 15rpx;
+  text-align: center;
+}
+
+.debug-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx dashed #E0E0E0;
+}
+
+.debug-label {
+  font-weight: 500;
+  color: #666;
+}
+
+.debug-value {
+  font-weight: bold;
+  color: #4285F4;
+}
+
+.debug-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20rpx;
+}
+
+.debug-btn {
+  background: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 24rpx;
+  padding: 15rpx 30rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  box-shadow: 0 2rpx 10rpx rgba(66, 133, 244, 0.3);
+  
+  &:active {
+    background: #357ABD;
+    box-shadow: 0 2rpx 10rpx rgba(66, 133, 244, 0.5);
   }
 }
 </style> 

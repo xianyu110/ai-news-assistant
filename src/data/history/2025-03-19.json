@@ -28,7 +28,7 @@
       "source": "APPSO",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-03-19T00:00:00.000Z",
-      "crawlTime": "2025-07-13T06:13:59.421Z",
+      "crawlTime": "2025-07-13T08:20:19.874Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -45,7 +45,7 @@
       "source": "量子位",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-03-19T00:00:00.000Z",
-      "crawlTime": "2025-07-13T06:13:59.422Z",
+      "crawlTime": "2025-07-13T08:20:19.875Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -63,7 +63,7 @@
       "source": "豆包",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-03-19T00:00:00.000Z",
-      "crawlTime": "2025-07-13T06:13:59.421Z",
+      "crawlTime": "2025-07-13T08:20:19.874Z",
       "category": "开源项目",
       "tags": [
         "AI工具",
@@ -79,7 +79,7 @@
       "source": "Google",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-03-19T00:00:00.000Z",
-      "crawlTime": "2025-07-13T06:13:59.422Z",
+      "crawlTime": "2025-07-13T08:20:19.875Z",
       "category": "开源项目",
       "tags": [
         "发布",
@@ -95,7 +95,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-03-19T00:00:00.000Z",
-      "crawlTime": "2025-07-13T06:13:59.422Z",
+      "crawlTime": "2025-07-13T08:20:19.875Z",
       "category": "开源项目",
       "tags": [
         "合作",
@@ -104,5 +104,5 @@
       "dateText": "3月19日·周三"
     }
   ],
-  "updateTime": "2025-07-13T06:13:59.633Z"
+  "updateTime": "2025-07-13T08:20:20.066Z"
 }

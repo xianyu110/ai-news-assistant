@@ -1,6 +1,6 @@
 {
   "date": "2025-07-14",
-  "count": 5,
+  "count": 6,
   "data": [
     {
       "id": "18a4be73",
@@ -10,7 +10,7 @@
       "source": "通义千问Qwen",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-14T00:00:00.000Z",
-      "crawlTime": "2025-07-14T10:19:21.800Z",
+      "crawlTime": "2025-07-14T11:15:29.579Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -26,7 +26,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-14T00:00:00.000Z",
-      "crawlTime": "2025-07-14T10:19:21.802Z",
+      "crawlTime": "2025-07-14T11:15:29.581Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -45,7 +45,7 @@
       "source": "36氪",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-14T00:00:00.000Z",
-      "crawlTime": "2025-07-14T10:19:21.803Z",
+      "crawlTime": "2025-07-14T11:15:29.582Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -63,7 +63,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-14T00:00:00.000Z",
-      "crawlTime": "2025-07-14T10:19:21.803Z",
+      "crawlTime": "2025-07-14T11:15:29.582Z",
       "category": "行业动态",
       "tags": [
         "合作",
@@ -81,7 +81,7 @@
       "source": "CAMEL AI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-14T00:00:00.000Z",
-      "crawlTime": "2025-07-14T10:19:21.803Z",
+      "crawlTime": "2025-07-14T11:15:29.583Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -91,7 +91,24 @@
         "技术"
       ],
       "dateText": "7月14·周一"
+    },
+    {
+      "id": "c4242b5f",
+      "title": "美图推出专注于影像与设计的AI智能体RoboNeo",
+      "content": "美图公司正式推出专注于影像与设计的AI智能体RoboNeo，用户可通过自然语言交互轻松完成修图、设计和视频制作等任务。RoboNeo具备智能修图、AI设计生成、视频智能处理及多模态创作等多项功能",
+      "originalContent": "美图推出专注于影像与设计的AI智能体RoboNeo 美图公司正式推出专注于影像与设计的AI智能体RoboNeo，用户可通过自然语言交互轻松完成修图、设计和视频制作等任务。RoboNeo具备智能修图、AI设计生成、视频智能处理及多模态创作等多项功能",
+      "source": "美图公司",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-14T11:15:29.581Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月14·周一"
     }
   ],
-  "updateTime": "2025-07-14T10:19:22.119Z"
+  "updateTime": "2025-07-14T11:15:29.889Z"
 }

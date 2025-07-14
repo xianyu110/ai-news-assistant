@@ -1,8 +1,98 @@
 {
   "success": true,
-  "updateTime": "2025-07-14T04:38:59.434Z",
+  "updateTime": "2025-07-14T05:22:48.334Z",
   "count": 200,
   "data": [
+    {
+      "id": "18a4be73",
+      "title": "通义千问推出Qwen Chat桌面端，一键使用MCP",
+      "content": "阿里巴巴旗下通义千问发布Qwen Chat桌面端，目前支持macOS端，支持多模型PK及MCP协议，可通过插件实时调用地图、搜索、本地文件等外部数据，实现更精准回答。",
+      "originalContent": "通义千问推出Qwen Chat桌面端，一键使用MCP 阿里巴巴旗下通义千问发布Qwen Chat桌面端，目前支持macOS端，支持多模型PK及MCP协议，可通过插件实时调用地图、搜索、本地文件等外部数据，实现更精准回答。",
+      "source": "通义千问Qwen",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-14T05:22:48.036Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "6b6d3531",
+      "title": "奥尔特曼宣布延期 OpenAI 首个开源权重 AI 模型",
+      "content": "OpenAI CEO山姆·奥尔特曼7月12日宣布，再次推迟发布其首个开源权重AI模型，理由是需要更多时间进行安全测试及高风险内容审查，但未给出新的发布日期。该模型原计划下周亮相，已是年内第二次延期。",
+      "originalContent": "奥尔特曼宣布延期 OpenAI 首个开源权重 AI 模型 OpenAI CEO山姆·奥尔特曼7月12日宣布，再次推迟发布其首个开源权重AI模型，理由是需要更多时间进行安全测试及高风险内容审查，但未给出新的发布日期。该模型原计划下周亮相，已是年内第二次延期。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-14T05:22:48.037Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "2a2f827a",
+      "title": "「汉阳科技Yarbo」近日完成超亿元B+轮融资",
+      "content": "消费级扫雪机器人公司「汉阳科技Yarbo」完成逾亿元B+轮融资，由国科投资、中金资本、九阳创投联合注资。本轮资金将用于技术研发、供应链优化及北美、欧洲市场拓展，借助九阳SharkNinja渠道加速全球化布局。",
+      "originalContent": "「汉阳科技Yarbo」近日完成超亿元B+轮融资 消费级扫雪机器人公司「汉阳科技Yarbo」完成逾亿元B+轮融资，由国科投资、中金资本、九阳创投联合注资。本轮资金将用于技术研发、供应链优化及北美、欧洲市场拓展，借助九阳SharkNinja渠道加速全球化布局。",
+      "source": "36氪",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-14T05:22:48.038Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "技术",
+        "机器人"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "cec3276e",
+      "title": "OpenAI 收购 Windsurf 计划告吹，后者 CEO 及创始人已被谷歌招入麾下",
+      "content": "OpenAI收购AI编码助手Windsurf的交易正式取消。谷歌迅速出手，Windsurf CEO Varun Mohan、联合创始人Douglas Chen及核心团队集体加入DeepMind，谷歌以约24亿美元获其技术非独家授权。原30亿美元收购价落空，Windsurf高层换血，业务由临时CEO接手。",
+      "originalContent": "OpenAI 收购 Windsurf 计划告吹，后者 CEO 及创始人已被谷歌招入麾下 OpenAI收购AI编码助手Windsurf的交易正式取消。谷歌迅速出手，Windsurf CEO Varun Mohan、联合创始人Douglas Chen及核心团队集体加入DeepMind，谷歌以约24亿美元获其技术非独家授权。原30亿美元收购价落空，Windsurf高层换血，业务由临时CEO接手。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-14T05:22:48.039Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "6c5ed6ef",
+      "title": "CAMEL-AI与Gemini官宣合作，实现数据可视化和自动化",
+      "content": "开源多智能体框架CAMEL-AI宣布与Google DeepMind合作，集成Gemini 2.5 Pro模型，推出OWL系统。用户只需一句自然语言指令，OWL即可自动完成搜索、提取、分析并生成可视化图表，支持在线数据、本地文件及浏览器操作。",
+      "originalContent": "CAMEL-AI与Gemini官宣合作，实现数据可视化和自动化 开源多智能体框架CAMEL-AI宣布与Google DeepMind合作，集成Gemini 2.5 Pro模型，推出OWL系统。用户只需一句自然语言指令，OWL即可自动完成搜索、提取、分析并生成可视化图表，支持在线数据、本地文件及浏览器操作。",
+      "source": "CAMEL AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-14T05:22:48.039Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "7月14·周一"
+    },
     {
       "id": "a2a316e9",
       "title": "欧盟公布最终版《通用人工智能行为准则》，8 月 2 日起正式实施",
@@ -11,7 +101,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.137Z",
+      "crawlTime": "2025-07-14T05:22:48.041Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -29,7 +119,7 @@
       "source": "墨刀",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.138Z",
+      "crawlTime": "2025-07-14T05:22:48.041Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -45,7 +135,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.138Z",
+      "crawlTime": "2025-07-14T05:22:48.041Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -80,7 +170,7 @@
       "source": "爱诗科技AIsphere",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.137Z",
+      "crawlTime": "2025-07-14T05:22:48.040Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -96,7 +186,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.135Z",
+      "crawlTime": "2025-07-14T05:22:48.040Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -114,7 +204,7 @@
       "source": "机器之心",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.139Z",
+      "crawlTime": "2025-07-14T05:22:48.049Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -132,7 +222,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.140Z",
+      "crawlTime": "2025-07-14T05:22:48.050Z",
       "category": "产品发布",
       "tags": [
         "开源",
@@ -149,7 +239,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.140Z",
+      "crawlTime": "2025-07-14T05:22:48.050Z",
       "category": "开源项目",
       "tags": [
         "发布",
@@ -165,7 +255,7 @@
       "source": "商汤小浣熊",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.139Z",
+      "crawlTime": "2025-07-14T05:22:48.050Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -183,7 +273,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-10T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.140Z",
+      "crawlTime": "2025-07-14T05:22:48.050Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -201,7 +291,7 @@
       "source": "新智元",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.148Z",
+      "crawlTime": "2025-07-14T05:22:48.051Z",
       "category": "产品发布",
       "tags": [
         "大模型",
@@ -217,7 +307,7 @@
       "source": "昆仑万维集团",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.149Z",
+      "crawlTime": "2025-07-14T05:22:48.051Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -234,7 +324,7 @@
       "source": "星海图",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.149Z",
+      "crawlTime": "2025-07-14T05:22:48.052Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -253,7 +343,7 @@
       "source": "钉钉",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.149Z",
+      "crawlTime": "2025-07-14T05:22:48.052Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -269,7 +359,7 @@
       "source": "生数ShengShu",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.149Z",
+      "crawlTime": "2025-07-14T05:22:48.052Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -286,7 +376,7 @@
       "source": "通义大模型",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.150Z",
+      "crawlTime": "2025-07-14T05:22:48.052Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -304,7 +394,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.148Z",
+      "crawlTime": "2025-07-14T05:22:48.051Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -340,7 +430,7 @@
       "source": "腾讯混元",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-08T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.150Z",
+      "crawlTime": "2025-07-14T05:22:48.053Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -358,7 +448,7 @@
       "source": "蓝驰创投",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-08T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.150Z",
+      "crawlTime": "2025-07-14T05:22:48.053Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -374,7 +464,7 @@
       "source": "问小白",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-08T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.150Z",
+      "crawlTime": "2025-07-14T05:22:48.053Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -392,7 +482,7 @@
       "source": "智东西",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-08T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.151Z",
+      "crawlTime": "2025-07-14T05:22:48.053Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -410,7 +500,7 @@
       "source": "通义大模型",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-07T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.152Z",
+      "crawlTime": "2025-07-14T05:22:48.055Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -429,7 +519,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-07T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.152Z",
+      "crawlTime": "2025-07-14T05:22:48.055Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -448,7 +538,7 @@
       "source": "阿里云",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-07T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.151Z",
+      "crawlTime": "2025-07-14T05:22:48.054Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -467,7 +557,7 @@
       "source": "TRAE.ai",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-07T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.151Z",
+      "crawlTime": "2025-07-14T05:22:48.054Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -485,7 +575,7 @@
       "source": "北京星动纪元科技有限公司",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-07T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.152Z",
+      "crawlTime": "2025-07-14T05:22:48.054Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -504,7 +594,7 @@
       "source": "36氪",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-07T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.152Z",
+      "crawlTime": "2025-07-14T05:22:48.055Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -521,7 +611,7 @@
       "source": "昆仑万维集团",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.153Z",
+      "crawlTime": "2025-07-14T05:22:48.056Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -537,7 +627,7 @@
       "source": "腾讯元宝",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.154Z",
+      "crawlTime": "2025-07-14T05:22:48.056Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -553,7 +643,7 @@
       "source": "智源研究院",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.154Z",
+      "crawlTime": "2025-07-14T05:22:48.057Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -570,7 +660,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.153Z",
+      "crawlTime": "2025-07-14T05:22:48.056Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -586,7 +676,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.153Z",
+      "crawlTime": "2025-07-14T05:22:48.056Z",
       "category": "产品发布",
       "tags": [
         "开源",
@@ -604,7 +694,7 @@
       "source": "LiblibAI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-03T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.154Z",
+      "crawlTime": "2025-07-14T05:22:48.057Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -621,7 +711,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-03T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.155Z",
+      "crawlTime": "2025-07-14T05:22:48.057Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -638,7 +728,7 @@
       "source": "钛媒体AGI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-03T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.154Z",
+      "crawlTime": "2025-07-14T05:22:48.057Z",
       "category": "投融资",
       "tags": [
         "开源",
@@ -657,7 +747,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-02T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.156Z",
+      "crawlTime": "2025-07-14T05:22:48.059Z",
       "category": "产品发布",
       "tags": [
         "研究",
@@ -673,7 +763,7 @@
       "source": "智谱",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-02T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.155Z",
+      "crawlTime": "2025-07-14T05:22:48.058Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -692,7 +782,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-02T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.155Z",
+      "crawlTime": "2025-07-14T05:22:48.058Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -710,7 +800,7 @@
       "source": "钛媒体AGI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-02T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.156Z",
+      "crawlTime": "2025-07-14T05:22:48.059Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -728,7 +818,7 @@
       "source": "北京市教育委员会",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-02T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.156Z",
+      "crawlTime": "2025-07-14T05:22:48.059Z",
       "category": "综合资讯",
       "tags": [
         "技术",
@@ -744,7 +834,7 @@
       "source": "通义千问Qwen",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-01T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.157Z",
+      "crawlTime": "2025-07-14T05:22:48.060Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -760,7 +850,7 @@
       "source": "ima.copilot",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-01T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.157Z",
+      "crawlTime": "2025-07-14T05:22:48.060Z",
       "category": "产品发布",
       "tags": [
         "AI工具"
@@ -775,7 +865,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-01T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.156Z",
+      "crawlTime": "2025-07-14T05:22:48.059Z",
       "category": "开源项目",
       "tags": [
         "发布",
@@ -791,7 +881,7 @@
       "source": "机器之心",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-01T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.157Z",
+      "crawlTime": "2025-07-14T05:22:48.060Z",
       "category": "技术研究",
       "tags": [
         "研究",
@@ -807,7 +897,7 @@
       "source": "APPSO",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.158Z",
+      "crawlTime": "2025-07-14T05:22:48.061Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -825,7 +915,7 @@
       "source": "豆包",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.158Z",
+      "crawlTime": "2025-07-14T05:22:48.061Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -841,7 +931,7 @@
       "source": "通义千问Qwen",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.158Z",
+      "crawlTime": "2025-07-14T05:22:48.062Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -857,7 +947,7 @@
       "source": "飞桨PaddlePaddle",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.158Z",
+      "crawlTime": "2025-07-14T05:22:48.060Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -873,7 +963,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.158Z",
+      "crawlTime": "2025-07-14T05:22:48.062Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -891,7 +981,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.159Z",
+      "crawlTime": "2025-07-14T05:22:48.063Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -908,7 +998,7 @@
       "source": "腾讯",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.159Z",
+      "crawlTime": "2025-07-14T05:22:48.062Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -925,7 +1015,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.159Z",
+      "crawlTime": "2025-07-14T05:22:48.063Z",
       "category": "产品发布",
       "tags": [
         "开源",
@@ -943,7 +1033,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.160Z",
+      "crawlTime": "2025-07-14T05:22:48.063Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -959,7 +1049,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.160Z",
+      "crawlTime": "2025-07-14T05:22:48.063Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -976,7 +1066,7 @@
       "source": "出门问问AIGC",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.160Z",
+      "crawlTime": "2025-07-14T05:22:48.064Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -993,7 +1083,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.160Z",
+      "crawlTime": "2025-07-14T05:22:48.064Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1012,7 +1102,7 @@
       "source": "阶跃星辰",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.161Z",
+      "crawlTime": "2025-07-14T05:22:48.064Z",
       "category": "行业动态",
       "tags": [
         "合作",
@@ -1030,7 +1120,7 @@
       "source": "灵宝CASBOT",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.161Z",
+      "crawlTime": "2025-07-14T05:22:48.065Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -1047,7 +1137,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.161Z",
+      "crawlTime": "2025-07-14T05:22:48.065Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1064,7 +1154,7 @@
       "source": "蚂蚁集团",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.161Z",
+      "crawlTime": "2025-07-14T05:22:48.065Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1080,7 +1170,7 @@
       "source": "万兴科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.161Z",
+      "crawlTime": "2025-07-14T05:22:48.065Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1097,7 +1187,7 @@
       "source": "FellouAI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-25T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.163Z",
+      "crawlTime": "2025-07-14T05:22:48.067Z",
       "category": "开源项目",
       "tags": [
         "发布",
@@ -1114,7 +1204,7 @@
       "source": "饿了么蓝骑士",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-25T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.162Z",
+      "crawlTime": "2025-07-14T05:22:48.066Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1131,7 +1221,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-25T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.162Z",
+      "crawlTime": "2025-07-14T05:22:48.066Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1148,7 +1238,7 @@
       "source": "阿里云",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-25T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.163Z",
+      "crawlTime": "2025-07-14T05:22:48.066Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1167,7 +1257,7 @@
       "source": "界面新闻",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-25T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.163Z",
+      "crawlTime": "2025-07-14T05:22:48.066Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1183,7 +1273,7 @@
       "source": "机器之心",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-24T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.165Z",
+      "crawlTime": "2025-07-14T05:22:48.068Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1199,7 +1289,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-24T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.164Z",
+      "crawlTime": "2025-07-14T05:22:48.067Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1216,7 +1306,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-24T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.164Z",
+      "crawlTime": "2025-07-14T05:22:48.067Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1232,7 +1322,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-24T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.164Z",
+      "crawlTime": "2025-07-14T05:22:48.067Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1249,7 +1339,7 @@
       "source": "墨刀",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-24T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.164Z",
+      "crawlTime": "2025-07-14T05:22:48.068Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1265,7 +1355,7 @@
       "source": "网易有道",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.165Z",
+      "crawlTime": "2025-07-14T05:22:48.069Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1282,7 +1372,7 @@
       "source": "MiniMax 稀宇科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.166Z",
+      "crawlTime": "2025-07-14T05:22:48.069Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1299,7 +1389,7 @@
       "source": "月之暗面 Kimi",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.166Z",
+      "crawlTime": "2025-07-14T05:22:48.069Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1318,7 +1408,7 @@
       "source": "文心快码 baidu Comate",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.165Z",
+      "crawlTime": "2025-07-14T05:22:48.068Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1336,7 +1426,7 @@
       "source": "哈啰",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.165Z",
+      "crawlTime": "2025-07-14T05:22:48.068Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -1354,7 +1444,7 @@
       "source": "智能涌现",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.166Z",
+      "crawlTime": "2025-07-14T05:22:48.069Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -1370,7 +1460,7 @@
       "source": "智东西",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.166Z",
+      "crawlTime": "2025-07-14T05:22:48.070Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1387,7 +1477,7 @@
       "source": "智东西",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.166Z",
+      "crawlTime": "2025-07-14T05:22:48.070Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -1405,7 +1495,7 @@
       "source": "机器之心",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.167Z",
+      "crawlTime": "2025-07-14T05:22:48.071Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1422,7 +1512,7 @@
       "source": "MiniMax 稀宇科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-20T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.167Z",
+      "crawlTime": "2025-07-14T05:22:48.071Z",
       "category": "产品发布",
       "tags": [
         "开源",
@@ -1439,7 +1529,7 @@
       "source": "昆仑万维集团",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-20T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.168Z",
+      "crawlTime": "2025-07-14T05:22:48.072Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1457,7 +1547,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-20T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.168Z",
+      "crawlTime": "2025-07-14T05:22:48.072Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1476,7 +1566,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-20T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.169Z",
+      "crawlTime": "2025-07-14T05:22:48.073Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1493,7 +1583,7 @@
       "source": "机器之心",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-20T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.167Z",
+      "crawlTime": "2025-07-14T05:22:48.071Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1511,7 +1601,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-20T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.168Z",
+      "crawlTime": "2025-07-14T05:22:48.072Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1527,7 +1617,7 @@
       "source": "第一财经",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-20T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.168Z",
+      "crawlTime": "2025-07-14T05:22:48.072Z",
       "category": "投融资",
       "tags": [
         "融资"
@@ -1542,7 +1632,7 @@
       "source": "红杉汇",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-19T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.170Z",
+      "crawlTime": "2025-07-14T05:22:48.074Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1559,7 +1649,7 @@
       "source": "Midjourney",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-19T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.169Z",
+      "crawlTime": "2025-07-14T05:22:48.073Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1575,7 +1665,7 @@
       "source": "MiniMax 稀宇科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-19T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.169Z",
+      "crawlTime": "2025-07-14T05:22:48.073Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1592,7 +1682,7 @@
       "source": "Robopoet珞博智能",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-19T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.169Z",
+      "crawlTime": "2025-07-14T05:22:48.073Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -1609,7 +1699,7 @@
       "source": "阿里云",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-18T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.172Z",
+      "crawlTime": "2025-07-14T05:22:48.076Z",
       "category": "综合资讯",
       "tags": [
         "大模型",
@@ -1626,7 +1716,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-18T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.170Z",
+      "crawlTime": "2025-07-14T05:22:48.074Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1643,7 +1733,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-18T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.171Z",
+      "crawlTime": "2025-07-14T05:22:48.074Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1660,7 +1750,7 @@
       "source": "字节跳动Seed",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-18T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.171Z",
+      "crawlTime": "2025-07-14T05:22:48.075Z",
       "category": "行业动态",
       "tags": [
         "合作",
@@ -1678,7 +1768,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-18T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.171Z",
+      "crawlTime": "2025-07-14T05:22:48.075Z",
       "category": "产品发布",
       "tags": [
         "GPT",
@@ -1694,7 +1784,7 @@
       "source": "APPSO",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-18T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.172Z",
+      "crawlTime": "2025-07-14T05:22:48.075Z",
       "category": "开源项目",
       "tags": [
         "发布",
@@ -1712,7 +1802,7 @@
       "source": "腾讯元宝",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-18T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.172Z",
+      "crawlTime": "2025-07-14T05:22:48.076Z",
       "category": "开源项目",
       "tags": [
         "发布",
@@ -1729,7 +1819,7 @@
       "source": "MiniMax 稀宇科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-17T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.172Z",
+      "crawlTime": "2025-07-14T05:22:48.076Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1747,7 +1837,7 @@
       "source": "通义千问Qwen",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-17T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.173Z",
+      "crawlTime": "2025-07-14T05:22:48.077Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1766,7 +1856,7 @@
       "source": "豆包",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-17T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.172Z",
+      "crawlTime": "2025-07-14T05:22:48.076Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1782,7 +1872,7 @@
       "source": "量子位",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-17T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.173Z",
+      "crawlTime": "2025-07-14T05:22:48.077Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1799,7 +1889,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-17T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.173Z",
+      "crawlTime": "2025-07-14T05:22:48.077Z",
       "category": "综合资讯",
       "tags": [
         "AI工具"
@@ -1814,7 +1904,7 @@
       "source": "九章云极DataCanvas",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-17T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.173Z",
+      "crawlTime": "2025-07-14T05:22:48.077Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1831,7 +1921,7 @@
       "source": "腾讯混元",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-16T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.175Z",
+      "crawlTime": "2025-07-14T05:22:48.078Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -1849,7 +1939,7 @@
       "source": "钛媒体AGI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-16T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.175Z",
+      "crawlTime": "2025-07-14T05:22:48.079Z",
       "category": "综合资讯",
       "tags": [
         "技术",
@@ -1865,7 +1955,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-16T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.174Z",
+      "crawlTime": "2025-07-14T05:22:48.078Z",
       "category": "综合资讯",
       "tags": [
         "AI工具",
@@ -1881,7 +1971,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-16T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.174Z",
+      "crawlTime": "2025-07-14T05:22:48.078Z",
       "category": "开源项目",
       "tags": [
         "GPT",
@@ -1898,7 +1988,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-16T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.174Z",
+      "crawlTime": "2025-07-14T05:22:48.078Z",
       "category": "技术研究",
       "tags": [
         "大模型",
@@ -1915,7 +2005,7 @@
       "source": "百度地图",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-16T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.175Z",
+      "crawlTime": "2025-07-14T05:22:48.079Z",
       "category": "综合资讯",
       "tags": [
         "技术",
@@ -1931,7 +2021,7 @@
       "source": "腾讯元宝",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-13T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.176Z",
+      "crawlTime": "2025-07-14T05:22:48.080Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1947,7 +2037,7 @@
       "source": "讯飞开放平台",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-13T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.175Z",
+      "crawlTime": "2025-07-14T05:22:48.079Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1965,7 +2055,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-13T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.176Z",
+      "crawlTime": "2025-07-14T05:22:48.080Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -1983,7 +2073,7 @@
       "source": "中国天气网",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-13T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.176Z",
+      "crawlTime": "2025-07-14T05:22:48.080Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2001,7 +2091,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-13T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.177Z",
+      "crawlTime": "2025-07-14T05:22:48.080Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2018,7 +2108,7 @@
       "source": "机器之心",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-12T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.177Z",
+      "crawlTime": "2025-07-14T05:22:48.081Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2037,7 +2127,7 @@
       "source": "极客公园",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-12T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.179Z",
+      "crawlTime": "2025-07-14T05:22:48.083Z",
       "category": "综合资讯",
       "tags": [
         "AI工具"
@@ -2052,7 +2142,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-12T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.177Z",
+      "crawlTime": "2025-07-14T05:22:48.081Z",
       "category": "产品发布",
       "tags": [
         "开源",
@@ -2069,7 +2159,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-12T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.177Z",
+      "crawlTime": "2025-07-14T05:22:48.081Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2085,7 +2175,7 @@
       "source": "36氪",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-12T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.178Z",
+      "crawlTime": "2025-07-14T05:22:48.081Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2104,7 +2194,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-12T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.178Z",
+      "crawlTime": "2025-07-14T05:22:48.081Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -2121,7 +2211,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-12T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.178Z",
+      "crawlTime": "2025-07-14T05:22:48.082Z",
       "category": "综合资讯",
       "tags": [
         "技术",
@@ -2137,7 +2227,7 @@
       "source": "夸克APP",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-12T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.178Z",
+      "crawlTime": "2025-07-14T05:22:48.082Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2153,7 +2243,7 @@
       "source": "网易",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-12T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.178Z",
+      "crawlTime": "2025-07-14T05:22:48.083Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2171,7 +2261,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.180Z",
+      "crawlTime": "2025-07-14T05:22:48.085Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2190,7 +2280,7 @@
       "source": "APPSO",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.179Z",
+      "crawlTime": "2025-07-14T05:22:48.083Z",
       "category": "产品发布",
       "tags": [
         "GPT",
@@ -2209,7 +2299,7 @@
       "source": "字节跳动",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.179Z",
+      "crawlTime": "2025-07-14T05:22:48.084Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2225,7 +2315,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.179Z",
+      "crawlTime": "2025-07-14T05:22:48.084Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2242,7 +2332,7 @@
       "source": "字节跳动Seed",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.180Z",
+      "crawlTime": "2025-07-14T05:22:48.084Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2258,7 +2348,7 @@
       "source": "Tripo AI",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-11T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.180Z",
+      "crawlTime": "2025-07-14T05:22:48.085Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -2277,7 +2367,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-10T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.181Z",
+      "crawlTime": "2025-07-14T05:22:48.086Z",
       "category": "综合资讯",
       "tags": [
         "开源",
@@ -2293,7 +2383,7 @@
       "source": "商汤科技SenseTime",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-10T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.181Z",
+      "crawlTime": "2025-07-14T05:22:48.085Z",
       "category": "产品发布",
       "tags": [
         "合作",
@@ -2312,7 +2402,7 @@
       "source": "财联社",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-10T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.181Z",
+      "crawlTime": "2025-07-14T05:22:48.086Z",
       "category": "产品发布",
       "tags": [
         "GPT",
@@ -2329,7 +2419,7 @@
       "source": "有新Newin",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-10T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.182Z",
+      "crawlTime": "2025-07-14T05:22:48.086Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2346,7 +2436,7 @@
       "source": "智谱",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.182Z",
+      "crawlTime": "2025-07-14T05:22:48.087Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2362,7 +2452,7 @@
       "source": "硅基流动",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.182Z",
+      "crawlTime": "2025-07-14T05:22:48.087Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -2379,7 +2469,7 @@
       "source": "小红书技术REDtech",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.182Z",
+      "crawlTime": "2025-07-14T05:22:48.088Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2396,7 +2486,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.183Z",
+      "crawlTime": "2025-07-14T05:22:48.088Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2413,7 +2503,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.183Z",
+      "crawlTime": "2025-07-14T05:22:48.088Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -2429,7 +2519,7 @@
       "source": "智平方科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-09T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.183Z",
+      "crawlTime": "2025-07-14T05:22:48.088Z",
       "category": "综合资讯",
       "tags": [
         "大模型",
@@ -2445,7 +2535,7 @@
       "source": "通义大模型",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-06T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.184Z",
+      "crawlTime": "2025-07-14T05:22:48.089Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2462,7 +2552,7 @@
       "source": "智源研究院",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-06T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.183Z",
+      "crawlTime": "2025-07-14T05:22:48.089Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2481,7 +2571,7 @@
       "source": "字节跳动Seed",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-06T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.184Z",
+      "crawlTime": "2025-07-14T05:22:48.089Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2497,7 +2587,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-06T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.184Z",
+      "crawlTime": "2025-07-14T05:22:48.090Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2514,7 +2604,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-06T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.184Z",
+      "crawlTime": "2025-07-14T05:22:48.090Z",
       "category": "产品发布",
       "tags": [
         "研究",
@@ -2531,7 +2621,7 @@
       "source": "爱诗科技AIsphere",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-06T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.185Z",
+      "crawlTime": "2025-07-14T05:22:48.090Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2547,7 +2637,7 @@
       "source": "AI秘塔",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-05T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.185Z",
+      "crawlTime": "2025-07-14T05:22:48.091Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2563,7 +2653,7 @@
       "source": "APPSO",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-05T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.185Z",
+      "crawlTime": "2025-07-14T05:22:48.091Z",
       "category": "开源项目",
       "tags": [
         "GPT",
@@ -2581,7 +2671,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-05T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.185Z",
+      "crawlTime": "2025-07-14T05:22:48.091Z",
       "category": "开源项目",
       "tags": [
         "发布",
@@ -2598,7 +2688,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-05T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.185Z",
+      "crawlTime": "2025-07-14T05:22:48.091Z",
       "category": "行业动态",
       "tags": [
         "开源",
@@ -2617,7 +2707,7 @@
       "source": "量子位",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.186Z",
+      "crawlTime": "2025-07-14T05:22:48.092Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -2634,7 +2724,7 @@
       "source": "智能涌现",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.186Z",
+      "crawlTime": "2025-07-14T05:22:48.092Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2653,7 +2743,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.186Z",
+      "crawlTime": "2025-07-14T05:22:48.091Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2672,7 +2762,7 @@
       "source": "快手技术",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.186Z",
+      "crawlTime": "2025-07-14T05:22:48.092Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2688,7 +2778,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.186Z",
+      "crawlTime": "2025-07-14T05:22:48.092Z",
       "category": "产品发布",
       "tags": [
         "开源",
@@ -2705,7 +2795,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.187Z",
+      "crawlTime": "2025-07-14T05:22:48.092Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2723,7 +2813,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.187Z",
+      "crawlTime": "2025-07-14T05:22:48.093Z",
       "category": "综合资讯",
       "tags": [
         "GPT",
@@ -2740,7 +2830,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-04T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.187Z",
+      "crawlTime": "2025-07-14T05:22:48.093Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2759,7 +2849,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-03T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.188Z",
+      "crawlTime": "2025-07-14T05:22:48.094Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2776,7 +2866,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-03T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.187Z",
+      "crawlTime": "2025-07-14T05:22:48.093Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2793,7 +2883,7 @@
       "source": "中国水利",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-03T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.187Z",
+      "crawlTime": "2025-07-14T05:22:48.093Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2810,7 +2900,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-03T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.188Z",
+      "crawlTime": "2025-07-14T05:22:48.093Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2826,7 +2916,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-03T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.188Z",
+      "crawlTime": "2025-07-14T05:22:48.094Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2842,7 +2932,7 @@
       "source": "Z Finance",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-30T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.188Z",
+      "crawlTime": "2025-07-14T05:22:48.094Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2859,7 +2949,7 @@
       "source": "阿里云",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-30T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.188Z",
+      "crawlTime": "2025-07-14T05:22:48.094Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2878,7 +2968,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-30T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.189Z",
+      "crawlTime": "2025-07-14T05:22:48.095Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2897,7 +2987,7 @@
       "source": "Lumos Robotics鹿明机器人",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-30T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.189Z",
+      "crawlTime": "2025-07-14T05:22:48.095Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -2913,7 +3003,7 @@
       "source": "量子位",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-29T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.189Z",
+      "crawlTime": "2025-07-14T05:22:48.095Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -2930,7 +3020,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-29T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.189Z",
+      "crawlTime": "2025-07-14T05:22:48.095Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2947,7 +3037,7 @@
       "source": "中国石油报",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-29T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.189Z",
+      "crawlTime": "2025-07-14T05:22:48.095Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -2965,7 +3055,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-29T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.190Z",
+      "crawlTime": "2025-07-14T05:22:48.095Z",
       "category": "开源项目",
       "tags": [
         "发布",
@@ -2983,7 +3073,7 @@
       "source": "Z Finance",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-29T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.190Z",
+      "crawlTime": "2025-07-14T05:22:48.096Z",
       "category": "综合资讯",
       "tags": [
         "技术",
@@ -3000,7 +3090,7 @@
       "source": "腾讯混元",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-28T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.190Z",
+      "crawlTime": "2025-07-14T05:22:48.096Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -3019,7 +3109,7 @@
       "source": "小红书",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-28T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.190Z",
+      "crawlTime": "2025-07-14T05:22:48.096Z",
       "category": "产品发布",
       "tags": [
         "合作",
@@ -3038,7 +3128,7 @@
       "source": "Z Potentials",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-28T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.190Z",
+      "crawlTime": "2025-07-14T05:22:48.096Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -3057,7 +3147,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-28T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.191Z",
+      "crawlTime": "2025-07-14T05:22:48.097Z",
       "category": "产品发布",
       "tags": [
         "GPT",
@@ -3075,7 +3165,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-28T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.191Z",
+      "crawlTime": "2025-07-14T05:22:48.097Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -3091,7 +3181,7 @@
       "source": "Z Potentials",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-28T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.191Z",
+      "crawlTime": "2025-07-14T05:22:48.097Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -3109,7 +3199,7 @@
       "source": "阿里云",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-28T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.191Z",
+      "crawlTime": "2025-07-14T05:22:48.097Z",
       "category": "产品发布",
       "tags": [
         "合作",
@@ -3126,7 +3216,7 @@
       "source": "AI秘塔",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.191Z",
+      "crawlTime": "2025-07-14T05:22:48.097Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -3143,7 +3233,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.192Z",
+      "crawlTime": "2025-07-14T05:22:48.098Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -3160,7 +3250,7 @@
       "source": "有道云笔记",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.192Z",
+      "crawlTime": "2025-07-14T05:22:48.098Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -3176,7 +3266,7 @@
       "source": "微分智飞科技有限公司",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.192Z",
+      "crawlTime": "2025-07-14T05:22:48.098Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -3192,7 +3282,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.192Z",
+      "crawlTime": "2025-07-14T05:22:48.098Z",
       "category": "开源项目",
       "tags": [
         "GPT",
@@ -3211,7 +3301,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.192Z",
+      "crawlTime": "2025-07-14T05:22:48.098Z",
       "category": "产品发布",
       "tags": [
         "AI工具",
@@ -3227,7 +3317,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-27T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.192Z",
+      "crawlTime": "2025-07-14T05:22:48.098Z",
       "category": "开源项目",
       "tags": [
         "GPT",
@@ -3243,7 +3333,7 @@
       "source": "豆包",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.193Z",
+      "crawlTime": "2025-07-14T05:22:48.099Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -3259,7 +3349,7 @@
       "source": "昆仑万维集团",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.193Z",
+      "crawlTime": "2025-07-14T05:22:48.099Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -3276,7 +3366,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.193Z",
+      "crawlTime": "2025-07-14T05:22:48.099Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -3293,7 +3383,7 @@
       "source": "优必选科技",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.193Z",
+      "crawlTime": "2025-07-14T05:22:48.099Z",
       "category": "行业动态",
       "tags": [
         "合作",
@@ -3312,7 +3402,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.193Z",
+      "crawlTime": "2025-07-14T05:22:48.099Z",
       "category": "产品发布",
       "tags": [
         "大模型",
@@ -3329,7 +3419,7 @@
       "source": "QQ浏览器",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-26T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.194Z",
+      "crawlTime": "2025-07-14T05:22:48.100Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -3346,7 +3436,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-05-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.194Z",
+      "crawlTime": "2025-07-14T05:22:48.100Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -3354,106 +3444,24 @@
         "AI工具"
       ],
       "dateText": "5月23日·周五"
-    },
-    {
-      "id": "b1e043a7",
-      "title": "OpenAI 宣布“星际之门”首个国际部署项目落户阿联酋，并考虑扩张至亚太地区",
-      "content": "OpenAI宣布“星际之门阿联酋”项目，是人工智能基础设施平台Stargate的首个国际部署。项目由OpenAI与G42、甲骨文、英伟达、软银和思科共同打造，位于阿布扎比阿联酋-美国人工智能园区。G42负责建设，OpenAI和甲骨文运营，思科提供安全连接，英伟达供应系统。",
-      "originalContent": "OpenAI 宣布“星际之门”首个国际部署项目落户阿联酋，并考虑扩张至亚太地区 OpenAI宣布“星际之门阿联酋”项目，是人工智能基础设施平台Stargate的首个国际部署。项目由OpenAI与G42、甲骨文、英伟达、软银和思科共同打造，位于阿布扎比阿联酋-美国人工智能园区。G42负责建设，OpenAI和甲骨文运营，思科提供安全连接，英伟达供应系统。",
-      "source": "IT之家",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.194Z",
-      "category": "开源项目",
-      "tags": [
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "5月23日·周五"
-    },
-    {
-      "id": "f2ab3321",
-      "title": "京东工业发布行业首个以供应链为核心的工业大模型Joy industrial",
-      "content": "京东工业在上海发布行业首个以供应链为核心的工业大模型——Joy industrial。模型依托京东工业在工业数智供应链领域的经验积累和数据沉淀，构建全栈产品矩阵，首批推出需求代理、运营代理、关务代理、商品专家、集成专家等AI产品，助力产业降本增效。",
-      "originalContent": "京东工业发布行业首个以供应链为核心的工业大模型Joy industrial 京东工业在上海发布行业首个以供应链为核心的工业大模型——Joy industrial。模型依托京东工业在工业数智供应链领域的经验积累和数据沉淀，构建全栈产品矩阵，首批推出需求代理、运营代理、关务代理、商品专家、集成专家等AI产品，助力产业降本增效。",
-      "source": "京东黑板报",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-23T00:00:00.000Z",
-      "crawlTime": "2025-07-14T04:38:59.194Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月23日·周五"
-    },
-    {
-      "id": "7cc71982",
-      "title": "Anthropic公司推出了新一代Claude 4模型—— Claude Opus 4 和 Claude Sonnet 4 。Claude Opus 4 是全球顶尖的编码模型，在复杂、长时间任务和代理工作流中表现出色。Claude Sonnet 4 在编码和推理方面进行了显著升级，响应指令更精准。来源：AI工具集",
-      "content": "OpenAI 宣布“星际之门”首个国际部署项目落户阿联酋，并考虑扩张至亚太地区",
-      "originalContent": "Anthropic公司推出了新一代Claude 4模型—— Claude Opus 4 和 Claude Sonnet 4 。Claude Opus 4 是全球顶尖的编码模型，在复杂、长时间任务和代理工作流中表现出色。Claude Sonnet 4 在编码和推理方面进行了显著升级，响应指令更精准。来源：AI工具集 OpenAI 宣布“星际之门”首个国际部署项目落户阿联酋，并考虑扩张至亚太地区",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-22T16:00:00.000Z",
-      "crawlTime": "2025-07-08T12:47:49.068Z",
-      "category": "开源项目",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月23日"
-    },
-    {
-      "id": "d147fb65",
-      "title": "OpenAI宣布“星际之门阿联酋”项目，是人工智能基础设施平台Stargate的首个国际部署。项目由OpenAI与G42、甲骨文、英伟达、软银和思科共同打造，位于阿布扎比阿联酋-美国人工智能园区。G42负责建设，OpenAI和甲骨文运营，思科提供安全连接，英伟达供应系统。来源：IT之家",
-      "content": "京东工业发布行业首个以供应链为核心的工业大模型Joy industrial",
-      "originalContent": "OpenAI宣布“星际之门阿联酋”项目，是人工智能基础设施平台Stargate的首个国际部署。项目由OpenAI与G42、甲骨文、英伟达、软银和思科共同打造，位于阿布扎比阿联酋-美国人工智能园区。G42负责建设，OpenAI和甲骨文运营，思科提供安全连接，英伟达供应系统。来源：IT之家 京东工业发布行业首个以供应链为核心的工业大模型Joy industrial",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-22T16:00:00.000Z",
-      "crawlTime": "2025-07-08T12:47:49.068Z",
-      "category": "开源项目",
-      "tags": [
-        "发布",
-        "大模型",
-        "技术",
-        "AI工具"
-      ],
-      "dateText": "5月23日"
-    },
-    {
-      "id": "1e47d0b4",
-      "title": "京东工业在上海发布行业首个以供应链为核心的工业大模型——Joy industrial。模型依托京东工业在工业数智供应链领域的经验积累和数据沉淀，构建全栈产品矩阵，首批推出需求代理、运营代理、关务代理、商品专家、集成专家等AI产品，助力产业降本增效。来源：京东黑板报",
-      "content": "京东工业在上海发布行业首个以供应链为核心的工业大模型——Joy industrial。模型依托京东工业在工业数智供应链领域的经验积累和数据沉淀，构建全栈产品矩阵，首批推出需求代理、运营代理、关务代理、商品专家、集成专家等AI产品，助力产业降本增效。来源：京东黑板报",
-      "originalContent": "京东工业在上海发布行业首个以供应链为核心的工业大模型——Joy industrial。模型依托京东工业在工业数智供应链领域的经验积累和数据沉淀，构建全栈产品矩阵，首批推出需求代理、运营代理、关务代理、商品专家、集成专家等AI产品，助力产业降本增效。来源：京东黑板报",
-      "source": "AI工具集",
-      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
-      "publishTime": "2025-05-22T16:00:00.000Z",
-      "crawlTime": "2025-07-08T12:47:49.068Z",
-      "category": "产品发布",
-      "tags": [
-        "发布",
-        "大模型",
-        "AI工具"
-      ],
-      "dateText": "5月23日"
     }
   ],
   "stats": {
     "todayCount": 0,
-    "totalCount": 1607,
+    "totalCount": 1612,
     "categories": [
       "产品发布",
       "开源项目",
       "投融资",
+      "行业动态",
       "综合资讯",
-      "技术研究",
-      "行业动态"
+      "技术研究"
     ],
     "sources": [
+      "通义千问Qwen",
       "IT之家",
+      "36氪",
+      "CAMEL AI",
       "墨刀",
       "AI工具集",
       "爱诗科技AIsphere",
@@ -3472,14 +3480,12 @@
       "阿里云",
       "TRAE.ai",
       "北京星动纪元科技有限公司",
-      "36氪",
       "腾讯元宝",
       "智源研究院",
       "LiblibAI",
       "钛媒体AGI",
       "智谱",
       "北京市教育委员会",
-      "通义千问Qwen",
       "ima.copilot",
       "APPSO",
       "豆包",
@@ -3613,16 +3619,16 @@
       "第1财经"
     ],
     "categoryStats": {
-      "产品发布": 766,
-      "开源项目": 451,
-      "投融资": 258,
+      "产品发布": 767,
+      "开源项目": 453,
+      "投融资": 259,
+      "行业动态": 41,
       "综合资讯": 71,
-      "技术研究": 21,
-      "行业动态": 40
+      "技术研究": 21
     },
     "dateRange": {
       "earliest": "2024-12-01T16:00:00.000Z",
-      "latest": "2025-07-11T00:00:00.000Z"
+      "latest": "2025-07-14T00:00:00.000Z"
     }
   }
 }

@@ -10,7 +10,7 @@
       "source": "APPSO",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-15T12:36:41.614Z",
+      "crawlTime": "2025-07-15T13:34:37.956Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -28,7 +28,7 @@
       "source": "豆包",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-15T12:36:41.614Z",
+      "crawlTime": "2025-07-15T13:34:37.956Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -44,7 +44,7 @@
       "source": "通义千问Qwen",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-15T12:36:41.615Z",
+      "crawlTime": "2025-07-15T13:34:37.957Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -60,7 +60,7 @@
       "source": "飞桨PaddlePaddle",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-15T12:36:41.614Z",
+      "crawlTime": "2025-07-15T13:34:37.956Z",
       "category": "开源项目",
       "tags": [
         "开源",
@@ -76,7 +76,7 @@
       "source": "AI工具集",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-06-30T00:00:00.000Z",
-      "crawlTime": "2025-07-15T12:36:41.615Z",
+      "crawlTime": "2025-07-15T13:34:37.957Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -87,5 +87,5 @@
       "dateText": "6月30·周一"
     }
   ],
-  "updateTime": "2025-07-15T12:36:41.922Z"
+  "updateTime": "2025-07-15T13:34:38.262Z"
 }

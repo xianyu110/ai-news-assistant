@@ -1,0 +1,129 @@
+{
+  "date": "2025-07-16",
+  "count": 7,
+  "data": [
+    {
+      "id": "107e7ec0",
+      "title": "亚马逊推出Kiro AI编程平台，正式开放公测",
+      "content": "亚马逊云科技宣布推出Kiro AI编程平台，正式开放公测。Kiro是Agentic IDE，提供AI编码辅助，能帮助开发者从想法到上线的全过程。Specs可将模糊需求转化为具体用户故事和边界条件，Hooks能在代码提交前自动完成测试、文档更新和安全扫描等任务。",
+      "originalContent": "亚马逊推出Kiro AI编程平台，正式开放公测 亚马逊云科技宣布推出Kiro AI编程平台，正式开放公测。Kiro是Agentic IDE，提供AI编码辅助，能帮助开发者从想法到上线的全过程。Specs可将模糊需求转化为具体用户故事和边界条件，Hooks能在代码提交前自动完成测试、文档更新和安全扫描等任务。",
+      "source": "亚马逊云科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.131Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "6c7eeedc",
+      "title": "Grok 推出交互式「数字伴侣」，基于Grok 4大模型",
+      "content": "马斯克旗下Grok APP推出基于Grok 4大模型的“智能伴侣”功能，付费用户可优先体验。功能提供动漫头像Ani、卡通小熊猫Rudy等3D形象，支持更换背景和动作。",
+      "originalContent": "Grok 推出交互式「数字伴侣」，基于Grok 4大模型 马斯克旗下Grok APP推出基于Grok 4大模型的“智能伴侣”功能，付费用户可优先体验。功能提供动漫头像Ani、卡通小熊猫Rudy等3D形象，支持更换背景和动作。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.133Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "3D"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "6b8bf34e",
+      "title": "ChatExcel·桌面版全新上线、AI提示词优化、常用提示词保存功能",
+      "content": "ChatExcel桌面版全新上线，支持Mac和Windows平台，用户可直接在桌面处理Excel数据、生成图表等，无需浏览器。新增AI优化提示词功能，点击“魔术笔”可一键优化提示词内容，更规范、准确。上线常用提示词保存功能，方便用户在重复场景中快速使用。",
+      "originalContent": "ChatExcel·桌面版全新上线、AI提示词优化、常用提示词保存功能 ChatExcel桌面版全新上线，支持Mac和Windows平台，用户可直接在桌面处理Excel数据、生成图表等，无需浏览器。新增AI优化提示词功能，点击“魔术笔”可一键优化提示词内容，更规范、准确。上线常用提示词保存功能，方便用户在重复场景中快速使用。",
+      "source": "元空AIExcel",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.134Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "d24b9c61",
+      "title": "华为携手云南交投发布“绿美通道·交通大模型”",
+      "content": "云南省交通投资建设集团有限公司与华为、长安大学合作研发的“绿美通道·交通大模型”在昆明正式发布。模型历时两年研发，涵盖智算中心底座、高质量数据集、AI平台工具链、行业模型集及AI场景应用等成果。",
+      "originalContent": "华为携手云南交投发布“绿美通道·交通大模型” 云南省交通投资建设集团有限公司与华为、长安大学合作研发的“绿美通道·交通大模型”在昆明正式发布。模型历时两年研发，涵盖智算中心底座、高质量数据集、AI平台工具链、行业模型集及AI场景应用等成果。",
+      "source": "华为",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.141Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "ea1fe291",
+      "title": "OpenAI正在开发基于Chromium的AI浏览器——“Aura”",
+      "content": "OpenAI正在开发一款基于Chromium的AI驱动浏览器，内部代号为“Aura”。浏览器将利用生成式和代理式AI能力，彻底改变用户的网络浏览体验。",
+      "originalContent": "OpenAI正在开发基于Chromium的AI浏览器——“Aura” OpenAI正在开发一款基于Chromium的AI驱动浏览器，内部代号为“Aura”。浏览器将利用生成式和代理式AI能力，彻底改变用户的网络浏览体验。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.141Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "8c0f2fd5",
+      "title": "百度AI助手全新功能「视频通话」上线！",
+      "content": "百度AI助手推出全新功能「视频通话」。用户可通过百度APP进入「AI+」选择「视频通话」，开启与AI的视频互动。覆盖多种生活场景：可识别花草、解答难题；提供专业穿搭建议；解读宠物行为；倾听烦恼、提供慰藉。",
+      "originalContent": "百度AI助手全新功能「视频通话」上线！ 百度AI助手推出全新功能「视频通话」。用户可通过百度APP进入「AI+」选择「视频通话」，开启与AI的视频互动。覆盖多种生活场景：可识别花草、解答难题；提供专业穿搭建议；解读宠物行为；倾听烦恼、提供慰藉。",
+      "source": "百度搜索",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.142Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "1ab0e20e",
+      "title": "LG 推出韩国首个混合推理 AI 模型 EXAONE 4.0",
+      "content": "LG AI Research研究所推出韩国首个混合推理AI模型EXAONE 4.0。模型融合通用自然语言处理与高级推理能力，在数学、科学及编程等高难度领域表现优异，支持多语言并提供32B专业版和1.2B端侧版。",
+      "originalContent": "LG 推出韩国首个混合推理 AI 模型 EXAONE 4.0 LG AI Research研究所推出韩国首个混合推理AI模型EXAONE 4.0。模型融合通用自然语言处理与高级推理能力，在数学、科学及编程等高难度领域表现优异，支持多语言并提供32B专业版和1.2B端侧版。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.142Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    }
+  ],
+  "updateTime": "2025-07-16T04:51:17.447Z"
+}

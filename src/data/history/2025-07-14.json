@@ -1,0 +1,114 @@
+{
+  "date": "2025-07-14",
+  "count": 6,
+  "data": [
+    {
+      "id": "18a4be73",
+      "title": "通义千问推出Qwen Chat桌面端，一键使用MCP",
+      "content": "阿里巴巴旗下通义千问发布Qwen Chat桌面端，目前支持macOS端，支持多模型PK及MCP协议，可通过插件实时调用地图、搜索、本地文件等外部数据，实现更精准回答。",
+      "originalContent": "通义千问推出Qwen Chat桌面端，一键使用MCP 阿里巴巴旗下通义千问发布Qwen Chat桌面端，目前支持macOS端，支持多模型PK及MCP协议，可通过插件实时调用地图、搜索、本地文件等外部数据，实现更精准回答。",
+      "source": "通义千问Qwen",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.145Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "6b6d3531",
+      "title": "奥尔特曼宣布延期 OpenAI 首个开源权重 AI 模型",
+      "content": "OpenAI CEO山姆·奥尔特曼7月12日宣布，再次推迟发布其首个开源权重AI模型，理由是需要更多时间进行安全测试及高风险内容审查，但未给出新的发布日期。该模型原计划下周亮相，已是年内第二次延期。",
+      "originalContent": "奥尔特曼宣布延期 OpenAI 首个开源权重 AI 模型 OpenAI CEO山姆·奥尔特曼7月12日宣布，再次推迟发布其首个开源权重AI模型，理由是需要更多时间进行安全测试及高风险内容审查，但未给出新的发布日期。该模型原计划下周亮相，已是年内第二次延期。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.146Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "2a2f827a",
+      "title": "「汉阳科技Yarbo」近日完成超亿元B+轮融资",
+      "content": "消费级扫雪机器人公司「汉阳科技Yarbo」完成逾亿元B+轮融资，由国科投资、中金资本、九阳创投联合注资。本轮资金将用于技术研发、供应链优化及北美、欧洲市场拓展，借助九阳SharkNinja渠道加速全球化布局。",
+      "originalContent": "「汉阳科技Yarbo」近日完成超亿元B+轮融资 消费级扫雪机器人公司「汉阳科技Yarbo」完成逾亿元B+轮融资，由国科投资、中金资本、九阳创投联合注资。本轮资金将用于技术研发、供应链优化及北美、欧洲市场拓展，借助九阳SharkNinja渠道加速全球化布局。",
+      "source": "36氪",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.146Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "技术",
+        "机器人"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "cec3276e",
+      "title": "OpenAI 收购 Windsurf 计划告吹，后者 CEO 及创始人已被谷歌招入麾下",
+      "content": "OpenAI收购AI编码助手Windsurf的交易正式取消。谷歌迅速出手，Windsurf CEO Varun Mohan、联合创始人Douglas Chen及核心团队集体加入DeepMind，谷歌以约24亿美元获其技术非独家授权。原30亿美元收购价落空，Windsurf高层换血，业务由临时CEO接手。",
+      "originalContent": "OpenAI 收购 Windsurf 计划告吹，后者 CEO 及创始人已被谷歌招入麾下 OpenAI收购AI编码助手Windsurf的交易正式取消。谷歌迅速出手，Windsurf CEO Varun Mohan、联合创始人Douglas Chen及核心团队集体加入DeepMind，谷歌以约24亿美元获其技术非独家授权。原30亿美元收购价落空，Windsurf高层换血，业务由临时CEO接手。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.146Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "6c5ed6ef",
+      "title": "CAMEL-AI与Gemini官宣合作，实现数据可视化和自动化",
+      "content": "开源多智能体框架CAMEL-AI宣布与Google DeepMind合作，集成Gemini 2.5 Pro模型，推出OWL系统。用户只需一句自然语言指令，OWL即可自动完成搜索、提取、分析并生成可视化图表，支持在线数据、本地文件及浏览器操作。",
+      "originalContent": "CAMEL-AI与Gemini官宣合作，实现数据可视化和自动化 开源多智能体框架CAMEL-AI宣布与Google DeepMind合作，集成Gemini 2.5 Pro模型，推出OWL系统。用户只需一句自然语言指令，OWL即可自动完成搜索、提取、分析并生成可视化图表，支持在线数据、本地文件及浏览器操作。",
+      "source": "CAMEL AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.147Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "c4242b5f",
+      "title": "美图推出专注于影像与设计的AI智能体RoboNeo",
+      "content": "美图公司正式推出专注于影像与设计的AI智能体RoboNeo，用户可通过自然语言交互轻松完成修图、设计和视频制作等任务。RoboNeo具备智能修图、AI设计生成、视频智能处理及多模态创作等多项功能",
+      "originalContent": "美图推出专注于影像与设计的AI智能体RoboNeo 美图公司正式推出专注于影像与设计的AI智能体RoboNeo，用户可通过自然语言交互轻松完成修图、设计和视频制作等任务。RoboNeo具备智能修图、AI设计生成、视频智能处理及多模态创作等多项功能",
+      "source": "美图公司",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.146Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月14·周一"
+    }
+  ],
+  "updateTime": "2025-07-16T04:51:17.448Z"
+}

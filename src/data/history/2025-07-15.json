@@ -1,0 +1,95 @@
+{
+  "date": "2025-07-15",
+  "count": 5,
+  "data": [
+    {
+      "id": "61dd77b4",
+      "title": "秘塔AI搜索推出“深度研究”模块，动态展示研究过程",
+      "content": "秘塔AI搜索宣布其“深度研究”模块正式上线。秘塔通过优化数据和算法，降低了算力成本，提升了准确率，在中文搜索上表现突出。秘塔版“深度研究”免费开放，增加了“问题链”功能，可动态展示研究过程，为复杂问题提供结构化报告。",
+      "originalContent": "秘塔AI搜索推出“深度研究”模块，动态展示研究过程 秘塔AI搜索宣布其“深度研究”模块正式上线。秘塔通过优化数据和算法，降低了算力成本，提升了准确率，在中文搜索上表现突出。秘塔版“深度研究”免费开放，增加了“问题链”功能，可动态展示研究过程，为复杂问题提供结构化报告。",
+      "source": "AI秘塔",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.143Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月15·周二"
+    },
+    {
+      "id": "13418247",
+      "title": "华人团队Cognition收购Windsurf剩余团队",
+      "content": "编程助手公司 Cognition 宣布收购编程初创公司Windsurf剩余员工和资产，获得其银行账户中超过 1 亿美元资金。此次收购后，Windsurf 将短期独立运营，继续开发其 AI 驱动的 IDE，Cognition 提供资金支持并计划将 Windsurf 的 IP 和功能集成到自身产品中。",
+      "originalContent": "华人团队Cognition收购Windsurf剩余团队 编程助手公司 Cognition 宣布收购编程初创公司Windsurf剩余员工和资产，获得其银行账户中超过 1 亿美元资金。此次收购后，Windsurf 将短期独立运营，继续开发其 AI 驱动的 IDE，Cognition 提供资金支持并计划将 Windsurf 的 IP 和功能集成到自身产品中。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.144Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月15·周二"
+    },
+    {
+      "id": "c9d4b96f",
+      "title": "MiniMax已基本完成近 3 亿美元新一轮融资",
+      "content": "大模型公司 MiniMax 近期已完成近 3 亿美元新一轮融资，估值超 40 亿美元。本轮融资新增上海国资等出资方，成为今年 AI 六小虎中仅有的两家获得融资的公司之一。",
+      "originalContent": "MiniMax已基本完成近 3 亿美元新一轮融资 大模型公司 MiniMax 近期已完成近 3 亿美元新一轮融资，估值超 40 亿美元。本轮融资新增上海国资等出资方，成为今年 AI 六小虎中仅有的两家获得融资的公司之一。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.145Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月15·周二"
+    },
+    {
+      "id": "31f39985",
+      "title": "智源全面开源RoboBrain 2.0与RoboOS 2.0：刷新10项评测基准",
+      "content": "智源研究院发布 RoboBrain 2.0 和 RoboOS 2.0，RoboBrain 2.0 是集感知、推理与规划于一体的通用具身大脑，32B 版本刷新多项权威评测基准，7B 版本适配边缘设备。RoboOS 2.0 是全球首个具身智能 SaaS 开源框架，集成 MCP 协议与无服务器架构，支持多机协作，推出单机版及技能商店。",
+      "originalContent": "智源全面开源RoboBrain 2.0与RoboOS 2.0：刷新10项评测基准 智源研究院发布 RoboBrain 2.0 和 RoboOS 2.0，RoboBrain 2.0 是集感知、推理与规划于一体的通用具身大脑，32B 版本刷新多项权威评测基准，7B 版本适配边缘设备。RoboOS 2.0 是全球首个具身智能 SaaS 开源框架，集成 MCP 协议与无服务器架构，支持多机协作，推出单机版及技能商店。",
+      "source": "智源研究院",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.145Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "技术",
+        "机器人"
+      ],
+      "dateText": "7月15·周二"
+    },
+    {
+      "id": "3c077c8c",
+      "title": "TRAE 自定义模型新增 Kimi-K2，国际版支持Grok-4",
+      "content": "TRAE自定义模型服务商宣布新增Kimi-K2模型，支持通过API Key接入，满足开发者对模型多样性和专业性的需求。TRAE国际版新增超级模型Grok-4（Beta），进一步丰富了模型阵容，支持全球主流大模型一站式调用。",
+      "originalContent": "TRAE 自定义模型新增 Kimi-K2，国际版支持Grok-4 TRAE自定义模型服务商宣布新增Kimi-K2模型，支持通过API Key接入，满足开发者对模型多样性和专业性的需求。TRAE国际版新增超级模型Grok-4（Beta），进一步丰富了模型阵容，支持全球主流大模型一站式调用。",
+      "source": "TRAE.ai",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.143Z",
+      "category": "综合资讯",
+      "tags": [
+        "大模型"
+      ],
+      "dateText": "7月15·周二"
+    }
+  ],
+  "updateTime": "2025-07-16T04:51:17.448Z"
+}

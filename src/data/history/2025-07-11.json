@@ -1,0 +1,110 @@
+{
+  "date": "2025-07-11",
+  "count": 6,
+  "data": [
+    {
+      "id": "a2a316e9",
+      "title": "欧盟公布最终版《通用人工智能行为准则》，8 月 2 日起正式实施",
+      "content": "欧盟发布最终版《通用人工智能行为准则》，8月2日实施，涵盖安全、透明、版权三方面，由13位专家联合1000多利益方制定，企业可自愿签署以减轻负担，旧模型有2年调整期，新模型1年。",
+      "originalContent": "欧盟公布最终版《通用人工智能行为准则》，8 月 2 日起正式实施 欧盟发布最终版《通用人工智能行为准则》，8月2日实施，涵盖安全、透明、版权三方面，由13位专家联合1000多利益方制定，企业可自愿签署以减轻负担，旧模型有2年调整期，新模型1年。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.147Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "c0e89852",
+      "title": "墨刀AI重磅上线：原型图，现在可以自动生成了！",
+      "content": "墨刀AI上线全新原型生成能力，从灵感到可交付界面只需30秒，面向产品经理和设计师提供零门槛体验。支持文字/草图/截图转原型，自动识别布局与组件；多轮对话优化设计，像“聊天”一样改原型；自动生成产品文档与页面逻辑，规范输出流程。",
+      "originalContent": "墨刀AI重磅上线：原型图，现在可以自动生成了！ 墨刀AI上线全新原型生成能力，从灵感到可交付界面只需30秒，面向产品经理和设计师提供零门槛体验。支持文字/草图/截图转原型，自动识别布局与组件；多轮对话优化设计，像“聊天”一样改原型；自动生成产品文档与页面逻辑，规范输出流程。",
+      "source": "墨刀",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.148Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "11ffe798",
+      "title": "微软发布 Phi-4-mini-flash-reasoning 端侧 AI 模型：10 倍吞吐量",
+      "content": "微软发布Phi-4-mini-flash-reasoning端侧AI模型，采用SambaY架构与GMU组件，推理吞吐量提升10倍、延迟降至1/3，专注数学与逻辑推理，已上线Azure AI Foundry等平台。",
+      "originalContent": "微软发布 Phi-4-mini-flash-reasoning 端侧 AI 模型：10 倍吞吐量 微软发布Phi-4-mini-flash-reasoning端侧AI模型，采用SambaY架构与GMU组件，推理吞吐量提升10倍、延迟降至1/3，专注数学与逻辑推理，已上线Azure AI Foundry等平台。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.148Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "4c7cafdf",
+      "title": "月之暗面Kimi最新推出的MoE架构基础模型——k2",
+      "content": "月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "originalContent": "月之暗面Kimi最新推出的MoE架构基础模型——k2 月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-11T12:17:55.203Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "84fdd9db",
+      "title": "拍我AI（PixVerse）上线多关键帧生成功能，从“片段”迈向“故事性表达”",
+      "content": "拍我AI（PixVerse）上线“多关键帧生成”功能，用户可上传最多7张图，在首尾帧模式下生成长达30秒的叙事视频，实现动作、场景及景别自然衔接，助力短剧、广告等高效创作。",
+      "originalContent": "拍我AI（PixVerse）上线多关键帧生成功能，从“片段”迈向“故事性表达” 拍我AI（PixVerse）上线“多关键帧生成”功能，用户可上传最多7张图，在首尾帧模式下生成长达30秒的叙事视频，实现动作、场景及景别自然衔接，助力短剧、广告等高效创作。",
+      "source": "爱诗科技AIsphere",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.147Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "57ff0327",
+      "title": "月之暗面Kimi正式发布k2模型，具备超强代码和 Agent 能力",
+      "content": "月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "originalContent": "月之暗面Kimi正式发布k2模型，具备超强代码和 Agent 能力 月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-16T04:51:17.147Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "智能体"
+      ],
+      "dateText": "7月11·周五"
+    }
+  ],
+  "updateTime": "2025-07-16T04:51:17.448Z"
+}

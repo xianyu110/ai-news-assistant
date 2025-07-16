@@ -16,10 +16,17 @@ on:
         options:
         - 'true'
         - 'false'
+<<<<<<< HEAD
       enable_wechat_push:
         description: '是否启用微信推送'
         required: false
         default: 'true'
+=======
+      force_update:
+        description: '是否强制更新（忽略重复检查）'
+        required: false
+        default: 'false'
+>>>>>>> c2576155bdf2afc155c146949f38546e913efca9
         type: choice
         options:
         - 'true'

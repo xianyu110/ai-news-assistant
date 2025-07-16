@@ -54,4 +54,4 @@ unpackage/
 project.private.config.json
 
 # CloudBase
-.cloudbase/
+.cloudbase/dist/

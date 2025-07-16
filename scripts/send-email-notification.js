@@ -287,12 +287,13 @@ async function sendBatchEmails(newsData) {
 async function main() {
   try {
     // 读取新闻数据
-    const dataPath = path.join(__dirname, '../public/data/news.json');
+    const dataPath = path.join(__dirname, '../src/data/ai-news.json');
     if (!fs.existsSync(dataPath)) {
       throw new Error('新闻数据文件不存在');
     }
     
-    const newsData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    const newsDataFile = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    const newsData = newsDataFile.data || [];
     
     // 检查是否启用邮件通知
     const enableEmail = process.env.ENABLE_EMAIL_NOTIFICATION !== 'false';

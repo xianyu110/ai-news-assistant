@@ -1,6 +1,6 @@
 {
   "date": "2025-07-16",
-  "count": 7,
+  "count": 10,
   "data": [
     {
       "id": "107e7ec0",
@@ -29,7 +29,7 @@
       "source": "机器之心",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-16T00:00:00.000Z",
-      "crawlTime": "2025-07-16T08:58:12.918Z",
+      "crawlTime": "2025-07-16T12:58:17.501Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -46,7 +46,7 @@
       "source": "元空AIExcel",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-16T00:00:00.000Z",
-      "crawlTime": "2025-07-16T08:58:12.919Z",
+      "crawlTime": "2025-07-16T12:58:17.502Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -63,7 +63,7 @@
       "source": "华为",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-16T00:00:00.000Z",
-      "crawlTime": "2025-07-16T08:58:12.920Z",
+      "crawlTime": "2025-07-16T12:58:17.502Z",
       "category": "投融资",
       "tags": [
         "融资",
@@ -82,7 +82,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-16T00:00:00.000Z",
-      "crawlTime": "2025-07-16T08:58:12.920Z",
+      "crawlTime": "2025-07-16T12:58:17.503Z",
       "category": "综合资讯",
       "tags": [
         "AI工具"
@@ -97,7 +97,7 @@
       "source": "百度搜索",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-16T00:00:00.000Z",
-      "crawlTime": "2025-07-16T08:58:12.920Z",
+      "crawlTime": "2025-07-16T12:58:17.503Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -114,7 +114,7 @@
       "source": "IT之家",
       "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
       "publishTime": "2025-07-16T00:00:00.000Z",
-      "crawlTime": "2025-07-16T08:58:12.921Z",
+      "crawlTime": "2025-07-16T12:58:17.504Z",
       "category": "产品发布",
       "tags": [
         "发布",
@@ -123,7 +123,62 @@
         "AI工具"
       ],
       "dateText": "7月16·周三"
+    },
+    {
+      "id": "485f2f57",
+      "title": "观猹正式发布，打造AI产品的专业点评平台",
+      "content": "由特工宇宙团队打造的AI产品点评社区「观猹」正式发布，用真实用户视角判断产品PMF。面向AI爱好者，观猹提供真实、可信的产品评分与交流社区。创作者可分享AI作品，获取反馈；创业者能冷启动项目，连接用户与投资人。",
+      "originalContent": "观猹正式发布，打造AI产品的专业点评平台 由特工宇宙团队打造的AI产品点评社区「观猹」正式发布，用真实用户视角判断产品PMF。面向AI爱好者，观猹提供真实、可信的产品评分与交流社区。创作者可分享AI作品，获取反馈；创业者能冷启动项目，连接用户与投资人。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T12:58:17.499Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "7eb801d8",
+      "title": "亚马逊推出Kiro AI编程工具，正式开放公测",
+      "content": "亚马逊云科技宣布推出Kiro AI编程工具，正式开放公测。Kiro是Agentic IDE，提供AI编码辅助，能帮助开发者从想法到上线的全过程。Specs可将模糊需求转化为具体用户故事和边界条件，Hooks能在代码提交前自动完成测试、文档更新和安全扫描等任务。",
+      "originalContent": "亚马逊推出Kiro AI编程工具，正式开放公测 亚马逊云科技宣布推出Kiro AI编程工具，正式开放公测。Kiro是Agentic IDE，提供AI编码辅助，能帮助开发者从想法到上线的全过程。Specs可将模糊需求转化为具体用户故事和边界条件，Hooks能在代码提交前自动完成测试、文档更新和安全扫描等任务。",
+      "source": "亚马逊云科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T12:58:17.500Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "dcfae7bc",
+      "title": "百度上线TizzyAI，主打无广告智能搜索",
+      "content": "百度上线全新AI搜索App“Tizzy.ai”，定位为无广告的AI智能搜索助手。应用基于百度多个大模型能力开发，界面简洁，无弹窗和信息流推荐，仅设“搜索”和“资源库”两个核心入口。TizzyAI支持自动和深度搜索模式，能快速回答问题并提供深度分析。",
+      "originalContent": "百度上线TizzyAI，主打无广告智能搜索 百度上线全新AI搜索App“Tizzy.ai”，定位为无广告的AI智能搜索助手。应用基于百度多个大模型能力开发，界面简洁，无弹窗和信息流推荐，仅设“搜索”和“资源库”两个核心入口。TizzyAI支持自动和深度搜索模式，能快速回答问题并提供深度分析。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T12:58:17.501Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月16·周三"
     }
   ],
-  "updateTime": "2025-07-16T08:58:13.229Z"
+  "updateTime": "2025-07-16T12:58:17.817Z"
 }

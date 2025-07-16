@@ -1,9 +1,9 @@
 name: 🕷️ Update AI News Data
 
 on:
-  # 每2小时自动运行
+  # 每天自动运行
   schedule:
-    - cron: '0 */2 * * *'  # 每2小时运行一次
+    - cron: '0 0 * * *'  # 每天北京时间早上8点运行（UTC 00:00）
   
   # 手动触发
   workflow_dispatch:
@@ -12,6 +12,14 @@ on:
         description: '是否清理90天前的旧数据'
         required: false
         default: 'false'
+        type: choice
+        options:
+        - 'true'
+        - 'false'
+      enable_wechat_push:
+        description: '是否启用微信推送'
+        required: false
+        default: 'true'
         type: choice
         options:
         - 'true'
@@ -32,6 +40,9 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       has_changes: ${{ steps.changes.outputs.has_changes }}
+      total_count: ${{ steps.stats.outputs.total_count }}
+      today_count: ${{ steps.stats.outputs.today_count }}
+      latest_news: ${{ steps.stats.outputs.latest_news }}
     
     steps:
     - name: 📥 Checkout Repository
@@ -69,9 +80,10 @@ jobs:
           console.log('🧹 清理完成');
         "
         
-    - name: 📊 Generate Update Report
+    - name: 📊 Generate Statistics
+      id: stats
       run: |
-        echo "📊 生成更新报告..."
+        echo "📊 生成数据统计..."
         
         # 获取数据统计
         TOTAL_COUNT=$(node -e "
@@ -98,18 +110,45 @@ jobs:
           } catch(e) { console.log(0); }
         ")
         
+        # 获取当天的所有新闻
+        LATEST_NEWS=$(node -e "
+          const fs = require('fs');
+          try {
+            const data = JSON.parse(fs.readFileSync('src/data/ai-news.json', 'utf-8'));
+            const today = new Date().toISOString().split('T')[0]; // 获取今天的日期 YYYY-MM-DD
+            
+            // 筛选当天的所有新闻
+            const todayNews = data.items.filter(item => {
+              if (!item.date) return false;
+              const itemDate = new Date(item.date).toISOString().split('T')[0];
+              return itemDate === today;
+            });
+            
+            // 如果当天没有新闻，则取最新的5条
+            const newsToShow = todayNews.length > 0 ? todayNews : data.items.slice(0, 5);
+            
+            const formattedNews = newsToShow.map(item => ({
+              title: item.title,
+              content: item.content ? item.content.substring(0, 150) + '...' : '',
+              category: item.category,
+              source: item.source,
+              date: item.date
+            }));
+            
+            console.log(JSON.stringify(formattedNews));
+          } catch(e) { console.log('[]'); }
+        ")
+        
+        # 设置输出变量
+        echo "total_count=$TOTAL_COUNT" >> $GITHUB_OUTPUT
+        echo "today_count=$TODAY_COUNT" >> $GITHUB_OUTPUT
+        echo "latest_news=$LATEST_NEWS" >> $GITHUB_OUTPUT
+        
         echo "📈 数据统计报告:" >> $GITHUB_STEP_SUMMARY
         echo "- 📦 **总数据量**: ${TOTAL_COUNT} 条" >> $GITHUB_STEP_SUMMARY  
         echo "- 📱 **当前显示**: ${CURRENT_COUNT} 条" >> $GITHUB_STEP_SUMMARY
         echo "- 🆕 **今日数据**: ${TODAY_COUNT} 条" >> $GITHUB_STEP_SUMMARY
         echo "- ⏰ **更新时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
-        
-        # 检查是否有数据文件变化
-        if git diff --quiet src/data/; then
-          echo "ℹ️ **状态**: 数据无变化" >> $GITHUB_STEP_SUMMARY
-        else
-          echo "✅ **状态**: 数据已更新" >> $GITHUB_STEP_SUMMARY
-        fi
         
     - name: 📝 Check for Changes
       id: changes
@@ -142,18 +181,14 @@ jobs:
         
         # 生成提交信息
         TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
-        TOTAL_COUNT=$(node -e "
-          const fs = require('fs');
-          try {
-            const data = JSON.parse(fs.readFileSync('src/data/ai-news.json', 'utf-8'));
-            console.log(data.stats.totalCount || 0);
-          } catch(e) { console.log(0); }
-        ")
+        TOTAL_COUNT=${{ steps.stats.outputs.total_count }}
+        TODAY_COUNT=${{ steps.stats.outputs.today_count }}
         
         COMMIT_MSG="🤖 自动更新AI快讯数据 - ${TIMESTAMP}
 
         📊 数据统计:
         - 总数据量: ${TOTAL_COUNT} 条
+        - 今日新增: ${TODAY_COUNT} 条
         - 更新时间: ${TIMESTAMP}
         - 触发方式: ${{ github.event_name }}
         
@@ -166,6 +201,124 @@ jobs:
         git push
         
         echo "✅ 数据已提交并推送到仓库"
+        
+    - name: 📲 Send WeChat Push Notification
+      if: steps.changes.outputs.has_changes == 'true' && (github.event.inputs.enable_wechat_push != 'false')
+      run: |
+        echo "📲 发送微信推送通知..."
+        
+        # 检查Server酱密钥
+        if [ -z "${{ secrets.SERVERCHAN_KEY }}" ]; then
+          echo "⚠️ Server酱密钥未配置，跳过微信推送"
+          echo "💡 请在GitHub Secrets中配置SERVERCHAN_KEY"
+          exit 0
+        fi
+        
+        # 获取推送数据
+        TOTAL_COUNT=${{ steps.stats.outputs.total_count }}
+        TODAY_COUNT=${{ steps.stats.outputs.today_count }}
+        LATEST_NEWS='${{ steps.stats.outputs.latest_news }}'
+        UPDATE_TIME=$(date '+%Y-%m-%d %H:%M:%S')
+        
+        # 构建推送内容
+        PUSH_TITLE="AI新闻助手更新提醒"
+        PUSH_CONTENT="## 📊 数据统计
+        - **总数据量**: ${TOTAL_COUNT} 条
+        - **今日新增**: ${TODAY_COUNT} 条
+        - **更新时间**: ${UPDATE_TIME}
+        
+        ## 🔗 快速访问
+        [🌐 在线查看](https://xianyu110.github.io/ai-news-assistant/)
+        
+        ## 🔥 今日资讯"
+        
+        # 添加今日新闻
+        echo "$LATEST_NEWS" | node -e "
+          const news = JSON.parse(require('fs').readFileSync('/dev/stdin', 'utf8'));
+          const today = new Date().toISOString().split('T')[0];
+          
+          // 统计当天新闻数量
+          const todayCount = news.filter(item => {
+            if (!item.date) return false;
+            const itemDate = new Date(item.date).toISOString().split('T')[0];
+            return itemDate === today;
+          }).length;
+          
+          if (todayCount > 0) {
+            console.log(\`\n**📅 今日共收录 \${todayCount} 条AI资讯**\n\`);
+          } else {
+            console.log(\`\n**📅 今日暂无新增资讯，以下是最新资讯**\n\`);
+          }
+          
+          news.forEach((item, index) => {
+            console.log(\`### \${index + 1}. \${item.title}\`);
+            if (item.content) console.log(item.content);
+            if (item.category) console.log(\`**分类**: \${item.category}\`);
+            if (item.source) console.log(\`**来源**: \${item.source}\`);
+            if (item.date) {
+              const date = new Date(item.date).toLocaleDateString('zh-CN');
+              console.log(\`**日期**: \${date}\`);
+            }
+            console.log('---');
+          });
+        " >> push_content.md
+        
+        PUSH_CONTENT="$PUSH_CONTENT$(cat push_content.md)
+        
+        ## 📱 关于AI新闻助手
+        AI新闻助手是一个基于UniApp + GitHub Actions的零成本AI新闻聚合应用，每2小时自动更新AI行业最新资讯。
+        
+        🌟 **项目特色**:
+        - 🔄 自动爬取AI工具集每日快讯
+        - 📱 支持多端访问（H5、小程序、App）
+        - 🎯 智能分类和搜索功能
+        - 💾 本地收藏无需登录
+        - 🔗 GitHub Pages零成本部署
+        
+        ---
+        ✅ 推送时间: $(date '+%Y-%m-%d %H:%M:%S UTC')
+        🔗 GitHub Actions: https://github.com/${{ github.repository }}/actions"
+        
+        # 发送Server酱推送
+        curl -X POST "https://sctapi.ftqq.com/${{ secrets.SERVERCHAN_KEY }}.send" \
+          -H "Content-Type: application/json" \
+          -d "{
+            \"title\": \"$PUSH_TITLE\",
+            \"desp\": \"$PUSH_CONTENT\"
+          }" \
+          -w "HTTP状态码: %{http_code}" \
+          -o push_response.json
+        
+        # 检查推送结果
+        if [ $? -eq 0 ]; then
+          echo "📨 推送响应:"
+          cat push_response.json
+          
+          # 解析响应结果
+          PUSH_CODE=$(node -e "
+            try {
+              const data = JSON.parse(require('fs').readFileSync('push_response.json', 'utf8'));
+              console.log(data.code || -1);
+            } catch(e) { console.log(-1); }
+          ")
+          
+          if [ "$PUSH_CODE" = "0" ]; then
+            echo "✅ 微信推送发送成功!"
+            echo "📲 **微信推送成功** ✅" >> $GITHUB_STEP_SUMMARY
+            echo "- 📊 **总数据量**: ${TOTAL_COUNT} 条" >> $GITHUB_STEP_SUMMARY
+            echo "- 🆕 **今日新增**: ${TODAY_COUNT} 条" >> $GITHUB_STEP_SUMMARY
+            echo "- ⏰ **推送时间**: ${UPDATE_TIME}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ 微信推送失败，请检查Server酱密钥"
+            echo "📲 **微信推送失败** ❌" >> $GITHUB_STEP_SUMMARY
+          fi
+        else
+          echo "❌ 推送请求失败"
+          echo "📲 **推送请求失败** ❌" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        # 清理临时文件
+        rm -f push_content.md push_response.json
         
     - name: 🌐 Trigger GitHub Pages Rebuild
       if: steps.changes.outputs.has_changes == 'true'

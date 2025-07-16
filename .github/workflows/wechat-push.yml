@@ -1,0 +1,175 @@
+name: 📲 WeChat Push Notification
+
+on:
+  # 通过 repository_dispatch 事件触发
+  repository_dispatch:
+    types: [wechat-push]
+  
+  # 手动触发
+  workflow_dispatch:
+    inputs:
+      title:
+        description: '推送标题'
+        required: false
+        default: 'AI新闻助手更新提醒'
+      content:
+        description: '推送内容'
+        required: false
+        default: '这是一条测试推送消息'
+      totalCount:
+        description: '总数据量'
+        required: false
+        default: '0'
+      todayCount:
+        description: '今日新增数量'
+        required: false
+        default: '0'
+      enablePush:
+        description: '是否启用推送'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+        - 'true'
+        - 'false'
+
+permissions:
+  contents: read
+
+jobs:
+  send-wechat-push:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: 📦 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: 🔧 Install CloudBase CLI
+      run: |
+        npm install -g @cloudbase/cli
+        
+    - name: 🔐 Login to CloudBase
+      run: |
+        echo "正在登录云开发环境..."
+        # 这里需要配置 CloudBase 环境变量
+        # 用户需要在 GitHub Secrets 中配置以下变量：
+        # CLOUDBASE_SECRET_ID: 腾讯云 SecretId
+        # CLOUDBASE_SECRET_KEY: 腾讯云 SecretKey
+        # CLOUDBASE_ENV_ID: 云开发环境 ID
+        # SERVERCHAN_KEY: Server酱推送密钥
+        
+        if [ -z "${{ secrets.CLOUDBASE_SECRET_ID }}" ] || [ -z "${{ secrets.CLOUDBASE_SECRET_KEY }}" ]; then
+          echo "❌ 云开发密钥未配置，请在 GitHub Secrets 中配置 CLOUDBASE_SECRET_ID 和 CLOUDBASE_SECRET_KEY"
+          exit 1
+        fi
+        
+        if [ -z "${{ secrets.CLOUDBASE_ENV_ID }}" ]; then
+          echo "❌ 云开发环境 ID 未配置，请在 GitHub Secrets 中配置 CLOUDBASE_ENV_ID"
+          exit 1
+        fi
+        
+        if [ -z "${{ secrets.SERVERCHAN_KEY }}" ]; then
+          echo "❌ Server酱密钥未配置，请在 GitHub Secrets 中配置 SERVERCHAN_KEY"
+          exit 1
+        fi
+        
+        # 配置云开发环境
+        tcb login --apiKeyId ${{ secrets.CLOUDBASE_SECRET_ID }} --apiKey ${{ secrets.CLOUDBASE_SECRET_KEY }}
+        
+        echo "✅ 云开发环境登录成功"
+        
+    - name: 🚀 Deploy WeChat Push Function
+      run: |
+        echo "🚀 部署微信推送云函数..."
+        
+        # 部署云函数
+        cd cloudfunctions/wechat-push
+        
+        # 设置环境变量
+        tcb env:config:set SERVERCHAN_KEY ${{ secrets.SERVERCHAN_KEY }} --env ${{ secrets.CLOUDBASE_ENV_ID }}
+        tcb env:config:set PUSH_ENABLED ${{ github.event.inputs.enablePush || 'true' }} --env ${{ secrets.CLOUDBASE_ENV_ID }}
+        
+        # 部署函数
+        tcb functions:deploy wechat-push --env ${{ secrets.CLOUDBASE_ENV_ID }}
+        
+        echo "✅ 微信推送云函数部署成功"
+        
+    - name: 📲 Send WeChat Push
+      run: |
+        echo "📲 发送微信推送通知..."
+        
+        # 获取推送数据
+        if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+          # 从 repository_dispatch 事件获取数据
+          TITLE="${{ github.event.client_payload.title }}"
+          CONTENT="${{ github.event.client_payload.content }}"
+          TOTAL_COUNT="${{ github.event.client_payload.totalCount }}"
+          TODAY_COUNT="${{ github.event.client_payload.todayCount }}"
+          UPDATE_TIME="${{ github.event.client_payload.updateTime }}"
+          NEWS_ITEMS='${{ github.event.client_payload.newsItems }}'
+        else
+          # 从手动触发获取数据
+          TITLE="${{ github.event.inputs.title }}"
+          CONTENT="${{ github.event.inputs.content }}"
+          TOTAL_COUNT="${{ github.event.inputs.totalCount }}"
+          TODAY_COUNT="${{ github.event.inputs.todayCount }}"
+          UPDATE_TIME="$(date -u +%Y-%m-%dT%H:%M:%S.%3NZ)"
+          NEWS_ITEMS='[]'
+        fi
+        
+        # 构建推送数据
+        PUSH_DATA="{
+          \"title\": \"$TITLE\",
+          \"content\": \"$CONTENT\",
+          \"totalCount\": $TOTAL_COUNT,
+          \"todayCount\": $TODAY_COUNT,
+          \"updateTime\": \"$UPDATE_TIME\",
+          \"newsItems\": $NEWS_ITEMS
+        }"
+        
+        echo "📊 推送数据: $PUSH_DATA"
+        
+        # 调用云函数发送推送
+        PUSH_RESULT=$(tcb functions:invoke wechat-push --env ${{ secrets.CLOUDBASE_ENV_ID }} --data "$PUSH_DATA")
+        
+        echo "📲 推送结果: $PUSH_RESULT"
+        
+        # 检查推送结果
+        if echo "$PUSH_RESULT" | grep -q '"code":0'; then
+          echo "✅ 微信推送发送成功"
+          echo "📲 **微信推送成功** ✅" >> $GITHUB_STEP_SUMMARY
+          echo "- 📊 **总数据量**: $TOTAL_COUNT 条" >> $GITHUB_STEP_SUMMARY
+          echo "- 🆕 **今日新增**: $TODAY_COUNT 条" >> $GITHUB_STEP_SUMMARY
+          echo "- ⏰ **推送时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "❌ 微信推送发送失败"
+          echo "📲 **微信推送失败** ❌" >> $GITHUB_STEP_SUMMARY
+          echo "📋 **错误信息**: $PUSH_RESULT" >> $GITHUB_STEP_SUMMARY
+          exit 1
+        fi
+        
+    - name: 🧹 Cleanup
+      if: always()
+      run: |
+        echo "🧹 清理临时文件..."
+        tcb logout || true
+        echo "✅ 清理完成"
+        
+    - name: ❌ Handle Errors
+      if: failure()
+      run: |
+        echo "💥 微信推送工作流执行失败!" >> $GITHUB_STEP_SUMMARY
+        echo "⏰ 失败时间: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "🔍 **常见问题排查**:" >> $GITHUB_STEP_SUMMARY
+        echo "1. **CloudBase 密钥配置**: 确保在 GitHub Secrets 中配置了正确的 CLOUDBASE_SECRET_ID 和 CLOUDBASE_SECRET_KEY" >> $GITHUB_STEP_SUMMARY
+        echo "2. **环境 ID 配置**: 确保 CLOUDBASE_ENV_ID 配置正确" >> $GITHUB_STEP_SUMMARY
+        echo "3. **Server酱密钥**: 确保 SERVERCHAN_KEY 配置正确且有效" >> $GITHUB_STEP_SUMMARY
+        echo "4. **网络连接**: 检查是否能正常访问腾讯云和 Server酱 API" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "📚 **帮助文档**: https://github.com/your-repo/ai-news-assistant#微信推送配置" >> $GITHUB_STEP_SUMMARY 

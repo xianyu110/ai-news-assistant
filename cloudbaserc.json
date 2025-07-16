@@ -13,7 +13,17 @@
       "functions": {
         "use": "@cloudbase/framework-plugin-function",
         "inputs": {
-          "functionRootPath": "./cloudfunctions"
+          "functionRootPath": "./cloudfunctions",
+          "functions": [
+            {
+              "name": "ai-news-crawler",
+              "timeout": 60,
+              "envVariables": {},
+              "runtime": "Nodejs18.15",
+              "memorySize": 256,
+              "description": "AI新闻爬虫云函数"
+            }
+          ]
         }
       }
     }

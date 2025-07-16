@@ -5,6 +5,7 @@
   "scripts": {
     "crawl": "node scripts/crawl-news.js",
     "update-history": "node scripts/update-history.js",
+    "test-wechat-push": "node scripts/test-wechat-push.js",
     "dev:custom": "uni -p",
     "dev:h5": "uni",
     "dev:h5:ssr": "uni --ssr",

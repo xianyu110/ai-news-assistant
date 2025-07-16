@@ -41,6 +41,10 @@ jobs:
         # 创建部署目录
         mkdir -p github-pages
         cp -r dist/build/h5/* github-pages/
+        # 复制 public 目录下的文件到部署目录
+        if [ -d "public" ]; then
+          cp -r public/* github-pages/
+        fi
         # 创建 .nojekyll 文件来禁用 Jekyll 处理
         touch github-pages/.nojekyll
     

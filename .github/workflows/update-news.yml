@@ -467,13 +467,21 @@ jobs:
       run: npm ci
 
     - name: 🏗️ Build Website
-      run: npm run build:h5
+      run: |
+        npm run build:h5
+        # 创建部署目录并复制构建产物
+        mkdir -p deploy-temp
+        cp -r dist/build/h5/* deploy-temp/
+        # 复制 public 目录下的文件（如邮件订阅页面）
+        if [ -d "public" ]; then
+          cp -r public/* deploy-temp/
+        fi
 
     - name: 🚀 Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist/build/h5
+        publish_dir: ./deploy-temp
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
         commit_message: "🚀 Deploy to GitHub Pages" 

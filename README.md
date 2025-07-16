@@ -141,6 +141,7 @@ src/data/
 - **自动提交**：更新数据并推送到仓库
 - **部署更新**：自动部署到GitHub Pages
 - **微信推送**：🆕 自动发送微信推送通知，及时通知用户更新
+- **邮件通知**：🆕 自动发送邮件通知，支持多用户邮箱订阅
 
 ### 前端自动刷新
 - **定时检查**：每10分钟自动检查数据更新
@@ -477,5 +478,65 @@ GITHUB_REQUEST_TIMEOUT = 8000          // 8秒请求超时
 - `❌` : 获取失败
 - `🆕` : 检测到新数据
 - `📄` : 使用缓存数据
+
+## 📧 邮件通知配置
+
+### 配置步骤
+
+#### 1. 配置 GitHub Secrets
+在仓库的 Settings > Secrets and variables > Actions 中添加：
+- `EMAIL_PASSWORD`: QQ邮箱授权码（已内置：`bddxuogmqjinciha`）
+
+#### 2. 配置邮箱订阅
+访问 [邮箱订阅页面](https://xianyu110.github.io/ai-news-assistant/email-subscribe.html) 管理邮箱订阅：
+- 添加邮箱地址
+- 管理订阅状态
+- 导出订阅配置
+
+#### 3. 测试邮件功能
+```bash
+# 测试邮件发送
+npm run test-email <your-email@example.com>
+
+# 测试多个邮箱
+npm run test-email email1@example.com email2@example.com
+
+# 手动发送邮件通知
+npm run send-email
+```
+
+#### 4. 邮箱订阅管理
+```bash
+# 添加邮箱订阅
+npm run email-subscribers add <email@example.com>
+
+# 删除邮箱订阅
+npm run email-subscribers remove <email@example.com>
+
+# 查看所有订阅者
+npm run email-subscribers list
+
+# 清空所有订阅
+npm run email-subscribers clear
+```
+
+### 邮件内容预览
+- **标题**: 🤖 AI资讯助手 - 今日资讯 (2024-07-16)
+- **内容**: 包含数据统计、今日资讯列表、分类标签、访问链接
+- **格式**: 精美的HTML邮件格式，支持移动端阅读
+
+### 发送策略
+- **触发条件**: 仅在有数据更新时发送
+- **发送频率**: 跟随数据更新频率（每天一次）
+- **订阅管理**: 支持用户自助订阅和退订
+- **错误处理**: 完善的错误处理和状态反馈
+
+### 故障排除
+1. **邮件发送失败**：检查QQ邮箱SMTP设置和授权码
+2. **无邮件订阅者**：访问邮箱订阅页面添加邮箱
+3. **收不到邮件**：检查垃圾邮件箱和邮箱过滤规则
+4. **格式问题**：确保邮箱客户端支持HTML格式
+
+更多配置详情请参考 [快速配置指南](QUICK_SETUP.md)。
 
 如果遇到其他问题，请查看浏览器控制台的详细错误日志。

@@ -16,17 +16,26 @@ on:
         options:
         - 'true'
         - 'false'
-<<<<<<< HEAD
       enable_wechat_push:
         description: '是否启用微信推送'
         required: false
         default: 'true'
-=======
+        type: choice
+        options:
+        - 'true'
+        - 'false'
+      enable_email_notification:
+        description: '是否启用邮件通知'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+        - 'true'
+        - 'false'
       force_update:
         description: '是否强制更新（忽略重复检查）'
         required: false
         default: 'false'
->>>>>>> c2576155bdf2afc155c146949f38546e913efca9
         type: choice
         options:
         - 'true'
@@ -326,6 +335,91 @@ jobs:
         
         # 清理临时文件
         rm -f push_content.md push_response.json
+        
+    - name: 📧 Send Email Notification
+      if: steps.changes.outputs.has_changes == 'true' && (github.event.inputs.enable_email_notification != 'false')
+      run: |
+        echo "📧 发送邮件通知..."
+        
+        # 检查nodemailer是否可用
+        if ! command -v node &> /dev/null; then
+          echo "❌ Node.js 未安装，跳过邮件通知"
+          exit 0
+        fi
+        
+        # 创建邮箱订阅配置文件（如果不存在）
+        mkdir -p public/data
+        if [ ! -f "public/data/email-subscribers.json" ]; then
+          echo "{\"subscribers\":[],\"lastUpdate\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > public/data/email-subscribers.json
+        fi
+        
+        # 检查是否有邮箱订阅者
+        SUBSCRIBER_COUNT=$(node -e "
+          try {
+            const data = JSON.parse(require('fs').readFileSync('public/data/email-subscribers.json', 'utf8'));
+            console.log((data.subscribers || []).length);
+          } catch(e) { console.log(0); }
+        ")
+        
+        if [ "$SUBSCRIBER_COUNT" -eq 0 ]; then
+          echo "📭 无邮箱订阅者，跳过邮件发送"
+          echo "💡 请在 /email-subscribe.html 页面添加邮箱订阅"
+          echo "📭 **邮件通知跳过** ⚠️" >> $GITHUB_STEP_SUMMARY
+          echo "- 📊 **订阅者数量**: 0" >> $GITHUB_STEP_SUMMARY
+          echo "- 💡 **提示**: 请访问 [邮箱订阅页面](https://xianyu110.github.io/ai-news-assistant/email-subscribe.html) 添加邮箱订阅" >> $GITHUB_STEP_SUMMARY
+          exit 0
+        fi
+        
+        echo "📊 发现 $SUBSCRIBER_COUNT 个邮箱订阅者"
+        
+        # 安装邮件发送依赖
+        npm install nodemailer || {
+          echo "❌ 安装nodemailer失败，跳过邮件发送"
+          exit 0
+        }
+        
+        # 设置邮箱配置环境变量
+        export EMAIL_PASSWORD="${{ secrets.EMAIL_PASSWORD }}"
+        export ENABLE_EMAIL_NOTIFICATION="true"
+        
+        # 发送邮件通知
+        node scripts/send-email-notification.js 2>&1 | tee email_log.txt
+        
+        # 检查邮件发送结果
+        if [ $? -eq 0 ]; then
+          echo "✅ 邮件通知发送完成!"
+          
+          # 统计发送结果
+          SUCCESS_COUNT=$(grep -c "✅ 邮件发送成功" email_log.txt || echo "0")
+          FAIL_COUNT=$(grep -c "❌ 邮件发送失败" email_log.txt || echo "0")
+          
+          echo "📧 **邮件通知完成** ✅" >> $GITHUB_STEP_SUMMARY
+          echo "- 📊 **订阅者数量**: $SUBSCRIBER_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ **发送成功**: $SUCCESS_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- ❌ **发送失败**: $FAIL_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- ⏰ **发送时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$FAIL_COUNT" -gt 0 ]; then
+            echo "⚠️ **部分邮件发送失败，请检查日志**" >> $GITHUB_STEP_SUMMARY
+          fi
+        else
+          echo "❌ 邮件通知发送失败"
+          echo "📧 **邮件通知失败** ❌" >> $GITHUB_STEP_SUMMARY
+          echo "- 📊 **订阅者数量**: $SUBSCRIBER_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- ❌ **错误**: 邮件发送脚本执行失败" >> $GITHUB_STEP_SUMMARY
+          echo "- 💡 **解决方案**: 请检查邮箱配置和网络连接" >> $GITHUB_STEP_SUMMARY
+          
+          # 添加错误日志到摘要
+          if [ -f "email_log.txt" ]; then
+            echo "📋 **错误日志**:" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -10 email_log.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+        fi
+        
+        # 清理临时文件
+        rm -f email_log.txt
         
     - name: 🌐 Trigger GitHub Pages Rebuild
       if: steps.changes.outputs.has_changes == 'true'

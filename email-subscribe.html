@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>邮箱订阅 - AI资讯助手</title>
+    <title>邮箱订阅配置 - AI资讯助手</title>
     <style>
         * {
             margin: 0;
@@ -15,24 +15,21 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             padding: 20px;
         }
 
         .container {
-            max-width: 500px;
-            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
             background: white;
             border-radius: 20px;
             padding: 40px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            text-align: center;
         }
 
         .header {
-            margin-bottom: 30px;
+            text-align: center;
+            margin-bottom: 40px;
         }
 
         .header h1 {
@@ -44,12 +41,23 @@
         .header p {
             color: #7f8c8d;
             font-size: 16px;
-            line-height: 1.6;
+        }
+
+        .form-section {
+            margin-bottom: 40px;
+        }
+
+        .form-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
         .form-group {
             margin-bottom: 20px;
-            text-align: left;
         }
 
         .form-group label {
@@ -83,7 +91,6 @@
             font-size: 16px;
             cursor: pointer;
             transition: transform 0.2s;
-            width: 100%;
         }
 
         .btn:hover {
@@ -94,10 +101,98 @@
             transform: translateY(0);
         }
 
-        .btn:disabled {
+        .btn-secondary {
             background: #6c757d;
-            cursor: not-allowed;
-            transform: none;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+        }
+
+        .subscriber-list {
+            margin-top: 30px;
+        }
+
+        .subscriber-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .subscriber-email {
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        .subscriber-time {
+            font-size: 14px;
+            color: #6c757d;
+        }
+
+        .subscriber-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-small {
+            padding: 6px 12px;
+            font-size: 14px;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .alert-info {
+            background: #cce7ff;
+            color: #004085;
+            border: 1px solid #b8daff;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
         }
 
         .loading {
@@ -119,52 +214,22 @@
             display: none;
         }
 
-        .alert {
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .alert-success {
-            background: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-
-        .alert-error {
-            background: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-        }
-
-        .features {
+        .export-section {
             margin-top: 30px;
-            text-align: left;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
         }
 
-        .features h3 {
+        .export-section h3 {
             color: #2c3e50;
             margin-bottom: 15px;
-            font-size: 18px;
         }
 
-        .features ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .features li {
-            padding: 8px 0;
-            color: #7f8c8d;
-            font-size: 14px;
-        }
-
-        .features li::before {
-            content: "✓";
-            color: #28a745;
-            font-weight: bold;
-            margin-right: 10px;
+        .export-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
         }
 
         @media (max-width: 768px) {
@@ -172,8 +237,18 @@
                 padding: 20px;
             }
             
-            .header h1 {
-                font-size: 24px;
+            .stats {
+                grid-template-columns: 1fr;
+            }
+            
+            .subscriber-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            
+            .export-buttons {
+                flex-direction: column;
             }
         }
     </style>
@@ -181,123 +256,254 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📧 订阅AI资讯</h1>
-            <p>每天为您推送最新的AI资讯，让您紧跟人工智能发展动态</p>
+            <h1>📧 邮箱订阅配置</h1>
+            <p>配置您的邮箱订阅，每天接收最新的AI资讯</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalSubscribers">0</div>
+                <div class="stat-label">总订阅者</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="todaySubscribers">0</div>
+                <div class="stat-label">今日新增</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="activeSubscribers">0</div>
+                <div class="stat-label">活跃订阅</div>
+            </div>
         </div>
 
         <div id="alertContainer"></div>
 
-        <form id="subscribeForm">
-            <div class="form-group">
-                <label for="email">邮箱地址</label>
-                <input type="email" id="email" required placeholder="请输入您的邮箱地址">
-            </div>
-            <div class="form-group">
-                <label for="name">姓名 (可选)</label>
-                <input type="text" id="name" placeholder="请输入您的姓名">
-            </div>
-            <button type="submit" class="btn" id="subscribeBtn">
-                <span id="subscribeButtonText">立即订阅</span>
-                <span id="subscribeButtonLoading" class="loading hidden"></span>
-            </button>
-        </form>
+        <div class="form-section">
+            <h2>➕ 添加邮箱订阅</h2>
+            <form id="subscribeForm">
+                <div class="form-group">
+                    <label for="email">邮箱地址</label>
+                    <input type="email" id="email" required placeholder="请输入您的邮箱地址">
+                </div>
+                <div class="form-group">
+                    <label for="name">姓名 (可选)</label>
+                    <input type="text" id="name" placeholder="请输入您的姓名">
+                </div>
+                <button type="submit" class="btn">
+                    <span id="subscribeButtonText">添加订阅</span>
+                    <span id="subscribeButtonLoading" class="loading hidden"></span>
+                </button>
+            </form>
+        </div>
 
-        <div class="features">
-            <h3>📋 您将获得</h3>
-            <ul>
-                <li>每日AI行业最新动态</li>
-                <li>重要技术突破和趋势分析</li>
-                <li>产品发布和公司动态</li>
-                <li>深度观察和专家见解</li>
-                <li>随时可取消订阅</li>
-            </ul>
+        <div class="form-section">
+            <h2>📋 订阅管理</h2>
+            <div class="subscriber-list" id="subscriberList">
+                <!-- 订阅者列表将在这里动态生成 -->
+            </div>
+        </div>
+
+        <div class="export-section">
+            <h3>📤 导出配置</h3>
+            <p>您可以导出当前的邮箱订阅配置，用于备份或迁移</p>
+            <div class="export-buttons">
+                <button class="btn btn-secondary" onclick="exportSubscribers()">导出 JSON</button>
+                <button class="btn btn-secondary" onclick="exportCSV()">导出 CSV</button>
+                <button class="btn btn-secondary" onclick="clearAllSubscribers()">清空所有</button>
+            </div>
         </div>
     </div>
 
     <script>
-        // 显示提示信息
+        // 订阅者数据
+        let subscribers = [];
+
+        // 显示提示消息
         function showAlert(message, type = 'info') {
             const alertContainer = document.getElementById('alertContainer');
-            const alert = document.createElement('div');
-            alert.className = `alert alert-${type}`;
-            alert.textContent = message;
+            const alertDiv = document.createElement('div');
+            alertDiv.className = `alert alert-${type}`;
+            alertDiv.textContent = message;
             
-            alertContainer.innerHTML = '';
-            alertContainer.appendChild(alert);
+            alertContainer.appendChild(alertDiv);
             
+            // 5秒后自动消失
             setTimeout(() => {
-                alert.remove();
+                alertDiv.remove();
             }, 5000);
         }
 
-        // 验证邮箱格式
-        function validateEmail(email) {
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            return emailRegex.test(email);
+        // 加载本地存储的订阅者数据
+        function loadSubscribers() {
+            const stored = localStorage.getItem('email-subscribers');
+            if (stored) {
+                subscribers = JSON.parse(stored);
+            }
+            updateUI();
+        }
+
+        // 保存订阅者数据到本地存储
+        function saveSubscribers() {
+            localStorage.setItem('email-subscribers', JSON.stringify(subscribers));
+            updateUI();
+        }
+
+        // 更新UI显示
+        function updateUI() {
+            updateStats();
+            updateSubscriberList();
+        }
+
+        // 更新统计信息
+        function updateStats() {
+            const today = new Date().toDateString();
+            const todayCount = subscribers.filter(sub => 
+                new Date(sub.subscribeTime).toDateString() === today
+            ).length;
+
+            document.getElementById('totalSubscribers').textContent = subscribers.length;
+            document.getElementById('todaySubscribers').textContent = todayCount;
+            document.getElementById('activeSubscribers').textContent = subscribers.filter(sub => sub.active !== false).length;
+        }
+
+        // 更新订阅者列表
+        function updateSubscriberList() {
+            const listContainer = document.getElementById('subscriberList');
+            
+            if (subscribers.length === 0) {
+                listContainer.innerHTML = '<p style="text-align: center; color: #6c757d; padding: 40px;">暂无邮箱订阅者</p>';
+                return;
+            }
+
+            listContainer.innerHTML = subscribers.map((subscriber, index) => `
+                <div class="subscriber-item">
+                    <div>
+                        <div class="subscriber-email">${subscriber.email}</div>
+                        <div class="subscriber-time">
+                            ${subscriber.name ? `${subscriber.name} · ` : ''}
+                            订阅时间: ${new Date(subscriber.subscribeTime).toLocaleString('zh-CN')}
+                        </div>
+                    </div>
+                    <div class="subscriber-actions">
+                        <button class="btn btn-small ${subscriber.active === false ? 'btn-secondary' : 'btn-danger'}" 
+                                onclick="toggleSubscriber(${index})">
+                            ${subscriber.active === false ? '启用' : '禁用'}
+                        </button>
+                        <button class="btn btn-danger btn-small" onclick="removeSubscriber(${index})">
+                            删除
+                        </button>
+                    </div>
+                </div>
+            `).join('');
         }
 
         // 添加订阅者
-        async function addSubscriber(email, name = '') {
-            try {
-                // 根据环境决定API基础URL
-                const baseUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
-                    ? 'http://localhost:3001' 
-                    : '';
-                
-                const response = await fetch(`${baseUrl}/api/subscribe`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ email, name })
-                });
+        function addSubscriber(email, name = '') {
+            // 检查邮箱是否已存在
+            if (subscribers.some(sub => sub.email === email)) {
+                showAlert('该邮箱已存在！', 'error');
+                return false;
+            }
 
-                const result = await response.json();
-                
-                if (response.ok) {
-                    showAlert('订阅成功！感谢您的关注，我们会每天为您推送最新的AI资讯。', 'success');
-                    return true;
-                } else {
-                    showAlert(result.message || '订阅失败，请稍后重试', 'error');
-                    return false;
-                }
-            } catch (error) {
-                console.error('订阅失败:', error);
-                // 降级处理：如果API调用失败，尝试本地存储
-                if (fallbackToLocalStorage(email, name)) {
-                    showAlert('订阅信息已暂存，我们会尽快处理您的订阅请求。', 'success');
-                    return true;
-                } else {
-                    showAlert('网络错误，请稍后重试', 'error');
-                    return false;
-                }
+            // 验证邮箱格式
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                showAlert('请输入有效的邮箱地址！', 'error');
+                return false;
+            }
+
+            const subscriber = {
+                email: email,
+                name: name,
+                subscribeTime: new Date().toISOString(),
+                active: true
+            };
+
+            subscribers.push(subscriber);
+            saveSubscribers();
+            showAlert('邮箱订阅添加成功！', 'success');
+            return true;
+        }
+
+        // 删除订阅者
+        function removeSubscriber(index) {
+            if (confirm('确定要删除这个订阅者吗？')) {
+                const subscriber = subscribers[index];
+                subscribers.splice(index, 1);
+                saveSubscribers();
+                showAlert(`已删除 ${subscriber.email} 的订阅`, 'success');
             }
         }
 
-        // 降级处理：使用本地存储
-        function fallbackToLocalStorage(email, name) {
-            try {
-                let pendingSubscriptions = JSON.parse(localStorage.getItem('pendingSubscriptions') || '[]');
-                const existingIndex = pendingSubscriptions.findIndex(sub => sub.email === email);
-                
-                if (existingIndex === -1) {
-                    pendingSubscriptions.push({
-                        email,
-                        name,
-                        timestamp: new Date().toISOString()
-                    });
-                    localStorage.setItem('pendingSubscriptions', JSON.stringify(pendingSubscriptions));
-                    return true;
-                }
-                return false;
-            } catch (error) {
-                console.error('本地存储失败:', error);
-                return false;
+        // 切换订阅者状态
+        function toggleSubscriber(index) {
+            const subscriber = subscribers[index];
+            subscriber.active = !subscriber.active;
+            saveSubscribers();
+            showAlert(`已${subscriber.active ? '启用' : '禁用'} ${subscriber.email} 的订阅`, 'success');
+        }
+
+        // 导出订阅者数据
+        function exportSubscribers() {
+            const data = {
+                subscribers: subscribers.map(sub => sub.email),
+                exportTime: new Date().toISOString(),
+                total: subscribers.length
+            };
+            
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `email-subscribers-${new Date().toISOString().split('T')[0]}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            showAlert('订阅者配置已导出', 'success');
+        }
+
+        // 导出CSV格式
+        function exportCSV() {
+            const csvContent = [
+                'Email,Name,Subscribe Time,Active',
+                ...subscribers.map(sub => 
+                    `${sub.email},"${sub.name || ''}",${sub.subscribeTime},${sub.active !== false ? 'Yes' : 'No'}`
+                )
+            ].join('\n');
+            
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `email-subscribers-${new Date().toISOString().split('T')[0]}.csv`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            showAlert('订阅者数据已导出为CSV', 'success');
+        }
+
+        // 清空所有订阅者
+        function clearAllSubscribers() {
+            if (confirm('确定要清空所有订阅者吗？此操作不可恢复！')) {
+                subscribers = [];
+                saveSubscribers();
+                showAlert('所有订阅者已清空', 'success');
             }
+        }
+
+        // 生成配置文件
+        function generateConfig() {
+            const config = {
+                subscribers: subscribers.filter(sub => sub.active !== false).map(sub => sub.email),
+                lastUpdate: new Date().toISOString()
+            };
+            
+            // 这里可以调用API保存配置，或者让用户下载
+            console.log('Generated config:', config);
+            return config;
         }
 
         // 表单提交处理
-        document.getElementById('subscribeForm').addEventListener('submit', async function(e) {
+        document.getElementById('subscribeForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
             const email = document.getElementById('email').value.trim();
@@ -308,44 +514,43 @@
                 return;
             }
 
-            if (!validateEmail(email)) {
-                showAlert('请输入有效的邮箱地址', 'error');
-                return;
-            }
-
             // 显示加载状态
-            const btn = document.getElementById('subscribeBtn');
             const buttonText = document.getElementById('subscribeButtonText');
             const buttonLoading = document.getElementById('subscribeButtonLoading');
             
-            btn.disabled = true;
             buttonText.classList.add('hidden');
             buttonLoading.classList.remove('hidden');
 
-            try {
-                const success = await addSubscriber(email, name);
-                
-                if (success) {
+            // 模拟异步操作
+            setTimeout(() => {
+                if (addSubscriber(email, name)) {
                     // 清空表单
                     document.getElementById('email').value = '';
                     document.getElementById('name').value = '';
                 }
-            } finally {
+                
                 // 恢复按钮状态
-                btn.disabled = false;
                 buttonText.classList.remove('hidden');
                 buttonLoading.classList.add('hidden');
-            }
+            }, 500);
         });
 
-        // 页面加载时的初始化
+        // 页面加载时初始化
         document.addEventListener('DOMContentLoaded', function() {
-            // 检查URL参数是否包含预填充的邮箱
-            const urlParams = new URLSearchParams(window.location.search);
-            const prefilledEmail = urlParams.get('email');
+            loadSubscribers();
             
-            if (prefilledEmail) {
-                document.getElementById('email').value = prefilledEmail;
+            // 每30秒自动保存一次配置
+            setInterval(() => {
+                if (subscribers.length > 0) {
+                    generateConfig();
+                }
+            }, 30000);
+        });
+
+        // 页面关闭前保存配置
+        window.addEventListener('beforeunload', function() {
+            if (subscribers.length > 0) {
+                generateConfig();
             }
         });
     </script>

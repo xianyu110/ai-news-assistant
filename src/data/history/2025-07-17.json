@@ -1,0 +1,97 @@
+{
+  "date": "2025-07-17",
+  "count": 5,
+  "data": [
+    {
+      "id": "fc0f5829",
+      "title": "Kimi Playground: 一站式体验 Kimi K2 的工具调用能力",
+      "content": "Kimi开放平台宣布正式上线Kimi Playground，为开发者提供一站式工具调用能力体验。平台支持直观的工具调用界面和便捷的调试体验，可快速选择不同工具并实时调整参数。",
+      "originalContent": "Kimi Playground: 一站式体验 Kimi K2 的工具调用能力 Kimi开放平台宣布正式上线Kimi Playground，为开发者提供一站式工具调用能力体验。平台支持直观的工具调用界面和便捷的调试体验，可快速选择不同工具并实时调整参数。",
+      "source": "Kimi 开放平台",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-18T01:02:54.191Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月17·周四"
+    },
+    {
+      "id": "bf94a61c",
+      "title": "普林斯顿团队领衔发布最强开源数学定理证明模型：Goedel-Prover-V2",
+      "content": "普林斯顿大学联合清华大学、北京大学等顶尖高校及英伟达等机构，发布了新一代开源数学定理证明模型Goedel-Prover-V2。32B旗舰模型在自动数学定理证明基准测试中大幅超越前代SOTA模型DeepSeek-Prover-V2-671B，8B小尺寸模型性能也与之持平。",
+      "originalContent": "普林斯顿团队领衔发布最强开源数学定理证明模型：Goedel-Prover-V2 普林斯顿大学联合清华大学、北京大学等顶尖高校及英伟达等机构，发布了新一代开源数学定理证明模型Goedel-Prover-V2。32B旗舰模型在自动数学定理证明基准测试中大幅超越前代SOTA模型DeepSeek-Prover-V2-671B，8B小尺寸模型性能也与之持平。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-18T01:02:54.192Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "7月17·周四"
+    },
+    {
+      "id": "f76141d6",
+      "title": "无界方舟连续完成Pre-A & Pre-A+轮亿元级别融资",
+      "content": "无界方舟（AutoArk）宣布连续完成Pre-A & Pre-A+轮亿元级融资。公司基于自研多模态大模型，打造AI应用的“超级感官”与“真大脑”。无界方舟的EVA多模态模型在性能上对标OpenAI的GPT-4o，具备高智商分析、真人般交互、全自动数据合成等优势，已实现商业化落地。",
+      "originalContent": "无界方舟连续完成Pre-A & Pre-A+轮亿元级别融资 无界方舟（AutoArk）宣布连续完成Pre-A & Pre-A+轮亿元级融资。公司基于自研多模态大模型，打造AI应用的“超级感官”与“真大脑”。无界方舟的EVA多模态模型在性能上对标OpenAI的GPT-4o，具备高智商分析、真人般交互、全自动数据合成等优势，已实现商业化落地。",
+      "source": "AutoArk无界方舟",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-18T01:02:54.193Z",
+      "category": "投融资",
+      "tags": [
+        "GPT",
+        "融资",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月17·周四"
+    },
+    {
+      "id": "5700510e",
+      "title": "Mistral首个开源语音模型Voxtral，全面碾压Whisper",
+      "content": "Mistral AI发布首个开源语音模型Voxtral，包含24B和3B参数规模版本，基于Apache 2.0许可证开源并提供API接口。Voxtral支持8大主流语言，可处理30分钟音频转录或40分钟语义理解任务，全面超越Whisper，在多语言基准测试中表现优异，语音翻译成绩占据榜首，语音理解能力追平GPT-4o-mini。",
+      "originalContent": "Mistral首个开源语音模型Voxtral，全面碾压Whisper Mistral AI发布首个开源语音模型Voxtral，包含24B和3B参数规模版本，基于Apache 2.0许可证开源并提供API接口。Voxtral支持8大主流语言，可处理30分钟音频转录或40分钟语义理解任务，全面超越Whisper，在多语言基准测试中表现优异，语音翻译成绩占据榜首，语音理解能力追平GPT-4o-mini。",
+      "source": "智东西",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-18T01:02:54.193Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "7月17·周四"
+    },
+    {
+      "id": "0c122395",
+      "title": "MiniMax Agent全栈开发能力“靠谱”上新",
+      "content": "MiniMax Agent发布全栈开发功能，用户仅需一句话即可生成复杂全栈应用，无需编程基础。功能支持Supabase后端托管、Stripe支付、定时任务等，可快速开发演唱会选座系统、实时金融看板、出海独立站、企业数据看板等应用。",
+      "originalContent": "MiniMax Agent全栈开发能力“靠谱”上新 MiniMax Agent发布全栈开发功能，用户仅需一句话即可生成复杂全栈应用，无需编程基础。功能支持Supabase后端托管、Stripe支付、定时任务等，可快速开发演唱会选座系统、实时金融看板、出海独立站、企业数据看板等应用。",
+      "source": "MiniMax 稀宇科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-18T01:02:54.194Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "智能体"
+      ],
+      "dateText": "7月17·周四"
+    }
+  ],
+  "updateTime": "2025-07-18T01:02:54.494Z"
+}

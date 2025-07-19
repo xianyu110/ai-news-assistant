@@ -1,0 +1,77 @@
+{
+  "date": "2025-07-18",
+  "count": 4,
+  "data": [
+    {
+      "id": "049363bc",
+      "title": "OpenAI正式发布ChatGPT Agent！",
+      "content": "OpenAI正式发布ChatGPT Agent功能。功能整合了Operator、Deep Research和ChatGPT本体，用户只需描述任务，Agent能自主调用工具，完成网页访问、信息提取、代码运行、PPT生成等操作，支持任务中断与修改。ChatGPT Agent支持手机端使用，可连接Gmail、GitHub等应用，深度嵌入工作流。",
+      "originalContent": "OpenAI正式发布ChatGPT Agent！ OpenAI正式发布ChatGPT Agent功能。功能整合了Operator、Deep Research和ChatGPT本体，用户只需描述任务，Agent能自主调用工具，完成网页访问、信息提取、代码运行、PPT生成等操作，支持任务中断与修改。ChatGPT Agent支持手机端使用，可连接Gmail、GitHub等应用，深度嵌入工作流。",
+      "source": "APPSO",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-18T00:00:00.000Z",
+      "crawlTime": "2025-07-19T01:01:34.924Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月18·周五"
+    },
+    {
+      "id": "fb4ee1f1",
+      "title": "全球首个A股金融博弈智能体应用FinGenius开源",
+      "content": "由00后团队创建的全球首个A股金融博弈智能体应用FinGenius在GitHub开源。项目在内测阶段吸引了4000+用户申请体验。FinGenius通过16个超级智能体分工协作，结合多智能体博弈机制，30秒内生成分析报告，解决传统金融工具信息加工过度、数据不真实、大模型局限性等问题。",
+      "originalContent": "全球首个A股金融博弈智能体应用FinGenius开源 由00后团队创建的全球首个A股金融博弈智能体应用FinGenius在GitHub开源。项目在内测阶段吸引了4000+用户申请体验。FinGenius通过16个超级智能体分工协作，结合多智能体博弈机制，30秒内生成分析报告，解决传统金融工具信息加工过度、数据不真实、大模型局限性等问题。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-18T00:00:00.000Z",
+      "crawlTime": "2025-07-19T01:01:34.925Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月18·周五"
+    },
+    {
+      "id": "828ed2d2",
+      "title": "Perplexity 向印度 3.6 亿用户免费赠送一年 Pro 服务",
+      "content": "AI搜索企业Perplexity与印度第二大电信运营商Bharti Airtel达成独家合作，向其3.6亿用户免费提供原价200美元的12个月Perplexity Pro订阅服务。合作具有排他性，印度其他电信商不得提供Perplexity服务。",
+      "originalContent": "Perplexity 向印度 3.6 亿用户免费赠送一年 Pro 服务 AI搜索企业Perplexity与印度第二大电信运营商Bharti Airtel达成独家合作，向其3.6亿用户免费提供原价200美元的12个月Perplexity Pro订阅服务。合作具有排他性，印度其他电信商不得提供Perplexity服务。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-18T00:00:00.000Z",
+      "crawlTime": "2025-07-19T01:01:34.926Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "AI工具"
+      ],
+      "dateText": "7月18·周五"
+    },
+    {
+      "id": "ad6caef0",
+      "title": "AI初创公司DecartAI发布全球首个实时视频生成模型MirageLSD",
+      "content": "初创公司DecartAI发布全球首个视频直播模型MirageLSD，获Andrej Karpathy天使投资。模型可实时将摄像头画面转化为其他风格和内容，支持24FPS稳定运行，延迟低于40毫秒。通过英伟达CUDA Megakernels和抗漂移训练实现效率提升，能重塑观看体验、革新游戏世界、赋能内容创作者等。",
+      "originalContent": "AI初创公司DecartAI发布全球首个实时视频生成模型MirageLSD 初创公司DecartAI发布全球首个视频直播模型MirageLSD，获Andrej Karpathy天使投资。模型可实时将摄像头画面转化为其他风格和内容，支持24FPS稳定运行，延迟低于40毫秒。通过英伟达CUDA Megakernels和抗漂移训练实现效率提升，能重塑观看体验、革新游戏世界、赋能内容创作者等。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-18T00:00:00.000Z",
+      "crawlTime": "2025-07-19T01:01:34.927Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月18·周五"
+    }
+  ],
+  "updateTime": "2025-07-19T01:01:35.280Z"
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据爬取测试</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .log { background: #f5f5f5; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { color: green; }
+        .error { color: red; }
+        .news-item { border: 1px solid #ddd; margin: 10px 0; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>AI快讯助手数据测试</h1>
+    <button onclick="testCrawler()">测试数据获取</button>
+    <button onclick="clearLogs()">清除日志</button>
+    
+    <div id="logs"></div>
+    <div id="results"></div>
+
+    <script>
+        function log(message, type = 'info') {
+            const logsDiv = document.getElementById('logs');
+            const logItem = document.createElement('div');
+            logItem.className = `log ${type}`;
+            logItem.innerHTML = `[${new Date().toLocaleTimeString()}] ${message}`;
+            logsDiv.appendChild(logItem);
+            logsDiv.scrollTop = logsDiv.scrollHeight;
+        }
+
+        function clearLogs() {
+            document.getElementById('logs').innerHTML = '';
+            document.getElementById('results').innerHTML = '';
+        }
+
+        async function testCrawler() {
+            log('开始测试数据获取...', 'info');
+            
+            try {
+                // 测试本地API
+                log('正在从本地API获取数据...', 'info');
+                const response = await fetch('/api/news');
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    log(`成功获取 ${data.length || 0} 条数据`, 'success');
+                    displayResults(data);
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+            } catch (error) {
+                log(`API请求失败: ${error.message}`, 'error');
+                
+                // 测试直接使用mock数据
+                try {
+                    log('尝试获取本地mock数据...', 'info');
+                    const mockResponse = await fetch('/mock-data/ai-news.json');
+                    const mockData = await mockResponse.json();
+                    log(`成功获取mock数据 ${mockData.length} 条`, 'success');
+                    displayResults(mockData);
+                } catch (mockError) {
+                    log(`Mock数据获取失败: ${mockError.message}`, 'error');
+                }
+            }
+        }
+
+        function displayResults(data) {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<h2>获取的数据:</h2>';
+            
+            if (!data || !Array.isArray(data) || data.length === 0) {
+                resultsDiv.innerHTML += '<p>没有获取到数据</p>';
+                return;
+            }
+
+            data.slice(0, 5).forEach(item => {
+                const newsDiv = document.createElement('div');
+                newsDiv.className = 'news-item';
+                newsDiv.innerHTML = `
+                    <h3>${item.title || '无标题'}</h3>
+                    <p><strong>来源:</strong> ${item.source || '未知'}</p>
+                    <p><strong>分类:</strong> ${item.category || '未分类'}</p>
+                    <p><strong>发布时间:</strong> ${item.publishTime ? new Date(item.publishTime).toLocaleString() : '未知'}</p>
+                    <p><strong>标签:</strong> ${item.tags ? item.tags.join(', ') : '无'}</p>
+                    ${item.summary ? `<p><strong>摘要:</strong> ${item.summary}</p>` : ''}
+                `;
+                resultsDiv.appendChild(newsDiv);
+            });
+
+            if (data.length > 5) {
+                const moreDiv = document.createElement('div');
+                moreDiv.innerHTML = `<p>...还有 ${data.length - 5} 条数据</p>`;
+                resultsDiv.appendChild(moreDiv);
+            }
+        }
+
+        // 页面加载时自动测试
+        window.onload = function() {
+            log('页面加载完成，可以开始测试', 'info');
+        };
+    </script>
+</body>
+</html>

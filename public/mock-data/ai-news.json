@@ -1,0 +1,1000 @@
+{
+  "success": true,
+  "updateTime": "2025-07-23T15:14:38.192Z",
+  "count": 57,
+  "data": [
+    {
+      "id": "c467dcb6",
+      "title": "通义千问 Qwen3-Coder 宣布开源：480B 参数、原生支持 256K 上下文",
+      "content": "Qwen团队正式发布Qwen3-Coder，是迄今为止最具代理能力的代码模型。Qwen3-Coder-480B-A35B-Instruct是其最强大的版本，拥有480B参数激活35B参数，原生支持256K token上下文并可通过YaRN扩展到1M token，在Agentic Coding等任务上达到开源模型SOTA效果。",
+      "originalContent": "通义千问 Qwen3-Coder 宣布开源：480B 参数、原生支持 256K 上下文 Qwen团队正式发布Qwen3-Coder，是迄今为止最具代理能力的代码模型。Qwen3-Coder-480B-A35B-Instruct是其最强大的版本，拥有480B参数激活35B参数，原生支持256K token上下文并可通过YaRN扩展到1M token，在Agentic Coding等任务上达到开源模型SOTA效果。",
+      "source": "通义千问Qwen",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-23T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.865Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "智能体"
+      ],
+      "dateText": "7月23·周三"
+    },
+    {
+      "id": "ca15d144",
+      "title": "昆仑万维发布最新AI音乐模型——Mureka V7",
+      "content": "昆仑万维发布AI音乐模型Mureka V7。模型通过核心技术MusiCoT（音乐思维链）实现了先规划整体音乐结构再生成细节的功能，解决了传统AI音乐模型“走一步看一步”的问题，生成的音乐作品更具连贯性和感染力。Mureka V7支持10种语言，可创作流行、摇滚等多种风格音乐，最长单曲时长5.5分钟。",
+      "originalContent": "昆仑万维发布最新AI音乐模型——Mureka V7 昆仑万维发布AI音乐模型Mureka V7。模型通过核心技术MusiCoT（音乐思维链）实现了先规划整体音乐结构再生成细节的功能，解决了传统AI音乐模型“走一步看一步”的问题，生成的音乐作品更具连贯性和感染力。Mureka V7支持10种语言，可创作流行、摇滚等多种风格音乐，最长单曲时长5.5分钟。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-23T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.866Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月23·周三"
+    },
+    {
+      "id": "ef87a189",
+      "title": "讯飞星火X1将于7月25日全新升级！",
+      "content": "科大讯飞宣布讯飞星火X1升级版将于7月25日正式上线。此次升级的核心亮点包括综合能力大幅提升，在数学、翻译、推理、文本生成等方面保持领先；幻觉治理显著进步，慢思考模式的幻觉治理准确率大幅领先；多语言能力全面扩展，支持130+语种。",
+      "originalContent": "讯飞星火X1将于7月25日全新升级！ 科大讯飞宣布讯飞星火X1升级版将于7月25日正式上线。此次升级的核心亮点包括综合能力大幅提升，在数学、翻译、推理、文本生成等方面保持领先；幻觉治理显著进步，慢思考模式的幻觉治理准确率大幅领先；多语言能力全面扩展，支持130+语种。",
+      "source": "科大讯飞",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-23T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.867Z",
+      "category": "产品发布",
+      "tags": [
+        "发布"
+      ],
+      "dateText": "7月23·周三"
+    },
+    {
+      "id": "18d85800",
+      "title": "阿里本周将发布首款自研AI眼镜，加入“百镜大战”",
+      "content": "阿里巴巴将于本周发布首款自研AI眼镜，加入“百镜大战”。产品具备语音助手、音乐播放、电话通话、实时翻译等功能，整合了阿里巴巴生态内的地图、支付、购物等功能。硬件上，分为不带显示的AI智能眼镜和带显示的AI+AR智能眼镜，采用双芯片架构。",
+      "originalContent": "阿里本周将发布首款自研AI眼镜，加入“百镜大战” 阿里巴巴将于本周发布首款自研AI眼镜，加入“百镜大战”。产品具备语音助手、音乐播放、电话通话、实时翻译等功能，整合了阿里巴巴生态内的地图、支付、购物等功能。硬件上，分为不带显示的AI智能眼镜和带显示的AI+AR智能眼镜，采用双芯片架构。",
+      "source": "智能涌现",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-23T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.867Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月23·周三"
+    },
+    {
+      "id": "8bba1506",
+      "title": "通用机器人模型GR-3发布！支持高泛化、长程任务、柔性物体双臂操作",
+      "content": "字节跳动Seed团队发布通用机器人模型GR-3。模型具备高泛化能力、长程任务处理能力和柔性物体双臂操作能力，能理解抽象语言指令并快速适应新环境和新任务。GR-3采用Mixture-of-Transformers网络结构，融合了视觉、语言和动作信息，通过遥操作机器人数据、人类VR轨迹数据和大规模视觉语言数据联合训练，提升了泛化性和灵活性。",
+      "originalContent": "通用机器人模型GR-3发布！支持高泛化、长程任务、柔性物体双臂操作 字节跳动Seed团队发布通用机器人模型GR-3。模型具备高泛化能力、长程任务处理能力和柔性物体双臂操作能力，能理解抽象语言指令并快速适应新环境和新任务。GR-3采用Mixture-of-Transformers网络结构，融合了视觉、语言和动作信息，通过遥操作机器人数据、人类VR轨迹数据和大规模视觉语言数据联合训练，提升了泛化性和灵活性。",
+      "source": "字节跳动Seed",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-23T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.868Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "大模型",
+        "机器人"
+      ],
+      "dateText": "7月23·周三"
+    },
+    {
+      "id": "c77da74d",
+      "title": "零一万物发布万智企业大模型一站式平台2.0",
+      "content": "零一万物在北京发布万智企业大模型一站式平台2.0版本，并推出企业级Agent智能体，定位为“超级员工”。该Agent具备深度思考和任务规划能力，能访问手机和Web端，连接各类企业服务。",
+      "originalContent": "零一万物发布万智企业大模型一站式平台2.0 零一万物在北京发布万智企业大模型一站式平台2.0版本，并推出企业级Agent智能体，定位为“超级员工”。该Agent具备深度思考和任务规划能力，能访问手机和Web端，连接各类企业服务。",
+      "source": "零一万物 01AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-23T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.868Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "智能体"
+      ],
+      "dateText": "7月23·周三"
+    },
+    {
+      "id": "8508beb8",
+      "title": "字节跳动TRAE推出SOLO模式，从需求到交付“一站式完成”",
+      "content": "字节跳动发布AI编程助手TRAE SOLO模式，主打全流程自动化开发体验。从需求输入到部署交付“一站式完成”，支持自然语言或语音输入需求，AI自动完成PRD撰写、代码生成、调试验证并直接上线。引入“实时跟随”功能，动态展示AI操作阶段，用户可随时切换AI主导与手动主导模式。",
+      "originalContent": "字节跳动TRAE推出SOLO模式，从需求到交付“一站式完成” 字节跳动发布AI编程助手TRAE SOLO模式，主打全流程自动化开发体验。从需求输入到部署交付“一站式完成”，支持自然语言或语音输入需求，AI自动完成PRD撰写、代码生成、调试验证并直接上线。引入“实时跟随”功能，动态展示AI操作阶段，用户可随时切换AI主导与手动主导模式。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-22T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.869Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月22·周二"
+    },
+    {
+      "id": "5e5a00f4",
+      "title": "首款本地大模型办公本来了！讯飞智能办公本X5正式发布",
+      "content": "科大讯飞发布全新旗舰级智能办公本X5。作为首款本地大模型办公本，具备离线AI能力，支持离线语音转写、多人识别、中英互译及会议纪要等功能，构建“全链路安全”体系。配备10.65英寸墨水屏，仅重355克，薄至4.6毫米，搭载6nm AI芯片和8核CPU，支持300PPI高清显示与GPU快刷技术，书写体验接近真实纸笔。",
+      "originalContent": "首款本地大模型办公本来了！讯飞智能办公本X5正式发布 科大讯飞发布全新旗舰级智能办公本X5。作为首款本地大模型办公本，具备离线AI能力，支持离线语音转写、多人识别、中英互译及会议纪要等功能，构建“全链路安全”体系。配备10.65英寸墨水屏，仅重355克，薄至4.6毫米，搭载6nm AI芯片和8核CPU，支持300PPI高清显示与GPU快刷技术，书写体验接近真实纸笔。",
+      "source": "科大讯飞",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-22T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.869Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月22·周二"
+    },
+    {
+      "id": "5a5df2fd",
+      "title": "Qwen3深夜升级，全面告别混合思维模式",
+      "content": "阿里通义千问推出Qwen3-235B-A22B-Instruct-2507-FP8版本，通用能力显著增强，涵盖指令遵循、逻辑推理、文本理解等多领域。在多项测评中超越Kimi-K2、DeepSeek-V3等顶级模型。新版本在多语言长尾知识、主观任务契合能力及长文本处理方面进步显著，上下文理解能力提升至256K。",
+      "originalContent": "Qwen3深夜升级，全面告别混合思维模式 阿里通义千问推出Qwen3-235B-A22B-Instruct-2507-FP8版本，通用能力显著增强，涵盖指令遵循、逻辑推理、文本理解等多领域。在多项测评中超越Kimi-K2、DeepSeek-V3等顶级模型。新版本在多语言长尾知识、主观任务契合能力及长文本处理方面进步显著，上下文理解能力提升至256K。",
+      "source": "新智元",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-22T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.869Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "7月22·周二"
+    },
+    {
+      "id": "142c6592",
+      "title": "腾讯推出全栈开发AI IDE——CodeBuddy IDE",
+      "content": "腾讯推出CodeBuddy IDE的AI助手，专为零基础用户设计，助力无经验者轻松开发互联网产品。用户只需输入简单指令，工具可完成产品构想、设计、开发及调试等全流程操作。CodeBuddy IDE支持多种AI模型，内嵌Figma设计工具，可一键将设计稿转为代码，现已开启内测。",
+      "originalContent": "腾讯推出全栈开发AI IDE——CodeBuddy IDE 腾讯推出CodeBuddy IDE的AI助手，专为零基础用户设计，助力无经验者轻松开发互联网产品。用户只需输入简单指令，工具可完成产品构想、设计、开发及调试等全流程操作。CodeBuddy IDE支持多种AI模型，内嵌Figma设计工具，可一键将设计稿转为代码，现已开启内测。",
+      "source": "腾讯",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-22T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.870Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月22·周二"
+    },
+    {
+      "id": "084c2389",
+      "title": "专为开发者设计的AI源码解读工具——Zread",
+      "content": "Zread是帮助开发者快速掌握项目核心知识的AI工具，能一键生成清晰易懂的仓库Guide，快速梳理复杂代码，生成API文档和用户手册。支持多仓库对比学习，解读GitHub Trending热门项目，提供深度研究功能，助力开发者提升技能。",
+      "originalContent": "专为开发者设计的AI源码解读工具——Zread Zread是帮助开发者快速掌握项目核心知识的AI工具，能一键生成清晰易懂的仓库Guide，快速梳理复杂代码，生成API文档和用户手册。支持多仓库对比学习，解读GitHub Trending热门项目，提供深度研究功能，助力开发者提升技能。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-22T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.870Z",
+      "category": "开源项目",
+      "tags": [
+        "研究",
+        "AI工具"
+      ],
+      "dateText": "7月22·周二"
+    },
+    {
+      "id": "5ae7e9f1",
+      "title": "千寻智能完成近6亿元PreA+轮融资，京东领投",
+      "content": "具身智能领域头部企业千寻智能宣布完成近6亿元PreA+轮融资，由京东领投，中网投、浙江省科创母基金等知名机构跟投，老股东P7、顺为资本等超额追加投资。本轮融资由高鹄资本担任独家财务顾问。",
+      "originalContent": "千寻智能完成近6亿元PreA+轮融资，京东领投 具身智能领域头部企业千寻智能宣布完成近6亿元PreA+轮融资，由京东领投，中网投、浙江省科创母基金等知名机构跟投，老股东P7、顺为资本等超额追加投资。本轮融资由高鹄资本担任独家财务顾问。",
+      "source": "千寻智能 Spirit AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-21T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.871Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "机器人"
+      ],
+      "dateText": "7月21·周一"
+    },
+    {
+      "id": "a3bbad4b",
+      "title": "Le Chat再一次升级，全方面对标ChatGPT",
+      "content": "Mistral AI推出升级版Le Chat，全方位对标ChatGPT。Le Chat新增深度研究模式，可生成结构化研究报告；语音模式借助新发布的Voxtral模型实现语音输入；原生多语言推理功能提供更精准回答；项目管理功能可组织对话内容；高级图像编辑功能支持复杂图像修改。",
+      "originalContent": "Le Chat再一次升级，全方面对标ChatGPT Mistral AI推出升级版Le Chat，全方位对标ChatGPT。Le Chat新增深度研究模式，可生成结构化研究报告；语音模式借助新发布的Voxtral模型实现语音输入；原生多语言推理功能提供更精准回答；项目管理功能可组织对话内容；高级图像编辑功能支持复杂图像修改。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-21T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.871Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月21·周一"
+    },
+    {
+      "id": "20956d7b",
+      "title": "宇树科技，开启上市辅导",
+      "content": "中国证监会官网显示，宇树科技已正式开启上市辅导，中信证券担任辅导机构。辅导备案报告披露，宇树科技控股股东及实际控制人为王兴兴，直接持有公司23.8216%股权，通过上海宇翼企业管理咨询合伙企业（有限合伙）控制10.9414%股权，合计控制公司34.7630%股权。",
+      "originalContent": "宇树科技，开启上市辅导 中国证监会官网显示，宇树科技已正式开启上市辅导，中信证券担任辅导机构。辅导备案报告披露，宇树科技控股股东及实际控制人为王兴兴，直接持有公司23.8216%股权，通过上海宇翼企业管理咨询合伙企业（有限合伙）控制10.9414%股权，合计控制公司34.7630%股权。",
+      "source": "财联社",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-21T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.871Z",
+      "category": "综合资讯",
+      "tags": [],
+      "dateText": "7月21·周一"
+    },
+    {
+      "id": "d360a6c2",
+      "title": "「众擎机器人」连续完成Pre-A++与A1轮融资，京东领投",
+      "content": "众擎机器人连续完成两轮融资，Pre-A++轮由星航资本投资，A1轮由京东领投，宁德时代旗下溥泉资本、银泰集团等参投，老股东中东资本等也参与增资。",
+      "originalContent": "「众擎机器人」连续完成Pre-A++与A1轮融资，京东领投 众擎机器人连续完成两轮融资，Pre-A++轮由星航资本投资，A1轮由京东领投，宁德时代旗下溥泉资本、银泰集团等参投，老股东中东资本等也参与增资。",
+      "source": "众擎机器人",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-21T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.871Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "机器人"
+      ],
+      "dateText": "7月21·周一"
+    },
+    {
+      "id": "21c714ae",
+      "title": "逐际动力获京东战略领投，以IDS生态协同加速具身智能技术落地",
+      "content": "具身智能机器人公司逐际动力LimX Dynamics宣布完成新一轮融资，由京东战略领投。逐际动力将推进全尺寸人形机器人量产与销售，深化具身大模型技术研发及IDS生态平台建设。其全尺寸人形机器人将于下半年公开销售，双足机器人TRON 1持续升级。",
+      "originalContent": "逐际动力获京东战略领投，以IDS生态协同加速具身智能技术落地 具身智能机器人公司逐际动力LimX Dynamics宣布完成新一轮融资，由京东战略领投。逐际动力将推进全尺寸人形机器人量产与销售，深化具身大模型技术研发及IDS生态平台建设。其全尺寸人形机器人将于下半年公开销售，双足机器人TRON 1持续升级。",
+      "source": "逐际动力",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-21T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.872Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "大模型",
+        "技术",
+        "机器人"
+      ],
+      "dateText": "7月21·周一"
+    },
+    {
+      "id": "049363bc",
+      "title": "OpenAI正式发布ChatGPT Agent！",
+      "content": "OpenAI正式发布ChatGPT Agent功能。功能整合了Operator、Deep Research和ChatGPT本体，用户只需描述任务，Agent能自主调用工具，完成网页访问、信息提取、代码运行、PPT生成等操作，支持任务中断与修改。ChatGPT Agent支持手机端使用，可连接Gmail、GitHub等应用，深度嵌入工作流。",
+      "originalContent": "OpenAI正式发布ChatGPT Agent！ OpenAI正式发布ChatGPT Agent功能。功能整合了Operator、Deep Research和ChatGPT本体，用户只需描述任务，Agent能自主调用工具，完成网页访问、信息提取、代码运行、PPT生成等操作，支持任务中断与修改。ChatGPT Agent支持手机端使用，可连接Gmail、GitHub等应用，深度嵌入工作流。",
+      "source": "APPSO",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-18T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.872Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月18·周五"
+    },
+    {
+      "id": "fb4ee1f1",
+      "title": "全球首个A股金融博弈智能体应用FinGenius开源",
+      "content": "由00后团队创建的全球首个A股金融博弈智能体应用FinGenius在GitHub开源。项目在内测阶段吸引了4000+用户申请体验。FinGenius通过16个超级智能体分工协作，结合多智能体博弈机制，30秒内生成分析报告，解决传统金融工具信息加工过度、数据不真实、大模型局限性等问题。",
+      "originalContent": "全球首个A股金融博弈智能体应用FinGenius开源 由00后团队创建的全球首个A股金融博弈智能体应用FinGenius在GitHub开源。项目在内测阶段吸引了4000+用户申请体验。FinGenius通过16个超级智能体分工协作，结合多智能体博弈机制，30秒内生成分析报告，解决传统金融工具信息加工过度、数据不真实、大模型局限性等问题。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-18T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.872Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月18·周五"
+    },
+    {
+      "id": "828ed2d2",
+      "title": "Perplexity 向印度 3.6 亿用户免费赠送一年 Pro 服务",
+      "content": "AI搜索企业Perplexity与印度第二大电信运营商Bharti Airtel达成独家合作，向其3.6亿用户免费提供原价200美元的12个月Perplexity Pro订阅服务。合作具有排他性，印度其他电信商不得提供Perplexity服务。",
+      "originalContent": "Perplexity 向印度 3.6 亿用户免费赠送一年 Pro 服务 AI搜索企业Perplexity与印度第二大电信运营商Bharti Airtel达成独家合作，向其3.6亿用户免费提供原价200美元的12个月Perplexity Pro订阅服务。合作具有排他性，印度其他电信商不得提供Perplexity服务。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-18T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.872Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "AI工具"
+      ],
+      "dateText": "7月18·周五"
+    },
+    {
+      "id": "ad6caef0",
+      "title": "AI初创公司DecartAI发布全球首个实时视频生成模型MirageLSD",
+      "content": "初创公司DecartAI发布全球首个视频直播模型MirageLSD，获Andrej Karpathy天使投资。模型可实时将摄像头画面转化为其他风格和内容，支持24FPS稳定运行，延迟低于40毫秒。通过英伟达CUDA Megakernels和抗漂移训练实现效率提升，能重塑观看体验、革新游戏世界、赋能内容创作者等。",
+      "originalContent": "AI初创公司DecartAI发布全球首个实时视频生成模型MirageLSD 初创公司DecartAI发布全球首个视频直播模型MirageLSD，获Andrej Karpathy天使投资。模型可实时将摄像头画面转化为其他风格和内容，支持24FPS稳定运行，延迟低于40毫秒。通过英伟达CUDA Megakernels和抗漂移训练实现效率提升，能重塑观看体验、革新游戏世界、赋能内容创作者等。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-18T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.873Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月18·周五"
+    },
+    {
+      "id": "fc0f5829",
+      "title": "Kimi Playground: 一站式体验 Kimi K2 的工具调用能力",
+      "content": "Kimi开放平台宣布正式上线Kimi Playground，为开发者提供一站式工具调用能力体验。平台支持直观的工具调用界面和便捷的调试体验，可快速选择不同工具并实时调整参数。",
+      "originalContent": "Kimi Playground: 一站式体验 Kimi K2 的工具调用能力 Kimi开放平台宣布正式上线Kimi Playground，为开发者提供一站式工具调用能力体验。平台支持直观的工具调用界面和便捷的调试体验，可快速选择不同工具并实时调整参数。",
+      "source": "Kimi 开放平台",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.873Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月17·周四"
+    },
+    {
+      "id": "bf94a61c",
+      "title": "普林斯顿团队领衔发布最强开源数学定理证明模型：Goedel-Prover-V2",
+      "content": "普林斯顿大学联合清华大学、北京大学等顶尖高校及英伟达等机构，发布了新一代开源数学定理证明模型Goedel-Prover-V2。32B旗舰模型在自动数学定理证明基准测试中大幅超越前代SOTA模型DeepSeek-Prover-V2-671B，8B小尺寸模型性能也与之持平。",
+      "originalContent": "普林斯顿团队领衔发布最强开源数学定理证明模型：Goedel-Prover-V2 普林斯顿大学联合清华大学、北京大学等顶尖高校及英伟达等机构，发布了新一代开源数学定理证明模型Goedel-Prover-V2。32B旗舰模型在自动数学定理证明基准测试中大幅超越前代SOTA模型DeepSeek-Prover-V2-671B，8B小尺寸模型性能也与之持平。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.873Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "7月17·周四"
+    },
+    {
+      "id": "f76141d6",
+      "title": "无界方舟连续完成Pre-A & Pre-A+轮亿元级别融资",
+      "content": "无界方舟（AutoArk）宣布连续完成Pre-A & Pre-A+轮亿元级融资。公司基于自研多模态大模型，打造AI应用的“超级感官”与“真大脑”。无界方舟的EVA多模态模型在性能上对标OpenAI的GPT-4o，具备高智商分析、真人般交互、全自动数据合成等优势，已实现商业化落地。",
+      "originalContent": "无界方舟连续完成Pre-A & Pre-A+轮亿元级别融资 无界方舟（AutoArk）宣布连续完成Pre-A & Pre-A+轮亿元级融资。公司基于自研多模态大模型，打造AI应用的“超级感官”与“真大脑”。无界方舟的EVA多模态模型在性能上对标OpenAI的GPT-4o，具备高智商分析、真人般交互、全自动数据合成等优势，已实现商业化落地。",
+      "source": "AutoArk无界方舟",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.874Z",
+      "category": "投融资",
+      "tags": [
+        "GPT",
+        "融资",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月17·周四"
+    },
+    {
+      "id": "5700510e",
+      "title": "Mistral首个开源语音模型Voxtral，全面碾压Whisper",
+      "content": "Mistral AI发布首个开源语音模型Voxtral，包含24B和3B参数规模版本，基于Apache 2.0许可证开源并提供API接口。Voxtral支持8大主流语言，可处理30分钟音频转录或40分钟语义理解任务，全面超越Whisper，在多语言基准测试中表现优异，语音翻译成绩占据榜首，语音理解能力追平GPT-4o-mini。",
+      "originalContent": "Mistral首个开源语音模型Voxtral，全面碾压Whisper Mistral AI发布首个开源语音模型Voxtral，包含24B和3B参数规模版本，基于Apache 2.0许可证开源并提供API接口。Voxtral支持8大主流语言，可处理30分钟音频转录或40分钟语义理解任务，全面超越Whisper，在多语言基准测试中表现优异，语音翻译成绩占据榜首，语音理解能力追平GPT-4o-mini。",
+      "source": "智东西",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.874Z",
+      "category": "开源项目",
+      "tags": [
+        "GPT",
+        "开源",
+        "发布",
+        "研究",
+        "大模型"
+      ],
+      "dateText": "7月17·周四"
+    },
+    {
+      "id": "0c122395",
+      "title": "MiniMax Agent全栈开发能力“靠谱”上新",
+      "content": "MiniMax Agent发布全栈开发功能，用户仅需一句话即可生成复杂全栈应用，无需编程基础。功能支持Supabase后端托管、Stripe支付、定时任务等，可快速开发演唱会选座系统、实时金融看板、出海独立站、企业数据看板等应用。",
+      "originalContent": "MiniMax Agent全栈开发能力“靠谱”上新 MiniMax Agent发布全栈开发功能，用户仅需一句话即可生成复杂全栈应用，无需编程基础。功能支持Supabase后端托管、Stripe支付、定时任务等，可快速开发演唱会选座系统、实时金融看板、出海独立站、企业数据看板等应用。",
+      "source": "MiniMax 稀宇科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-17T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.874Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "智能体"
+      ],
+      "dateText": "7月17·周四"
+    },
+    {
+      "id": "107e7ec0",
+      "title": "亚马逊推出Kiro AI编程平台，正式开放公测",
+      "content": "亚马逊云科技宣布推出Kiro AI编程平台，正式开放公测。Kiro是Agentic IDE，提供AI编码辅助，能帮助开发者从想法到上线的全过程。Specs可将模糊需求转化为具体用户故事和边界条件，Hooks能在代码提交前自动完成测试、文档更新和安全扫描等任务。",
+      "originalContent": "亚马逊推出Kiro AI编程平台，正式开放公测 亚马逊云科技宣布推出Kiro AI编程平台，正式开放公测。Kiro是Agentic IDE，提供AI编码辅助，能帮助开发者从想法到上线的全过程。Specs可将模糊需求转化为具体用户故事和边界条件，Hooks能在代码提交前自动完成测试、文档更新和安全扫描等任务。",
+      "source": "亚马逊云科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-16T08:58:12.909Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "6c7eeedc",
+      "title": "Grok 推出交互式「数字伴侣」，基于Grok 4大模型",
+      "content": "马斯克旗下Grok APP推出基于Grok 4大模型的“智能伴侣”功能，付费用户可优先体验。功能提供动漫头像Ani、卡通小熊猫Rudy等3D形象，支持更换背景和动作。",
+      "originalContent": "Grok 推出交互式「数字伴侣」，基于Grok 4大模型 马斯克旗下Grok APP推出基于Grok 4大模型的“智能伴侣”功能，付费用户可优先体验。功能提供动漫头像Ani、卡通小熊猫Rudy等3D形象，支持更换背景和动作。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.875Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "3D"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "6b8bf34e",
+      "title": "ChatExcel·桌面版全新上线、AI提示词优化、常用提示词保存功能",
+      "content": "ChatExcel桌面版全新上线，支持Mac和Windows平台，用户可直接在桌面处理Excel数据、生成图表等，无需浏览器。新增AI优化提示词功能，点击“魔术笔”可一键优化提示词内容，更规范、准确。上线常用提示词保存功能，方便用户在重复场景中快速使用。",
+      "originalContent": "ChatExcel·桌面版全新上线、AI提示词优化、常用提示词保存功能 ChatExcel桌面版全新上线，支持Mac和Windows平台，用户可直接在桌面处理Excel数据、生成图表等，无需浏览器。新增AI优化提示词功能，点击“魔术笔”可一键优化提示词内容，更规范、准确。上线常用提示词保存功能，方便用户在重复场景中快速使用。",
+      "source": "元空AIExcel",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.875Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "d24b9c61",
+      "title": "华为携手云南交投发布“绿美通道·交通大模型”",
+      "content": "云南省交通投资建设集团有限公司与华为、长安大学合作研发的“绿美通道·交通大模型”在昆明正式发布。模型历时两年研发，涵盖智算中心底座、高质量数据集、AI平台工具链、行业模型集及AI场景应用等成果。",
+      "originalContent": "华为携手云南交投发布“绿美通道·交通大模型” 云南省交通投资建设集团有限公司与华为、长安大学合作研发的“绿美通道·交通大模型”在昆明正式发布。模型历时两年研发，涵盖智算中心底座、高质量数据集、AI平台工具链、行业模型集及AI场景应用等成果。",
+      "source": "华为",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.876Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "ea1fe291",
+      "title": "OpenAI正在开发基于Chromium的AI浏览器——“Aura”",
+      "content": "OpenAI正在开发一款基于Chromium的AI驱动浏览器，内部代号为“Aura”。浏览器将利用生成式和代理式AI能力，彻底改变用户的网络浏览体验。",
+      "originalContent": "OpenAI正在开发基于Chromium的AI浏览器——“Aura” OpenAI正在开发一款基于Chromium的AI驱动浏览器，内部代号为“Aura”。浏览器将利用生成式和代理式AI能力，彻底改变用户的网络浏览体验。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.876Z",
+      "category": "综合资讯",
+      "tags": [
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "8c0f2fd5",
+      "title": "百度AI助手全新功能「视频通话」上线！",
+      "content": "百度AI助手推出全新功能「视频通话」。用户可通过百度APP进入「AI+」选择「视频通话」，开启与AI的视频互动。覆盖多种生活场景：可识别花草、解答难题；提供专业穿搭建议；解读宠物行为；倾听烦恼、提供慰藉。",
+      "originalContent": "百度AI助手全新功能「视频通话」上线！ 百度AI助手推出全新功能「视频通话」。用户可通过百度APP进入「AI+」选择「视频通话」，开启与AI的视频互动。覆盖多种生活场景：可识别花草、解答难题；提供专业穿搭建议；解读宠物行为；倾听烦恼、提供慰藉。",
+      "source": "百度搜索",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.876Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "1ab0e20e",
+      "title": "LG 推出韩国首个混合推理 AI 模型 EXAONE 4.0",
+      "content": "LG AI Research研究所推出韩国首个混合推理AI模型EXAONE 4.0。模型融合通用自然语言处理与高级推理能力，在数学、科学及编程等高难度领域表现优异，支持多语言并提供32B专业版和1.2B端侧版。",
+      "originalContent": "LG 推出韩国首个混合推理 AI 模型 EXAONE 4.0 LG AI Research研究所推出韩国首个混合推理AI模型EXAONE 4.0。模型融合通用自然语言处理与高级推理能力，在数学、科学及编程等高难度领域表现优异，支持多语言并提供32B专业版和1.2B端侧版。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.876Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "485f2f57",
+      "title": "观猹正式发布，打造AI产品的专业点评平台",
+      "content": "由特工宇宙团队打造的AI产品点评社区「观猹」正式发布，用真实用户视角判断产品PMF。面向AI爱好者，观猹提供真实、可信的产品评分与交流社区。创作者可分享AI作品，获取反馈；创业者能冷启动项目，连接用户与投资人。",
+      "originalContent": "观猹正式发布，打造AI产品的专业点评平台 由特工宇宙团队打造的AI产品点评社区「观猹」正式发布，用真实用户视角判断产品PMF。面向AI爱好者，观猹提供真实、可信的产品评分与交流社区。创作者可分享AI作品，获取反馈；创业者能冷启动项目，连接用户与投资人。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.874Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "发布",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "7eb801d8",
+      "title": "亚马逊推出Kiro AI编程工具，正式开放公测",
+      "content": "亚马逊云科技宣布推出Kiro AI编程工具，正式开放公测。Kiro是Agentic IDE，提供AI编码辅助，能帮助开发者从想法到上线的全过程。Specs可将模糊需求转化为具体用户故事和边界条件，Hooks能在代码提交前自动完成测试、文档更新和安全扫描等任务。",
+      "originalContent": "亚马逊推出Kiro AI编程工具，正式开放公测 亚马逊云科技宣布推出Kiro AI编程工具，正式开放公测。Kiro是Agentic IDE，提供AI编码辅助，能帮助开发者从想法到上线的全过程。Specs可将模糊需求转化为具体用户故事和边界条件，Hooks能在代码提交前自动完成测试、文档更新和安全扫描等任务。",
+      "source": "亚马逊云科技",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.875Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "dcfae7bc",
+      "title": "百度上线TizzyAI，主打无广告智能搜索",
+      "content": "百度上线全新AI搜索App“Tizzy.ai”，定位为无广告的AI智能搜索助手。应用基于百度多个大模型能力开发，界面简洁，无弹窗和信息流推荐，仅设“搜索”和“资源库”两个核心入口。TizzyAI支持自动和深度搜索模式，能快速回答问题并提供深度分析。",
+      "originalContent": "百度上线TizzyAI，主打无广告智能搜索 百度上线全新AI搜索App“Tizzy.ai”，定位为无广告的AI智能搜索助手。应用基于百度多个大模型能力开发，界面简洁，无弹窗和信息流推荐，仅设“搜索”和“资源库”两个核心入口。TizzyAI支持自动和深度搜索模式，能快速回答问题并提供深度分析。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-16T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.875Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月16·周三"
+    },
+    {
+      "id": "61dd77b4",
+      "title": "秘塔AI搜索推出“深度研究”模块，动态展示研究过程",
+      "content": "秘塔AI搜索宣布其“深度研究”模块正式上线。秘塔通过优化数据和算法，降低了算力成本，提升了准确率，在中文搜索上表现突出。秘塔版“深度研究”免费开放，增加了“问题链”功能，可动态展示研究过程，为复杂问题提供结构化报告。",
+      "originalContent": "秘塔AI搜索推出“深度研究”模块，动态展示研究过程 秘塔AI搜索宣布其“深度研究”模块正式上线。秘塔通过优化数据和算法，降低了算力成本，提升了准确率，在中文搜索上表现突出。秘塔版“深度研究”免费开放，增加了“问题链”功能，可动态展示研究过程，为复杂问题提供结构化报告。",
+      "source": "AI秘塔",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.877Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月15·周二"
+    },
+    {
+      "id": "13418247",
+      "title": "华人团队Cognition收购Windsurf剩余团队",
+      "content": "编程助手公司 Cognition 宣布收购编程初创公司Windsurf剩余员工和资产，获得其银行账户中超过 1 亿美元资金。此次收购后，Windsurf 将短期独立运营，继续开发其 AI 驱动的 IDE，Cognition 提供资金支持并计划将 Windsurf 的 IP 和功能集成到自身产品中。",
+      "originalContent": "华人团队Cognition收购Windsurf剩余团队 编程助手公司 Cognition 宣布收购编程初创公司Windsurf剩余员工和资产，获得其银行账户中超过 1 亿美元资金。此次收购后，Windsurf 将短期独立运营，继续开发其 AI 驱动的 IDE，Cognition 提供资金支持并计划将 Windsurf 的 IP 和功能集成到自身产品中。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.877Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月15·周二"
+    },
+    {
+      "id": "c9d4b96f",
+      "title": "MiniMax已基本完成近 3 亿美元新一轮融资",
+      "content": "大模型公司 MiniMax 近期已完成近 3 亿美元新一轮融资，估值超 40 亿美元。本轮融资新增上海国资等出资方，成为今年 AI 六小虎中仅有的两家获得融资的公司之一。",
+      "originalContent": "MiniMax已基本完成近 3 亿美元新一轮融资 大模型公司 MiniMax 近期已完成近 3 亿美元新一轮融资，估值超 40 亿美元。本轮融资新增上海国资等出资方，成为今年 AI 六小虎中仅有的两家获得融资的公司之一。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.878Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月15·周二"
+    },
+    {
+      "id": "31f39985",
+      "title": "智源全面开源RoboBrain 2.0与RoboOS 2.0：刷新10项评测基准",
+      "content": "智源研究院发布 RoboBrain 2.0 和 RoboOS 2.0，RoboBrain 2.0 是集感知、推理与规划于一体的通用具身大脑，32B 版本刷新多项权威评测基准，7B 版本适配边缘设备。RoboOS 2.0 是全球首个具身智能 SaaS 开源框架，集成 MCP 协议与无服务器架构，支持多机协作，推出单机版及技能商店。",
+      "originalContent": "智源全面开源RoboBrain 2.0与RoboOS 2.0：刷新10项评测基准 智源研究院发布 RoboBrain 2.0 和 RoboOS 2.0，RoboBrain 2.0 是集感知、推理与规划于一体的通用具身大脑，32B 版本刷新多项权威评测基准，7B 版本适配边缘设备。RoboOS 2.0 是全球首个具身智能 SaaS 开源框架，集成 MCP 协议与无服务器架构，支持多机协作，推出单机版及技能商店。",
+      "source": "智源研究院",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.878Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "技术",
+        "机器人"
+      ],
+      "dateText": "7月15·周二"
+    },
+    {
+      "id": "3c077c8c",
+      "title": "TRAE 自定义模型新增 Kimi-K2，国际版支持Grok-4",
+      "content": "TRAE自定义模型服务商宣布新增Kimi-K2模型，支持通过API Key接入，满足开发者对模型多样性和专业性的需求。TRAE国际版新增超级模型Grok-4（Beta），进一步丰富了模型阵容，支持全球主流大模型一站式调用。",
+      "originalContent": "TRAE 自定义模型新增 Kimi-K2，国际版支持Grok-4 TRAE自定义模型服务商宣布新增Kimi-K2模型，支持通过API Key接入，满足开发者对模型多样性和专业性的需求。TRAE国际版新增超级模型Grok-4（Beta），进一步丰富了模型阵容，支持全球主流大模型一站式调用。",
+      "source": "TRAE.ai",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-15T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.877Z",
+      "category": "综合资讯",
+      "tags": [
+        "大模型"
+      ],
+      "dateText": "7月15·周二"
+    },
+    {
+      "id": "18a4be73",
+      "title": "通义千问推出Qwen Chat桌面端，一键使用MCP",
+      "content": "阿里巴巴旗下通义千问发布Qwen Chat桌面端，目前支持macOS端，支持多模型PK及MCP协议，可通过插件实时调用地图、搜索、本地文件等外部数据，实现更精准回答。",
+      "originalContent": "通义千问推出Qwen Chat桌面端，一键使用MCP 阿里巴巴旗下通义千问发布Qwen Chat桌面端，目前支持macOS端，支持多模型PK及MCP协议，可通过插件实时调用地图、搜索、本地文件等外部数据，实现更精准回答。",
+      "source": "通义千问Qwen",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.879Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "6b6d3531",
+      "title": "奥尔特曼宣布延期 OpenAI 首个开源权重 AI 模型",
+      "content": "OpenAI CEO山姆·奥尔特曼7月12日宣布，再次推迟发布其首个开源权重AI模型，理由是需要更多时间进行安全测试及高风险内容审查，但未给出新的发布日期。该模型原计划下周亮相，已是年内第二次延期。",
+      "originalContent": "奥尔特曼宣布延期 OpenAI 首个开源权重 AI 模型 OpenAI CEO山姆·奥尔特曼7月12日宣布，再次推迟发布其首个开源权重AI模型，理由是需要更多时间进行安全测试及高风险内容审查，但未给出新的发布日期。该模型原计划下周亮相，已是年内第二次延期。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.879Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "2a2f827a",
+      "title": "「汉阳科技Yarbo」近日完成超亿元B+轮融资",
+      "content": "消费级扫雪机器人公司「汉阳科技Yarbo」完成逾亿元B+轮融资，由国科投资、中金资本、九阳创投联合注资。本轮资金将用于技术研发、供应链优化及北美、欧洲市场拓展，借助九阳SharkNinja渠道加速全球化布局。",
+      "originalContent": "「汉阳科技Yarbo」近日完成超亿元B+轮融资 消费级扫雪机器人公司「汉阳科技Yarbo」完成逾亿元B+轮融资，由国科投资、中金资本、九阳创投联合注资。本轮资金将用于技术研发、供应链优化及北美、欧洲市场拓展，借助九阳SharkNinja渠道加速全球化布局。",
+      "source": "36氪",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.879Z",
+      "category": "投融资",
+      "tags": [
+        "融资",
+        "合作",
+        "技术",
+        "机器人"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "cec3276e",
+      "title": "OpenAI 收购 Windsurf 计划告吹，后者 CEO 及创始人已被谷歌招入麾下",
+      "content": "OpenAI收购AI编码助手Windsurf的交易正式取消。谷歌迅速出手，Windsurf CEO Varun Mohan、联合创始人Douglas Chen及核心团队集体加入DeepMind，谷歌以约24亿美元获其技术非独家授权。原30亿美元收购价落空，Windsurf高层换血，业务由临时CEO接手。",
+      "originalContent": "OpenAI 收购 Windsurf 计划告吹，后者 CEO 及创始人已被谷歌招入麾下 OpenAI收购AI编码助手Windsurf的交易正式取消。谷歌迅速出手，Windsurf CEO Varun Mohan、联合创始人Douglas Chen及核心团队集体加入DeepMind，谷歌以约24亿美元获其技术非独家授权。原30亿美元收购价落空，Windsurf高层换血，业务由临时CEO接手。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.880Z",
+      "category": "行业动态",
+      "tags": [
+        "合作",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "6c5ed6ef",
+      "title": "CAMEL-AI与Gemini官宣合作，实现数据可视化和自动化",
+      "content": "开源多智能体框架CAMEL-AI宣布与Google DeepMind合作，集成Gemini 2.5 Pro模型，推出OWL系统。用户只需一句自然语言指令，OWL即可自动完成搜索、提取、分析并生成可视化图表，支持在线数据、本地文件及浏览器操作。",
+      "originalContent": "CAMEL-AI与Gemini官宣合作，实现数据可视化和自动化 开源多智能体框架CAMEL-AI宣布与Google DeepMind合作，集成Gemini 2.5 Pro模型，推出OWL系统。用户只需一句自然语言指令，OWL即可自动完成搜索、提取、分析并生成可视化图表，支持在线数据、本地文件及浏览器操作。",
+      "source": "CAMEL AI",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.880Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "合作",
+        "大模型",
+        "技术"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "c4242b5f",
+      "title": "美图推出专注于影像与设计的AI智能体RoboNeo",
+      "content": "美图公司正式推出专注于影像与设计的AI智能体RoboNeo，用户可通过自然语言交互轻松完成修图、设计和视频制作等任务。RoboNeo具备智能修图、AI设计生成、视频智能处理及多模态创作等多项功能",
+      "originalContent": "美图推出专注于影像与设计的AI智能体RoboNeo 美图公司正式推出专注于影像与设计的AI智能体RoboNeo，用户可通过自然语言交互轻松完成修图、设计和视频制作等任务。RoboNeo具备智能修图、AI设计生成、视频智能处理及多模态创作等多项功能",
+      "source": "美图公司",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-14T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.879Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月14·周一"
+    },
+    {
+      "id": "a2a316e9",
+      "title": "欧盟公布最终版《通用人工智能行为准则》，8 月 2 日起正式实施",
+      "content": "欧盟发布最终版《通用人工智能行为准则》，8月2日实施，涵盖安全、透明、版权三方面，由13位专家联合1000多利益方制定，企业可自愿签署以减轻负担，旧模型有2年调整期，新模型1年。",
+      "originalContent": "欧盟公布最终版《通用人工智能行为准则》，8 月 2 日起正式实施 欧盟发布最终版《通用人工智能行为准则》，8月2日实施，涵盖安全、透明、版权三方面，由13位专家联合1000多利益方制定，企业可自愿签署以减轻负担，旧模型有2年调整期，新模型1年。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.881Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "合作",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "c0e89852",
+      "title": "墨刀AI重磅上线：原型图，现在可以自动生成了！",
+      "content": "墨刀AI上线全新原型生成能力，从灵感到可交付界面只需30秒，面向产品经理和设计师提供零门槛体验。支持文字/草图/截图转原型，自动识别布局与组件；多轮对话优化设计，像“聊天”一样改原型；自动生成产品文档与页面逻辑，规范输出流程。",
+      "originalContent": "墨刀AI重磅上线：原型图，现在可以自动生成了！ 墨刀AI上线全新原型生成能力，从灵感到可交付界面只需30秒，面向产品经理和设计师提供零门槛体验。支持文字/草图/截图转原型，自动识别布局与组件；多轮对话优化设计，像“聊天”一样改原型；自动生成产品文档与页面逻辑，规范输出流程。",
+      "source": "墨刀",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.881Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "11ffe798",
+      "title": "微软发布 Phi-4-mini-flash-reasoning 端侧 AI 模型：10 倍吞吐量",
+      "content": "微软发布Phi-4-mini-flash-reasoning端侧AI模型，采用SambaY架构与GMU组件，推理吞吐量提升10倍、延迟降至1/3，专注数学与逻辑推理，已上线Azure AI Foundry等平台。",
+      "originalContent": "微软发布 Phi-4-mini-flash-reasoning 端侧 AI 模型：10 倍吞吐量 微软发布Phi-4-mini-flash-reasoning端侧AI模型，采用SambaY架构与GMU组件，推理吞吐量提升10倍、延迟降至1/3，专注数学与逻辑推理，已上线Azure AI Foundry等平台。",
+      "source": "IT之家",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.881Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "大模型",
+        "技术",
+        "AI工具"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "4c7cafdf",
+      "title": "月之暗面Kimi最新推出的MoE架构基础模型——k2",
+      "content": "月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "originalContent": "月之暗面Kimi最新推出的MoE架构基础模型——k2 月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-11T12:17:55.203Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "84fdd9db",
+      "title": "拍我AI（PixVerse）上线多关键帧生成功能，从“片段”迈向“故事性表达”",
+      "content": "拍我AI（PixVerse）上线“多关键帧生成”功能，用户可上传最多7张图，在首尾帧模式下生成长达30秒的叙事视频，实现动作、场景及景别自然衔接，助力短剧、广告等高效创作。",
+      "originalContent": "拍我AI（PixVerse）上线多关键帧生成功能，从“片段”迈向“故事性表达” 拍我AI（PixVerse）上线“多关键帧生成”功能，用户可上传最多7张图，在首尾帧模式下生成长达30秒的叙事视频，实现动作、场景及景别自然衔接，助力短剧、广告等高效创作。",
+      "source": "爱诗科技AIsphere",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.880Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "57ff0327",
+      "title": "月之暗面Kimi正式发布k2模型，具备超强代码和 Agent 能力",
+      "content": "月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "originalContent": "月之暗面Kimi正式发布k2模型，具备超强代码和 Agent 能力 月之暗面发布MoE架构基础模型k2，总参1T、激活32B，上下文128k tokens，支持ToolCalls、JSON/Partial/联网，无视觉。输入价￥1.00/1M tokens，输出￥4.00/1M，缓存命中￥16.00/1M，性能领先开源模型。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-11T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.880Z",
+      "category": "开源项目",
+      "tags": [
+        "开源",
+        "发布",
+        "大模型",
+        "智能体"
+      ],
+      "dateText": "7月11·周五"
+    },
+    {
+      "id": "fd9a19c8",
+      "title": "马斯克发布 Grok 4，处理学术问题达到博士级别",
+      "content": "马斯克旗下xAI发布新一代大模型Grok 4，推理能力较前代提升10倍，在多项基准测试中超越现有模型，达到“博士后水平”。Grok 4支持工具调用、语音交互、多模态任务，并在ARC-AGI等高难度测试中刷新纪录。",
+      "originalContent": "马斯克发布 Grok 4，处理学术问题达到博士级别 马斯克旗下xAI发布新一代大模型Grok 4，推理能力较前代提升10倍，在多项基准测试中超越现有模型，达到“博士后水平”。Grok 4支持工具调用、语音交互、多模态任务，并在ARC-AGI等高难度测试中刷新纪录。",
+      "source": "机器之心",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.881Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月10·周四"
+    },
+    {
+      "id": "b66a4346",
+      "title": "Perplexity推出 AI 浏览器——Comet",
+      "content": "Perplexity发布AI浏览器Comet，主打“从浏览到思考”，整合网页解释、任务执行等功能，成为用户的“思考伙伴”。Comet目前仅向高价订阅用户开放。",
+      "originalContent": "Perplexity推出 AI 浏览器——Comet Perplexity发布AI浏览器Comet，主打“从浏览到思考”，整合网页解释、任务执行等功能，成为用户的“思考伙伴”。Comet目前仅向高价订阅用户开放。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.883Z",
+      "category": "产品发布",
+      "tags": [
+        "开源",
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "7月10·周四"
+    },
+    {
+      "id": "e3056375",
+      "title": "抖音快手前高管创业，上线AI图片工具 KIRA",
+      "content": "由抖音、TikTok、快手前核心成员创立的 AI 图片生成工具 KIRA 正式亮相。产品由 ILLA Cloud 孵化，支持一键替换/移除背景、修补、画质增强、扩图等操作，并具备 AI 生成图片能力。创始团队包括曾任抖音 & TikTok 研发、快手孵化业务大前端负责人陈龙博，及抖音、快手多项战略项目设计负责人吴晓松。",
+      "originalContent": "抖音快手前高管创业，上线AI图片工具 KIRA 由抖音、TikTok、快手前核心成员创立的 AI 图片生成工具 KIRA 正式亮相。产品由 ILLA Cloud 孵化，支持一键替换/移除背景、修补、画质增强、扩图等操作，并具备 AI 生成图片能力。创始团队包括曾任抖音 & TikTok 研发、快手孵化业务大前端负责人陈龙博，及抖音、快手多项战略项目设计负责人吴晓松。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.883Z",
+      "category": "开源项目",
+      "tags": [
+        "发布",
+        "AI工具"
+      ],
+      "dateText": "7月10·周四"
+    },
+    {
+      "id": "5a868c0a",
+      "title": "办公小浣熊 · 桌面版全新上线！",
+      "content": "商汤科技推出“办公小浣熊”桌面版，支持Windows和Mac平台，用户无需浏览器即可一键唤醒AI助手，实现任务拆解、数据分析、图表生成等办公功能。老用户可同步历史内容。",
+      "originalContent": "办公小浣熊 · 桌面版全新上线！ 商汤科技推出“办公小浣熊”桌面版，支持Windows和Mac平台，用户无需浏览器即可一键唤醒AI助手，实现任务拆解、数据分析、图表生成等办公功能。老用户可同步历史内容。",
+      "source": "商汤小浣熊",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.882Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "技术",
+        "AI工具",
+        "智能体"
+      ],
+      "dateText": "7月10·周四"
+    },
+    {
+      "id": "9918877b",
+      "title": "智谱Z.ai推出的实验性大模型GLM-Experimental",
+      "content": "智谱AI推出全新实验模型GLM-Experimental，主打“AI Presentation”功能，可一键生成网页版PPT，支持多种风格与互动效果。用户只需输入简单Prompt，模型可自动生成内容、设计排版，实现弹幕、动画等高级效果。",
+      "originalContent": "智谱Z.ai推出的实验性大模型GLM-Experimental 智谱AI推出全新实验模型GLM-Experimental，主打“AI Presentation”功能，可一键生成网页版PPT，支持多种风格与互动效果。用户只需输入简单Prompt，模型可自动生成内容、设计排版，实现弹幕、动画等高级效果。",
+      "source": "AI工具集",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-10T00:00:00.000Z",
+      "crawlTime": "2025-07-23T15:14:37.882Z",
+      "category": "产品发布",
+      "tags": [
+        "发布",
+        "研究",
+        "大模型",
+        "AI工具"
+      ],
+      "dateText": "7月10·周四"
+    }
+  ]
+}

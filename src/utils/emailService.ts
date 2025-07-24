@@ -12,7 +12,7 @@ const EMAIL_CONFIG = {
 }
 
 // Email API endpoint (would need a backend service)
-const EMAIL_API_URL = process.env.VITE_EMAIL_API_URL || 'http://localhost:3001/api'
+const EMAIL_API_URL = import.meta.env.VITE_EMAIL_API_URL || 'http://localhost:3001/api'
 
 export interface EmailResult {
   success: boolean

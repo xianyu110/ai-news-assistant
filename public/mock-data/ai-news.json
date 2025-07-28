@@ -1,8 +1,42 @@
 {
   "success": true,
-  "updateTime": "2025-07-23T15:14:38.192Z",
-  "count": 57,
+  "updateTime": "2025-07-28T15:28:46.862Z",
+  "count": 59,
   "data": [
+    {
+      "id": "ee8ba191",
+      "title": "GitHub更新：Actions支持更多自动化功能",
+      "content": "GitHub宣布Actions新增多项自动化功能，包括更好的定时任务支持和工作流程优化，帮助开发者提高效率。",
+      "originalContent": "GitHub更新：Actions支持更多自动化功能 GitHub宣布Actions新增多项自动化功能，包括更好的定时任务支持和工作流程优化，帮助开发者提高效率。",
+      "source": "GitHub",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-28T15:28:46.855Z",
+      "crawlTime": "2025-07-28T15:28:46.858Z",
+      "category": "产品发布",
+      "tags": [
+        "技术",
+        "产品",
+        "发布"
+      ],
+      "dateText": "7月28日·周一"
+    },
+    {
+      "id": "f260ccb7",
+      "title": "新的AI助手服务正式上线测试",
+      "content": "最新的AI助手服务开始公测，提供智能问答、代码生成和文档分析等多项功能，用户反馈良好。",
+      "originalContent": "新的AI助手服务正式上线测试 最新的AI助手服务开始公测，提供智能问答、代码生成和文档分析等多项功能，用户反馈良好。",
+      "source": "AI助手团队",
+      "sourceUrl": "https://ai-bot.cn/daily-ai-news/",
+      "publishTime": "2025-07-28T15:28:46.855Z",
+      "crawlTime": "2025-07-28T15:28:46.858Z",
+      "category": "产品发布",
+      "tags": [
+        "技术",
+        "产品",
+        "发布"
+      ],
+      "dateText": "7月28日·周一"
+    },
     {
       "id": "c467dcb6",
       "title": "通义千问 Qwen3-Coder 宣布开源：480B 参数、原生支持 256K 上下文",

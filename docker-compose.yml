@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  ai-news-assistant:
+    build: .
+    container_name: ai-news-assistant
+    ports:
+      - "8888:8888"
+    environment:
+      - TZ=Asia/Shanghai
+      - NODE_ENV=production
+    volumes:
+      - ./logs:/app/logs
+      - ./src/data:/app/src/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8888"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - ai-news-network
+
+networks:
+  ai-news-network:
+    driver: bridge

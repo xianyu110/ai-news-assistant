@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
-import { Moon, Sun, Monitor, RefreshCw, Bell } from 'lucide-react'
+import { Moon, Sun, Monitor, RefreshCw, Bell, Mail } from 'lucide-react'
 import { useUserStore } from '@/stores/userStore'
+import { useState } from 'react'
+import toast from 'react-hot-toast'
 
 export default function SettingsPage() {
   const {
@@ -16,6 +18,9 @@ export default function SettingsPage() {
     setNotifications,
   } = useUserStore()
 
+  const [email, setEmail] = useState('')
+  const [isSubscribing, setIsSubscribing] = useState(false)
+
   const themeOptions = [
     { value: 'light', label: '浅色', icon: Sun },
     { value: 'dark', label: '深色', icon: Moon },
@@ -30,6 +35,35 @@ export default function SettingsPage() {
     { value: 60 * 60 * 1000, label: '1小时' },
   ]
 
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
+      toast.error('请输入有效的邮箱地址')
+      return
+    }
+    
+    setIsSubscribing(true)
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+      
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Subscription failed');
+      }
+      
+      toast.success('订阅成功！感谢您的关注')
+      setEmail('')
+    } catch (error: any) {
+      toast.error(error.message || '订阅失败，请稍后再试')
+    } finally {
+      setIsSubscribing(false)
+    }
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -42,6 +76,34 @@ export default function SettingsPage() {
         </h1>
 
         <div className="space-y-6">
+          {/* Newsletter Subscription */}
+          <div className="card p-6">
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center">
+              <Mail className="w-5 h-5 mr-2" />
+              邮件订阅 (Newsletter)
+            </h2>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              订阅每日AI快讯精选，将最新动态直接发送到您的邮箱。
+            </p>
+            <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-2">
+              <input
+                type="email"
+                placeholder="请输入您的邮箱"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="input flex-grow"
+                disabled={isSubscribing}
+              />
+              <button
+                type="submit"
+                className="btn btn-primary"
+                disabled={isSubscribing}
+              >
+                {isSubscribing ? '订阅中...' : '订阅'}
+              </button>
+            </form>
+          </div>
+
           {/* Theme Settings */}
           <div className="card p-6">
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">

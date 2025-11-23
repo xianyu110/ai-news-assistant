@@ -1,49 +1,35 @@
-import express from 'express'
-import fs from 'fs'
-import path from 'path'
-import cors from 'cors'
+import express from 'express';
+import cors from 'cors';
+import { kv } from '@vercel/kv';
 
-const app = express()
+const app = express();
 
 // Enable CORS for all routes
-app.use(cors())
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
 
-// API endpoint to serve local news data
-app.get('/api/local-news', (req, res) => {
+// API endpoint to serve news data from Vercel KV
+app.get('/api/local-news', async (req, res) => {
   try {
-    // In a serverless environment, the current working directory is the root of the project.
-    // The `public` directory will be at the root after the build process.
-    const dataPath = path.join(process.cwd(), 'dist', 'mock-data', 'ai-news.json');
+    const data = await kv.get('news:latest');
     
-    // As a fallback for local dev, check the original path too
-    const localDataPath = path.join(process.cwd(), 'public', 'mock-data', 'ai-news.json');
-
-    let finalPath = dataPath;
-    if (!fs.existsSync(finalPath)) {
-      finalPath = localDataPath;
-    }
-    
-    if (fs.existsSync(finalPath)) {
-      const rawData = fs.readFileSync(finalPath, 'utf8')
-      const data = JSON.parse(rawData)
-      
-      console.log(`✅ Serving ${data.data?.length || 0} news items from ${finalPath}`)
-      res.json(data)
+    if (data) {
+      console.log(`✅ Serving ${data.data?.length || 0} news items from Vercel KV`);
+      res.json(data);
     } else {
-      console.warn(`❌ Data file not found at ${dataPath} or ${localDataPath}`)
-      res.status(404).json({ error: 'Data file not found' })
+      console.warn(`❌ 'news:latest' key not found in Vercel KV`);
+      res.status(404).json({ error: 'Data not found' });
     }
   } catch (error) {
-    console.error('❌ Error reading local data:', error)
-    res.status(500).json({ error: 'Error reading local data', message: error.message })
+    console.error('❌ Error reading data from Vercel KV:', error);
+    res.status(500).json({ error: 'Error reading data from Vercel KV', message: error.message });
   }
-})
+});
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'OK', timestamp: new Date().toISOString() })
-})
+  res.json({ status: 'OK', timestamp: new Date().toISOString() });
+});
 
 // Export the app for Vercel
 export default app;

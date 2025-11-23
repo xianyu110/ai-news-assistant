@@ -1,7 +1,17 @@
 {
+  "crons": [
+    {
+      "path": "/api/crawl",
+      "schedule": "0 1 * * *"
+    }
+  ],
   "builds": [
     {
       "src": "api/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/crawl.js",
       "use": "@vercel/node"
     },
     {
@@ -14,7 +24,11 @@
   ],
   "rewrites": [
     {
-      "source": "/api/(.*)",
+      "source": "/api/local-news",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/api/health",
       "destination": "/api/index.js"
     },
     {

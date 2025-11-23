@@ -4,10 +4,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
-
-// 获取当前文件的目录路径（ES模块中替代__dirname）
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import { kv } from '@vercel/kv';
 
 // 爬虫配置
 const CRAWL_CONFIG = {
@@ -16,21 +13,6 @@ const CRAWL_CONFIG = {
   retryTimes: 3,
   userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 };
-
-// 数据文件路径
-const DATA_DIR = path.join(__dirname, '../public/mock-data');
-const AI_NEWS_FILE = path.join(DATA_DIR, 'ai-news.json');
-const ALL_NEWS_FILE = path.join(DATA_DIR, 'all-news.json');
-
-// 创建目录结构
-async function ensureDirectories() {
-  try {
-    await fs.mkdir(DATA_DIR, { recursive: true });
-    console.log('✅ 目录结构创建成功');
-  } catch (error) {
-    console.error('❌ 创建目录失败:', error);
-  }
-}
 
 // 生成新闻ID（基于标题）
 function generateNewsId(title) {
@@ -305,8 +287,6 @@ async function crawlAIToolNews() {
     console.log('🚀 开始爬取AI工具集新闻...');
     console.log(`📋 目标URL: ${CRAWL_CONFIG.baseUrl}`);
     
-    await ensureDirectories();
-    
     const response = await axios.get(CRAWL_CONFIG.baseUrl, {
       timeout: CRAWL_CONFIG.timeout,
       headers: {
@@ -339,23 +319,11 @@ async function crawlAIToolNews() {
   }
 }
 
-// 保存新闻数据 - 改进去重逻辑
+// 保存新闻数据 - 使用 Vercel KV
 async function saveNewsData(newsList) {
   try {
     // 读取现有数据
-    let existingNews = [];
-    try {
-      const existingData = await fs.readFile(ALL_NEWS_FILE, 'utf8');
-      const parsedData = JSON.parse(existingData);
-      
-      if (Array.isArray(parsedData)) {
-        existingNews = parsedData;
-      } else if (parsedData && parsedData.data && Array.isArray(parsedData.data)) {
-        existingNews = parsedData.data;
-      }
-    } catch (error) {
-      console.log('📝 创建新的数据文件');
-    }
+    let existingNews = await kv.get('news:all') || [];
 
     // 创建基于标题的去重集合
     const existingTitles = new Set();
@@ -379,8 +347,8 @@ async function saveNewsData(newsList) {
     const allNews = [...uniqueExistingNews, ...uniqueNewNews]
       .sort((a, b) => new Date(b.publishTime).getTime() - new Date(a.publishTime).getTime());
 
-    // 保存完整数据
-    await fs.writeFile(ALL_NEWS_FILE, JSON.stringify(allNews, null, 2));
+    // 保存完整数据到 Vercel KV
+    await kv.set('news:all', allNews);
 
     // 保存最新数据（用于前端展示）
     const latestData = {
@@ -390,9 +358,9 @@ async function saveNewsData(newsList) {
       lastUpdate: new Date().toISOString()
     };
     
-    await fs.writeFile(AI_NEWS_FILE, JSON.stringify(latestData, null, 2));
+    await kv.set('news:latest', latestData);
 
-    console.log(`💾 数据保存成功:`);
+    console.log(`💾 数据保存成功 (Vercel KV):`);
     console.log(`   - 新增新闻: ${uniqueNewNews.length} 条`);
     console.log(`   - 总计新闻: ${allNews.length} 条`);
     console.log(`   - 前端展示: ${Math.min(allNews.length, 500)} 条`);
@@ -403,7 +371,7 @@ async function saveNewsData(newsList) {
     };
     
   } catch (error) {
-    console.error('❌ 保存数据失败:', error);
+    console.error('❌ 保存数据到 Vercel KV 失败:', error);
     throw error;
   }
 }

@@ -1,4 +1,4 @@
-import { Search, Menu, Bell, Settings, RefreshCw } from 'lucide-react'
+import { Search, Menu, Bell, Settings, RefreshCw, Github } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { useUserStore } from '@/stores/userStore'
 import { useNewsStore } from '@/stores/newsStore'
@@ -95,6 +95,16 @@ export default function Header() {
           >
             <RefreshCw className={`w-5 h-5 ${refreshing ? 'animate-spin' : ''}`} />
           </button>
+
+          <a
+            href="https://github.com/xianyu110/ai-news-assistant"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            title="GitHub"
+          >
+            <Github className="w-5 h-5" />
+          </a>
           
           <button
             className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"

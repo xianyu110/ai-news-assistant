@@ -198,20 +198,32 @@ API Layer ← → Cache Layer ← → Zustand Store ← → React Components
 
 ## 🚢 部署说明
 
-### 静态部署
-构建后的dist文件夹可直接部署到：
-- Vercel
-- Netlify  
-- GitHub Pages
-- 任何静态文件服务器
+本项目已针对 [Vercel](https://vercel.com) 平台进行了优化，可以实现一键部署。
 
-### Docker部署
-```dockerfile
-FROM nginx:alpine
-COPY dist /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
-```
+### Vercel 部署 (推荐)
+
+1. **Fork 本项目** 并将代码推送到你自己的 Git 仓库 (例如 GitHub, GitLab)。
+
+2. **在 Vercel 上导入项目**:
+   - 登录 Vercel，点击 "Add New... -> Project"。
+   - 选择你刚刚推送的 Git 仓库并导入。
+
+3. **配置项目**:
+   - Vercel 会自动检测到本项目是基于 Vite 的，并使用正确的设置。
+   - **构建命令**: `npm run build`
+   - **输出目录**: `dist`
+   - **安装命令**: `npm install`
+
+4. **部署**:
+   - 点击 "Deploy" 按钮。
+   - Vercel 会自动执行构建流程：
+     1. 安装依赖 (`npm install`)。
+     2. 构建前端应用 (`npm run build`)。
+     3. 运行爬虫脚本 (`postbuild` 脚本) 来生成最新的新闻数据。
+     4. 部署 `dist` 目录作为静态站点，并部署 `api` 目录下的无服务器函数。
+
+部署完成后，你的应用就可以通过 Vercel 提供的域名访问。后续的 Git Push 将会自动触发新的部署。
+
 
 ## 🤝 贡献指南
 

@@ -18,7 +18,7 @@ const CRAWL_CONFIG = {
 };
 
 // 数据文件路径
-const DATA_DIR = path.join(__dirname, '../src/data');
+const DATA_DIR = path.join(__dirname, '../public/mock-data');
 const AI_NEWS_FILE = path.join(DATA_DIR, 'ai-news.json');
 const ALL_NEWS_FILE = path.join(DATA_DIR, 'all-news.json');
 

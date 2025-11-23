@@ -13,18 +13,18 @@ app.use(express.json())
 // API endpoint to serve local news data
 app.get('/api/local-news', (req, res) => {
   try {
-    // Path to the original project's data file
-    const dataPath = '/Users/chinamanor/Downloads/cursor编程/ai-news-assistant/src/data/ai-news.json'
+    // Correctly resolve the path to the data file in the `public` directory
+    const dataPath = path.join(process.cwd(), 'public', 'mock-data', 'ai-news.json')
     
     if (fs.existsSync(dataPath)) {
       const rawData = fs.readFileSync(dataPath, 'utf8')
       const data = JSON.parse(rawData)
       
-      console.log(`✅ Serving ${data.data?.length || 0} news items from local data`)
+      console.log(`✅ Serving ${data.data?.length || 0} news items from ${dataPath}`)
       res.json(data)
     } else {
-      console.warn('❌ Local data file not found')
-      res.status(404).json({ error: 'Local data file not found' })
+      console.warn(`❌ Data file not found at ${dataPath}`)
+      res.status(404).json({ error: 'Data file not found' })
     }
   } catch (error) {
     console.error('❌ Error reading local data:', error)

@@ -67,6 +67,17 @@ export default function Header() {
           </div>
         </div>
 
+        <div className="hidden md:flex items-center justify-center">
+          <a
+            href="https://link3.cc/maynorai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-gray-500 dark:text-gray-400 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
+          >
+            由 MaynorAI 提供技术支持
+          </a>
+        </div>
+
         <div className="flex items-center space-x-2">
           <button
             onClick={() => setSearchOpen(true)}

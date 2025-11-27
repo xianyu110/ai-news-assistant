@@ -1,29 +1,21 @@
-import { kv } from '@vercel/kv';
+import axios from 'axios';
 
 export default async function handler(req, res) {
-  // Enable CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-
-  if (req.method === 'OPTIONS') {
-    return res.status(200).end();
-  }
-
+  
   try {
-    const data = await kv.get('news:latest');
+    // 直接调用爬虫 API 获取最新数据
+    const crawlUrl = `${req.headers['x-forwarded-proto'] || 'https'}://${req.headers.host}/api/crawl`;
+    const response = await axios.get(crawlUrl, { timeout: 30000 });
     
-    if (data) {
-      console.log(`✅ Serving ${data.data?.length || 0} news items from Vercel KV`);
-      return res.status(200).json(data);
-    } else {
-      console.warn(`❌ 'news:latest' key not found in Vercel KV`);
-      return res.status(404).json({ error: 'Data not found' });
-    }
+    console.log(`✅ Serving ${response.data.data?.length || 0} news items`);
+    return res.status(200).json(response.data);
+    
   } catch (error) {
-    console.error('❌ Error reading data from Vercel KV:', error);
+    console.error('❌ Error fetching news:', error);
     return res.status(500).json({ 
-      error: 'Error reading data from Vercel KV', 
+      success: false,
+      error: 'Error fetching news', 
       message: error.message 
     });
   }

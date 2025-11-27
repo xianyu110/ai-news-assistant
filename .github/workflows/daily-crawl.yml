@@ -1,0 +1,20 @@
+name: Daily News Crawl
+
+on:
+  schedule:
+    # 每天北京时间早上 9:00 (UTC 1:00)
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel API
+        run: |
+          curl -X GET "https://nav.chatgpt-plus.top/api/crawl" \
+            -H "Content-Type: application/json" \
+            -w "\nHTTP Status: %{http_code}\n"
+      
+      - name: Show result
+        run: echo "✅ News crawl triggered successfully"

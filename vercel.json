@@ -4,36 +4,5 @@
       "path": "/api/crawl",
       "schedule": "0 1 * * *"
     }
-  ],
-  "builds": [
-    {
-      "src": "api/index.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "api/crawl.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/api/local-news",
-      "destination": "/api/index.js"
-    },
-    {
-      "source": "/api/health",
-      "destination": "/api/index.js"
-    },
-    {
-      "source": "/((?!api).*)",
-      "destination": "/index.html"
-    }
   ]
 }

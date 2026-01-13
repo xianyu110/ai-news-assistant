@@ -5,6 +5,7 @@ import { newsCrawler } from './crawler'
 const LOCAL_DATA_PATH = '/Users/chinamanor/Downloads/cursor编程/ai-news-assistant/src/data'
 const API_BASE_URL = 'https://raw.githubusercontent.com/chinamanor/ai-news-assistant/main/src/data'
 const CACHE_KEY = 'ai-news-cache'
+const CACHE_VERSION = 'v2' // 更新版本号强制刷新缓存
 const CACHE_DURATION = 5 * 60 * 1000 // 5 minutes
 
 class NewsAPI {
@@ -43,6 +44,12 @@ class NewsAPI {
       const cached = localStorage.getItem(CACHE_KEY)
       if (cached) {
         const data: CacheData = JSON.parse(cached)
+        // 检查缓存版本
+        if ((data as any).version !== CACHE_VERSION) {
+          console.log('🔄 缓存版本已更新，清除旧缓存')
+          localStorage.removeItem(CACHE_KEY)
+          return null
+        }
         if (Date.now() - data.timestamp < CACHE_DURATION) {
           return data
         }
@@ -59,7 +66,8 @@ class NewsAPI {
         data,
         timestamp: Date.now(),
         hash: this.generateHash(data),
-      }
+        version: CACHE_VERSION, // 添加版本号
+      } as any
       localStorage.setItem(CACHE_KEY, JSON.stringify(cacheData))
       this.cache = cacheData
     } catch (error) {

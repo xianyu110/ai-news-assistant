@@ -122,27 +122,27 @@ class NewsAPI {
         }
       }
 
-      console.log('🌐 Fetching latest data from server...')
+      console.log('🌐 Fetching latest data from API...')
       
       let data: NewsItem[] = []
-      let error: string | null = null
 
-      // 首先尝试读取原项目的本地实时数据
+      // 优先调用 Vercel API 获取最新爬取的数据
       try {
-        console.log('📂 尝试读取本地实时数据...')
-        data = await this.fetchLocalData()
-        if (data.length > 0) {
-          console.log(`✅ 成功获取本地数据 ${data.length} 条`)
+        console.log('📡 调用 Vercel API 获取最新数据...')
+        const response = await this.fetchWithRetry('/api/local-news')
+        const result = await response.json()
+        
+        if (result.success && result.data && Array.isArray(result.data)) {
+          data = result.data
+          console.log(`✅ 成功获取 API 数据 ${data.length} 条`)
         }
-      } catch (localError) {
-        console.warn('❌ 读取本地数据失败:', localError)
-      }
-
-      // 如果本地数据不可用，尝试其他数据源
-      if (data.length === 0) {
+      } catch (apiError) {
+        console.warn('❌ API 调用失败，尝试备用数据源:', apiError)
+        
+        // 如果 API 失败，尝试其他数据源
         const urls = [
-          `${API_BASE_URL}/ai-news.json`,
-          '/mock-data/ai-news.json', // Fallback to local mock data
+          '/mock-data/ai-news.json', // 本地备用数据
+          `${API_BASE_URL}/ai-news.json`, // GitHub 数据
         ]
 
         for (const url of urls) {
@@ -162,7 +162,6 @@ class NewsAPI {
             }
           } catch (err) {
             console.warn(`Failed to fetch from ${url}:`, err)
-            error = err instanceof Error ? err.message : 'Unknown error'
           }
         }
       }
